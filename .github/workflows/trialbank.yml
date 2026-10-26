@@ -1,1 +1,65 @@
+name: Trial bank refresh
 
+on:
+  schedule:
+    - cron: "23 3 * * 0"   # Sundays 03:23 UTC
+  workflow_dispatch:
+    inputs:
+      load:
+        description: "Load into Supabase after building"
+        type: boolean
+        default: true
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    defaults:
+      run:
+        working-directory: trialbank
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install
+        run: pip install -r requirements.txt
+
+      # ChEMBL and Europe PMC lookups are cached between runs so only new names/IDs are queried
+      - name: Restore lookup caches
+        uses: actions/cache@v4
+        with:
+          path: |
+            trialbank/raw/chembl_cache.json
+            trialbank/raw/europepmc_cache.json
+          key: trialbank-lookups-${{ github.run_id }}
+          restore-keys: trialbank-lookups-
+
+      - name: Harvest, tag and build
+        run: |
+          cd scripts
+          python harvest_ctgov.py ../raw
+          python harvest_isrctn.py ../raw
+          python harvest_euctr.py ../raw
+          python warm_chembl_all.py
+          python build.py
+          python europepmc.py
+          python build.py
+          python validate.py > ../data/validate.log
+
+      - name: Load into Supabase
+        if: ${{ github.event_name == 'schedule' || inputs.load }}
+        env:
+          SUPABASE_DB_URL: ${{ secrets.SUPABASE_DB_URL }}
+        run: |
+          cd scripts
+          python load_supabase.py ../data
+
+      - name: Keep the built files
+        uses: actions/upload-artifact@v4
+        with:
+          name: trialbank-data
+          path: trialbank/data/
+          retention-days: 30
