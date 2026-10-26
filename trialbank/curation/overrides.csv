@@ -1,0 +1,5 @@
+msf_trial_id,field,value,source_url,note
+MSFT-ISRCTN14048364,drugs,metformin|thioctic acid,https://www.ucl.ac.uk/news/2023/apr/world-first-trial-patients-progressive-ms-launches-uk,Registry redacts arm drugs; first two arms named publicly as metformin and R/S alpha-lipoic acid
+MSFT-ISRCTN14048364,mechanism_nodes,mitochondrial_oxidative,https://www.ucl.ac.uk/news/2023/apr/world-first-trial-patients-progressive-ms-launches-uk,Mechanism node assigned from the named arm drugs
+MSFT-ISRCTN14048364,mechanism_families,progression_biology,https://www.ucl.ac.uk/news/2023/apr/world-first-trial-patients-progressive-ms-launches-uk,
+MSFT-ISRCTN14048364,curation_note,"Interim stage-1 analysis (Sep 2026): alpha-lipoic acid continues to stage 2; metformin arm discontinued",https://www.ucl.ac.uk/news/2026/sep/existing-drug-shows-early-promise-treat-progressive-ms,Interim result; not a final efficacy result
