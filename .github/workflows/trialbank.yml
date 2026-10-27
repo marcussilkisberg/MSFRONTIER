@@ -10,6 +10,9 @@ on:
         type: boolean
         default: true
 
+permissions:
+  contents: write   # lets the run commit the machine-read paper results (readouts/) back to this repository
+
 jobs:
   refresh:
     runs-on: ubuntu-latest
@@ -34,6 +37,8 @@ jobs:
           path: |
             trialbank/raw/chembl_cache.json
             trialbank/raw/europepmc_cache.json
+            trialbank/raw/opentargets_cache.json
+            trialbank/raw/abstracts_cache.json
           key: trialbank-lookups-${{ github.run_id }}
           restore-keys: trialbank-lookups-
 
@@ -47,7 +52,37 @@ jobs:
           python build.py
           python europepmc.py
           python build.py
+          python results_layer.py
+          python treatments_layer.py
+          python measures_layer.py
           python validate.py > ../data/validate.log
+
+      # Hypothesis ledger. Genetics and paper readouts are optional: if either fails, the ledger is still built and
+      # the database keeps last week's genetics/readouts.
+      - name: Genetic leads (Open Targets)
+        continue-on-error: true
+        run: cd scripts && python genetics_layer.py
+
+      - name: Read results from papers (needs ANTHROPIC_API_KEY)
+        continue-on-error: true
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          READOUT_MAX_TRIALS: "150"
+        run: cd scripts && python readouts_layer.py
+
+      - name: Build hypothesis ledger
+        run: cd scripts && python hypotheses_layer.py
+
+      - name: Save machine-read paper results to the repository
+        run: |
+          cd ..
+          if [ -n "$(git status --porcelain trialbank/readouts)" ]; then
+            git config user.name "trialbank-bot"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add trialbank/readouts
+            git commit -m "Weekly paper readouts [skip ci]"
+            git push
+          fi
 
       - name: Load into Supabase
         if: ${{ github.event_name == 'schedule' || inputs.load }}
