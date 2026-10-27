@@ -208,6 +208,11 @@ def main():
             load_child(cur, nodes, "mechanism_nodes",
                        {"node_id": t, "family": t, "label": t, "rule_regex": t, "n_trials": i, "map_version": t})
 
+            # ---- knowledge layers (005), loaded when their files exist and the tables are there
+            load_layers(cur, set(ids))
+            # ---- hypothesis ledger, genetics and the Project (006)
+            load_hypotheses(cur, set(ids), run_id)
+
             # ---- sync curation file into corrections (authored as 'curation_file')
             ov_path = ROOT / "curation" / "overrides.csv"
             if ov_path.exists():
@@ -227,6 +232,12 @@ def main():
             cur.execute("select bank.refresh_trials_current()")
             cur.execute("select bank.rebuild_edges()")
             n_edges = cur.fetchone()[0]
+            if has_table(cur, "treatments"):
+                cur.execute("select bank.rebuild_layer_edges()")
+            if has_table(cur, "hypotheses"):
+                cur.execute("select bank.rebuild_hypothesis_edges()")
+                cur.execute("select count(*) from bank.edges")
+                n_edges = cur.fetchone()[0]
             cur.execute("""update bank.load_runs set finished_at = now(), n_trials = %s, n_new = %s, n_changed = %s,
                            n_dropped = %s where id = %s""", (len(trials), n_new, n_changed, n_dropped, run_id))
             conn.commit()
@@ -236,6 +247,152 @@ def main():
             cur.execute("update bank.load_runs set finished_at = now(), error = %s where id = %s", (str(e)[:2000], run_id))
             conn.commit()
             raise
+
+
+def has_table(cur, name):
+    cur.execute("select to_regclass(%s) is not null", (f"bank.{name}",))
+    return cur.fetchone()[0]
+
+
+def load_layers(cur, keep_ids):
+    """Results, treatments and measures layers: full machine replace on every run."""
+    f = lambda n: DATA / f"{n}.parquet"
+    if not has_table(cur, "trial_results"):
+        print("migration 005 not applied: skipping knowledge layers")
+        return
+    num = lambda v: None if missing(v) else float(v)
+    if f("trial_results").exists():
+        cur.execute("delete from bank.trial_results where msf_trial_id = any(%s)", (list(keep_ids),))
+        load_child(cur, f("trial_results"), "trial_results", keep_ids=keep_ids, spec={
+            "msf_trial_id": t, "registry_id": t, "outcome_type": t, "outcome_title": t, "endpoint_tags": arr,
+            "time_frame": t, "class_title": t, "category_title": t, "arm_title": t, "arm_is_placebo": b,
+            "arm_drugs": arr, "n_analysed": i, "param_type": t, "value": num, "value_raw": t, "unit": t,
+            "dispersion_type": t, "spread": num, "lower_limit": num, "upper_limit": num,
+            "analysis_p_value_raw": t, "analysis_p_value": num, "analysis_estimate_type": t,
+            "analysis_estimate": t, "analysis_ci_lower": t, "analysis_ci_upper": t, "source": t,
+            "extraction_method": t})
+    if f("trial_arm_safety").exists():
+        cur.execute("delete from bank.trial_arm_safety where msf_trial_id = any(%s)", (list(keep_ids),))
+        load_child(cur, f("trial_arm_safety"), "trial_arm_safety", keep_ids=keep_ids, spec={
+            "msf_trial_id": t, "registry_id": t, "arm_title": t, "arm_is_placebo": b, "arm_drugs": arr,
+            "at_risk": i, "serious_affected": i, "deaths": i, "other_affected": i, "source": t})
+    if f("treatments").exists():
+        cur.execute("delete from bank.treatments")   # cascades to products, signals, AE reports, events
+        load_child(cur, f("treatments"), "treatments", dedupe=["treatment_id"], spec={
+            "treatment_id": t, "name": t, "other_names": arr, "chembl_id": t, "molecule_type": t, "category": t,
+            "diseases": arr, "mechanism_of_action": t, "targets": arr, "mechanism_nodes": arr,
+            "mechanism_families": arr, "eu_status": t, "eu_first_authorisation": d, "eu_brands": arr,
+            "eu_generics_or_biosimilars": i, "eu_additional_monitoring": b, "us_first_approval_ms_product": d,
+            "us_first_approval_any_indication": d, "us_brands": arr, "us_generic_applications": i,
+            "n_ema_safety_letters": i, "faers_reports": i, "faers_serious_reports": i, "n_trials": i,
+            "n_trials_as_comparator": i, "n_phase3_trials": i, "availability_note": t, "assembled_by": t,
+            "sources": t})
+        for name, spec in (
+                ("treatment_products", {"treatment_id": t, "region": t, "product_name": t, "status": t, "generic": b,
+                                        "biosimilar": b, "conditional_approval": b, "additional_monitoring": b,
+                                        "holder": t, "authorisation_date": d, "refusal_date": d,
+                                        "withdrawal_date": d, "indication": t, "url": t, "source": t}),
+                ("treatment_safety_signals", {"treatment_id": t, "substance": t, "type": t, "title": t, "date": d,
+                                              "url": t, "source": t}),
+                ("treatment_adverse_event_reports", {"treatment_id": t, "substance": t, "reaction": t, "reports": i}),
+                ("regulatory_events", {"treatment_id": t, "substance": t, "region": t, "event": t,
+                                       "product_name": t, "date": d, "url": t, "source": t})):
+            if f(name).exists():
+                load_child(cur, f(name), name, spec=spec)
+    if f("measures").exists():
+        cur.execute("delete from bank.measures")
+        load_child(cur, f("measures"), "measures", dedupe=["measure_id"], spec={
+            "measure_id": t, "name": t, "short_name": t, "kind": t, "endpoint_tag": t, "what_it_is": t,
+            "how_trials_use_it": t, "n_trials_measuring": i, "n_trials_primary_endpoint": i,
+            "further_reading": t, "written_by": t, "as_of": d})
+
+
+def load_hypotheses(cur, keep_ids, run_id):
+    """Hypotheses, evidence, readouts, genetic leads and Project files: full machine replace, with a permanent
+    week-by-week history of each hypothesis's status, verdict and trial count."""
+    f = lambda n: DATA / f"{n}.parquet"
+    if not has_table(cur, "hypotheses"):
+        print("migration 006 not applied: skipping hypothesis ledger")
+        return
+    if not f("hypotheses").exists():
+        print("no hypotheses.parquet: skipping hypothesis ledger")
+        return
+    def lst(v):
+        if v is None:
+            return None
+        if isinstance(v, str):
+            return arr(v)
+        if hasattr(v, "__iter__"):
+            return [str(x) for x in v]
+        return None if missing(v) else [str(v)]
+
+    new = pd.read_parquet(f("hypotheses"))
+    cur.execute("select hypothesis_id, status, verdict, n_trials, outcome from bank.hypotheses")
+    old = {r[0]: r[1:] for r in cur.fetchall()}
+    hist = []
+    for r in new.itertuples():
+        o = old.pop(r.hypothesis_id, None)
+        if o is None:
+            hist.append((r.hypothesis_id, "created", None, r.outcome))
+            continue
+        for field, ov, nv in (("status", o[0], r.status), ("verdict", o[1], r.verdict),
+                              ("n_trials", o[2], int(r.n_trials)), ("outcome", o[3], r.outcome)):
+            if str(ov) != str(nv):
+                hist.append((r.hypothesis_id, field, None if ov is None else str(ov), str(nv)))
+    hist += [(h, "removed", o[1], None) for h, o in old.items()]
+    if old or len(new):   # first load records every hypothesis as created; later loads only changes
+        cur.executemany("insert into bank.hypothesis_history (hypothesis_id, field, old_value, new_value, run_id) "
+                        "values (%s, %s, %s, %s, %s)", [(*h, run_id) for h in hist])
+
+    # each table is replaced only when its file was built this run, so a failed optional step (e.g. Open Targets
+    # down) keeps last week's rows instead of emptying the table
+    for tbl in ("hypothesis_evidence", "hypotheses"):
+        cur.execute(f"delete from bank.{tbl}")
+    for tbl, fn in (("trial_readouts", "trial_readouts"), ("genetic_leads", "genetic_leads"),
+                    ("drug_targets", "drug_targets"), ("project_hypotheses", "project_hypotheses"),
+                    ("project_studies", "project_studies")):
+        if f(fn).exists():
+            cur.execute(f"delete from bank.{tbl}")
+    load_child(cur, new, "hypotheses", dedupe=["hypothesis_id"], spec={
+        "hypothesis_id": t, "aim": t, "aim_label": t, "approach": t, "approach_label": t, "approach_group": t,
+        "approach_group_label": t, "approach_family": t,
+        "population": t, "population_label": t, "statement": t, "status": t, "verdict": t, "verdict_label": t,
+        "outcome": t, "outcome_label": t,
+        "verdict_note": t, "n_trials": i, "n_ongoing": i, "n_rct_phase2plus": i, "n_participants_rct": i,
+        "n_met": i, "n_not_met": i, "n_stopped_safety": i, "n_unread": i, "n_unread_phase3": i,
+        "highest_phase": t, "first_trial_year": i, "latest_trial_year": i, "drugs": lst, "target_genes": lst,
+        "genetic_support_genes": lst, "project_study_ids": lst, "origin": t, "rules_version": t, "as_of": d})
+    load_child(cur, f("hypothesis_evidence"), "hypothesis_evidence", keep_ids=keep_ids, spec={
+        "hypothesis_id": t, "msf_trial_id": t, "aim": t, "approach": t, "approach_group": t, "population": t,
+        "phase": t, "status": t,
+        "state": t, "state_source": t, "is_rct": b, "has_placebo_or_sham": b, "eligible_for_verdict": b,
+        "counts_toward_verdict": b, "comparator_drugs": lst, "enrollment": i, "start_year": i, "drugs": lst,
+        "acronym": t, "title": t, "primary_endpoint_tags": lst, "readout_quote": t, "readout_pmid": t})
+    if f("trial_readouts").exists():
+        load_child(cur, f("trial_readouts"), "trial_readouts", keep_ids=keep_ids, dedupe=["msf_trial_id"], spec={
+            "msf_trial_id": t, "readout": t, "pmid": t, "quote": t, "pmids_considered": lst, "reader_said": t,
+            "checker_said": t, "reason": t, "reader_model": t, "checker_model": t, "prompt_version": t, "read_on": d})
+    if f("genetic_leads").exists():
+        load_child(cur, f("genetic_leads"), "genetic_leads", dedupe=["ensembl_id"], spec={
+            "ensembl_id": t, "symbol": t, "name": t, "genetic_score": lambda v: None if missing(v) else float(v),
+            "overall_score": lambda v: None if missing(v) else float(v), "genetic_strength": t, "lead_status": t,
+            "n_existing_drugs": i, "existing_drugs": lst, "approved_drugs_any_disease": lst,
+            "max_stage_any_drug": t, "bank_chembl_ids": lst, "bank_drug_names": lst, "n_ms_trials": i,
+            "ms_trial_ids": lst, "max_ms_phase": t, "partner_genes": lst, "partner_drug_names": lst,
+            "n_ms_trials_via_partner": i, "partner_trial_ids": lst, "source": t, "ot_url": t, "as_of": d})
+    if f("drug_targets").exists():
+        load_child(cur, f("drug_targets"), "drug_targets", spec={
+            "chembl_id": t, "drug_name": t, "ensembl_id": t, "symbol": t, "moa": t, "action_type": t,
+            "target_source": t})
+    if f("project_studies").exists():
+        load_child(cur, f("project_studies"), "project_studies", dedupe=["study_id"], spec={
+            "study_id": t, "number": i, "title": t, "question": t, "status": t, "target": t, "uses": lst,
+            "outputs": lst})
+    if f("project_hypotheses").exists():
+        load_child(cur, f("project_hypotheses"), "project_hypotheses", dedupe=["id"], spec={
+            "id": t, "study": t, "kind": t, "statement": t, "aim": t, "approach": t, "approach_label": t,
+            "population": t, "drugs": lst, "status": t, "registered_on": d, "ledger_hypothesis_ids": lst})
+    print(f"hypotheses: {len(new)} loaded, {len(hist)} history entries")
 
 
 def load_child(cur, src, table, spec, dedupe=None, keep_ids=None):

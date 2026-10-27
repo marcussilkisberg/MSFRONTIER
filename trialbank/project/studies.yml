@@ -1,0 +1,42 @@
+# The Project's studies. This file and hypotheses.yml are the only hand-written inputs to the hypothesis ledger.
+# Edit here (in GitHub), and the weekly run loads them into Supabase; the website reads them from there.
+# status: planned | in_preparation | seeking_partners | in_progress | published | stopped
+- study_id: P-01
+  number: 1
+  title: The progression baseline
+  question: >-
+    How fast do people with progressive MS worsen on placebo, on each measure trials use, and how many participants
+    and how much time does each measure need to detect a realistic treatment effect?
+  status: in_preparation
+  target: "First release: after reviewers are confirmed"
+  uses: [trial_results, trial_outcomes, measures]
+  outputs: [Open placebo-worsening table, Trial-size calculator]
+- study_id: P-02
+  number: 2
+  title: Did the early signal predict the result?
+  question: >-
+    When a drug improved MRI, brain volume or blood markers in a phase 2 trial in progressive MS, did it go on to slow
+    disability in phase 3?
+  status: planned
+  target: "Q2 2027"
+  uses: [hypotheses, hypothesis_evidence, trial_readouts]
+  outputs: [Paired phase 2 and phase 3 dataset, Report]
+- study_id: P-03
+  number: 3
+  title: What everyday medicines tell us
+  question: >-
+    Do people with progressive MS who take common medicines for other conditions worsen more slowly?
+  status: seeking_partners
+  target: "Protocol: 2027"
+  uses: [hypotheses, treatments]
+  outputs: [Open protocol, Analysis code, Results]
+- study_id: P-04
+  number: 4
+  title: What to test next, and how
+  question: >-
+    Which existing medicines, alone or in combination, are most worth testing in progressive MS, and how should each
+    be tested?
+  status: planned
+  target: "Late 2027"
+  uses: [hypotheses, genetic_leads, failures, drugs]
+  outputs: [Open shortlist with a dossier per candidate, Ruled-out list, Scoring method]

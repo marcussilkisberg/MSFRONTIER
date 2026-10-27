@@ -1,0 +1,74 @@
+# Hypotheses the Project registers BEFORE testing them. Each therapeutic hypothesis names an aim, an approach and a
+# population using the ledger's own codes, so it joins the matching ledger entry (and every trial behind it)
+# automatically. Never list trial IDs here.
+#   aim:        prevent | stop_inflammation | slow_progression | protect_nerves | repair | restore_function | reset
+#   approach:   a mechanism node id (see data/mechanism_nodes.csv), nd-<category>, or new-<slug> for an approach
+#               no trial has tested yet (then give approach_label)
+#   population: ppms | spms | progressive | relapsing | relapsing_and_progressive | early_cis_ris | unspecified |
+#               nmosd | mogad | optic_neuritis
+#   kind:       therapeutic (joins the ledger) | method (about how trials are run; shown with the study only)
+#   status:     registered | analysis_plan_published | in_analysis | result_published
+- id: P-03-H1
+  study: P-03
+  kind: therapeutic
+  statement: People with progressive MS who take statins worsen more slowly.
+  aim: slow_progression
+  approach: vascular_lipid
+  population: progressive
+  drugs: [simvastatin, atorvastatin, rosuvastatin]
+  status: registered
+  registered_on: 2026-10-27
+- id: P-03-H2
+  study: P-03
+  kind: therapeutic
+  statement: People with progressive MS who take metformin worsen more slowly.
+  aim: slow_progression
+  approach: mitochondrial_oxidative
+  population: progressive
+  drugs: [metformin]
+  status: registered
+  registered_on: 2026-10-27
+- id: P-03-H3
+  study: P-03
+  kind: therapeutic
+  statement: People with progressive MS who take common blood pressure medicines worsen more slowly.
+  aim: slow_progression
+  approach: new-antihypertensives
+  approach_label: Blood pressure medicines
+  population: progressive
+  drugs: []
+  status: registered
+  registered_on: 2026-10-27
+- id: P-03-H4
+  study: P-03
+  kind: therapeutic
+  statement: People with progressive MS who take SSRI antidepressants worsen more slowly.
+  aim: slow_progression
+  approach: axonal_neuroprotection
+  population: progressive
+  drugs: [fluoxetine, sertraline, citalopram, escitalopram]
+  status: registered
+  registered_on: 2026-10-27
+- id: P-01-M1
+  study: P-01
+  kind: method
+  statement: >-
+    Placebo-group worsening in progressive MS trials varies enough with age and baseline disability to change the
+    trial size needed by at least a quarter.
+  status: registered
+  registered_on: 2026-10-27
+- id: P-02-M1
+  study: P-02
+  kind: method
+  statement: >-
+    A phase 2 effect on brain volume loss predicts a phase 3 effect on disability worsening in progressive MS.
+  status: registered
+  registered_on: 2026-10-27
+- id: P-02-M2
+  study: P-02
+  kind: method
+  statement: >-
+    A phase 2 effect on neurofilament light in blood predicts a phase 3 effect on disability worsening in progressive
+    MS.
+  status: registered
+  registered_on: 2026-10-27

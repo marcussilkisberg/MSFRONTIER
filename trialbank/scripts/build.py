@@ -59,6 +59,9 @@ class UF:
             self.p[rb] = ra
 
 
+REGISTRY_ID_RX = re.compile(r"\b(NCT\d{8}|\d{4}-\d{6}-\d{2}|ISRCTN\d{8})\b", re.I)
+
+
 def dedupe(trials, ids):
     present = {t["registry_id"] for t in trials}
     uf = UF()
@@ -67,6 +70,14 @@ def dedupe(trials, ids):
     for r in ids:
         if r["other_id"] in present and r["other_id"] != r["registry_id"]:
             uf.union(r["registry_id"], r["other_id"])
+    # registry IDs written into free-text ID fields (e.g. org_study_id "16/0730 & 2017-003008-30")
+    for t in trials:
+        for m in REGISTRY_ID_RX.findall(str(t.get("org_study_id") or "")):
+            m = m.upper()
+            if m in present and m != t["registry_id"]:
+                uf.union(t["registry_id"], m)
+                ids.append({"registry": t["registry"], "registry_id": t["registry_id"],
+                            "other_id": m, "id_type": "found_in_org_study_id"})
     groups = defaultdict(list)
     for t in trials:
         groups[uf.find(t["registry_id"])].append(t)

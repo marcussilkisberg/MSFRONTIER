@@ -37,7 +37,7 @@ ALIASES = [
     (r"\bcbd\b", "cannabidiol"), (r"\bivig\b|intravenous immunoglobulin", "immune globulin"),
     (r"epigallocatechin|sunphenon|\begcg\b", "epigallocatechin gallate"), (r"daclizumab", "daclizumab"),
     (r"mitoxantrone", "mitoxantrone"), (r"teriflunomide", "teriflunomide"), (r"alemtuzumab", "alemtuzumab"),
-    (r"vidofludimus", "vidofludimus"), (r"ceralifimod|ono-4641", "ceralifimod"),
+    (r"vidofludimus", "vidofludimus"), (r"^glatiramer$", "glatiramer acetate"), (r"ceralifimod|ono-4641", "ceralifimod"),
 ]
 
 
