@@ -12,6 +12,19 @@
   "readout": "unclear",
   "reason": "no main results paper found"
  },
+ "MSFT-2004-004130-14|readout_v2|5f6a528843": {
+  "checker_model": "claude-haiku-5-5",
+  "msf_trial_id": "MSFT-2004-004130-14",
+  "pmid": "26056435",
+  "pmids_considered": [
+   "26056435"
+  ],
+  "prompt_version": "readout_v2",
+  "read_on": "2026-10-28",
+  "reader_model": "claude-sonnet-5-5",
+  "readout": "unclear",
+  "reason": "no main results paper found"
+ },
  "MSFT-2004-005148-28|readout_v1|22eac4e805": {
   "checker_model": "claude-haiku-5-5",
   "msf_trial_id": "MSFT-2004-005148-28",
@@ -22,6 +35,33 @@
   ],
   "prompt_version": "readout_v1",
   "read_on": "2026-10-27",
+  "reader_model": "claude-sonnet-5-5",
+  "readout": "unclear",
+  "reason": "no main results paper found"
+ },
+ "MSFT-2004-005148-28|readout_v2|22eac4e805": {
+  "checker_model": "claude-haiku-5-5",
+  "msf_trial_id": "MSFT-2004-005148-28",
+  "pmid": "22017519",
+  "pmids_considered": [
+   "22017519",
+   "29168160"
+  ],
+  "prompt_version": "readout_v2",
+  "read_on": "2026-10-28",
+  "reader_model": "claude-sonnet-5-5",
+  "readout": "unclear",
+  "reason": "no main results paper found"
+ },
+ "MSFT-2005-001009-25|readout_v2|f6c24fe3c3": {
+  "checker_model": "claude-haiku-5-5",
+  "msf_trial_id": "MSFT-2005-001009-25",
+  "pmid": "34086251",
+  "pmids_considered": [
+   "34086251"
+  ],
+  "prompt_version": "readout_v2",
+  "read_on": "2026-10-28",
   "reader_model": "claude-sonnet-5-5",
   "readout": "unclear",
   "reason": "no main results paper found"
@@ -43,6 +83,23 @@
   "readout": "not_met",
   "reason": null
  },
+ "MSFT-2005-002728-33|readout_v2|c86078ab97": {
+  "checker_model": "claude-haiku-5-5",
+  "checker_said": "unclear",
+  "msf_trial_id": "MSFT-2005-002728-33",
+  "pmid": "23856559",
+  "pmids_considered": [
+   "23856559",
+   "25676540"
+  ],
+  "prompt_version": "readout_v2",
+  "quote": "145 patients in the dronabinol group had EDSS score progression (0\u00b724 first progression events per patient-year; crude rate) compared with 73 in the placebo group (0\u00b723 first progression events per patient-year; crude rate); HR for prespecified primary analysis was 0\u00b792 (95% CI 0\u00b768-1\u00b723; p=0\u00b757).",
+  "read_on": "2026-10-28",
+  "reader_model": "claude-sonnet-5-5",
+  "reader_said": "not_met",
+  "readout": "unclear",
+  "reason": "second model disagreed"
+ },
  "MSFT-2005-006071-12|readout_v1|3ea8d246aa": {
   "checker_model": "claude-haiku-5-5",
   "msf_trial_id": "MSFT-2005-006071-12",
@@ -52,6 +109,19 @@
   ],
   "prompt_version": "readout_v1",
   "read_on": "2026-10-27",
+  "reader_model": "claude-sonnet-5-5",
+  "readout": "unclear",
+  "reason": "no main results paper found"
+ },
+ "MSFT-2005-006071-12|readout_v2|3ea8d246aa": {
+  "checker_model": "claude-haiku-5-5",
+  "msf_trial_id": "MSFT-2005-006071-12",
+  "pmid": "32428983",
+  "pmids_considered": [
+   "32428983"
+  ],
+  "prompt_version": "readout_v2",
+  "read_on": "2026-10-28",
   "reader_model": "claude-sonnet-5-5",
   "readout": "unclear",
   "reason": "no main results paper found"
@@ -91,6 +161,25 @@
   "readout": "unclear",
   "reason": "second model disagreed"
  },
+ "MSFT-2006-004937-13|readout_v2|09efdd4d58": {
+  "checker_model": "claude-haiku-5-5",
+  "checker_said": "unclear",
+  "msf_trial_id": "MSFT-2006-004937-13",
+  "pmid": "25402490",
+  "pmids_considered": [
+   "25402490",
+   "26033077",
+   "38174776",
+   "39651635"
+  ],
+  "prompt_version": "readout_v2",
+  "quote": "Non-inferiority analysis showed that azathioprine was at least as effective as \u03b2 interferons (relapse RRAZA/IFN 0.67, one-sided 95% CI 0.96; p<0.01).",
+  "read_on": "2026-10-28",
+  "reader_model": "claude-sonnet-5-5",
+  "reader_said": "equivalent",
+  "readout": "unclear",
+  "reason": "second model disagreed"
+ },
  "MSFT-2010-021219-17|readout_v1|a482926486": {
   "checker_model": "claude-haiku-5-5",
   "checker_said": "unclear",
@@ -107,6 +196,68 @@
   "readout": "unclear",
   "reason": "second model disagreed"
  },
+ "MSFT-2010-021219-17|readout_v2|a482926486": {
+  "checker_model": "claude-haiku-5-5",
+  "checker_said": "unclear",
+  "msf_trial_id": "MSFT-2010-021219-17",
+  "pmid": "35190477",
+  "pmids_considered": [
+   "35190477"
+  ],
+  "prompt_version": "readout_v2",
+  "quote": "Masitinib (4.5 mg/kg/d) (n = 199) showed significant benefit over placebo (n = 101) according to the primary end point, 0.001 vs 0.098, respectively, with a between-group difference of -0.097 (97% CI -0.192 to -0.002); p = 0.0256.",
+  "read_on": "2026-10-28",
+  "reader_model": "claude-sonnet-5-5",
+  "reader_said": "mixed",
+  "readout": "unclear",
+  "reason": "second model disagreed"
+ },
+ "MSFT-2010-023678-38|readout_v2|462bbf3daa": {
+  "checker_model": "claude-haiku-5-5",
+  "checker_said": "unclear",
+  "msf_trial_id": "MSFT-2010-023678-38",
+  "pmid": "37462753",
+  "pmids_considered": [
+   "37462753"
+  ],
+  "prompt_version": "readout_v2",
+  "quote": "At w4, fatigue scores decreased in all groups (p = range < 0.001-0.002).",
+  "read_on": "2026-10-28",
+  "reader_model": "claude-sonnet-5-5",
+  "reader_said": "not_met",
+  "readout": "unclear",
+  "reason": "second model disagreed"
+ },
+ "MSFT-2011-002785-20|readout_v2|a9f4d47124": {
+  "checker_model": "claude-haiku-5-5",
+  "checker_said": "unclear",
+  "msf_trial_id": "MSFT-2011-002785-20",
+  "pmid": "32047645",
+  "pmids_considered": [
+   "22316314",
+   "32047645"
+  ],
+  "prompt_version": "readout_v2",
+  "quote": "After 18 months, clinical (relapse rates, disability progression) and radiographical (T2-weighted lesion development, contrast-enhancing lesion development, brain atrophy) did not differ between both treatment arms.",
+  "read_on": "2026-10-28",
+  "reader_model": "claude-sonnet-5-5",
+  "reader_said": "not_met",
+  "readout": "unclear",
+  "reason": "second model disagreed"
+ },
+ "MSFT-2011-003475-11|readout_v2|a1491a399e": {
+  "checker_model": "claude-haiku-5-5",
+  "msf_trial_id": "MSFT-2011-003475-11",
+  "pmid": "29681209",
+  "pmids_considered": [
+   "29681209"
+  ],
+  "prompt_version": "readout_v2",
+  "read_on": "2026-10-28",
+  "reader_model": "claude-sonnet-5-5",
+  "readout": "unclear",
+  "reason": "no main results paper found"
+ },
  "MSFT-2011-004787-30|readout_v1|29b0b79a97": {
   "checker_model": "claude-haiku-5-5",
   "checker_said": "unclear",
@@ -118,6 +269,22 @@
   "prompt_version": "readout_v1",
   "quote": "Per protocol analysis of the primary endpoint revealed a significantly larger reduction of mfVEP latency at 6 months compared to baseline with fingolimod treatment (n = 5; median decrease, 15.7 ms) than with IFN-\u03b2 1b treatment (n = 4; median increase, 8.15 ms) (p",
   "read_on": "2026-10-27",
+  "reader_model": "claude-sonnet-5-5",
+  "reader_said": "met",
+  "readout": "unclear",
+  "reason": "second model disagreed"
+ },
+ "MSFT-2011-004787-30|readout_v2|29b0b79a97": {
+  "checker_model": "claude-haiku-5-5",
+  "checker_said": "unclear",
+  "msf_trial_id": "MSFT-2011-004787-30",
+  "pmid": "32126977",
+  "pmids_considered": [
+   "32126977"
+  ],
+  "prompt_version": "readout_v2",
+  "quote": "Per protocol analysis of the primary endpoint revealed a significantly larger reduction of mfVEP latency at 6 months compared to baseline with fingolimod treatment (n = 5; median decrease, 15.7 ms) than with IFN-\u03b2 1b treatment (n = 4; median increase, 8.15 ms) (p < 0.001 for interaction).",
+  "read_on": "2026-10-28",
   "reader_model": "claude-sonnet-5-5",
   "reader_said": "met",
   "readout": "unclear",
@@ -153,6 +320,23 @@
   "readout": "not_met",
   "reason": null
  },
+ "MSFT-2012-004183-21|readout_v2|b3a90cf8ee": {
+  "checker_model": "claude-haiku-5-5",
+  "checker_said": "unclear",
+  "msf_trial_id": "MSFT-2012-004183-21",
+  "pmid": "30081859",
+  "pmids_considered": [
+   "28347292",
+   "30081859"
+  ],
+  "prompt_version": "readout_v2",
+  "quote": "The primary outcome measure, mean number of nocturia episodes on bladder diaries, was 1.8/night at baseline, and 1.4/night on melatonin, compared with 1.6 for placebo (Medians 1.70, 1.50, and 1.30 respectively, p = 0.85).",
+  "read_on": "2026-10-28",
+  "reader_model": "claude-sonnet-5-5",
+  "reader_said": "not_met",
+  "readout": "unclear",
+  "reason": "second model disagreed"
+ },
  "MSFT-2013-001055-12|readout_v1|77553e73e9": {
   "checker_model": "claude-haiku-5-5",
   "checker_said": "unclear",
@@ -166,6 +350,78 @@
   "read_on": "2026-10-27",
   "reader_model": "claude-sonnet-5-5",
   "reader_said": "not_met",
+  "readout": "unclear",
+  "reason": "second model disagreed"
+ },
+ "MSFT-2013-001055-12|readout_v2|77553e73e9": {
+  "checker_model": "claude-haiku-5-5",
+  "checker_said": "not_met",
+  "msf_trial_id": "MSFT-2013-001055-12",
+  "pmid": "28686675",
+  "pmids_considered": [
+   "28686675"
+  ],
+  "prompt_version": "readout_v2",
+  "quote": "The differences between cetirizine and placebo in the intensity of FLS were not statistically significant: total mean VAS scores at 4 hours from IFN\u03b2 injection were 3.57 and 3.42 for cetirizine and placebo, respectively (difference -0.15; 95% confidence interval: from -0.74 to 0.44; p = 0.6029).",
+  "read_on": "2026-10-28",
+  "reader_model": "claude-sonnet-5-5",
+  "reader_said": "not_met",
+  "readout": "not_met",
+  "reason": null,
+  "result": {
+   "effect": {
+    "ci_lower": "-0.74",
+    "ci_upper": "0.44",
+    "type": "mean difference",
+    "value": "-0.15"
+   },
+   "groups": [
+    {
+     "group": "cetirizine",
+     "n": null,
+     "value": "3.57"
+    },
+    {
+     "group": "placebo",
+     "n": null,
+     "value": "3.42"
+    }
+   ],
+   "p": "p = 0.6029"
+  }
+ },
+ "MSFT-2014-003145-99|readout_v2|ec74aa2030": {
+  "checker_model": "claude-haiku-5-5",
+  "checker_said": "unclear",
+  "msf_trial_id": "MSFT-2014-003145-99",
+  "pmid": "34418398",
+  "pmids_considered": [
+   "34418398",
+   "36116011",
+   "31616249",
+   "33799653"
+  ],
+  "prompt_version": "readout_v2",
+  "quote": "The change in mean lesional magnetisation transfer ratio was not different between the bexarotene group (0\u00b725 percentage units [pu; SD 0\u00b798]) and the placebo group (0\u00b709 pu [0\u00b784]; adjusted bexarotene-placebo difference 0\u00b716 pu, 95% CI -0\u00b739 to 0\u00b771; p=0\u00b755).",
+  "read_on": "2026-10-28",
+  "reader_model": "claude-sonnet-5-5",
+  "reader_said": "not_met",
+  "readout": "unclear",
+  "reason": "second model disagreed"
+ },
+ "MSFT-2015-000182-31|readout_v2|ddece15aad": {
+  "checker_model": "claude-haiku-5-5",
+  "checker_said": "unclear",
+  "msf_trial_id": "MSFT-2015-000182-31",
+  "pmid": "30756475",
+  "pmids_considered": [
+   "30756475"
+  ],
+  "prompt_version": "readout_v2",
+  "quote": "Fampridine significantly reduced both PV-VDI (-17.4%, 95% CI: -22.4%, -12.1%; P < 0.0001) and FPA-VDI (-12.5%, 95% CI: -18.9%, -5.5%; P < 0.01).",
+  "read_on": "2026-10-28",
+  "reader_model": "claude-sonnet-5-5",
+  "reader_said": "met",
   "readout": "unclear",
   "reason": "second model disagreed"
  },
@@ -219,6 +475,23 @@
   "readout": "not_met",
   "reason": null
  },
+ "MSFT-2017-005129-18|readout_v2|e65ff5a262": {
+  "checker_model": "claude-haiku-5-5",
+  "checker_said": "unclear",
+  "msf_trial_id": "MSFT-2017-005129-18",
+  "pmid": "40775552",
+  "pmids_considered": [
+   "40775552",
+   "38708586"
+  ],
+  "prompt_version": "readout_v2",
+  "quote": "MRI disease activity-free status did not differ (p = 0.09).",
+  "read_on": "2026-10-28",
+  "reader_model": "claude-sonnet-5-5",
+  "reader_said": "not_met",
+  "readout": "unclear",
+  "reason": "second model disagreed"
+ },
  "MSFT-2018-002315-98|readout_v1|1dcdb6dbf9": {
   "checker_model": "claude-haiku-5-5",
   "checker_said": "not_met",
@@ -237,6 +510,24 @@
   "readout": "not_met",
   "reason": null
  },
+ "MSFT-2018-002315-98|readout_v2|1dcdb6dbf9": {
+  "checker_model": "claude-haiku-5-5",
+  "checker_said": "unclear",
+  "msf_trial_id": "MSFT-2018-002315-98",
+  "pmid": "37630995",
+  "pmids_considered": [
+   "38054364",
+   "34573231",
+   "37630995"
+  ],
+  "prompt_version": "readout_v2",
+  "quote": "Nevertheless, in this four-arm parallel trial, no effect was found between placebo and active treatment with THC or CBD alone or in combination on NP or spasticity in patients with either MS or SCI.",
+  "read_on": "2026-10-28",
+  "reader_model": "claude-sonnet-5-5",
+  "reader_said": "not_met",
+  "readout": "unclear",
+  "reason": "second model disagreed"
+ },
  "MSFT-2018-004751-20|readout_v1|c34474016b": {
   "checker_model": "claude-haiku-5-5",
   "msf_trial_id": "MSFT-2018-004751-20",
@@ -250,6 +541,19 @@
   "readout": "unclear",
   "reason": "no main results paper found"
  },
+ "MSFT-2018-004751-20|readout_v2|c34474016b": {
+  "checker_model": "claude-haiku-5-5",
+  "msf_trial_id": "MSFT-2018-004751-20",
+  "pmid": "38708586",
+  "pmids_considered": [
+   "38708586"
+  ],
+  "prompt_version": "readout_v2",
+  "read_on": "2026-10-28",
+  "reader_model": "claude-sonnet-5-5",
+  "readout": "unclear",
+  "reason": "no main results paper found"
+ },
  "MSFT-2019-001967-58|readout_v1|c34474016b": {
   "checker_model": "claude-haiku-5-5",
   "msf_trial_id": "MSFT-2019-001967-58",
@@ -259,6 +563,19 @@
   ],
   "prompt_version": "readout_v1",
   "read_on": "2026-10-27",
+  "reader_model": "claude-sonnet-5-5",
+  "readout": "unclear",
+  "reason": "no main results paper found"
+ },
+ "MSFT-2019-001967-58|readout_v2|c34474016b": {
+  "checker_model": "claude-haiku-5-5",
+  "msf_trial_id": "MSFT-2019-001967-58",
+  "pmid": "38708586",
+  "pmids_considered": [
+   "38708586"
+  ],
+  "prompt_version": "readout_v2",
+  "read_on": "2026-10-28",
   "reader_model": "claude-sonnet-5-5",
   "readout": "unclear",
   "reason": "no main results paper found"
@@ -289,6 +606,19 @@
   "readout": "unclear",
   "reason": "no main results paper found"
  },
+ "MSFT-2024-515470-26-00|readout_v2|d61f33a536": {
+  "checker_model": "claude-haiku-5-5",
+  "msf_trial_id": "MSFT-2024-515470-26-00",
+  "pmid": "42367324",
+  "pmids_considered": [
+   "42367324"
+  ],
+  "prompt_version": "readout_v2",
+  "read_on": "2026-10-28",
+  "reader_model": "claude-sonnet-5-5",
+  "readout": "unclear",
+  "reason": "no main results paper found"
+ },
  "MSFT-NCT00000146|readout_v1|0f18efd5f8": {
   "checker_model": "claude-haiku-5-5",
   "msf_trial_id": "MSFT-NCT00000146",
@@ -299,6 +629,20 @@
   ],
   "prompt_version": "readout_v1",
   "read_on": "2026-10-27",
+  "reader_model": "claude-sonnet-5-5",
+  "readout": "unclear",
+  "reason": "no main results paper found"
+ },
+ "MSFT-NCT00000146|readout_v2|0f18efd5f8": {
+  "checker_model": "claude-haiku-5-5",
+  "msf_trial_id": "MSFT-NCT00000146",
+  "pmid": null,
+  "pmids_considered": [
+   "35044445",
+   "39621693"
+  ],
+  "prompt_version": "readout_v2",
+  "read_on": "2026-10-28",
   "reader_model": "claude-sonnet-5-5",
   "readout": "unclear",
   "reason": "no main results paper found"
@@ -317,6 +661,25 @@
   "prompt_version": "readout_v1",
   "quote": "Natalizumab reduced the risk of the sustained progression of disability and the rate of clinical relapse in patients with relapsing multiple sclerosis.",
   "read_on": "2026-10-27",
+  "reader_model": "claude-sonnet-5-5",
+  "reader_said": "met",
+  "readout": "unclear",
+  "reason": "second model disagreed"
+ },
+ "MSFT-NCT00027300|readout_v2|f3dd9237d9": {
+  "checker_model": "claude-haiku-5-5",
+  "checker_said": "unclear",
+  "msf_trial_id": "MSFT-NCT00027300",
+  "pmid": "16510744",
+  "pmids_considered": [
+   "16510744",
+   "23308186",
+   "28916537",
+   "31355324"
+  ],
+  "prompt_version": "readout_v2",
+  "quote": "Natalizumab reduced the risk of sustained progression of disability by 42 percent over two years (hazard ratio, 0.58; 95 percent confidence interval, 0.43 to 0.77; P<0.001).",
+  "read_on": "2026-10-28",
   "reader_model": "claude-sonnet-5-5",
   "reader_said": "met",
   "readout": "unclear",
@@ -341,6 +704,129 @@
   "readout": "unclear",
   "reason": "second model disagreed"
  },
+ "MSFT-NCT00030966|readout_v2|35df5b4900": {
+  "checker_model": "claude-haiku-5-5",
+  "checker_said": "unclear",
+  "msf_trial_id": "MSFT-NCT00030966",
+  "pmid": "16510745",
+  "pmids_considered": [
+   "16510745",
+   "23308186",
+   "31355324",
+   "39960455"
+  ],
+  "prompt_version": "readout_v2",
+  "quote": "Combination therapy resulted in a 24 percent reduction in the relative risk of sustained disability progression (hazard ratio, 0.76; 95 percent confidence interval, 0.61 to 0.96; P=0.02).",
+  "read_on": "2026-10-28",
+  "reader_model": "claude-sonnet-5-5",
+  "reader_said": "met",
+  "readout": "unclear",
+  "reason": "second model disagreed"
+ },
+ "MSFT-NCT00035529|readout_v2|35b85a427a": {
+  "checker_model": "claude-haiku-5-5",
+  "checker_said": "not_met",
+  "msf_trial_id": "MSFT-NCT00035529",
+  "pmid": "27481207",
+  "pmids_considered": [
+   "27481207",
+   "32785877",
+   "35893056",
+   "42787587"
+  ],
+  "prompt_version": "readout_v2",
+  "quote": "No statistically significant differences were observed in mean number of new Gd+ MRI lesions between the abatacept and placebo groups.",
+  "read_on": "2026-10-28",
+  "reader_model": "claude-sonnet-5-5",
+  "reader_said": "not_met",
+  "readout": "not_met",
+  "reason": null,
+  "result": {
+   "follow_up": "24 weeks",
+   "measure": "mean number of new gadolinium-enhancing (Gd+) lesions obtained on magnetic resonance imaging (MRI) scans performed every 4 weeks",
+   "n_randomised": "65"
+  }
+ },
+ "MSFT-NCT00053417|readout_v2|41b7df1b12": {
+  "checker_model": "claude-haiku-5-5",
+  "msf_trial_id": "MSFT-NCT00053417",
+  "pmid": "31513613",
+  "pmids_considered": [
+   "31513613"
+  ],
+  "prompt_version": "readout_v2",
+  "read_on": "2026-10-28",
+  "reader_model": "claude-sonnet-5-5",
+  "readout": "unclear",
+  "reason": "no main results paper found"
+ },
+ "MSFT-NCT00067327|readout_v2|9e1001d4ac": {
+  "checker_model": "claude-haiku-5-5",
+  "checker_said": "unclear",
+  "msf_trial_id": "MSFT-NCT00067327",
+  "pmid": "19425822",
+  "pmids_considered": [
+   "19425822",
+   "19931616",
+   "24312612",
+   "30261493"
+  ],
+  "prompt_version": "readout_v2",
+  "quote": "The only side-effect correlated with inosine treatment was kidney stone formation in 4/16 subjects.",
+  "read_on": "2026-10-28",
+  "reader_model": "claude-sonnet-5-5",
+  "reader_said": "not_efficacy",
+  "readout": "unclear",
+  "reason": "second model disagreed"
+ },
+ "MSFT-NCT00079495|readout_v2|61c26da32f": {
+  "checker_model": "claude-haiku-5-5",
+  "msf_trial_id": "MSFT-NCT00079495",
+  "pmid": null,
+  "pmids_considered": [
+   "36938103",
+   "37980950",
+   "38086932",
+   "39362875"
+  ],
+  "prompt_version": "readout_v2",
+  "read_on": "2026-10-28",
+  "reader_model": "claude-sonnet-5-5",
+  "readout": "unclear",
+  "reason": "no main results paper found"
+ },
+ "MSFT-NCT00086671|readout_v2|39466112cf": {
+  "checker_model": "claude-haiku-5-5",
+  "checker_said": "unclear",
+  "msf_trial_id": "MSFT-NCT00086671",
+  "pmid": "21135022",
+  "pmids_considered": [
+   "21135022",
+   "25145755",
+   "34177909",
+   "40903956"
+  ],
+  "prompt_version": "readout_v2",
+  "quote": "At week 24, gadolinium-enhanced lesions were statistically significantly reduced with ABT-874 200 mg EOW vs. placebo (mean number [SD]: 5.4 [8.1] vs. 7.6 [14.4], p = 0.003), but not with ABT-874 200 mg EW (6.8 [11.3], p = 0.134).",
+  "read_on": "2026-10-28",
+  "reader_model": "claude-sonnet-5-5",
+  "reader_said": "mixed",
+  "readout": "unclear",
+  "reason": "second model disagreed"
+ },
+ "MSFT-NCT00097760|readout_v2|70d71b457f": {
+  "checker_model": "claude-haiku-5-5",
+  "msf_trial_id": "MSFT-NCT00097760",
+  "pmid": "16510746",
+  "pmids_considered": [
+   "16510746"
+  ],
+  "prompt_version": "readout_v2",
+  "read_on": "2026-10-28",
+  "reader_model": "claude-sonnet-5-5",
+  "readout": "unclear",
+  "reason": "no main results paper found"
+ },
  "MSFT-NCT00099502|readout_v1|dc5a3fb59f": {
   "checker_model": "claude-haiku-5-5",
   "checker_said": "not_met",
@@ -360,6 +846,44 @@
   "readout": "not_met",
   "reason": null
  },
+ "MSFT-NCT00099502|readout_v2|dc5a3fb59f": {
+  "checker_model": "claude-haiku-5-5",
+  "checker_said": "unclear",
+  "msf_trial_id": "MSFT-NCT00099502",
+  "pmid": "19729344",
+  "pmids_considered": [
+   "19729344",
+   "21464426",
+   "27177997",
+   "25182864"
+  ],
+  "prompt_version": "readout_v2",
+  "quote": "We found no differences in relapse risk, EDSS progression, T1-hypointense lesion volume, or normalised brain volume among treatment groups.",
+  "read_on": "2026-10-28",
+  "reader_model": "claude-sonnet-5-5",
+  "reader_said": "not_met",
+  "readout": "unclear",
+  "reason": "second model disagreed"
+ },
+ "MSFT-NCT00109161|readout_v2|bda02cfc2b": {
+  "checker_model": "claude-haiku-5-5",
+  "checker_said": "unclear",
+  "msf_trial_id": "MSFT-NCT00109161",
+  "pmid": "20163990",
+  "pmids_considered": [
+   "20163990",
+   "21124072",
+   "23055048",
+   "24409199"
+  ],
+  "prompt_version": "readout_v2",
+  "quote": "The adjusted mean number of new or enlarged gadolinium contrast-enhancing lesions was 4.75 in the interferon beta and placebo group compared with 1.32 in the interferon beta and high-dose daclizumab group (difference 72%, 95% CI 34% to 88%; p=0.004) and 3.58 in the interferon beta and low-dose daclizumab group (25%, -76% to 68%; p=0.51).",
+  "read_on": "2026-10-28",
+  "reader_model": "claude-sonnet-5-5",
+  "reader_said": "met",
+  "readout": "unclear",
+  "reason": "second model disagreed"
+ },
  "MSFT-NCT00127075|readout_v1|c9b07e4674": {
   "checker_model": "claude-haiku-5-5",
   "msf_trial_id": "MSFT-NCT00127075",
@@ -372,6 +896,22 @@
   ],
   "prompt_version": "readout_v1",
   "read_on": "2026-10-27",
+  "reader_model": "claude-sonnet-5-5",
+  "readout": "unclear",
+  "reason": "no main results paper found"
+ },
+ "MSFT-NCT00127075|readout_v2|c9b07e4674": {
+  "checker_model": "claude-haiku-5-5",
+  "msf_trial_id": "MSFT-NCT00127075",
+  "pmid": null,
+  "pmids_considered": [
+   "19758607",
+   "19539954",
+   "22450508",
+   "27870415"
+  ],
+  "prompt_version": "readout_v2",
+  "read_on": "2026-10-28",
   "reader_model": "claude-sonnet-5-5",
   "readout": "unclear",
   "reason": "no main results paper found"
@@ -395,6 +935,37 @@
   "readout": "unclear",
   "reason": "second model disagreed"
  },
+ "MSFT-NCT00127530|readout_v2|20151de799": {
+  "checker_model": "claude-haiku-5-5",
+  "checker_said": "met",
+  "msf_trial_id": "MSFT-NCT00127530",
+  "pmid": "19249634",
+  "pmids_considered": [
+   "19249634",
+   "23799913",
+   "28799444",
+   "32989685"
+  ],
+  "prompt_version": "readout_v2",
+  "quote": "The proportion of timed walk responders was higher in the fampridine group (78/224 or 35%) than in the placebo group (6/72 or 8%; p<0.0001).",
+  "read_on": "2026-10-28",
+  "reader_model": "claude-sonnet-5-5",
+  "reader_said": "met",
+  "readout": "met",
+  "reason": null,
+  "result": {
+   "follow_up": "14 weeks",
+   "groups": [
+    {
+     "group": "Placebo",
+     "n": "72",
+     "value": "6/72 or 8%"
+    }
+   ],
+   "n_randomised": "301",
+   "p": "p<0.0001"
+  }
+ },
  "MSFT-NCT00146159|readout_v1|67a94634de": {
   "checker_model": "claude-haiku-5-5",
   "msf_trial_id": "MSFT-NCT00146159",
@@ -410,6 +981,59 @@
   "readout": "unclear",
   "reason": "no main results paper found"
  },
+ "MSFT-NCT00146159|readout_v2|67a94634de": {
+  "checker_model": "claude-haiku-5-5",
+  "msf_trial_id": "MSFT-NCT00146159",
+  "pmid": null,
+  "pmids_considered": [
+   "26033077",
+   "36414428",
+   "41583906"
+  ],
+  "prompt_version": "readout_v2",
+  "read_on": "2026-10-28",
+  "reader_model": "claude-sonnet-5-5",
+  "readout": "unclear",
+  "reason": "no main results paper found"
+ },
+ "MSFT-NCT00151801|readout_v2|8b6a5f8d1c": {
+  "checker_model": "claude-haiku-5-5",
+  "checker_said": "unclear",
+  "msf_trial_id": "MSFT-NCT00151801",
+  "pmid": "26140279",
+  "pmids_considered": [
+   "27995531",
+   "19539954",
+   "26140279",
+   "37448959"
+  ],
+  "prompt_version": "readout_v2",
+  "quote": "The estimated number of cumulative CUA lesions at week 96 was 0.98 (95% confidence interval [CI] 0.81-1.14) in group 1, 0.84 (95% CI 0.66-1.02) in group 2, and 0.72 (95% CI 0.53-0.91) in group 3, with a decrease of 14.1% (p = 0.24) and 26.5% (p = 0.04) when comparing group 1 with groups 2 and 3, respectively.",
+  "read_on": "2026-10-28",
+  "reader_model": "claude-sonnet-5-5",
+  "reader_said": "mixed",
+  "readout": "unclear",
+  "reason": "second model disagreed"
+ },
+ "MSFT-NCT00168701|readout_v2|a711a7f770": {
+  "checker_model": "claude-haiku-5-5",
+  "checker_said": "unclear",
+  "msf_trial_id": "MSFT-NCT00168701",
+  "pmid": "18970976",
+  "pmids_considered": [
+   "18970976",
+   "24131282",
+   "30918100",
+   "21124072"
+  ],
+  "prompt_version": "readout_v2",
+  "quote": "Treatment with BG00012 240 mg three times daily reduced by 69% the mean total number of new GdE lesions from week 12 to 24 compared with placebo (1.4 vs 4.5, p<0.0001).",
+  "read_on": "2026-10-28",
+  "reader_model": "claude-sonnet-5-5",
+  "reader_said": "met",
+  "readout": "unclear",
+  "reason": "second model disagreed"
+ },
  "MSFT-NCT00200655|readout_v1|25b925334f": {
   "checker_model": "claude-haiku-5-5",
   "msf_trial_id": "MSFT-NCT00200655",
@@ -419,6 +1043,32 @@
   ],
   "prompt_version": "readout_v1",
   "read_on": "2026-10-27",
+  "reader_model": "claude-sonnet-5-5",
+  "readout": "unclear",
+  "reason": "no main results paper found"
+ },
+ "MSFT-NCT00200655|readout_v2|25b925334f": {
+  "checker_model": "claude-haiku-5-5",
+  "msf_trial_id": "MSFT-NCT00200655",
+  "pmid": "34909647",
+  "pmids_considered": [
+   "34909647"
+  ],
+  "prompt_version": "readout_v2",
+  "read_on": "2026-10-28",
+  "reader_model": "claude-sonnet-5-5",
+  "readout": "unclear",
+  "reason": "no main results paper found"
+ },
+ "MSFT-NCT00202397|readout_v2|b2655c5a06": {
+  "checker_model": "claude-haiku-5-5",
+  "msf_trial_id": "MSFT-NCT00202397",
+  "pmid": "42738833",
+  "pmids_considered": [
+   "42738833"
+  ],
+  "prompt_version": "readout_v2",
+  "read_on": "2026-10-28",
   "reader_model": "claude-sonnet-5-5",
   "readout": "unclear",
   "reason": "no main results paper found"
@@ -442,6 +1092,52 @@
   "readout": "unclear",
   "reason": "second model disagreed"
  },
+ "MSFT-NCT00211887|readout_v2|c2cbb1eb90": {
+  "checker_model": "claude-haiku-5-5",
+  "checker_said": "unclear",
+  "msf_trial_id": "MSFT-NCT00211887",
+  "pmid": "23424159",
+  "pmids_considered": [
+   "23424159",
+   "25787188",
+   "26096844",
+   "29141831"
+  ],
+  "prompt_version": "readout_v2",
+  "quote": "Combination IFN+GA was not superior to the better of the single agents (GA) in risk of relapse.",
+  "read_on": "2026-10-28",
+  "reader_model": "claude-sonnet-5-5",
+  "reader_said": "not_met",
+  "readout": "unclear",
+  "reason": "second model disagreed"
+ },
+ "MSFT-NCT00217295|readout_v2|b22f3e1f0e": {
+  "checker_model": "claude-haiku-5-5",
+  "msf_trial_id": "MSFT-NCT00217295",
+  "pmid": null,
+  "pmids_considered": [
+   "23997817",
+   "36105612"
+  ],
+  "prompt_version": "readout_v2",
+  "read_on": "2026-10-28",
+  "reader_model": "claude-sonnet-5-5",
+  "readout": "unclear",
+  "reason": "no main results paper found"
+ },
+ "MSFT-NCT00219908|readout_v2|49d0773492": {
+  "checker_model": "claude-haiku-5-5",
+  "msf_trial_id": "MSFT-NCT00219908",
+  "pmid": "26033077",
+  "pmids_considered": [
+   "26033077"
+  ],
+  "prompt_version": "readout_v2",
+  "read_on": "2026-10-28",
+  "reader_model": "claude-sonnet-5-5",
+  "readout": "unclear",
+  "reason": "no main results paper found"
+ },
  "MSFT-NCT00223301|readout_v1|49d0773492": {
   "checker_model": "claude-haiku-5-5",
   "msf_trial_id": "MSFT-NCT00223301",
@@ -451,6 +1147,80 @@
   ],
   "prompt_version": "readout_v1",
   "read_on": "2026-10-27",
+  "reader_model": "claude-sonnet-5-5",
+  "readout": "unclear",
+  "reason": "no main results paper found"
+ },
+ "MSFT-NCT00223301|readout_v2|49d0773492": {
+  "checker_model": "claude-haiku-5-5",
+  "msf_trial_id": "MSFT-NCT00223301",
+  "pmid": "26033077",
+  "pmids_considered": [
+   "26033077"
+  ],
+  "prompt_version": "readout_v2",
+  "read_on": "2026-10-28",
+  "reader_model": "claude-sonnet-5-5",
+  "readout": "unclear",
+  "reason": "no main results paper found"
+ },
+ "MSFT-NCT00228163|readout_v2|61b0479dd2": {
+  "checker_model": "claude-haiku-5-5",
+  "checker_said": "not_efficacy",
+  "msf_trial_id": "MSFT-NCT00228163",
+  "pmid": "22307384",
+  "pmids_considered": [
+   "22307384",
+   "23851964",
+   "26865517",
+   "33023488"
+  ],
+  "prompt_version": "readout_v2",
+  "quote": "Teriflunomide had a favourable safety profile for up to 8.5 years.",
+  "read_on": "2026-10-28",
+  "reader_model": "claude-sonnet-5-5",
+  "reader_said": "not_efficacy",
+  "readout": "not_efficacy",
+  "reason": null,
+  "result": {
+   "groups": [
+    {
+     "group": "Teriflunomide 14 mg",
+     "n": null,
+     "value": "ALT increases \u22643\u00d7ULN 62.1%; >3\u00d7ULN 12.1%"
+    }
+   ],
+   "n_randomised": "147"
+  }
+ },
+ "MSFT-NCT00228397|readout_v2|95c026b982": {
+  "checker_model": "claude-haiku-5-5",
+  "msf_trial_id": "MSFT-NCT00228397",
+  "pmid": null,
+  "pmids_considered": [
+   "32967206",
+   "33990205",
+   "36558997",
+   "40708570"
+  ],
+  "prompt_version": "readout_v2",
+  "read_on": "2026-10-28",
+  "reader_model": "claude-sonnet-5-5",
+  "readout": "unclear",
+  "reason": "no main results paper found"
+ },
+ "MSFT-NCT00239655|readout_v2|7b1e385dce": {
+  "checker_model": "claude-haiku-5-5",
+  "msf_trial_id": "MSFT-NCT00239655",
+  "pmid": null,
+  "pmids_considered": [
+   "22871590",
+   "30891134",
+   "31111571",
+   "31849962"
+  ],
+  "prompt_version": "readout_v2",
+  "read_on": "2026-10-28",
   "reader_model": "claude-sonnet-5-5",
   "readout": "unclear",
   "reason": "no main results paper found"
@@ -474,6 +1244,35 @@
   "readout": "not_met",
   "reason": null
  },
+ "MSFT-NCT00241254|readout_v2|5ffbf8a3af": {
+  "checker_model": "claude-haiku-5-5",
+  "checker_said": "not_met",
+  "msf_trial_id": "MSFT-NCT00241254",
+  "pmid": "28045953",
+  "pmids_considered": [
+   "28045953",
+   "25772899",
+   "29926371",
+   "32785877"
+  ],
+  "prompt_version": "readout_v2",
+  "quote": "Primary endpoint: the hazard ratio for EDSS deterioration in the CPM in comparison with the MP group was 0.61 [95% CI: 0\u00b731-1\u00b722](p = 0\u00b716).",
+  "read_on": "2026-10-28",
+  "reader_model": "claude-sonnet-5-5",
+  "reader_said": "not_met",
+  "readout": "not_met",
+  "reason": null,
+  "result": {
+   "effect": {
+    "ci_lower": "0.31",
+    "ci_upper": null,
+    "type": "hazard ratio",
+    "value": "0.61"
+   },
+   "n_randomised": "138",
+   "p": "p = 0.16"
+  }
+ },
  "MSFT-NCT00242268|readout_v1|5fb064b6c5": {
   "checker_model": "claude-haiku-5-5",
   "msf_trial_id": "MSFT-NCT00242268",
@@ -483,6 +1282,19 @@
   ],
   "prompt_version": "readout_v1",
   "read_on": "2026-10-27",
+  "reader_model": "claude-sonnet-5-5",
+  "readout": "unclear",
+  "reason": "no main results paper found"
+ },
+ "MSFT-NCT00242268|readout_v2|5fb064b6c5": {
+  "checker_model": "claude-haiku-5-5",
+  "msf_trial_id": "MSFT-NCT00242268",
+  "pmid": "22161428",
+  "pmids_considered": [
+   "22161428"
+  ],
+  "prompt_version": "readout_v2",
+  "read_on": "2026-10-28",
   "reader_model": "claude-sonnet-5-5",
   "readout": "unclear",
   "reason": "no main results paper found"
@@ -506,6 +1318,25 @@
   "readout": "not_met",
   "reason": null
  },
+ "MSFT-NCT00257855|readout_v2|deb760f6a0": {
+  "checker_model": "claude-haiku-5-5",
+  "checker_said": "unclear",
+  "msf_trial_id": "MSFT-NCT00257855",
+  "pmid": "20621711",
+  "pmids_considered": [
+   "20621711",
+   "23936370",
+   "23997817",
+   "33013859"
+  ],
+  "prompt_version": "readout_v2",
+  "quote": "The mean change in partial (central) cerebral volume per year was -3.18 mL (SD -1.25) in the lamotrigine group and -2.48 mL (-0.97) in the placebo group (difference -0.71 mL, 95% CI -2.56 to 1.15; p=0.40).",
+  "read_on": "2026-10-28",
+  "reader_model": "claude-sonnet-5-5",
+  "reader_said": "not_met",
+  "readout": "unclear",
+  "reason": "second model disagreed"
+ },
  "MSFT-NCT00261326|readout_v1|b090a25fa7": {
   "checker_model": "claude-haiku-5-5",
   "checker_said": "unclear",
@@ -517,6 +1348,22 @@
   "prompt_version": "readout_v1",
   "quote": "Simvastatin had a beneficial effect on VEP in both latency (p = 0.01) and amplitude (p = 0.01), a borderline effect on the Arden score (p = 0.06) and VAS (p = 0.04), and no effect on brain MRI or on relapse rate between the groups.",
   "read_on": "2026-10-27",
+  "reader_model": "claude-sonnet-5-5",
+  "reader_said": "not_met",
+  "readout": "unclear",
+  "reason": "second model disagreed"
+ },
+ "MSFT-NCT00261326|readout_v2|b090a25fa7": {
+  "checker_model": "claude-haiku-5-5",
+  "checker_said": "unclear",
+  "msf_trial_id": "MSFT-NCT00261326",
+  "pmid": "21921071",
+  "pmids_considered": [
+   "21921071"
+  ],
+  "prompt_version": "readout_v2",
+  "quote": "Simvastatin had a beneficial effect on VEP in both latency (p = 0.01) and amplitude (p = 0.01), a borderline effect on the Arden score (p = 0.06) and VAS (p = 0.04), and no effect on brain MRI or on relapse rate between the groups.",
+  "read_on": "2026-10-28",
   "reader_model": "claude-sonnet-5-5",
   "reader_said": "not_met",
   "readout": "unclear",
@@ -541,6 +1388,38 @@
   "readout": "unclear",
   "reason": "second model disagreed"
  },
+ "MSFT-NCT00289978|readout_v2|0807a32531": {
+  "checker_model": "claude-haiku-5-5",
+  "checker_said": "met",
+  "msf_trial_id": "MSFT-NCT00289978",
+  "pmid": "20089952",
+  "pmids_considered": [
+   "20089952",
+   "22494956",
+   "22751847",
+   "25632085"
+  ],
+  "prompt_version": "readout_v2",
+  "quote": "The annualized relapse rate was 0.18 with 0.5 mg of fingolimod, 0.16 with 1.25 mg of fingolimod, and 0.40 with placebo (P<0.001 for either dose vs. placebo).",
+  "read_on": "2026-10-28",
+  "reader_model": "claude-sonnet-5-5",
+  "reader_said": "met",
+  "readout": "met",
+  "reason": null,
+  "result": {
+   "follow_up": "24 months",
+   "groups": [
+    {
+     "group": "placebo",
+     "n": null,
+     "value": "0.40"
+    }
+   ],
+   "measure": "annualized relapse rate",
+   "n_randomised": "1272",
+   "p": "P<0.001 for either dose vs. placebo"
+  }
+ },
  "MSFT-NCT00291148|readout_v1|044db0e66b": {
   "checker_model": "claude-haiku-5-5",
   "msf_trial_id": "MSFT-NCT00291148",
@@ -550,6 +1429,19 @@
   ],
   "prompt_version": "readout_v1",
   "read_on": "2026-10-27",
+  "reader_model": "claude-sonnet-5-5",
+  "readout": "unclear",
+  "reason": "no main results paper found"
+ },
+ "MSFT-NCT00291148|readout_v2|044db0e66b": {
+  "checker_model": "claude-haiku-5-5",
+  "msf_trial_id": "MSFT-NCT00291148",
+  "pmid": "41583906",
+  "pmids_considered": [
+   "41583906"
+  ],
+  "prompt_version": "readout_v2",
+  "read_on": "2026-10-28",
   "reader_model": "claude-sonnet-5-5",
   "readout": "unclear",
   "reason": "no main results paper found"
@@ -570,6 +1462,38 @@
   "readout": "unclear",
   "reason": "no main results paper found"
  },
+ "MSFT-NCT00292266|readout_v2|0ad6dba381": {
+  "checker_model": "claude-haiku-5-5",
+  "msf_trial_id": "MSFT-NCT00292266",
+  "pmid": null,
+  "pmids_considered": [
+   "25182864",
+   "26033077",
+   "35054473",
+   "38032059"
+  ],
+  "prompt_version": "readout_v2",
+  "read_on": "2026-10-28",
+  "reader_model": "claude-sonnet-5-5",
+  "readout": "unclear",
+  "reason": "no main results paper found"
+ },
+ "MSFT-NCT00298662|readout_v2|9258bee587": {
+  "checker_model": "claude-haiku-5-5",
+  "checker_said": "unclear",
+  "msf_trial_id": "MSFT-NCT00298662",
+  "pmid": "22966460",
+  "pmids_considered": [
+   "22966460"
+  ],
+  "prompt_version": "readout_v2",
+  "quote": "The combination therapy of interferon beta-1b and tacrolimus over the 10-month period of the study was shown to be safe and relatively well tolerated.",
+  "read_on": "2026-10-28",
+  "reader_model": "claude-sonnet-5-5",
+  "reader_said": "not_efficacy",
+  "readout": "unclear",
+  "reason": "second model disagreed"
+ },
  "MSFT-NCT00300716|readout_v1|2edc975975": {
   "checker_model": "claude-haiku-5-5",
   "checker_said": "not_met",
@@ -587,6 +1511,56 @@
   "reader_said": "not_met",
   "readout": "not_met",
   "reason": null
+ },
+ "MSFT-NCT00300716|readout_v2|2edc975975": {
+  "checker_model": "claude-haiku-5-5",
+  "checker_said": "unclear",
+  "msf_trial_id": "MSFT-NCT00300716",
+  "pmid": "20483885",
+  "pmids_considered": [
+   "20483885",
+   "24343792",
+   "42639338"
+  ],
+  "prompt_version": "readout_v2",
+  "quote": "The differences between the groups on the change on the PASAT (placebo-memantine = 0.0 correct responses, 95% CI 3.4, 3.4; p = 0.9) and on CVLT-II LDFR (placebo-memantine =-0.6 words, 95% CI -2.1, 0.8; p = 0.4) as well as on the other cognitive tests were not significant.",
+  "read_on": "2026-10-28",
+  "reader_model": "claude-sonnet-5-5",
+  "reader_said": "not_met",
+  "readout": "unclear",
+  "reason": "second model disagreed"
+ },
+ "MSFT-NCT00324506|readout_v2|9235c2f0a4": {
+  "checker_model": "claude-haiku-5-5",
+  "msf_trial_id": "MSFT-NCT00324506",
+  "pmid": "24505016",
+  "pmids_considered": [
+   "24505016"
+  ],
+  "prompt_version": "readout_v2",
+  "read_on": "2026-10-28",
+  "reader_model": "claude-sonnet-5-5",
+  "readout": "unclear",
+  "reason": "no main results paper found"
+ },
+ "MSFT-NCT00333138|readout_v2|aab7b50662": {
+  "checker_model": "claude-haiku-5-5",
+  "checker_said": "unclear",
+  "msf_trial_id": "MSFT-NCT00333138",
+  "pmid": "16971719",
+  "pmids_considered": [
+   "16971719",
+   "23531349",
+   "22110609",
+   "24463630"
+  ],
+  "prompt_version": "readout_v2",
+  "quote": "The median total number of gadolinium-enhanced lesions on MRI was lower with 1.25 mg of fingolimod (1 lesion, P<0.001) and 5.0 mg of fingolimod (3 lesions, P=0.006) than with placebo (5 lesions).",
+  "read_on": "2026-10-28",
+  "reader_model": "claude-sonnet-5-5",
+  "reader_said": "met",
+  "readout": "unclear",
+  "reason": "second model disagreed"
  },
  "MSFT-NCT00340834|readout_v1|ad0aee5e21": {
   "checker_model": "claude-haiku-5-5",
@@ -607,6 +1581,25 @@
   "readout": "met",
   "reason": null
  },
+ "MSFT-NCT00340834|readout_v2|ad0aee5e21": {
+  "checker_model": "claude-haiku-5-5",
+  "checker_said": "unclear",
+  "msf_trial_id": "MSFT-NCT00340834",
+  "pmid": "20089954",
+  "pmids_considered": [
+   "20089954",
+   "20937112",
+   "21571593",
+   "23632946"
+  ],
+  "prompt_version": "readout_v2",
+  "quote": "The annualized relapse rate was significantly lower in both groups receiving fingolimod--0.20 (95% confidence interval [CI], 0.16 to 0.26) in the 1.25-mg group and 0.16 (95% CI, 0.12 to 0.21) in the 0.5-mg group--than in the interferon group (0.33; 95% CI, 0.26 to 0.42; P<0.001 for both comparisons).",
+  "read_on": "2026-10-28",
+  "reader_model": "claude-sonnet-5-5",
+  "reader_said": "met",
+  "readout": "unclear",
+  "reason": "second model disagreed"
+ },
  "MSFT-NCT00344253|readout_v1|5fc61934cc": {
   "checker_model": "claude-haiku-5-5",
   "msf_trial_id": "MSFT-NCT00344253",
@@ -623,6 +1616,41 @@
   "readout": "unclear",
   "reason": "no main results paper found"
  },
+ "MSFT-NCT00344253|readout_v2|5fc61934cc": {
+  "checker_model": "claude-haiku-5-5",
+  "msf_trial_id": "MSFT-NCT00344253",
+  "pmid": null,
+  "pmids_considered": [
+   "26633291",
+   "29189960",
+   "33567434",
+   "39611043"
+  ],
+  "prompt_version": "readout_v2",
+  "read_on": "2026-10-28",
+  "reader_model": "claude-sonnet-5-5",
+  "readout": "unclear",
+  "reason": "no main results paper found"
+ },
+ "MSFT-NCT00349193|readout_v2|5529822c39": {
+  "checker_model": "claude-haiku-5-5",
+  "checker_said": "unclear",
+  "msf_trial_id": "MSFT-NCT00349193",
+  "pmid": "18572078",
+  "pmids_considered": [
+   "18572078",
+   "23922214",
+   "26000222",
+   "41583906"
+  ],
+  "prompt_version": "readout_v2",
+  "quote": "Compared with placebo, treatment with laquinimod 0.6 mg per day showed a 40.4% reduction of the baseline adjusted mean cumulative number of GdE lesions per scan on the last four scans (simple means 4.2 [SD 9.2] vs 2.6 [5.3], p=0.0048); treatment with 0.3 mg per day showed no significant effects (3.9 [5.5] vs placebo, p=0.6740).",
+  "read_on": "2026-10-28",
+  "reader_model": "claude-sonnet-5-5",
+  "reader_said": "met",
+  "readout": "unclear",
+  "reason": "second model disagreed"
+ },
  "MSFT-NCT00355134|readout_v1|d352d16a17": {
   "checker_model": "claude-haiku-5-5",
   "checker_said": "unclear",
@@ -637,6 +1665,25 @@
   "prompt_version": "readout_v1",
   "quote": "Mean annualised relapse rate was 0\u00b740 (95% CI 0\u00b734-0\u00b748) in patients given placebo and 0\u00b721 (0\u00b717-0\u00b725) in patients given fingolimod 0\u00b75 mg: rate ratio 0\u00b752 (95% CI 0\u00b740-0\u00b766; p",
   "read_on": "2026-10-27",
+  "reader_model": "claude-sonnet-5-5",
+  "reader_said": "met",
+  "readout": "unclear",
+  "reason": "second model disagreed"
+ },
+ "MSFT-NCT00355134|readout_v2|d352d16a17": {
+  "checker_model": "claude-haiku-5-5",
+  "checker_said": "unclear",
+  "msf_trial_id": "MSFT-NCT00355134",
+  "pmid": "24685276",
+  "pmids_considered": [
+   "24051419",
+   "24685276",
+   "25632085",
+   "26121423"
+  ],
+  "prompt_version": "readout_v2",
+  "quote": "Mean annualised relapse rate was 0\u00b740 (95% CI 0\u00b734-0\u00b748) in patients given placebo and 0\u00b721 (0\u00b717-0\u00b725) in patients given fingolimod 0\u00b75 mg: rate ratio 0\u00b752 (95% CI 0\u00b740-0\u00b766; p<0\u00b70001), corresponding to a reduction of 48% with fingolimod 0\u00b75 mg versus placebo.",
+  "read_on": "2026-10-28",
   "reader_model": "claude-sonnet-5-5",
   "reader_said": "met",
   "readout": "unclear",
@@ -661,6 +1708,44 @@
   "readout": "unclear",
   "reason": "second model disagreed"
  },
+ "MSFT-NCT00360906|readout_v2|b8c63fc9a2": {
+  "checker_model": "claude-haiku-5-5",
+  "checker_said": "unclear",
+  "msf_trial_id": "MSFT-NCT00360906",
+  "pmid": "22507886",
+  "pmids_considered": [
+   "22507886",
+   "34978580",
+   "29209636",
+   "26033077"
+  ],
+  "prompt_version": "readout_v2",
+  "quote": "The cumulative number of gadolinium-enhancing MRI lesions during the first 6 months were similar in the \u03c9-3 fatty acids and placebo groups (median difference, 1; 95% CI, 0 to 3; P = .09).",
+  "read_on": "2026-10-28",
+  "reader_model": "claude-sonnet-5-5",
+  "reader_said": "not_met",
+  "readout": "unclear",
+  "reason": "second model disagreed"
+ },
+ "MSFT-NCT00395317|readout_v2|78b6091a79": {
+  "checker_model": "claude-haiku-5-5",
+  "checker_said": "unclear",
+  "msf_trial_id": "MSFT-NCT00395317",
+  "pmid": "22226929",
+  "pmids_considered": [
+   "22226929",
+   "26033077",
+   "32210016",
+   "36588107"
+  ],
+  "prompt_version": "readout_v2",
+  "quote": "A 49% reduction (95% CI 21\u00b72-67\u00b76; p=0\u00b70026) in the cumulative number of new gadolinium-enhancing lesions was seen for the 900 mg or 1200 mg firategrast group (n=92, mean number of lesions 2\u00b769 [SE 1\u00b718]) versus the placebo group (90, 5\u00b731 [1\u00b718]).",
+  "read_on": "2026-10-28",
+  "reader_model": "claude-sonnet-5-5",
+  "reader_said": "met",
+  "readout": "unclear",
+  "reason": "second model disagreed"
+ },
  "MSFT-NCT00418145|readout_v1|49d0773492": {
   "checker_model": "claude-haiku-5-5",
   "msf_trial_id": "MSFT-NCT00418145",
@@ -670,6 +1755,19 @@
   ],
   "prompt_version": "readout_v1",
   "read_on": "2026-10-27",
+  "reader_model": "claude-sonnet-5-5",
+  "readout": "unclear",
+  "reason": "no main results paper found"
+ },
+ "MSFT-NCT00418145|readout_v2|49d0773492": {
+  "checker_model": "claude-haiku-5-5",
+  "msf_trial_id": "MSFT-NCT00418145",
+  "pmid": "26033077",
+  "pmids_considered": [
+   "26033077"
+  ],
+  "prompt_version": "readout_v2",
+  "read_on": "2026-10-28",
   "reader_model": "claude-sonnet-5-5",
   "readout": "unclear",
   "reason": "no main results paper found"
@@ -693,6 +1791,56 @@
   "readout": "unclear",
   "reason": "second model disagreed"
  },
+ "MSFT-NCT00420212|readout_v2|8c95a12fec": {
+  "checker_model": "claude-haiku-5-5",
+  "checker_said": "met",
+  "msf_trial_id": "MSFT-NCT00420212",
+  "pmid": "22992073",
+  "pmids_considered": [
+   "22992073",
+   "24989666",
+   "25557371",
+   "27919491"
+  ],
+  "prompt_version": "readout_v2",
+  "quote": "The estimated proportion of patients who had a relapse was significantly lower in the two BG-12 groups than in the placebo group (27% with BG-12 twice daily and 26% with BG-12 thrice daily vs. 46% with placebo, P<0.001 for both comparisons).",
+  "read_on": "2026-10-28",
+  "reader_model": "claude-sonnet-5-5",
+  "reader_said": "met",
+  "readout": "met",
+  "reason": null,
+  "result": {
+   "follow_up": "2 years",
+   "groups": [
+    {
+     "group": "Placebo",
+     "n": null,
+     "value": "46%"
+    }
+   ],
+   "measure": "Proportion of patients who had a relapse by 2 years",
+   "p": "P<0.001 for both comparisons"
+  }
+ },
+ "MSFT-NCT00436826|readout_v2|8e2099907a": {
+  "checker_model": "claude-haiku-5-5",
+  "checker_said": "unclear",
+  "msf_trial_id": "MSFT-NCT00436826",
+  "pmid": "30027104",
+  "pmids_considered": [
+   "30027104",
+   "32447743",
+   "20689698",
+   "23650463"
+  ],
+  "prompt_version": "readout_v2",
+  "quote": "Adverse events (AEs) and serious AEs were similar across treatment groups, except lymphopenia.",
+  "read_on": "2026-10-28",
+  "reader_model": "claude-sonnet-5-5",
+  "reader_said": "not_efficacy",
+  "readout": "unclear",
+  "reason": "second model disagreed"
+ },
  "MSFT-NCT00451451|readout_v1|fe3e66c5ab": {
   "checker_model": "claude-haiku-5-5",
   "checker_said": "unclear",
@@ -709,6 +1857,44 @@
   "read_on": "2026-10-27",
   "reader_model": "claude-sonnet-5-5",
   "reader_said": "met",
+  "readout": "unclear",
+  "reason": "second model disagreed"
+ },
+ "MSFT-NCT00451451|readout_v2|fe3e66c5ab": {
+  "checker_model": "claude-haiku-5-5",
+  "checker_said": "unclear",
+  "msf_trial_id": "MSFT-NCT00451451",
+  "pmid": "22992072",
+  "pmids_considered": [
+   "22992072",
+   "25315404",
+   "25557371",
+   "25681448"
+  ],
+  "prompt_version": "readout_v2",
+  "quote": "At 2 years, the annualized relapse rate was significantly lower with twice-daily BG-12 (0.22), thrice-daily BG-12 (0.20), and glatiramer acetate (0.29) than with placebo (0.40) (relative reductions: twice-daily BG-12, 44%, P<0.001; thrice-daily BG-12, 51%, P<0.001; glatiramer acetate, 29%, P=0.01).",
+  "read_on": "2026-10-28",
+  "reader_model": "claude-sonnet-5-5",
+  "reader_said": "met",
+  "readout": "unclear",
+  "reason": "second model disagreed"
+ },
+ "MSFT-NCT00475865|readout_v2|cd8b20f040": {
+  "checker_model": "claude-haiku-5-5",
+  "checker_said": "unclear",
+  "msf_trial_id": "MSFT-NCT00475865",
+  "pmid": "28607708",
+  "pmids_considered": [
+   "28607708",
+   "23761970",
+   "25342978",
+   "26000229"
+  ],
+  "prompt_version": "readout_v2",
+  "quote": "Teriflunomide added to stable-dose GA had acceptable safety and tolerability, and reduced some MRI markers of disease activity compared with GA alone.",
+  "read_on": "2026-10-28",
+  "reader_model": "claude-sonnet-5-5",
+  "reader_said": "not_efficacy",
   "readout": "unclear",
   "reason": "second model disagreed"
  },
@@ -730,6 +1916,129 @@
   "readout": "unclear",
   "reason": "second model disagreed"
  },
+ "MSFT-NCT00483652|readout_v2|0e8eef6d6d": {
+  "checker_model": "claude-haiku-5-5",
+  "checker_said": "unclear",
+  "msf_trial_id": "MSFT-NCT00483652",
+  "pmid": "20976768",
+  "pmids_considered": [
+   "20976768",
+   "28799444",
+   "32989685"
+  ],
+  "prompt_version": "readout_v2",
+  "quote": "The proportion of TWRs was higher in the dalfampridine group (51/119 or 42.9%) compared to the placebo group (11/118 or 9.3%, p < 0.0001).",
+  "read_on": "2026-10-28",
+  "reader_model": "claude-sonnet-5-5",
+  "reader_said": "met",
+  "readout": "unclear",
+  "reason": "second model disagreed"
+ },
+ "MSFT-NCT00489489|readout_v2|04c2c51284": {
+  "checker_model": "claude-haiku-5-5",
+  "checker_said": "unclear",
+  "msf_trial_id": "MSFT-NCT00489489",
+  "pmid": "22622860",
+  "pmids_considered": [
+   "22622860",
+   "23761970",
+   "23997924",
+   "25342978"
+  ],
+  "prompt_version": "readout_v2",
+  "quote": "Teriflunomide was well tolerated with a low and similar incidence of treatment-emergent adverse events (TEAEs) across the 3 groups; TEAEs led to treatment discontinuation of 4.9%, 8.1%, and 7.9% of patients in the placebo, 7-mg, and 14-mg groups, respectively.",
+  "read_on": "2026-10-28",
+  "reader_model": "claude-sonnet-5-5",
+  "reader_said": "not_efficacy",
+  "readout": "unclear",
+  "reason": "second model disagreed"
+ },
+ "MSFT-NCT00501943|readout_v2|f1a3664d68": {
+  "checker_model": "claude-haiku-5-5",
+  "msf_trial_id": "MSFT-NCT00501943",
+  "pmid": "28148632",
+  "pmids_considered": [
+   "28148632",
+   "25929276",
+   "18635022",
+   "23983606"
+  ],
+  "prompt_version": "readout_v2",
+  "read_on": "2026-10-28",
+  "reader_model": "claude-sonnet-5-5",
+  "readout": "unclear",
+  "reason": "no main results paper found"
+ },
+ "MSFT-NCT00537082|readout_v2|d48b6a4680": {
+  "checker_model": "claude-haiku-5-5",
+  "checker_said": "unclear",
+  "msf_trial_id": "MSFT-NCT00537082",
+  "pmid": "22354739",
+  "pmids_considered": [
+   "24475777",
+   "28129749",
+   "22354739",
+   "24463630"
+  ],
+  "prompt_version": "readout_v2",
+  "quote": "Higher proportions of patients were free from Gd-enhanced lesions at months 3 and 6 with fingolimod (0.5 mg: 70%, p = 0.004; 1.25 mg: 86%, p < 0.001) than with placebo (40%).",
+  "read_on": "2026-10-28",
+  "reader_model": "claude-sonnet-5-5",
+  "reader_said": "met",
+  "readout": "unclear",
+  "reason": "second model disagreed"
+ },
+ "MSFT-NCT00623415|readout_v2|f1fd2f75d2": {
+  "checker_model": "claude-haiku-5-5",
+  "checker_said": "unclear",
+  "msf_trial_id": "MSFT-NCT00623415",
+  "pmid": "30356868",
+  "pmids_considered": [
+   "26033077",
+   "30356868",
+   "34046626",
+   "34086251"
+  ],
+  "prompt_version": "readout_v2",
+  "quote": "Neither the intention to treat nor the per protocol analysis revealed any significant treatment effects of flupirtine maleate with respect to occurrence of MS relapses, disability progression, or development of new lesions on cranial MRI.",
+  "read_on": "2026-10-28",
+  "reader_model": "claude-sonnet-5-5",
+  "reader_said": "not_met",
+  "readout": "unclear",
+  "reason": "second model disagreed"
+ },
+ "MSFT-NCT00624468|readout_v2|2980af2f38": {
+  "checker_model": "claude-haiku-5-5",
+  "msf_trial_id": "MSFT-NCT00624468",
+  "pmid": null,
+  "pmids_considered": [
+   "21179612",
+   "23566679",
+   "23684423",
+   "32785877"
+  ],
+  "prompt_version": "readout_v2",
+  "read_on": "2026-10-28",
+  "reader_model": "claude-sonnet-5-5",
+  "readout": "unclear",
+  "reason": "no main results paper found"
+ },
+ "MSFT-NCT00638833|readout_v2|13e61ada00": {
+  "checker_model": "claude-haiku-5-5",
+  "msf_trial_id": "MSFT-NCT00638833",
+  "pmid": "19092106",
+  "pmids_considered": [
+   "19092106",
+   "26033077",
+   "37631001",
+   "41583906"
+  ],
+  "prompt_version": "readout_v2",
+  "read_on": "2026-10-28",
+  "reader_model": "claude-sonnet-5-5",
+  "readout": "unclear",
+  "reason": "no main results paper found"
+ },
  "MSFT-NCT00641537|readout_v1|0609369c16": {
   "checker_model": "claude-haiku-5-5",
   "msf_trial_id": "MSFT-NCT00641537",
@@ -745,6 +2054,41 @@
   "reader_model": "claude-sonnet-5-5",
   "readout": "unclear",
   "reason": "no main results paper found"
+ },
+ "MSFT-NCT00641537|readout_v2|0609369c16": {
+  "checker_model": "claude-haiku-5-5",
+  "msf_trial_id": "MSFT-NCT00641537",
+  "pmid": "unclear",
+  "pmids_considered": [
+   "34370275",
+   "29399054",
+   "32447743",
+   "33969750"
+  ],
+  "prompt_version": "readout_v2",
+  "read_on": "2026-10-28",
+  "reader_model": "claude-sonnet-5-5",
+  "readout": "unclear",
+  "reason": "no main results paper found"
+ },
+ "MSFT-NCT00642902|readout_v2|fe0efded62": {
+  "checker_model": "claude-haiku-5-5",
+  "checker_said": "unclear",
+  "msf_trial_id": "MSFT-NCT00642902",
+  "pmid": "24613349",
+  "pmids_considered": [
+   "24613349",
+   "21145597",
+   "21179612",
+   "22053109"
+  ],
+  "prompt_version": "readout_v2",
+  "quote": "Mean numbers of gadolinium-enhancing T1 lesions per scan were similar in all groups (25 mg, 2\u00b726, 0\u00b797-5\u00b727; 75 mg, 2\u00b730, 1\u00b708-4\u00b792; 150 mg, 2\u00b749, 1\u00b718-5\u00b727; placebo, 3\u00b707, 1\u00b740-6\u00b777).",
+  "read_on": "2026-10-28",
+  "reader_model": "claude-sonnet-5-5",
+  "reader_said": "not_met",
+  "readout": "unclear",
+  "reason": "second model disagreed"
  },
  "MSFT-NCT00662649|readout_v1|88636b80d8": {
   "checker_model": "claude-haiku-5-5",
@@ -762,6 +2106,25 @@
   "readout": "unclear",
   "reason": "no main results paper found"
  },
+ "MSFT-NCT00662649|readout_v2|88636b80d8": {
+  "checker_model": "claude-haiku-5-5",
+  "checker_said": "unclear",
+  "msf_trial_id": "MSFT-NCT00662649",
+  "pmid": "25795646",
+  "pmids_considered": [
+   "25632085",
+   "25795646",
+   "32817406",
+   "21931494"
+  ],
+  "prompt_version": "readout_v2",
+  "quote": "In the continuous-fingolimod groups, ARR was lower (p < 0.0001), BVL was reduced (p < 0.05), and proportionately more patients were free from 3-month CDP (p < 0.05) than in a group comprising all placebo-fingolimod patients.",
+  "read_on": "2026-10-28",
+  "reader_model": "claude-sonnet-5-5",
+  "reader_said": "met",
+  "readout": "unclear",
+  "reason": "second model disagreed"
+ },
  "MSFT-NCT00666887|readout_v1|c4c4c1db04": {
   "checker_model": "claude-haiku-5-5",
   "checker_said": "unclear",
@@ -776,6 +2139,25 @@
   "prompt_version": "readout_v1",
   "quote": "The unadjusted risk of conversion to multiple sclerosis within 6 months after randomization was 61.0% in the placebo group and 33.4% in the minocycline group, a difference of 27.6 percentage points (95% confidence interval [CI], 11.4 to 43.9; P=0.001).",
   "read_on": "2026-10-27",
+  "reader_model": "claude-sonnet-5-5",
+  "reader_said": "met",
+  "readout": "unclear",
+  "reason": "second model disagreed"
+ },
+ "MSFT-NCT00666887|readout_v2|c4c4c1db04": {
+  "checker_model": "claude-haiku-5-5",
+  "checker_said": "unclear",
+  "msf_trial_id": "MSFT-NCT00666887",
+  "pmid": "28564557",
+  "pmids_considered": [
+   "28564557",
+   "31491827",
+   "23970502",
+   "35848622"
+  ],
+  "prompt_version": "readout_v2",
+  "quote": "The unadjusted risk of conversion to multiple sclerosis within 6 months after randomization was 61.0% in the placebo group and 33.4% in the minocycline group, a difference of 27.6 percentage points (95% confidence interval [CI], 11.4 to 43.9; P=0.001).",
+  "read_on": "2026-10-28",
   "reader_model": "claude-sonnet-5-5",
   "reader_said": "met",
   "readout": "unclear",
@@ -797,6 +2179,53 @@
   "readout": "unclear",
   "reason": "second model disagreed"
  },
+ "MSFT-NCT00668343|readout_v2|aa5aab01d2": {
+  "checker_model": "claude-haiku-5-5",
+  "checker_said": "unclear",
+  "msf_trial_id": "MSFT-NCT00668343",
+  "pmid": "20488825",
+  "pmids_considered": [
+   "20488825"
+  ],
+  "prompt_version": "readout_v2",
+  "quote": "The total attack number in the simvastatin group was significantly lower than placebo group (moderate effect size r = 0.29) (p = 0.01).",
+  "read_on": "2026-10-28",
+  "reader_model": "claude-sonnet-5-5",
+  "reader_said": "met",
+  "readout": "unclear",
+  "reason": "second model disagreed"
+ },
+ "MSFT-NCT00670449|readout_v2|dea15d8031": {
+  "checker_model": "claude-haiku-5-5",
+  "msf_trial_id": "MSFT-NCT00670449",
+  "pmid": "28129749",
+  "pmids_considered": [
+   "24475777",
+   "28129749",
+   "21931494",
+   "24463630"
+  ],
+  "prompt_version": "readout_v2",
+  "read_on": "2026-10-28",
+  "reader_model": "claude-sonnet-5-5",
+  "readout": "unclear",
+  "reason": "no main results paper found"
+ },
+ "MSFT-NCT00745615|readout_v2|cd17e5c937": {
+  "checker_model": "claude-haiku-5-5",
+  "msf_trial_id": "MSFT-NCT00745615",
+  "pmid": null,
+  "pmids_considered": [
+   "25002907",
+   "26000222",
+   "27042003"
+  ],
+  "prompt_version": "readout_v2",
+  "read_on": "2026-10-28",
+  "reader_model": "claude-sonnet-5-5",
+  "readout": "unclear",
+  "reason": "no main results paper found"
+ },
  "MSFT-NCT00772525|readout_v1|d13c100990": {
   "checker_model": "claude-haiku-5-5",
   "msf_trial_id": "MSFT-NCT00772525",
@@ -806,6 +2235,19 @@
   ],
   "prompt_version": "readout_v1",
   "read_on": "2026-10-27",
+  "reader_model": "claude-sonnet-5-5",
+  "readout": "unclear",
+  "reason": "no main results paper found"
+ },
+ "MSFT-NCT00772525|readout_v2|d13c100990": {
+  "checker_model": "claude-haiku-5-5",
+  "msf_trial_id": "MSFT-NCT00772525",
+  "pmid": "35610531",
+  "pmids_considered": [
+   "35610531"
+  ],
+  "prompt_version": "readout_v2",
+  "read_on": "2026-10-28",
   "reader_model": "claude-sonnet-5-5",
   "readout": "unclear",
   "reason": "no main results paper found"
@@ -826,6 +2268,61 @@
   "readout": "unclear",
   "reason": "no main results paper found"
  },
+ "MSFT-NCT00803049|readout_v2|1a2742723a": {
+  "checker_model": "claude-haiku-5-5",
+  "checker_said": "not_efficacy",
+  "msf_trial_id": "MSFT-NCT00803049",
+  "pmid": "26865517",
+  "pmids_considered": [
+   "23851964",
+   "26865517",
+   "33023488",
+   "28680917"
+  ],
+  "prompt_version": "readout_v2",
+  "quote": "In the TEMSO extension, safety observations were consistent with the core trial, with no new or unexpected AEs in patients receiving teriflunomide for up to 9 years.",
+  "read_on": "2026-10-28",
+  "reader_model": "claude-sonnet-5-5",
+  "reader_said": "not_efficacy",
+  "readout": "not_efficacy",
+  "reason": null,
+  "result": {
+   "follow_up": "up to 9 years",
+   "n_randomised": "742"
+  }
+ },
+ "MSFT-NCT00811395|readout_v2|d6b181d52a": {
+  "checker_model": "claude-haiku-5-5",
+  "checker_said": "unclear",
+  "msf_trial_id": "MSFT-NCT00811395",
+  "pmid": "28607708",
+  "pmids_considered": [
+   "22622860",
+   "28607708",
+   "23761970",
+   "25342978"
+  ],
+  "prompt_version": "readout_v2",
+  "quote": "Teriflunomide was well tolerated over 48 weeks.",
+  "read_on": "2026-10-28",
+  "reader_model": "claude-sonnet-5-5",
+  "reader_said": "not_efficacy",
+  "readout": "unclear",
+  "reason": "second model disagreed"
+ },
+ "MSFT-NCT00811902|readout_v2|d13c100990": {
+  "checker_model": "claude-haiku-5-5",
+  "msf_trial_id": "MSFT-NCT00811902",
+  "pmid": "35610531",
+  "pmids_considered": [
+   "35610531"
+  ],
+  "prompt_version": "readout_v2",
+  "read_on": "2026-10-28",
+  "reader_model": "claude-sonnet-5-5",
+  "readout": "unclear",
+  "reason": "no main results paper found"
+ },
  "MSFT-NCT00835770|readout_v1|ba48cd62eb": {
   "checker_model": "claude-haiku-5-5",
   "msf_trial_id": "MSFT-NCT00835770",
@@ -842,6 +2339,41 @@
   "readout": "unclear",
   "reason": "no main results paper found"
  },
+ "MSFT-NCT00835770|readout_v2|ba48cd62eb": {
+  "checker_model": "claude-haiku-5-5",
+  "checker_said": "unclear",
+  "msf_trial_id": "MSFT-NCT00835770",
+  "pmid": "34465252",
+  "pmids_considered": [
+   "25557371",
+   "27207449",
+   "34465252",
+   "26932146"
+  ],
+  "prompt_version": "readout_v2",
+  "quote": "Overall, 551 (32%) patients experienced serious adverse events (mostly multiple sclerosis (MS) relapse or fall; one progressive multifocal leukoencephalopathy); 243 (14%) discontinued treatment due to adverse events (4% gastrointestinal (GI) disorders).",
+  "read_on": "2026-10-28",
+  "reader_model": "claude-sonnet-5-5",
+  "reader_said": "not_efficacy",
+  "readout": "unclear",
+  "reason": "second model disagreed"
+ },
+ "MSFT-NCT00853762|readout_v2|c19bc0c056": {
+  "checker_model": "claude-haiku-5-5",
+  "msf_trial_id": "MSFT-NCT00853762",
+  "pmid": "24613349",
+  "pmids_considered": [
+   "24613349",
+   "23684423",
+   "26033077",
+   "32785877"
+  ],
+  "prompt_version": "readout_v2",
+  "read_on": "2026-10-28",
+  "reader_model": "claude-sonnet-5-5",
+  "readout": "unclear",
+  "reason": "no main results paper found"
+ },
  "MSFT-NCT00856635|readout_v1|0d9953652f": {
   "checker_model": "claude-haiku-5-5",
   "msf_trial_id": "MSFT-NCT00856635",
@@ -851,6 +2383,19 @@
   ],
   "prompt_version": "readout_v1",
   "read_on": "2026-10-27",
+  "reader_model": "claude-sonnet-5-5",
+  "readout": "unclear",
+  "reason": "no main results paper found"
+ },
+ "MSFT-NCT00856635|readout_v2|0d9953652f": {
+  "checker_model": "claude-haiku-5-5",
+  "msf_trial_id": "MSFT-NCT00856635",
+  "pmid": "33747129",
+  "pmids_considered": [
+   "33747129"
+  ],
+  "prompt_version": "readout_v2",
+  "read_on": "2026-10-28",
   "reader_model": "claude-sonnet-5-5",
   "readout": "unclear",
   "reason": "no main results paper found"
@@ -871,6 +2416,124 @@
   "readout": "unclear",
   "reason": "no main results paper found"
  },
+ "MSFT-NCT00869726|readout_v2|2437d80b10": {
+  "checker_model": "claude-haiku-5-5",
+  "msf_trial_id": "MSFT-NCT00869726",
+  "pmid": null,
+  "pmids_considered": [
+   "26033077",
+   "28799444",
+   "29926371",
+   "30139752"
+  ],
+  "prompt_version": "readout_v2",
+  "read_on": "2026-10-28",
+  "reader_model": "claude-sonnet-5-5",
+  "readout": "unclear",
+  "reason": "no main results paper found"
+ },
+ "MSFT-NCT00870740|readout_v2|72664d81b9": {
+  "checker_model": "claude-haiku-5-5",
+  "checker_said": "not_efficacy",
+  "msf_trial_id": "MSFT-NCT00870740",
+  "pmid": "24656609",
+  "pmids_considered": [
+   "24656609",
+   "27411694",
+   "23055048",
+   "24409199"
+  ],
+  "prompt_version": "readout_v2",
+  "quote": "The primary endpoints were the safety and immunogenicity of daclizumab HYP.",
+  "read_on": "2026-10-28",
+  "reader_model": "claude-sonnet-5-5",
+  "reader_said": "not_efficacy",
+  "readout": "not_efficacy",
+  "reason": null,
+  "result": {
+   "follow_up": "52 weeks",
+   "groups": [
+    {
+     "group": "Treatment initiation group",
+     "n": "170",
+     "value": "11 patients (6%) had any serious adverse event other than relapse; 4 (2%) positive for neutralising antidrug antibodies"
+    },
+    {
+     "group": "Continuous treatment group",
+     "n": "173",
+     "value": "13 patients (8%) had any serious adverse event other than relapse; 1 (1%) of 128 positive for neutralising antidrug antibodies"
+    }
+   ],
+   "n_randomised": "517"
+  }
+ },
+ "MSFT-NCT00879658|readout_v2|c2c6b3e691": {
+  "checker_model": "claude-haiku-5-5",
+  "checker_said": "unclear",
+  "msf_trial_id": "MSFT-NCT00879658",
+  "pmid": "23764350",
+  "pmids_considered": [
+   "23764350",
+   "26083135",
+   "21124072",
+   "22216338"
+  ],
+  "prompt_version": "readout_v2",
+  "quote": "We showed a dose-response relation (p=0\u00b70001) across the five doses of siponimod, with reductions in combined unique active lesions at 3 months compared with placebo of 35% (95% CI 17-57) for siponimod 0\u00b725 mg (51 patients included in the primary endpoint analysis), 50% (29-69) for siponimod 0\u00b75 mg (43 patients), 66% (48-80) for siponimod 1\u00b725 mg (42 patients), 72% (57-84) for siponimod 2 mg (45 patients), and 82% (70-90) for siponimod 10 mg (44 patients).",
+  "read_on": "2026-10-28",
+  "reader_model": "claude-sonnet-5-5",
+  "reader_said": "met",
+  "readout": "unclear",
+  "reason": "second model disagreed"
+ },
+ "MSFT-NCT00882999|readout_v2|0f4a3aa75c": {
+  "checker_model": "claude-haiku-5-5",
+  "msf_trial_id": "MSFT-NCT00882999",
+  "pmid": null,
+  "pmids_considered": [
+   "23566679",
+   "23684423",
+   "26600872",
+   "26914737"
+  ],
+  "prompt_version": "readout_v2",
+  "read_on": "2026-10-28",
+  "reader_model": "claude-sonnet-5-5",
+  "readout": "unclear",
+  "reason": "no main results paper found"
+ },
+ "MSFT-NCT00917839|readout_v2|930d87946c": {
+  "checker_model": "claude-haiku-5-5",
+  "msf_trial_id": "MSFT-NCT00917839",
+  "pmid": "26486929",
+  "pmids_considered": [
+   "26486929"
+  ],
+  "prompt_version": "readout_v2",
+  "read_on": "2026-10-28",
+  "reader_model": "claude-sonnet-5-5",
+  "readout": "unclear",
+  "reason": "no main results paper found"
+ },
+ "MSFT-NCT00942591|readout_v2|ddfc6ed8aa": {
+  "checker_model": "claude-haiku-5-5",
+  "checker_said": "unclear",
+  "msf_trial_id": "MSFT-NCT00942591",
+  "pmid": "22569835",
+  "pmids_considered": [
+   "20003436",
+   "22569835",
+   "24497963",
+   "22161428"
+  ],
+  "prompt_version": "readout_v2",
+  "quote": "At study end, the proportion of patients with new lesions on T2-weighted images was equal in both groups (odds ratio 1.14; 95 % CI 0.36-3.56; p = 0.81).",
+  "read_on": "2026-10-28",
+  "reader_model": "claude-sonnet-5-5",
+  "reader_said": "not_met",
+  "readout": "unclear",
+  "reason": "second model disagreed"
+ },
  "MSFT-NCT00947895|readout_v1|49d0773492": {
   "checker_model": "claude-haiku-5-5",
   "msf_trial_id": "MSFT-NCT00947895",
@@ -880,6 +2543,19 @@
   ],
   "prompt_version": "readout_v1",
   "read_on": "2026-10-27",
+  "reader_model": "claude-sonnet-5-5",
+  "readout": "unclear",
+  "reason": "no main results paper found"
+ },
+ "MSFT-NCT00947895|readout_v2|49d0773492": {
+  "checker_model": "claude-haiku-5-5",
+  "msf_trial_id": "MSFT-NCT00947895",
+  "pmid": "26033077",
+  "pmids_considered": [
+   "26033077"
+  ],
+  "prompt_version": "readout_v2",
+  "read_on": "2026-10-28",
   "reader_model": "claude-sonnet-5-5",
   "readout": "unclear",
   "reason": "no main results paper found"
@@ -903,6 +2579,41 @@
   "readout": "not_met",
   "reason": null
  },
+ "MSFT-NCT00959218|readout_v2|18ea36a4b7": {
+  "checker_model": "claude-haiku-5-5",
+  "checker_said": "not_met",
+  "msf_trial_id": "MSFT-NCT00959218",
+  "pmid": "29073592",
+  "pmids_considered": [
+   "29073592",
+   "29513392",
+   "30900486",
+   "37824417"
+  ],
+  "prompt_version": "readout_v2",
+  "quote": "Pain intensity during 16-weeks dronabinol and placebo treatment was reduced by 1.92 and 1.81 points without significant difference in between (p = 0.676).",
+  "read_on": "2026-10-28",
+  "reader_model": "claude-sonnet-5-5",
+  "reader_said": "not_met",
+  "readout": "not_met",
+  "reason": null,
+  "result": {
+   "groups": [
+    {
+     "group": "dronabinol",
+     "n": null,
+     "value": "reduced by 1.92 points"
+    },
+    {
+     "group": "placebo",
+     "n": null,
+     "value": "reduced by 1.81 points"
+    }
+   ],
+   "measure": "Change of pain intensity on the 11-point Numerical Rating Scale over a 16-weeks treatment period",
+   "p": "p = 0.676"
+  }
+ },
  "MSFT-NCT00984984|readout_v1|8a69c11e9e": {
   "checker_model": "claude-haiku-5-5",
   "checker_said": "unclear",
@@ -922,6 +2633,57 @@
   "readout": "unclear",
   "reason": "second model disagreed"
  },
+ "MSFT-NCT00984984|readout_v2|8a69c11e9e": {
+  "checker_model": "claude-haiku-5-5",
+  "checker_said": "unclear",
+  "msf_trial_id": "MSFT-NCT00984984",
+  "pmid": "26135706",
+  "pmids_considered": [
+   "26135706",
+   "27956442",
+   "29196354",
+   "37681561"
+  ],
+  "prompt_version": "readout_v2",
+  "quote": "In the per-protocol population, 66 (81%) of 82 patients in the oral group and 72 (80%) of 90 patients in the intravenous group achieved the primary endpoint (absolute treatment difference 0\u00b75%, 90% CI -9\u00b75 to 10\u00b74).",
+  "read_on": "2026-10-28",
+  "reader_model": "claude-sonnet-5-5",
+  "reader_said": "equivalent",
+  "readout": "unclear",
+  "reason": "second model disagreed"
+ },
+ "MSFT-NCT01039103|readout_v2|46a1c6a395": {
+  "checker_model": "claude-haiku-5-5",
+  "msf_trial_id": "MSFT-NCT01039103",
+  "pmid": null,
+  "pmids_considered": [
+   "25791806",
+   "26033077",
+   "39065547",
+   "39246510"
+  ],
+  "prompt_version": "readout_v2",
+  "read_on": "2026-10-28",
+  "reader_model": "claude-sonnet-5-5",
+  "readout": "unclear",
+  "reason": "no main results paper found"
+ },
+ "MSFT-NCT01051817|readout_v2|0a2f0a140c": {
+  "checker_model": "claude-haiku-5-5",
+  "msf_trial_id": "MSFT-NCT01051817",
+  "pmid": null,
+  "pmids_considered": [
+   "22216338",
+   "25961452",
+   "26600872",
+   "26914737"
+  ],
+  "prompt_version": "readout_v2",
+  "read_on": "2026-10-28",
+  "reader_model": "claude-sonnet-5-5",
+  "readout": "unclear",
+  "reason": "no main results paper found"
+ },
  "MSFT-NCT01058005|readout_v1|d661cb924c": {
   "checker_model": "claude-haiku-5-5",
   "msf_trial_id": "MSFT-NCT01058005",
@@ -934,6 +2696,55 @@
   ],
   "prompt_version": "readout_v1",
   "read_on": "2026-10-27",
+  "reader_model": "claude-sonnet-5-5",
+  "readout": "unclear",
+  "reason": "no main results paper found"
+ },
+ "MSFT-NCT01058005|readout_v2|d661cb924c": {
+  "checker_model": "claude-haiku-5-5",
+  "msf_trial_id": "MSFT-NCT01058005",
+  "pmid": null,
+  "pmids_considered": [
+   "26033077",
+   "27880972",
+   "32328061",
+   "35693002"
+  ],
+  "prompt_version": "readout_v2",
+  "read_on": "2026-10-28",
+  "reader_model": "claude-sonnet-5-5",
+  "readout": "unclear",
+  "reason": "no main results paper found"
+ },
+ "MSFT-NCT01071083|readout_v2|51eac6ff50": {
+  "checker_model": "claude-haiku-5-5",
+  "checker_said": "unclear",
+  "msf_trial_id": "MSFT-NCT01071083",
+  "pmid": "24682966",
+  "pmids_considered": [
+   "24682966",
+   "28916537",
+   "38648580",
+   "26049148"
+  ],
+  "prompt_version": "readout_v2",
+  "quote": "Of 167 patients evaluable for efficacy, 49 (29%) had MRI disease activity recurrence: 0/45 (0%) natalizumab, 19/41 (46%) placebo, 1/14 (7%) IM IFN-\u03b2-1a, 8/15 (53%) GA, and 21/52 (40%) MP.",
+  "read_on": "2026-10-28",
+  "reader_model": "claude-sonnet-5-5",
+  "reader_said": "not_met",
+  "readout": "unclear",
+  "reason": "second model disagreed"
+ },
+ "MSFT-NCT01073813|readout_v2|b19a2c2295": {
+  "checker_model": "claude-haiku-5-5",
+  "msf_trial_id": "MSFT-NCT01073813",
+  "pmid": null,
+  "pmids_considered": [
+   "26932144",
+   "27595123"
+  ],
+  "prompt_version": "readout_v2",
+  "read_on": "2026-10-28",
   "reader_model": "claude-sonnet-5-5",
   "readout": "unclear",
   "reason": "no main results paper found"
@@ -957,6 +2768,87 @@
   "readout": "not_met",
   "reason": null
  },
+ "MSFT-NCT01074619|readout_v2|5980849afa": {
+  "checker_model": "claude-haiku-5-5",
+  "checker_said": "not_met",
+  "msf_trial_id": "MSFT-NCT01074619",
+  "pmid": "27000224",
+  "pmids_considered": [
+   "27000224",
+   "24343792",
+   "29254093",
+   "33013859"
+  ],
+  "prompt_version": "readout_v2",
+  "quote": "After adjusting for the PASAT scores at baseline, the PASAT scores at the end point did not differ between the memantine and the placebo groups (p=0.88).",
+  "read_on": "2026-10-28",
+  "reader_model": "claude-sonnet-5-5",
+  "reader_said": "not_met",
+  "readout": "not_met",
+  "reason": null,
+  "result": {
+   "effect": {
+    "ci_lower": "-5.5",
+    "ci_upper": "+4.7",
+    "type": "adjusted mean score difference (memantine minus placebo)",
+    "value": "-0.40"
+   },
+   "follow_up": "52 weeks",
+   "measure": "Paced Auditory Serial Addition Test (PASAT) score at week 52",
+   "p": "p=0.88"
+  }
+ },
+ "MSFT-NCT01093326|readout_v2|d367179ee2": {
+  "checker_model": "claude-haiku-5-5",
+  "msf_trial_id": "MSFT-NCT01093326",
+  "pmid": "35667837",
+  "pmids_considered": [
+   "24659797",
+   "35667837",
+   "42561748",
+   "23954895"
+  ],
+  "prompt_version": "readout_v2",
+  "read_on": "2026-10-28",
+  "reader_model": "claude-sonnet-5-5",
+  "readout": "unclear",
+  "reason": "no main results paper found"
+ },
+ "MSFT-NCT01111656|readout_v2|32c5fe44d7": {
+  "checker_model": "claude-haiku-5-5",
+  "checker_said": "unclear",
+  "msf_trial_id": "MSFT-NCT01111656",
+  "pmid": "24497963",
+  "pmids_considered": [
+   "24497963",
+   "22161428",
+   "26033077",
+   "34909647"
+  ],
+  "prompt_version": "readout_v2",
+  "quote": "The primary end point, the proportion of patients with new lesions on T2-weighted images was equal in both groups (odds ratio 1.926; 95% CI 0.265-14.0007; p = 0.51).",
+  "read_on": "2026-10-28",
+  "reader_model": "claude-sonnet-5-5",
+  "reader_said": "not_met",
+  "readout": "unclear",
+  "reason": "second model disagreed"
+ },
+ "MSFT-NCT01134627|readout_v2|993f359b23": {
+  "checker_model": "claude-haiku-5-5",
+  "msf_trial_id": "MSFT-NCT01134627",
+  "pmid": null,
+  "pmids_considered": [
+   "25047180",
+   "26033077",
+   "33013859",
+   "34086251"
+  ],
+  "prompt_version": "readout_v2",
+  "read_on": "2026-10-28",
+  "reader_model": "claude-sonnet-5-5",
+  "readout": "unclear",
+  "reason": "no main results paper found"
+ },
  "MSFT-NCT01144117|readout_v1|32f2e4896e": {
   "checker_model": "claude-haiku-5-5",
   "msf_trial_id": "MSFT-NCT01144117",
@@ -972,6 +2864,41 @@
   "reader_model": "claude-sonnet-5-5",
   "readout": "unclear",
   "reason": "no main results paper found"
+ },
+ "MSFT-NCT01144117|readout_v2|32f2e4896e": {
+  "checker_model": "claude-haiku-5-5",
+  "msf_trial_id": "MSFT-NCT01144117",
+  "pmid": null,
+  "pmids_considered": [
+   "25772899",
+   "26729332",
+   "27763513",
+   "29041865"
+  ],
+  "prompt_version": "readout_v2",
+  "read_on": "2026-10-28",
+  "reader_model": "claude-sonnet-5-5",
+  "readout": "unclear",
+  "reason": "no main results paper found"
+ },
+ "MSFT-NCT01185821|readout_v2|e2602ae72d": {
+  "checker_model": "claude-haiku-5-5",
+  "checker_said": "unclear",
+  "msf_trial_id": "MSFT-NCT01185821",
+  "pmid": "27380540",
+  "pmids_considered": [
+   "27380540",
+   "23954895",
+   "28035084",
+   "28812220"
+  ],
+  "prompt_version": "readout_v2",
+  "quote": "The incidence of adverse events was similar across treatment groups (10 mg: 87.9%; 2 mg: 89.7%; 1.25 mg: 88.4%; 0.5 mg: 96.6%; and 0.25 mg: 84.0%).",
+  "read_on": "2026-10-28",
+  "reader_model": "claude-sonnet-5-5",
+  "reader_said": "not_efficacy",
+  "readout": "unclear",
+  "reason": "second model disagreed"
  },
  "MSFT-NCT01188811|readout_v1|5bb5dccff1": {
   "checker_model": "claude-haiku-5-5",
@@ -992,6 +2919,25 @@
   "readout": "met",
   "reason": null
  },
+ "MSFT-NCT01188811|readout_v2|5bb5dccff1": {
+  "checker_model": "claude-haiku-5-5",
+  "checker_said": "unclear",
+  "msf_trial_id": "MSFT-NCT01188811",
+  "pmid": "28680916",
+  "pmids_considered": [
+   "30477834",
+   "34662650",
+   "28680916",
+   "25772899"
+  ],
+  "prompt_version": "readout_v2",
+  "quote": "After 2 years, the annualized PCBV was significantly less in the LA arm compared with placebo (-0.21 [standard error of the coefficient estimate (SEE) 0.14] vs -0.65 [SEE 0.10], 95% confidence interval [CI] 0.157-0.727, p = 0.002).",
+  "read_on": "2026-10-28",
+  "reader_model": "claude-sonnet-5-5",
+  "reader_said": "met",
+  "readout": "unclear",
+  "reason": "second model disagreed"
+ },
  "MSFT-NCT01194570|readout_v1|39cb679401": {
   "checker_model": "claude-haiku-5-5",
   "checker_said": "unclear",
@@ -1011,6 +2957,41 @@
   "readout": "unclear",
   "reason": "second model disagreed"
  },
+ "MSFT-NCT01194570|readout_v2|39cb679401": {
+  "checker_model": "claude-haiku-5-5",
+  "checker_said": "unclear",
+  "msf_trial_id": "MSFT-NCT01194570",
+  "pmid": "28002688",
+  "pmids_considered": [
+   "28002688",
+   "30155979",
+   "30415593",
+   "31497864"
+  ],
+  "prompt_version": "readout_v2",
+  "quote": "The percentage of patients with 12-week confirmed disability progression was 32.9% with ocrelizumab versus 39.3% with placebo (hazard ratio, 0.76; 95% confidence interval [CI], 0.59 to 0.98; P=0.03).",
+  "read_on": "2026-10-28",
+  "reader_model": "claude-sonnet-5-5",
+  "reader_said": "met",
+  "readout": "unclear",
+  "reason": "second model disagreed"
+ },
+ "MSFT-NCT01199640|readout_v2|fca51ef114": {
+  "checker_model": "claude-haiku-5-5",
+  "msf_trial_id": "MSFT-NCT01199640",
+  "pmid": null,
+  "pmids_considered": [
+   "21699506",
+   "33258193",
+   "37137892",
+   "40967235"
+  ],
+  "prompt_version": "readout_v2",
+  "read_on": "2026-10-28",
+  "reader_model": "claude-sonnet-5-5",
+  "readout": "unclear",
+  "reason": "no main results paper found"
+ },
  "MSFT-NCT01199861|readout_v1|9d1d5d984b": {
   "checker_model": "claude-haiku-5-5",
   "msf_trial_id": "MSFT-NCT01199861",
@@ -1025,6 +3006,73 @@
   "readout": "unclear",
   "reason": "no main results paper found"
  },
+ "MSFT-NCT01199861|readout_v2|9d1d5d984b": {
+  "checker_model": "claude-haiku-5-5",
+  "msf_trial_id": "MSFT-NCT01199861",
+  "pmid": null,
+  "pmids_considered": [
+   "21931494",
+   "32580348"
+  ],
+  "prompt_version": "readout_v2",
+  "read_on": "2026-10-28",
+  "reader_model": "claude-sonnet-5-5",
+  "readout": "unclear",
+  "reason": "no main results paper found"
+ },
+ "MSFT-NCT01279876|readout_v2|5f93f5d4a6": {
+  "checker_model": "claude-haiku-5-5",
+  "msf_trial_id": "MSFT-NCT01279876",
+  "pmid": null,
+  "pmids_considered": [
+   "30696832",
+   "31852206",
+   "38748805"
+  ],
+  "prompt_version": "readout_v2",
+  "read_on": "2026-10-28",
+  "reader_model": "claude-sonnet-5-5",
+  "readout": "unclear",
+  "reason": "no main results paper found"
+ },
+ "MSFT-NCT01285401|readout_v2|d6ed199f90": {
+  "checker_model": "claude-haiku-5-5",
+  "checker_said": "not_met",
+  "msf_trial_id": "MSFT-NCT01285401",
+  "pmid": "31594857",
+  "pmids_considered": [
+   "21620416",
+   "28731372",
+   "31594857",
+   "23356351"
+  ],
+  "prompt_version": "readout_v2",
+  "quote": "At 48 weeks, 36.3% of patients who received high-dose vitamin D 3 had NEDA-3, without a statistically significant difference in NEDA-3 status between groups (placebo 35.3%; odds ratio 0.93; 95% confidence interval [CI] 0.53-1.63; p = 0.80).",
+  "read_on": "2026-10-28",
+  "reader_model": "claude-sonnet-5-5",
+  "reader_said": "not_met",
+  "readout": "not_met",
+  "reason": null,
+  "result": {
+   "effect": {
+    "ci_lower": "0.53",
+    "ci_upper": null,
+    "type": "odds ratio",
+    "value": "0.93"
+   },
+   "follow_up": "48 weeks",
+   "groups": [
+    {
+     "group": "SC IFN-\u03b2-1a plus placebo",
+     "n": "116",
+     "value": "35.3%"
+    }
+   ],
+   "measure": "Proportion of patients with no evidence of disease activity (NEDA-3) at week 48",
+   "n_randomised": "229",
+   "p": "p = 0.80"
+  }
+ },
  "MSFT-NCT01359566|readout_v1|21098edd28": {
   "checker_model": "claude-haiku-5-5",
   "msf_trial_id": "MSFT-NCT01359566",
@@ -1035,6 +3083,55 @@
   ],
   "prompt_version": "readout_v1",
   "read_on": "2026-10-27",
+  "reader_model": "claude-sonnet-5-5",
+  "readout": "unclear",
+  "reason": "no main results paper found"
+ },
+ "MSFT-NCT01359566|readout_v2|21098edd28": {
+  "checker_model": "claude-haiku-5-5",
+  "msf_trial_id": "MSFT-NCT01359566",
+  "pmid": null,
+  "pmids_considered": [
+   "37137892",
+   "41583906"
+  ],
+  "prompt_version": "readout_v2",
+  "read_on": "2026-10-28",
+  "reader_model": "claude-sonnet-5-5",
+  "readout": "unclear",
+  "reason": "no main results paper found"
+ },
+ "MSFT-NCT01405820|readout_v2|f3dbba66e8": {
+  "checker_model": "claude-haiku-5-5",
+  "checker_said": "unclear",
+  "msf_trial_id": "MSFT-NCT01405820",
+  "pmid": "33821693",
+  "pmids_considered": [
+   "33821693",
+   "25342976",
+   "32949472",
+   "40236791"
+  ],
+  "prompt_version": "readout_v2",
+  "quote": "All Q12W dosing arms were associated with increased clinical and MRI disease activity and closed early; \u2a7e39.5% of patients in each Q12W arm met rescue criteria.",
+  "read_on": "2026-10-28",
+  "reader_model": "claude-sonnet-5-5",
+  "reader_said": "not_met",
+  "readout": "unclear",
+  "reason": "second model disagreed"
+ },
+ "MSFT-NCT01433250|readout_v2|8122eeba94": {
+  "checker_model": "claude-haiku-5-5",
+  "msf_trial_id": "MSFT-NCT01433250",
+  "pmid": null,
+  "pmids_considered": [
+   "26033077",
+   "26600872",
+   "35790881",
+   "35794296"
+  ],
+  "prompt_version": "readout_v2",
+  "read_on": "2026-10-28",
   "reader_model": "claude-sonnet-5-5",
   "readout": "unclear",
   "reason": "no main results paper found"
@@ -1058,6 +3155,44 @@
   "readout": "unclear",
   "reason": "second model disagreed"
  },
+ "MSFT-NCT01433497|readout_v2|037a836d50": {
+  "checker_model": "claude-haiku-5-5",
+  "checker_said": "unclear",
+  "msf_trial_id": "MSFT-NCT01433497",
+  "pmid": "35190477",
+  "pmids_considered": [
+   "35190477",
+   "24707333",
+   "25772899",
+   "26330083"
+  ],
+  "prompt_version": "readout_v2",
+  "quote": "Masitinib (4.5 mg/kg/d) (n = 199) showed significant benefit over placebo (n = 101) according to the primary end point, 0.001 vs 0.098, respectively, with a between-group difference of -0.097 (97% CI -0.192 to -0.002); p = 0.0256.",
+  "read_on": "2026-10-28",
+  "reader_model": "claude-sonnet-5-5",
+  "reader_said": "met",
+  "readout": "unclear",
+  "reason": "second model disagreed"
+ },
+ "MSFT-NCT01440062|readout_v2|05e8365158": {
+  "checker_model": "claude-haiku-5-5",
+  "checker_said": "unclear",
+  "msf_trial_id": "MSFT-NCT01440062",
+  "pmid": "32047645",
+  "pmids_considered": [
+   "22316314",
+   "32830462",
+   "32047645",
+   "23356351"
+  ],
+  "prompt_version": "readout_v2",
+  "quote": "After 18 months, clinical (relapse rates, disability progression) and radiographical (T2-weighted lesion development, contrast-enhancing lesion development, brain atrophy) did not differ between both treatment arms.",
+  "read_on": "2026-10-28",
+  "reader_model": "claude-sonnet-5-5",
+  "reader_said": "not_met",
+  "readout": "unclear",
+  "reason": "second model disagreed"
+ },
  "MSFT-NCT01450488|readout_v1|31e4f51d0f": {
   "checker_model": "claude-haiku-5-5",
   "checker_said": "unclear",
@@ -1074,6 +3209,96 @@
   "read_on": "2026-10-27",
   "reader_model": "claude-sonnet-5-5",
   "reader_said": "not_met",
+  "readout": "unclear",
+  "reason": "second model disagreed"
+ },
+ "MSFT-NCT01450488|readout_v2|31e4f51d0f": {
+  "checker_model": "claude-haiku-5-5",
+  "checker_said": "unclear",
+  "msf_trial_id": "MSFT-NCT01450488",
+  "pmid": "22691628",
+  "pmids_considered": [
+   "22691628",
+   "26033077",
+   "38275058",
+   "39221072"
+  ],
+  "prompt_version": "readout_v2",
+  "quote": "This positive, albeit non-statistically significant response was observed as early as month-3 and sustained through to month-18, with similar trends seen in the PPMS and rfSPMS subpopulations.",
+  "read_on": "2026-10-28",
+  "reader_model": "claude-sonnet-5-5",
+  "reader_said": "not_met",
+  "readout": "unclear",
+  "reason": "second model disagreed"
+ },
+ "MSFT-NCT01451593|readout_v2|e42ff4c069": {
+  "checker_model": "claude-haiku-5-5",
+  "checker_said": "unclear",
+  "msf_trial_id": "MSFT-NCT01451593",
+  "pmid": "26822749",
+  "pmids_considered": [
+   "26932144",
+   "40997284",
+   "24287594",
+   "26822749"
+  ],
+  "prompt_version": "readout_v2",
+  "quote": "Mean 6-month RNFL thickness in the affected eye at 6 months was 81.46 \u03bcm (SD 16.27) in the phenytoin group (a mean decrease of 16.69 \u03bcm [SD 13.73] from baseline) versus 74.29 \u03bcm (15.14) in the placebo group (a mean decrease of 23.79 \u03bcm [13.97] since baseline; adjusted 6-month difference of 7.15 \u03bcm [95% CI 1.08-13.22]; p=0.021), corresponding to a 30% reduction in the extent of RNFL loss with phenytoin compared with placebo.",
+  "read_on": "2026-10-28",
+  "reader_model": "claude-sonnet-5-5",
+  "reader_said": "met",
+  "readout": "unclear",
+  "reason": "second model disagreed"
+ },
+ "MSFT-NCT01465893|readout_v2|654a01b3a0": {
+  "checker_model": "claude-haiku-5-5",
+  "checker_said": "unclear",
+  "msf_trial_id": "MSFT-NCT01465893",
+  "pmid": "26109993",
+  "pmids_considered": [
+   "26109993",
+   "36613531"
+  ],
+  "prompt_version": "readout_v2",
+  "quote": "Average thickness of RNFL at the end of trial did not differ between groups.",
+  "read_on": "2026-10-28",
+  "reader_model": "claude-sonnet-5-5",
+  "reader_said": "not_met",
+  "readout": "unclear",
+  "reason": "second model disagreed"
+ },
+ "MSFT-NCT01466114|readout_v2|49f26a4652": {
+  "checker_model": "claude-haiku-5-5",
+  "msf_trial_id": "MSFT-NCT01466114",
+  "pmid": null,
+  "pmids_considered": [
+   "23633287",
+   "24343792",
+   "28766273",
+   "29228214"
+  ],
+  "prompt_version": "readout_v2",
+  "read_on": "2026-10-28",
+  "reader_model": "claude-sonnet-5-5",
+  "readout": "unclear",
+  "reason": "no main results paper found"
+ },
+ "MSFT-NCT01487096|readout_v2|94a7a8d464": {
+  "checker_model": "claude-haiku-5-5",
+  "checker_said": "unclear",
+  "msf_trial_id": "MSFT-NCT01487096",
+  "pmid": "16567708",
+  "pmids_considered": [
+   "16567708",
+   "33023488",
+   "23761970",
+   "23997924"
+  ],
+  "prompt_version": "readout_v2",
+  "quote": "The median number of combined unique active lesions per scan was 0.5, 0.2, and 0.3 in the placebo, teriflunomide 7 mg/day (p < 0.03 vs placebo), and teriflunomide 14 mg/day (p < 0.01 vs placebo) groups during the 36-week double-blind treatment phase.",
+  "read_on": "2026-10-28",
+  "reader_model": "claude-sonnet-5-5",
+  "reader_said": "met",
   "readout": "unclear",
   "reason": "second model disagreed"
  },
@@ -1096,6 +3321,25 @@
   "readout": "unclear",
   "reason": "second model disagreed"
  },
+ "MSFT-NCT01489254|readout_v2|0b9a2dbba7": {
+  "checker_model": "claude-haiku-5-5",
+  "checker_said": "unclear",
+  "msf_trial_id": "MSFT-NCT01489254",
+  "pmid": "26458034",
+  "pmids_considered": [
+   "26458034",
+   "28090798",
+   "24707333",
+   "29926371"
+  ],
+  "prompt_version": "readout_v2",
+  "quote": "For gadolinium-enhancing lesions, the estimated ratio of generic drug to brand drug was 1.095 (95% CI, 0.883-1.360), which was within the predefined equivalence margin of 0.727 to 1.375.",
+  "read_on": "2026-10-28",
+  "reader_model": "claude-sonnet-5-5",
+  "reader_said": "equivalent",
+  "readout": "unclear",
+  "reason": "second model disagreed"
+ },
  "MSFT-NCT01499667|readout_v1|c0579b81bd": {
   "checker_model": "claude-haiku-5-5",
   "msf_trial_id": "MSFT-NCT01499667",
@@ -1108,6 +3352,68 @@
   ],
   "prompt_version": "readout_v1",
   "read_on": "2026-10-27",
+  "reader_model": "claude-sonnet-5-5",
+  "readout": "unclear",
+  "reason": "no main results paper found"
+ },
+ "MSFT-NCT01499667|readout_v2|c0579b81bd": {
+  "checker_model": "claude-haiku-5-5",
+  "msf_trial_id": "MSFT-NCT01499667",
+  "pmid": "26024899",
+  "pmids_considered": [
+   "28856176",
+   "26024899",
+   "26033077",
+   "28812220"
+  ],
+  "prompt_version": "readout_v2",
+  "read_on": "2026-10-28",
+  "reader_model": "claude-sonnet-5-5",
+  "readout": "unclear",
+  "reason": "no main results paper found"
+ },
+ "MSFT-NCT01516554|readout_v2|5508ad68e9": {
+  "checker_model": "claude-haiku-5-5",
+  "msf_trial_id": "MSFT-NCT01516554",
+  "pmid": null,
+  "pmids_considered": [
+   "26033077",
+   "34803897"
+  ],
+  "prompt_version": "readout_v2",
+  "read_on": "2026-10-28",
+  "reader_model": "claude-sonnet-5-5",
+  "readout": "unclear",
+  "reason": "no main results paper found"
+ },
+ "MSFT-NCT01576354|readout_v2|5306e3b7d5": {
+  "checker_model": "claude-haiku-5-5",
+  "msf_trial_id": "MSFT-NCT01576354",
+  "pmid": "26762672",
+  "pmids_considered": [
+   "26762672",
+   "28148629",
+   "30171655",
+   "32500374"
+  ],
+  "prompt_version": "readout_v2",
+  "read_on": "2026-10-28",
+  "reader_model": "claude-sonnet-5-5",
+  "readout": "unclear",
+  "reason": "no main results paper found"
+ },
+ "MSFT-NCT01597297|readout_v2|16aa1006d9": {
+  "checker_model": "claude-haiku-5-5",
+  "msf_trial_id": "MSFT-NCT01597297",
+  "pmid": "25921050",
+  "pmids_considered": [
+   "25921050",
+   "24800078",
+   "28607701",
+   "35601756"
+  ],
+  "prompt_version": "readout_v2",
+  "read_on": "2026-10-28",
   "reader_model": "claude-sonnet-5-5",
   "readout": "unclear",
   "reason": "no main results paper found"
@@ -1128,6 +3434,64 @@
   "readout": "unclear",
   "reason": "second model disagreed"
  },
+ "MSFT-NCT01600716|readout_v2|ae7c692c97": {
+  "checker_model": "claude-haiku-5-5",
+  "checker_said": "met",
+  "msf_trial_id": "MSFT-NCT01600716",
+  "pmid": "30030330",
+  "pmids_considered": [
+   "30030330"
+  ],
+  "prompt_version": "readout_v2",
+  "quote": "OnabotulinumtoxinA vs placebo significantly reduced UI at week 6 (-3.3 episodes/day vs -1.1 episodes/day, p < 0.001; primary endpoint).",
+  "read_on": "2026-10-28",
+  "reader_model": "claude-sonnet-5-5",
+  "reader_said": "met",
+  "readout": "met",
+  "reason": null,
+  "result": {
+   "follow_up": "week 6",
+   "groups": [
+    {
+     "group": "onabotulinumtoxinA 100 U",
+     "n": "66",
+     "value": "-3.3 episodes/day"
+    },
+    {
+     "group": "placebo",
+     "n": "78",
+     "value": "-1.1 episodes/day"
+    }
+   ],
+   "p": "p < 0.001"
+  }
+ },
+ "MSFT-NCT01615887|readout_v2|053773c5bc": {
+  "checker_model": "claude-haiku-5-5",
+  "msf_trial_id": "MSFT-NCT01615887",
+  "pmid": "23901276",
+  "pmids_considered": [
+   "23901276"
+  ],
+  "prompt_version": "readout_v2",
+  "read_on": "2026-10-28",
+  "reader_model": "claude-sonnet-5-5",
+  "readout": "unclear",
+  "reason": "no main results paper found"
+ },
+ "MSFT-NCT01627938|readout_v2|a4da4fa1de": {
+  "checker_model": "claude-haiku-5-5",
+  "msf_trial_id": "MSFT-NCT01627938",
+  "pmid": "40475985",
+  "pmids_considered": [
+   "40475985"
+  ],
+  "prompt_version": "readout_v2",
+  "read_on": "2026-10-28",
+  "reader_model": "claude-sonnet-5-5",
+  "readout": "unclear",
+  "reason": "no main results paper found"
+ },
  "MSFT-NCT01633112|readout_v1|8f0899a3f8": {
   "checker_model": "claude-haiku-5-5",
   "msf_trial_id": "MSFT-NCT01633112",
@@ -1142,6 +3506,79 @@
   "reader_model": "claude-sonnet-5-5",
   "readout": "unclear",
   "reason": "invalid reader response"
+ },
+ "MSFT-NCT01633112|readout_v2|8f0899a3f8": {
+  "checker_model": "claude-haiku-5-5",
+  "checker_said": "unclear",
+  "msf_trial_id": "MSFT-NCT01633112",
+  "pmid": "32852530",
+  "pmids_considered": [
+   "32852530",
+   "26480875",
+   "27091121",
+   "32580348"
+  ],
+  "prompt_version": "readout_v2",
+  "quote": "Treatment with fingolimod, 0.5 mg, was superior to treatment with glatiramer acetate, 20 mg, in reducing ARR (40.7% relative reduction); the relative reduction with fingolimod, 0.25 mg, was 14.6%, which was not statistically significant (for fingolimod, 0.5 mg, ARR, 0.15; 95% CI, 0.11-0.21; for fingolimod, 0.25 mg, ARR, 0.22; 95% CI, 0.17-0.29; for glatiramer acetate, 20 mg, ARR, 0.26; 95% CI, 0.20-0.34).",
+  "read_on": "2026-10-28",
+  "reader_model": "claude-sonnet-5-5",
+  "reader_said": "mixed",
+  "readout": "unclear",
+  "reason": "second model disagreed"
+ },
+ "MSFT-NCT01639300|readout_v2|6682172376": {
+  "checker_model": "claude-haiku-5-5",
+  "checker_said": "unclear",
+  "msf_trial_id": "MSFT-NCT01639300",
+  "pmid": "25392325",
+  "pmids_considered": [
+   "25392325",
+   "25957268",
+   "26600872",
+   "27595123"
+  ],
+  "prompt_version": "readout_v2",
+  "quote": "The primary objective was to assess GNbAC1 safety in MS patients, and the other objectives were pharmacokinetic and pharmacodynamic assessments.",
+  "read_on": "2026-10-28",
+  "reader_model": "claude-sonnet-5-5",
+  "reader_said": "not_efficacy",
+  "readout": "unclear",
+  "reason": "second model disagreed"
+ },
+ "MSFT-NCT01684761|readout_v2|fc03b796d3": {
+  "checker_model": "claude-haiku-5-5",
+  "msf_trial_id": "MSFT-NCT01684761",
+  "pmid": null,
+  "pmids_considered": [
+   "25772899",
+   "26563391",
+   "26729332",
+   "29761344"
+  ],
+  "prompt_version": "readout_v2",
+  "read_on": "2026-10-28",
+  "reader_model": "claude-sonnet-5-5",
+  "readout": "unclear",
+  "reason": "no main results paper found"
+ },
+ "MSFT-NCT01742052|readout_v2|ea39a2e68b": {
+  "checker_model": "claude-haiku-5-5",
+  "checker_said": "unclear",
+  "msf_trial_id": "MSFT-NCT01742052",
+  "pmid": "27543447",
+  "pmids_considered": [
+   "27543447",
+   "28911260",
+   "26239599",
+   "28035084"
+  ],
+  "prompt_version": "readout_v2",
+  "quote": "The estimated incident rate ratio compared with placebo was dose-dependently decreased with amiselimod (0\u00b71 mg 0\u00b753 [95% CI 0\u00b733-0\u00b785; p=0\u00b70079], 0\u00b72 mg 0\u00b739 [95% CI 0\u00b724-0\u00b763; p=0\u00b70001], and 0\u00b74 mg 0\u00b723 [95% CI 0\u00b714-0\u00b738; p<0\u00b70001]).",
+  "read_on": "2026-10-28",
+  "reader_model": "claude-sonnet-5-5",
+  "reader_said": "met",
+  "readout": "unclear",
+  "reason": "second model disagreed"
  },
  "MSFT-NCT01743651|readout_v1|89def751d3": {
   "checker_model": "claude-haiku-5-5",
@@ -1160,6 +3597,65 @@
   "readout": "unclear",
   "reason": "second model disagreed"
  },
+ "MSFT-NCT01743651|readout_v2|89def751d3": {
+  "checker_model": "claude-haiku-5-5",
+  "checker_said": "unclear",
+  "msf_trial_id": "MSFT-NCT01743651",
+  "pmid": "36519155",
+  "pmids_considered": [
+   "36519155",
+   "41583906"
+  ],
+  "prompt_version": "readout_v2",
+  "quote": "At Week 12, the least squares mean change from baseline in Total Numeric-transformed Modified Ashworth Scale in the Most Affected Limb score was -1.67 (95% confidence interval: -1.97 to -1.36) and -1.28 (95% confidence interval: -1.57 to -0.99) in the arbaclofen extended-release 40 mg/day and placebo groups, respectively (least squares mean difference: -0.39; P < 0.048).",
+  "read_on": "2026-10-28",
+  "reader_model": "claude-sonnet-5-5",
+  "reader_said": "mixed",
+  "readout": "unclear",
+  "reason": "second model disagreed"
+ },
+ "MSFT-NCT01744444|readout_v2|f702480013": {
+  "checker_model": "claude-haiku-5-5",
+  "msf_trial_id": "MSFT-NCT01744444",
+  "pmid": "31169568",
+  "pmids_considered": [
+   "31169568"
+  ],
+  "prompt_version": "readout_v2",
+  "read_on": "2026-10-28",
+  "reader_model": "claude-sonnet-5-5",
+  "readout": "unclear",
+  "reason": "no main results paper found"
+ },
+ "MSFT-NCT01753375|readout_v2|9023dfe4ad": {
+  "checker_model": "claude-haiku-5-5",
+  "msf_trial_id": "MSFT-NCT01753375",
+  "pmid": null,
+  "pmids_considered": [
+   "23356351",
+   "24707333",
+   "30246874"
+  ],
+  "prompt_version": "readout_v2",
+  "read_on": "2026-10-28",
+  "reader_model": "claude-sonnet-5-5",
+  "readout": "unclear",
+  "reason": "no main results paper found"
+ },
+ "MSFT-NCT01757691|readout_v2|77c1aa13cd": {
+  "checker_model": "claude-haiku-5-5",
+  "msf_trial_id": "MSFT-NCT01757691",
+  "pmid": null,
+  "pmids_considered": [
+   "23954895",
+   "32580348"
+  ],
+  "prompt_version": "readout_v2",
+  "read_on": "2026-10-28",
+  "reader_model": "claude-sonnet-5-5",
+  "readout": "unclear",
+  "reason": "no main results paper found"
+ },
  "MSFT-NCT01768039|readout_v1|09d4d1cb08": {
   "checker_model": "claude-haiku-5-5",
   "msf_trial_id": "MSFT-NCT01768039",
@@ -1173,6 +3669,58 @@
   "reader_model": "claude-sonnet-5-5",
   "readout": "unclear",
   "reason": "no main results paper found"
+ },
+ "MSFT-NCT01768039|readout_v2|09d4d1cb08": {
+  "checker_model": "claude-haiku-5-5",
+  "msf_trial_id": "MSFT-NCT01768039",
+  "pmid": "30246874",
+  "pmids_considered": [
+   "24707333",
+   "30246874"
+  ],
+  "prompt_version": "readout_v2",
+  "read_on": "2026-10-28",
+  "reader_model": "claude-sonnet-5-5",
+  "readout": "unclear",
+  "reason": "no main results paper found"
+ },
+ "MSFT-NCT01772199|readout_v2|5814505a69": {
+  "checker_model": "claude-haiku-5-5",
+  "checker_said": "unclear",
+  "msf_trial_id": "MSFT-NCT01772199",
+  "pmid": "27888416",
+  "pmids_considered": [
+   "27888416",
+   "28948533",
+   "30270725",
+   "31190170"
+  ],
+  "prompt_version": "readout_v2",
+  "quote": "GSK239512 was associated with positive effect sizes of 0.344 [90% confidence interval (CI) 0.018, 0.671] and 0.243 (90% CI -0.112, 0.598) for adjusted mean changes in the normalised MTR for GdE and Delta-MTR lesions, respectively.",
+  "read_on": "2026-10-28",
+  "reader_model": "claude-sonnet-5-5",
+  "reader_said": "mixed",
+  "readout": "unclear",
+  "reason": "second model disagreed"
+ },
+ "MSFT-NCT01802489|readout_v2|817701a1ea": {
+  "checker_model": "claude-haiku-5-5",
+  "checker_said": "unclear",
+  "msf_trial_id": "MSFT-NCT01802489",
+  "pmid": "29172994",
+  "pmids_considered": [
+   "26553836",
+   "29172994",
+   "24601592",
+   "25159125"
+  ],
+  "prompt_version": "readout_v2",
+  "quote": "No significant differences were found in GDx ( p = 0.840).",
+  "read_on": "2026-10-28",
+  "reader_model": "claude-sonnet-5-5",
+  "reader_said": "not_met",
+  "readout": "unclear",
+  "reason": "second model disagreed"
  },
  "MSFT-NCT01817166|readout_v1|38cf2090b5": {
   "checker_model": "claude-haiku-5-5",
@@ -1193,6 +3741,25 @@
   "readout": "unclear",
   "reason": "second model disagreed"
  },
+ "MSFT-NCT01817166|readout_v2|38cf2090b5": {
+  "checker_model": "claude-haiku-5-5",
+  "checker_said": "unclear",
+  "msf_trial_id": "MSFT-NCT01817166",
+  "pmid": "40063041",
+  "pmids_considered": [
+   "31454777",
+   "40063041",
+   "26826205",
+   "28167940"
+  ],
+  "prompt_version": "readout_v2",
+  "quote": "Disease activity was observed in 94 patients (60.3%) in the vitamin D group and 109 patients (74.1%) in the placebo group (hazard ratio [HR], 0.66 [95% CI, 0.50-0.87]; P = .004), and median time to disease activity was longer in the vitamin D group (432 vs 224 days; log-rank P = .003).",
+  "read_on": "2026-10-28",
+  "reader_model": "claude-sonnet-5-5",
+  "reader_said": "met",
+  "readout": "unclear",
+  "reason": "second model disagreed"
+ },
  "MSFT-NCT01838668|readout_v1|124b560f86": {
   "checker_model": "claude-haiku-5-5",
   "msf_trial_id": "MSFT-NCT01838668",
@@ -1207,6 +3774,74 @@
   "reader_model": "claude-sonnet-5-5",
   "readout": "unclear",
   "reason": "invalid reader response"
+ },
+ "MSFT-NCT01838668|readout_v2|124b560f86": {
+  "checker_model": "claude-haiku-5-5",
+  "checker_said": "unclear",
+  "msf_trial_id": "MSFT-NCT01838668",
+  "pmid": "30616596",
+  "pmids_considered": [
+   "30206820",
+   "30616596",
+   "31391949",
+   "31218077"
+  ],
+  "prompt_version": "readout_v2",
+  "quote": "From weeks 12 - 24, the total number of new gadolinium-enhancing (Gd + ) lesions was reduced by 84% (p < 0.0001) in DMF compared with placebo.",
+  "read_on": "2026-10-28",
+  "reader_model": "claude-sonnet-5-5",
+  "reader_said": "met",
+  "readout": "unclear",
+  "reason": "second model disagreed"
+ },
+ "MSFT-NCT01874340|readout_v2|c9e3ec0e8c": {
+  "checker_model": "claude-haiku-5-5",
+  "msf_trial_id": "MSFT-NCT01874340",
+  "pmid": null,
+  "pmids_considered": [
+   "24679538",
+   "25145755",
+   "26563391",
+   "26914737"
+  ],
+  "prompt_version": "readout_v2",
+  "read_on": "2026-10-28",
+  "reader_model": "claude-sonnet-5-5",
+  "readout": "unclear",
+  "reason": "no main results paper found"
+ },
+ "MSFT-NCT01879527|readout_v2|14e090b89f": {
+  "checker_model": "claude-haiku-5-5",
+  "msf_trial_id": "MSFT-NCT01879527",
+  "pmid": null,
+  "pmids_considered": [
+   "27595123",
+   "30539804"
+  ],
+  "prompt_version": "readout_v2",
+  "read_on": "2026-10-28",
+  "reader_model": "claude-sonnet-5-5",
+  "readout": "unclear",
+  "reason": "no main results paper found"
+ },
+ "MSFT-NCT01890655|readout_v2|c5434e26ce": {
+  "checker_model": "claude-haiku-5-5",
+  "checker_said": "unclear",
+  "msf_trial_id": "MSFT-NCT01890655",
+  "pmid": "28911260",
+  "pmids_considered": [
+   "28911260",
+   "26239599",
+   "28812220",
+   "32580348"
+  ],
+  "prompt_version": "readout_v2",
+  "quote": "One or more adverse events were reported in 303 (82.6%) of 367 patients: 'headache', 'lymphocyte count decreased', 'nasopharyngitis' and 'MS relapse' were most common (14.7%-16.9%).",
+  "read_on": "2026-10-28",
+  "reader_model": "claude-sonnet-5-5",
+  "reader_said": "not_efficacy",
+  "readout": "unclear",
+  "reason": "second model disagreed"
  },
  "MSFT-NCT01892345|readout_v1|9d431018d8": {
   "checker_model": "claude-haiku-5-5",
@@ -1227,6 +3862,47 @@
   "readout": "met",
   "reason": null
  },
+ "MSFT-NCT01892345|readout_v2|9d431018d8": {
+  "checker_model": "claude-haiku-5-5",
+  "checker_said": "met",
+  "msf_trial_id": "MSFT-NCT01892345",
+  "pmid": "31050279",
+  "pmids_considered": [
+   "31050279",
+   "33310418",
+   "33586143",
+   "33676197"
+  ],
+  "prompt_version": "readout_v2",
+  "quote": "Adjudicated relapses occurred in 3 of 96 patients (3%) in the eculizumab group and 20 of 47 (43%) in the placebo group (hazard ratio, 0.06; 95% confidence interval [CI], 0.02 to 0.20; P<0.001).",
+  "read_on": "2026-10-28",
+  "reader_model": "claude-sonnet-5-5",
+  "reader_said": "met",
+  "readout": "met",
+  "reason": null,
+  "result": {
+   "effect": {
+    "ci_lower": "0.02",
+    "ci_upper": "0.20",
+    "type": "hazard ratio",
+    "value": "0.06"
+   },
+   "groups": [
+    {
+     "group": "Eculizumab",
+     "n": "96",
+     "value": "3 of 96 patients (3%) with adjudicated relapse"
+    },
+    {
+     "group": "Placebo",
+     "n": "47",
+     "value": "20 of 47 patients (43%) with adjudicated relapse"
+    }
+   ],
+   "n_randomised": "143",
+   "p": "P<0.001"
+  }
+ },
  "MSFT-NCT01910259|readout_v1|67a9d7261f": {
   "checker_model": "claude-haiku-5-5",
   "checker_said": "not_met",
@@ -1246,6 +3922,54 @@
   "readout": "not_met",
   "reason": null
  },
+ "MSFT-NCT01910259|readout_v2|67a9d7261f": {
+  "checker_model": "claude-haiku-5-5",
+  "checker_said": "unclear",
+  "msf_trial_id": "MSFT-NCT01910259",
+  "pmid": "31981516",
+  "pmids_considered": [
+   "30166303",
+   "31981516",
+   "33154071",
+   "35671671"
+  ],
+  "prompt_version": "readout_v2",
+  "quote": "No difference was noted between any active treatment and placebo in PBVC (amiloride vs placebo, 0\u00b70% [95% CI -0\u00b74 to 0\u00b75; p=0\u00b799]; fluoxetine vs placebo -0\u00b71% [-0\u00b75 to 0\u00b73; p=0\u00b786]; riluzole vs placebo -0\u00b71% [-0\u00b76 to 0\u00b73; p=0\u00b777]).",
+  "read_on": "2026-10-28",
+  "reader_model": "claude-sonnet-5-5",
+  "reader_said": "not_met",
+  "readout": "unclear",
+  "reason": "second model disagreed"
+ },
+ "MSFT-NCT01911377|readout_v2|94762472c7": {
+  "checker_model": "claude-haiku-5-5",
+  "msf_trial_id": "MSFT-NCT01911377",
+  "pmid": "38499760",
+  "pmids_considered": [
+   "38499760"
+  ],
+  "prompt_version": "readout_v2",
+  "read_on": "2026-10-28",
+  "reader_model": "claude-sonnet-5-5",
+  "readout": "unclear",
+  "reason": "no main results paper found"
+ },
+ "MSFT-NCT01950234|readout_v2|eeab3c3dbf": {
+  "checker_model": "claude-haiku-5-5",
+  "msf_trial_id": "MSFT-NCT01950234",
+  "pmid": null,
+  "pmids_considered": [
+   "25772899",
+   "26729332",
+   "27763513",
+   "31362384"
+  ],
+  "prompt_version": "readout_v2",
+  "read_on": "2026-10-28",
+  "reader_model": "claude-sonnet-5-5",
+  "readout": "unclear",
+  "reason": "no main results paper found"
+ },
  "MSFT-NCT01962571|readout_v1|786e17c0a4": {
   "checker_model": "claude-haiku-5-5",
   "checker_said": "unclear",
@@ -1260,6 +3984,25 @@
   "prompt_version": "readout_v1",
   "quote": "Mean pRNFL atrophy was 15\u00b793 \u03bcm (SD 14\u00b791) in the erythropoietin group and 14\u00b765 \u03bcm (15\u00b760) in the placebo group (adjusted mean treatment difference 1\u00b702 \u03bcm; 95% CI -5\u00b751 to 7\u00b755; p=0\u00b776).",
   "read_on": "2026-10-27",
+  "reader_model": "claude-sonnet-5-5",
+  "reader_said": "not_met",
+  "readout": "unclear",
+  "reason": "second model disagreed"
+ },
+ "MSFT-NCT01962571|readout_v2|786e17c0a4": {
+  "checker_model": "claude-haiku-5-5",
+  "checker_said": "unclear",
+  "msf_trial_id": "MSFT-NCT01962571",
+  "pmid": "34800417",
+  "pmids_considered": [
+   "25063544",
+   "26932144",
+   "27706045",
+   "34800417"
+  ],
+  "prompt_version": "readout_v2",
+  "quote": "Mean pRNFL atrophy was 15\u00b793 \u03bcm (SD 14\u00b791) in the erythropoietin group and 14\u00b765 \u03bcm (15\u00b760) in the placebo group (adjusted mean treatment difference 1\u00b702 \u03bcm; 95% CI -5\u00b751 to 7\u00b755; p=0\u00b776).",
+  "read_on": "2026-10-28",
   "reader_model": "claude-sonnet-5-5",
   "reader_said": "not_met",
   "readout": "unclear",
@@ -1281,6 +4024,61 @@
   "readout": "unclear",
   "reason": "second model disagreed"
  },
+ "MSFT-NCT02006160|readout_v2|bd86fa4ee3": {
+  "checker_model": "claude-haiku-5-5",
+  "checker_said": "not_met",
+  "msf_trial_id": "MSFT-NCT02006160",
+  "pmid": "30566030",
+  "pmids_considered": [
+   "30566030"
+  ],
+  "prompt_version": "readout_v2",
+  "quote": "Our primary outcome, performance on the Symbol Digit Modalities Test, did not improve.",
+  "read_on": "2026-10-28",
+  "reader_model": "claude-sonnet-5-5",
+  "reader_said": "not_met",
+  "readout": "not_met",
+  "reason": null,
+  "result": {
+   "follow_up": "12 weeks",
+   "measure": "Symbol Digit Modalities Test performance"
+  }
+ },
+ "MSFT-NCT02038049|readout_v2|6ab1a39920": {
+  "checker_model": "claude-haiku-5-5",
+  "msf_trial_id": "MSFT-NCT02038049",
+  "pmid": null,
+  "pmids_considered": [
+   "25824054",
+   "26197319",
+   "28450895",
+   "32785877"
+  ],
+  "prompt_version": "readout_v2",
+  "read_on": "2026-10-28",
+  "reader_model": "claude-sonnet-5-5",
+  "readout": "unclear",
+  "reason": "no main results paper found"
+ },
+ "MSFT-NCT02040298|readout_v2|38629544a7": {
+  "checker_model": "claude-haiku-5-5",
+  "checker_said": "unclear",
+  "msf_trial_id": "MSFT-NCT02040298",
+  "pmid": "29029896",
+  "pmids_considered": [
+   "29029896",
+   "37155847",
+   "40371642",
+   "35710320"
+  ],
+  "prompt_version": "readout_v2",
+  "quote": "The primary efficacy endpoint was met with clemastine fumarate treatment, which reduced the latency delay by 1\u00b77 ms/eye (95% CI 0\u00b75-2\u00b79; p=0\u00b70048) when analysing the trial as a crossover.",
+  "read_on": "2026-10-28",
+  "reader_model": "claude-sonnet-5-5",
+  "reader_said": "met",
+  "readout": "unclear",
+  "reason": "second model disagreed"
+ },
  "MSFT-NCT02044510|readout_v1|412bed080d": {
   "checker_model": "claude-haiku-5-5",
   "msf_trial_id": "MSFT-NCT02044510",
@@ -1290,6 +4088,64 @@
   ],
   "prompt_version": "readout_v1",
   "read_on": "2026-10-27",
+  "reader_model": "claude-sonnet-5-5",
+  "readout": "unclear",
+  "reason": "no main results paper found"
+ },
+ "MSFT-NCT02044510|readout_v2|412bed080d": {
+  "checker_model": "claude-haiku-5-5",
+  "msf_trial_id": "MSFT-NCT02044510",
+  "pmid": "37464255",
+  "pmids_considered": [
+   "37464255"
+  ],
+  "prompt_version": "readout_v2",
+  "read_on": "2026-10-28",
+  "reader_model": "claude-sonnet-5-5",
+  "readout": "unclear",
+  "reason": "no main results paper found"
+ },
+ "MSFT-NCT02096133|readout_v2|03a587f367": {
+  "checker_model": "claude-haiku-5-5",
+  "checker_said": "unclear",
+  "msf_trial_id": "MSFT-NCT02096133",
+  "pmid": "29755397",
+  "pmids_considered": [
+   "29755397"
+  ],
+  "prompt_version": "readout_v2",
+  "quote": "Comparisons within and between groups showed no differences in area under the curve (AUC) and slope of the cortisol day curve.",
+  "read_on": "2026-10-28",
+  "reader_model": "claude-sonnet-5-5",
+  "reader_said": "not_met",
+  "readout": "unclear",
+  "reason": "second model disagreed"
+ },
+ "MSFT-NCT02104661|readout_v2|9997737f23": {
+  "checker_model": "claude-haiku-5-5",
+  "msf_trial_id": "MSFT-NCT02104661",
+  "pmid": null,
+  "pmids_considered": [
+   "26486929",
+   "26729332",
+   "27103572",
+   "27763513"
+  ],
+  "prompt_version": "readout_v2",
+  "read_on": "2026-10-28",
+  "reader_model": "claude-sonnet-5-5",
+  "readout": "unclear",
+  "reason": "no main results paper found"
+ },
+ "MSFT-NCT02166346|readout_v2|2174347867": {
+  "checker_model": "claude-haiku-5-5",
+  "msf_trial_id": "MSFT-NCT02166346",
+  "pmid": "33419217",
+  "pmids_considered": [
+   "33419217"
+  ],
+  "prompt_version": "readout_v2",
+  "read_on": "2026-10-28",
   "reader_model": "claude-sonnet-5-5",
   "readout": "unclear",
   "reason": "no main results paper found"
@@ -1313,6 +4169,41 @@
   "readout": "not_met",
   "reason": null
  },
+ "MSFT-NCT02220244|readout_v2|06371523ea": {
+  "checker_model": "claude-haiku-5-5",
+  "checker_said": "not_met",
+  "msf_trial_id": "MSFT-NCT02220244",
+  "pmid": "29808469",
+  "pmids_considered": [
+   "29808469",
+   "40997284",
+   "31190170",
+   "31379852"
+  ],
+  "prompt_version": "readout_v2",
+  "quote": "The study did not meet its primary endpoint, as the mean change in the primary endpoint was nonsignificantly larger (p = 0.66) with MD1003 (- 0.061 logMAR, + 3.1 letters) than with placebo (- 0.036 logMAR, + 1.8 letters).",
+  "read_on": "2026-10-28",
+  "reader_model": "claude-sonnet-5-5",
+  "reader_said": "not_met",
+  "readout": "not_met",
+  "reason": null,
+  "result": {
+   "follow_up": "month 6",
+   "groups": [
+    {
+     "group": "MD1003",
+     "n": "65",
+     "value": "- 0.061 logMAR, + 3.1 letters"
+    },
+    {
+     "group": "Placebo",
+     "n": "28",
+     "value": "- 0.036 logMAR, + 1.8 letters"
+    }
+   ],
+   "p": "p = 0.66"
+  }
+ },
  "MSFT-NCT02220933|readout_v1|3d60184759": {
   "checker_model": "claude-haiku-5-5",
   "checker_said": "unclear",
@@ -1332,6 +4223,41 @@
   "readout": "unclear",
   "reason": "second model disagreed"
  },
+ "MSFT-NCT02220933|readout_v2|3d60184759": {
+  "checker_model": "claude-haiku-5-5",
+  "checker_said": "unclear",
+  "msf_trial_id": "MSFT-NCT02220933",
+  "pmid": "27589059",
+  "pmids_considered": [
+   "27589059",
+   "26033077",
+   "26729332",
+   "27595123"
+  ],
+  "prompt_version": "readout_v2",
+  "quote": "A total of 13 (12.6%) MD1003-treated patients achieved the primary endpoint versus none of the placebo-treated patients (p = 0.005).",
+  "read_on": "2026-10-28",
+  "reader_model": "claude-sonnet-5-5",
+  "reader_said": "met",
+  "readout": "unclear",
+  "reason": "second model disagreed"
+ },
+ "MSFT-NCT02249676|readout_v2|8d69578c93": {
+  "checker_model": "claude-haiku-5-5",
+  "msf_trial_id": "MSFT-NCT02249676",
+  "pmid": "27219819",
+  "pmids_considered": [
+   "27219819",
+   "27928464",
+   "31149051",
+   "31467564"
+  ],
+  "prompt_version": "readout_v2",
+  "read_on": "2026-10-28",
+  "reader_model": "claude-sonnet-5-5",
+  "readout": "unclear",
+  "reason": "no main results paper found"
+ },
  "MSFT-NCT02283853|readout_v1|442efca33e": {
   "checker_model": "claude-haiku-5-5",
   "msf_trial_id": "MSFT-NCT02283853",
@@ -1346,6 +4272,25 @@
   "reader_model": "claude-sonnet-5-5",
   "readout": "unclear",
   "reason": "invalid reader response"
+ },
+ "MSFT-NCT02283853|readout_v2|442efca33e": {
+  "checker_model": "claude-haiku-5-5",
+  "checker_said": "unclear",
+  "msf_trial_id": "MSFT-NCT02283853",
+  "pmid": "36169959",
+  "pmids_considered": [
+   "36169959",
+   "26283707",
+   "27582894",
+   "28895071"
+  ],
+  "prompt_version": "readout_v2",
+  "quote": "At week 96, the proportion of patients with no N or NE T2 hyperintense lesions among 103 trial completers was 16.1% (95% CI, 8.0%-27.7%) for DMF vs 4.9% (95% CI, 0.6%-16.5%) for IFN\u03b2-1a, and in a sensitivity analysis among the ITT population, the proportions were 10 patients receiving DMF (12.8%) vs 2 patients receiving IFN\u03b2-1a (2.8%).",
+  "read_on": "2026-10-28",
+  "reader_model": "claude-sonnet-5-5",
+  "reader_said": "not_met",
+  "readout": "unclear",
+  "reason": "second model disagreed"
  },
  "MSFT-NCT02398994|readout_v1|f466ca6168": {
   "checker_model": "claude-haiku-5-5",
@@ -1363,6 +4308,22 @@
   "readout": "unclear",
   "reason": "no main results paper found"
  },
+ "MSFT-NCT02398994|readout_v2|f466ca6168": {
+  "checker_model": "claude-haiku-5-5",
+  "msf_trial_id": "MSFT-NCT02398994",
+  "pmid": "28639937",
+  "pmids_considered": [
+   "26009577",
+   "28639937",
+   "33419217",
+   "34530847"
+  ],
+  "prompt_version": "readout_v2",
+  "read_on": "2026-10-28",
+  "reader_model": "claude-sonnet-5-5",
+  "readout": "unclear",
+  "reason": "no main results paper found"
+ },
  "MSFT-NCT02428231|readout_v1|3ed067ff93": {
   "checker_model": "claude-haiku-5-5",
   "msf_trial_id": "MSFT-NCT02428231",
@@ -1372,6 +4333,19 @@
   ],
   "prompt_version": "readout_v1",
   "read_on": "2026-10-27",
+  "reader_model": "claude-sonnet-5-5",
+  "readout": "unclear",
+  "reason": "no main results paper found"
+ },
+ "MSFT-NCT02428231|readout_v2|3ed067ff93": {
+  "checker_model": "claude-haiku-5-5",
+  "msf_trial_id": "MSFT-NCT02428231",
+  "pmid": "36497112",
+  "pmids_considered": [
+   "36497112"
+  ],
+  "prompt_version": "readout_v2",
+  "read_on": "2026-10-28",
   "reader_model": "claude-sonnet-5-5",
   "readout": "unclear",
   "reason": "no main results paper found"
@@ -1392,6 +4366,22 @@
   "readout": "unclear",
   "reason": "no main results paper found"
  },
+ "MSFT-NCT02430532|readout_v2|d8c7089bc5": {
+  "checker_model": "claude-haiku-5-5",
+  "msf_trial_id": "MSFT-NCT02430532",
+  "pmid": null,
+  "pmids_considered": [
+   "27433310",
+   "30730270",
+   "35144628",
+   "35740025"
+  ],
+  "prompt_version": "readout_v2",
+  "read_on": "2026-10-28",
+  "reader_model": "claude-sonnet-5-5",
+  "readout": "unclear",
+  "reason": "no main results paper found"
+ },
  "MSFT-NCT02466074|readout_v1|a614838532": {
   "checker_model": "claude-haiku-5-5",
   "msf_trial_id": "MSFT-NCT02466074",
@@ -1401,6 +4391,67 @@
   ],
   "prompt_version": "readout_v1",
   "read_on": "2026-10-27",
+  "reader_model": "claude-sonnet-5-5",
+  "readout": "unclear",
+  "reason": "no main results paper found"
+ },
+ "MSFT-NCT02466074|readout_v2|a614838532": {
+  "checker_model": "claude-haiku-5-5",
+  "msf_trial_id": "MSFT-NCT02466074",
+  "pmid": "37144692",
+  "pmids_considered": [
+   "37144692"
+  ],
+  "prompt_version": "readout_v2",
+  "read_on": "2026-10-28",
+  "reader_model": "claude-sonnet-5-5",
+  "readout": "unclear",
+  "reason": "no main results paper found"
+ },
+ "MSFT-NCT02471222|readout_v2|a3b856cdb0": {
+  "checker_model": "claude-haiku-5-5",
+  "msf_trial_id": "MSFT-NCT02471222",
+  "pmid": "37166702",
+  "pmids_considered": [
+   "37166702"
+  ],
+  "prompt_version": "readout_v2",
+  "read_on": "2026-10-28",
+  "reader_model": "claude-sonnet-5-5",
+  "readout": "unclear",
+  "reason": "no main results paper found"
+ },
+ "MSFT-NCT02493049|readout_v2|a881729657": {
+  "checker_model": "claude-haiku-5-5",
+  "checker_said": "unclear",
+  "msf_trial_id": "MSFT-NCT02493049",
+  "pmid": "38461731",
+  "pmids_considered": [
+   "38461731",
+   "28948533",
+   "30270725",
+   "31190170"
+  ],
+  "prompt_version": "readout_v2",
+  "quote": "The recruitment target was not met and therefore the trial model was not feasible despite a full completion rate.",
+  "read_on": "2026-10-28",
+  "reader_model": "claude-sonnet-5-5",
+  "reader_said": "not_efficacy",
+  "readout": "unclear",
+  "reason": "second model disagreed"
+ },
+ "MSFT-NCT02542787|readout_v2|705b1a04f8": {
+  "checker_model": "claude-haiku-5-5",
+  "msf_trial_id": "MSFT-NCT02542787",
+  "pmid": null,
+  "pmids_considered": [
+   "28677901",
+   "41946887",
+   "34196695",
+   "36160429"
+  ],
+  "prompt_version": "readout_v2",
+  "read_on": "2026-10-28",
   "reader_model": "claude-sonnet-5-5",
   "readout": "unclear",
   "reason": "no main results paper found"
@@ -1424,6 +4475,25 @@
   "readout": "not_met",
   "reason": null
  },
+ "MSFT-NCT02545959|readout_v2|8c9e5b9a24": {
+  "checker_model": "claude-haiku-5-5",
+  "checker_said": "unclear",
+  "msf_trial_id": "MSFT-NCT02545959",
+  "pmid": "33763241",
+  "pmids_considered": [
+   "41801644",
+   "28450895",
+   "32995987",
+   "33763241"
+  ],
+  "prompt_version": "readout_v2",
+  "quote": "OPN level remained stable in CSF at each time point, whereas NFL had slightly decreased (-8.7%) at day 21 ( p = 0.02).",
+  "read_on": "2026-10-28",
+  "reader_model": "claude-sonnet-5-5",
+  "reader_said": "not_met",
+  "readout": "unclear",
+  "reason": "second model disagreed"
+ },
  "MSFT-NCT02609607|readout_v1|84a70bad9e": {
   "checker_model": "claude-haiku-5-5",
   "msf_trial_id": "MSFT-NCT02609607",
@@ -1433,6 +4503,34 @@
   ],
   "prompt_version": "readout_v1",
   "read_on": "2026-10-27",
+  "reader_model": "claude-sonnet-5-5",
+  "readout": "unclear",
+  "reason": "no main results paper found"
+ },
+ "MSFT-NCT02609607|readout_v2|84a70bad9e": {
+  "checker_model": "claude-haiku-5-5",
+  "msf_trial_id": "MSFT-NCT02609607",
+  "pmid": "36297645",
+  "pmids_considered": [
+   "36297645"
+  ],
+  "prompt_version": "readout_v2",
+  "read_on": "2026-10-28",
+  "reader_model": "claude-sonnet-5-5",
+  "readout": "unclear",
+  "reason": "no main results paper found"
+ },
+ "MSFT-NCT02638038|readout_v2|f0176e284b": {
+  "checker_model": "claude-haiku-5-5",
+  "msf_trial_id": "MSFT-NCT02638038",
+  "pmid": null,
+  "pmids_considered": [
+   "32695150",
+   "35255453",
+   "37448959"
+  ],
+  "prompt_version": "readout_v2",
+  "read_on": "2026-10-28",
   "reader_model": "claude-sonnet-5-5",
   "readout": "unclear",
   "reason": "no main results paper found"
@@ -1453,6 +4551,22 @@
   "readout": "unclear",
   "reason": "no main results paper found"
  },
+ "MSFT-NCT02660138|readout_v2|a3565aa407": {
+  "checker_model": "claude-haiku-5-5",
+  "msf_trial_id": "MSFT-NCT02660138",
+  "pmid": "35400537",
+  "pmids_considered": [
+   "35400537",
+   "36321799",
+   "30288145",
+   "38499760"
+  ],
+  "prompt_version": "readout_v2",
+  "read_on": "2026-10-28",
+  "reader_model": "claude-sonnet-5-5",
+  "readout": "unclear",
+  "reason": "no main results paper found"
+ },
  "MSFT-NCT02660359|readout_v1|38ff7e245e": {
   "checker_model": "claude-haiku-5-5",
   "msf_trial_id": "MSFT-NCT02660359",
@@ -1464,6 +4578,21 @@
   ],
   "prompt_version": "readout_v1",
   "read_on": "2026-10-27",
+  "reader_model": "claude-sonnet-5-5",
+  "readout": "unclear",
+  "reason": "no main results paper found"
+ },
+ "MSFT-NCT02660359|readout_v2|38ff7e245e": {
+  "checker_model": "claude-haiku-5-5",
+  "msf_trial_id": "MSFT-NCT02660359",
+  "pmid": "35400537",
+  "pmids_considered": [
+   "35400537",
+   "36321799",
+   "30288145"
+  ],
+  "prompt_version": "readout_v2",
+  "read_on": "2026-10-28",
   "reader_model": "claude-sonnet-5-5",
   "readout": "unclear",
   "reason": "no main results paper found"
@@ -1480,6 +4609,22 @@
   ],
   "prompt_version": "readout_v1",
   "read_on": "2026-10-27",
+  "reader_model": "claude-sonnet-5-5",
+  "readout": "unclear",
+  "reason": "no main results paper found"
+ },
+ "MSFT-NCT02688985|readout_v2|a69711499d": {
+  "checker_model": "claude-haiku-5-5",
+  "msf_trial_id": "MSFT-NCT02688985",
+  "pmid": "unclear",
+  "pmids_considered": [
+   "39883906",
+   "42376811",
+   "29774057",
+   "33406479"
+  ],
+  "prompt_version": "readout_v2",
+  "read_on": "2026-10-28",
   "reader_model": "claude-sonnet-5-5",
   "readout": "unclear",
   "reason": "no main results paper found"
@@ -1503,6 +4648,25 @@
   "readout": "unclear",
   "reason": "second model disagreed"
  },
+ "MSFT-NCT02738775|readout_v2|06042cc6f3": {
+  "checker_model": "claude-haiku-5-5",
+  "checker_said": "unclear",
+  "msf_trial_id": "MSFT-NCT02738775",
+  "pmid": "32351164",
+  "pmids_considered": [
+   "32351164",
+   "29593838",
+   "33516134",
+   "34382120"
+  ],
+  "prompt_version": "readout_v2",
+  "quote": "In all cohorts ( N = 48), median B-cell depletion was >99% by week 4, maintained at weeks 24 and 48.",
+  "read_on": "2026-10-28",
+  "reader_model": "claude-sonnet-5-5",
+  "reader_said": "not_efficacy",
+  "readout": "unclear",
+  "reason": "second model disagreed"
+ },
  "MSFT-NCT02744222|readout_v1|c34474016b": {
   "checker_model": "claude-haiku-5-5",
   "msf_trial_id": "MSFT-NCT02744222",
@@ -1512,6 +4676,19 @@
   ],
   "prompt_version": "readout_v1",
   "read_on": "2026-10-27",
+  "reader_model": "claude-sonnet-5-5",
+  "readout": "unclear",
+  "reason": "no main results paper found"
+ },
+ "MSFT-NCT02744222|readout_v2|c34474016b": {
+  "checker_model": "claude-haiku-5-5",
+  "msf_trial_id": "MSFT-NCT02744222",
+  "pmid": "38708586",
+  "pmids_considered": [
+   "38708586"
+  ],
+  "prompt_version": "readout_v2",
+  "read_on": "2026-10-28",
   "reader_model": "claude-sonnet-5-5",
   "readout": "unclear",
   "reason": "no main results paper found"
@@ -1535,6 +4712,25 @@
   "readout": "unclear",
   "reason": "second model disagreed"
  },
+ "MSFT-NCT02746744|readout_v2|5e7aecbb7b": {
+  "checker_model": "claude-haiku-5-5",
+  "checker_said": "unclear",
+  "msf_trial_id": "MSFT-NCT02746744",
+  "pmid": "35841908",
+  "pmids_considered": [
+   "35841908",
+   "34295328",
+   "34748215",
+   "35794296"
+  ],
+  "prompt_version": "readout_v2",
+  "quote": "Three (3%) patients in the rituximab group and 16 (16%) patients in the dimethyl fumarate group had a protocol-defined relapse during the trial, corresponding to a risk ratio of 0\u00b719 (95% CI 0\u00b706-0\u00b762; p=0\u00b70060).",
+  "read_on": "2026-10-28",
+  "reader_model": "claude-sonnet-5-5",
+  "reader_said": "met",
+  "readout": "unclear",
+  "reason": "second model disagreed"
+ },
  "MSFT-NCT02753088|readout_v1|f2e1b30741": {
   "checker_model": "claude-haiku-5-5",
   "msf_trial_id": "MSFT-NCT02753088",
@@ -1545,6 +4741,20 @@
   ],
   "prompt_version": "readout_v1",
   "read_on": "2026-10-27",
+  "reader_model": "claude-sonnet-5-5",
+  "readout": "unclear",
+  "reason": "no main results paper found"
+ },
+ "MSFT-NCT02753088|readout_v2|f2e1b30741": {
+  "checker_model": "claude-haiku-5-5",
+  "msf_trial_id": "MSFT-NCT02753088",
+  "pmid": null,
+  "pmids_considered": [
+   "33126239",
+   "38032059"
+  ],
+  "prompt_version": "readout_v2",
+  "read_on": "2026-10-28",
   "reader_model": "claude-sonnet-5-5",
   "readout": "unclear",
   "reason": "no main results paper found"
@@ -1568,6 +4778,30 @@
   "readout": "not_met",
   "reason": null
  },
+ "MSFT-NCT02782858|readout_v2|6963aabfce": {
+  "checker_model": "claude-haiku-5-5",
+  "checker_said": "not_met",
+  "msf_trial_id": "MSFT-NCT02782858",
+  "pmid": "34240656",
+  "pmids_considered": [
+   "34240656",
+   "29075249",
+   "29551251",
+   "30270725"
+  ],
+  "prompt_version": "readout_v2",
+  "quote": "The primary endpoint was not met.",
+  "read_on": "2026-10-28",
+  "reader_model": "claude-sonnet-5-5",
+  "reader_said": "not_met",
+  "readout": "not_met",
+  "reason": null,
+  "result": {
+   "follow_up": "week 24",
+   "measure": "reduction of cumulative gadolinium-enhancing T1-lesions in brain magnetic resonance imaging (MRI) scans at week 24",
+   "n_randomised": "270"
+  }
+ },
  "MSFT-NCT02804594|readout_v1|e781fdc662": {
   "checker_model": "claude-haiku-5-5",
   "checker_said": "unclear",
@@ -1583,6 +4817,24 @@
   "read_on": "2026-10-27",
   "reader_model": "claude-sonnet-5-5",
   "reader_said": "met",
+  "readout": "unclear",
+  "reason": "second model disagreed"
+ },
+ "MSFT-NCT02804594|readout_v2|e781fdc662": {
+  "checker_model": "claude-haiku-5-5",
+  "checker_said": "unclear",
+  "msf_trial_id": "MSFT-NCT02804594",
+  "pmid": "33675156",
+  "pmids_considered": [
+   "33675156",
+   "34208683",
+   "42273981"
+  ],
+  "prompt_version": "readout_v2",
+  "quote": "At least one adverse event (AE) occurred in 60% on NAC versus 80% on placebo (p = 0.75).",
+  "read_on": "2026-10-28",
+  "reader_model": "claude-sonnet-5-5",
+  "reader_said": "not_efficacy",
   "readout": "unclear",
   "reason": "second model disagreed"
  },
@@ -1605,6 +4857,36 @@
   "readout": "not_met",
   "reason": null
  },
+ "MSFT-NCT02907177|readout_v2|aae3f11840": {
+  "checker_model": "claude-haiku-5-5",
+  "checker_said": "not_met",
+  "msf_trial_id": "MSFT-NCT02907177",
+  "pmid": "40700861",
+  "pmids_considered": [
+   "40700861",
+   "29500302",
+   "31214480",
+   "31266149"
+  ],
+  "prompt_version": "readout_v2",
+  "quote": "Primary endpoint (ARR) was not met (rate ratio, ponesimod+DMF versus placebo+DMF: 1.2; p = 0.5252).",
+  "read_on": "2026-10-28",
+  "reader_model": "claude-sonnet-5-5",
+  "reader_said": "not_met",
+  "readout": "not_met",
+  "reason": null,
+  "result": {
+   "effect": {
+    "ci_lower": null,
+    "ci_upper": null,
+    "type": "rate ratio",
+    "value": "1.2"
+   },
+   "measure": "annualized relapse rate (ARR) at end-of-study (EOS)",
+   "n_randomised": "136",
+   "p": "p = 0.5252"
+  }
+ },
  "MSFT-NCT02936037|readout_v1|d14c1ed777": {
   "checker_model": "claude-haiku-5-5",
   "checker_said": "not_met",
@@ -1624,6 +4906,48 @@
   "readout": "not_met",
   "reason": null
  },
+ "MSFT-NCT02936037|readout_v2|d14c1ed777": {
+  "checker_model": "claude-haiku-5-5",
+  "checker_said": "not_met",
+  "msf_trial_id": "MSFT-NCT02936037",
+  "pmid": "33222767",
+  "pmids_considered": [
+   "33222767",
+   "42712237",
+   "28840523",
+   "29926371"
+  ],
+  "prompt_version": "readout_v2",
+  "quote": "For the primary outcome, 39 (12%) of 326 patients in the MD1003 group compared with 29 (9%) of 316 in the placebo group improved at month 12, with confirmation at month 15 (odds ratio 1\u00b735 [95% CI 0\u00b781-2\u00b726]).",
+  "read_on": "2026-10-28",
+  "reader_model": "claude-sonnet-5-5",
+  "reader_said": "not_met",
+  "readout": "not_met",
+  "reason": null,
+  "result": {
+   "effect": {
+    "ci_lower": "0.81",
+    "ci_upper": null,
+    "type": "odds ratio",
+    "value": "1.35"
+   },
+   "follow_up": "month 12, confirmed at month 15",
+   "groups": [
+    {
+     "group": "MD1003",
+     "n": "326",
+     "value": "39 (12%)"
+    },
+    {
+     "group": "Placebo",
+     "n": "316",
+     "value": "29 (9%)"
+    }
+   ],
+   "measure": "Proportion of participants with confirmed improvement in EDSS or TW25 at month 12, confirmed at month 15, versus baseline",
+   "n_randomised": "642"
+  }
+ },
  "MSFT-NCT02937285|readout_v1|2bf7dee594": {
   "checker_model": "claude-haiku-5-5",
   "msf_trial_id": "MSFT-NCT02937285",
@@ -1637,6 +4961,19 @@
   "readout": "unclear",
   "reason": "no main results paper found"
  },
+ "MSFT-NCT02937285|readout_v2|2bf7dee594": {
+  "checker_model": "claude-haiku-5-5",
+  "msf_trial_id": "MSFT-NCT02937285",
+  "pmid": "29926371",
+  "pmids_considered": [
+   "29926371"
+  ],
+  "prompt_version": "readout_v2",
+  "read_on": "2026-10-28",
+  "reader_model": "claude-sonnet-5-5",
+  "readout": "unclear",
+  "reason": "no main results paper found"
+ },
  "MSFT-NCT02939079|readout_v1|39ba4d49a6": {
   "checker_model": "claude-haiku-5-5",
   "msf_trial_id": "MSFT-NCT02939079",
@@ -1646,6 +4983,19 @@
   ],
   "prompt_version": "readout_v1",
   "read_on": "2026-10-27",
+  "reader_model": "claude-sonnet-5-5",
+  "readout": "unclear",
+  "reason": "no main results paper found"
+ },
+ "MSFT-NCT02939079|readout_v2|39ba4d49a6": {
+  "checker_model": "claude-haiku-5-5",
+  "msf_trial_id": "MSFT-NCT02939079",
+  "pmid": "32580348",
+  "pmids_considered": [
+   "32580348"
+  ],
+  "prompt_version": "readout_v2",
+  "read_on": "2026-10-28",
   "reader_model": "claude-sonnet-5-5",
   "readout": "unclear",
   "reason": "no main results paper found"
@@ -1669,6 +5019,35 @@
   "readout": "not_met",
   "reason": null
  },
+ "MSFT-NCT02959658|readout_v2|3f99a8f065": {
+  "checker_model": "claude-haiku-5-5",
+  "checker_said": "not_met",
+  "msf_trial_id": "MSFT-NCT02959658",
+  "pmid": "34429340",
+  "pmids_considered": [
+   "34429340",
+   "36586351",
+   "37369602",
+   "29500302"
+  ],
+  "prompt_version": "readout_v2",
+  "quote": "Mean change in CSF concentrations of NFL did not differ between groups (mean difference 99 ng/L; 95% CI -292 to 491 ng/L).",
+  "read_on": "2026-10-28",
+  "reader_model": "claude-sonnet-5-5",
+  "reader_said": "not_met",
+  "readout": "not_met",
+  "reason": null,
+  "result": {
+   "effect": {
+    "ci_lower": "-292",
+    "ci_upper": "491",
+    "type": "mean difference",
+    "value": "99 ng/L"
+   },
+   "follow_up": "48 weeks",
+   "measure": "Change in concentration of NFL in the CSF"
+  }
+ },
  "MSFT-NCT03002038|readout_v1|95f593a2b6": {
   "checker_model": "claude-haiku-5-5",
   "checker_said": "unclear",
@@ -1683,6 +5062,25 @@
   "prompt_version": "readout_v1",
   "quote": "ARR after intervention minus ARR before intervention [mean (SD)] was 1.09 (0.72) in RIT group and 0.49 (0.59) in AZA group (P value <0.001).",
   "read_on": "2026-10-27",
+  "reader_model": "claude-sonnet-5-5",
+  "reader_said": "met",
+  "readout": "unclear",
+  "reason": "second model disagreed"
+ },
+ "MSFT-NCT03002038|readout_v2|95f593a2b6": {
+  "checker_model": "claude-haiku-5-5",
+  "checker_said": "unclear",
+  "msf_trial_id": "MSFT-NCT03002038",
+  "pmid": "28831548",
+  "pmids_considered": [
+   "28831548",
+   "32533450",
+   "33391166",
+   "33419217"
+  ],
+  "prompt_version": "readout_v2",
+  "quote": "ARR after intervention minus ARR before intervention [mean (SD)] was 1.09 (0.72) in RIT group and 0.49 (0.59) in AZA group (P value <0.001).",
+  "read_on": "2026-10-28",
   "reader_model": "claude-sonnet-5-5",
   "reader_said": "met",
   "readout": "unclear",
@@ -1707,6 +5105,25 @@
   "readout": "unclear",
   "reason": "second model disagreed"
  },
+ "MSFT-NCT03122652|readout_v2|e9d1552412": {
+  "checker_model": "claude-haiku-5-5",
+  "checker_said": "unclear",
+  "msf_trial_id": "MSFT-NCT03122652",
+  "pmid": "37603328",
+  "pmids_considered": [
+   "37603328",
+   "34093421",
+   "34633424",
+   "35173664"
+  ],
+  "prompt_version": "readout_v2",
+  "quote": "The time to the first clinical event was significantly extended in the teriflunomide arm compared with placebo, in both the unadjusted (hazard ratio [HR], 0.37; 95% CI, 0.16-0.84; P = .02) and adjusted (HR, 0.28; 95% CI, 0.11-0.71; P = .007) analysis.",
+  "read_on": "2026-10-28",
+  "reader_model": "claude-sonnet-5-5",
+  "reader_said": "met",
+  "readout": "unclear",
+  "reason": "second model disagreed"
+ },
  "MSFT-NCT03185065|readout_v1|77e02a9e1b": {
   "checker_model": "claude-haiku-5-5",
   "checker_said": "not_met",
@@ -1726,6 +5143,70 @@
   "readout": "not_met",
   "reason": null
  },
+ "MSFT-NCT03185065|readout_v2|77e02a9e1b": {
+  "checker_model": "claude-haiku-5-5",
+  "checker_said": "not_met",
+  "msf_trial_id": "MSFT-NCT03185065",
+  "pmid": "33242419",
+  "pmids_considered": [
+   "29113955",
+   "33242419",
+   "37166702",
+   "42639338"
+  ],
+  "prompt_version": "readout_v2",
+  "quote": "The estimated mean values of MFIS total scores at baseline and the maximal tolerated dose were as follows: 51\u00b73 (95% CI 49\u00b70-53\u00b76) at baseline, 40\u00b76 (38\u00b72-43\u00b71) with placebo, 41\u00b73 (38\u00b78-43\u00b77) with amantadine, 39\u00b70 (36\u00b76-41\u00b74) with modafinil, and 38\u00b76 (36\u00b72-41\u00b70) with methylphenidate (p=0\u00b720 for the overall medication effect in the linear mixed-effect regression model).",
+  "read_on": "2026-10-28",
+  "reader_model": "claude-sonnet-5-5",
+  "reader_said": "not_met",
+  "readout": "not_met",
+  "reason": null,
+  "result": {
+   "groups": [
+    {
+     "group": "Placebo",
+     "n": null,
+     "value": "40.6 (38.2-43.1)"
+    },
+    {
+     "group": "Amantadine",
+     "n": null,
+     "value": "41.3 (38.8-43.7)"
+    },
+    {
+     "group": "Modafinil",
+     "n": null,
+     "value": "39.0 (36.6-41.4)"
+    },
+    {
+     "group": "Methylphenidate",
+     "n": null,
+     "value": "38.6 (36.2-41.0)"
+    }
+   ],
+   "n_randomised": "141",
+   "p": "p=0.20 for the overall medication effect"
+  }
+ },
+ "MSFT-NCT03239860|readout_v2|fd83542deb": {
+  "checker_model": "claude-haiku-5-5",
+  "checker_said": "unclear",
+  "msf_trial_id": "MSFT-NCT03239860",
+  "pmid": "34240656",
+  "pmids_considered": [
+   "34240656",
+   "30339876",
+   "31007422",
+   "31754894"
+  ],
+  "prompt_version": "readout_v2",
+  "quote": "No safety issues emerged.",
+  "read_on": "2026-10-28",
+  "reader_model": "claude-sonnet-5-5",
+  "reader_said": "not_efficacy",
+  "readout": "unclear",
+  "reason": "second model disagreed"
+ },
  "MSFT-NCT03290131|readout_v1|0369032eaa": {
   "checker_model": "claude-haiku-5-5",
   "checker_said": "unclear",
@@ -1743,6 +5224,23 @@
   "readout": "unclear",
   "reason": "second model disagreed"
  },
+ "MSFT-NCT03290131|readout_v2|0369032eaa": {
+  "checker_model": "claude-haiku-5-5",
+  "checker_said": "unclear",
+  "msf_trial_id": "MSFT-NCT03290131",
+  "pmid": "36519155",
+  "pmids_considered": [
+   "36519155",
+   "36861013"
+  ],
+  "prompt_version": "readout_v2",
+  "quote": "At Week 12, the least squares mean change from baseline in Total Numeric-transformed Modified Ashworth Scale in the Most Affected Limb score was -1.67 (95% confidence interval: -1.97 to -1.36) and -1.28 (95% confidence interval: -1.57 to -0.99) in the arbaclofen extended-release 40 mg/day and placebo groups, respectively (least squares mean difference: -0.39; P < 0.048).",
+  "read_on": "2026-10-28",
+  "reader_model": "claude-sonnet-5-5",
+  "reader_said": "mixed",
+  "readout": "unclear",
+  "reason": "second model disagreed"
+ },
  "MSFT-NCT03302585|readout_v1|f64d07a052": {
   "checker_model": "claude-haiku-5-5",
   "msf_trial_id": "MSFT-NCT03302585",
@@ -1753,6 +5251,20 @@
   ],
   "prompt_version": "readout_v1",
   "read_on": "2026-10-27",
+  "reader_model": "claude-sonnet-5-5",
+  "readout": "unclear",
+  "reason": "no main results paper found"
+ },
+ "MSFT-NCT03302585|readout_v2|f64d07a052": {
+  "checker_model": "claude-haiku-5-5",
+  "msf_trial_id": "MSFT-NCT03302585",
+  "pmid": null,
+  "pmids_considered": [
+   "32847594",
+   "36613531"
+  ],
+  "prompt_version": "readout_v2",
+  "read_on": "2026-10-28",
   "reader_model": "claude-sonnet-5-5",
   "readout": "unclear",
   "reason": "no main results paper found"
@@ -1773,6 +5285,22 @@
   "readout": "unclear",
   "reason": "no main results paper found"
  },
+ "MSFT-NCT03315923|readout_v2|39a46ff498": {
+  "checker_model": "claude-haiku-5-5",
+  "msf_trial_id": "MSFT-NCT03315923",
+  "pmid": null,
+  "pmids_considered": [
+   "34748215",
+   "35794296",
+   "38032059",
+   "40066932"
+  ],
+  "prompt_version": "readout_v2",
+  "read_on": "2026-10-28",
+  "reader_model": "claude-sonnet-5-5",
+  "readout": "unclear",
+  "reason": "no main results paper found"
+ },
  "MSFT-NCT03342638|readout_v1|35289371e5": {
   "checker_model": "claude-haiku-5-5",
   "msf_trial_id": "MSFT-NCT03342638",
@@ -1785,6 +5313,22 @@
   ],
   "prompt_version": "readout_v1",
   "read_on": "2026-10-27",
+  "reader_model": "claude-sonnet-5-5",
+  "readout": "unclear",
+  "reason": "no main results paper found"
+ },
+ "MSFT-NCT03342638|readout_v2|35289371e5": {
+  "checker_model": "claude-haiku-5-5",
+  "msf_trial_id": "MSFT-NCT03342638",
+  "pmid": null,
+  "pmids_considered": [
+   "31558790",
+   "32039266",
+   "34299154",
+   "36105612"
+  ],
+  "prompt_version": "readout_v2",
+  "read_on": "2026-10-28",
   "reader_model": "claude-sonnet-5-5",
   "readout": "unclear",
   "reason": "no main results paper found"
@@ -1808,6 +5352,25 @@
   "readout": "unclear",
   "reason": "second model disagreed"
  },
+ "MSFT-NCT03350633|readout_v2|bbc8cf933f": {
+  "checker_model": "claude-haiku-5-5",
+  "checker_said": "unclear",
+  "msf_trial_id": "MSFT-NCT03350633",
+  "pmid": "32333897",
+  "pmids_considered": [
+   "32333897",
+   "30423923",
+   "32533450",
+   "33391166"
+  ],
+  "prompt_version": "readout_v2",
+  "quote": "Eight (14%) of 59 patients in the tocilizumab group and 28 (47%) of 59 patients in the azathioprine group had a relapse at the end of the study (hazard ratio [HR] 0\u00b7236 [95% CI 0\u00b7107-0\u00b7518]; p<0\u00b70001).",
+  "read_on": "2026-10-28",
+  "reader_model": "claude-sonnet-5-5",
+  "reader_said": "met",
+  "readout": "unclear",
+  "reason": "second model disagreed"
+ },
  "MSFT-NCT03387046|readout_v1|48eb2cc153": {
   "checker_model": "claude-haiku-5-5",
   "msf_trial_id": "MSFT-NCT03387046",
@@ -1818,6 +5381,20 @@
   ],
   "prompt_version": "readout_v1",
   "read_on": "2026-10-27",
+  "reader_model": "claude-sonnet-5-5",
+  "readout": "unclear",
+  "reason": "no main results paper found"
+ },
+ "MSFT-NCT03387046|readout_v2|48eb2cc153": {
+  "checker_model": "claude-haiku-5-5",
+  "msf_trial_id": "MSFT-NCT03387046",
+  "pmid": null,
+  "pmids_considered": [
+   "32428983",
+   "40536597"
+  ],
+  "prompt_version": "readout_v2",
+  "read_on": "2026-10-28",
   "reader_model": "claude-sonnet-5-5",
   "readout": "unclear",
   "reason": "no main results paper found"
@@ -1838,6 +5415,38 @@
   "readout": "unclear",
   "reason": "no main results paper found"
  },
+ "MSFT-NCT03387670|readout_v2|6fe89e728f": {
+  "checker_model": "claude-haiku-5-5",
+  "msf_trial_id": "MSFT-NCT03387670",
+  "pmid": "39284697",
+  "pmids_considered": [
+   "35031587",
+   "35946107",
+   "39284697",
+   "39691073"
+  ],
+  "prompt_version": "readout_v2",
+  "read_on": "2026-10-28",
+  "reader_model": "claude-sonnet-5-5",
+  "readout": "unclear",
+  "reason": "no main results paper found"
+ },
+ "MSFT-NCT03560739|readout_v2|d6ddeaec1a": {
+  "checker_model": "claude-haiku-5-5",
+  "msf_trial_id": "MSFT-NCT03560739",
+  "pmid": null,
+  "pmids_considered": [
+   "28709466",
+   "31351488",
+   "31829232",
+   "32108976"
+  ],
+  "prompt_version": "readout_v2",
+  "read_on": "2026-10-28",
+  "reader_model": "claude-sonnet-5-5",
+  "readout": "unclear",
+  "reason": "no main results paper found"
+ },
  "MSFT-NCT03674099|readout_v1|4ed4cca0bd": {
   "checker_model": "claude-haiku-5-5",
   "msf_trial_id": "MSFT-NCT03674099",
@@ -1850,6 +5459,22 @@
   ],
   "prompt_version": "readout_v1",
   "read_on": "2026-10-27",
+  "reader_model": "claude-sonnet-5-5",
+  "readout": "unclear",
+  "reason": "no main results paper found"
+ },
+ "MSFT-NCT03674099|readout_v2|4ed4cca0bd": {
+  "checker_model": "claude-haiku-5-5",
+  "msf_trial_id": "MSFT-NCT03674099",
+  "pmid": null,
+  "pmids_considered": [
+   "33361796",
+   "34207175",
+   "34942669",
+   "35336746"
+  ],
+  "prompt_version": "readout_v2",
+  "read_on": "2026-10-28",
   "reader_model": "claude-sonnet-5-5",
   "readout": "unclear",
   "reason": "no main results paper found"
@@ -1873,6 +5498,36 @@
   "readout": "not_met",
   "reason": null
  },
+ "MSFT-NCT03737812|readout_v2|db71f9e796": {
+  "checker_model": "claude-haiku-5-5",
+  "checker_said": "not_met",
+  "msf_trial_id": "MSFT-NCT03737812",
+  "pmid": "40698976",
+  "pmids_considered": [
+   "40698976",
+   "31382620",
+   "32210757",
+   "33324887"
+  ],
+  "prompt_version": "readout_v2",
+  "quote": "The primary endpoint of ORS was not met in either study.",
+  "read_on": "2026-10-28",
+  "reader_model": "claude-sonnet-5-5",
+  "reader_said": "not_met",
+  "readout": "not_met",
+  "reason": null,
+  "result": {
+   "effect": {
+    "ci_lower": null,
+    "ci_upper": null,
+    "type": "effect size",
+    "value": "0.0 (400mg); 0.1 (1800mg)"
+   },
+   "follow_up": "week 48",
+   "measure": "mean Overall Response Score (ORS)",
+   "n_randomised": "123"
+  }
+ },
  "MSFT-NCT03737851|readout_v1|db71f9e796": {
   "checker_model": "claude-haiku-5-5",
   "checker_said": "not_met",
@@ -1892,6 +5547,48 @@
   "readout": "not_met",
   "reason": null
  },
+ "MSFT-NCT03737851|readout_v2|db71f9e796": {
+  "checker_model": "claude-haiku-5-5",
+  "checker_said": "not_met",
+  "msf_trial_id": "MSFT-NCT03737851",
+  "pmid": "40698976",
+  "pmids_considered": [
+   "40698976",
+   "31382620",
+   "32210757",
+   "33324887"
+  ],
+  "prompt_version": "readout_v2",
+  "quote": "The primary endpoint of ORS was not met in either study.",
+  "read_on": "2026-10-28",
+  "reader_model": "claude-sonnet-5-5",
+  "reader_said": "not_met",
+  "readout": "not_met",
+  "reason": null,
+  "result": {
+   "effect": {
+    "ci_lower": null,
+    "ci_upper": null,
+    "type": "effect size",
+    "value": "-0.2"
+   },
+   "follow_up": "week 48",
+   "groups": [
+    {
+     "group": "elezanumab 400mg",
+     "n": "69",
+     "value": "mean ORS -0.2"
+    },
+    {
+     "group": "elezanumab 1800mg",
+     "n": "69",
+     "value": "mean ORS -0.2"
+    }
+   ],
+   "measure": "mean Overall Response Score (ORS)",
+   "n_randomised": "208"
+  }
+ },
  "MSFT-NCT03740295|readout_v1|06ba079089": {
   "checker_model": "claude-haiku-5-5",
   "msf_trial_id": "MSFT-NCT03740295",
@@ -1908,6 +5605,22 @@
   "readout": "unclear",
   "reason": "no main results paper found"
  },
+ "MSFT-NCT03740295|readout_v2|06ba079089": {
+  "checker_model": "claude-haiku-5-5",
+  "msf_trial_id": "MSFT-NCT03740295",
+  "pmid": "34579104",
+  "pmids_considered": [
+   "33322022",
+   "34579104",
+   "31059841",
+   "32708322"
+  ],
+  "prompt_version": "readout_v2",
+  "read_on": "2026-10-28",
+  "reader_model": "claude-sonnet-5-5",
+  "readout": "unclear",
+  "reason": "no main results paper found"
+ },
  "MSFT-NCT03824938|readout_v1|cc23ebe352": {
   "checker_model": "claude-haiku-5-5",
   "msf_trial_id": "MSFT-NCT03824938",
@@ -1917,6 +5630,19 @@
   ],
   "prompt_version": "readout_v1",
   "read_on": "2026-10-27",
+  "reader_model": "claude-sonnet-5-5",
+  "readout": "unclear",
+  "reason": "no main results paper found"
+ },
+ "MSFT-NCT03824938|readout_v2|cc23ebe352": {
+  "checker_model": "claude-haiku-5-5",
+  "msf_trial_id": "MSFT-NCT03824938",
+  "pmid": "33191260",
+  "pmids_considered": [
+   "33191260"
+  ],
+  "prompt_version": "readout_v2",
+  "read_on": "2026-10-28",
   "reader_model": "claude-sonnet-5-5",
   "readout": "unclear",
   "reason": "no main results paper found"
@@ -1937,6 +5663,22 @@
   "readout": "unclear",
   "reason": "no main results paper found"
  },
+ "MSFT-NCT03896217|readout_v2|f950e21085": {
+  "checker_model": "claude-haiku-5-5",
+  "msf_trial_id": "MSFT-NCT03896217",
+  "pmid": null,
+  "pmids_considered": [
+   "35031587",
+   "34373668",
+   "34909647",
+   "41280910"
+  ],
+  "prompt_version": "readout_v2",
+  "read_on": "2026-10-28",
+  "reader_model": "claude-sonnet-5-5",
+  "readout": "unclear",
+  "reason": "no main results paper found"
+ },
  "MSFT-NCT03979456|readout_v1|6a2eae968c": {
   "checker_model": "claude-haiku-5-5",
   "msf_trial_id": "MSFT-NCT03979456",
@@ -1949,6 +5691,22 @@
   ],
   "prompt_version": "readout_v1",
   "read_on": "2026-10-27",
+  "reader_model": "claude-sonnet-5-5",
+  "readout": "unclear",
+  "reason": "no main results paper found"
+ },
+ "MSFT-NCT03979456|readout_v2|6a2eae968c": {
+  "checker_model": "claude-haiku-5-5",
+  "msf_trial_id": "MSFT-NCT03979456",
+  "pmid": null,
+  "pmids_considered": [
+   "34748215",
+   "35794296",
+   "38117403",
+   "38480630"
+  ],
+  "prompt_version": "readout_v2",
+  "read_on": "2026-10-28",
   "reader_model": "claude-sonnet-5-5",
   "readout": "unclear",
   "reason": "no main results paper found"
@@ -1969,6 +5727,22 @@
   "readout": "unclear",
   "reason": "no main results paper found"
  },
+ "MSFT-NCT04002934|readout_v2|baa3906f4e": {
+  "checker_model": "claude-haiku-5-5",
+  "msf_trial_id": "MSFT-NCT04002934",
+  "pmid": null,
+  "pmids_considered": [
+   "37739167",
+   "37715710",
+   "32046349",
+   "33752802"
+  ],
+  "prompt_version": "readout_v2",
+  "read_on": "2026-10-28",
+  "reader_model": "claude-sonnet-5-5",
+  "readout": "unclear",
+  "reason": "no main results paper found"
+ },
  "MSFT-NCT04032158|readout_v1|17fac5516b": {
   "checker_model": "claude-haiku-5-5",
   "msf_trial_id": "MSFT-NCT04032158",
@@ -1985,6 +5759,22 @@
   "readout": "unclear",
   "reason": "no main results paper found"
  },
+ "MSFT-NCT04032158|readout_v2|17fac5516b": {
+  "checker_model": "claude-haiku-5-5",
+  "msf_trial_id": "MSFT-NCT04032158",
+  "pmid": null,
+  "pmids_considered": [
+   "32524163",
+   "32708302",
+   "33406479",
+   "35628931"
+  ],
+  "prompt_version": "readout_v2",
+  "read_on": "2026-10-28",
+  "reader_model": "claude-sonnet-5-5",
+  "readout": "unclear",
+  "reason": "no main results paper found"
+ },
  "MSFT-NCT04032171|readout_v1|40670e9760": {
   "checker_model": "claude-haiku-5-5",
   "msf_trial_id": "MSFT-NCT04032171",
@@ -1997,6 +5787,22 @@
   ],
   "prompt_version": "readout_v1",
   "read_on": "2026-10-27",
+  "reader_model": "claude-sonnet-5-5",
+  "readout": "unclear",
+  "reason": "no main results paper found"
+ },
+ "MSFT-NCT04032171|readout_v2|40670e9760": {
+  "checker_model": "claude-haiku-5-5",
+  "msf_trial_id": "MSFT-NCT04032171",
+  "pmid": null,
+  "pmids_considered": [
+   "32524163",
+   "33406479",
+   "35628931",
+   "37212867"
+  ],
+  "prompt_version": "readout_v2",
+  "read_on": "2026-10-28",
   "reader_model": "claude-sonnet-5-5",
   "readout": "unclear",
   "reason": "no main results paper found"
@@ -2020,6 +5826,25 @@
   "readout": "unclear",
   "reason": "second model disagreed"
  },
+ "MSFT-NCT04121221|readout_v2|ef6de79554": {
+  "checker_model": "claude-haiku-5-5",
+  "checker_said": "unclear",
+  "msf_trial_id": "MSFT-NCT04121221",
+  "pmid": "41705515",
+  "pmids_considered": [
+   "41705515",
+   "38032059",
+   "38174776",
+   "38708586"
+  ],
+  "prompt_version": "readout_v2",
+  "quote": "Adjusted ARR was lower in patients treated with GA Depot compared to placebo (0.18, 95% confidence interval [CI] = 0.14 to 0.3 vs 0.26, 95% CI = 0.21 to 0.32, 30.1% relative risk reduction, p = 0.0066).",
+  "read_on": "2026-10-28",
+  "reader_model": "claude-sonnet-5-5",
+  "reader_said": "met",
+  "readout": "unclear",
+  "reason": "second model disagreed"
+ },
  "MSFT-NCT04121403|readout_v1|d8b9df28d5": {
   "checker_model": "claude-haiku-5-5",
   "msf_trial_id": "MSFT-NCT04121403",
@@ -2032,6 +5857,22 @@
   ],
   "prompt_version": "readout_v1",
   "read_on": "2026-10-27",
+  "reader_model": "claude-sonnet-5-5",
+  "readout": "unclear",
+  "reason": "no main results paper found"
+ },
+ "MSFT-NCT04121403|readout_v2|d8b9df28d5": {
+  "checker_model": "claude-haiku-5-5",
+  "msf_trial_id": "MSFT-NCT04121403",
+  "pmid": null,
+  "pmids_considered": [
+   "34295328",
+   "34298735",
+   "34748215",
+   "35794296"
+  ],
+  "prompt_version": "readout_v2",
+  "read_on": "2026-10-28",
   "reader_model": "claude-sonnet-5-5",
   "readout": "unclear",
   "reason": "no main results paper found"
@@ -2051,6 +5892,21 @@
   "readout": "unclear",
   "reason": "no main results paper found"
  },
+ "MSFT-NCT04175834|readout_v2|98d4d14e10": {
+  "checker_model": "claude-haiku-5-5",
+  "msf_trial_id": "MSFT-NCT04175834",
+  "pmid": null,
+  "pmids_considered": [
+   "28002679",
+   "28002688",
+   "33880738"
+  ],
+  "prompt_version": "readout_v2",
+  "read_on": "2026-10-28",
+  "reader_model": "claude-sonnet-5-5",
+  "readout": "unclear",
+  "reason": "no main results paper found"
+ },
  "MSFT-NCT04203498|readout_v1|170f626dd2": {
   "checker_model": "claude-haiku-5-5",
   "msf_trial_id": "MSFT-NCT04203498",
@@ -2061,6 +5917,20 @@
   ],
   "prompt_version": "readout_v1",
   "read_on": "2026-10-27",
+  "reader_model": "claude-sonnet-5-5",
+  "readout": "unclear",
+  "reason": "no main results paper found"
+ },
+ "MSFT-NCT04203498|readout_v2|170f626dd2": {
+  "checker_model": "claude-haiku-5-5",
+  "msf_trial_id": "MSFT-NCT04203498",
+  "pmid": null,
+  "pmids_considered": [
+   "35510826",
+   "36259015"
+  ],
+  "prompt_version": "readout_v2",
+  "read_on": "2026-10-28",
   "reader_model": "claude-sonnet-5-5",
   "readout": "unclear",
   "reason": "no main results paper found"
@@ -2084,6 +5954,25 @@
   "readout": "not_met",
   "reason": null
  },
+ "MSFT-NCT04338022|readout_v2|e04dde3a8b": {
+  "checker_model": "claude-haiku-5-5",
+  "checker_said": "unclear",
+  "msf_trial_id": "MSFT-NCT04338022",
+  "pmid": "39307151",
+  "pmids_considered": [
+   "36126241",
+   "36418156",
+   "38335474",
+   "39307151"
+  ],
+  "prompt_version": "readout_v2",
+  "quote": "Annualised relapse rate was 0\u00b715 (95% CI 0\u00b712-0\u00b718 with evobrutinib vs 0\u00b714 [0\u00b711-0\u00b718] with teriflunomide (adjusted RR 1\u00b702 [0\u00b775-1\u00b739]; p=0\u00b755) in evolutionRMS1 and 0\u00b711 (0\u00b709-0\u00b713 vs 0\u00b711 [0\u00b709-0\u00b713]; adjusted RR 1\u00b700 [0\u00b774-1\u00b735]; p=0\u00b751) in evolutionRMS2.",
+  "read_on": "2026-10-28",
+  "reader_model": "claude-sonnet-5-5",
+  "reader_said": "not_met",
+  "readout": "unclear",
+  "reason": "second model disagreed"
+ },
  "MSFT-NCT04338061|readout_v1|e04dde3a8b": {
   "checker_model": "claude-haiku-5-5",
   "checker_said": "not_met",
@@ -2103,6 +5992,25 @@
   "readout": "not_met",
   "reason": null
  },
+ "MSFT-NCT04338061|readout_v2|e04dde3a8b": {
+  "checker_model": "claude-haiku-5-5",
+  "checker_said": "unclear",
+  "msf_trial_id": "MSFT-NCT04338061",
+  "pmid": "39307151",
+  "pmids_considered": [
+   "36126241",
+   "36418156",
+   "38335474",
+   "39307151"
+  ],
+  "prompt_version": "readout_v2",
+  "quote": "Annualised relapse rate was 0\u00b715 (95% CI 0\u00b712-0\u00b718 with evobrutinib vs 0\u00b714 [0\u00b711-0\u00b718] with teriflunomide (adjusted RR 1\u00b702 [0\u00b775-1\u00b739]; p=0\u00b755) in evolutionRMS1 and 0\u00b711 (0\u00b709-0\u00b713 vs 0\u00b711 [0\u00b709-0\u00b713]; adjusted RR 1\u00b700 [0\u00b774-1\u00b735]; p=0\u00b751) in evolutionRMS2.",
+  "read_on": "2026-10-28",
+  "reader_model": "claude-sonnet-5-5",
+  "reader_said": "not_met",
+  "readout": "unclear",
+  "reason": "second model disagreed"
+ },
  "MSFT-NCT04458051|readout_v1|78075d4c60": {
   "checker_model": "claude-haiku-5-5",
   "msf_trial_id": "MSFT-NCT04458051",
@@ -2115,6 +6023,22 @@
   ],
   "prompt_version": "readout_v1",
   "read_on": "2026-10-27",
+  "reader_model": "claude-sonnet-5-5",
+  "readout": "unclear",
+  "reason": "no main results paper found"
+ },
+ "MSFT-NCT04458051|readout_v2|78075d4c60": {
+  "checker_model": "claude-haiku-5-5",
+  "msf_trial_id": "MSFT-NCT04458051",
+  "pmid": null,
+  "pmids_considered": [
+   "34418400",
+   "42546561",
+   "34088878",
+   "34150760"
+  ],
+  "prompt_version": "readout_v2",
+  "read_on": "2026-10-28",
   "reader_model": "claude-sonnet-5-5",
   "readout": "unclear",
   "reason": "no main results paper found"
@@ -2135,6 +6059,22 @@
   "readout": "unclear",
   "reason": "no main results paper found"
  },
+ "MSFT-NCT04480307|readout_v2|b6a2652913": {
+  "checker_model": "claude-haiku-5-5",
+  "msf_trial_id": "MSFT-NCT04480307",
+  "pmid": null,
+  "pmids_considered": [
+   "33258193",
+   "34073730",
+   "34691057",
+   "35794296"
+  ],
+  "prompt_version": "readout_v2",
+  "read_on": "2026-10-28",
+  "reader_model": "claude-sonnet-5-5",
+  "readout": "unclear",
+  "reason": "no main results paper found"
+ },
  "MSFT-NCT04625153|readout_v1|ac9b661fdc": {
   "checker_model": "claude-haiku-5-5",
   "msf_trial_id": "MSFT-NCT04625153",
@@ -2147,6 +6087,22 @@
   ],
   "prompt_version": "readout_v1",
   "read_on": "2026-10-27",
+  "reader_model": "claude-sonnet-5-5",
+  "readout": "unclear",
+  "reason": "no main results paper found"
+ },
+ "MSFT-NCT04625153|readout_v2|ac9b661fdc": {
+  "checker_model": "claude-haiku-5-5",
+  "msf_trial_id": "MSFT-NCT04625153",
+  "pmid": null,
+  "pmids_considered": [
+   "35851754",
+   "36895558",
+   "37465675",
+   "40138388"
+  ],
+  "prompt_version": "readout_v2",
+  "read_on": "2026-10-28",
   "reader_model": "claude-sonnet-5-5",
   "readout": "unclear",
   "reason": "no main results paper found"
@@ -2167,6 +6123,22 @@
   "readout": "unclear",
   "reason": "no main results paper found"
  },
+ "MSFT-NCT04711148|readout_v2|4c4e8c9ceb": {
+  "checker_model": "claude-haiku-5-5",
+  "msf_trial_id": "MSFT-NCT04711148",
+  "pmid": null,
+  "pmids_considered": [
+   "34443496",
+   "34685540",
+   "35610531",
+   "35628931"
+  ],
+  "prompt_version": "readout_v2",
+  "read_on": "2026-10-28",
+  "reader_model": "claude-sonnet-5-5",
+  "readout": "unclear",
+  "reason": "no main results paper found"
+ },
  "MSFT-NCT04767698|readout_v1|4cd7b39d41": {
   "checker_model": "claude-haiku-5-5",
   "msf_trial_id": "MSFT-NCT04767698",
@@ -2179,6 +6151,22 @@
   ],
   "prompt_version": "readout_v1",
   "read_on": "2026-10-27",
+  "reader_model": "claude-sonnet-5-5",
+  "readout": "unclear",
+  "reason": "no main results paper found"
+ },
+ "MSFT-NCT04767698|readout_v2|4cd7b39d41": {
+  "checker_model": "claude-haiku-5-5",
+  "msf_trial_id": "MSFT-NCT04767698",
+  "pmid": null,
+  "pmids_considered": [
+   "35250986",
+   "35794296",
+   "36325491",
+   "37465675"
+  ],
+  "prompt_version": "readout_v2",
+  "read_on": "2026-10-28",
   "reader_model": "claude-sonnet-5-5",
   "readout": "unclear",
   "reason": "no main results paper found"
@@ -2197,6 +6185,20 @@
   "readout": "unclear",
   "reason": "no main results paper found"
  },
+ "MSFT-NCT04788615|readout_v2|b4c606b0f0": {
+  "checker_model": "claude-haiku-5-5",
+  "msf_trial_id": "MSFT-NCT04788615",
+  "pmid": null,
+  "pmids_considered": [
+   "36360540",
+   "38032059"
+  ],
+  "prompt_version": "readout_v2",
+  "read_on": "2026-10-28",
+  "reader_model": "claude-sonnet-5-5",
+  "readout": "unclear",
+  "reason": "no main results paper found"
+ },
  "MSFT-NCT04942002|readout_v1|10e1f70990": {
   "checker_model": "claude-haiku-5-5",
   "msf_trial_id": "MSFT-NCT04942002",
@@ -2206,6 +6208,19 @@
   ],
   "prompt_version": "readout_v1",
   "read_on": "2026-10-27",
+  "reader_model": "claude-sonnet-5-5",
+  "readout": "unclear",
+  "reason": "no main results paper found"
+ },
+ "MSFT-NCT04942002|readout_v2|10e1f70990": {
+  "checker_model": "claude-haiku-5-5",
+  "msf_trial_id": "MSFT-NCT04942002",
+  "pmid": "37545752",
+  "pmids_considered": [
+   "37545752"
+  ],
+  "prompt_version": "readout_v2",
+  "read_on": "2026-10-28",
   "reader_model": "claude-sonnet-5-5",
   "readout": "unclear",
   "reason": "no main results paper found"
@@ -2227,6 +6242,23 @@
   "readout": "unclear",
   "reason": "second model disagreed"
  },
+ "MSFT-NCT04966338|readout_v2|9f6e6e4af2": {
+  "checker_model": "claude-haiku-5-5",
+  "checker_said": "unclear",
+  "msf_trial_id": "MSFT-NCT04966338",
+  "pmid": "39438591",
+  "pmids_considered": [
+   "39438591",
+   "38708586"
+  ],
+  "prompt_version": "readout_v2",
+  "quote": "In the per protocol analysis, the upper and lower limits of 95% two-sided confidence intervals of difference between treatments in the 48-week ARR rate were in the predefined margin of - 0.2 to 0.2 (- 0.002; 95% CI - 0.080 to 0.075).",
+  "read_on": "2026-10-28",
+  "reader_model": "claude-sonnet-5-5",
+  "reader_said": "equivalent",
+  "readout": "unclear",
+  "reason": "second model disagreed"
+ },
  "MSFT-NCT04984278|readout_v1|38e7633499": {
   "checker_model": "claude-haiku-5-5",
   "msf_trial_id": "MSFT-NCT04984278",
@@ -2236,6 +6268,19 @@
   ],
   "prompt_version": "readout_v1",
   "read_on": "2026-10-27",
+  "reader_model": "claude-sonnet-5-5",
+  "readout": "unclear",
+  "reason": "no main results paper found"
+ },
+ "MSFT-NCT04984278|readout_v2|38e7633499": {
+  "checker_model": "claude-haiku-5-5",
+  "msf_trial_id": "MSFT-NCT04984278",
+  "pmid": "35510826",
+  "pmids_considered": [
+   "35510826"
+  ],
+  "prompt_version": "readout_v2",
+  "read_on": "2026-10-28",
   "reader_model": "claude-sonnet-5-5",
   "readout": "unclear",
   "reason": "no main results paper found"
@@ -2259,6 +6304,25 @@
   "readout": "unclear",
   "reason": "second model disagreed"
  },
+ "MSFT-NCT05000216|readout_v2|850c4eba26": {
+  "checker_model": "claude-haiku-5-5",
+  "checker_said": "unclear",
+  "msf_trial_id": "MSFT-NCT05000216",
+  "pmid": "41289027",
+  "pmids_considered": [
+   "41289027",
+   "34880750",
+   "35187073",
+   "36473651"
+  ],
+  "prompt_version": "readout_v2",
+  "quote": "The primary outcome was the change in anti-Wuhan-Hu-1 receptor-binding domain (RBD) concentrations at 4 weeks post-additional vaccination.",
+  "read_on": "2026-10-28",
+  "reader_model": "claude-sonnet-5-5",
+  "reader_said": "not_efficacy",
+  "readout": "unclear",
+  "reason": "second model disagreed"
+ },
  "MSFT-NCT05049161|readout_v1|bf4eb536d0": {
   "checker_model": "claude-haiku-5-5",
   "msf_trial_id": "MSFT-NCT05049161",
@@ -2270,6 +6334,21 @@
   ],
   "prompt_version": "readout_v1",
   "read_on": "2026-10-27",
+  "reader_model": "claude-sonnet-5-5",
+  "readout": "unclear",
+  "reason": "no main results paper found"
+ },
+ "MSFT-NCT05049161|readout_v2|bf4eb536d0": {
+  "checker_model": "claude-haiku-5-5",
+  "msf_trial_id": "MSFT-NCT05049161",
+  "pmid": null,
+  "pmids_considered": [
+   "38708586",
+   "39177889",
+   "41190279"
+  ],
+  "prompt_version": "readout_v2",
+  "read_on": "2026-10-28",
   "reader_model": "claude-sonnet-5-5",
   "readout": "unclear",
   "reason": "no main results paper found"
@@ -2290,6 +6369,22 @@
   "readout": "unclear",
   "reason": "no main results paper found"
  },
+ "MSFT-NCT05054140|readout_v2|43d1aa28c4": {
+  "checker_model": "claude-haiku-5-5",
+  "msf_trial_id": "MSFT-NCT05054140",
+  "pmid": null,
+  "pmids_considered": [
+   "38976584",
+   "39598386",
+   "40138388",
+   "41373685"
+  ],
+  "prompt_version": "readout_v2",
+  "read_on": "2026-10-28",
+  "reader_model": "claude-sonnet-5-5",
+  "readout": "unclear",
+  "reason": "no main results paper found"
+ },
  "MSFT-NCT05131828|readout_v1|97540b0eec": {
   "checker_model": "claude-haiku-5-5",
   "msf_trial_id": "MSFT-NCT05131828",
@@ -2302,6 +6397,22 @@
   ],
   "prompt_version": "readout_v1",
   "read_on": "2026-10-27",
+  "reader_model": "claude-sonnet-5-5",
+  "readout": "unclear",
+  "reason": "no main results paper found"
+ },
+ "MSFT-NCT05131828|readout_v2|97540b0eec": {
+  "checker_model": "claude-haiku-5-5",
+  "msf_trial_id": "MSFT-NCT05131828",
+  "pmid": null,
+  "pmids_considered": [
+   "38680485",
+   "41361285",
+   "36555733",
+   "37047344"
+  ],
+  "prompt_version": "readout_v2",
+  "read_on": "2026-10-28",
   "reader_model": "claude-sonnet-5-5",
   "readout": "unclear",
   "reason": "no main results paper found"
@@ -2325,6 +6436,25 @@
   "readout": "unclear",
   "reason": "second model disagreed"
  },
+ "MSFT-NCT05232825|readout_v2|58f2e5cf37": {
+  "checker_model": "claude-haiku-5-5",
+  "checker_said": "unclear",
+  "msf_trial_id": "MSFT-NCT05232825",
+  "pmid": "40245351",
+  "pmids_considered": [
+   "39460719",
+   "40245351",
+   "38117403",
+   "41373685"
+  ],
+  "prompt_version": "readout_v2",
+  "quote": "The study demonstrated noninferiority of OCR SC 920 mg to OCR IV 600 mg for the primary end point AUC W1-12 and also over the dosing interval for AUC W1\u201224 (geometric mean ratios [90% CI] 1.29 [1.23-1.35] and 1.27 [1.21-1.34], respectively).",
+  "read_on": "2026-10-28",
+  "reader_model": "claude-sonnet-5-5",
+  "reader_said": "equivalent",
+  "readout": "unclear",
+  "reason": "second model disagreed"
+ },
  "MSFT-NCT05242133|readout_v1|e2af3d4106": {
   "checker_model": "claude-haiku-5-5",
   "checker_said": "unclear",
@@ -2339,6 +6469,23 @@
   "read_on": "2026-10-27",
   "reader_model": "claude-sonnet-5-5",
   "reader_said": "met",
+  "readout": "unclear",
+  "reason": "second model disagreed"
+ },
+ "MSFT-NCT05242133|readout_v2|e2af3d4106": {
+  "checker_model": "claude-haiku-5-5",
+  "checker_said": "unclear",
+  "msf_trial_id": "MSFT-NCT05242133",
+  "pmid": "39217809",
+  "pmids_considered": [
+   "39217809",
+   "38708586"
+  ],
+  "prompt_version": "readout_v2",
+  "quote": "Considering the upper limit of the one-sided 95 % CI of the rate ratio of peginterferon beta-1a compared to interferon beta-1a, as well as the non-inferiority margin, it can be concluded that the primary outcome was met.",
+  "read_on": "2026-10-28",
+  "reader_model": "claude-sonnet-5-5",
+  "reader_said": "equivalent",
   "readout": "unclear",
   "reason": "second model disagreed"
  },
@@ -2361,6 +6508,25 @@
   "readout": "not_met",
   "reason": null
  },
+ "MSFT-NCT05298670|readout_v2|186596f240": {
+  "checker_model": "claude-haiku-5-5",
+  "checker_said": "unclear",
+  "msf_trial_id": "MSFT-NCT05298670",
+  "pmid": "38070031",
+  "pmids_considered": [
+   "38070031",
+   "38680485",
+   "37047344",
+   "37405276"
+  ],
+  "prompt_version": "readout_v2",
+  "quote": "After 6 months, the change in the median (interquartile range) of the results for both the intervention and control group were; IL17 (- 1.39 (4.19) vs - 0.93 (5.48), p = 0.48), IL22 (- 0.14 (0.48) vs - 0.09 (0.6), p = 0.53), and EDSS (0 vs 0, p = 1), respectively.",
+  "read_on": "2026-10-28",
+  "reader_model": "claude-sonnet-5-5",
+  "reader_said": "not_met",
+  "readout": "unclear",
+  "reason": "second model disagreed"
+ },
  "MSFT-NCT05551598|readout_v1|4dee8038b5": {
   "checker_model": "claude-haiku-5-5",
   "msf_trial_id": "MSFT-NCT05551598",
@@ -2371,6 +6537,20 @@
   ],
   "prompt_version": "readout_v1",
   "read_on": "2026-10-27",
+  "reader_model": "claude-sonnet-5-5",
+  "readout": "unclear",
+  "reason": "no main results paper found"
+ },
+ "MSFT-NCT05551598|readout_v2|4dee8038b5": {
+  "checker_model": "claude-haiku-5-5",
+  "msf_trial_id": "MSFT-NCT05551598",
+  "pmid": null,
+  "pmids_considered": [
+   "38312734",
+   "41478665"
+  ],
+  "prompt_version": "readout_v2",
+  "read_on": "2026-10-28",
   "reader_model": "claude-sonnet-5-5",
   "readout": "unclear",
   "reason": "no main results paper found"
@@ -2391,6 +6571,22 @@
   "readout": "unclear",
   "reason": "no main results paper found"
  },
+ "MSFT-NCT05798520|readout_v2|1717ec8ee7": {
+  "checker_model": "claude-haiku-5-5",
+  "msf_trial_id": "MSFT-NCT05798520",
+  "pmid": null,
+  "pmids_considered": [
+   "42016388",
+   "38638671",
+   "40138388",
+   "40345950"
+  ],
+  "prompt_version": "readout_v2",
+  "read_on": "2026-10-28",
+  "reader_model": "claude-sonnet-5-5",
+  "readout": "unclear",
+  "reason": "no main results paper found"
+ },
  "MSFT-NCT05809414|readout_v1|9307b50b95": {
   "checker_model": "claude-haiku-5-5",
   "msf_trial_id": "MSFT-NCT05809414",
@@ -2401,6 +6597,20 @@
   ],
   "prompt_version": "readout_v1",
   "read_on": "2026-10-27",
+  "reader_model": "claude-sonnet-5-5",
+  "readout": "unclear",
+  "reason": "no main results paper found"
+ },
+ "MSFT-NCT05809414|readout_v2|9307b50b95": {
+  "checker_model": "claude-haiku-5-5",
+  "msf_trial_id": "MSFT-NCT05809414",
+  "pmid": null,
+  "pmids_considered": [
+   "38176857",
+   "42639338"
+  ],
+  "prompt_version": "readout_v2",
+  "read_on": "2026-10-28",
   "reader_model": "claude-sonnet-5-5",
   "readout": "unclear",
   "reason": "no main results paper found"
@@ -2424,6 +6634,25 @@
   "readout": "unclear",
   "reason": "second model disagreed"
  },
+ "MSFT-NCT06402487|readout_v2|5f2caf49cd": {
+  "checker_model": "claude-haiku-5-5",
+  "checker_said": "unclear",
+  "msf_trial_id": "MSFT-NCT06402487",
+  "pmid": "42402345",
+  "pmids_considered": [
+   "41780143",
+   "40108398",
+   "41490238",
+   "42402345"
+  ],
+  "prompt_version": "readout_v2",
+  "quote": "The adjusted mean difference in sNfL levels between the PA and placebo groups at follow-up was 0.91 pg/ml (95% CI 0.02 to 1.79; P = 0.045).",
+  "read_on": "2026-10-28",
+  "reader_model": "claude-sonnet-5-5",
+  "reader_said": "met",
+  "readout": "unclear",
+  "reason": "second model disagreed"
+ },
  "MSFT-NCT06497374|readout_v1|91f48facc9": {
   "checker_model": "claude-haiku-5-5",
   "msf_trial_id": "MSFT-NCT06497374",
@@ -2433,6 +6662,19 @@
   ],
   "prompt_version": "readout_v1",
   "read_on": "2026-10-27",
+  "reader_model": "claude-sonnet-5-5",
+  "readout": "unclear",
+  "reason": "no main results paper found"
+ },
+ "MSFT-NCT06497374|readout_v2|91f48facc9": {
+  "checker_model": "claude-haiku-5-5",
+  "msf_trial_id": "MSFT-NCT06497374",
+  "pmid": "40291752",
+  "pmids_considered": [
+   "40291752"
+  ],
+  "prompt_version": "readout_v2",
+  "read_on": "2026-10-28",
   "reader_model": "claude-sonnet-5-5",
   "readout": "unclear",
   "reason": "no main results paper found"
@@ -2453,5 +6695,22 @@
   "reader_said": "not_met",
   "readout": "not_met",
   "reason": null
+ },
+ "MSFT-NCT06812585|readout_v2|22fffe70db": {
+  "checker_model": "claude-haiku-5-5",
+  "checker_said": "unclear",
+  "msf_trial_id": "MSFT-NCT06812585",
+  "pmid": "41483718",
+  "pmids_considered": [
+   "41483718",
+   "42222362"
+  ],
+  "prompt_version": "readout_v2",
+  "quote": "There were no statistically significant differences between the two groups in the change in the median (interquartile range) of the blood biomarkers (sNFL; -32.8 (21) vs -32.8 (13.4), p = 0.99) and NF-\u03baB; -64.9 (35.1) vs -61.6 (35.7), p = 0.8, respectively).",
+  "read_on": "2026-10-28",
+  "reader_model": "claude-sonnet-5-5",
+  "reader_said": "not_met",
+  "readout": "unclear",
+  "reason": "second model disagreed"
  }
 }
