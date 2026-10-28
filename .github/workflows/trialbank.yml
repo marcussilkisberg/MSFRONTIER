@@ -11,7 +11,12 @@ on:
         default: true
 
 permissions:
-  contents: write   # lets the run commit the machine-read paper results (readouts/) back to this repository
+  contents: write
+
+# the weekly run and the daily news run both commit to this repository: never run them at the same time
+concurrency:
+  group: msfrontier-writes
+  cancel-in-progress: false   # lets the run commit the machine-read paper results (readouts/) back to this repository
 
 jobs:
   refresh:
@@ -21,9 +26,9 @@ jobs:
       run:
         working-directory: trialbank
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v6
 
-      - uses: actions/setup-python@v5
+      - uses: actions/setup-python@v6
         with:
           python-version: "3.12"
 
@@ -32,7 +37,7 @@ jobs:
 
       # ChEMBL and Europe PMC lookups are cached between runs so only new names/IDs are queried
       - name: Restore lookup caches
-        uses: actions/cache@v4
+        uses: actions/cache@v5
         with:
           path: |
             trialbank/raw/chembl_cache.json
@@ -45,10 +50,12 @@ jobs:
       - name: Harvest, tag and build
         run: |
           cd scripts
-          python harvest_ctgov.py ../raw
-          python harvest_isrctn.py ../raw
-          python harvest_euctr.py ../raw
-          python harvest_ctis.py ../raw
+          # registry websites sometimes time out: try each download up to 3 times before giving up
+          retry() { for i in 1 2 3; do "$@" && return 0; echo "attempt $i failed, retrying in 2 minutes"; sleep 120; done; return 1; }
+          retry python harvest_ctgov.py ../raw
+          retry python harvest_isrctn.py ../raw
+          retry python harvest_euctr.py ../raw
+          retry python harvest_ctis.py ../raw
           python warm_chembl_all.py
           python build.py
           python europepmc.py
@@ -83,7 +90,7 @@ jobs:
             git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
             git add trialbank/readouts
             git commit -m "Weekly paper readouts [skip ci]"
-            git push
+            git pull --rebase origin "${GITHUB_REF_NAME}" && git push
           fi
 
       - name: Load into Supabase
@@ -95,7 +102,7 @@ jobs:
           python load_supabase.py ../data
 
       - name: Keep the built files
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v5
         with:
           name: trialbank-data
           path: trialbank/data/
