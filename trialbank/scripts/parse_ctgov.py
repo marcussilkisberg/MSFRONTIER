@@ -149,6 +149,8 @@ def parse(path):
         trials.append({
             "registry": "ctgov", "registry_id": nct,
             "url": f"https://clinicaltrials.gov/study/{nct}",
+            "brief_summary": (p.get("descriptionModule", {}).get("briefSummary") or "")[:6000] or None,
+            "eligibility_text": (el.get("eligibilityCriteria") or "")[:8000] or None,
             "title": title, "official_title": otitle, "acronym": idm.get("acronym"),
             "org_study_id": idm.get("orgStudyIdInfo", {}).get("id"),
             "study_type": (dm.get("studyType") or "").lower(),

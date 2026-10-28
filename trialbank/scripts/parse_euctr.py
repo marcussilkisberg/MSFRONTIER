@@ -96,6 +96,10 @@ def parse(path):
         trials.append({
             "registry": "euctr", "registry_id": eud,
             "url": f"https://www.clinicaltrialsregister.eu/ctr-search/search?query=eudract_number:{eud}",
+            "brief_summary": _f(b, "E.2.1 Main objective of the trial"),
+            "eligibility_text": "\n".join(x for x in ("Inclusion: " + incl if incl else "",
+                                                      "Exclusion: " + (_f(b, "E.4 Principal exclusion criteria") or "")
+                                                      if _f(b, "E.4 Principal exclusion criteria") else "") if x) or None,
             "title": lay or title, "official_title": title, "acronym": short, "org_study_id": _f(b, "A.4.1 Sponsor's protocol code number"),
             "study_type": "interventional", "phase": "|".join(phases) or None,
             "status": status, "why_stopped": None, "why_stopped_class": None,

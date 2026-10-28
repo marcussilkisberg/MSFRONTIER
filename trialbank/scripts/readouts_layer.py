@@ -57,9 +57,15 @@ brand, subcutaneous vs intravenous, new drug "as good as" an old one) and showed
 pharmacokinetics, drug levels, B-cell or other cell counts, vaccine response, or feasibility.
 - "unclear": anything else.
 - "quote": copy ONE sentence from that abstract, exactly as written, that states the primary result.
+- "result": the primary result's numbers, copied exactly as they appear in the abstract (keep the original text of
+  each number, e.g. "0.76", "32.9%", "-0.21"). Leave out anything the abstract does not state. Fields:
+  "measure" (the primary measure, in the abstract's words), "n_randomised" (total participants),
+  "groups" (list of {{"group": name, "n": number, "value": the result for that group}}),
+  "effect" ({{"type": e.g. "hazard ratio", "rate ratio", "mean difference", "odds ratio", "value": ...,
+  "ci_lower": ..., "ci_upper": ...}}), "p": the p-value text, "follow_up": the time point.
 
 Reply with JSON only: {{"pmid": "...", "is_main_results_paper": true, \
-"readout": "met|not_met|mixed|equivalent|not_efficacy|unclear", "quote": "..."}}
+"readout": "met|not_met|mixed|equivalent|not_efficacy|unclear", "quote": "...", "result": {{...}}}}
 
 TRIAL
 Title: {title}
@@ -108,7 +114,7 @@ def norm(s):
     return re.sub(r"\s+", " ", s).strip()
 
 
-def call(model, prompt, max_tokens=400):
+def call(model, prompt, max_tokens=900):
     key = os.environ["ANTHROPIC_API_KEY"]
     for k in range(5):
         r = requests.post(API, timeout=120, headers={"x-api-key": key, "anthropic-version": "2023-06-01",
@@ -208,7 +214,47 @@ def read_trial(t, pmids, abstracts, outcomes, reader=call):
         return {**base, "readout": "unclear", "pmid": pmid, "quote": quote, "reader_said": j["readout"],
                 "checker_said": check, "reason": "second model disagreed"}
     return {**base, "readout": j["readout"], "pmid": pmid, "quote": quote, "reader_said": j["readout"],
-            "checker_said": check, "reason": None}
+            "checker_said": check, "reason": None,
+            "result": verified_numbers(j.get("result"), abstracts[pmid]["abstract"])}
+
+
+NUM = re.compile(r"[-−–]?\d+(?:[.,·]\d+)?%?")
+
+
+def verified_numbers(result, abstract):
+    """Keep only numbers that appear word for word in the abstract; drop anything else. Text fields (measure, group
+    names, effect type) are kept only if they also appear in the abstract."""
+    if not isinstance(result, dict):
+        return None
+    text = norm(abstract)
+    nums_in_abstract = {n.replace("−", "-").replace("–", "-").replace("·", ".") for n in NUM.findall(clean(abstract))}
+
+    def num_ok(v):
+        if v is None:
+            return None
+        v = str(v).strip().replace("−", "-").replace("–", "-").replace("·", ".")
+        found = NUM.findall(v)
+        return v if found and all(f in nums_in_abstract for f in found) else None
+
+    def text_ok(v, limit=160):
+        v = (str(v).strip() if v is not None else "")
+        return v[:limit] if v and norm(v) in text else None
+
+    out = {"measure": text_ok(result.get("measure"), 300), "n_randomised": num_ok(result.get("n_randomised")),
+           "p": num_ok(result.get("p")), "follow_up": text_ok(result.get("follow_up"))}
+    groups = []
+    for g in result.get("groups") or []:
+        if isinstance(g, dict):
+            row = {"group": text_ok(g.get("group")), "n": num_ok(g.get("n")), "value": num_ok(g.get("value"))}
+            if row["group"] and row["value"]:
+                groups.append(row)
+    out["groups"] = groups or None
+    e = result.get("effect") if isinstance(result.get("effect"), dict) else {}
+    eff = {"type": text_ok(e.get("type"), 60) or (str(e.get("type"))[:60] if e.get("type") else None),
+           "value": num_ok(e.get("value")), "ci_lower": num_ok(e.get("ci_lower")), "ci_upper": num_ok(e.get("ci_upper"))}
+    out["effect"] = eff if eff["value"] else None
+    out = {k: v for k, v in out.items() if v}
+    return out or None
 
 
 def main():
@@ -252,6 +298,9 @@ def main():
         if uid not in latest or rank(v) >= rank(latest[uid]):
             latest[uid] = v
     df = pd.DataFrame(latest.values()) if latest else pd.DataFrame(columns=["msf_trial_id", "readout"])
+    df["result_json"] = df["result"].apply(lambda r: json.dumps(r) if isinstance(r, dict) else None) \
+        if "result" in df.columns else None
+    df = df.drop(columns=["result"], errors="ignore")
     for c in ("pmid", "quote", "reader_said", "checker_said", "reason", "reader_model", "checker_model",
               "prompt_version", "read_on"):
         if c not in df.columns:

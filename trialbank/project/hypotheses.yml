@@ -33,10 +33,9 @@
   kind: therapeutic
   statement: People with progressive MS who take common blood pressure medicines worsen more slowly.
   aim: slow_progression
-  approach: new-antihypertensives
-  approach_label: Blood pressure medicines
+  approach: blood_pressure
   population: progressive
-  drugs: []
+  drugs: [indapamide, amlodipine, ramipril, losartan, candesartan, telmisartan]
   status: registered
   registered_on: 2026-10-27
 - id: P-03-H4

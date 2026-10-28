@@ -57,6 +57,10 @@ NODES = [
      r"erythropoietin|\bepo\b|neuroprotect|calcium channel|memantine|dronabinol"),
     ("vascular_lipid", "progression_biology", "Lipid / vascular (statins etc.)",
      r"hmg-coa reductase|simvastatin|atorvastatin|rosuvastatin|statin|ezetimibe|pcsk9"),
+    ("blood_pressure", "progression_biology", "Blood pressure medicines (vascular)",
+     r"indapamide|hydrochlorothiazide|chlortalidone|chlorthalidone|amlodipine|nifedipine|lisinopril|ramipril|enalapril|"
+     r"perindopril|losartan|candesartan|valsartan|telmisartan|irbesartan|olmesartan|angiotensin ii receptor|"
+     r"angiotensin-converting enzyme|thiazide"),
     ("hormonal", "progression_biology", "Sex hormones / hormonal",
      r"estriol|estradiol|oestr|testosterone|progest|nomegestrol|androgen receptor|estrogen receptor|prolactin|growth hormone"),
     ("nutritional_supplement", "lifestyle_supplement", "Vitamin D and nutritional supplements",
@@ -83,7 +87,7 @@ NODES = [
      r"serotonin transporter|acetylcholinesterase"),
 ]
 _COMPILED = [(i, fam, lab, re.compile(rx, re.I)) for i, fam, lab, rx in NODES]
-VERSION = "mechmap_v0_draft"
+VERSION = "mechmap_v0_1_draft"
 
 
 def assign(text):

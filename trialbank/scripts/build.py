@@ -13,6 +13,7 @@ import pandas as pd
 import chembl as C
 import mechanisms as M
 import parse_ctgov
+import parse_ctis
 import parse_euctr
 import parse_isrctn
 import tags as T
@@ -22,7 +23,7 @@ RAW, OUT = ROOT / "raw", ROOT / "data"
 OUT.mkdir(exist_ok=True)
 TODAY = date.today()
 BUILD = {"version": "0.1.0", "built_at": TODAY.isoformat(), "tag_method": T.TAG_METHOD, "mechanism_map": M.VERSION}
-REGISTRY_RANK = {"ctgov": 0, "euctr": 1, "isrctn": 2}
+REGISTRY_RANK = {"ctgov": 0, "ctis": 1, "euctr": 2, "isrctn": 3}
 ONGOING = {"recruiting", "active_not_recruiting", "not_yet_recruiting", "enrolling_by_invitation", "ongoing",
            "ongoing_inferred", "suspended", "transitioned_to_ctis"}
 
@@ -32,12 +33,13 @@ def load():
     ct = parse_ctgov.parse(RAW / "ctgov_studies.jsonl")
     eu = parse_euctr.parse(RAW / "euctr_full.txt")
     isr = parse_isrctn.parse(str(RAW / "isrctn_*.xml"))
-    trials = ct[0] + eu[0] + isr[0]
-    ids = ct[1] + eu[1] + isr[1]
-    ivs = ct[2] + eu[2] + isr[2]
-    outcomes = ct[3] + eu[3] + isr[3]
+    ctis = parse_ctis.parse(RAW)
+    trials = ct[0] + eu[0] + isr[0] + ctis[0]
+    ids = ct[1] + eu[1] + isr[1] + ctis[1]
+    ivs = ct[2] + eu[2] + isr[2] + ctis[2]
+    outcomes = ct[3] + eu[3] + isr[3] + ctis[3]
     analyses = ct[4]
-    refs = ct[5] + isr[4]
+    refs = ct[5] + isr[4] + ctis[4]
     return trials, ids, ivs, outcomes, analyses, refs
 
 
@@ -78,6 +80,32 @@ def dedupe(trials, ids):
                 uf.union(t["registry_id"], m)
                 ids.append({"registry": t["registry"], "registry_id": t["registry_id"],
                             "other_id": m, "id_type": "found_in_org_study_id"})
+    # CTIS numbers differ only in the last two digits when a trial is resubmitted (2023-503631-18-00 / -01)
+    ctis_base = defaultdict(list)
+    for t in trials:
+        if t["registry"] == "ctis":
+            ctis_base[t["registry_id"][:14]].append(t["registry_id"])
+    for same in ctis_base.values():
+        for x in same[1:]:
+            uf.union(same[0], x)
+    # same trial registered in two registries that do not cite each other: identical full official title,
+    # different registries, start dates within two years. Titles shared by more than two records are ambiguous
+    # (generic titles) and are left alone.
+    by_title = defaultdict(list)
+    for t in trials:
+        k = re.sub(r"[^a-z0-9]+", " ", str(t.get("official_title") or "").lower()).strip()
+        if len(k) > 40:
+            by_title[k].append(t)
+    for recs in by_title.values():
+        if len(recs) != 2 or recs[0]["registry"] == recs[1]["registry"]:
+            continue
+        y = [str(r.get("start_date") or "")[:4] for r in recs]
+        if all(x.isdigit() for x in y) and abs(int(y[0]) - int(y[1])) > 2:
+            continue
+        a, b = recs[0]["registry_id"], recs[1]["registry_id"]
+        if uf.find(a) != uf.find(b):
+            uf.union(a, b)
+            ids.append({"registry": recs[0]["registry"], "registry_id": a, "other_id": b, "id_type": "same_official_title"})
     groups = defaultdict(list)
     for t in trials:
         groups[uf.find(t["registry_id"])].append(t)
@@ -301,6 +329,11 @@ def main():
              "has_posted_results", "results_first_posted", "n_result_pmids"]
     trials_df = trials_df[first + [c for c in trials_df.columns if c not in first]]
     trials_df = trials_df.drop(columns=["registry", "registry_id"])
+    # long texts go to their own table (summary in the registry's words, who can take part)
+    text_cols = ["brief_summary", "eligibility_text"]
+    texts = trials_df[["msf_trial_id"] + [c for c in text_cols if c in trials_df.columns]].copy()
+    texts.to_parquet(OUT / "trial_texts.parquet", index=False)
+    trials_df = trials_df.drop(columns=[c for c in text_cols if c in trials_df.columns])
     trials_df = trials_df.sort_values(["tier", "start_date"], ascending=[True, False], na_position="last")
 
     # ---- side tables

@@ -8,6 +8,7 @@ mkdir -p ../raw ../data
 python harvest_ctgov.py ../raw
 python harvest_isrctn.py ../raw
 python harvest_euctr.py ../raw           # slowest step (~25 min): the EU register serves 20 trials per page
+python harvest_ctis.py ../raw            # EU Clinical Trials Regulation portal (2023 onwards)
 python warm_chembl_all.py                # cached in raw/chembl_cache.json; only new names are looked up
 python build.py                          # first pass: writes trial_registry_ids for the Europe PMC search
 python europepmc.py                      # cached in raw/europepmc_cache.json
@@ -17,6 +18,7 @@ python treatments_layer.py               # EMA + FDA approvals, safety letters, 
 python measures_layer.py                 # measures dictionary with usage counts
 python genetics_layer.py || echo "genetic leads skipped (Open Targets unreachable)"
 python readouts_layer.py || echo "paper readouts skipped"   # reads papers only if ANTHROPIC_API_KEY is set
+python links_layer.py                  # extensions and sub-studies that name their parent trial
 python hypotheses_layer.py               # hypothesis ledger, from everything above plus ../project/*.yml
 python validate.py > ../data/validate.log
 

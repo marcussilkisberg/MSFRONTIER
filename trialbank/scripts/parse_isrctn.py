@@ -139,6 +139,10 @@ def parse(pattern):
 
             trials.append({
                 "registry": "isrctn", "registry_id": rid, "url": f"https://www.isrctn.com/{rid}",
+                "brief_summary": (_t(td, "i:plainEnglishSummary") or "")[:6000] or None,
+                "eligibility_text": "\n".join(x for x in ("Inclusion: " + inclusion if inclusion else "",
+                                                          "Exclusion: " + (_t(parts, "i:exclusion") or "")
+                                                          if _t(parts, "i:exclusion") else "") if x)[:8000] or None,
                 "title": title, "official_title": otitle, "acronym": _t(td, "i:acronym"), "org_study_id": None,
                 "study_type": study_type, "phase": _phase(phases),
                 # ISRCTN has no status field in the API; infer from dates

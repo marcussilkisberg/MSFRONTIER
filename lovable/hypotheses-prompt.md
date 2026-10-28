@@ -151,7 +151,8 @@ For a hypothesis:
   result in colour (met "Met main goal" green; not_met "Missed main goal" and stopped_no_effect "Stopped: not
   working" rust; stopped_safety "Stopped: safety" rust; ongoing "Ongoing" blue; mixed "Mixed" amber;
   stopped_other "Stopped, other reason", result_in_paper_unread "Result in a paper, not read yet", no_result_found
-  "No result found" grey). Under it in small grey: "Phase X · start year · design · trial ID", where design is
+  "No result found", equivalent "Shown as good as comparator", not_efficacy "Main goal was not benefit (e.g.
+  safety)" grey). Under it in small grey: "Phase X · start year · design · trial ID", where design is
   "Placebo-controlled" (has_placebo_or_sham and no comparator_drugs), "Compared with …" (comparator_drugs),
   "Randomised" or "Not randomised" (is_rct false); and a green "✓ counts" when `counts_toward_verdict`. When
   `state_source` is `paper_machine_read`, add the `readout_quote` in italics and "Read by machine from the paper's

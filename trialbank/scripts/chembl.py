@@ -41,6 +41,11 @@ ALIASES = [
 ]
 
 
+SALT = re.compile(r"\b(?:hemi|mono|di|tri|sesqui)?hydrate\b|\banhydrous\b|\b(?:hydrochloride|dihydrochloride|"
+                  r"hydrobromide|sulfate|sulphate|phosphate|maleate|tartrate|citrate|mesylate|"
+                  r"besylate|sodium|potassium|calcium|magnesium)\b", re.I)
+
+
 def _aliases(raw):
     out = []
     for rx, rep in ALIASES:
@@ -69,6 +74,12 @@ def clean_name(raw):
             p = re.sub(r"\s+", " ", p).strip(" -").lower()
             if len(p) >= 3 and not re.fullmatch(r"[\d\s\-]+", p) and p not in out:
                 out.append(p)
+    # EU registries give substances with their salt or hydrate ("INDAPAMIDE HEMIHYDRATE"): also try the bare name
+    for p in list(out):
+        bare = SALT.sub(" ", p)
+        bare = re.sub(r"\s+", " ", bare).strip()
+        if len(bare) >= 4 and bare != p and bare not in out:
+            out.append(bare)
     for a in _aliases(raw):
         if a not in out:
             out.append(a)

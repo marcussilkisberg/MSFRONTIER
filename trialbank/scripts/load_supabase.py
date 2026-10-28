@@ -115,6 +115,23 @@ def main():
         run_id = cur.fetchone()[0]
         conn.commit()
         try:
+            # ---- guardrail: a registry outage or parser break must not wipe the live bank. Refuse the load when
+            # this build has far fewer trials or hypotheses than the last good load (override: LOAD_FORCE=1).
+            cur.execute("select n_trials from bank.load_runs where error is null and finished_at is not null "
+                        "and n_trials > 0 order by id desc limit 1")
+            prev = cur.fetchone()
+            hyp_new = len(pd.read_parquet(DATA / "hypotheses.parquet")) if (DATA / "hypotheses.parquet").exists() else None
+            hyp_prev = None
+            if has_table(cur, "hypotheses"):
+                cur.execute("select count(*) from bank.hypotheses")
+                hyp_prev = cur.fetchone()[0]
+            if os.environ.get("LOAD_FORCE") != "1":
+                if prev and len(trials) < 0.85 * prev[0]:
+                    raise RuntimeError(f"refusing to load: {len(trials)} trials vs {prev[0]} in the last good load "
+                                       f"(>15% drop). Check the harvest; set LOAD_FORCE=1 to override.")
+                if hyp_prev and hyp_new is not None and hyp_new < 0.8 * hyp_prev:
+                    raise RuntimeError(f"refusing to load: {hyp_new} hypotheses vs {hyp_prev} now (>20% drop). "
+                                       f"Set LOAD_FORCE=1 to override.")
             cur.execute("""select column_name from information_schema.columns
                            where table_schema='bank' and table_name='trials'""")
             db_cols = {r[0] for r in cur.fetchall()}
@@ -212,6 +229,7 @@ def main():
             load_layers(cur, set(ids))
             # ---- hypothesis ledger, genetics and the Project (006)
             load_hypotheses(cur, set(ids), run_id)
+            load_texts(cur, set(ids))
 
             # ---- sync curation file into corrections (authored as 'curation_file')
             ov_path = ROOT / "curation" / "overrides.csv"
@@ -368,10 +386,17 @@ def load_hypotheses(cur, keep_ids, run_id):
         "state": t, "state_source": t, "is_rct": b, "has_placebo_or_sham": b, "eligible_for_verdict": b,
         "counts_toward_verdict": b, "comparator_drugs": lst, "enrollment": i, "start_year": i, "drugs": lst,
         "acronym": t, "title": t, "primary_endpoint_tags": lst, "readout_quote": t, "readout_pmid": t})
+    cur.execute("select 1 from information_schema.columns where table_schema='bank' and table_name='trial_readouts' "
+                "and column_name='result_json'")
+    has_result_col = cur.fetchone() is not None
     if f("trial_readouts").exists():
-        load_child(cur, f("trial_readouts"), "trial_readouts", keep_ids=keep_ids, dedupe=["msf_trial_id"], spec={
+        rd = pd.read_parquet(f("trial_readouts"))
+        if not has_result_col:
+            rd = rd.drop(columns=["result_json"], errors="ignore")
+        load_child(cur, rd, "trial_readouts", keep_ids=keep_ids, dedupe=["msf_trial_id"], spec={
             "msf_trial_id": t, "readout": t, "pmid": t, "quote": t, "pmids_considered": lst, "reader_said": t,
-            "checker_said": t, "reason": t, "reader_model": t, "checker_model": t, "prompt_version": t, "read_on": d})
+            "checker_said": t, "reason": t, "reader_model": t, "checker_model": t, "prompt_version": t, "read_on": d,
+            **({"result_json": lambda v: None if missing(v) else Jsonb(json.loads(v))} if has_result_col else {})})
     if f("genetic_leads").exists():
         load_child(cur, f("genetic_leads"), "genetic_leads", dedupe=["ensembl_id"], spec={
             "ensembl_id": t, "symbol": t, "name": t, "genetic_score": lambda v: None if missing(v) else float(v),
@@ -393,6 +418,21 @@ def load_hypotheses(cur, keep_ids, run_id):
             "id": t, "study": t, "kind": t, "statement": t, "aim": t, "approach": t, "approach_label": t,
             "population": t, "drugs": lst, "status": t, "registered_on": d, "ledger_hypothesis_ids": lst})
     print(f"hypotheses: {len(new)} loaded, {len(hist)} history entries")
+
+
+def load_texts(cur, keep_ids):
+    """Trial summaries and eligibility criteria (007)."""
+    if not has_table(cur, "trial_texts") or not (DATA / "trial_texts.parquet").exists():
+        return
+    cur.execute("delete from bank.trial_texts")
+    load_child(cur, DATA / "trial_texts.parquet", "trial_texts", keep_ids=keep_ids, dedupe=["msf_trial_id"],
+               spec={"msf_trial_id": t, "brief_summary": t, "eligibility_text": t})
+    if has_table(cur, "trial_links") and (DATA / "trial_links.parquet").exists():
+        cur.execute("delete from bank.trial_links")
+        links = pd.read_parquet(DATA / "trial_links.parquet")
+        links = links[links.msf_trial_id.isin(keep_ids) & links.related_trial_id.isin(keep_ids)]
+        load_child(cur, links, "trial_links", spec={"msf_trial_id": t, "related_trial_id": t, "relation": t,
+                                                     "matched_id": t, "source": t})
 
 
 def load_child(cur, src, table, spec, dedupe=None, keep_ids=None):
