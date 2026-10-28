@@ -48,6 +48,7 @@ jobs:
           python harvest_ctgov.py ../raw
           python harvest_isrctn.py ../raw
           python harvest_euctr.py ../raw
+          python harvest_ctis.py ../raw
           python warm_chembl_all.py
           python build.py
           python europepmc.py
@@ -55,6 +56,7 @@ jobs:
           python results_layer.py
           python treatments_layer.py
           python measures_layer.py
+          python links_layer.py
           python validate.py > ../data/validate.log
 
       # Hypothesis ledger. Genetics and paper readouts are optional: if either fails, the ledger is still built and
