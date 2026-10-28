@@ -254,6 +254,8 @@ def main():
                 cur.execute("select bank.rebuild_layer_edges()")
             if has_table(cur, "hypotheses"):
                 cur.execute("select bank.rebuild_hypothesis_edges()")
+            if has_table(cur, "news_items"):
+                cur.execute("select bank.link_news()")   # new trials and medicines this week: relink articles
                 cur.execute("select count(*) from bank.edges")
                 n_edges = cur.fetchone()[0]
             cur.execute("""update bank.load_runs set finished_at = now(), n_trials = %s, n_new = %s, n_changed = %s,
