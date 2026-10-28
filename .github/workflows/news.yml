@@ -1,0 +1,47 @@
+name: News refresh
+
+on:
+  schedule:
+    - cron: "41 5 * * *"   # every day 05:41 UTC
+  workflow_dispatch:
+
+permissions:
+  contents: write   # commits the news history (news/items.json)
+
+concurrency:
+  group: msfrontier-writes
+  cancel-in-progress: false
+
+jobs:
+  news:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    defaults:
+      run:
+        working-directory: trialbank
+    steps:
+      - uses: actions/checkout@v6
+
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+
+      - name: Install
+        run: pip install -r requirements.txt
+
+      - name: Collect, summarise and load articles
+        env:
+          SUPABASE_DB_URL: ${{ secrets.SUPABASE_DB_URL }}
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: cd scripts && python news_layer.py
+
+      - name: Save the news history to the repository
+        run: |
+          cd ..
+          if [ -n "$(git status --porcelain trialbank/news)" ]; then
+            git config user.name "trialbank-bot"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add trialbank/news
+            git commit -m "Daily news [skip ci]"
+            git pull --rebase origin "${GITHUB_REF_NAME}" && git push
+          fi
