@@ -12,6 +12,7 @@ Writes ../data/trial_readouts.parquet.
 Usage: python readouts_layer.py
 """
 import hashlib
+import html as htmllib
 import json
 import os
 import re
@@ -32,26 +33,33 @@ EPMC = "https://www.ebi.ac.uk/europepmc/webservices/rest/search"
 API = "https://api.anthropic.com/v1/messages"
 READER = os.environ.get("READOUT_MODEL", "claude-sonnet-5-5")
 CHECKER = os.environ.get("READOUT_CHECK_MODEL", "claude-haiku-5-5")
-MAX_TRIALS = int(os.environ.get("READOUT_MAX_TRIALS", "150"))
-PROMPT_VERSION = "readout_v1"
+MAX_TRIALS = int(os.environ.get("READOUT_MAX_TRIALS", "400"))
+# v2: abstracts keep "p < 0.001" (v1 stripped it as if it were HTML); equivalence and non-efficacy trials separated
+PROMPT_VERSION = "readout_v2"
 P23 = {"phase2", "phase3", "phase2|phase3"}
 DECIDED = ("primary_p_lt_0.05", "primary_p_ge_0.05")
-OUTCOMES = {"met", "not_met", "mixed", "unclear"}
+OUTCOMES = {"met", "not_met", "mixed", "equivalent", "not_efficacy", "unclear"}
 
 READER_PROMPT = """You check what a clinical trial found. Below are a trial's registry details and the abstracts of \
 papers linked to it.
 
-Task: decide whether the trial MET ITS PRIMARY ENDPOINT, using only the abstracts.
+Task: decide what the trial found for its PRIMARY ENDPOINT, using only the abstracts.
 - Use the paper that reports the main results of THIS trial (not a protocol, sub-study, extension, pooled \
 analysis or review). If none does, answer "unclear".
-- "met": the primary endpoint showed a statistically significant benefit of the experimental treatment.
-- "not_met": the primary endpoint did not show a significant benefit (including non-significant trends).
-- "mixed": the trial had several primary endpoints or co-primary comparisons with different results.
+- "met": the primary endpoint showed a statistically significant BENEFIT of the experimental treatment over the \
+control (placebo, no treatment or another drug).
+- "not_met": the primary endpoint did not show a significant benefit (including non-significant trends), or the \
+experimental treatment did worse.
+- "mixed": several primary endpoints or co-primary comparisons with different results.
+- "equivalent": the trial was designed to show non-inferiority, equivalence or biosimilarity (e.g. generic vs \
+brand, subcutaneous vs intravenous, new drug "as good as" an old one) and showed it.
+- "not_efficacy": the primary endpoint was not about treatment benefit: safety, tolerability, adherence, \
+pharmacokinetics, drug levels, B-cell or other cell counts, vaccine response, or feasibility.
 - "unclear": anything else.
 - "quote": copy ONE sentence from that abstract, exactly as written, that states the primary result.
 
-Reply with JSON only: {{"pmid": "...", "is_main_results_paper": true, "readout": "met|not_met|mixed|unclear", \
-"quote": "..."}}
+Reply with JSON only: {{"pmid": "...", "is_main_results_paper": true, \
+"readout": "met|not_met|mixed|equivalent|not_efficacy|unclear", "quote": "..."}}
 
 TRIAL
 Title: {title}
@@ -65,26 +73,39 @@ Primary outcome (registry): {primary}
 ABSTRACTS
 {abstracts}"""
 
-CHECK_PROMPT = """A trial's primary outcome was: {primary}
+CHECK_PROMPT = """You check one sentence about a clinical trial.
+
+Trial: {title}
+Experimental: {drugs}. Comparator: {comparator}.
+Primary outcome (registry): {primary}
 
 Abstract:
 {abstract}
 
 Sentence from the abstract: "{quote}"
 
-Did the trial meet its primary endpoint (statistically significant benefit of the experimental treatment)? \
-Answer with one word: met, not_met, mixed or unclear."""
+What did the trial find for its primary endpoint? Choose one:
+- met: statistically significant benefit of the experimental treatment over the control
+- not_met: no significant benefit, or worse
+- mixed: several primary endpoints with different results
+- equivalent: designed to show non-inferiority or equivalence, and showed it
+- not_efficacy: the primary endpoint was safety, pharmacokinetics, cell counts, vaccine response or feasibility
+- unclear: the abstract does not say
+
+Reply with JSON only: {{"readout": "..."}}"""
+
+
+TAG = re.compile(r"</?[A-Za-z][A-Za-z0-9]*(?:\s[^<>]*)?/?>")   # real HTML tags only: keeps "p < 0.001" and "p<0.05"
+
+
+def clean(text):
+    return re.sub(r"\s+", " ", htmllib.unescape(TAG.sub(" ", text or ""))).strip()
 
 
 def norm(s):
-    s = unicodedata.normalize("NFKC", s or "").lower()
-    s = re.sub(r"[‐-―−]", "-", s)
-    s = re.sub(r"<[^>]+>", " ", s)
+    s = unicodedata.normalize("NFKC", clean(s)).lower()
+    s = re.sub(r"[\u2010-\u2015\u2212]", "-", s)
     return re.sub(r"\s+", " ", s).strip()
-
-
-def clean(html):
-    return re.sub(r"\s+", " ", re.sub(r"<[^>]+>", " ", html or "")).strip()
 
 
 def call(model, prompt, max_tokens=400):
@@ -179,9 +200,10 @@ def read_trial(t, pmids, abstracts, outcomes, reader=call):
         return {**base, "readout": "unclear", "reason": "reader cited a paper that was not supplied"}
     if len(quote) < 20 or norm(quote) not in norm(abstracts[pmid]["abstract"]):
         return {**base, "readout": "unclear", "pmid": pmid, "reason": "quote not found word for word in abstract"}
-    check = reader(CHECKER, CHECK_PROMPT.format(primary=primary, abstract=clean(abstracts[pmid]["abstract"]),
-                                                quote=quote), 10).strip().lower().replace(" ", "_")
-    check = next((o for o in ("not_met", "met", "mixed", "unclear") if check.startswith(o)), "unclear")
+    cj = parse_json(reader(CHECKER, CHECK_PROMPT.format(
+        title=t.title, drugs=t.drugs or "-", comparator=t.comparator_drugs or "placebo or none listed",
+        primary=primary, abstract=clean(abstracts[pmid]["abstract"]), quote=quote), 60)) or {}
+    check = cj.get("readout") if cj.get("readout") in OUTCOMES else "unclear"
     if check != j["readout"]:
         return {**base, "readout": "unclear", "pmid": pmid, "quote": quote, "reader_said": j["readout"],
                 "checker_said": check, "reason": "second model disagreed"}
@@ -224,9 +246,10 @@ def main():
 
     # latest readout per trial (a newer paper set or prompt version supersedes older ones)
     latest = {}
+    rank = lambda v: (v.get("prompt_version") == PROMPT_VERSION, v.get("read_on", ""))
     for k, v in cache.items():
         uid = k.split("|")[0]
-        if uid not in latest or v.get("read_on", "") >= latest[uid].get("read_on", ""):
+        if uid not in latest or rank(v) >= rank(latest[uid]):
             latest[uid] = v
     df = pd.DataFrame(latest.values()) if latest else pd.DataFrame(columns=["msf_trial_id", "readout"])
     for c in ("pmid", "quote", "reader_said", "checker_said", "reason", "reader_model", "checker_model",

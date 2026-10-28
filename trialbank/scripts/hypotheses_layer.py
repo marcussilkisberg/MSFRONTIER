@@ -145,7 +145,9 @@ def evidence_state(t, readouts):
     if rs.startswith(("terminated", "withdrawn")):
         return "stopped_other", "registry_stop_reason"
     r = readouts.get(t.msf_trial_id)
-    if r is not None and r["readout"] in ("met", "not_met", "mixed"):
+    if r is not None and r["readout"] in ("met", "not_met", "mixed", "equivalent", "not_efficacy"):
+        # 'equivalent' (non-inferiority shown) and 'not_efficacy' (safety/PK/cell-count endpoints) are read results
+        # that say nothing about whether the approach works: they neither count nor block a verdict
         return r["readout"], "paper_machine_read"
     if rs in ("publication_linked", "publication_found_europepmc"):
         return "result_in_paper_unread", None
