@@ -13,10 +13,13 @@ Usage  : python hypotheses_layer.py
 from datetime import date
 from pathlib import Path
 
+import json
 import re
 
 import pandas as pd
 import yaml
+
+import tags as T
 
 ROOT = Path(__file__).resolve().parent.parent
 DATA, PROJECT = ROOT / "data", ROOT / "project"
@@ -43,6 +46,7 @@ ENDPOINT_AIM = {"relapse": "stop_inflammation", "mri_lesions": "stop_inflammatio
 FUNCTION_ENDPOINTS = {"walking_mobility", "upper_limb", "cognition", "fatigue", "spasticity", "bladder_bowel_sexual",
                       "pain", "mood_sleep", "physical_function", "quality_of_life_pro", "vision",
                       "disability_progression"}
+SYMPTOM_ENDPOINTS = FUNCTION_ENDPOINTS - {"disability_progression"}
 RESET_NODES = {"immune_reconstitution"}
 CAR_T = re.compile(r"\bcar[- ]?t\b|chimeric antigen receptor|autoleucel|cabtagene", re.I)
 SKIP_NODES = {"imaging_tracer"}
@@ -51,7 +55,7 @@ SKIP_NODES = {"imaging_tracer"}
 MIXED_NODES = {"t_cell_costimulation", "broad_immunosuppression", "cell_therapy_tolerance", "axonal_neuroprotection",
                "mitochondrial_oxidative", "microglia_innate", "hormonal", "remyelination", "nutritional_supplement",
                "pain_mood_cognition", "other_b_cell_plasma_cell", "antiviral_ebv", "fatigue_wakefulness", "bladder",
-               "complement", "fcrn_igg"}
+               "complement", "fcrn_igg", "spasticity"}
 NONDRUG = {"exercise_rehabilitation": "Exercise and rehabilitation", "cognitive_psychological": "Cognitive and psychological therapy",
            "neuromodulation_device": "Brain or nerve stimulation", "device_other": "Assistive and other devices",
            "digital_health": "Digital health", "diet_nutrition": "Diet", "cell_or_transplant": "Cell therapy or transplant"}
@@ -79,8 +83,8 @@ def split(s):
     return [x for x in str(s or "").split("|") if x and x != "nan"]
 
 
-def trial_aims(t, approach, family):
-    tags = set(split(t.primary_endpoint_tags))
+def trial_aims(t, approach, family, tags=None):
+    tags = set(split(t.primary_endpoint_tags)) if tags is None else set(tags)
     pop = t.population_group
     aims = set()
     car_t = approach == "cell_therapy_tolerance" and CAR_T.search(f"{t.title} {t.drugs} {t.interventions_raw}")
@@ -90,7 +94,9 @@ def trial_aims(t, approach, family):
     function_only = family == "symptomatic" or (
         approach.startswith("nd-") and approach not in ("nd-diet_nutrition", "nd-cell_or_transplant"))
     if function_only:
-        if tags & (FUNCTION_ENDPOINTS | EFFICACY):
+        # symptom treatments are judged on symptoms and function, not on disability progression (CUPID tested
+        # dronabinol for progression; that says nothing about spasticity relief)
+        if tags & (SYMPTOM_ENDPOINTS | ({"vision", "walking_mobility", "upper_limb"} if approach.startswith("nd-") else set())):
             aims.add("restore_function")
         return aims
     if approach == "corticosteroid":
@@ -122,12 +128,67 @@ def attributed_nodes(t, node_by_drug):
     return kept or nodes
 
 
-def population(t):
+def populations(t):
+    """A trial that enrolled both PPMS and SPMS tests the hypothesis in each (SPI2 counts for biotin in PPMS and in
+    SPMS); there is no separate 'progressive' hypothesis row."""
     g = t.population_group
     if g == "progressive":
-        ph = set(split(t.phenotypes)) - {"progressive_ms"}
-        return "ppms" if ph == {"ppms"} else "spms" if ph == {"spms"} else "progressive"
-    return g if g in POPULATIONS else None
+        text = f"{t.title} {t.official_title}".lower()
+        named = [p for p, rx in (("ppms", r"primary[- ]progressive|\bppms\b"), ("spms", r"secondary[- ]progressive|\bspms\b"))
+                 if re.search(rx, text)]
+        if named:                       # the title says which (O'HAND: "...Primary Progressive Multiple Sclerosis")
+            return named
+        ph = set(split(t.phenotypes)) & {"ppms", "spms"}
+        return sorted(ph) if ph and not re.search(r"progressive multiple sclerosis|progressive ms\b", text) \
+            else ["ppms", "spms"]       # "Progressive MS" with no type named: both (MS-SPI, SPI2)
+    if g == "relapsing_and_progressive":
+        # trials of SPMS that allow relapses (EXPAND, ASCEND) are tagged mixed from their criteria; the title decides
+        text = f"{t.title} {t.official_title}".lower()
+        named = [p for p, rx in (("ppms", r"primary[- ]progressive|\bppms\b"), ("spms", r"secondary[- ]progressive|\bspms\b"))
+                 if re.search(rx, text)]
+        if named and not re.search(r"relapsing|remitting|\brms\b|\brrms\b", text):
+            return named
+    return [g] if g in POPULATIONS else []
+
+
+def verdict_phase(t):
+    """A 'phase 2/3' trial with fewer than 100 participants is judged as phase 2 (lipoic acid in SPMS: 54)."""
+    try:
+        n = float(t.enrollment)
+    except (TypeError, ValueError):
+        n = None
+    if t.phase == "phase2|phase3" and n is not None and n < 100:
+        return "phase2"
+    return t.phase
+
+
+def aim_state(t, aim, g, family, state, source, analyses, readout):
+    """The result for THIS aim. A trial with several primary measures can succeed on one and fail on another; a
+    result is only credited to the aim its measure belongs to."""
+    if source == "registry_analysis" and analyses:
+        mine = [a for a in analyses if aim in trial_aims(t, g, family, a["tags"])]
+        if not mine:
+            return "other_endpoint_result"
+        sup = [a for a in mine if a["ni"] not in ("NON_INFERIORITY", "EQUIVALENCE")]
+        if any(a["p"] is not None and a["p"] < 0.05 for a in sup):
+            return "met"
+        if not sup and any(a["p"] is not None and a["p"] < 0.05 for a in mine):
+            return "equivalent"
+        return "not_met"
+    if source == "paper_machine_read" and readout:
+        res = readout.get("result")
+        if not isinstance(res, dict):
+            try:
+                res = json.loads(readout.get("result_json") or "null")
+            except (TypeError, ValueError):
+                res = None
+        measure = res.get("measure") if isinstance(res, dict) else None
+        if measure:
+            mtags = T.tag_endpoint(measure)
+            maims = trial_aims(t, g, family, mtags) if mtags else set()
+            if maims and aim not in maims:
+                return "other_endpoint_result"
+    return state
 
 
 def evidence_state(t, readouts):
@@ -142,13 +203,14 @@ def evidence_state(t, readouts):
         return "stopped_safety", "registry_stop_reason"
     if t.status in ONGOING:
         return "ongoing", "registry_status"
-    if rs.startswith(("terminated", "withdrawn")):
-        return "stopped_other", "registry_stop_reason"
     r = readouts.get(t.msf_trial_id)
     if r is not None and r["readout"] in ("met", "not_met", "mixed", "equivalent", "not_efficacy"):
         # 'equivalent' (non-inferiority shown) and 'not_efficacy' (safety/PK/cell-count endpoints) are read results
-        # that say nothing about whether the approach works: they neither count nor block a verdict
+        # that say nothing about whether the approach works: they neither count nor block a verdict.
+        # A published result outranks a registry "terminated" label (SPI2).
         return r["readout"], "paper_machine_read"
+    if rs.startswith(("terminated", "withdrawn")):
+        return "stopped_other", "registry_stop_reason"
     if rs in ("publication_linked", "publication_found_europepmc"):
         return "result_in_paper_unread", None
     return "no_result_found", None
@@ -168,9 +230,9 @@ def verdict(ev):
     that decides it (ORATORIO, the positive phase 3 of ocrelizumab in PPMS, posts no p-value in the registry)."""
     d = ev[ev.counts_toward_verdict]
     def n(phases, states):
-        return int((d.phase.isin(phases) & d.state.isin(states)).sum())
+        return int((d.verdict_phase.isin(phases) & d.state.isin(states)).sum())
     def unread(phases):
-        return int((ev.eligible_for_verdict & ev.phase.isin(phases) & ev.state.isin(UNREAD)).sum())
+        return int((ev.eligible_for_verdict & ev.verdict_phase.isin(phases) & ev.state.isin(UNREAD)).sum())
     for phases, (sup, neg, mix, inc) in ((P3, ("supported", "not_supported", "mixed", "incomplete_phase3")),
                                          (P2, ("early_signal", "early_negative", "mixed_early", "incomplete_phase2"))):
         m, nm, mx, u = n(phases, {"met"}), n(phases, {"not_met", "stopped_no_effect"}), n(phases, {"mixed"}), unread(phases)
@@ -214,6 +276,18 @@ def main():
     trials = pd.read_parquet(DATA / "trials.parquet")
     trials = trials[trials.study_type == "interventional"]
     nodes = pd.read_parquet(DATA / "mechanism_nodes.parquet").set_index("node_id")
+    analyses = {}
+    apath = DATA / "trial_primary_analyses_ctgov.parquet"
+    if apath.exists():
+        for a in pd.read_parquet(apath).itertuples():
+            pv = None if pd.isna(a.p_value) else float(a.p_value)
+            if a.p_op in ("<", "<=") and pv is not None:
+                pv = min(pv, 0.049) if pv <= 0.05 else pv
+            tg = split(a.endpoint_tags)
+            if "disability_progression" in tg:   # "disability ... in the MRI activity analysis set" is a disability result
+                tg = [x for x in tg if x != "mri_lesions"]
+            analyses.setdefault(a.msf_trial_id, []).append(
+                {"tags": tg, "p": pv, "ni": str(a.non_inferiority_type or "").upper()})
     rpath = DATA / "trial_readouts.parquet"
     readouts = pd.read_parquet(rpath).set_index("msf_trial_id").to_dict("index") if rpath.exists() else {}
 
@@ -226,8 +300,8 @@ def main():
 
     rows, drug_label = [], {}
     for t in trials.itertuples():
-        pop = population(t)
-        if not pop:
+        pops = populations(t)
+        if not pops:
             continue
         approaches = []
         for n in attributed_nodes(t, node_by_drug):
@@ -247,21 +321,26 @@ def main():
         rct = is_rct(t)
         comp_nodes = {n for d in split(t.comparator_drugs) for n in node_by_drug.get(d, [])}
         r = readouts.get(t.msf_trial_id) or {}
+        vphase = verdict_phase(t)
         for a in approaches:
             g = a.split(".")[0]
             for aim in trial_aims(t, g, approach_family.get(g)):
+              st = aim_state(t, aim, g, approach_family.get(g), state, source, analyses.get(t.msf_trial_id),
+                             readouts.get(t.msf_trial_id))
+              for pop in pops:
                 rows.append({
                     "hypothesis_id": f"H:{aim}:{a}:{pop}", "msf_trial_id": t.msf_trial_id, "aim": aim,
-                    "approach": a, "approach_group": g, "population": pop, "phase": t.phase, "status": t.status, "state": state,
+                    "approach": a, "approach_group": g, "population": pop, "phase": t.phase,
+                    "verdict_phase": vphase, "status": t.status, "state": st,
                     "state_source": source, "is_rct": rct, "has_placebo_or_sham": bool(t.has_placebo_or_sham),
                     # A verdict counts placebo/sham-controlled RCTs, plus active-comparator RCTs that BEAT a drug
                     # of another mechanism. Failing to beat an active drug, or dose comparisons within one
                     # mechanism (e.g. GAVOTTE, high- vs standard-dose ocrelizumab), say nothing about whether
                     # the approach works.
-                    "eligible_for_verdict": bool(rct and t.phase in (P3 | P2) and g not in comp_nodes),
+                    "eligible_for_verdict": bool(rct and vphase in (P3 | P2) and g not in comp_nodes),
                     # placebo with an active comparator is a double-dummy, not a placebo control (GEMINI 1/2)
-                    "counts_toward_verdict": bool(rct and t.phase in (P3 | P2) and g not in comp_nodes and (
-                        (bool(t.has_placebo_or_sham) and not split(t.comparator_drugs)) or state == "met")),
+                    "counts_toward_verdict": bool(rct and vphase in (P3 | P2) and g not in comp_nodes and (
+                        (bool(t.has_placebo_or_sham) and not split(t.comparator_drugs)) or st == "met")),
                     "comparator_drugs": split(t.comparator_drugs),
                     "enrollment": t.enrollment, "start_year": t.start_year, "drugs": split(t.drugs),
                     "acronym": t.acronym, "title": t.title, "primary_endpoint_tags": split(t.primary_endpoint_tags),
@@ -324,7 +403,7 @@ def main():
         phases = [p for p in ("phase4", "phase3", "phase2|phase3", "phase2", "phase1|phase2", "phase1", "early_phase1")
                   if len(e) and (e.phase == p).any()]
         verb = "prevent attacks" if aim == "stop_inflammation" and pop in ("nmosd", "mogad") else AIMS[aim]["verb"]
-        n_unread3 = int((e.eligible_for_verdict & e.phase.isin(P3) & e.state.isin(UNREAD)).sum()) if len(e) else 0
+        n_unread3 = int((e.eligible_for_verdict & e.verdict_phase.isin(P3) & e.state.isin(UNREAD)).sum()) if len(e) else 0
         note = None
         out.append({
             "hypothesis_id": hid, "verdict_note": note, "n_unread_phase3": n_unread3, "aim": aim, "aim_label": AIMS[aim]["label"], "approach": a,

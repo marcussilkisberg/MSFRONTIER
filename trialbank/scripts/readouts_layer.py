@@ -165,19 +165,33 @@ def candidates():
 
 
 def papers_for(uid, reg, epmc):
-    rows = []
+    """Candidate papers, the likeliest main results paper first. Protocols and reviews are left out: MS-STAT2's
+    Lancet results paper used to sit sixth behind its protocol and secondary analyses and was never read."""
+    meta = {str(r.pmid): (str(r.pub_type or "").lower(), str(r.title or "").lower(), r.pub_year)
+            for r in epmc[epmc.msf_trial_id == uid].itertuples() if r.pmid and str(r.pmid) != "None"}
+    rank = {}
+
+    def add(pmid, rk):
+        pmid = str(pmid)
+        if not pmid.isdigit():
+            return
+        pt, title, _ = meta.get(pmid, ("", "", None))
+        if "review" in pt or "protocol" in pt or re.search(r"\bprotocol\b|study design|rationale and design", title):
+            return
+        rank[pmid] = min(rank.get(pmid, 9), rk)
+
     for r in reg[reg.msf_trial_id == uid].itertuples():
-        if str(r.ref_type).lower() in ("result", "resultsarticle", "derived"):
-            rows.append((0 if str(r.ref_type).lower() != "derived" else 1, str(r.pmid)))
-    for r in epmc[(epmc.msf_trial_id == uid)].itertuples():
-        if r.pmid and str(r.pmid) != "None":
-            rows.append((0 if r.is_trial_report_type else 2, str(r.pmid)))
-    seen, out = set(), []
-    for _, p in sorted(rows):
-        if p not in seen and p.isdigit():
-            seen.add(p)
-            out.append(p)
-    return out[:6]
+        rt = str(r.ref_type).lower()
+        if rt in ("result", "resultsarticle"):
+            add(r.pmid, 0)
+        elif rt == "derived":
+            add(r.pmid, 3)
+    for pmid, (pt, title, _) in meta.items():
+        if "clinical trial, phase" in pt or "randomized controlled trial" in pt:
+            add(pmid, 1)
+    # oldest first within a rank: the main results paper comes before later secondary analyses (ORATORIO 2017)
+    order = sorted(rank, key=lambda p: (rank[p], int(meta.get(p, ("", "", 0))[2] or 9999), p))
+    return order[:6]
 
 
 def checker_answer(text):
@@ -198,7 +212,7 @@ def parse_json(text):
 
 
 def read_trial(t, pmids, abstracts, outcomes, reader=call):
-    usable = [(p, abstracts[p]) for p in pmids if len(abstracts.get(p, {}).get("abstract") or "") > 200][:4]
+    usable = [(p, abstracts[p]) for p in pmids if len(abstracts.get(p, {}).get("abstract") or "") > 200][:5]
     base = {"msf_trial_id": t.msf_trial_id, "pmids_considered": [p for p, _ in usable]}
     if not usable:
         return {**base, "readout": "unclear", "reason": "no abstract available"}
@@ -241,6 +255,8 @@ def verified_numbers(result, abstract):
         return None
     text = norm(abstract)
     nums_in_abstract = {n.replace("−", "-").replace("–", "-").replace("·", ".") for n in NUM.findall(clean(abstract))}
+    # "0·40–0·66" is a range, not a negative number: accept the unsigned form too
+    nums_in_abstract |= {n.lstrip("-") for n in nums_in_abstract}
 
     def num_ok(v):
         if v is None:
@@ -292,7 +308,11 @@ def main():
         key = f"{t.msf_trial_id}|{PROMPT_VERSION}|" + hashlib.sha1(",".join(sorted(pmids)).encode()).hexdigest()[:10]
         stale = key in cache and cache[key].get("reason") == "second model disagreed" \
             and cache[key].get("checker_version") != CHECKER_VERSION
-        if (key in cache and not stale) or not have_key or n_new >= MAX_TRIALS:
+        # an accepted reading whose paper is still among this trial's candidates stays valid when the candidate
+        # list changes; no need to pay for it again
+        accepted = any(k.startswith(t.msf_trial_id + "|" + PROMPT_VERSION) and not v.get("reason")
+                       and v.get("pmid") in pmids for k, v in cache.items())
+        if (key in cache and not stale) or accepted or not have_key or n_new >= MAX_TRIALS:
             continue
         try:
             cache[key] = {**read_trial(t, pmids, abstracts, outcomes), "reader_model": READER,
@@ -308,7 +328,7 @@ def main():
 
     # latest readout per trial (a newer paper set or prompt version supersedes older ones)
     latest = {}
-    rank = lambda v: (v.get("prompt_version") == PROMPT_VERSION, v.get("read_on", ""))
+    rank = lambda v: (v.get("prompt_version") == PROMPT_VERSION, not v.get("reason"), v.get("read_on", ""))
     for k, v in cache.items():
         uid = k.split("|")[0]
         if uid not in latest or rank(v) >= rank(latest[uid]):
