@@ -53,6 +53,20 @@
   "readout": "unclear",
   "reason": "no main results paper found"
  },
+ "MSFT-2004-005148-28|readout_v2|fd5144f418": {
+  "checker_model": "claude-haiku-5-5",
+  "checker_version": "check_v2b",
+  "msf_trial_id": "MSFT-2004-005148-28",
+  "pmid": "22017519",
+  "pmids_considered": [
+   "22017519"
+  ],
+  "prompt_version": "readout_v2",
+  "read_on": "2026-10-28",
+  "reader_model": "claude-sonnet-5-5",
+  "readout": "unclear",
+  "reason": "no main results paper found"
+ },
  "MSFT-2005-001009-25|readout_v2|f6c24fe3c3": {
   "checker_model": "claude-haiku-5-5",
   "msf_trial_id": "MSFT-2005-001009-25",
@@ -701,6 +715,20 @@
    "n_randomised": "134"
   }
  },
+ "MSFT-2018-002315-98|readout_v2|8de844bd78": {
+  "checker_model": "claude-haiku-5-5",
+  "checker_version": "check_v2b",
+  "msf_trial_id": "MSFT-2018-002315-98",
+  "pmid": "38054364",
+  "pmids_considered": [
+   "38054364"
+  ],
+  "prompt_version": "readout_v2",
+  "read_on": "2026-10-28",
+  "reader_model": "claude-sonnet-5-5",
+  "readout": "unclear",
+  "reason": "no main results paper found"
+ },
  "MSFT-2018-004751-20|readout_v1|c34474016b": {
   "checker_model": "claude-haiku-5-5",
   "msf_trial_id": "MSFT-2018-004751-20",
@@ -802,6 +830,20 @@
   ],
   "prompt_version": "readout_v1",
   "read_on": "2026-10-27",
+  "reader_model": "claude-sonnet-5-5",
+  "readout": "unclear",
+  "reason": "no main results paper found"
+ },
+ "MSFT-NCT00000146|readout_v2|017e33884a": {
+  "checker_model": "claude-haiku-5-5",
+  "checker_version": "check_v2b",
+  "msf_trial_id": "MSFT-NCT00000146",
+  "pmid": "35044445",
+  "pmids_considered": [
+   "35044445"
+  ],
+  "prompt_version": "readout_v2",
+  "read_on": "2026-10-28",
   "reader_model": "claude-sonnet-5-5",
   "readout": "unclear",
   "reason": "no main results paper found"
@@ -1203,6 +1245,20 @@
   "readout": "unclear",
   "reason": "no main results paper found"
  },
+ "MSFT-NCT00127075|readout_v2|fdf01b01db": {
+  "checker_model": "claude-haiku-5-5",
+  "checker_version": "check_v2b",
+  "msf_trial_id": "MSFT-NCT00127075",
+  "pmid": "19758607",
+  "pmids_considered": [
+   "19758607"
+  ],
+  "prompt_version": "readout_v2",
+  "read_on": "2026-10-28",
+  "reader_model": "claude-sonnet-5-5",
+  "readout": "unclear",
+  "reason": "no main results paper found"
+ },
  "MSFT-NCT00127530|readout_v1|20151de799": {
   "checker_model": "claude-haiku-5-5",
   "checker_said": "unclear",
@@ -1276,6 +1332,20 @@
    "26033077",
    "36414428",
    "41583906"
+  ],
+  "prompt_version": "readout_v2",
+  "read_on": "2026-10-28",
+  "reader_model": "claude-sonnet-5-5",
+  "readout": "unclear",
+  "reason": "no main results paper found"
+ },
+ "MSFT-NCT00151801|readout_v2|7272ca809c": {
+  "checker_model": "claude-haiku-5-5",
+  "checker_version": "check_v2b",
+  "msf_trial_id": "MSFT-NCT00151801",
+  "pmid": "27995531",
+  "pmids_considered": [
+   "27995531"
   ],
   "prompt_version": "readout_v2",
   "read_on": "2026-10-28",
@@ -2073,6 +2143,51 @@
   "readout": "unclear",
   "reason": "second model disagreed"
  },
+ "MSFT-NCT00349193|readout_v2|d562163b24": {
+  "checker_model": "claude-haiku-5-5",
+  "checker_said": "met",
+  "checker_version": "check_v2b",
+  "msf_trial_id": "MSFT-NCT00349193",
+  "pmid": "18572078",
+  "pmids_considered": [
+   "18572078"
+  ],
+  "prompt_version": "readout_v2",
+  "quote": "Compared with placebo, treatment with laquinimod 0.6 mg per day showed a 40.4% reduction of the baseline adjusted mean cumulative number of GdE lesions per scan on the last four scans (simple means 4.2 [SD 9.2] vs 2.6 [5.3], p=0.0048); treatment with 0.3 mg per day showed no significant effects (3.9 [5.5] vs placebo, p=0.6740).",
+  "read_on": "2026-10-28",
+  "reader_model": "claude-sonnet-5-5",
+  "reader_result": {
+   "effect": {
+    "ci_lower": null,
+    "ci_upper": null,
+    "type": "reduction in baseline adjusted mean cumulative number of GdE",
+    "value": "40.4%"
+   },
+   "groups": [
+    {
+     "group": "Placebo",
+     "n": "102",
+     "value": "4.2 [SD 9.2] (simple mean)"
+    },
+    {
+     "group": "Laquinimod 0.3 mg",
+     "n": "98",
+     "value": "3.9 [5.5] (simple mean)"
+    },
+    {
+     "group": "Laquinimod 0.6 mg",
+     "n": "106",
+     "value": "2.6 [5.3] (simple mean)"
+    }
+   ],
+   "measure": "Cumulative number of GdE lesions at weeks 24, 28, 32, and 36",
+   "n_randomised": "306",
+   "p": "0.6 mg: p=0.0048; 0.3 mg: p=0.6740"
+  },
+  "reader_said": "mixed",
+  "readout": "unclear",
+  "reason": "second model disagreed"
+ },
  "MSFT-NCT00355134|readout_v1|d352d16a17": {
   "checker_model": "claude-haiku-5-5",
   "checker_said": "unclear",
@@ -2540,6 +2655,21 @@
    "n_randomised": "118"
   }
  },
+ "MSFT-NCT00501943|readout_v2|a1c44e428a": {
+  "checker_model": "claude-haiku-5-5",
+  "checker_version": "check_v2b",
+  "msf_trial_id": "MSFT-NCT00501943",
+  "pmid": "28148632",
+  "pmids_considered": [
+   "28148632",
+   "25929276"
+  ],
+  "prompt_version": "readout_v2",
+  "read_on": "2026-10-28",
+  "reader_model": "claude-sonnet-5-5",
+  "readout": "unclear",
+  "reason": "no main results paper found"
+ },
  "MSFT-NCT00501943|readout_v2|f1a3664d68": {
   "checker_model": "claude-haiku-5-5",
   "msf_trial_id": "MSFT-NCT00501943",
@@ -2643,6 +2773,20 @@
    "26033077",
    "37631001",
    "41583906"
+  ],
+  "prompt_version": "readout_v2",
+  "read_on": "2026-10-28",
+  "reader_model": "claude-sonnet-5-5",
+  "readout": "unclear",
+  "reason": "no main results paper found"
+ },
+ "MSFT-NCT00638833|readout_v2|cf980ca43a": {
+  "checker_model": "claude-haiku-5-5",
+  "checker_version": "check_v2b",
+  "msf_trial_id": "MSFT-NCT00638833",
+  "pmid": "19092106",
+  "pmids_considered": [
+   "19092106"
   ],
   "prompt_version": "readout_v2",
   "read_on": "2026-10-28",
@@ -2862,6 +3006,21 @@
    "p": "p = 0.01"
   }
  },
+ "MSFT-NCT00670449|readout_v2|39fa7b0632": {
+  "checker_model": "claude-haiku-5-5",
+  "checker_version": "check_v2b",
+  "msf_trial_id": "MSFT-NCT00670449",
+  "pmid": "28129749",
+  "pmids_considered": [
+   "24475777",
+   "28129749"
+  ],
+  "prompt_version": "readout_v2",
+  "read_on": "2026-10-28",
+  "reader_model": "claude-sonnet-5-5",
+  "readout": "unclear",
+  "reason": "no main results paper found"
+ },
  "MSFT-NCT00670449|readout_v2|dea15d8031": {
   "checker_model": "claude-haiku-5-5",
   "msf_trial_id": "MSFT-NCT00670449",
@@ -3045,6 +3204,20 @@
   "result": {
    "n_randomised": "1736"
   }
+ },
+ "MSFT-NCT00853762|readout_v2|b6017ca79d": {
+  "checker_model": "claude-haiku-5-5",
+  "checker_version": "check_v2b",
+  "msf_trial_id": "MSFT-NCT00853762",
+  "pmid": "24613349",
+  "pmids_considered": [
+   "24613349"
+  ],
+  "prompt_version": "readout_v2",
+  "read_on": "2026-10-28",
+  "reader_model": "claude-sonnet-5-5",
+  "readout": "unclear",
+  "reason": "no main results paper found"
  },
  "MSFT-NCT00853762|readout_v2|c19bc0c056": {
   "checker_model": "claude-haiku-5-5",
@@ -3431,6 +3604,20 @@
   "readout": "unclear",
   "reason": "no main results paper found"
  },
+ "MSFT-NCT01039103|readout_v2|66288f2ac5": {
+  "checker_model": "claude-haiku-5-5",
+  "checker_version": "check_v2b",
+  "msf_trial_id": "MSFT-NCT01039103",
+  "pmid": "25791806",
+  "pmids_considered": [
+   "25791806"
+  ],
+  "prompt_version": "readout_v2",
+  "read_on": "2026-10-28",
+  "reader_model": "claude-sonnet-5-5",
+  "readout": "unclear",
+  "reason": "no main results paper found"
+ },
  "MSFT-NCT01051817|readout_v2|0a2f0a140c": {
   "checker_model": "claude-haiku-5-5",
   "msf_trial_id": "MSFT-NCT01051817",
@@ -3529,6 +3716,56 @@
   "readout": "unclear",
   "reason": "second model disagreed"
  },
+ "MSFT-NCT01071083|readout_v2|a5e43190db": {
+  "checker_model": "claude-haiku-5-5",
+  "checker_said": "unclear",
+  "checker_version": "check_v2b",
+  "msf_trial_id": "MSFT-NCT01071083",
+  "pmid": "24682966",
+  "pmids_considered": [
+   "24682966",
+   "28916537",
+   "38648580",
+   "26049148"
+  ],
+  "prompt_version": "readout_v2",
+  "quote": "Of 167 patients evaluable for efficacy, 49 (29%) had MRI disease activity recurrence: 0/45 (0%) natalizumab, 19/41 (46%) placebo, 1/14 (7%) IM IFN-\u03b2-1a, 8/15 (53%) GA, and 21/52 (40%) MP.",
+  "read_on": "2026-10-28",
+  "reader_model": "claude-sonnet-5-5",
+  "reader_result": {
+   "groups": [
+    {
+     "group": "natalizumab",
+     "n": "45",
+     "value": "0/45 (0%)"
+    },
+    {
+     "group": "placebo",
+     "n": "41",
+     "value": "19/41 (46%)"
+    },
+    {
+     "group": "IM IFN-\u03b2-1a",
+     "n": "14",
+     "value": "1/14 (7%)"
+    },
+    {
+     "group": "glatiramer acetate",
+     "n": "15",
+     "value": "8/15 (53%)"
+    },
+    {
+     "group": "methylprednisolone",
+     "n": "52",
+     "value": "21/52 (40%)"
+    }
+   ],
+   "n_randomised": "175"
+  },
+  "reader_said": "met",
+  "readout": "unclear",
+  "reason": "second model disagreed"
+ },
  "MSFT-NCT01073813|readout_v2|b19a2c2295": {
   "checker_model": "claude-haiku-5-5",
   "msf_trial_id": "MSFT-NCT01073813",
@@ -3591,6 +3828,22 @@
    "measure": "Paced Auditory Serial Addition Test (PASAT) score at week 52",
    "p": "p=0.88"
   }
+ },
+ "MSFT-NCT01093326|readout_v2|8d3b8f0ca7": {
+  "checker_model": "claude-haiku-5-5",
+  "checker_version": "check_v2b",
+  "msf_trial_id": "MSFT-NCT01093326",
+  "pmid": "35667837",
+  "pmids_considered": [
+   "24659797",
+   "35667837",
+   "42561748"
+  ],
+  "prompt_version": "readout_v2",
+  "read_on": "2026-10-28",
+  "reader_model": "claude-sonnet-5-5",
+  "readout": "unclear",
+  "reason": "no main results paper found"
  },
  "MSFT-NCT01093326|readout_v2|d367179ee2": {
   "checker_model": "claude-haiku-5-5",
@@ -3954,6 +4207,40 @@
   "reader_model": "claude-sonnet-5-5",
   "readout": "unclear",
   "reason": "no main results paper found"
+ },
+ "MSFT-NCT01405820|readout_v2|196a7feb82": {
+  "checker_model": "claude-haiku-5-5",
+  "checker_said": "unclear",
+  "checker_version": "check_v2b",
+  "msf_trial_id": "MSFT-NCT01405820",
+  "pmid": "33821693",
+  "pmids_considered": [
+   "33821693"
+  ],
+  "prompt_version": "readout_v2",
+  "quote": "In the 300 mg intravenous and subcutaneous Q4 W arms, the mean cumulative number of combined unique active MRI lesions was 0.23 and 0.02, respectively; annualized relapse rates were 0.07 and 0.08, respectively; and trough natalizumab serum levels and \u03b14-integrin saturation were comparable.",
+  "read_on": "2026-10-28",
+  "reader_model": "claude-sonnet-5-5",
+  "reader_result": {
+   "follow_up": "week 60",
+   "groups": [
+    {
+     "group": "300 mg intravenous Q4W",
+     "n": null,
+     "value": "0.23"
+    },
+    {
+     "group": "300 mg subcutaneous Q4W",
+     "n": null,
+     "value": "0.02"
+    }
+   ],
+   "measure": "mean cumulative number of combined unique active magnetic resonance imaging (MRI) lesions at week 60",
+   "n_randomised": "290"
+  },
+  "reader_said": "not_met",
+  "readout": "unclear",
+  "reason": "second model disagreed"
  },
  "MSFT-NCT01405820|readout_v2|f3dbba66e8": {
   "checker_model": "claude-haiku-5-5",
@@ -4332,6 +4619,20 @@
   "readout": "unclear",
   "reason": "no main results paper found"
  },
+ "MSFT-NCT01499667|readout_v2|a1f901caae": {
+  "checker_model": "claude-haiku-5-5",
+  "checker_version": "check_v2b",
+  "msf_trial_id": "MSFT-NCT01499667",
+  "pmid": "28856176",
+  "pmids_considered": [
+   "28856176"
+  ],
+  "prompt_version": "readout_v2",
+  "read_on": "2026-10-28",
+  "reader_model": "claude-sonnet-5-5",
+  "readout": "unclear",
+  "reason": "no main results paper found"
+ },
  "MSFT-NCT01499667|readout_v2|c0579b81bd": {
   "checker_model": "claude-haiku-5-5",
   "msf_trial_id": "MSFT-NCT01499667",
@@ -4355,6 +4656,24 @@
   "pmids_considered": [
    "26033077",
    "34803897"
+  ],
+  "prompt_version": "readout_v2",
+  "read_on": "2026-10-28",
+  "reader_model": "claude-sonnet-5-5",
+  "readout": "unclear",
+  "reason": "no main results paper found"
+ },
+ "MSFT-NCT01576354|readout_v2|185c61a085": {
+  "checker_model": "claude-haiku-5-5",
+  "checker_version": "check_v2b",
+  "msf_trial_id": "MSFT-NCT01576354",
+  "pmid": "26762672",
+  "pmids_considered": [
+   "26762672",
+   "28148629",
+   "30171655",
+   "32500374",
+   "35487034"
   ],
   "prompt_version": "readout_v2",
   "read_on": "2026-10-28",
@@ -4387,6 +4706,20 @@
    "24800078",
    "28607701",
    "35601756"
+  ],
+  "prompt_version": "readout_v2",
+  "read_on": "2026-10-28",
+  "reader_model": "claude-sonnet-5-5",
+  "readout": "unclear",
+  "reason": "no main results paper found"
+ },
+ "MSFT-NCT01597297|readout_v2|84eb7ac80f": {
+  "checker_model": "claude-haiku-5-5",
+  "checker_version": "check_v2b",
+  "msf_trial_id": "MSFT-NCT01597297",
+  "pmid": "25921050",
+  "pmids_considered": [
+   "25921050"
   ],
   "prompt_version": "readout_v2",
   "read_on": "2026-10-28",
@@ -5470,6 +5803,40 @@
   "readout": "unclear",
   "reason": "invalid reader response"
  },
+ "MSFT-NCT02283853|readout_v2|24e4c6da7a": {
+  "checker_model": "claude-haiku-5-5",
+  "checker_said": "unclear",
+  "checker_version": "check_v2b",
+  "msf_trial_id": "MSFT-NCT02283853",
+  "pmid": "36169959",
+  "pmids_considered": [
+   "36169959"
+  ],
+  "prompt_version": "readout_v2",
+  "quote": "At week 96, the proportion of patients with no N or NE T2 hyperintense lesions among 103 trial completers was 16.1% (95% CI, 8.0%-27.7%) for DMF vs 4.9% (95% CI, 0.6%-16.5%) for IFN\u03b2-1a, and in a sensitivity analysis among the ITT population, the proportions were 10 patients receiving DMF (12.8%) vs 2 patients receiving IFN\u03b2-1a (2.8%).",
+  "read_on": "2026-10-28",
+  "reader_model": "claude-sonnet-5-5",
+  "reader_result": {
+   "follow_up": "week 96",
+   "groups": [
+    {
+     "group": "DMF",
+     "n": "78",
+     "value": "16.1% (95% CI, 8.0%-27.7%)"
+    },
+    {
+     "group": "IFN\u03b2-1a",
+     "n": "72",
+     "value": "4.9% (95% CI, 0.6%-16.5%)"
+    }
+   ],
+   "measure": "proportion of patients free of new or newly enlarging (N or NE) T2 hyperintense lesions at week 96 among trial completers",
+   "n_randomised": "150"
+  },
+  "reader_said": "not_met",
+  "readout": "unclear",
+  "reason": "second model disagreed"
+ },
  "MSFT-NCT02283853|readout_v2|442efca33e": {
   "checker_model": "claude-haiku-5-5",
   "checker_said": "unclear",
@@ -5519,6 +5886,20 @@
   ],
   "prompt_version": "readout_v1",
   "read_on": "2026-10-27",
+  "reader_model": "claude-sonnet-5-5",
+  "readout": "unclear",
+  "reason": "no main results paper found"
+ },
+ "MSFT-NCT02398994|readout_v2|64ab77f3d0": {
+  "checker_model": "claude-haiku-5-5",
+  "checker_version": "check_v2b",
+  "msf_trial_id": "MSFT-NCT02398994",
+  "pmid": "28639937",
+  "pmids_considered": [
+   "28639937"
+  ],
+  "prompt_version": "readout_v2",
+  "read_on": "2026-10-28",
   "reader_model": "claude-sonnet-5-5",
   "readout": "unclear",
   "reason": "no main results paper found"
@@ -5660,6 +6041,21 @@
    "n_randomised": "17"
   }
  },
+ "MSFT-NCT02542787|readout_v2|36cf81d5d7": {
+  "checker_model": "claude-haiku-5-5",
+  "checker_version": "check_v2b",
+  "msf_trial_id": "MSFT-NCT02542787",
+  "pmid": null,
+  "pmids_considered": [
+   "28677901",
+   "41946887"
+  ],
+  "prompt_version": "readout_v2",
+  "read_on": "2026-10-28",
+  "reader_model": "claude-sonnet-5-5",
+  "readout": "unclear",
+  "reason": "no main results paper found"
+ },
  "MSFT-NCT02542787|readout_v2|705b1a04f8": {
   "checker_model": "claude-haiku-5-5",
   "msf_trial_id": "MSFT-NCT02542787",
@@ -5694,6 +6090,20 @@
   "reader_said": "not_met",
   "readout": "not_met",
   "reason": null
+ },
+ "MSFT-NCT02545959|readout_v2|8c07a7a2e8": {
+  "checker_model": "claude-haiku-5-5",
+  "checker_version": "check_v2b",
+  "msf_trial_id": "MSFT-NCT02545959",
+  "pmid": "41801644",
+  "pmids_considered": [
+   "41801644"
+  ],
+  "prompt_version": "readout_v2",
+  "read_on": "2026-10-28",
+  "reader_model": "claude-sonnet-5-5",
+  "readout": "unclear",
+  "reason": "no main results paper found"
  },
  "MSFT-NCT02545959|readout_v2|8c9e5b9a24": {
   "checker_model": "claude-haiku-5-5",
@@ -5776,6 +6186,21 @@
   "readout": "unclear",
   "reason": "no main results paper found"
  },
+ "MSFT-NCT02660138|readout_v2|0011135d7a": {
+  "checker_model": "claude-haiku-5-5",
+  "checker_version": "check_v2b",
+  "msf_trial_id": "MSFT-NCT02660138",
+  "pmid": "35400537",
+  "pmids_considered": [
+   "35400537",
+   "36321799"
+  ],
+  "prompt_version": "readout_v2",
+  "read_on": "2026-10-28",
+  "reader_model": "claude-sonnet-5-5",
+  "readout": "unclear",
+  "reason": "no main results paper found"
+ },
  "MSFT-NCT02660138|readout_v2|a3565aa407": {
   "checker_model": "claude-haiku-5-5",
   "msf_trial_id": "MSFT-NCT02660138",
@@ -5807,6 +6232,21 @@
   "readout": "unclear",
   "reason": "no main results paper found"
  },
+ "MSFT-NCT02660359|readout_v2|0011135d7a": {
+  "checker_model": "claude-haiku-5-5",
+  "checker_version": "check_v2b",
+  "msf_trial_id": "MSFT-NCT02660359",
+  "pmid": "35400537",
+  "pmids_considered": [
+   "35400537",
+   "36321799"
+  ],
+  "prompt_version": "readout_v2",
+  "read_on": "2026-10-28",
+  "reader_model": "claude-sonnet-5-5",
+  "readout": "unclear",
+  "reason": "no main results paper found"
+ },
  "MSFT-NCT02660359|readout_v2|38ff7e245e": {
   "checker_model": "claude-haiku-5-5",
   "msf_trial_id": "MSFT-NCT02660359",
@@ -5834,6 +6274,21 @@
   ],
   "prompt_version": "readout_v1",
   "read_on": "2026-10-27",
+  "reader_model": "claude-sonnet-5-5",
+  "readout": "unclear",
+  "reason": "no main results paper found"
+ },
+ "MSFT-NCT02688985|readout_v2|2188840519": {
+  "checker_model": "claude-haiku-5-5",
+  "checker_version": "check_v2b",
+  "msf_trial_id": "MSFT-NCT02688985",
+  "pmid": "42376811",
+  "pmids_considered": [
+   "39883906",
+   "42376811"
+  ],
+  "prompt_version": "readout_v2",
+  "read_on": "2026-10-28",
   "reader_model": "claude-sonnet-5-5",
   "readout": "unclear",
   "reason": "no main results paper found"
@@ -6489,6 +6944,20 @@
    "p": "p=0.20 for the overall medication effect"
   }
  },
+ "MSFT-NCT03239860|readout_v2|36f017aa3e": {
+  "checker_model": "claude-haiku-5-5",
+  "checker_version": "check_v2b",
+  "msf_trial_id": "MSFT-NCT03239860",
+  "pmid": "34240656",
+  "pmids_considered": [
+   "34240656"
+  ],
+  "prompt_version": "readout_v2",
+  "read_on": "2026-10-28",
+  "reader_model": "claude-sonnet-5-5",
+  "readout": "unclear",
+  "reason": "no main results paper found"
+ },
  "MSFT-NCT03239860|readout_v2|fd83542deb": {
   "checker_model": "claude-haiku-5-5",
   "checker_said": "not_met",
@@ -6767,6 +7236,51 @@
   "readout": "unclear",
   "reason": "no main results paper found"
  },
+ "MSFT-NCT03387670|readout_v2|16ba68e722": {
+  "checker_model": "claude-haiku-5-5",
+  "checker_said": "not_met",
+  "checker_version": "check_v2b",
+  "msf_trial_id": "MSFT-NCT03387670",
+  "pmid": "41045938",
+  "pmids_considered": [
+   "41045938",
+   "35031587",
+   "35946107",
+   "39691073",
+   "40631687"
+  ],
+  "prompt_version": "readout_v2",
+  "quote": "173 (36%) of 482 participants in the placebo group and 192 (40%) of 482 participants in the simvastatin group had 6-month confirmed disability progression (adjusted hazard ratio 1\u00b713 [95% CI 0\u00b791 to 1\u00b739], p=0\u00b726).",
+  "read_on": "2026-10-28",
+  "reader_model": "claude-sonnet-5-5",
+  "reader_said": "not_met",
+  "readout": "not_met",
+  "reason": null,
+  "result": {
+   "effect": {
+    "ci_lower": "0.91",
+    "ci_upper": "1.39",
+    "type": "adjusted hazard ratio",
+    "value": "1.13"
+   },
+   "follow_up": "up to 4\u00b75 years",
+   "groups": [
+    {
+     "group": "placebo",
+     "n": "482",
+     "value": "173 (36%)"
+    },
+    {
+     "group": "simvastatin",
+     "n": "482",
+     "value": "192 (40%)"
+    }
+   ],
+   "measure": "time to 6-month EDSS confirmed disability progression",
+   "n_randomised": "964",
+   "p": "p=0.26"
+  }
+ },
  "MSFT-NCT03387670|readout_v2|6fe89e728f": {
   "checker_model": "claude-haiku-5-5",
   "msf_trial_id": "MSFT-NCT03387670",
@@ -6798,6 +7312,49 @@
   "reader_model": "claude-sonnet-5-5",
   "readout": "unclear",
   "reason": "no main results paper found"
+ },
+ "MSFT-NCT03560739|readout_v2|f3c156574e": {
+  "checker_model": "claude-haiku-5-5",
+  "checker_said": "not_efficacy",
+  "checker_version": "check_v2b",
+  "msf_trial_id": "MSFT-NCT03560739",
+  "pmid": "34605319",
+  "pmids_considered": [
+   "28709466",
+   "31351488",
+   "32108976",
+   "34605319",
+   "35229668"
+  ],
+  "prompt_version": "readout_v2",
+  "quote": "Abdominal ofatumumab pharmacokinetic exposure was bioequivalent for autoinjector and PFS (geometric mean AUC \u03c4 , 487.7 vs 474.1 h \u00d7 \u00b5g/mL (ratio 1.03); C max , 1.409 vs 1.409 \u00b5g/mL (ratio 1.00)).",
+  "read_on": "2026-10-28",
+  "reader_model": "claude-sonnet-5-5",
+  "reader_result": {
+   "effect": {
+    "ci_lower": null,
+    "ci_upper": null,
+    "type": "geometric mean ratio (AUC\u03c4)",
+    "value": "1.03"
+   },
+   "follow_up": "Weeks 8-12",
+   "groups": [
+    {
+     "group": "Autoinjector-abdomen",
+     "n": "128",
+     "value": "AUC\u03c4 487.7 h \u00d7 \u00b5g/mL; Cmax 1.409 \u00b5g/mL"
+    },
+    {
+     "group": "PFS-abdomen",
+     "n": "128",
+     "value": "AUC\u03c4 474.1 h \u00d7 \u00b5g/mL; Cmax 1.409 \u00b5g/mL"
+    }
+   ],
+   "n_randomised": "256"
+  },
+  "reader_said": "equivalent",
+  "readout": "unclear",
+  "reason": "second model disagreed"
  },
  "MSFT-NCT03674099|readout_v1|4ed4cca0bd": {
   "checker_model": "claude-haiku-5-5",
@@ -6973,6 +7530,21 @@
   "readout": "unclear",
   "reason": "no main results paper found"
  },
+ "MSFT-NCT03740295|readout_v2|77c867f5cd": {
+  "checker_model": "claude-haiku-5-5",
+  "checker_version": "check_v2b",
+  "msf_trial_id": "MSFT-NCT03740295",
+  "pmid": "34579104",
+  "pmids_considered": [
+   "33322022",
+   "34579104"
+  ],
+  "prompt_version": "readout_v2",
+  "read_on": "2026-10-28",
+  "reader_model": "claude-sonnet-5-5",
+  "readout": "unclear",
+  "reason": "no main results paper found"
+ },
  "MSFT-NCT03824938|readout_v1|cc23ebe352": {
   "checker_model": "claude-haiku-5-5",
   "msf_trial_id": "MSFT-NCT03824938",
@@ -7011,6 +7583,20 @@
   ],
   "prompt_version": "readout_v1",
   "read_on": "2026-10-27",
+  "reader_model": "claude-sonnet-5-5",
+  "readout": "unclear",
+  "reason": "no main results paper found"
+ },
+ "MSFT-NCT03896217|readout_v2|2a14316914": {
+  "checker_model": "claude-haiku-5-5",
+  "checker_version": "check_v2b",
+  "msf_trial_id": "MSFT-NCT03896217",
+  "pmid": "35031587",
+  "pmids_considered": [
+   "35031587"
+  ],
+  "prompt_version": "readout_v2",
+  "read_on": "2026-10-28",
   "reader_model": "claude-sonnet-5-5",
   "readout": "unclear",
   "reason": "no main results paper found"
@@ -7088,6 +7674,21 @@
    "37715710",
    "32046349",
    "33752802"
+  ],
+  "prompt_version": "readout_v2",
+  "read_on": "2026-10-28",
+  "reader_model": "claude-sonnet-5-5",
+  "readout": "unclear",
+  "reason": "no main results paper found"
+ },
+ "MSFT-NCT04002934|readout_v2|d24b7b399f": {
+  "checker_model": "claude-haiku-5-5",
+  "checker_version": "check_v2b",
+  "msf_trial_id": "MSFT-NCT04002934",
+  "pmid": "37739167",
+  "pmids_considered": [
+   "37739167",
+   "37715710"
   ],
   "prompt_version": "readout_v2",
   "read_on": "2026-10-28",
@@ -7279,6 +7880,21 @@
   "readout": "unclear",
   "reason": "no main results paper found"
  },
+ "MSFT-NCT04175834|readout_v2|9ffe636ff2": {
+  "checker_model": "claude-haiku-5-5",
+  "checker_version": "check_v2b",
+  "msf_trial_id": "MSFT-NCT04175834",
+  "pmid": "28002679",
+  "pmids_considered": [
+   "28002679",
+   "28002688"
+  ],
+  "prompt_version": "readout_v2",
+  "read_on": "2026-10-28",
+  "reader_model": "claude-sonnet-5-5",
+  "readout": "unclear",
+  "reason": "no main results paper found"
+ },
  "MSFT-NCT04203498|readout_v1|170f626dd2": {
   "checker_model": "claude-haiku-5-5",
   "msf_trial_id": "MSFT-NCT04203498",
@@ -7456,6 +8072,20 @@
    "42546561",
    "34088878",
    "34150760"
+  ],
+  "prompt_version": "readout_v2",
+  "read_on": "2026-10-28",
+  "reader_model": "claude-sonnet-5-5",
+  "readout": "unclear",
+  "reason": "no main results paper found"
+ },
+ "MSFT-NCT04458051|readout_v2|ffc051b3fb": {
+  "checker_model": "claude-haiku-5-5",
+  "checker_version": "check_v2b",
+  "msf_trial_id": "MSFT-NCT04458051",
+  "pmid": "34418400",
+  "pmids_considered": [
+   "34418400"
   ],
   "prompt_version": "readout_v2",
   "read_on": "2026-10-28",
@@ -8059,6 +8689,20 @@
   "readout": "unclear",
   "reason": "no main results paper found"
  },
+ "MSFT-NCT05798520|readout_v2|0e60a030c8": {
+  "checker_model": "claude-haiku-5-5",
+  "checker_version": "check_v2b",
+  "msf_trial_id": "MSFT-NCT05798520",
+  "pmid": "42016388",
+  "pmids_considered": [
+   "42016388"
+  ],
+  "prompt_version": "readout_v2",
+  "read_on": "2026-10-28",
+  "reader_model": "claude-sonnet-5-5",
+  "readout": "unclear",
+  "reason": "no main results paper found"
+ },
  "MSFT-NCT05798520|readout_v2|1717ec8ee7": {
   "checker_model": "claude-haiku-5-5",
   "msf_trial_id": "MSFT-NCT05798520",
@@ -8152,6 +8796,20 @@
    "n_randomised": "101",
    "p": "P = 0.045"
   }
+ },
+ "MSFT-NCT06402487|readout_v2|d4728899fb": {
+  "checker_model": "claude-haiku-5-5",
+  "checker_version": "check_v2b",
+  "msf_trial_id": "MSFT-NCT06402487",
+  "pmid": "41780143",
+  "pmids_considered": [
+   "41780143"
+  ],
+  "prompt_version": "readout_v2",
+  "read_on": "2026-10-28",
+  "reader_model": "claude-sonnet-5-5",
+  "readout": "unclear",
+  "reason": "no main results paper found"
  },
  "MSFT-NCT06497374|readout_v1|91f48facc9": {
   "checker_model": "claude-haiku-5-5",
