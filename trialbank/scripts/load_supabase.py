@@ -230,6 +230,7 @@ def main():
             # ---- hypothesis ledger, genetics and the Project (006)
             load_hypotheses(cur, set(ids), run_id)
             load_texts(cur, set(ids))
+            load_results_watch(cur, set(ids))
 
             # ---- sync curation file into corrections (authored as 'curation_file')
             ov_path = ROOT / "curation" / "overrides.csv"
@@ -420,6 +421,18 @@ def load_hypotheses(cur, keep_ids, run_id):
             "id": t, "study": t, "kind": t, "statement": t, "aim": t, "approach": t, "approach_label": t,
             "population": t, "drugs": lst, "status": t, "registered_on": d, "ledger_hypothesis_ids": lst})
     print(f"hypotheses: {len(new)} loaded, {len(hist)} history entries")
+
+
+def load_results_watch(cur, keep_ids):
+    """Finished trials with no results found (009)."""
+    if not has_table(cur, "results_watch") or not (DATA / "results_watch.parquet").exists():
+        return
+    cur.execute("delete from bank.results_watch")
+    load_child(cur, DATA / "results_watch.parquet", "results_watch", keep_ids=keep_ids, dedupe=["msf_trial_id"], spec={
+        "msf_trial_id": t, "acronym": t, "title": t, "phase": t, "status": t, "lead_sponsor": t,
+        "sponsor_class": t, "enrollment": i, "registry_ids": t, "end_date": d, "months_since_end": i,
+        "results_found": b, "found_where": t, "found_link": t, "fully_checked": b, "checked_sources": t,
+        "watch_status": t, "as_of": d})
 
 
 def load_texts(cur, keep_ids):

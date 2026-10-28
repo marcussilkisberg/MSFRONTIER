@@ -19,7 +19,8 @@ python measures_layer.py                 # measures dictionary with usage counts
 python genetics_layer.py || echo "genetic leads skipped (Open Targets unreachable)"
 python readouts_layer.py || echo "paper readouts skipped"   # reads papers only if ANTHROPIC_API_KEY is set
 python links_layer.py                  # extensions and sub-studies that name their parent trial
-python hypotheses_layer.py               # hypothesis ledger, from everything above plus ../project/*.yml
+python hypotheses_layer.py
+python results_watch_layer.py || echo "results watch skipped"               # hypothesis ledger, from everything above plus ../project/*.yml
 python validate.py > ../data/validate.log
 
 if [ -n "${SUPABASE_DB_URL:-}" ]; then

@@ -130,6 +130,8 @@ def merge_group(group):
             vals = set(filter(None, (base.get(k) or "").split("|"))) | set(filter(None, (other.get(k) or "").split("|")))
             base[k] = "|".join(sorted(vals))
         base["n_result_pmids"] = (base.get("n_result_pmids") or 0) + (other.get("n_result_pmids") or 0)
+        # results posted in ANY registry count (a CTIS summary must not be hidden by a ClinicalTrials.gov "no")
+        base["has_posted_results"] = bool(base.get("has_posted_results")) or bool(other.get("has_posted_results"))
         base["_prim_ps"] = base["_prim_ps"] + other["_prim_ps"]
     base["n_countries"] = len([c for c in base["countries"].split("|") if c])
     tiers = [t["tier"] for t in group if t["tier"]]
