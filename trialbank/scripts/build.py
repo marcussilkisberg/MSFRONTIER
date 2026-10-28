@@ -45,8 +45,13 @@ def load():
 
 # ------------------------------------------------------------------ dedupe
 class UF:
+    """Union-find that never joins two different ClinicalTrials.gov studies. ClinicalTrials.gov gives every study one
+    NCT number, so two NCT numbers are two studies; a link between them only ever comes from another registry citing
+    the wrong one (the EU record of SUNBEAM cites RADIANCE's NCT number)."""
     def __init__(self):
         self.p = {}
+        self.nct = {}      # root -> NCT numbers in that group
+        self.refused = []
 
     def find(self, x):
         self.p.setdefault(x, x)
@@ -57,8 +62,16 @@ class UF:
 
     def union(self, a, b):
         ra, rb = self.find(a), self.find(b)
-        if ra != rb:
-            self.p[rb] = ra
+        if ra == rb:
+            return True
+        na, nb = self.nct.get(ra, set()), self.nct.get(rb, set())
+        if na and nb and na != nb:
+            self.refused.append((a, b))
+            return False
+        self.p[rb] = ra
+        self.nct[ra] = na | nb
+        self.nct.pop(rb, None)
+        return True
 
 
 REGISTRY_ID_RX = re.compile(r"\b(NCT\d{8}|\d{4}-\d{6}-\d{2}|ISRCTN\d{8})\b", re.I)
@@ -69,15 +82,18 @@ def dedupe(trials, ids):
     uf = UF()
     for t in trials:
         uf.find(t["registry_id"])
-    for r in ids:
+        if t["registry"] == "ctgov":
+            uf.nct[t["registry_id"]] = {t["registry_id"]}
+    # a registry's claims about its own record come first: ClinicalTrials.gov's EudraCT numbers attach each EU record
+    # to the right study before any EU record's (sometimes wrong) NCT number is considered
+    for r in sorted(ids, key=lambda r: r["registry"] != "ctgov"):
         if r["other_id"] in present and r["other_id"] != r["registry_id"]:
             uf.union(r["registry_id"], r["other_id"])
     # registry IDs written into free-text ID fields (e.g. org_study_id "16/0730 & 2017-003008-30")
     for t in trials:
         for m in REGISTRY_ID_RX.findall(str(t.get("org_study_id") or "")):
             m = m.upper()
-            if m in present and m != t["registry_id"]:
-                uf.union(t["registry_id"], m)
+            if m in present and m != t["registry_id"] and uf.union(t["registry_id"], m):
                 ids.append({"registry": t["registry"], "registry_id": t["registry_id"],
                             "other_id": m, "id_type": "found_in_org_study_id"})
     # CTIS numbers differ only in the last two digits when a trial is resubmitted (2023-503631-18-00 / -01)
@@ -103,9 +119,11 @@ def dedupe(trials, ids):
         if all(x.isdigit() for x in y) and abs(int(y[0]) - int(y[1])) > 2:
             continue
         a, b = recs[0]["registry_id"], recs[1]["registry_id"]
-        if uf.find(a) != uf.find(b):
-            uf.union(a, b)
+        if uf.find(a) != uf.find(b) and uf.union(a, b):
             ids.append({"registry": recs[0]["registry"], "registry_id": a, "other_id": b, "id_type": "same_official_title"})
+    if uf.refused:
+        print(f"dedupe: refused {len(uf.refused)} links that would merge two ClinicalTrials.gov studies:",
+              ", ".join(f"{a}~{b}" for a, b in uf.refused[:10]))
     groups = defaultdict(list)
     for t in trials:
         groups[uf.find(t["registry_id"])].append(t)
