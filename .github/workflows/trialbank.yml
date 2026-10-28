@@ -82,6 +82,12 @@ jobs:
       - name: Build hypothesis ledger
         run: cd scripts && python hypotheses_layer.py
 
+      - name: Results watch (finished trials without results)
+        continue-on-error: true
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: cd scripts && python results_watch_layer.py
+
       - name: Save machine-read paper results to the repository
         run: |
           cd ..
