@@ -34,7 +34,7 @@ MODEL = os.environ.get("RESULTS_WATCH_MODEL", "claude-sonnet-5-5")
 PHASES = {"phase2", "phase3", "phase2|phase3", "phase4", "phase1|phase2"}
 FINISHED = {"completed", "terminated", "completed_inferred"}
 GRACE_MONTHS = 12          # US (FDAAA) and EU rules both expect results within 12 months of the end of the trial
-VERSION = "rw_v1"
+VERSION = "rw_v2"   # v2: citing papers not tagged as trial reports are checked too; drug code names searched
 
 MATCH_PROMPT = """Does this paper report the results of the clinical trial described below? A paper reports the trial
 only if it is the same study: same treatment, same condition, a matching design and size, and run by the same group
@@ -85,41 +85,61 @@ def eu_results(eudract, cache):
     return cache[eudract]
 
 
-def search_papers(t):
-    """Papers about the same drug and condition, published after the trial started, that may report it."""
-    drugs = [d for d in str(t.drugs or "").split("|") if len(d) >= 5][:3]
-    if not drugs:   # names not matched to ChEMBL (e.g. "Nanocurcumin"): use the registered names, doses removed
-        for raw in str(t.interventions_raw or "").split("|"):
-            name = re.sub(r"\b\d+(?:\.\d+)?\s*(?:mg|g|mcg|µg|ml|iu|%)\b.*", "", raw, flags=re.I).strip(" ,-")
-            name = " ".join(name.split()[:3])
-            if len(name) >= 5 and not re.search(r"placebo|sham|standard|usual care", name, re.I):
-                drugs.append(name)
-        drugs = list(dict.fromkeys(drugs))[:3]
-    def field(x):   # title or abstract only: full-text matches bring in reviews and unrelated trials
-        return f'(TITLE:"{x}" OR ABSTRACT:"{x}")'
-    terms = [field(d) for d in drugs]
-    if isinstance(t.acronym, str) and re.fullmatch(r"[A-Za-z0-9-]{4,}", t.acronym):
-        terms.append(field(t.acronym))
-    if not terms:
-        return []
-    cond = "(" + " OR ".join(field(c) for c in ("multiple sclerosis", "neuromyelitis", "NMOSD", "MOGAD",
-                                                  "optic neuritis")) + ")"
-    start = str(t.start_date or "")[:10] or "2000-01-01"
-    q = (f"({' OR '.join(terms)}) AND {cond} AND (PUB_TYPE:\"clinical trial\" OR PUB_TYPE:\"randomized controlled "
-         f"trial\" OR ABSTRACT:\"randomized\" OR ABSTRACT:\"randomised\" OR ABSTRACT:\"open-label\") AND "
-         f"FIRST_PDATE:[{start} TO 3000-01-01]")
-    r = get(EPMC, params={"query": q, "format": "json", "resultType": "core", "pageSize": 8})
+def drug_terms(t):
+    """Matched drug names plus the names as registered (code names such as MBP8298 often appear only there)."""
+    names = [d for d in str(t.drugs or "").split("|") if len(d) >= 5]
+    for raw in str(t.interventions_raw or "").split("|"):
+        name = re.sub(r"\b\d+(?:\.\d+)?\s*(?:mg|g|mcg|µg|ml|iu|%)\b.*", "", raw, flags=re.I).strip(" ,-()")
+        name = " ".join(name.split()[:3])
+        if len(name) >= 5 and not re.search(r"placebo|sham|standard|usual care|^drug:|vehicle", name, re.I):
+            names.append(name)
+    # code names in the official title (MBP8298, NT-KO-003, RHB-104): papers often use only these
+    names += re.findall(r"\b[A-Z]{2,}[A-Z0-9]*-?(?:[A-Z]{1,3}-)?\d{2,}[A-Z0-9-]*\b", str(t.official_title or ""))
+    return list(dict.fromkeys(n.lower() for n in names))[:5]
+
+
+def core(params):
+    r = get(EPMC, params={**params, "format": "json", "resultType": "core"})
     if r is None:
         return []
     out = []
     for p in r.json().get("resultList", {}).get("result", []):
         types = [x.lower() for x in (p.get("pubTypeList") or {}).get("pubType", [])]
-        if any("review" in x for x in types) or not p.get("abstractText"):
+        title = p.get("title") or ""
+        if any("review" in x for x in types) or re.search(r"\breview\b|therapeutic update|perspectives?\b",
+                                                             title, re.I) or not p.get("abstractText"):
             continue
-        out.append({"pmid": p.get("pmid"), "doi": p.get("doi"), "title": p.get("title"),
-                    "year": p.get("pubYear"), "journal": ((p.get("journalInfo") or {}).get("journal") or {})
-                    .get("medlineAbbreviation"), "abstract": p.get("abstractText")})
-    return out[:5]
+        out.append({"pmid": p.get("pmid"), "doi": p.get("doi"), "title": title, "year": p.get("pubYear"),
+                    "journal": ((p.get("journalInfo") or {}).get("journal") or {}).get("medlineAbbreviation"),
+                    "abstract": p.get("abstractText")})
+    return out
+
+
+def citing_papers(pmids):
+    """Papers that cite the registry number but are not tagged as trial reports (many results papers are not)."""
+    pmids = [str(x) for x in pmids if str(x).isdigit()][:12]
+    if not pmids:
+        return []
+    return core({"query": " OR ".join(f"EXT_ID:{x}" for x in pmids), "pageSize": 12})
+
+
+def search_papers(t):
+    """Papers about the same drug and condition, published after the trial started, that may report it."""
+    def field(x):   # title or abstract only: full-text matches bring in reviews and unrelated trials
+        return f'(TITLE:"{x}" OR ABSTRACT:"{x}")'
+    terms = [field(d) for d in drug_terms(t)]
+    if isinstance(t.acronym, str) and re.fullmatch(r"[A-Za-z0-9-]{4,}", t.acronym):
+        terms.append(field(t.acronym))
+    if not terms:
+        return []
+    cond = "(" + " OR ".join(field(c) for c in ("multiple sclerosis", "neuromyelitis", "NMOSD", "MOGAD",
+                                                  "optic neuritis")) + ' OR TITLE:"MS")'
+    start = str(t.start_date or "")[:10] or "2000-01-01"
+    design = " OR ".join(['PUB_TYPE:"clinical trial"', 'PUB_TYPE:"randomized controlled trial"'] +
+                         [f'ABSTRACT:"{w}"' for w in ("randomized", "randomised", "open-label", "placebo",
+                                                       "double-blind", "phase 2", "phase II", "phase 3")])
+    q = f"({' OR '.join(terms)}) AND {cond} AND ({design}) AND FIRST_PDATE:[{start} TO 3000-01-01]"
+    return core({"query": q, "pageSize": 10})[:6]
 
 
 def ask(prompt):
@@ -190,7 +210,14 @@ def main():
         if not found:
             key = f"{uid}|{VERSION}"
             if key not in cache and have_key:
-                cands = search_papers(r)
+                cites = pd.concat([p1[p1.msf_trial_id == uid].pmid, p2[p2.msf_trial_id == uid].pmid]).dropna()
+                cands, seen = [], set()
+                for c in citing_papers(list(dict.fromkeys(cites))) + search_papers(r):
+                    k3 = c.get("pmid") or c.get("doi")
+                    if k3 and k3 not in seen:
+                        seen.add(k3)
+                        cands.append(c)
+                cands = cands[:8]
                 match = None
                 for c in cands:
                     j = ask(MATCH_PROMPT.format(title=r.official_title or r.title, ids=r.registry_ids,
