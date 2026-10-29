@@ -49,10 +49,31 @@ A hypothesis is **approach × aim × population**, with a stable ID such as
   PPMS "not supported" on the strength of OLYMPUS alone.
 - **Readouts from papers** (`readouts_layer.py`, needs `ANTHROPIC_API_KEY`): the reader names the main results paper
   and quotes one sentence; the readout is kept only if the sentence is found word for word in the abstract and a
-  second model agrees. Otherwise it is stored as "unclear" with the reason. The cache is committed to the repository
+  second model agrees. Otherwise it is stored as "unclear" with the reason. Since readout_v2, two more outcomes are
+  recorded and neither count toward nor block a verdict: "equivalent" (non-inferiority or biosimilarity shown) and
+  "not_efficacy" (primary endpoint was safety, PK, cell counts or vaccine response). v1 (first 150 readings) stripped
+  "p < 0.001" from abstracts as if it were HTML, so positive results were wrongly discarded; v2 re-reads them. The cache is committed to the repository
   (`readouts/`) as the audit trail; each trial is read once unless new papers appear.
 - **Genetic leads**: genes with an Open Targets genetic-association score ≥ 0.5 are shown; a lead is "tested" if any
   bank drug acts on it (or on its ligand/receptor partner, from a fixed partner list) in an MS trial.
+
+## Rules added after the first full reading (28 Oct 2026)
+
+- A trial enrolling both PPMS and SPMS counts for both groups; there is no separate "progressive (both)" row. The
+  title decides when it names the type (O'HAND, EXPAND, ASCEND).
+- A result is credited only to the aim its measure belongs to (lipoic acid: brain volume, not relapses). A
+  disability result "in the MRI-active subgroup" is a disability result.
+- "Phase 2/3" trials with fewer than 100 participants are judged as phase 2.
+- Symptom treatments are judged on symptom and function measures only, per drug.
+- A published result outranks a registry "terminated" label (SPI2).
+- Paper choice: results papers first, oldest first; protocols and reviews excluded.
+- (29 Oct) Any "phase 3" with fewer than 100 participants is judged as phase 2 (MOVING, fingolimod vs interferon, 88
+  planned and 9 analysed, had made "S1P for repair" confirmed).
+- (29 Oct) Add-on trials (both arms on an established medicine, e.g. POINT: ponesimod or placebo on top of dimethyl
+  fumarate) count toward "stop inflammation" only when they succeed, as with active comparators. For progression,
+  protection and repair they count both ways.
+- (29 Oct) The background medicine in an add-on trial ("BIIB061 added to interferon beta", "BIIB033 when used
+  concurrently with Avonex") is not attributed as a tested approach.
 
 ## First build (no paper readouts yet)
 
