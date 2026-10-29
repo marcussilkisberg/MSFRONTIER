@@ -17,6 +17,15 @@ def _f(block, label):
     return v or None
 
 
+def _f_any_lang(block, label):
+    """The English field, else the same field in another language ("A.3 Full title of the trial (fi): ...")."""
+    v = _f(block, label)
+    if v:
+        return v
+    m = re.search(r"^" + re.escape(label) + r"[ \t]*\([a-z]{2}\)[ \t]*:?[ \t]*(.*\S)", block, re.M)
+    return m.group(1).strip() if m else None
+
+
 def _yes(block, label):
     return (_f(block, label) or "").lower().startswith("yes")
 
@@ -41,9 +50,14 @@ def parse(path):
             if country:
                 states.append(country)
             statuses.append((_f(x, "Trial Status") or "").lower())
-        title = _f(b, "A.3 Full title of the trial")
+        TITLE = "A.3 Full title of the trial"
+        LAY = "A.3.1 Title of the trial for lay people, in easily understood, i.e. non-technical, language"
+        title = _f(b, TITLE)
         short = _f(b, "A.3.2 Name or abbreviated title of the trial where available")
-        lay = _f(b, "A.3.1 Title of the trial for lay people, in easily understood, i.e. non-technical, language")
+        lay = _f(b, LAY)
+        if not (title or lay):   # no English title: use the national-language one; never publish a trial without a name
+            title, lay = _f_any_lang(b, TITLE), _f_any_lang(b, LAY)
+            title = title or lay or _f(b, "E.2.1 Main objective of the trial") or f"EU trial {_f(b, 'A.2 EudraCT number')}"
         conds = [c for c in [_f(b, "E.1.1 Medical condition(s) being investigated"), _f(b, "E.1.2 Term")] if c]
         diseases, focus = T.classify_diseases(conds, [], lay or "", title or "")
         tier = T.tier_for(diseases, focus)
