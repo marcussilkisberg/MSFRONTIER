@@ -1,0 +1,653 @@
+{
+ "MSFT-ISRCTN22433402|rw_v1": {
+  "match": null,
+  "n_candidates": 1,
+  "searched_on": "2026-10-29"
+ },
+ "MSFT-ISRCTN57377482|rw_v1": {
+  "match": null,
+  "n_candidates": 0,
+  "searched_on": "2026-10-29"
+ },
+ "MSFT-NCT00190268|rw_v1": {
+  "match": null,
+  "n_candidates": 0,
+  "searched_on": "2026-10-29"
+ },
+ "MSFT-NCT00202397|rw_v1": {
+  "match": null,
+  "n_candidates": 5,
+  "searched_on": "2026-10-29"
+ },
+ "MSFT-NCT00291148|rw_v1": {
+  "match": null,
+  "n_candidates": 2,
+  "searched_on": "2026-10-29"
+ },
+ "MSFT-NCT00324506|rw_v1": {
+  "match": null,
+  "n_candidates": 2,
+  "searched_on": "2026-10-29"
+ },
+ "MSFT-NCT00342134|rw_v1": {
+  "match": null,
+  "n_candidates": 0,
+  "searched_on": "2026-10-29"
+ },
+ "MSFT-NCT00423527|rw_v1": {
+  "match": {
+   "doi": "10.1002/j.1532-2149.2011.00073.x",
+   "journal": "Eur J Pain",
+   "pmid": "22337561",
+   "quote": "eighty-nine patients were screened for participation and 30 patients entered the study.",
+   "title": "A randomized, placebo-controlled trial of levetiracetam in central pain in multiple sclerosis.",
+   "year": "2012"
+  },
+  "n_candidates": 5,
+  "searched_on": "2026-10-29"
+ },
+ "MSFT-NCT00464958|rw_v1": {
+  "match": null,
+  "n_candidates": 1,
+  "searched_on": "2026-10-29"
+ },
+ "MSFT-NCT00468611|rw_v1": {
+  "match": null,
+  "n_candidates": 0,
+  "searched_on": "2026-10-29"
+ },
+ "MSFT-NCT00480181|rw_v1": {
+  "match": {
+   "doi": "10.1111/pme.12569",
+   "journal": "Pain Med",
+   "pmid": "25288189",
+   "quote": "a randomized, double-blind, placebo-controlled study involving 15 relapsing-remitting ms patients with ms-induced npp was conducted to evaluate nabilone combined with gabapentin (gbp).",
+   "title": "Nabilone as an adjunctive to gabapentin for multiple sclerosis-induced neuropathic pain: a randomized controlled trial.",
+   "year": "2015"
+  },
+  "n_candidates": 4,
+  "searched_on": "2026-10-29"
+ },
+ "MSFT-NCT00493116|rw_v1": {
+  "match": null,
+  "n_candidates": 5,
+  "searched_on": "2026-10-29"
+ },
+ "MSFT-NCT00529581|rw_v1": {
+  "match": null,
+  "n_candidates": 0,
+  "searched_on": "2026-10-29"
+ },
+ "MSFT-NCT00532532|rw_v1": {
+  "match": null,
+  "n_candidates": 0,
+  "searched_on": "2026-10-29"
+ },
+ "MSFT-NCT00574041|rw_v1": {
+  "match": null,
+  "n_candidates": 5,
+  "searched_on": "2026-10-29"
+ },
+ "MSFT-NCT00618085|rw_v1": {
+  "match": null,
+  "n_candidates": 1,
+  "searched_on": "2026-10-29"
+ },
+ "MSFT-NCT00688948|rw_v1": {
+  "match": null,
+  "n_candidates": 0,
+  "searched_on": "2026-10-29"
+ },
+ "MSFT-NCT00744679|rw_v1": {
+  "match": null,
+  "n_candidates": 5,
+  "searched_on": "2026-10-29"
+ },
+ "MSFT-NCT00752778|rw_v1": {
+  "match": null,
+  "n_candidates": 0,
+  "searched_on": "2026-10-29"
+ },
+ "MSFT-NCT00765544|rw_v1": {
+  "match": null,
+  "n_candidates": 5,
+  "searched_on": "2026-10-29"
+ },
+ "MSFT-NCT00766272|rw_v1": {
+  "match": {
+   "doi": "10.1177/1545968308318473",
+   "journal": "Neurorehabil Neural Repair",
+   "pmid": "18971381",
+   "quote": "body weight supported treadmill training (bwstt) with or without robotic assistance (lokomat) was tested using a randomized crossover design in 13 patients with relapsing-remitting, secondary progressive or primary progressive ms.",
+   "title": "Improving gait in multiple sclerosis using robot-assisted, body weight supported treadmill training.",
+   "year": "2008"
+  },
+  "n_candidates": 5,
+  "searched_on": "2026-10-29"
+ },
+ "MSFT-NCT00772525|rw_v1": {
+  "match": null,
+  "n_candidates": 0,
+  "searched_on": "2026-10-29"
+ },
+ "MSFT-NCT00843128|rw_v1": {
+  "match": null,
+  "n_candidates": 5,
+  "searched_on": "2026-10-29"
+ },
+ "MSFT-NCT00854750|rw_v1": {
+  "match": null,
+  "n_candidates": 4,
+  "searched_on": "2026-10-29"
+ },
+ "MSFT-NCT00869726|rw_v1": {
+  "match": null,
+  "n_candidates": 0,
+  "searched_on": "2026-10-29"
+ },
+ "MSFT-NCT00869986|rw_v1": {
+  "match": null,
+  "n_candidates": 0,
+  "searched_on": "2026-10-29"
+ },
+ "MSFT-NCT00870155|rw_v1": {
+  "match": null,
+  "n_candidates": 0,
+  "searched_on": "2026-10-29"
+ },
+ "MSFT-NCT00872053|rw_v1": {
+  "match": null,
+  "n_candidates": 4,
+  "searched_on": "2026-10-29"
+ },
+ "MSFT-NCT00914290|rw_v1": {
+  "match": null,
+  "n_candidates": 0,
+  "searched_on": "2026-10-29"
+ },
+ "MSFT-NCT00947895|rw_v1": {
+  "match": null,
+  "n_candidates": 5,
+  "searched_on": "2026-10-29"
+ },
+ "MSFT-NCT01018485|rw_v1": {
+  "match": {
+   "doi": "10.1212/wnl.0b013e31825dcdd9",
+   "journal": "Neurology",
+   "pmid": "22753445",
+   "quote": "each limb was randomized in a crossover design to receive botulinum toxin type a or placebo at baseline and the reverse treatment at 12 weeks.",
+   "title": "A double-blind, randomized, controlled study of botulinum toxin type A in MS-related tremor.",
+   "year": "2012"
+  },
+  "n_candidates": 5,
+  "searched_on": "2026-10-29"
+ },
+ "MSFT-NCT01037907|rw_v1": {
+  "match": null,
+  "n_candidates": 0,
+  "searched_on": "2026-10-29"
+ },
+ "MSFT-NCT01091727|rw_v1": {
+  "match": null,
+  "n_candidates": 5,
+  "searched_on": "2026-10-29"
+ },
+ "MSFT-NCT01103583|rw_v1": {
+  "match": null,
+  "n_candidates": 0,
+  "searched_on": "2026-10-29"
+ },
+ "MSFT-NCT01181115|rw_v1": {
+  "match": null,
+  "n_candidates": 5,
+  "searched_on": "2026-10-29"
+ },
+ "MSFT-NCT01219647|rw_v1": {
+  "match": null,
+  "n_candidates": 5,
+  "searched_on": "2026-10-29"
+ },
+ "MSFT-NCT01235221|rw_v1": {
+  "match": null,
+  "n_candidates": 5,
+  "searched_on": "2026-10-29"
+ },
+ "MSFT-NCT01264848|rw_v1": {
+  "match": null,
+  "n_candidates": 4,
+  "searched_on": "2026-10-29"
+ },
+ "MSFT-NCT01279876|rw_v1": {
+  "match": null,
+  "n_candidates": 5,
+  "searched_on": "2026-10-29"
+ },
+ "MSFT-NCT01339455|rw_v1": {
+  "match": null,
+  "n_candidates": 3,
+  "searched_on": "2026-10-29"
+ },
+ "MSFT-NCT01359566|rw_v1": {
+  "match": null,
+  "n_candidates": 0,
+  "searched_on": "2026-10-29"
+ },
+ "MSFT-NCT01377870|rw_v1": {
+  "match": null,
+  "n_candidates": 2,
+  "searched_on": "2026-10-29"
+ },
+ "MSFT-NCT01411514|rw_v1": {
+  "match": {
+   "doi": "10.1016/j.msard.2021.102867",
+   "journal": "Mult Scler Relat Disord",
+   "pmid": "33677411",
+   "quote": "twenty-five patients were randomized to either prednisone taper (n=12) or placebo (n=13) after 3 days of intravenous methylprednisolone.",
+   "title": "A randomized pilot trial of oral prednisone taper vs placebo following iv methylprednisolone for multiple sclerosis relapses: Effects on adrenal function and clinical efficacy.",
+   "year": "2021"
+  },
+  "n_candidates": 5,
+  "searched_on": "2026-10-29"
+ },
+ "MSFT-NCT01428505|rw_v1": {
+  "match": null,
+  "n_candidates": 0,
+  "searched_on": "2026-10-29"
+ },
+ "MSFT-NCT01428726|rw_v1": {
+  "match": null,
+  "n_candidates": 0,
+  "searched_on": "2026-10-29"
+ },
+ "MSFT-NCT01432704|rw_v1": {
+  "match": null,
+  "n_candidates": 5,
+  "searched_on": "2026-10-29"
+ },
+ "MSFT-NCT01512329|rw_v1": {
+  "match": null,
+  "n_candidates": 5,
+  "searched_on": "2026-10-29"
+ },
+ "MSFT-NCT01516554|rw_v1": {
+  "match": null,
+  "n_candidates": 1,
+  "searched_on": "2026-10-29"
+ },
+ "MSFT-NCT01556685|rw_v1": {
+  "match": null,
+  "n_candidates": 5,
+  "searched_on": "2026-10-29"
+ },
+ "MSFT-NCT01591551|rw_v1": {
+  "match": null,
+  "n_candidates": 5,
+  "searched_on": "2026-10-29"
+ },
+ "MSFT-NCT01667484|rw_v1": {
+  "match": null,
+  "n_candidates": 0,
+  "searched_on": "2026-10-29"
+ },
+ "MSFT-NCT01667497|rw_v1": {
+  "match": null,
+  "n_candidates": 5,
+  "searched_on": "2026-10-29"
+ },
+ "MSFT-NCT01679041|rw_v1": {
+  "match": null,
+  "n_candidates": 4,
+  "searched_on": "2026-10-29"
+ },
+ "MSFT-NCT01684761|rw_v1": {
+  "match": null,
+  "n_candidates": 0,
+  "searched_on": "2026-10-29"
+ },
+ "MSFT-NCT01701856|rw_v1": {
+  "match": null,
+  "n_candidates": 2,
+  "searched_on": "2026-10-29"
+ },
+ "MSFT-NCT01712373|rw_v1": {
+  "match": null,
+  "n_candidates": 0,
+  "searched_on": "2026-10-29"
+ },
+ "MSFT-NCT01717664|rw_v1": {
+  "match": null,
+  "n_candidates": 0,
+  "searched_on": "2026-10-29"
+ },
+ "MSFT-NCT01718678|rw_v1": {
+  "match": null,
+  "n_candidates": 5,
+  "searched_on": "2026-10-29"
+ },
+ "MSFT-NCT01755871|rw_v1": {
+  "match": null,
+  "n_candidates": 5,
+  "searched_on": "2026-10-29"
+ },
+ "MSFT-NCT01842191|rw_v1": {
+  "match": {
+   "doi": "10.1155/2013/709493",
+   "journal": "Oxid Med Cell Longev",
+   "pmid": "23861993",
+   "quote": "50 patients with relapsing-remitting ms were enrolled.",
+   "title": "Efficacy of fish oil on serum of TNF \u03b1 , IL-1 \u03b2 , and IL-6 oxidative stress markers in multiple sclerosis treated with interferon beta-1b.",
+   "year": "2013"
+  },
+  "n_candidates": 3,
+  "searched_on": "2026-10-29"
+ },
+ "MSFT-NCT01844232|rw_v1": {
+  "match": null,
+  "n_candidates": 2,
+  "searched_on": "2026-10-29"
+ },
+ "MSFT-NCT01845584|rw_v1": {
+  "match": null,
+  "n_candidates": 0,
+  "searched_on": "2026-10-29"
+ },
+ "MSFT-NCT01888354|rw_v1": {
+  "match": null,
+  "n_candidates": 4,
+  "searched_on": "2026-10-29"
+ },
+ "MSFT-NCT01911377|rw_v1": {
+  "match": null,
+  "n_candidates": 3,
+  "searched_on": "2026-10-29"
+ },
+ "MSFT-NCT01917019|rw_v1": {
+  "match": null,
+  "n_candidates": 5,
+  "searched_on": "2026-10-29"
+ },
+ "MSFT-NCT01992679|rw_v1": {
+  "match": null,
+  "n_candidates": 5,
+  "searched_on": "2026-10-29"
+ },
+ "MSFT-NCT02012439|rw_v1": {
+  "match": null,
+  "n_candidates": 5,
+  "searched_on": "2026-10-29"
+ },
+ "MSFT-NCT02087631|rw_v1": {
+  "match": null,
+  "n_candidates": 0,
+  "searched_on": "2026-10-29"
+ },
+ "MSFT-NCT02142205|rw_v1": {
+  "match": null,
+  "n_candidates": 5,
+  "searched_on": "2026-10-29"
+ },
+ "MSFT-NCT02143167|rw_v1": {
+  "match": null,
+  "n_candidates": 5,
+  "searched_on": "2026-10-29"
+ },
+ "MSFT-NCT02212886|rw_v1": {
+  "match": null,
+  "n_candidates": 1,
+  "searched_on": "2026-10-29"
+ },
+ "MSFT-NCT02228213|rw_v1": {
+  "match": null,
+  "n_candidates": 5,
+  "searched_on": "2026-10-29"
+ },
+ "MSFT-NCT02249676|rw_v1": {
+  "match": null,
+  "n_candidates": 0,
+  "searched_on": "2026-10-29"
+ },
+ "MSFT-NCT02286557|rw_v1": {
+  "match": null,
+  "n_candidates": 0,
+  "searched_on": "2026-10-29"
+ },
+ "MSFT-NCT02427776|rw_v1": {
+  "match": null,
+  "n_candidates": 1,
+  "searched_on": "2026-10-29"
+ },
+ "MSFT-NCT02457091|rw_v1": {
+  "match": null,
+  "n_candidates": 5,
+  "searched_on": "2026-10-29"
+ },
+ "MSFT-NCT02471222|rw_v1": {
+  "match": null,
+  "n_candidates": 4,
+  "searched_on": "2026-10-29"
+ },
+ "MSFT-NCT02587195|rw_v1": {
+  "match": null,
+  "n_candidates": 5,
+  "searched_on": "2026-10-29"
+ },
+ "MSFT-NCT02638038|rw_v1": {
+  "match": null,
+  "n_candidates": 0,
+  "searched_on": "2026-10-29"
+ },
+ "MSFT-NCT02683863|rw_v1": {
+  "match": null,
+  "n_candidates": 5,
+  "searched_on": "2026-10-29"
+ },
+ "MSFT-NCT02744222|rw_v1": {
+  "match": null,
+  "n_candidates": 5,
+  "searched_on": "2026-10-29"
+ },
+ "MSFT-NCT02775110|rw_v1": {
+  "match": {
+   "doi": "10.1136/jnnp-2015-312221",
+   "journal": "J Neurol Neurosurg Psychiatry",
+   "pmid": "26780938",
+   "quote": "fifty relapsing patients with multiple sclerosis (ms) who had been on natalizumab therapy \u226524 months and were contemplating natalizumab discontinuation were enrolled.",
+   "title": "Randomised natalizumab discontinuation study: taper protocol may prevent disease reactivation.",
+   "year": "2016"
+  },
+  "n_candidates": 4,
+  "searched_on": "2026-10-29"
+ },
+ "MSFT-NCT02790307|rw_v1": {
+  "match": null,
+  "n_candidates": 0,
+  "searched_on": "2026-10-29"
+ },
+ "MSFT-NCT02901106|rw_v1": {
+  "match": null,
+  "n_candidates": 5,
+  "searched_on": "2026-10-29"
+ },
+ "MSFT-NCT02904876|rw_v1": {
+  "match": null,
+  "n_candidates": 0,
+  "searched_on": "2026-10-29"
+ },
+ "MSFT-NCT03062579|rw_v1": {
+  "match": null,
+  "n_candidates": 3,
+  "searched_on": "2026-10-29"
+ },
+ "MSFT-NCT03091569|rw_v1": {
+  "match": null,
+  "n_candidates": 5,
+  "searched_on": "2026-10-29"
+ },
+ "MSFT-NCT03150966|rw_v1": {
+  "match": null,
+  "n_candidates": 2,
+  "searched_on": "2026-10-29"
+ },
+ "MSFT-NCT03166800|rw_v1": {
+  "match": null,
+  "n_candidates": 0,
+  "searched_on": "2026-10-29"
+ },
+ "MSFT-NCT03283397|rw_v1": {
+  "match": null,
+  "n_candidates": 0,
+  "searched_on": "2026-10-29"
+ },
+ "MSFT-NCT03302585|rw_v1": {
+  "match": null,
+  "n_candidates": 5,
+  "searched_on": "2026-10-29"
+ },
+ "MSFT-NCT03315923|rw_v1": {
+  "match": null,
+  "n_candidates": 5,
+  "searched_on": "2026-10-29"
+ },
+ "MSFT-NCT03362294|rw_v1": {
+  "match": null,
+  "n_candidates": 1,
+  "searched_on": "2026-10-29"
+ },
+ "MSFT-NCT03381170|rw_v1": {
+  "match": null,
+  "n_candidates": 5,
+  "searched_on": "2026-10-29"
+ },
+ "MSFT-NCT03385356|rw_v1": {
+  "match": null,
+  "n_candidates": 0,
+  "searched_on": "2026-10-29"
+ },
+ "MSFT-NCT03516526|rw_v1": {
+  "match": null,
+  "n_candidates": 5,
+  "searched_on": "2026-10-29"
+ },
+ "MSFT-NCT03756974|rw_v1": {
+  "match": null,
+  "n_candidates": 0,
+  "searched_on": "2026-10-29"
+ },
+ "MSFT-NCT03856619|rw_v1": {
+  "match": null,
+  "n_candidates": 5,
+  "searched_on": "2026-10-29"
+ },
+ "MSFT-NCT03983720|rw_v1": {
+  "match": null,
+  "n_candidates": 5,
+  "searched_on": "2026-10-29"
+ },
+ "MSFT-NCT04056897|rw_v1": {
+  "match": null,
+  "n_candidates": 5,
+  "searched_on": "2026-10-29"
+ },
+ "MSFT-NCT04121403|rw_v1": {
+  "match": null,
+  "n_candidates": 4,
+  "searched_on": "2026-10-29"
+ },
+ "MSFT-NCT04140305|rw_v1": {
+  "match": null,
+  "n_candidates": 5,
+  "searched_on": "2026-10-29"
+ },
+ "MSFT-NCT04256252|rw_v1": {
+  "match": null,
+  "n_candidates": 4,
+  "searched_on": "2026-10-29"
+ },
+ "MSFT-NCT04291456|rw_v1": {
+  "match": null,
+  "n_candidates": 1,
+  "searched_on": "2026-10-29"
+ },
+ "MSFT-NCT04595045|rw_v1": {
+  "match": null,
+  "n_candidates": 4,
+  "searched_on": "2026-10-29"
+ },
+ "MSFT-NCT04626921|rw_v1": {
+  "match": null,
+  "n_candidates": 2,
+  "searched_on": "2026-10-29"
+ },
+ "MSFT-NCT04670770|rw_v1": {
+  "match": null,
+  "n_candidates": 0,
+  "searched_on": "2026-10-29"
+ },
+ "MSFT-NCT04952766|rw_v1": {
+  "match": null,
+  "n_candidates": 0,
+  "searched_on": "2026-10-29"
+ },
+ "MSFT-NCT04979650|rw_v1": {
+  "match": null,
+  "n_candidates": 0,
+  "searched_on": "2026-10-29"
+ },
+ "MSFT-NCT05154734|rw_v1": {
+  "match": null,
+  "n_candidates": 0,
+  "searched_on": "2026-10-29"
+ },
+ "MSFT-NCT05356858|rw_v1": {
+  "match": null,
+  "n_candidates": 0,
+  "searched_on": "2026-10-29"
+ },
+ "MSFT-NCT05532163|rw_v1": {
+  "match": null,
+  "n_candidates": 5,
+  "searched_on": "2026-10-29"
+ },
+ "MSFT-NCT05551598|rw_v1": {
+  "match": null,
+  "n_candidates": 0,
+  "searched_on": "2026-10-29"
+ },
+ "MSFT-NCT05658484|rw_v1": {
+  "match": null,
+  "n_candidates": 5,
+  "searched_on": "2026-10-29"
+ },
+ "MSFT-NCT05777902|rw_v1": {
+  "match": null,
+  "n_candidates": 5,
+  "searched_on": "2026-10-29"
+ },
+ "MSFT-NCT05859802|rw_v1": {
+  "match": null,
+  "n_candidates": 0,
+  "searched_on": "2026-10-29"
+ },
+ "MSFT-NCT05896605|rw_v1": {
+  "match": null,
+  "n_candidates": 1,
+  "searched_on": "2026-10-29"
+ },
+ "MSFT-NCT06083753|rw_v1": {
+  "match": null,
+  "n_candidates": 0,
+  "searched_on": "2026-10-29"
+ },
+ "MSFT-NCT06987851|rw_v1": {
+  "match": {
+   "doi": "10.17116/jnevro202512507251",
+   "journal": "Zh Nevrol Psikhiatr Im S S Korsakova",
+   "pmid": "40779521",
+   "quote": "a total of 44 patients were enrolled in the study, of which 93.2% (41/44) patients completed 4 years of follow-up.",
+   "title": "[Results of 4 years of therapy with divozilimab in patients with relapsing multiple sclerosis].",
+   "year": "2025"
+  },
+  "n_candidates": 4,
+  "searched_on": "2026-10-29"
+ }
+}
