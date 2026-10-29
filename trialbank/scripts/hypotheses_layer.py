@@ -114,6 +114,16 @@ def slug(s):
     return re.sub(r"[^a-z0-9]+", "-", s.lower()).strip("-")
 
 
+BACKGROUND = re.compile(r"\b(?:added to|add[- ]?on (?:therapy |treatment )?to|as (?:an )?add[- ]?on to|"
+                        r"(?:when used )?concurrently with|on top of|who are (?:being |already )?(?:treated with|"
+                        r"receiving|on)|in (?:participants|patients|subjects) (?:treated with|receiving|on))\b"
+                        r"([^.;:()]{0,80})", re.I)
+BRANDS = {"avonex": "interferon beta", "rebif": "interferon beta", "betaseron": "interferon beta",
+          "betaferon": "interferon beta", "plegridy": "peginterferon", "copaxone": "glatiramer",
+          "tecfidera": "dimethyl fumarate", "gilenya": "fingolimod", "tysabri": "natalizumab",
+          "ocrevus": "ocrelizumab", "aubagio": "teriflunomide", "kesimpta": "ofatumumab"}
+
+
 def attributed_nodes(t, node_by_drug):
     """Mechanisms a trial actually tests. Experimental-arm drug lists also hold rescue and background medicines
     (ORACLE MS lists interferon beta as rescue therapy), so when a trial spans several mechanisms, keep only those
@@ -122,6 +132,20 @@ def attributed_nodes(t, node_by_drug):
     if len(nodes) < 2:
         return nodes
     text = f" {t.title} {t.official_title} {t.acronym} ".lower()
+    # background medicines in add-on trials ("BIIB061 added to interferon-beta or glatiramer acetate", "BIIB033 ...
+    # when used concurrently with Avonex") are not what the trial tests
+    bg = " ".join(m.group(1) for m in BACKGROUND.finditer(text))
+    main = BACKGROUND.sub(" ", text)
+    def named_in(d, where):
+        names = [d.split()[0].lower()] + [b for b, g in BRANDS.items() if d.lower().startswith(g)]
+        return any(len(x) > 3 and re.search(r"\b" + re.escape(x), where) for x in names)
+    bg_only = {n for d in split(t.drugs) if named_in(d, bg) and not named_in(d, main) for n in node_by_drug.get(d, [])}
+    test_nodes = {n for d in split(t.drugs) if not (named_in(d, bg) and not named_in(d, main))
+                  for n in node_by_drug.get(d, [])}
+    nodes = [n for n in nodes if not (n in bg_only and n not in test_nodes)] or nodes
+    if len(nodes) < 2:
+        return nodes
+    text = main
     named = {n for d in split(t.drugs) if len(d) > 3 and re.search(r"\b" + re.escape(d.split()[0].lower()), text)
              for n in node_by_drug.get(d, [])}
     kept = [n for n in nodes if n in named]
@@ -157,9 +181,19 @@ def verdict_phase(t):
         n = float(t.enrollment)
     except (TypeError, ValueError):
         n = None
-    if t.phase == "phase2|phase3" and n is not None and n < 100:
-        return "phase2"
+    if t.phase in ("phase2|phase3", "phase3") and n is not None and n < 100:
+        return "phase2"     # a "phase 3" of 88 people (MOVING, fingolimod vs interferon) is judged as phase 2
     return t.phase
+
+
+ADD_ON = re.compile(r"\badd[- ]?on\b|\badjunct|\bwhen added to\b|\bon top of\b|\bbackground (?:therapy|treatment)\b"
+                    r"|\bwho are (?:being |already )?(?:treated with|receiving|on)\b", re.I)
+
+
+def is_add_on(t):
+    """Both arms also take an established medicine (POINT: ponesimod or placebo, on top of dimethyl fumarate). A
+    failure then says little about the approach, because the background medicine already controls the disease."""
+    return bool(ADD_ON.search(f"{t.official_title or ''} {t.title or ''}"))
 
 
 def aim_state(t, aim, g, family, state, source, analyses, readout):
@@ -322,6 +356,7 @@ def main():
         comp_nodes = {n for d in split(t.comparator_drugs) for n in node_by_drug.get(d, [])}
         r = readouts.get(t.msf_trial_id) or {}
         vphase = verdict_phase(t)
+        add_on = is_add_on(t)
         for a in approaches:
             g = a.split(".")[0]
             for aim in trial_aims(t, g, approach_family.get(g)):
@@ -339,8 +374,14 @@ def main():
                     # the approach works.
                     "eligible_for_verdict": bool(rct and vphase in (P3 | P2) and g not in comp_nodes),
                     # placebo with an active comparator is a double-dummy, not a placebo control (GEMINI 1/2)
+                    # For stopping inflammation, an add-on trial counts only when it succeeds: the background
+                    # medicine already controls relapses, so a failure says little. For progression, protection
+                    # and repair the background medicine does not do the same job, so a failure there counts.
                     "counts_toward_verdict": bool(rct and vphase in (P3 | P2) and g not in comp_nodes and (
-                        (bool(t.has_placebo_or_sham) and not split(t.comparator_drugs)) or st == "met")),
+                        (bool(t.has_placebo_or_sham) and not split(t.comparator_drugs)
+                         and not (add_on and aim == "stop_inflammation"))
+                        or st == "met")),
+                    "add_on": add_on,
                     "comparator_drugs": split(t.comparator_drugs),
                     "enrollment": t.enrollment, "start_year": t.start_year, "drugs": split(t.drugs),
                     "acronym": t.acronym, "title": t.title, "primary_endpoint_tags": split(t.primary_endpoint_tags),

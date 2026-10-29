@@ -34,11 +34,13 @@ MODEL = os.environ.get("RESULTS_WATCH_MODEL", "claude-sonnet-5-5")
 PHASES = {"phase2", "phase3", "phase2|phase3", "phase4", "phase1|phase2"}
 FINISHED = {"completed", "terminated", "completed_inferred"}
 GRACE_MONTHS = 12          # US (FDAAA) and EU rules both expect results within 12 months of the end of the trial
-VERSION = "rw_v2"   # v2: citing papers not tagged as trial reports are checked too; drug code names searched
+VERSION = "rw_v3"   # v2: citing papers and code names; v3: only papers reporting the main result count
 
-MATCH_PROMPT = """Does this paper report the results of the clinical trial described below? A paper reports the trial
-only if it is the same study: same treatment, same condition, a matching design and size, and run by the same group
-or sponsor. Secondary analyses of the same trial also count. A different trial of the same drug does NOT count.
+MATCH_PROMPT = """Does this paper report the main results of the clinical trial described below? It must be the same
+study (same treatment, same condition, a matching design, size and dates; the sponsor named in the registry may
+differ if the trial changed hands) AND it must report the trial's main outcome comparison, or say that the trial was
+stopped and why. Later analyses that only reuse the trial's data for another question (prediction models, imaging
+or biomarker sub-studies, pooled analyses) do NOT count. A different trial of the same drug does NOT count.
 
 TRIAL
 Title: {title}
