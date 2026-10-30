@@ -95,6 +95,22 @@
   "summary_model": "claude-sonnet-5-5",
   "title": "Cell-specific proteome profiling reveals altered peripheral immune cell communication in early multiple sclerosis"
  },
+ "1d494f4350a89242": {
+  "about_ms": true,
+  "category": "research",
+  "collected_at": "2026-10-30T11:36:05.715586+00:00",
+  "description": "Physical activity programs led by healthcare professionals appear acceptable and feasible for adults with multiple sclerosis (MS), a review found. However, more research is needed to determine whether these programs can be successfully used in everyday clinical care. The findings were published in the study, “The implementability of healthcare professional-led physical activity promotion interventions for […] The post Physical activity programs for people with MS show promise, review finds appeared first on Multiple Sclerosis News Today .",
+  "id": "1d494f4350a89242",
+  "is_published": true,
+  "link": "https://multiplesclerosisnewstoday.com/news-posts/2026/10/29/physical-activity-programs-people-ms-show-early-promise/",
+  "published_at": "2026-10-29T12:00:01+00:00",
+  "relevance": 3,
+  "source": "MS News Today",
+  "source_type": "news",
+  "summary": "A review found that physical activity programs led by healthcare professionals appear acceptable and feasible for adults with multiple sclerosis. The authors say more research is needed to determine whether these programs can be used successfully in everyday clinical care.",
+  "summary_model": "claude-sonnet-5-5",
+  "title": "Physical activity programs for people with MS show promise, review finds"
+ },
  "23ce7ce5fd879641": {
   "about_ms": false,
   "category": "other",
@@ -287,6 +303,30 @@
   "summary_model": "claude-sonnet-5-5",
   "title": "Inhibition of HSPA8 alleviates experimental autoimmune encephalomyelitis via dual modulation of NLRP3 inflammasome activation: suppressing both NF-κB–mediated priming and ASC-dependent assembly"
  },
+ "6c90e05dce9e683c": {
+  "about_ms": true,
+  "category": "research",
+  "collected_at": "2026-10-30T11:36:05.715604+00:00",
+  "description": "Background Brain-derived neurotrophic factor (BDNF) is a key mediator of neuroplasticity and has been associated with disease progression in multiple sclerosis (MS). While aerobic exercise is consistently linked to BDNF modulation, the specific contribution of isolated resistance training (RT) remains unclear, as previous reviews have largely combined multimodal exercise interventions. Objective To systematically review and meta-analyze the effects of isolated RT on peripheral BDNF levels in individuals with MS (PROSPERO: CRD420251141069). Methods Searches were conducted in PubMed, Web of Science, Scielo, Scopus, PEDro and Cochrane up to January 10, 2026, using PICOT criteria. Controlled experimental studies investigating isolated RT and BDNF outcomes were included. Risk of bias was assessed using RoB 2.0 and ROBINS-I, and certainty of evidence was evaluated using GRADE. Due to methodological heterogeneity, a random-effects model was applied to estimate pooled effects. Results Four studies (three RCTs and one controlled non-randomized trial), totaling 126 participants with MS, were included. Interventions lasted 8-24 weeks, with training frequencies of 2-3 sessions per week. Meta-analytic synthesis revealed positive pooled effects (SMD = 0.49; 95%CI: 0.15 to 0.83; Z = 2.80; p Conclusion Isolated RT may increase peripheral BDNF levels in individuals with MS, but this effect is supported by limited and low-certainty evidence. Furthermore, given that only four studies were inclu",
+  "doi": "10.1371/journal.pone.0359019",
+  "id": "6c90e05dce9e683c",
+  "is_published": false,
+  "journal": "PLoS One",
+  "link": "https://pubmed.ncbi.nlm.nih.gov/42945167/",
+  "pmid": "42945167",
+  "pub_types": [
+   "meta-analysis",
+   "systematic review",
+   "journal article"
+  ],
+  "published_at": "2026-10-27T00:00:00+00:00",
+  "relevance": 2,
+  "source": "PLoS One",
+  "source_type": "paper",
+  "summary": "A meta-analysis of four controlled studies (126 people with MS) found resistance training alone was linked to higher blood levels of BDNF, a neuroplasticity marker (SMD 0.49). The authors say the evidence is limited and low-certainty.",
+  "summary_model": "claude-sonnet-5-5",
+  "title": "Is resistance training effective to increase BDNF in multiple sclerosis? An updated systematic review and meta-analysis of isolated interventions."
+ },
  "6fa63a312c602c36": {
   "about_ms": true,
   "category": "research",
@@ -438,6 +478,22 @@
   "summary": "A Nature paper describes an approach for quantifying cortical lesions in multiple sclerosis MRI datasets using multi-contrast post-processing and deep learning. Only the title was available, so no results or performance details are known.",
   "summary_model": "claude-sonnet-5-5",
   "title": "Quantifying cortical lesions in multiple sclerosis MRI datasets using multi-contrast post-processing and deep learning"
+ },
+ "93db09a136668d59": {
+  "about_ms": true,
+  "category": "research",
+  "collected_at": "2026-10-30T11:36:05.715577+00:00",
+  "description": "In a European study of people newly diagnosed with multiple sclerosis (MS), B-cell-depleting treatments were linked to fewer relapses and greater reductions in brain lesion volume over two years compared with oral treatments. However, changes in disability scores were similar across treatment groups. The findings suggest that early treatment choices may be linked to differences […] The post B-cell therapies linked to fewer relapses in early MS, study finds appeared first on Multiple Sclerosis News Today .",
+  "id": "93db09a136668d59",
+  "is_published": true,
+  "link": "https://multiplesclerosisnewstoday.com/news-posts/2026/10/29/early-ms-therapies-differ-relapses-not-disability-study-finds/",
+  "published_at": "2026-10-29T12:00:23+00:00",
+  "relevance": 3,
+  "source": "MS News Today",
+  "source_type": "news",
+  "summary": "In a European study of people newly diagnosed with MS, B-cell-depleting treatments were linked to fewer relapses and greater reductions in brain lesion volume over two years than oral treatments. Changes in disability scores were similar across treatment groups.",
+  "summary_model": "claude-sonnet-5-5",
+  "title": "B-cell therapies linked to fewer relapses in early MS, study finds"
  },
  "9738ef7bae4bceca": {
   "about_ms": true,
