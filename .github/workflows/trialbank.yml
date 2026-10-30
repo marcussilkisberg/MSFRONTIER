@@ -9,6 +9,10 @@ on:
         description: "Load into Supabase after building"
         type: boolean
         default: true
+      newsletter:
+        description: "Send the newsletter now (otherwise a manual run only saves a draft in Buttondown)"
+        type: boolean
+        default: false
 
 permissions:
   contents: write
@@ -48,6 +52,7 @@ jobs:
           restore-keys: trialbank-lookups-
 
       - name: Harvest, tag and build
+        id: harvest
         run: |
           cd scripts
           # registry websites sometimes time out: try each download up to 3 times before giving up
@@ -69,10 +74,12 @@ jobs:
       # Hypothesis ledger. Genetics and paper readouts are optional: if either fails, the ledger is still built and
       # the database keeps last week's genetics/readouts.
       - name: Genetic leads (Open Targets)
+        id: genetics
         continue-on-error: true
         run: cd scripts && python genetics_layer.py
 
       - name: Read results from papers (needs ANTHROPIC_API_KEY)
+        id: readouts
         continue-on-error: true
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
@@ -80,18 +87,29 @@ jobs:
         run: cd scripts && python readouts_layer.py
 
       - name: Build hypothesis ledger
+        id: hypotheses
         run: cd scripts && python hypotheses_layer.py
 
       - name: Results watch (finished trials without results)
+        id: results_watch
         continue-on-error: true
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
         run: cd scripts && python results_watch_layer.py
 
+      # Reviews and guidelines from Europe PMC, tagged by a model. Optional: if it fails, the bank keeps last week's.
+      - name: Reviews and guidelines (needs ANTHROPIC_API_KEY)
+        id: literature
+        continue-on-error: true
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: cd scripts && python literature_layer.py
+
       # Saving the readouts must never stop the load: if it fails, the next run simply re-reads those papers.
       # --autostash: the build rewrites tracked data files, so the tree is never clean when someone has pushed
       # to the repository during the run.
       - name: Save machine-read paper results to the repository
+        id: save_readouts
         continue-on-error: true
         run: |
           cd ..
@@ -107,6 +125,7 @@ jobs:
           fi
 
       - name: Load into Supabase
+        id: load
         if: ${{ github.event_name == 'schedule' || inputs.load }}
         env:
           SUPABASE_DB_URL: ${{ secrets.SUPABASE_DB_URL }}
@@ -117,12 +136,14 @@ jobs:
       # Open data: CSVs, a data dictionary and one zip, published as a GitHub release with stable file names, so
       # https://github.com/<owner>/<repo>/releases/latest/download/msfrontier-data.zip is always the newest build.
       - name: Build the open data exports
+        id: exports
         continue-on-error: true
         run: |
           cd scripts
           python export_layer.py
 
       - name: Publish the open data release
+        id: release
         if: ${{ github.event_name == 'schedule' || inputs.load }}
         continue-on-error: true
         env:
@@ -132,6 +153,32 @@ jobs:
           gh release delete "$TAG" --yes --cleanup-tag || true
           gh release create "$TAG" exports/*.zip exports/*.csv exports/README.md \
             --title "MSFrontier open data $(date -u +%Y-%m-%d)" --notes-file exports/README.md --latest
+
+      # Weekly newsletter through Buttondown. The Sunday run sends it (unless the repository variable NEWSLETTER_MODE
+      # is set to draft or off). A manual run saves a draft, or sends if "Send the newsletter now" is ticked.
+      - name: Send the newsletter
+        id: newsletter
+        if: ${{ steps.load.outcome == 'success' }}
+        continue-on-error: true
+        env:
+          SUPABASE_DB_URL: ${{ secrets.SUPABASE_DB_URL }}
+          BUTTONDOWN_API_KEY: ${{ secrets.BUTTONDOWN_API_KEY }}
+          SITE_URL: ${{ vars.SITE_URL }}
+          NEWSLETTER_MODE: ${{ github.event_name == 'schedule' && (vars.NEWSLETTER_MODE || 'send') || (inputs.newsletter && 'send' || 'draft') }}
+        run: cd scripts && python newsletter.py
+
+      # A short report to Marcus after every run, including runs that failed part-way.
+      - name: Email the weekly report
+        if: ${{ always() }}
+        continue-on-error: true
+        env:
+          RESEND_API_KEY: ${{ secrets.RESEND_API_KEY }}
+          ALERT_EMAIL: ${{ secrets.ALERT_EMAIL }}
+          ALERT_FROM: ${{ vars.ALERT_FROM }}
+          SUPABASE_DB_URL: ${{ secrets.SUPABASE_DB_URL }}
+          STEPS_JSON: ${{ toJSON(steps) }}
+          RUN_URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
+        run: cd scripts && python alerts.py --weekly
 
       - name: Keep the built files
         uses: actions/upload-artifact@v5

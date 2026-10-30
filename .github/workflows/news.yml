@@ -45,3 +45,12 @@ jobs:
             git commit -m "Daily news [skip ci]"
             for i in 1 2 3; do git pull --rebase --autostash origin "${GITHUB_REF_NAME}" && git push && break; sleep 10; done
           fi
+
+      - name: Email an alert if the news run failed
+        if: ${{ failure() }}
+        env:
+          RESEND_API_KEY: ${{ secrets.RESEND_API_KEY }}
+          ALERT_EMAIL: ${{ secrets.ALERT_EMAIL }}
+          ALERT_FROM: ${{ vars.ALERT_FROM }}
+          RUN_URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
+        run: cd scripts && python alerts.py --failure "News refresh"
