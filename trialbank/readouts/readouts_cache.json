@@ -3293,6 +3293,20 @@
   "readout": "unclear",
   "reason": "no main results paper found"
  },
+ "MSFT-NCT00869726|readout_v2|c724baf531": {
+  "checker_model": "claude-haiku-5-5",
+  "checker_version": "check_v2b",
+  "msf_trial_id": "MSFT-NCT00869726",
+  "pmid": "30800415",
+  "pmids_considered": [
+   "30800415"
+  ],
+  "prompt_version": "readout_v2",
+  "read_on": "2026-10-30",
+  "reader_model": "claude-sonnet-5-5",
+  "readout": "unclear",
+  "reason": "no main results paper found"
+ },
  "MSFT-NCT00870740|readout_v2|72664d81b9": {
   "checker_model": "claude-haiku-5-5",
   "checker_said": "not_efficacy",
@@ -3586,6 +3600,27 @@
    ],
    "measure": "Proportion of patients who had improved by day 28 (decrease of at least one point in most affected score on Kurtzke Functional System Scale), without need for retreatment with corticosteroids, in the per-protocol population",
    "n_randomised": "199"
+  }
+ },
+ "MSFT-NCT01018485|readout_v2|4efa1c81db": {
+  "checker_model": "claude-haiku-5-5",
+  "checker_said": "met",
+  "checker_version": "check_v2b",
+  "msf_trial_id": "MSFT-NCT01018485",
+  "pmid": "22753445",
+  "pmids_considered": [
+   "22753445"
+  ],
+  "prompt_version": "readout_v2",
+  "quote": "There was a significant improvement after botulinum toxin compared with that after placebo treatment in the Bain score for tremor severity at 6 weeks (p = 0.0005) and 12 weeks (p = 0.0001), writing at 6 weeks (p = 0.0001) and 12 weeks (p = 0.0003), and Archimedes spiral drawing at 6 weeks (p = 0.0006) and 12 weeks (p = 0.0002).",
+  "read_on": "2026-10-30",
+  "reader_model": "claude-sonnet-5-5",
+  "reader_said": "met",
+  "readout": "met",
+  "reason": null,
+  "result": {
+   "follow_up": "6 and 12 weeks",
+   "p": "tremor severity p = 0.0005 at 6 weeks and p = 0.0001 at 12 weeks; writing p = 0.0001 at 6 weeks and p = 0.0003 at 12 weeks; spiral drawing p = 0.0006 at 6 weeks and p = 0.0002 at 12 weeks"
   }
  },
  "MSFT-NCT01039103|readout_v2|46a1c6a395": {
@@ -4886,6 +4921,28 @@
   "readout": "unclear",
   "reason": "no main results paper found"
  },
+ "MSFT-NCT01712373|readout_v2|cdca58ccaa": {
+  "checker_model": "claude-haiku-5-5",
+  "checker_said": "met",
+  "checker_version": "check_v2b",
+  "msf_trial_id": "MSFT-NCT01712373",
+  "pmid": "23301896",
+  "pmids_considered": [
+   "23301896"
+  ],
+  "prompt_version": "readout_v2",
+  "quote": "Statistical analysis showed better effects for ginseng than the placebo as regards MFIS (p = 0.046) and MSQOL (p \u2264 0.0001) after 3 months.",
+  "read_on": "2026-10-30",
+  "reader_model": "claude-sonnet-5-5",
+  "reader_said": "met",
+  "readout": "met",
+  "reason": null,
+  "result": {
+   "follow_up": "3 months",
+   "n_randomised": "60",
+   "p": "p = 0.046"
+  }
+ },
  "MSFT-NCT01742052|readout_v2|ea39a2e68b": {
   "checker_model": "claude-haiku-5-5",
   "checker_said": "met",
@@ -6003,6 +6060,26 @@
   "reader_model": "claude-sonnet-5-5",
   "readout": "unclear",
   "reason": "no main results paper found"
+ },
+ "MSFT-NCT02471222|readout_v2|5b5260f3f7": {
+  "checker_model": "claude-haiku-5-5",
+  "checker_said": "not_efficacy",
+  "checker_version": "check_v2b",
+  "msf_trial_id": "MSFT-NCT02471222",
+  "pmid": "29368539",
+  "pmids_considered": [
+   "29368539"
+  ],
+  "prompt_version": "readout_v2",
+  "quote": "Five ADS-5102 patients and no placebo patients discontinued treatment due to AEs.",
+  "read_on": "2026-10-30",
+  "reader_model": "claude-sonnet-5-5",
+  "reader_said": "not_efficacy",
+  "readout": "not_efficacy",
+  "reason": null,
+  "result": {
+   "n_randomised": "60"
+  }
  },
  "MSFT-NCT02471222|readout_v2|a3b856cdb0": {
   "checker_model": "claude-haiku-5-5",
