@@ -3293,6 +3293,28 @@
   "readout": "unclear",
   "reason": "no main results paper found"
  },
+ "MSFT-NCT00869726|readout_v2|6fab27b955": {
+  "checker_model": "claude-haiku-5-5",
+  "checker_said": "not_met",
+  "checker_version": "check_v2b",
+  "msf_trial_id": "MSFT-NCT00869726",
+  "pmid": "21975206",
+  "pmids_considered": [
+   "21975206"
+  ],
+  "prompt_version": "readout_v2",
+  "quote": "Results There were no significant differences between treatment groups in either the primary or secondary endpoints.",
+  "read_on": "2026-10-30",
+  "reader_model": "claude-sonnet-5-5",
+  "reader_said": "not_met",
+  "readout": "not_met",
+  "reason": null,
+  "result": {
+   "follow_up": "2 years",
+   "measure": "time to progression by \u22651.0 EDSS point (or 0.5 point if baseline EDSS was 5.5 or higher), confirmed 6 months later",
+   "n_randomised": "612"
+  }
+ },
  "MSFT-NCT00869726|readout_v2|c724baf531": {
   "checker_model": "claude-haiku-5-5",
   "checker_version": "check_v2b",
@@ -4293,6 +4315,40 @@
   "reader_model": "claude-sonnet-5-5",
   "readout": "unclear",
   "reason": "no main results paper found"
+ },
+ "MSFT-NCT01432704|readout_v2|f618e933d9": {
+  "checker_model": "claude-haiku-5-5",
+  "checker_said": "not_met",
+  "checker_version": "check_v2b",
+  "msf_trial_id": "MSFT-NCT01432704",
+  "pmid": "22362918",
+  "pmids_considered": [
+   "22362918"
+  ],
+  "prompt_version": "readout_v2",
+  "quote": "Median change in BOD was 287 mm(3) in the placebo group and 83 mm(3) in the vitamin D group (p=0.105).",
+  "read_on": "2026-10-30",
+  "reader_model": "claude-sonnet-5-5",
+  "reader_said": "not_met",
+  "readout": "not_met",
+  "reason": null,
+  "result": {
+   "follow_up": "1 year",
+   "groups": [
+    {
+     "group": "Placebo",
+     "n": null,
+     "value": "287 mm(3)"
+    },
+    {
+     "group": "Vitamin D",
+     "n": null,
+     "value": "83 mm(3)"
+    }
+   ],
+   "n_randomised": "66",
+   "p": "p=0.105"
+  }
  },
  "MSFT-NCT01433250|readout_v2|8122eeba94": {
   "checker_model": "claude-haiku-5-5",
