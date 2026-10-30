@@ -164,7 +164,21 @@ def candidates():
     return t.assign(_p=pri).sort_values(["_p", "start_year"], ascending=[False, False])
 
 
-def papers_for(uid, reg, epmc):
+def search_matches():
+    """Results papers the results watch found by search for trials whose registry entry does not link them (MAESTRO-01:
+    MBP8298 phase 3, Neurology 2011). Read from last run's committed cache, keyed by trial."""
+    p = ROOT / "readouts" / "results_watch_cache.json"
+    out = {}
+    if p.exists():
+        # newest matching rules first (rw_v3 accepts only papers that report the main result)
+        for k, v in sorted(json.loads(p.read_text()).items(), key=lambda kv: kv[0].split("|")[-1], reverse=True):
+            m = (v or {}).get("match") or {}
+            if m.get("pmid"):
+                out.setdefault(k.split("|")[0], m["pmid"])
+    return out
+
+
+def papers_for(uid, reg, epmc, found=None):
     """Candidate papers, the likeliest main results paper first. Protocols and reviews are left out: MS-STAT2's
     Lancet results paper used to sit sixth behind its protocol and secondary analyses and was never read."""
     meta = {str(r.pmid): (str(r.pub_type or "").lower(), str(r.title or "").lower(), r.pub_year)
@@ -180,6 +194,8 @@ def papers_for(uid, reg, epmc):
             return
         rank[pmid] = min(rank.get(pmid, 9), rk)
 
+    if found and found.get(uid):
+        add(found[uid], 0)
     for r in reg[reg.msf_trial_id == uid].itertuples():
         rt = str(r.ref_type).lower()
         if rt in ("result", "resultsarticle"):
@@ -298,7 +314,8 @@ def main():
     have_key = bool(os.environ.get("ANTHROPIC_API_KEY"))
     print(f"readout candidates: {len(cand)}; API key {'set' if have_key else 'NOT set: reusing cached readouts only'}")
 
-    plan = [(t, papers_for(t.msf_trial_id, reg, epmc)) for t in cand.itertuples()]
+    found = search_matches()
+    plan = [(t, papers_for(t.msf_trial_id, reg, epmc, found)) for t in cand.itertuples()]
     plan = [(t, p) for t, p in plan if p]
     fetch_abstracts(sorted({x for _, p in plan for x in p}), abstracts)
     ABSTRACTS.write_text(json.dumps(abstracts))
