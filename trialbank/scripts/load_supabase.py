@@ -231,6 +231,7 @@ def main():
             load_hypotheses(cur, set(ids), run_id)
             load_texts(cur, set(ids))
             load_results_watch(cur, set(ids))
+            load_literature(cur)
 
             # ---- sync curation file into corrections (authored as 'curation_file')
             ov_path = ROOT / "curation" / "overrides.csv"
@@ -433,6 +434,24 @@ def load_results_watch(cur, keep_ids):
         "sponsor_class": t, "enrollment": i, "registry_ids": t, "end_date": d, "months_since_end": i,
         "results_found": b, "found_where": t, "found_link": t, "fully_checked": b, "checked_sources": t,
         "watch_status": t, "as_of": d})
+
+
+def load_literature(cur):
+    """Reviews and guidelines and their links (011)."""
+    if not has_table(cur, "papers") or not (DATA / "papers.parquet").exists():
+        return
+    cur.execute("delete from bank.papers")   # cascades to paper_links
+    papers = pd.read_parquet(DATA / "papers.parquet")
+    load_child(cur, papers, "papers", dedupe=["pmid"], spec={
+        "pmid": t, "doi": t, "pmcid": t, "title": t, "journal": t, "pub_year": i, "pub_date": d, "authors": t,
+        "kind": t, "populations": arr, "topics": arr, "aims": arr, "approach_groups": arr, "frontiers": arr,
+        "drugs": arr, "chembl_ids": arr, "direction": t, "conclusion_quote": t, "n_studies": i, "summary": t,
+        "cited_by": i, "open_access": b, "url": t, "tagged_by": t, "tags_version": t})
+    if (DATA / "paper_links.parquet").exists():
+        links = pd.read_parquet(DATA / "paper_links.parquet")
+        links = links[links.pmid.isin(set(papers.pmid))]
+        load_child(cur, links, "paper_links", dedupe=["pmid", "target_type", "target_id"],
+                   spec={"pmid": t, "target_type": t, "target_id": t, "rule": t})
 
 
 def load_texts(cur, keep_ids):

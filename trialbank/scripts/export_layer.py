@@ -97,6 +97,15 @@ DICTIONARY = {
     "medicines.csv": ("Medicines approved for MS, NMOSD and MOGAD, with approvals and trial counts.", {}),
     "results_watch.csv": ("Finished phase 2 to 4 trials and whether their results could be found.", {}),
     "trial_links.csv": ("Links between trials stated in the registries (extensions, sub-studies).", {}),
+    "papers.csv": ("Systematic reviews, meta-analyses and guidelines on MS, NMOSD and MOGAD since 2015, tagged by "
+                   "software.", {
+        "kind / populations / topics / aims / approach_groups / frontiers": "tags from fixed lists, separated by |",
+        "direction": "for treatment reviews: benefit, no_benefit, mixed, harm, uncertain or not_applicable",
+        "conclusion_quote": "the abstract's main conclusion, copied word for word",
+        "summary": "one plain-English sentence written by software",
+    }),
+    "paper_links.csv": ("Which hypotheses, medicines, trials and frontiers each review is linked to, and by which rule. "
+                        "Reviews never change a hypothesis's status.", {}),
 }
 
 LICENCE = """## Licence and attribution
@@ -108,7 +117,8 @@ cite "MSFrontier Trial Bank, <build date>".
 Registry content (titles, dates, statuses, sponsors and other registered fields) comes from ClinicalTrials.gov, the
 EU Clinical Trials Register, the EU Clinical Trials Information System (CTIS) and ISRCTN, and remains subject to each
 registry's terms. Medicine identifiers come from ChEMBL (CC BY-SA 3.0). Quoted sentences come from published
-abstracts and are reproduced as short quotations with their PubMed ID.
+abstracts and are reproduced as short quotations with their PubMed ID. Paper titles and bibliographic details come
+from Europe PMC.
 
 The data are assembled by software and are not reviewed by people. They are not medical advice.
 """
@@ -145,7 +155,8 @@ def main():
 
     for name, src in (("primary_analyses.csv", "trial_primary_analyses_ctgov"), ("hypotheses.csv", "hypotheses"),
                       ("hypothesis_evidence.csv", "hypothesis_evidence"), ("medicines.csv", "treatments"),
-                      ("results_watch.csv", "results_watch"), ("trial_links.csv", "trial_links")):
+                      ("results_watch.csv", "results_watch"), ("trial_links.csv", "trial_links"),
+                      ("papers.csv", "papers"), ("paper_links.csv", "paper_links")):
         p = DATA / f"{src}.parquet"
         if p.exists():
             files[name] = pd.read_parquet(p)
