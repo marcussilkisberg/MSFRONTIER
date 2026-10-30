@@ -114,6 +114,25 @@ jobs:
           cd scripts
           python load_supabase.py ../data
 
+      # Open data: CSVs, a data dictionary and one zip, published as a GitHub release with stable file names, so
+      # https://github.com/<owner>/<repo>/releases/latest/download/msfrontier-data.zip is always the newest build.
+      - name: Build the open data exports
+        continue-on-error: true
+        run: |
+          cd scripts
+          python export_layer.py
+
+      - name: Publish the open data release
+        if: ${{ github.event_name == 'schedule' || inputs.load }}
+        continue-on-error: true
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          TAG="data-$(date -u +%Y-%m-%d)"
+          gh release delete "$TAG" --yes --cleanup-tag || true
+          gh release create "$TAG" exports/*.zip exports/*.csv exports/README.md \
+            --title "MSFrontier open data $(date -u +%Y-%m-%d)" --notes-file exports/README.md --latest
+
       - name: Keep the built files
         uses: actions/upload-artifact@v5
         with:
