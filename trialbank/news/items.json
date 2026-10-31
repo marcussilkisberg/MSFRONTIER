@@ -159,6 +159,22 @@
   "summary_model": "claude-sonnet-5-5",
   "title": "Gut microbiome modulation by Veillonella ratti induces resistance to EAE pathogenesis via microbe-derived metabolites"
  },
+ "367415a3d504aa97": {
+  "about_ms": true,
+  "category": "research",
+  "collected_at": "2026-10-31T11:12:22.946550+00:00",
+  "description": "Greater physical disability is associated with poorer cognitive performance in people with multiple sclerosis (MS), particularly in those with more advanced disability, according to a large review and meta-analysis. However, cognitive difficulties may also occur in patients with mild physical impairment, and go undetected by conventional disability assessments. “Cognitive and physical disabilities in MS are […] The post Review study links physical disability to cognitive problems in MS appeared first on Multiple Sclerosis News Today .",
+  "id": "367415a3d504aa97",
+  "is_published": true,
+  "link": "https://multiplesclerosisnewstoday.com/news-posts/2026/10/30/review-study-links-physical-disability-cognitive-problems-ms/",
+  "published_at": "2026-10-30T19:30:27+00:00",
+  "relevance": 3,
+  "source": "MS News Today",
+  "source_type": "news",
+  "summary": "A large review and meta-analysis found greater physical disability in people with MS is associated with poorer cognitive performance, especially in those with more advanced disability. Cognitive difficulties may also occur with mild physical impairment and go undetected by conventional disability assessments.",
+  "summary_model": "claude-sonnet-5-5",
+  "title": "Review study links physical disability to cognitive problems in MS"
+ },
  "382540e0559012d6": {
   "about_ms": true,
   "category": "research",
