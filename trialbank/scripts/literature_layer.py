@@ -37,11 +37,12 @@ import requests
 ROOT = Path(__file__).resolve().parent.parent
 DATA = ROOT / "data"
 CACHE = ROOT / "readouts" / "literature_cache.json"
+META = ROOT / "readouts" / "literature_papers.json"   # bibliographic details, used if Europe PMC is down
 EPMC = "https://www.ebi.ac.uk/europepmc/webservices/rest/search"
 API = "https://api.anthropic.com/v1/messages"
 MODEL = os.environ.get("LIT_MODEL") or "claude-haiku-5-5"
 MAX_NEW = int(os.environ.get("LIT_MAX_NEW") or 3000)
-WORKERS = int(os.environ.get("LIT_WORKERS") or 6)
+WORKERS = int(os.environ.get("LIT_WORKERS") or 3)
 VERSION = "lit_v1"
 
 DISEASE = ('(TITLE:"multiple sclerosis" OR TITLE:"neuromyelitis" OR TITLE:"NMOSD" OR TITLE:"MOGAD" OR '
@@ -157,12 +158,17 @@ def call(prompt):
     for k in range(6):
         r = requests.post(API, timeout=120, headers={"x-api-key": key, "anthropic-version": "2023-06-01",
                                                     "content-type": "application/json"},
-                          json={"model": MODEL, "max_tokens": 700,
+                          json={"model": MODEL, "max_tokens": 1200,
                                 "messages": [{"role": "user", "content": prompt}]})
         if r.status_code == 200:
-            return "".join(b.get("text", "") for b in r.json()["content"])
+            j = r.json()
+            text = "".join(b.get("text", "") for b in j.get("content", []) if b.get("type") == "text")
+            if not text.strip():
+                raise RuntimeError(f"empty reply (stop_reason {j.get('stop_reason')})")
+            return text
         if r.status_code in (429, 500, 502, 503, 529):
-            time.sleep(5 * (k + 1))
+            wait = float(r.headers.get("retry-after") or 0) or 10 * (k + 1)
+            time.sleep(min(wait, 90))
             continue
         raise RuntimeError(f"Anthropic API {r.status_code}: {r.text[:300]}")
     raise RuntimeError("Anthropic API: too many retries")
@@ -174,8 +180,13 @@ def tag_one(p, groups_txt):
                            pops=POPULATIONS, topics=TOPICS, aims=list(AIMS), groups=groups_txt,
                            frontiers="\n".join(f"  {k}: {v}" for k, v in FRONTIERS.items()), dirs=DIRECTIONS)
     raw = call(prompt)
+    raw = re.sub(r"^```(?:json)?|```$", "", raw.strip(), flags=re.M).strip()
     m = re.search(r"\{.*\}", raw, re.S)
-    j = json.loads(m.group(0)) if m else {}
+    if not m:
+        raise RuntimeError(f"no JSON in reply: {raw[:160]!r}")
+    j = json.loads(m.group(0))
+    if "relevant" not in j or "kind" not in j:
+        raise RuntimeError(f"incomplete JSON: {raw[:160]!r}")
     return j
 
 
@@ -238,11 +249,22 @@ def main():
     group_ids = set(groups.approach_group)
     groups_txt = "\n".join(f"  {g}: {l}" for g, l in sorted(zip(groups.approach_group, groups.approach_group_label)))
 
-    papers = harvest()
+    meta = json.loads(META.read_text()) if META.exists() else {}
+    harvested = True
+    try:
+        papers = harvest()
+    except Exception as e:
+        harvested = False
+        print(f"literature: Europe PMC failed ({e}), using the saved list of {len(meta)} papers without new ones")
+        papers = {k: {**v, "abstract": v.get("abstract_start", "")} for k, v in meta.items()}
     cache = json.loads(CACHE.read_text()) if CACHE.exists() else {}
-    todo = [p for k, p in papers.items() if (cache.get(k) or {}).get("version") != VERSION][:MAX_NEW]
+    def needs(c):
+        # the first run (30 Oct 2026) cached empty results when a reply could not be read: tag those again
+        return not c or c.get("version") != VERSION or (not c.get("summary") and not c.get("conclusion_quote")
+                                                         and c.get("kind") == "other")
+    todo = [p for k, p in papers.items() if needs(cache.get(k))][:MAX_NEW] if harvested else []
     print(f"literature: {len(todo)} papers to tag with {MODEL}")
-    done = 0
+    done, failed = 0, 0
     with ThreadPoolExecutor(max_workers=WORKERS) as ex:
         futs = {ex.submit(tag_one, p, groups_txt): p for p in todo}
         for f in as_completed(futs):
@@ -251,14 +273,23 @@ def main():
                 cache[p["pmid"]] = {"version": VERSION, "model": MODEL, "tagged_on": date.today().isoformat(),
                                     **validate(f.result(), p, group_ids)}
             except Exception as e:
-                print(f"literature: {p['pmid']} not tagged: {e}")
+                failed += 1
+                if failed <= 10:
+                    print(f"literature: {p['pmid']} not tagged: {e}")
             done += 1
             if done % 200 == 0:
                 CACHE.write_text(json.dumps(cache, ensure_ascii=False))
                 print(f"literature: {done} tagged")
     CACHE.parent.mkdir(exist_ok=True)
     CACHE.write_text(json.dumps(cache, ensure_ascii=False))
+    print(f"literature: {done - failed} tagged, {failed} failed (they are tried again next run)")
+    too_many_failed = bool(todo) and failed > 0.5 * len(todo)
 
+    if papers and any("pub_types" in v for v in papers.values()):
+        META.write_text(json.dumps({k: {**{x: v.get(x) for x in ("pmid", "doi", "pmcid", "title", "journal", "pub_year",
+                                                                   "pub_date", "cited_by", "open_access", "authors")},
+                                        "abstract_start": (v.get("abstract") or "")[:800]}
+                                    for k, v in papers.items()}, ensure_ascii=False))
     rx, names = drug_matcher()
     reg = pd.read_parquet(DATA / "trial_registry_ids.parquet") if (DATA / "trial_registry_ids.parquet").exists() \
         else pd.DataFrame(columns=["registry_id", "msf_trial_id"])
@@ -330,6 +361,8 @@ def main():
           f"({ln.target_type.value_counts().to_dict() if len(ln) else {}})")
     if len(df):
         print("literature: kinds", df.kind.value_counts().to_dict())
+    if too_many_failed:   # outputs are written first, so the bank still gets every paper tagged so far
+        raise SystemExit("literature: more than half the papers failed to tag, see the messages above")
 
 
 if __name__ == "__main__":
