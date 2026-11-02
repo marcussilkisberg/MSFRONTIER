@@ -28,7 +28,8 @@ RUN_URL = os.environ.get("RUN_URL", "")
 FROM = os.environ.get("ALERT_FROM") or "MSFrontier bot <onboarding@resend.dev>"
 
 STEP_NAMES = {"harvest": "Harvest, tag and build", "genetics": "Genetic leads", "readouts": "Read results from papers",
-              "hypotheses": "Build hypothesis ledger", "results_watch": "Results watch", "literature": "Reviews and guidelines", "highlights": "Trials to watch",
+              "hypotheses": "Build hypothesis ledger", "results_watch": "Results watch", "literature": "Reviews and guidelines", "preclinical": "Lab evidence",
+              "highlights": "Trials to watch",
               "save_readouts": "Save paper results to the repository", "load": "Load into Supabase",
               "exports": "Build the open data exports", "release": "Publish the open data release",
               "newsletter": "Send the newsletter"}

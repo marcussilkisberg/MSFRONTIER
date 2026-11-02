@@ -107,6 +107,28 @@ DICTIONARY = {
     }),
     "paper_links.csv": ("Which hypotheses, medicines, trials and frontiers each review is linked to, and by which rule. "
                         "Reviews never change a hypothesis's status.", {}),
+    "trials_to_watch.csv": ("Running trials chosen every week by fixed rules as the ones to watch in three areas: "
+                            "progressive MS, repair and protection, and lasting remission.", {}),
+    "lab_studies.csv": ("Original laboratory studies since 2015 that test a treatment or a genetic change in an animal "
+                        "model of MS (EAE, cuprizone, lysolecithin, Theiler's virus) or in human cells, tagged by "
+                        "software. Results in animals often do not hold in people.", {
+        "study_type": "intervention (a treatment was tested) or genetic (a gene was removed, blocked or added)",
+        "model_systems / species": "read from the abstract with fixed patterns, separated by |",
+        "dosing": "preventive (treatment before the disease appeared), after_onset, both, not_stated or not_applicable",
+        "direction": "benefit, no_benefit, mixed, harm or not_applicable, on the paper's main outcome",
+        "randomised_reported / blinded_reported": "whether the abstract mentions randomisation or blinding",
+        "in_human_trials / trial_drugs": "whether the intervention appears in a trial in the Trial Bank",
+        "conclusion_quote": "the abstract's main conclusion, copied word for word",
+    }),
+    "lab_links.csv": ("Which approach groups, hypotheses, medicines, genes and frontiers each lab study is linked to, "
+                      "and by which rule. Lab evidence never changes a hypothesis's status.", {}),
+    "lab_interventions.csv": ("One row per intervention tested in the lab studies, with the number of papers by "
+                              "direction and whether it has reached trials in people.", {
+        "human_outcomes": "the outcomes of the hypotheses for the same medicine in the Trial Bank",
+        "genetic_support": "target genes with strong or moderate human genetic evidence for MS (Open Targets)",
+    }),
+    "lab_genes.csv": ("One row per gene named in the lab studies, with trial medicines acting on it and human "
+                      "genetic evidence.", {}),
 }
 
 LICENCE = """## Licence and attribution
@@ -158,12 +180,14 @@ def main():
                       ("hypothesis_evidence.csv", "hypothesis_evidence"), ("medicines.csv", "treatments"),
                       ("results_watch.csv", "results_watch"), ("trial_links.csv", "trial_links"),
                       ("papers.csv", "papers"), ("paper_links.csv", "paper_links"),
-                      ("trials_to_watch.csv", "trial_highlights")):
+                      ("trials_to_watch.csv", "trial_highlights"), ("lab_studies.csv", "preclinical_studies"),
+                      ("lab_links.csv", "preclinical_links"), ("lab_interventions.csv", "preclinical_ideas"),
+                      ("lab_genes.csv", "preclinical_targets")):
         p = DATA / f"{src}.parquet"
         if p.exists():
             files[name] = pd.read_parquet(p)
 
-    readme = [f"# MSFrontier open data\n\nBuilt {built}. Updated every week from public trial registries.\n",
+    readme = [f"# MSFrontier open data\n\nBuilt {built}. Updated every week from public trial registries and Europe PMC.\n",
               "Lists inside a cell are separated by `|`. Dates are ISO (YYYY-MM-DD).\n", "## Files\n"]
     for name, df in files.items():
         df = tidy(df)

@@ -113,3 +113,11 @@ medicines that were never tried in MS, and 61 have no medicines yet.
 - Pages show the trials that decide the status (`deciding_phase`, `n_met_deciding`, `n_not_met_deciding`) and count
   every other linked trial separately (`n_other_trials`), so the counts shown always match the status.
 
+
+## Context that never changes a status (2 Nov 2026)
+
+- Reviews and guidelines (`literature_layer.py`) and lab evidence (`preclinical_layer.py`: animal models of MS and
+  human cell studies) are linked to hypotheses by approach group and aim, and shown beside them. Neither is counted
+  in any status. Only trials in people set a status.
+- Lab studies link to every population of a hypothesis's approach and aim, because animals have no type of MS. A
+  hypothesis about one named medicine is linked only to lab studies of that medicine.

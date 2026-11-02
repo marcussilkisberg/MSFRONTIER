@@ -233,6 +233,7 @@ def main():
             load_results_watch(cur, set(ids))
             load_literature(cur)
             load_highlights(cur, set(ids))
+            load_preclinical(cur)
 
             # ---- sync curation file into corrections (authored as 'curation_file')
             ov_path = ROOT / "curation" / "overrides.csv"
@@ -469,6 +470,40 @@ def load_literature(cur):
         links = links[links.pmid.isin(set(papers.pmid))]
         load_child(cur, links, "paper_links", dedupe=["pmid", "target_type", "target_id"],
                    spec={"pmid": t, "target_type": t, "target_id": t, "rule": t})
+
+
+def load_preclinical(cur):
+    """Lab evidence: animal and human cell studies, their links, interventions and genes (015)."""
+    if not has_table(cur, "preclinical_studies") or not (DATA / "preclinical_studies.parquet").exists():
+        return
+    studies = pd.read_parquet(DATA / "preclinical_studies.parquet")
+    if not len(studies):
+        return   # keep last week's rows rather than emptying the tables
+    cur.execute("delete from bank.preclinical_studies")   # cascades to preclinical_links
+    load_child(cur, studies, "preclinical_studies", dedupe=["pmid"], spec={
+        "pmid": t, "doi": t, "pmcid": t, "title": t, "journal": t, "pub_year": i, "pub_date": d, "authors": t,
+        "study_type": t, "model_systems": arr, "species": arr, "interventions": arr, "intervention_type": t,
+        "chembl_ids": arr, "target_genes": arr, "mechanism": t, "aims": arr, "approach_groups": arr,
+        "frontiers": arr, "dosing": t, "direction": t, "randomised_reported": b, "blinded_reported": b,
+        "in_human_trials": b, "trial_drugs": arr, "conclusion_quote": t, "summary": t, "cited_by": i,
+        "open_access": b, "url": t, "tagged_by": t, "tags_version": t})
+    if (DATA / "preclinical_links.parquet").exists():
+        links = pd.read_parquet(DATA / "preclinical_links.parquet")
+        links = links[links.pmid.isin(set(studies.pmid))]
+        load_child(cur, links, "preclinical_links", dedupe=["pmid", "target_type", "target_id"],
+                   spec={"pmid": t, "target_type": t, "target_id": t, "rule": t})
+    if (DATA / "preclinical_ideas.parquet").exists():
+        cur.execute("delete from bank.preclinical_ideas")
+        load_child(cur, DATA / "preclinical_ideas.parquet", "preclinical_ideas", dedupe=["idea_id"], spec={
+            "idea_id": t, "name": t, "chembl_id": t, "intervention_type": t, "mechanism": t, "n_papers": i,
+            "n_benefit": i, "n_no_benefit": i, "n_mixed": i, "n_harm": i, "n_after_onset": i, "model_systems": arr,
+            "approach_groups": arr, "aims": arr, "target_genes": arr, "genetic_support": arr, "first_year": i,
+            "latest_year": i, "in_human_trials": b, "trial_drugs": arr, "human_outcomes": t, "pmids": arr})
+    if (DATA / "preclinical_targets.parquet").exists():
+        cur.execute("delete from bank.preclinical_targets")
+        load_child(cur, DATA / "preclinical_targets.parquet", "preclinical_targets", dedupe=["symbol"], spec={
+            "symbol": t, "n_papers": i, "n_benefit": i, "n_genetic_studies": i, "trial_drugs": arr,
+            "in_human_trials": b, "human_genetics": t, "pmids": arr})
 
 
 def load_texts(cur, keep_ids):

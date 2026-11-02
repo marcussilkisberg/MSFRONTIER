@@ -23,6 +23,7 @@ python hypotheses_layer.py
 python highlights_layer.py || echo "trials to watch skipped"
 python results_watch_layer.py || echo "results watch skipped"               # hypothesis ledger, from everything above plus ../project/*.yml
 python literature_layer.py || echo "reviews and guidelines skipped"   # needs ANTHROPIC_API_KEY
+python preclinical_layer.py || echo "lab evidence skipped"   # needs ANTHROPIC_API_KEY
 python export_layer.py                   # open data: ../exports/*.csv, README.md, msfrontier-data.zip
 python validate.py > ../data/validate.log
 

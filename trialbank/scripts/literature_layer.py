@@ -153,12 +153,12 @@ def harvest():
     return out
 
 
-def call(prompt):
+def call(prompt, model=None):
     key = os.environ["ANTHROPIC_API_KEY"]
     for k in range(6):
         r = requests.post(API, timeout=120, headers={"x-api-key": key, "anthropic-version": "2023-06-01",
                                                     "content-type": "application/json"},
-                          json={"model": MODEL, "max_tokens": 1200,
+                          json={"model": model or MODEL, "max_tokens": 1200,
                                 "messages": [{"role": "user", "content": prompt}]})
         if r.status_code == 200:
             j = r.json()
