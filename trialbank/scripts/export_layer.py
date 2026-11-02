@@ -90,7 +90,8 @@ DICTIONARY = {
     }),
     "primary_analyses.csv": ("Statistical analyses of primary outcomes posted on ClinicalTrials.gov.", {}),
     "hypotheses.csv": ("Every hypothesis (approach x aim x type of MS) with its status.", {
-        "outcome": "roadmap, testing, pending, promising, confirmed, mixed, failed_early, disproven or unclear",
+        "outcome": "roadmap, testing, pending, promising, supported_one, confirmed, mixed, failed_early, disproven "
+                   "or unclear",
         "rules_version": "version of the rules that set the status (see HYPOTHESES.md in the repository)",
     }),
     "hypothesis_evidence.csv": ("Which trials bear on which hypothesis, and whether each counts toward its status.", {}),

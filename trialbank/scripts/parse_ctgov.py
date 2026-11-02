@@ -28,6 +28,23 @@ def norm_date(d):
 PHASE_MAP = {"EARLY_PHASE1": "early_phase1", "PHASE1": "phase1", "PHASE2": "phase2", "PHASE3": "phase3", "PHASE4": "phase4", "NA": "not_applicable"}
 
 
+def _lab(x):
+    return re.sub(r"[®™*]|\s+", " ", str(x or "")).strip().lower()
+
+
+def _comparator_only(titles, arm_type):
+    """True when every non-placebo group of an analysis is an active-comparator arm."""
+    types = []
+    for t in titles:
+        lt = _lab(t)
+        ty = arm_type.get(lt) or next((v for k, v in arm_type.items() if k and (lt.startswith(k) or k.startswith(lt))), "")
+        types.append(ty)
+    if not any(v in ("EXPERIMENTAL", "OTHER") for v in arm_type.values()):
+        return False   # some trials label every arm an active comparator: then nothing can be told apart
+    rest = [ty for ty in types if ty not in ("PLACEBO_COMPARATOR", "SHAM_COMPARATOR", "NO_INTERVENTION")]
+    return bool(rest) and all(ty == "ACTIVE_COMPARATOR" for ty in rest)
+
+
 def parse(path):
     trials, ids, interventions, outcomes, analyses, refs = [], [], [], [], [], []
     today = date.today().isoformat()
@@ -105,20 +122,27 @@ def parse(path):
         # ---- results (posted primary-outcome analyses)
         res = s.get("resultsSection", {})
         prim_ps = []
+        # Arm types by label, so an analysis that only compares the active comparator with placebo (BRAVO: interferon
+        # vs placebo, p = 0.0067, while laquinimod vs placebo was p = 0.0746) is not read as the tested drug's result.
+        arm_type = {}
+        for ag in p.get("armsInterventionsModule", {}).get("armGroups", []):
+            arm_type[_lab(ag.get("label"))] = ag.get("type") or ""
         for m in res.get("outcomeMeasuresModule", {}).get("outcomeMeasures", []):
             if m.get("type") != "PRIMARY":
                 continue
+            gtitle = {g.get("id"): g.get("title") for g in m.get("groups", [])}
             for a in m.get("analyses", []):
                 pv, op = T.parse_p(a.get("pValue"))
+                comparator_only = _comparator_only([gtitle.get(i) for i in a.get("groupIds", [])], arm_type)
                 analyses.append({
                     "registry_id": nct, "outcome_title": (m.get("title") or "")[:300],
                     "endpoint_tags": "|".join(T.tag_endpoint(m.get("title", "") + " " + m.get("description", ""))),
                     "p_value_raw": a.get("pValue"), "p_value": pv, "p_op": op,
                     "method": a.get("statisticalMethod"), "param_type": a.get("paramType"),
                     "param_value": a.get("paramValue"), "ci_lower": a.get("ciLowerLimit"), "ci_upper": a.get("ciUpperLimit"),
-                    "non_inferiority_type": a.get("nonInferiorityType"),
+                    "non_inferiority_type": a.get("nonInferiorityType"), "comparator_only": comparator_only,
                 })
-                if pv is not None:
+                if pv is not None and not comparator_only:
                     prim_ps.append((pv, op, a.get("nonInferiorityType")))
 
         # ---- references

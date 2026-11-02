@@ -23,7 +23,7 @@ import tags as T
 
 ROOT = Path(__file__).resolve().parent.parent
 DATA, PROJECT = ROOT / "data", ROOT / "project"
-RULES_VERSION = "hypotheses_v0"
+RULES_VERSION = "hypotheses_v1"   # v1 (1 Nov 2026): "confirmed" needs two phase 3 trials, or one plus approval
 
 AIMS = {  # order = display order
     "prevent":           {"label": "Prevent or delay MS",          "verb": "prevent or delay MS"},
@@ -281,7 +281,7 @@ def verdict(ev):
 
 
 OUTCOME_LABEL = {"roadmap": "Roadmap", "testing": "Being tested", "pending": "Results pending",
-                 "promising": "Promising", "confirmed": "Confirmed", "mixed": "Mixed", "failed_early": "Failed early",
+                 "promising": "Promising", "supported_one": "Supported by one trial", "confirmed": "Confirmed", "mixed": "Mixed", "failed_early": "Failed early",
                  "disproven": "Disproven", "unclear": "No clear answer"}
 
 
@@ -304,6 +304,55 @@ def outcome(v, status, n_ongoing):
     if v.startswith("incomplete"):
         return "pending"
     return "unclear"
+
+
+# ---- "confirmed" needs replication or approval (rules v1, 1 Nov 2026)
+APPROVAL_TEXT = {"relapsing": r"relaps", "relapsing_and_progressive": r"relaps", "spms": r"secondary progressive",
+                 "ppms": r"primary progressive", "unspecified": r"multiple sclerosis",
+                 "early_cis_ris": r"clinically isolated|first (?:clinical )?(?:demyelinating )?event|single (?:clinical )?demyelinating",
+                 "nmosd": r"neuromyelitis|nmosd", "mogad": r"\bmog\b|myelin oligodendrocyte"}
+APPROVAL_AIMS = {"stop_inflammation", "slow_progression", "prevent", "reset"}
+SYMPTOM_TEXT = r"walk|spastic|bladder"
+
+
+def approved_uses():
+    """{drug name (lower case): [indication texts of current EU or US approvals]} for MS, NMOSD and MOGAD medicines."""
+    out = {}
+    tp, tr = DATA / "treatment_products.parquet", DATA / "treatments.parquet"
+    if not (tp.exists() and tr.exists()):
+        return out
+    names = pd.read_parquet(tr).set_index("treatment_id").name.str.lower().to_dict()
+    for r in pd.read_parquet(tp).itertuples():
+        if str(r.status).lower() not in ("authorised", "approved") or pd.notna(getattr(r, "withdrawal_date", None)):
+            continue
+        nm = names.get(r.treatment_id)
+        if nm and isinstance(r.indication, str) and r.indication.strip():
+            # drop "limitations of use" sentences: "not recommended for use in patients with clinically isolated
+            # syndrome" must not count as an approval for CIS
+            text = re.split(r"limitations of use", r.indication.lower())[0]
+            keep = [x for x in re.split(r"(?<=[.;])\s+", text) if not re.search(r"not (?:recommended|indicated)", x)]
+            out.setdefault(nm, []).append(" ".join(keep))
+    return out
+
+
+def confirm_level(dec, e, aim, pop, approach, uses, nodes_of):
+    """For a hypothesis whose verdict is 'supported': 'confirmed' when two or more counting phase 3 trials met their
+    goal, or one did and a medicine of this approach is approved (EU or US) for this use; otherwise 'supported_one'.
+    Comparator and background medicines in the trials never count as the approach's medicines."""
+    met3 = dec[dec.verdict_phase.isin(P3) & (dec.state == "met")]
+    if met3.msf_trial_id.nunique() >= 2:
+        return "confirmed", "Two or more controlled phase 3 trials met their main goal."
+    pat = APPROVAL_TEXT.get(pop)
+    group, _, one = approach.partition(".")
+    drugs = {d.lower() for x in e.drugs for d in x
+             if group in nodes_of.get(d.lower(), set()) and (not one or d.lower().replace(" ", "-") == one)}
+    for d in drugs:
+        for ind in uses.get(d, []):
+            ok_aim = aim in APPROVAL_AIMS or (aim == "restore_function" and re.search(SYMPTOM_TEXT, ind))
+            if pat and ok_aim and re.search(pat, ind):
+                return "confirmed", f"One controlled phase 3 trial met its main goal, and {d} is approved for this use."
+    return "supported_one", ("One controlled phase 3 trial met its main goal. Confirmed needs a second trial or "
+                             "regulatory approval for this use.")
 
 
 def main():
@@ -430,6 +479,11 @@ def main():
     # ---- one row per hypothesis
     leads = pd.read_parquet(DATA / "genetic_leads.parquet") if (DATA / "genetic_leads.parquet").exists() else None
     keys = set(ev.hypothesis_id) | set(projdf.hypothesis_id.dropna() if len(projdf) else [])
+    uses = approved_uses()
+    nodes_of = {}
+    if (DATA / "drugs.parquet").exists():
+        for r in pd.read_parquet(DATA / "drugs.parquet").itertuples():
+            nodes_of[str(r.drug_name).lower()] = {n for n in str(r.mechanism_nodes or "").split("|") if n}
     out = []
     for hid in sorted(keys):
         _, aim, a, pop = hid.split(":", 3)
@@ -446,18 +500,33 @@ def main():
         verb = "prevent attacks" if aim == "stop_inflammation" and pop in ("nmosd", "mogad") else AIMS[aim]["verb"]
         n_unread3 = int((e.eligible_for_verdict & e.verdict_phase.isin(P3) & e.state.isin(UNREAD)).sum()) if len(e) else 0
         note = None
+        oc = outcome(v, status, n_ongoing)
+        if oc == "confirmed":
+            oc, note = confirm_level(dec, e, aim, pop, a, uses, nodes_of)
+        # the trials that decide the status: counting trials at the highest phase with a known result
+        if len(e) and len(dec):
+            known = dec[dec.state.isin({"met", "not_met", "stopped_no_effect", "mixed"})]
+            top = P3 if known.verdict_phase.isin(P3).any() else P2
+            counting = known[known.verdict_phase.isin(top)]
+            deciding_phase = "phase3" if top is P3 else "phase2" if len(counting) else None
+        else:
+            counting, deciding_phase = e.iloc[0:0] if len(e) else e, None
         out.append({
             "hypothesis_id": hid, "verdict_note": note, "n_unread_phase3": n_unread3, "aim": aim, "aim_label": AIMS[aim]["label"], "approach": a,
             "approach_label": label, "approach_group": g, "approach_group_label": approach_label.get(g, g),
             "approach_family": approach_family.get(g), "population": pop, "population_label": POPULATIONS.get(pop, pop),
             "statement": f"{label}: {verb} in {POPULATIONS.get(pop, pop)}",
             "status": status, "verdict": v, "verdict_label": VERDICT_LABEL[v],
-            "outcome": outcome(v, status, n_ongoing), "outcome_label": OUTCOME_LABEL[outcome(v, status, n_ongoing)],
+            "outcome": oc, "outcome_label": OUTCOME_LABEL[oc],
             "n_trials": len(e), "n_ongoing": n_ongoing,
             "n_rct_phase2plus": len(dec), "n_participants_rct": int(pd.to_numeric(dec.enrollment, errors="coerce").fillna(0).sum()) if len(dec) else 0,
             "n_met": int(e.state.isin({"met"}).sum()) if len(e) else 0,
             "n_not_met": int(e.state.isin({"not_met", "stopped_no_effect"}).sum()) if len(e) else 0,
             "n_stopped_safety": int((e.state == "stopped_safety").sum()) if len(e) else 0,
+            "deciding_phase": deciding_phase,
+            "n_met_deciding": int(counting.state.isin({"met"}).sum()) if len(counting) else 0,
+            "n_not_met_deciding": int(counting.state.isin({"not_met", "stopped_no_effect"}).sum()) if len(counting) else 0,
+            "n_other_trials": int(len(e) - len(counting)) if len(e) else 0,
             "n_unread": int(e.state.isin({"result_in_paper_unread", "no_result_found"}).sum()) if len(e) else 0,
             "highest_phase": phases[0] if phases else None,
             "first_trial_year": int(e.start_year.min()) if len(e) and e.start_year.notna().any() else None,

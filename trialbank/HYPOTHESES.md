@@ -93,3 +93,23 @@ medicines that were never tried in MS, and 61 have no medicines yet.
   its paper.
 - Genetic associations are about getting MS, not about progression, and do not say which direction a drug should act.
 - Verdicts are machine-assigned and unreviewed. They are a map of the evidence, not medical advice.
+
+## Rules v1 (1 Nov 2026): "Confirmed" needs replication or approval
+
+- A hypothesis whose highest-phase verdict is "supported" is **Confirmed** only when two or more controlled phase 3
+  trials that count toward the verdict met their main goal, **or** one did and a medicine of the same approach is
+  approved in the EU or the US for that use. The approval is matched by rule from the approved indication text
+  (relapsing, secondary progressive, primary progressive, clinically isolated syndrome, NMOSD, MOGAD), and only for the
+  aims that approvals cover (prevent, stop inflammation, slow progression, reset, and symptom approvals for walking,
+  spasticity and bladder). Sentences under "limitations of use" or saying "not recommended" never count. Comparator
+  and background medicines never count as the approach's medicines.
+- Otherwise it is **Supported by one trial** (`supported_one`). Effect on the first build: masitinib in primary and
+  secondary progressive MS, daclizumab (withdrawn), cladribine in early MS (its US label says it is not recommended for
+  CIS), and botulinum toxin type A as a group moved from Confirmed. BTK inhibition in non-relapsing secondary
+  progressive MS stays Confirmed because tolebrutinib was authorised in the EU for that use in June 2026.
+- Registry analyses that only compare an active comparator arm with placebo no longer count as the tested medicine's
+  result (`parse_ctgov.py`). BRAVO posted laquinimod vs placebo (p = 0.0746) and interferon vs placebo (p = 0.0067), and
+  the second had made laquinimod's relapse hypothesis Confirmed. It is now Mixed (ALLEGRO met, BRAVO did not).
+- Pages show the trials that decide the status (`deciding_phase`, `n_met_deciding`, `n_not_met_deciding`) and count
+  every other linked trial separately (`n_other_trials`), so the counts shown always match the status.
+

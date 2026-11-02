@@ -24,7 +24,7 @@ MODE = (os.environ.get("NEWSLETTER_MODE") or "draft").strip().lower()
 DRY = "--dry-run" in sys.argv
 API = "https://api.buttondown.com/v1/emails"
 
-OUTCOME = {"roadmap": "Proposed", "testing": "Being tested", "pending": "Results pending", "promising": "Promising",
+OUTCOME = {"roadmap": "Proposed", "testing": "Being tested", "pending": "Results pending", "promising": "Promising", "supported_one": "Supported by one trial",
            "confirmed": "Confirmed", "mixed": "Mixed", "failed_early": "Failed early", "disproven": "Disproven",
            "unclear": "No clear answer"}
 READOUT = {"met": "met its main goal", "not_met": "did not meet its main goal", "mixed": "had mixed results"}

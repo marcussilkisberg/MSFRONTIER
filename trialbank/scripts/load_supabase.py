@@ -375,7 +375,11 @@ def load_hypotheses(cur, keep_ids, run_id):
                     ("project_studies", "project_studies")):
         if f(fn).exists():
             cur.execute(f"delete from bank.{tbl}")
-    load_child(cur, new, "hypotheses", dedupe=["hypothesis_id"], spec={
+    cur.execute("select column_name from information_schema.columns where table_schema='bank' and table_name='hypotheses'")
+    hyp_cols = {r[0] for r in cur.fetchall()}
+    extra = {k: v for k, v in {"deciding_phase": t, "n_met_deciding": i, "n_not_met_deciding": i,
+                               "n_other_trials": i}.items() if k in hyp_cols}   # 012
+    load_child(cur, new, "hypotheses", dedupe=["hypothesis_id"], spec={**extra,
         "hypothesis_id": t, "aim": t, "aim_label": t, "approach": t, "approach_label": t, "approach_group": t,
         "approach_group_label": t, "approach_family": t,
         "population": t, "population_label": t, "statement": t, "status": t, "verdict": t, "verdict_label": t,
