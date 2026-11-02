@@ -90,6 +90,11 @@ jobs:
         id: hypotheses
         run: cd scripts && python hypotheses_layer.py
 
+      - name: Trials to watch
+        id: highlights
+        continue-on-error: true
+        run: cd scripts && python highlights_layer.py
+
       - name: Results watch (finished trials without results)
         id: results_watch
         continue-on-error: true
@@ -132,6 +137,17 @@ jobs:
         run: |
           cd scripts
           python load_supabase.py ../data
+
+      # Organisations (companies and institutions working on MS). Runs once scripts/organisations.py from the
+      # organisations package is in the repository, and writes organisations.csv into data/ for the open data.
+      - name: Organisations
+        id: organisations
+        if: ${{ steps.load.outcome == 'success' }}
+        continue-on-error: true
+        env:
+          SUPABASE_DB_URL: ${{ secrets.SUPABASE_DB_URL }}
+        run: |
+          if [ -f scripts/organisations.py ]; then python scripts/organisations.py --out data; else echo "organisations.py not uploaded yet"; fi
 
       # Open data: CSVs, a data dictionary and one zip, published as a GitHub release with stable file names, so
       # https://github.com/<owner>/<repo>/releases/latest/download/msfrontier-data.zip is always the newest build.
