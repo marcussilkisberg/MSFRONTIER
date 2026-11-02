@@ -157,7 +157,8 @@ def main():
     for name, src in (("primary_analyses.csv", "trial_primary_analyses_ctgov"), ("hypotheses.csv", "hypotheses"),
                       ("hypothesis_evidence.csv", "hypothesis_evidence"), ("medicines.csv", "treatments"),
                       ("results_watch.csv", "results_watch"), ("trial_links.csv", "trial_links"),
-                      ("papers.csv", "papers"), ("paper_links.csv", "paper_links")):
+                      ("papers.csv", "papers"), ("paper_links.csv", "paper_links"),
+                      ("trials_to_watch.csv", "trial_highlights")):
         p = DATA / f"{src}.parquet"
         if p.exists():
             files[name] = pd.read_parquet(p)

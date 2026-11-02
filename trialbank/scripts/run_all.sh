@@ -20,6 +20,7 @@ python genetics_layer.py || echo "genetic leads skipped (Open Targets unreachabl
 python readouts_layer.py || echo "paper readouts skipped"   # reads papers only if ANTHROPIC_API_KEY is set
 python links_layer.py                  # extensions and sub-studies that name their parent trial
 python hypotheses_layer.py
+python highlights_layer.py || echo "trials to watch skipped"
 python results_watch_layer.py || echo "results watch skipped"               # hypothesis ledger, from everything above plus ../project/*.yml
 python literature_layer.py || echo "reviews and guidelines skipped"   # needs ANTHROPIC_API_KEY
 python export_layer.py                   # open data: ../exports/*.csv, README.md, msfrontier-data.zip

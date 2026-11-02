@@ -232,6 +232,7 @@ def main():
             load_texts(cur, set(ids))
             load_results_watch(cur, set(ids))
             load_literature(cur)
+            load_highlights(cur, set(ids))
 
             # ---- sync curation file into corrections (authored as 'curation_file')
             ov_path = ROOT / "curation" / "overrides.csv"
@@ -438,6 +439,18 @@ def load_results_watch(cur, keep_ids):
         "sponsor_class": t, "enrollment": i, "registry_ids": t, "end_date": d, "months_since_end": i,
         "results_found": b, "found_where": t, "found_link": t, "fully_checked": b, "checked_sources": t,
         "watch_status": t, "as_of": d})
+
+
+def load_highlights(cur, keep_ids):
+    """Trials to watch (014)."""
+    if not has_table(cur, "trial_highlights") or not (DATA / "trial_highlights.parquet").exists():
+        return
+    cur.execute("delete from bank.trial_highlights")
+    load_child(cur, DATA / "trial_highlights.parquet", "trial_highlights", keep_ids=keep_ids,
+               dedupe=["theme", "msf_trial_id"], spec={
+                   "theme": t, "theme_label": t, "rank": i, "msf_trial_id": t, "name": t, "phase": t, "enrollment": i,
+                   "population_group": t, "drugs": arr, "approach": t, "primary_completion_date": d,
+                   "new_for_group": b, "score": lambda v: None if missing(v) else float(v), "why": t, "as_of": d})
 
 
 def load_literature(cur):
