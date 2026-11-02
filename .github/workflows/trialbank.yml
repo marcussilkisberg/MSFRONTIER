@@ -25,7 +25,7 @@ concurrency:
 jobs:
   refresh:
     runs-on: ubuntu-latest
-    timeout-minutes: 240
+    timeout-minutes: 330
     defaults:
       run:
         working-directory: trialbank
@@ -109,6 +109,16 @@ jobs:
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
         run: cd scripts && python literature_layer.py
+
+      # Lab evidence: animal and human cell studies from Europe PMC, tagged by a model. Optional, like the reviews.
+      # Tagging stops after PRE_MAX_MINUTES and continues on the next run, so the first weeks fill it in stages.
+      - name: Lab evidence (needs ANTHROPIC_API_KEY)
+        id: preclinical
+        continue-on-error: true
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          PRE_MAX_MINUTES: "75"
+        run: cd scripts && python preclinical_layer.py
 
       # Saving the readouts must never stop the load: if it fails, the next run simply re-reads those papers.
       # --autostash: the build rewrites tracked data files, so the tree is never clean when someone has pushed
