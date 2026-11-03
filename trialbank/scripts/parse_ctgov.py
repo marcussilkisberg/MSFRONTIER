@@ -3,6 +3,9 @@ import json
 import re
 from datetime import date
 
+ANCILLARY = re.compile(r"(?i)\b(contrast|gadolinium|gado(butrol|teridol|terate|pentetate|benate|xetate)|tracer|radioligand|"
+                       r"\[1[18]f?\]|\[c-11\]|cholestyramine|activated charcoal|charcoal, activated|rescue medication)\b")
+
 import tags as T
 
 AGE_RX = re.compile(r"([\d.]+)\s*(year|month|week|day)", re.I)
@@ -78,10 +81,39 @@ def parse(path):
         mesh_interv = [m["term"] for m in s.get("derivedSection", {}).get("interventionBrowseModule", {}).get("meshes", [])]
         trial_iv = []
         arm_type = {a.get("label"): (a.get("type") or "") for a in arms.get("armGroups", [])}
-        for iv in arms.get("interventions", []):
-            types = {arm_type.get(l, "") for l in iv.get("armGroupLabels", [])} - {""}
+        iv_types = [({arm_type.get(l, "") for l in iv.get("armGroupLabels", [])} - {""}) for iv in arms.get("interventions", [])]
+        # an intervention given only in experimental arms: the thing being tested
+        has_test_only = any(t and t <= {"EXPERIMENTAL", "OTHER"} and not T.is_placebo(iv.get("name"))
+                            for iv, t in zip(arms.get("interventions", []), iv_types))
+        test_only = {i for i, (iv, t) in enumerate(zip(arms.get("interventions", []), iv_types))
+                     if t and t <= {"EXPERIMENTAL", "OTHER"} and not T.is_placebo(iv.get("name"))}
+        arm_ivs = {}
+        for i, iv in enumerate(arms.get("interventions", [])):
+            for l in iv.get("armGroupLabels", []):
+                arm_ivs.setdefault(l, set()).add(i)
+
+        stem = lambda n: (re.sub(r"\(.*?\)|[^a-z ]", " ", (n or "").lower()).split() or [""])[0]
+        test_stems = {stem(arms.get("interventions", [])[i].get("name")) for i in test_only}
+
+        def added_to(i, iv):
+            if stem(iv.get("name")) in test_stems:
+                return False   # the same medicine is also given on its own (PreCISe: glatiramer double-blind, then open-label)
+            # every experimental arm that gives it also gives a medicine found only in experimental arms: it is the
+            # base the test medicine is added to. In a delayed-start design (placebo, then the same medicine) the
+            # experimental arm gives the medicine alone, so it stays the tested medicine.
+            exp_arms = [l for l in iv.get("armGroupLabels", []) if arm_type.get(l) == "EXPERIMENTAL"]
+            return bool(exp_arms) and all(arm_ivs.get(l, set()) & (test_only - {i}) for l in exp_arms)
+        CONTROL = {"PLACEBO_COMPARATOR", "SHAM_COMPARATOR", "ACTIVE_COMPARATOR", "NO_INTERVENTION"}
+        for ix, (iv, types) in enumerate(zip(arms.get("interventions", []), iv_types)):
             if T.is_placebo(iv.get("name")) or (types and types <= {"PLACEBO_COMPARATOR", "SHAM_COMPARATOR"}):
                 role = "placebo_or_sham"
+            elif has_test_only and ANCILLARY.search(iv.get("name") or ""):
+                # contrast agents, tracers and rescue medicines given for the study's measurements or safety
+                role = "ancillary"
+            elif has_test_only and "EXPERIMENTAL" in types and types & CONTROL and added_to(ix, iv):
+                # given in the experimental arms and in the control arm too: background therapy (Mintaka: RO7268489
+                # added to ocrelizumab, against placebo added to ocrelizumab). It is not what the trial tests.
+                role = "background"
             elif types and types <= {"ACTIVE_COMPARATOR", "PLACEBO_COMPARATOR", "SHAM_COMPARATOR", "NO_INTERVENTION"} \
                     and "EXPERIMENTAL" in set(arm_type.values()):
                 # only a comparator if the trial has a separate experimental arm; registrants often

@@ -276,23 +276,42 @@ def main():
         iv_rows.append(row)
     ivdf = pd.DataFrame(iv_rows)
 
+    # ---- a medicine one registry records as background therapy (given in the control arm too) is background in
+    # every registry record of that trial (CTIS calls ocrelizumab a "test" product in Mintaka, ClinicalTrials.gov
+    # shows it in the placebo arm as well)
+    bgr = ivdf[ivdf.role == "background"]
+    bg = {(t, d): reg for t, d, reg in zip(bgr.msf_trial_id, bgr.drug_name, bgr.registry) if isinstance(d, str)}
+    if bg:
+        # only into the other registries' records: within one record the parser has already decided
+        hit = ivdf.apply(lambda r: r.role == "experimental" and (r.msf_trial_id, r.drug_name) in bg
+                         and bg[(r.msf_trial_id, r.drug_name)] != r.registry, axis=1)
+        ivdf.loc[hit, "role"] = "background"
+
     # ---- trial-level rollups
     comp_drugs = ivdf[ivdf.role == "active_comparator"].groupby("msf_trial_id").drug_name \
         .agg(lambda x: "|".join(sorted(set(x.dropna())))).to_dict()
     by_uid = ivdf[ivdf.role == "experimental"].groupby("msf_trial_id")
+    # trials of stem cell transplantation, which registries often record only through the conditioning medicines
+    # (RAM-MS lists cyclophosphamide and ATG): the transplant is what is tested
+    hsct_rx = re.compile(r"(?i)(haemato|hemato)poietic stem cell|\bahsct\b|\bhsct\b|stem cell transplant")
+    hsct_uids = {m["msf_trial_id"] for m in scope
+                 if hsct_rx.search(" ".join(str(m.get(k) or "") for k in ("title", "official_title", "acronym")))}
     roll = {}
     for uid, g in by_uid:
         # conditioning before CAR-T or stem cell transplant (fludarabine, cyclophosphamide, ATG ...) is part of the
         # cell therapy, not a separate broad immunosuppression approach
         cell = g.mechanism_nodes.fillna("").str.contains("cell_therapy_tolerance|immune_reconstitution").any() and \
-            g.drug_name.fillna("").str.contains(CELL_THERAPY_RX).any()
-        gn = g[~g.drug_name.fillna("").str.contains(CONDITIONING_RX)] if cell else g
+            (g.drug_name.fillna("") + " " + g.name_raw.fillna("")).str.contains(CELL_THERAPY_RX).any()
+        hsct = uid in hsct_uids and g.drug_name.fillna("").str.contains(CONDITIONING_RX).any()
+        gn = g[~g.drug_name.fillna("").str.contains(CONDITIONING_RX)] if (cell or hsct) else g
         roll[uid] = {
             "comparator_drugs": comp_drugs.get(uid, ""),
             "drugs": "|".join(sorted(set(g.drug_name.dropna()))),
             "chembl_ids": "|".join(sorted(set(g.chembl_id.dropna()))),
-            "mechanism_nodes": "|".join(sorted({n for x in gn.mechanism_nodes if x for n in x.split("|")})),
-            "mechanism_families": "|".join(sorted({n for x in gn.mechanism_families if x for n in x.split("|")})),
+            "mechanism_nodes": "|".join(sorted({n for x in gn.mechanism_nodes if x for n in x.split("|")}
+                                              | ({"immune_reconstitution"} if hsct else set()))),
+            "mechanism_families": "|".join(sorted({n for x in gn.mechanism_families if x for n in x.split("|")}
+                                                 | ({"immunomodulation"} if hsct else set()))),
             "nondrug_categories": "|".join(sorted(set(g.nondrug_category.dropna()))),
             "n_unmatched_drug_names": int((g.normalisation == "unmatched").sum()),
         }

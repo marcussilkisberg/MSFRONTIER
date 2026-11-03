@@ -130,3 +130,16 @@ medicines that were never tried in MS, and 61 have no medicines yet.
   reconstitution in relapsing MS showed as "Being tested" because one extension study had no readable result.
 - A single trial that met its goal is still held back by an unread trial at the same phase, because that trial could
   turn the result into "Mixed".
+
+## Intervention roles (3 November 2026)
+
+- A medicine given in the experimental arms and in the control arm too, added to the medicine being tested, is
+  **background** therapy and is not credited with the trial's result (Mintaka: RO7268489 added to ocrelizumab
+  against placebo added to ocrelizumab; TERACLES: teriflunomide added to interferon beta). If the same medicine is
+  also given on its own in an experimental arm (a delayed-start design such as PreCISe), it stays the tested
+  medicine. A medicine marked background in one registry record is background in the trial's other records too.
+- Contrast agents, tracers and washout medicines given for the study's measurements are **ancillary** and are not
+  credited either.
+- Outcome labels: "Failed early" is now "Failed in phase 2" and "Disproven" is now "Failed in phase 3". The rule is
+  unchanged: all counting trials at that phase for this approach, aim and group of people failed. One failure at
+  phase 3 does not rule out the mechanism in other groups or with other medicines.
