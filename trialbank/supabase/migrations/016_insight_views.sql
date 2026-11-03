@@ -22,13 +22,12 @@ create table if not exists bank.map_stage_nodes (
 
 insert into bank.map_stages (stage_id, ord, label, short_label, question, frontier, cross_cutting) values
   ('trigger',    1, 'Triggers and risk factors', 'Triggers', 'What sets MS off, and can it be prevented or delayed?', 'what-starts-ms', false),
-  ('immune',     2, 'Immune attack outside the brain', 'Immune attack', 'Which immune cells drive relapses, and how well can they be stopped?', 'stopping-inflammation', false),
+  ('immune',     2, 'Immune attack outside the brain', 'Immune attack', 'Which immune cells drive relapses, and can they be stopped or reset?', 'stopping-inflammation', false),
   ('entry',      3, 'Entry into the brain and spinal cord', 'Entry', 'Can immune cells be kept out of the brain?', 'stopping-inflammation', false),
   ('smouldering',4, 'Smouldering inflammation inside the brain', 'Smouldering', 'What keeps inflammation going behind the blood-brain barrier?', 'why-ms-progresses', false),
   ('damage',     5, 'Damage to nerve fibres', 'Nerve damage', 'Why do nerve fibres die, and can they be protected?', 'why-ms-progresses', false),
   ('repair',     6, 'Repair of myelin', 'Repair', 'Can lost myelin be rebuilt?', 'repair-and-protection', false),
-  ('living',     7, 'Living with MS', 'Daily life', 'Which treatments improve symptoms and everyday function?', 'symptoms-and-function', false),
-  ('reset',      8, 'Resetting the immune system', 'Reset', 'Can the immune system be rebuilt so the disease stops?', 'resetting-the-immune-system', true)
+  ('living',     7, 'Living with MS', 'Daily life', 'Which treatments improve symptoms and everyday function?', 'symptoms-and-function', false)
 on conflict (stage_id) do update set ord = excluded.ord, label = excluded.label, short_label = excluded.short_label,
   question = excluded.question, frontier = excluded.frontier, cross_cutting = excluded.cross_cutting;
 
@@ -47,7 +46,7 @@ insert into bank.map_stage_nodes (stage_id, node_id) values
   ('living', 'walking_k_channel'), ('living', 'spasticity'), ('living', 'fatigue_wakefulness'), ('living', 'bladder'),
   ('living', 'pain_mood_cognition'), ('living', 'nd-exercise_rehabilitation'), ('living', 'nd-cognitive_psychological'),
   ('living', 'nd-neuromodulation_device'), ('living', 'nd-device_other'), ('living', 'nd-digital_health'),
-  ('reset', 'immune_reconstitution'), ('reset', 'cell_therapy_tolerance'), ('reset', 'nd-cell_or_transplant');
+  ('immune', 'immune_reconstitution'), ('immune', 'cell_therapy_tolerance'), ('immune', 'nd-cell_or_transplant');
 
 -- helper: MS trials with their approach tags, running flag and phase
 create or replace view bank.v_ms_trials as
@@ -209,15 +208,15 @@ insert into bank.open_questions (question_id, ord, stage_id, question, why_it_ma
   'Most disability builds up without relapses, and it is unclear how much current medicines prevent it.',
   'Trials and long follow-up analyses that measure worsening independent of relapses as a main outcome.',
   '{slow_progression}', '{anti_cd20_b_cell,other_b_cell_plasma_cell}', '{}', null),
- ('ahsct', 10, 'reset', 'Is stem cell transplantation better than the most effective medicines?',
+ ('ahsct', 10, 'immune', 'Is stem cell transplantation better than the most effective medicines?',
   'Transplantation can stop inflammatory MS for years after one treatment, but it carries serious risks.',
   'Randomised trials comparing transplantation with high-efficacy medicines, with disability over several years.',
   '{}', '{immune_reconstitution,nd-cell_or_transplant}', '{}', 'stem cell|hsct|transplant'),
- ('car-t', 11, 'reset', 'Can CAR-T cell therapy stop MS without continuous treatment?',
+ ('car-t', 11, 'immune', 'Can CAR-T cell therapy stop MS without continuous treatment?',
   'CAR-T cells can remove B cells deep in tissues, and in other autoimmune diseases have led to long remissions.',
   'Trials showing lasting absence of disease activity after one treatment, with an acceptable safety record.',
   '{}', '{cell_therapy_tolerance}', '{}', 'car[- ]?t|chimeric antigen|autoleucel|zapreleucel'),
- ('tolerance', 12, 'reset', 'Can the immune system be retrained to tolerate myelin?',
+ ('tolerance', 12, 'immune', 'Can the immune system be retrained to tolerate myelin?',
   'A treatment that switches off only the attack on myelin would leave the rest of the immune system working.',
   'Controlled trials of antigen-specific treatments that reduce new lesions or relapses.',
   '{}', '{cell_therapy_tolerance}', '{}', 'toleri|tolerogenic|peptide|antigen-specific|dendritic|plovamer|myelin'),
