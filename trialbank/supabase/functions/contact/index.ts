@@ -1,8 +1,8 @@
 // Supabase Edge Function "contact": receives the site's forms, checks the spam test, stores the message in
 // bank.inbox and emails it to Marcus through Resend. Replying to the email replies to the sender.
 //
-// Secrets to set in Supabase (Edge Functions → Secrets): RESEND_API_KEY, ALERT_EMAIL, TURNSTILE_SECRET,
-// and optionally ALERT_FROM (e.g. "MSFrontier forms <forms@msfrontier.org>") and ALLOWED_ORIGINS
+// Secrets to set in Supabase (Edge Functions → Secrets): RESEND_API_KEY and ALERT_EMAIL, and optionally
+// TURNSTILE_SECRET (spam test, skipped while unset), ALERT_FROM (e.g. "MSFrontier forms <forms@msfrontier.org>") and ALLOWED_ORIGINS
 // (comma-separated, e.g. "https://msfrontier.org,https://www.msfrontier.org,https://screenshot-to-pixel-perfect-519.lovable.app").
 // SUPABASE_URL and SUPABASE_SERVICE_ROLE_KEY are provided by Supabase automatically.
 // In the function's settings, turn OFF "Enforce JWT verification": the site calls it with the publishable key and the
@@ -50,13 +50,16 @@ Deno.serve(async (req) => {
   // Honeypot: a hidden field people never fill in. Pretend success so bots learn nothing.
   if (clip(b.website, 200)) return new Response(JSON.stringify({ ok: true }), { headers });
 
-  // Cloudflare Turnstile spam test
-  const token = clip(b.turnstile_token, 4000);
-  const v = await fetch("https://challenges.cloudflare.com/turnstile/v0/siteverify", {
-    method: "POST",
-    body: new URLSearchParams({ secret: env("TURNSTILE_SECRET"), response: token }),
-  }).then((r) => r.json()).catch(() => ({ success: false }));
-  if (!v.success) return new Response(JSON.stringify({ ok: false, error: "spam_check" }), { status: 400, headers });
+  // Cloudflare Turnstile spam test. Skipped while TURNSTILE_SECRET is not set, so the form works before Turnstile is
+  // configured (the honeypot above still catches simple bots).
+  if (env("TURNSTILE_SECRET")) {
+    const token = clip(b.turnstile_token, 4000);
+    const v = await fetch("https://challenges.cloudflare.com/turnstile/v0/siteverify", {
+      method: "POST",
+      body: new URLSearchParams({ secret: env("TURNSTILE_SECRET"), response: token }),
+    }).then((r) => r.json()).catch(() => ({ success: false }));
+    if (!v.success) return new Response(JSON.stringify({ ok: false, error: "spam_check" }), { status: 400, headers });
+  }
 
   const kind = KINDS[clip(b.kind, 40)] ? clip(b.kind, 40) : "other";
   const row = {

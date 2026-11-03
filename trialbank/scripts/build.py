@@ -10,6 +10,12 @@ from pathlib import Path
 
 import pandas as pd
 
+CELL_THERAPY_RX = (r"(?i)autoleucel|zapreleucel|car-?t|chimeric antigen|stem cell|haematopoietic|hematopoietic|ahsct|"
+                   r"tabelecleucel|cell therapy")
+CONDITIONING_RX = (r"(?i)^(?:fludarabine|cyclophosphamide|busulfan|carmustine|etoposide|cytarabine|melphalan|thiotepa|"
+                   r"treosulfan|mesna|anti-?thymocyte|antithymocyte|thymoglobulin|filgrastim|lenograstim|"
+                   r"cyclophosphamide anhydrous|tocilizumab)\b")
+
 import chembl as C
 import mechanisms as M
 import parse_ctgov
@@ -276,12 +282,17 @@ def main():
     by_uid = ivdf[ivdf.role == "experimental"].groupby("msf_trial_id")
     roll = {}
     for uid, g in by_uid:
+        # conditioning before CAR-T or stem cell transplant (fludarabine, cyclophosphamide, ATG ...) is part of the
+        # cell therapy, not a separate broad immunosuppression approach
+        cell = g.mechanism_nodes.fillna("").str.contains("cell_therapy_tolerance|immune_reconstitution").any() and \
+            g.drug_name.fillna("").str.contains(CELL_THERAPY_RX).any()
+        gn = g[~g.drug_name.fillna("").str.contains(CONDITIONING_RX)] if cell else g
         roll[uid] = {
             "comparator_drugs": comp_drugs.get(uid, ""),
             "drugs": "|".join(sorted(set(g.drug_name.dropna()))),
             "chembl_ids": "|".join(sorted(set(g.chembl_id.dropna()))),
-            "mechanism_nodes": "|".join(sorted({n for x in g.mechanism_nodes if x for n in x.split("|")})),
-            "mechanism_families": "|".join(sorted({n for x in g.mechanism_families if x for n in x.split("|")})),
+            "mechanism_nodes": "|".join(sorted({n for x in gn.mechanism_nodes if x for n in x.split("|")})),
+            "mechanism_families": "|".join(sorted({n for x in gn.mechanism_families if x for n in x.split("|")})),
             "nondrug_categories": "|".join(sorted(set(g.nondrug_category.dropna()))),
             "n_unmatched_drug_names": int((g.normalisation == "unmatched").sum()),
         }

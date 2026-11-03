@@ -121,3 +121,12 @@ medicines that were never tried in MS, and 61 have no medicines yet.
   in any status. Only trials in people set a status.
 - Lab studies link to every population of a hypothesis's approach and aim, because animals have no type of MS. A
   hypothesis about one named medicine is linked only to lab studies of that medicine.
+
+## Rules v1.1 (2 Nov 2026): unread extensions no longer hold back a clear result
+
+- At the deciding phase, two or more trials that met their main goal, with none that failed and none mixed, give a
+  verdict even when other trials at that phase are still unread. Those unread trials are mostly open-label
+  extensions and sub-studies. Before this change, B-cell depletion, S1P modulators, fumarates and immune
+  reconstitution in relapsing MS showed as "Being tested" because one extension study had no readable result.
+- A single trial that met its goal is still held back by an unread trial at the same phase, because that trial could
+  turn the result into "Mixed".

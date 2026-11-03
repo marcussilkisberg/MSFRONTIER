@@ -23,7 +23,7 @@ import tags as T
 
 ROOT = Path(__file__).resolve().parent.parent
 DATA, PROJECT = ROOT / "data", ROOT / "project"
-RULES_VERSION = "hypotheses_v1"   # v1 (1 Nov 2026): "confirmed" needs two phase 3 trials, or one plus approval
+RULES_VERSION = "hypotheses_v1_1"   # v1 (1 Nov 2026): "confirmed" needs two phase 3 trials, or one plus approval
 
 AIMS = {  # order = display order
     "prevent":           {"label": "Prevent or delay MS",          "verb": "prevent or delay MS"},
@@ -272,7 +272,9 @@ def verdict(ev):
         m, nm, mx, u = n(phases, {"met"}), n(phases, {"not_met", "stopped_no_effect"}), n(phases, {"mixed"}), unread(phases)
         if not (m or nm or mx or u):
             continue
-        if u:
+        if u and not (m >= 2 and not nm and not mx):
+            # rules v1.1: two or more met with none against are not held back by unread trials at the same phase
+            # (mostly extensions and sub-studies). One unread trial can still turn a single success into "mixed".
             return inc
         if (m and nm) or mx:
             return mix

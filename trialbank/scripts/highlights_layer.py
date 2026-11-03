@@ -18,6 +18,7 @@ Every highlight carries a sentence built from the same facts, so readers can see
 Outputs ../data/trial_highlights.parquet. Usage: python highlights_layer.py
 """
 import math
+import re
 from datetime import date
 from pathlib import Path
 
@@ -52,6 +53,24 @@ def split(v):
 def phase_of(p):
     p = "|".join(split(p))
     return "phase3" if "phase3" in p else "phase2" if "phase2" in p else None
+
+
+AIM_PHRASE = {"progressive": "slows disability worsening", "repair": "protects nerves or repairs myelin",
+              "remission": "can stop the disease for years without continuous treatment"}
+
+
+def short_name(acronym, drugs, phase_label):
+    """The trial's acronym when it reads as a name, else "<medicine>, <phase>". A code such as ZB020-03-002 or
+    CFTY720D2311 (digits, or no vowels, or longer than 20 characters) is not a name."""
+    a = "" if acronym is None or (isinstance(acronym, float) and math.isnan(acronym)) else str(acronym).strip()
+    a = re.sub(r"\s*\(.*?\)\s*$", "", a)            # "OCTOPUS (PLATYPUS in Australia)" -> "OCTOPUS"
+    a = re.sub(r"[_ ]v\d+(\.\d+)*$", "", a, flags=re.I)
+    code = (not a or a.upper() == "ND" or len(a) < 3 or len(a) > 20 or len(re.findall(r"\d", a)) >= 3
+            or not re.search(r"[aeiouyAEIOUY]", a))
+    if not code:
+        return a
+    d = re.split(r",| and ", drugs or "")[0].strip()
+    return f"{d[:1].upper()}{d[1:]}, {phase_label}" if d else f"Trial, {phase_label}"
 
 
 def main():
@@ -111,20 +130,18 @@ def main():
         main = next((g for g in groups if g in REMISSION_NODES | REPAIR_NODES), groups[0] if groups else None)
         approach = labels.get(main, (main or "").replace("nd-", "").replace("_", " ")) if main else (
             "CAR-T cell therapy" if car_t else "a new approach")
-        drugs = ", ".join(tested[:3])
-        bits = [f"{'Phase 3' if r.ph == 'phase3' else 'Phase 2'}", f"{int(r.n):,} participants"]
-        if drugs:
-            bits.append(f"tests {drugs}")
-        bits.append(f"in {POP_LABEL.get(pop, 'MS')}")
-        why = " · ".join(bits) + "."
-        if new_for_group:
-            why += f" Not yet confirmed for this group: {approach}."
-        if months is not None and months >= 0:
-            why += f" Main results due {due:%B %Y}."
+        drugs = " and ".join(tested[:2]) if len(tested) <= 2 else ", ".join(tested[:2]) + " and others"
+        plain = re.sub(r"\s*\(.*\)$", "", approach or "").strip()
+        what = drugs or (plain[:1].lower() + plain[1:] if plain and not plain[:2].isupper() else plain)
+        kind = ""
+        phase_label = "phase 3" if r.ph == "phase3" else "phase 2"
+        name = short_name(r.acronym, drugs or approach, phase_label)
         for th in themes:
+            why = f"Tests whether {what}{kind} {AIM_PHRASE[th]} in {POP_LABEL.get(pop, 'MS')}."
+            if new_for_group:
+                why += " No medicine of this kind is yet confirmed for this group."
             rows.append({"theme": th, "theme_label": THEMES[th], "msf_trial_id": r.msf_trial_id,
-                         "name": r.acronym if isinstance(r.acronym, str) and len(r.acronym) >= 3 and r.acronym.upper() != "ND"
-                         else r.title, "phase": r.ph,
+                         "name": name, "phase": r.ph,
                          "enrollment": int(r.n), "population_group": pop, "drugs": "|".join(split(r.drugs)),
                          "approach": approach, "primary_completion_date": due.date() if pd.notna(due) else None,
                          "new_for_group": new_for_group, "score": round(score, 3), "why": why,
@@ -133,6 +150,10 @@ def main():
     if len(df):
         df = df.sort_values(["theme", "score"], ascending=[True, False]).groupby("theme").head(8)
         df["rank"] = df.groupby("theme").cumcount() + 1
+        # two trials of the same medicine and phase: add the group of people to tell them apart
+        dup = df.duplicated(["theme", "name"], keep=False)
+        df.loc[dup, "name"] = df.loc[dup].apply(lambda r: f"{r['name']}, {POP_LABEL.get(r['population_group'], 'MS')}",
+                                                axis=1)
     df.to_parquet(DATA / "trial_highlights.parquet", index=False)
     print(f"highlights: {len(df)} trials to watch ({df.theme.value_counts().to_dict() if len(df) else {}})")
 
