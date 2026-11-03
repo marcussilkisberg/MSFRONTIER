@@ -220,7 +220,7 @@ def harvest():
 def chembl_get(path, params):
     for k in range(3):
         try:
-            r = requests.get(f"{CHEMBL}/{path}.json", params=params, timeout=60)
+            r = requests.get(f"{CHEMBL}/{path}.json", params=params, timeout=20)
             if r.status_code == 200:
                 return r.json()
         except requests.RequestException:
@@ -248,19 +248,29 @@ def chembl_lookup(name):
     return None
 
 
+def base_name(n):
+    """'cannabidiol (CBD)' -> 'cannabidiol', 'Ketogenic Diet (KD)' -> 'ketogenic diet'."""
+    n = re.sub(r"\s+", " ", re.sub(r"\s*\([^)]*\)\s*", " ", str(n))).strip().lower()
+    for g, w in (("β", "beta"), ("α", "alpha"), ("γ", "gamma"), ("κ", "kappa")):
+        n = n.replace(g, w)
+    return re.sub(r"^ifn[- ]?(beta|alpha|gamma)", r"interferon \1", n)
+
+
 def resolve_names(names, deadline):
     cache = json.loads(CHEMBL_CACHE.read_text()) if CHEMBL_CACHE.exists() else {}
-    todo = sorted({n.lower() for n in names} - set(cache))
+    todo = sorted(({n.lower() for n in names} | {base_name(n) for n in names}) - set(cache) - {""})
     print(f"preclinical: {len(todo)} new intervention names to look up in ChEMBL")
 
     def one(n):
+        if time.time() > deadline:   # time budget: names not looked up now are tried next run
+            return n, "error"
         try:
             return n, chembl_lookup(n)
         except Exception:
             return n, "error"
 
     with ThreadPoolExecutor(6) as ex:
-        for n, m in ex.map(one, [n for n in todo if time.time() < deadline]):
+        for n, m in ex.map(one, todo):
             if m != "error":
                 cache[n] = m
     CHEMBL_CACHE.write_text(json.dumps(cache, ensure_ascii=False))
@@ -333,7 +343,7 @@ def main():
     kept = {k: c for k, c in cache.items() if k in papers and c.get("version") == VERSION and c.get("relevant")}
     names = {n for c in kept.values() if c["intervention_type"] not in ("genetic_change", "device_physical")
              for n in c["interventions"]}
-    chembl = resolve_names(names, time.time() + 20 * 60)
+    chembl = resolve_names(names, time.time() + 10 * 60)
     rx, bank_names = lit.drug_matcher()
     bank_chembl = set(pd.read_parquet(DATA / "drugs.parquet").chembl_id) if (DATA / "drugs.parquet").exists() else set()
     bank_by_chembl = {v[0]: v[1] for v in bank_names.values()}
@@ -409,6 +419,13 @@ def main():
     df = pd.DataFrame(rows)
     ln = pd.DataFrame(links, columns=["pmid", "target_type", "target_id", "rule"]).drop_duplicates()
 
+    # interventions as registered in the trials (covers diets and medicines ChEMBL does not name the same way)
+    registered_text = ""
+    if (DATA / "trials.parquet").exists():
+        tt = pd.read_parquet(DATA / "trials.parquet", columns=["interventions_raw"])
+        registered_text = " | ".join(str(v).lower() for v in tt.interventions_raw.dropna())
+    registered_rx = lambda nm: re.compile(rf"(?<![a-z0-9]){re.escape(nm)}(?![a-z0-9])")
+
     # one row per intervention (medicines, antibodies, cells, diets): the "ideas" tested in the lab
     ideas = defaultdict(lambda: {"pmids": set(), "benefit": 0, "no_benefit": 0, "mixed": 0, "harm": 0,
                                  "systems": set(), "groups": set(), "aims": set(), "genes": set(), "years": [],
@@ -417,11 +434,11 @@ def main():
     for r in df[df.study_type == "intervention"].itertuples() if len(df) else []:
         c = kept[r.pmid]
         for n in c["interventions"]:
-            m = chembl.get(n.lower())
-            key = m["chembl_id"] if m else re.sub(r"\s+", " ", n.lower()).strip()
+            m = chembl.get(n.lower()) or chembl.get(base_name(n))
+            key = m["chembl_id"] if m else base_name(n)
             x = ideas[key]
             x["pmids"].add(r.pmid)
-            x["names"].add(m["pref_name"] if m else n)
+            x["names"].add(m["pref_name"] if m else base_name(n))
             x["chembl_id"] = m["chembl_id"] if m else None
             x["type"] = x["type"] or r.intervention_type
             x["mechanism"] = x["mechanism"] or r.mechanism
@@ -435,6 +452,10 @@ def main():
             x["years"].append(r.pub_year)
             if m and m["chembl_id"] in bank_chembl:
                 x["trial_drugs"].add(bank_by_chembl.get(m["chembl_id"], m["pref_name"]))
+            elif base_name(n) in bank_names:
+                x["trial_drugs"].add(bank_names[base_name(n)][1])
+            elif len(base_name(n)) >= 6 and registered_rx(base_name(n)).search(registered_text):
+                x["trial_drugs"].add(base_name(n))   # named as an intervention in a registered trial (diets, devices)
     # what trials in people found for the same medicine: hypotheses whose approach group is one of the medicine's
     # own mechanism groups (so a background or comparator medicine in the same trials is never credited)
     drug_nodes = {}
