@@ -118,6 +118,7 @@ jobs:
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
           PRE_MAX_MINUTES: "75"
+          PRE_WORKERS: "8"
         run: cd scripts && python preclinical_layer.py
 
       # Saving the readouts must never stop the load: if it fails, the next run simply re-reads those papers.
