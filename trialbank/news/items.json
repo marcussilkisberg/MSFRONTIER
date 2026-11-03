@@ -343,6 +343,22 @@
   "summary_model": "claude-sonnet-5-5",
   "title": "Is resistance training effective to increase BDNF in multiple sclerosis? An updated systematic review and meta-analysis of isolated interventions."
  },
+ "6d62f11c1c4c4292": {
+  "about_ms": true,
+  "category": "research",
+  "collected_at": "2026-11-03T12:59:15.211122+00:00",
+  "description": "Treatment with rituximab, an anti-CD20 therapy that is used off label for multiple sclerosis (MS), may be associated with a significantly higher risk of developing inflammatory bowel disease (IBD), particularly Crohn’s disease, a large study in Sweden found. After accounting for patient differences, researchers found the risk was about 10 times higher with rituximab than […] The post Study ties MS therapy to higher risk of inflammatory bowel disease appeared first on Multiple Sclerosis News Today .",
+  "id": "6d62f11c1c4c4292",
+  "is_published": true,
+  "link": "https://multiplesclerosisnewstoday.com/news-posts/2026/11/02/study-ties-ms-therapy-higher-risk-inflammatory-bowel-disease/",
+  "published_at": "2026-11-02T13:00:34+00:00",
+  "relevance": 4,
+  "source": "MS News Today",
+  "source_type": "news",
+  "summary": "A large Swedish study found rituximab, an anti-CD20 therapy used off label for MS, may be associated with a significantly higher risk of inflammatory bowel disease, particularly Crohn's disease. After accounting for patient differences, the risk was about 10 times higher than with comparison treatment.",
+  "summary_model": "claude-sonnet-5-5",
+  "title": "Study ties MS therapy to higher risk of inflammatory bowel disease"
+ },
  "6fa63a312c602c36": {
   "about_ms": true,
   "category": "research",
