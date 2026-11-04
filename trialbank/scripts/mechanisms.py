@@ -40,7 +40,7 @@ NODES = [
     ("broad_immunosuppression", "immunomodulation", "Broad immunosuppression / cytotoxics",
      r"cyclophosphamide|mitoxantrone|pixantrone|azathioprine|hydroxychloroquine|methotrexate|mycophenol|cyclosporin|ciclosporin|tacrolimus|dna topoisomerase"),
     ("cell_therapy_tolerance", "immunomodulation", "Cell therapies and tolerisation",
-     r"car-?t|chimeric antigen|mesenchymal|stromal cell|\btreg|regulatory t cell|tolerogenic|autoleucel|star-t|t[- ]cell therapy|dirucotide|plovamer|myelin basic protein|antigen-specific|atx-ms|nanoparticle.*myelin|ebv-specific|tabelecleucel|atai?188"),
+     r"car-?t|chimeric antigen|mesenchymal|stromal cell|\btreg|regulatory t cell|tolerogenic|autoleucel|star-t|t[- ]cell therapy|dirucotide|plovamer|myelin basic protein|antigen-specific|atx-ms|nanoparticle.*myelin|ebv-specific|tabelecleucel|atai?188|foralumab|teplizumab|otelixizumab|anti-?cd3\b|\bcd3\b"),
     ("antiviral_ebv", "immunomodulation", "Antiviral / EBV-targeting",
      r"epstein|\bebv\b|famciclovir|acyclovir|aciclovir|valacyclovir|tenofovir|raltegravir|antiretroviral|temelimab|herv|ganciclovir"),
     # ---- progression biology

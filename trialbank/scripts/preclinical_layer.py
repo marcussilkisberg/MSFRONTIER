@@ -254,11 +254,14 @@ LAB_SYNONYMS = {"ivig": ["immunoglobulin", "ivig"], "msc": ["mesenchymal"], "msc
                 "vitamin d": ["vitamin d", "cholecalciferol"], "vitamin d3": ["vitamin d", "cholecalciferol"],
                 "calcitriol": ["calcitriol", "vitamin d"], "ursodiol": ["ursodeoxycholic", "ursodiol", "tudca"],
                 "nadide": ["nicotinamide", "nad+"], "nad +": ["nicotinamide", "nad+"], "nad+": ["nicotinamide", "nad+"],
-                "hscs": ["stem cell transplant", "hsct"], "tregs": ["regulatory t cell", "treg"]}
+                "hscs": ["stem cell transplant", "hsct"], "tregs": ["regulatory t cell", "treg"],
+                "lingo-1 antibody": ["opicinumab", "lingo"], "anti-lingo-1": ["opicinumab", "lingo"],
+                "anti-lingo-1 antibody": ["opicinumab", "lingo"], "lingo-1": ["opicinumab"]}
 LAB_DISPLAY = {"ivig": "Intravenous immunoglobulin (IVIG)", "msc": "Mesenchymal stem cells",
                "mscs": "Mesenchymal stem cells", "bm-mscs": "Mesenchymal stem cells from bone marrow",
                "bm-msc": "Mesenchymal stem cells from bone marrow", "vitd": "Vitamin D", "nad +": "NAD+",
-               "nad+": "NAD+", "nadide": "NAD+ (nadide)", "tregs": "Regulatory T cells"}
+               "nad+": "NAD+", "nadide": "NAD+ (nadide)", "tregs": "Regulatory T cells",
+               "lingo-1 antibody": "Anti-LINGO-1 antibody", "anti-lingo-1": "Anti-LINGO-1 antibody"}
 
 
 def display_name(n):
@@ -480,7 +483,10 @@ def main():
             elif len(base_name(n)) >= 6 and registered_rx(base_name(n)).search(registered_text):
                 x["trial_drugs"].add(base_name(n))   # named as an intervention in a registered trial (diets, devices)
             else:
-                for syn in LAB_SYNONYMS.get(base_name(n), []):
+                syns = list(LAB_SYNONYMS.get(base_name(n), []))
+                if "mesenchymal" in base_name(n) and "exos" not in base_name(n) and "vesicle" not in base_name(n):
+                    syns.append("mesenchymal")   # any form of mesenchymal stem or stromal cells, not their exosomes
+                for syn in syns:
                     if registered_rx(syn).search(registered_text):
                         x["trial_drugs"].add(syn)   # a synonym is registered (IVIG as immunoglobulin, MSCs as mesenchymal)
                         break

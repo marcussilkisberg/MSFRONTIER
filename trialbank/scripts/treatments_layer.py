@@ -206,6 +206,16 @@ def main(fetch=True):
         subs[k]["names"].add(g)
         subs[k]["fda_label"] = info
 
+    # medicines used for MS without an MS approval anywhere (off label), so that they are not missing from the
+    # Medicines page: added with the status "used off label" and no products
+    OFF_LABEL = {"rituximab": "Not approved for MS anywhere. Used off label for MS, most widely in Sweden and Norway, "
+                              "on the basis of trials such as HERMES, RIFUND-MS and OVERLORD-MS."}
+    for g, note in OFF_LABEL.items():
+        k, mol = key_for(g)
+        s_ = subs.setdefault(k, {"mol": mol, "names": set(), "ema": [], "fda_label": None})
+        s_["names"].add(g)
+        s_["off_label_note"] = note
+
     dhpc = read_ema(EMA_FILES[1])
     refs = read_ema(EMA_FILES[2])
     drugs_bank = pd.read_parquet(OUT / "drugs.parquet").set_index("chembl_id") if (OUT / "drugs.parquet").exists() else pd.DataFrame()
@@ -302,7 +312,8 @@ def main(fetch=True):
             "category": category, "diseases": "|".join(diseases),
             "mechanism_of_action": moa or None, "targets": targets or None,
             "mechanism_nodes": "|".join(sorted(node_ids)) or None, "mechanism_families": "|".join(sorted(fams)) or None,
-            "eu_status": "authorised" if auth else (str(s["ema"][0]["Medicine status"]).lower() if s["ema"] else "not centrally authorised"),
+            "eu_status": "authorised" if auth else (str(s["ema"][0]["Medicine status"]).lower() if s["ema"] else
+                         ("used off label" if s.get("off_label_note") else "not centrally authorised")),
             "eu_first_authorisation": eu_first,
             "eu_brands": "|".join(sorted({str(r["Name of medicine"]) for r in orig})) or None,
             "eu_generics_or_biosimilars": len(auth) - len(orig),
@@ -320,7 +331,7 @@ def main(fetch=True):
             "n_phase3_trials": int(bank.n_phase3) if bank is not None else 0,
             "availability_note": "Centrally authorised medicines are authorised in all EU/EEA countries, including "
                                  "Sweden, Denmark, Finland, Norway and Iceland; reimbursement is decided nationally."
-                                 if auth else None,
+                                 if auth else s.get("off_label_note"),
             "assembled_by": "machine", "sources": "EMA medicines report; Drugs@FDA/openFDA; ChEMBL",
         })
         time.sleep(0.3)

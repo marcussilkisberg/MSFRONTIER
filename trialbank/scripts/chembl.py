@@ -15,6 +15,7 @@ CACHE = Path(__file__).resolve().parent.parent / "raw" / "chembl_cache.json"
 _lock = threading.Lock()
 _session = requests.Session()
 
+CODE = re.compile(r"\b[a-z]{2,6}-?\d{2,}[a-z]?\b", re.I)   # company codes such as TZLS-401 or BIIB091
 DOSE = re.compile(r"\b\d+(\.\d+)?\s*(mg|µg|ug|mcg|g|ml|iu|units?|%|mg/kg|mg/m2|mmol|kg)\b(/\w+)?", re.I)
 NOISE = re.compile(
     r"\b(tablets?|capsules?|oral|injections?|infusions?|intravenous(ly)?|iv|sc|subcutaneous(ly)?|intramuscular(ly)?|im|"
@@ -74,6 +75,10 @@ def clean_name(raw):
             p = re.sub(r"\s+", " ", p).strip(" -").lower()
             if len(p) >= 3 and not re.fullmatch(r"[\d\s\-]+", p) and p not in out:
                 out.append(p)
+            # a medicine name followed by a company code ("Foralumab TZLS-401"): also try the name alone
+            nocode = re.sub(r"\s+", " ", CODE.sub(" ", p)).strip(" -")
+            if len(nocode) >= 4 and nocode != p and nocode not in out:
+                out.append(nocode)
     # EU registries give substances with their salt or hydrate ("INDAPAMIDE HEMIHYDRATE"): also try the bare name
     for p in list(out):
         bare = SALT.sub(" ", p)

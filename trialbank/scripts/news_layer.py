@@ -43,7 +43,24 @@ FEEDS = [
     ("EMA", "https://www.ema.europa.eu/en/news.xml", "regulator", "ms"),
     ("FDA", "https://www.fda.gov/about-fda/contact-fda/stay-informed/rss-feeds/press-releases/rss.xml",
      "regulator", "ms"),
+    # added 4 Nov 2026: a second page of MS News Today (it lists only the latest 8), the international MS federation,
+    # preprints, biotech news and press-release wires, where sponsors first announce trial results
+    ("MS News Today", "https://multiplesclerosisnewstoday.com/feed/?paged=2", "news", "all"),
+    ("MSIF", "https://www.msif.org/feed/", "patient_org", "ms"),
+    ("medRxiv", "https://connect.medrxiv.org/medrxiv_xml.php?subject=Neurology", "research_news", "ms"),
+    ("Endpoints News", "https://endpts.com/feed/", "news", "ms"),
+    ("PR Newswire", "https://www.prnewswire.com/rss/health-latest-news/health-latest-news-list.rss", "press_release", "ms"),
+    ("Business Wire", "https://feed.businesswire.com/rss/home/?rss=G1QFDERJXkJeEFtRWA==", "press_release", "ms"),
 ]
+GNEWS = "https://news.google.com/rss/search"
+# publishers in search results that only repost press releases or market chatter
+SKIP_SOURCES = {"tradingview", "stock titan", "yahoo finance", "marketscreener", "seeking alpha", "benzinga",
+                "investing.com", "the manila times", "marketbeat", "simply wall st", "zacks", "nasdaq", "morningstar",
+                "the globe and mail", "financial content", "streetinsider", "tipranks", "investorsobserver"}
+# standing searches for news the feeds above miss: trial results and regulatory decisions in MS
+STANDING_QUERIES = ['"multiple sclerosis" ("phase 3" OR "phase III" OR "phase 2" OR "phase II") results',
+                    '"multiple sclerosis" (FDA OR EMA OR CHMP OR MHRA) (approval OR approves OR recommends OR rejects)',
+                    '(NMOSD OR MOGAD OR "neuromyelitis optica") trial']
 JOURNALS = ["lancet neurol", "lancet", "n engl j med", "jama neurol", "jama", "brain", "ann neurol", "neurology",
             "mult scler", "nat med", "neurol neuroimmunol neuroinflamm", "j neurol neurosurg psychiatry", "bmj",
             "nat rev neurol", "mult scler relat disord"]
@@ -130,6 +147,59 @@ def collect_feeds():
     return out
 
 
+def watched_medicines(limit=80):
+    """Medicines tested in the experimental arms of running phase 2 and 3 MS trials in the bank, so that news about
+    any of them (company announcements included) is searched for every day. Needs SUPABASE_DB_URL."""
+    url = os.environ.get("SUPABASE_DB_URL")
+    if not url:
+        return []
+    try:
+        import psycopg
+        with psycopg.connect(url) as conn, conn.cursor() as cur:
+            cur.execute("""select i.drug_name, count(distinct i.msf_trial_id) as n
+                           from bank.trial_interventions i join bank.v_ms_trials t using (msf_trial_id)
+                           where t.running and t.top_phase in ('phase2', 'phase3') and i.role = 'experimental'
+                             and i.drug_name is not null and length(i.drug_name) >= 5
+                           group by 1 order by n desc, 1 limit %s""", (limit,))
+            return [r[0] for r in cur.fetchall()]
+    except Exception as e:   # the news must still run if the database is unreachable
+        print("watched medicines unavailable:", type(e).__name__)
+        return []
+
+
+def collect_searches():
+    """Google News searches: the standing queries, and the medicines under test in groups of eight."""
+    meds = watched_medicines()
+    queries = list(STANDING_QUERIES)
+    for i in range(0, len(meds), 8):
+        names = " OR ".join(f'"{m}"' for m in meds[i:i + 8])
+        queries.append(f'({names}) ("multiple sclerosis" OR NMOSD OR MOGAD)')
+    out = []
+    for q in queries:
+        r = get(GNEWS, params={"q": q + " when:7d", "hl": "en-GB", "gl": "GB", "ceid": "GB:en"})
+        time.sleep(2)
+        if r is None:
+            continue
+        try:
+            root = ET.fromstring(r.content)
+        except ET.ParseError:
+            continue
+        for it in root.findall(".//item"):
+            title = strip(it.findtext("title"), 300)
+            link = (it.findtext("link") or "").strip()
+            src = strip(it.findtext("source"), 80) or "News search"
+            title = re.sub(rf"\s+-\s+{re.escape(src)}$", "", title) if src else title
+            desc = strip(it.findtext("description"))
+            if src.lower() in SKIP_SOURCES:
+                continue
+            if not title or not link or not MS_RX.search(f"{title} {desc} {q}"):
+                continue
+            out.append({"id": h(title.lower()), "source": src, "source_type": "news_search", "title": title,
+                        "link": link, "published_at": when(it.findtext("pubDate")), "description": desc})
+    print(f"searches: {len(queries)} queries, {len(out)} items kept ({len(meds)} medicines watched)")
+    return out
+
+
 def collect_papers(days=14):
     """New MS papers of the kinds that change practice: randomised trials, meta-analyses, systematic reviews and
     guidelines in major journals."""
@@ -194,10 +264,13 @@ def summarise(item):
 def main():
     STORE.parent.mkdir(exist_ok=True)
     store = json.loads(STORE.read_text()) if STORE.exists() else {}
-    fresh = collect_feeds() + collect_papers()
+    fresh = collect_feeds() + collect_searches() + collect_papers()
+    seen_titles = {re.sub(r"\W+", " ", (v.get("title") or "").lower()).strip() for v in store.values()}
     for it in fresh:
-        if it["id"] not in store:
+        key = re.sub(r"\W+", " ", it["title"].lower()).strip()
+        if it["id"] not in store and key not in seen_titles:   # the same story from a feed and a search counts once
             store[it["id"]] = {**it, "collected_at": datetime.now(timezone.utc).isoformat()}
+            seen_titles.add(key)
 
     have_key = bool(os.environ.get("ANTHROPIC_API_KEY"))
     n = 0

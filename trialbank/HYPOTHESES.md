@@ -143,3 +143,11 @@ medicines that were never tried in MS, and 61 have no medicines yet.
 - Outcome labels: "Failed early" is now "Failed in phase 2" and "Disproven" is now "Failed in phase 3". The rule is
   unchanged: all counting trials at that phase for this approach, aim and group of people failed. One failure at
   phase 3 does not rule out the mechanism in other groups or with other medicines.
+
+
+## Conference reports and company announcements (4 November 2026)
+
+Results presented at conferences or announced by sponsors are collected (conference_layer.py, announcements_layer.py)
+and shown on trial pages as "Reported so far", marked provisional. They never change a hypothesis status. A status
+changes only when a result is read from a registry entry or a peer-reviewed paper, as before. When the paper arrives,
+the trial readout replaces the provisional report.

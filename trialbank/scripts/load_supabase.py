@@ -234,6 +234,7 @@ def main():
             load_literature(cur)
             load_highlights(cur, set(ids))
             load_preclinical(cur)
+            load_reports(cur, set(ids))
 
             # ---- sync curation file into corrections (authored as 'curation_file')
             ov_path = ROOT / "curation" / "overrides.csv"
@@ -504,6 +505,26 @@ def load_preclinical(cur):
         load_child(cur, DATA / "preclinical_targets.parquet", "preclinical_targets", dedupe=["symbol"], spec={
             "symbol": t, "n_papers": i, "n_benefit": i, "n_genetic_studies": i, "trial_drugs": arr,
             "in_human_trials": b, "human_genetics": t, "pmids": arr})
+
+
+def load_reports(cur, keep_ids):
+    """Conference reports and company announcements (022): provisional results, replaced on every run."""
+    if has_table(cur, "conference_reports") and (DATA / "conference_reports.parquet").exists():
+        df = pd.read_parquet(DATA / "conference_reports.parquet")
+        if len(df):
+            cur.execute("delete from bank.conference_reports")
+            load_child(cur, df, "conference_reports", keep_ids=keep_ids, dedupe=["report_id"], spec={
+                "report_id": t, "meeting": t, "year": i, "abstract_number": t, "msf_trial_id": t, "title": t,
+                "authors": t, "results_text": t, "conclusion_text": t, "kind": t, "match_rule": t, "url": t,
+                "harvested_version": t})
+    if has_table(cur, "trial_announcements") and (DATA / "trial_announcements.parquet").exists():
+        df = pd.read_parquet(DATA / "trial_announcements.parquet")
+        if len(df):
+            cur.execute("delete from bank.trial_announcements")
+            load_child(cur, df, "trial_announcements", keep_ids=keep_ids, dedupe=["announcement_id"], spec={
+                "announcement_id": t, "msf_trial_id": t, "source": t, "source_type": t, "title": t, "url": t,
+                "published_at": d, "result": t, "measure": t, "summary": t, "peer_reviewed": b, "match_rule": t,
+                "read_by": t, "provisional": b})
 
 
 def load_texts(cur, keep_ids):
