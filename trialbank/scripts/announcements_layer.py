@@ -25,11 +25,12 @@ import pandas as pd
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 import literature_layer as lit  # noqa: E402
+from conference_layer import MEETING_MONTH  # noqa: E402
 
 ROOT = Path(__file__).resolve().parent.parent
 RAW, DATA, NEWS = ROOT / "raw", ROOT / "data", ROOT / "news" / "items.json"
 CACHE = RAW / "announcements_cache.json"
-VERSION = "ann_v1"
+VERSION = "ann_v2"
 MODEL = os.environ.get("ANN_MODEL", "claude-sonnet-5-5")
 MAX_NEW = int(os.environ.get("ANN_MAX", "60"))
 RESULT_RX = re.compile(r"\b(results?|topline|top-line|met|missed|did not meet|primary endpoint|efficacy|positive|"
@@ -54,6 +55,30 @@ Reply with JSON only:
   "summary": "...",                 // one or two plain sentences, at most 40 words, only facts in the text,
                                     // no hype words, numbers only if they appear in the text
   "peer_reviewed": true/false}}     // is this a journal publication (true) or a press release, abstract or news (false)?"""
+
+
+def read_one(prompt):
+    """One reading by Claude, as a dict, or None when the API call failed. A comment after a value ("// ...")
+    is stripped before parsing, but not the "//" of a web address."""
+    for model in (MODEL, lit.MODEL):
+        try:
+            text = lit.call(prompt, model=model)
+        except Exception as e:   # one bad reading must not stop the run
+            print("reading failed:", type(e).__name__, str(e)[:160])
+            if "404" in str(e) or "not_found" in str(e):
+                continue   # the requested model does not exist for this key: try the default one
+            return None
+        text = re.sub(r"^```(?:json)?|```$", "", text.strip(), flags=re.M)
+        m = re.search(r"\{.*\}", re.sub(r"(?<![:\w])//[^\n]*", "", text), re.S)
+        if not m:
+            print("reading failed: no JSON in reply:", text[:120].replace("\n", " "))
+            return None
+        try:
+            return json.loads(m.group(0))
+        except json.JSONDecodeError as e:
+            print("reading failed: bad JSON:", str(e)[:80])
+            return None
+    return None
 
 
 def numbers_ok(summary, source):
@@ -116,15 +141,16 @@ def main():
     tmap = {r.msf_trial_id: r for r in trials.itertuples()}
     for c in conf.itertuples():
         if c.kind in ("trial_result", "late_breaking") and c.msf_trial_id in tmap and c.results_text:
+            month = MEETING_MONTH.get(str(c.meeting).upper(), 6)
             cands.append(({"id": c.report_id, "source": f"{c.meeting} {c.year}", "title": c.title, "link": c.url,
-                           "published_at": f"{c.year}-01-01", "description": f"{c.results_text} {c.conclusion_text}",
+                           "published_at": f"{c.year}-{month:02d}-01", "description": f"{c.results_text} {c.conclusion_text}",
                            "source_type": "conference"}, tmap[c.msf_trial_id], c.match_rule))
 
     have_key = bool(os.environ.get("ANTHROPIC_API_KEY"))
-    n_new, rows = 0, []
+    n_new, n_failed, rows = 0, 0, []
     for it, r, how in cands:
         key = f"{it['id']}:{r.msf_trial_id}"
-        if key not in cache:
+        if key not in cache or cache[key].get("version") != VERSION:
             if not have_key or n_new >= MAX_NEW:
                 continue
             ds = list(r.drugs) if r.drugs is not None and not isinstance(r.drugs, str) else str(r.drugs or "").split("|")
@@ -133,19 +159,24 @@ def main():
                                    population=str(r.population_group).replace("_", " "), source=it.get("source"),
                                    date=str(it.get("published_at") or "")[:10], title=it["title"],
                                    text=(it.get("description") or "(none)")[:5000])
-            try:
-                text = lit.call(prompt, model=MODEL)
-                m = re.search(r"\{.*\}", re.sub(r"//[^\n]*", "", text), re.S)
-                j = json.loads(m.group(0)) if m else {}
-            except Exception as e:   # one bad reading must not stop the run
-                print("reading failed:", type(e).__name__, str(e)[:100])
-                j = {}
+            j = read_one(prompt)
             n_new += 1
+            if j is None:   # the API failed: leave the item uncached so the next run tries again
+                n_failed += 1
+                if n_failed >= 5:
+                    print("announcements: five readings failed in a row, stopping new readings this run")
+                    have_key = False
+                continue
+            n_failed = 0
             src_text = f"{it['title']} {it.get('description') or ''}"
-            ok = bool(j.get("about_this_trial")) and j.get("result") in ("met", "not_met", "mixed", "safety") \
-                and numbers_ok(j.get("summary") or "", src_text)
-            cache[key] = {"ok": ok, "result": j.get("result"), "measure": j.get("measure"), "summary": j.get("summary"),
-                          "peer_reviewed": bool(j.get("peer_reviewed")), "version": VERSION}
+            about, result = bool(j.get("about_this_trial")), j.get("result")
+            nums = numbers_ok(j.get("summary") or "", src_text)
+            ok = about and result in ("met", "not_met", "mixed", "safety") and nums
+            why = "ok" if ok else ("not about this trial" if not about else f"result {result}" if result not in (
+                "met", "not_met", "mixed", "safety") else "a number in the summary is not in the source")
+            print(f"  {r.acronym or r.msf_trial_id} <- {it.get('source')}: {str(it['title'])[:60]!r}: {why}")
+            cache[key] = {"ok": ok, "result": result, "measure": j.get("measure"), "summary": j.get("summary"),
+                          "peer_reviewed": bool(j.get("peer_reviewed")), "why": why, "version": VERSION}
             CACHE.write_text(json.dumps(cache))
         c = cache[key]
         if not c.get("ok"):

@@ -166,8 +166,22 @@ def merge_group(group):
 
 # ------------------------------------------------------------------ derived tags
 def infer_status(t):
-    if t["status"]:
-        return t["status"], False
+    """The registry status, except that a trial still marked as running long after it should have finished is
+    'unknown' (as ClinicalTrials.gov itself marks records nobody updates). EU register records in particular are
+    often never closed: without this rule 2009 trials count as running today."""
+    st = t["status"]
+    if st in ONGOING and st != "suspended":
+        end = t.get("primary_completion_date") or t.get("completion_date")
+        start = t.get("start_date") or ""
+        updated = t.get("last_update") or ""
+        recently_updated = updated >= (TODAY - timedelta(days=365)).isoformat()
+        if not recently_updated:
+            if end and end < (TODAY - timedelta(days=730)).isoformat():
+                return "unknown", True
+            if not end and start and start < (TODAY - timedelta(days=6 * 365)).isoformat():
+                return "unknown", True
+    if st:
+        return st, False
     end = t.get("completion_date")
     if end:
         return ("completed_inferred" if end < TODAY.isoformat() else "ongoing_inferred"), True

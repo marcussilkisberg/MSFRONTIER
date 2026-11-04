@@ -32,7 +32,10 @@ import literature_layer as lit  # noqa: E402
 ROOT = Path(__file__).resolve().parent.parent
 RAW, DATA = ROOT / "raw", ROOT / "data"
 CACHE = RAW / "conference_cache.json"
-VERSION = "conf_v1"
+VERSION = "conf_v2"
+PARSE_VERSION = 2   # bump when parse_page changes: cached MS abstracts are then fetched again
+# the month each meeting is held, for the date shown on the trial page
+MEETING_MONTH = {"AAN": 4, "ACTRIMS": 2, "ECTRIMS": 9, "MSMILAN": 10, "MSTORONTO": 10}
 UA = {"User-Agent": "Mozilla/5.0 (compatible; MSFrontierBot/0.1; open MS research data; https://msfrontier.org)"}
 MEETINGS = os.environ.get("CONF_MEETINGS", "AAN2026").split(",")
 MAX_ID = int(os.environ.get("CONF_MAX_ID", "6500"))
@@ -70,25 +73,41 @@ def fetch_abstract(meeting, n):
     text = strip(r.text)
     if not MS_RX.search(text):
         return {"n": n, "ms": False}
-    # the page is: "<year> American Academy of Neurology Abstract Website <title> <authors> <affiliations> Objective: ..."
-    body = re.sub(r"^.*?Abstract Website\s*", "", text, count=1, flags=re.S)
-    m = re.search(r"\b(Objective|Background|Introduction|Purpose)\s*:", body)
-    head, abstract = (body[:m.start()], body[m.start():]) if m else (body[:300], body)
-    # the title ends where the author list starts (a name followed by an affiliation number)
-    t = re.split(r"\s(?=[A-Z][a-z]+(?:\s[A-Z]\.?)*\s[A-Z][A-Za-z'\-]+\s\d+\s?,)", head, maxsplit=1)
-    title = t[0].strip()
-    authors = t[1].strip()[:400] if len(t) > 1 else ""
+    return parse_page(n, r.text, url)
+
+
+def parse_page(n, page, url):
+    """Title, authors and the abstract text from one AAN page. The page has three blocks: SubmissionTitle,
+    SubmissionAffiliation (authors with affiliation numbers) and SubmissionBody (Objective, Background, ...)."""
+    text = strip(page)
+    tm = re.search(r'class="SubmissionTitle"[^>]*>(.*?)</div>', page, flags=re.S)
+    am = re.search(r'class="SubmissionAffiliation">(.*?)<BR>', page, flags=re.S | re.I)
+    bm = re.search(r'class="SubmissionBody">(.*)', page, flags=re.S)
+    if tm:
+        title = strip(tm.group(1))
+        authors = re.sub(r"\s+", " ", re.sub(r"\s*\d+\s*(,|$)", r"\1", strip(am.group(1)))).strip(" ,") if am else ""
+        abstract = strip(bm.group(1)) if bm else text
+    else:   # fall back to the flat text: "<year> ... Abstract Website <title> <authors> <affiliations> Objective: ..."
+        body = re.sub(r"^.*?Abstract Website\s*", "", text, count=1, flags=re.S)
+        m = re.search(r"\b(Objective|Background|Introduction|Purpose)\s*:", body)
+        head, abstract = (body[:m.start()], body[m.start():]) if m else (body[:300], body)
+        t = re.split(r"\s(?=[A-Z][a-z]+(?:\s[A-Z]\.?)*\s[A-Z][A-Za-z'\-]+\s\d+\s?,)", head, maxsplit=1)
+        title, authors = t[0].strip(), (t[1].strip() if len(t) > 1 else "")
+    # the body ends with a DOI and the journal's disclaimer, which are not part of the abstract
+    abstract = re.sub(r"\s*10\.\d{4,}/\S+\s*(Disclaimer:.*)?$", "", abstract, flags=re.S).strip()
+    abstract = re.sub(r"\s*Disclaimer: Abstracts were not reviewed.*$", "", abstract, flags=re.S).strip()
     res = re.search(r"\bResults?\s*:\s*(.*?)(?=\bConclusions?\s*:|$)", abstract, flags=re.S)
     con = re.search(r"\bConclusions?\s*:\s*(.*)$", abstract, flags=re.S)
-    return {"n": n, "ms": True, "title": title[:400], "authors": authors, "abstract": abstract[:6000],
-            "results": (res.group(1).strip() if res else "")[:2500],
+    return {"n": n, "ms": True, "pv": PARSE_VERSION, "title": title[:400], "authors": authors[:400],
+            "abstract": abstract[:6000], "results": (res.group(1).strip() if res else "")[:2500],
             "conclusion": (con.group(1).strip() if con else "")[:1200], "url": url}
 
 
 def sweep(meeting, cache):
     key = meeting
     done = cache.setdefault(key, {})
-    todo = [n for n in range(1, MAX_ID + 1) if str(n) not in done]
+    todo = [n for n in range(1, MAX_ID + 1)
+            if str(n) not in done or (done[str(n)].get("ms") and done[str(n)].get("pv") != PARSE_VERSION)]
     # stop after a long run of missing numbers past the last existing one
     print(f"{meeting}: {len(done)} cached, {len(todo)} to fetch")
     missing_run, last_seen = 0, max((int(k) for k, v in done.items() if not v.get("missing")), default=0)
