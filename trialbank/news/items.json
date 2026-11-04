@@ -159,6 +159,16 @@
   "summary_model": "claude-sonnet-5-5",
   "title": "Gut microbiome modulation by Veillonella ratti induces resistance to EAE pathogenesis via microbe-derived metabolites"
  },
+ "2ca830c80274b4d8": {
+  "collected_at": "2026-11-04T13:15:27.628656+00:00",
+  "description": "The experimental oral therapy remibrutinib significantly reduced relapse rates and brain lesion activity more than the approved therapy Aubagio (teriflunomide) in two Phase 3 clinical trials of people with relapsing forms of multiple sclerosis (MS). The trials, REMODEL-1 (NCT05147220) and REMODEL-2 (NCT05156281), compared remibrutinib with Aubagio in about 2,000 adults with MS, ages 18 to […] The post Experimental MS therapy outperforms approved treatment in two trials appeared first on Multiple Sclerosis News Today .",
+  "id": "2ca830c80274b4d8",
+  "link": "https://multiplesclerosisnewstoday.com/news-posts/2026/11/03/experimental-ms-therapy-outperforms-approved-treatment-trials/",
+  "published_at": "2026-11-03T13:00:17+00:00",
+  "source": "MS News Today",
+  "source_type": "news",
+  "title": "Experimental MS therapy outperforms approved treatment in two trials"
+ },
  "367415a3d504aa97": {
   "about_ms": true,
   "category": "research",
@@ -302,6 +312,16 @@
   "summary": "A Nature paper titled 'Beam-F3 error analysis and validation of Neurally-F3 equations using realistic head models'. No abstract or text was provided, and the title does not mention MS or related demyelinating disease, so no further details can be stated.",
   "summary_model": "claude-sonnet-5-5",
   "title": "Beam-F3 error analysis and validation of Neurally-F3 equations using realistic head models"
+ },
+ "68c5d9e8a4719912": {
+  "collected_at": "2026-11-04T13:15:27.628650+00:00",
+  "description": "A lower dose of the experimental therapy foralumab significantly reduced a marker of brain inflammation in people with nonactive secondary progressive multiple sclerosis (SPMS), according to top-line results from a Phase 2 clinical trial. The 12-week study, called INFORM-MS (NCT06292923), met both its main goals. Both doses of foralumab were safe and well tolerated, while […] The post Experimental MS therapy reduces brain inflammation in Phase 2 trial appeared first on Multiple Sclerosis News Today .",
+  "id": "68c5d9e8a4719912",
+  "link": "https://multiplesclerosisnewstoday.com/news-posts/2026/11/03/nasal-ms-treatment-lowers-brain-inflammation-phase-2-trial/",
+  "published_at": "2026-11-03T13:00:33+00:00",
+  "source": "MS News Today",
+  "source_type": "news",
+  "title": "Experimental MS therapy reduces brain inflammation in Phase 2 trial"
  },
  "6bbb117cf85b66ae": {
   "about_ms": true,
