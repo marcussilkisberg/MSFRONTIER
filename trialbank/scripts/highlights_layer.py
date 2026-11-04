@@ -36,7 +36,7 @@ REPAIR_NODES = {"remyelination", "axonal_neuroprotection", "mitochondrial_oxidat
 REMISSION_NODES = {"immune_reconstitution", "cell_therapy_tolerance", "antiviral_ebv", "nd-cell_or_transplant"}
 IGNORE_NODES = {"imaging_tracer", "corticosteroid", "spasticity", "bladder", "pain_mood_cognition",
                 "fatigue_wakefulness", "walking_k_channel"}   # premedication, contrast agents and symptom care
-THEMES = {"progressive": "Progressive MS", "repair": "Repair and protection", "remission": "Towards lasting remission"}
+THEMES = {"progressive": "Progressive MS", "repair": "Protecting and repairing", "remission": "Towards a cure"}
 POP_LABEL = {"progressive": "progressive MS", "relapsing_and_progressive": "relapsing and progressive MS",
              "relapsing": "relapsing MS", "early_cis_ris": "early MS (CIS or RIS)", "unspecified": "MS",
              "nmosd": "NMOSD", "mogad": "MOGAD"}
@@ -130,6 +130,10 @@ def main():
         main = next((g for g in groups if g in REMISSION_NODES | REPAIR_NODES), groups[0] if groups else None)
         approach = labels.get(main, (main or "").replace("nd-", "").replace("_", " ")) if main else (
             "CAR-T cell therapy" if car_t else "a new approach")
+        hsct = re.search(r"(?i)(haemato|hemato)poietic stem cell|\bahsct\b|\bhsct\b|stem cell transplant",
+                         f"{r.title} {r.official_title} {r.acronym}")
+        if hsct:
+            tested, approach = [], "stem cell transplantation"   # the conditioning medicines are not what is tested
         drugs = " and ".join(tested[:2]) if len(tested) <= 2 else ", ".join(tested[:2]) + " and others"
         plain = re.sub(r"\s*\(.*\)$", "", approach or "").strip()
         what = drugs or (plain[:1].lower() + plain[1:] if plain and not plain[:2].isupper() else plain)

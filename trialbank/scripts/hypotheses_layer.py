@@ -27,12 +27,12 @@ RULES_VERSION = "hypotheses_v1_1"   # v1 (1 Nov 2026): "confirmed" needs two pha
 
 AIMS = {  # order = display order
     "prevent":           {"label": "Prevent or delay MS",          "verb": "prevent or delay MS"},
-    "stop_inflammation": {"label": "Stop inflammation",            "verb": "reduce relapses and new lesions"},
+    "stop_inflammation": {"label": "Stop relapses",                "verb": "reduce relapses and new lesions"},
     "slow_progression":  {"label": "Slow progression",             "verb": "slow disability worsening"},
     "protect_nerves":    {"label": "Protect nerves",               "verb": "protect nerve tissue"},
     "repair":            {"label": "Repair myelin",                "verb": "repair myelin"},
-    "restore_function":  {"label": "Restore function",             "verb": "improve symptoms or function"},
-    "reset":             {"label": "Reset the immune system",      "verb": "reset the immune system for lasting remission"},
+    "restore_function":  {"label": "Ease symptoms",                "verb": "improve symptoms or function"},
+    "reset":             {"label": "Lasting remission",            "verb": "reset the immune system for lasting remission"},
 }
 EFFICACY = {"relapse", "mri_lesions", "disability_progression", "walking_mobility", "upper_limb", "cognition",
             "brain_atrophy", "fluid_biomarker", "retina_oct", "remyelination", "neurophysiology",
