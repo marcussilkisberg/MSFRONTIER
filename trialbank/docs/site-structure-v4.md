@@ -1,4 +1,4 @@
-# MSFrontier site structure v4 (4 November 2026)
+# MSFrontier site structure v4.1 (4 November 2026)
 
 Supersedes site-structure-v3 and the structure parts of v10-1 and v11-1 to v11-3.
 
@@ -37,23 +37,24 @@ record in Data links back up to its place in Research ("Where this fits").
 The site was organised three ways at once: eight research areas, seven or eight map stages and thirty open questions,
 with each area page also showing stage tabs. From now on the **research areas are the only spine**.
 
-Five areas follow the course of the disease:
+The areas are **goals of treatment**, in the order of the disease (v4.1, migration 020). Each hypothesis, trial,
+review and lab study belongs to an area through its aim:
 
-1. What starts MS
-2. Stopping inflammation
-3. Why MS progresses
-4. Repair and protection
-5. Symptoms and everyday function
+1. Preventing MS (aim: prevent or delay)
+2. Stopping relapses (stop inflammation)
+3. Slowing progression (slow progression)
+4. Protecting and repairing (protect nerves, repair myelin)
+5. Easing symptoms (restore function)
 
-Next to them:
-- **Towards a cure** is one goal that runs across the course.
-- **Measuring MS** and **Related diseases: NMOSD and MOGAD** are two supporting topics.
+**Towards a cure** (lasting remission) is a goal that runs across the course.
+
+Measuring MS, Related diseases and AI in MS research left Research in v4.1. Measuring MS moved to Learn module 7.
 
 The stages of the disease (Triggers, Immune attack, Entry, Smouldering, Nerve damage, Repair, Daily life) become parts
 within an area. They are never a navigation level of their own. The same five rows, in the same order, are used on
 the landing page, the map, the timeline and the area pages, and in the sidebar.
 
-Data: `research_areas`, `research_area_summary`, `area_hypotheses`, `trial_areas`, `area_papers`,
+Data: `research_areas`, `research_area_aims`, `research_area_summary`, `area_hypotheses`, `trial_areas`, `area_papers`,
 `area_lab_studies`, `area_open_questions`, `results_timeline`, `research_numbers`, `research_effort`, `gap_cells`
 and `trial_names` (migration 019).
 
@@ -90,13 +91,12 @@ Hero · dark green band of key figures · What you will find here (four tiles) �
 - Current understanding: The map · Treatment gaps
 - Research areas: the five, then Towards a cure
 - What comes next: What we will learn and when · Open questions · Trials to watch · Not yet tested in people
-- Lessons from trials: Negative and mixed results · Patterns across trials
-- Also: Measuring MS · Related diseases · AI in MS research
+- Lessons from trials: Negative and mixed results · Patterns across trials · From animals to people
 
 ### Data
 - Overview
 - The records: Trials · Hypotheses · Medicines · Reviews and guidelines · Lab studies · Organisations
-- Across the data: Missing results · From the lab to people
+- Across the data: Missing results
 - Use the data: Open data · How the data is built
 
 ## 8. Page rules

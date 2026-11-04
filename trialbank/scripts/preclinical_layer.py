@@ -248,6 +248,29 @@ def chembl_lookup(name):
     return None
 
 
+# lab papers often name a treatment differently from trial registries
+LAB_SYNONYMS = {"ivig": ["immunoglobulin", "ivig"], "msc": ["mesenchymal"], "mscs": ["mesenchymal"],
+                "bm-mscs": ["mesenchymal"], "bm-msc": ["mesenchymal"], "vitd": ["vitamin d", "cholecalciferol"],
+                "vitamin d": ["vitamin d", "cholecalciferol"], "vitamin d3": ["vitamin d", "cholecalciferol"],
+                "calcitriol": ["calcitriol", "vitamin d"], "ursodiol": ["ursodeoxycholic", "ursodiol", "tudca"],
+                "nadide": ["nicotinamide", "nad+"], "nad +": ["nicotinamide", "nad+"], "nad+": ["nicotinamide", "nad+"],
+                "hscs": ["stem cell transplant", "hsct"], "tregs": ["regulatory t cell", "treg"]}
+LAB_DISPLAY = {"ivig": "Intravenous immunoglobulin (IVIG)", "msc": "Mesenchymal stem cells",
+               "mscs": "Mesenchymal stem cells", "bm-mscs": "Mesenchymal stem cells from bone marrow",
+               "bm-msc": "Mesenchymal stem cells from bone marrow", "vitd": "Vitamin D", "nad +": "NAD+",
+               "nad+": "NAD+", "nadide": "NAD+ (nadide)", "tregs": "Regulatory T cells"}
+
+
+def display_name(n):
+    """How an intervention from a lab paper is shown: codes in capitals (MCC950, PLX-5622), names with a capital."""
+    n = str(n).strip()
+    if n.lower() in LAB_DISPLAY:
+        return LAB_DISPLAY[n.lower()]
+    if re.fullmatch(r"[a-z]{1,6}[- ]?\d[\w-]*", n, flags=re.I):
+        return n.upper()
+    return n[:1].upper() + n[1:]
+
+
 def base_name(n):
     """'cannabidiol (CBD)' -> 'cannabidiol', 'Ketogenic Diet (KD)' -> 'ketogenic diet'."""
     n = re.sub(r"\s+", " ", re.sub(r"\s*\([^)]*\)\s*", " ", str(n))).strip().lower()
@@ -456,6 +479,11 @@ def main():
                 x["trial_drugs"].add(bank_names[base_name(n)][1])
             elif len(base_name(n)) >= 6 and registered_rx(base_name(n)).search(registered_text):
                 x["trial_drugs"].add(base_name(n))   # named as an intervention in a registered trial (diets, devices)
+            else:
+                for syn in LAB_SYNONYMS.get(base_name(n), []):
+                    if registered_rx(syn).search(registered_text):
+                        x["trial_drugs"].add(syn)   # a synonym is registered (IVIG as immunoglobulin, MSCs as mesenchymal)
+                        break
     # what trials in people found for the same medicine: hypotheses whose approach group is one of the medicine's
     # own mechanism groups (so a background or comparator medicine in the same trials is never credited)
     drug_nodes = {}
@@ -477,7 +505,7 @@ def main():
         nm = sorted(x["names"], key=len)[0]
         trial = sorted(x["trial_drugs"])
         idea_rows.append({
-            "idea_id": key, "name": nm, "chembl_id": x["chembl_id"], "intervention_type": x["type"],
+            "idea_id": key, "name": display_name(nm), "chembl_id": x["chembl_id"], "intervention_type": x["type"],
             "mechanism": x["mechanism"], "n_papers": len(x["pmids"]), "n_benefit": x["benefit"],
             "n_no_benefit": x["no_benefit"], "n_mixed": x["mixed"], "n_harm": x["harm"],
             "n_after_onset": x["after_onset"], "model_systems": "|".join(sorted(x["systems"])),
