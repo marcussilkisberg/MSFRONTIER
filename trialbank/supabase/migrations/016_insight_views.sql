@@ -63,8 +63,7 @@ where t.study_type = 'interventional' and 'ms' = any(t.diseases);
 -- helper: MS hypotheses with their stage (prevention aims sit on Triggers)
 create or replace view bank.v_hypothesis_stage as
 select h.*, case when h.aim = 'prevent' then 'trigger' else n.stage_id end as stage_id,
-       case when h.outcome in ('confirmed', 'supported_one') then 'confirmed'
-            when h.outcome in ('failed_early', 'disproven') then 'failed' else h.outcome end as outcome_group
+       case when h.outcome in ('failed_early', 'disproven') then 'failed' else h.outcome end as outcome_group
 from bank.hypotheses h
 left join bank.map_stage_nodes n on n.node_id = h.approach_group
 where h.population not in ('nmosd', 'mogad');
