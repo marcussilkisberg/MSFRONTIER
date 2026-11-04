@@ -27,15 +27,38 @@ EMA_FILES = ["medicines-output-medicines-report_en.xlsx", "medicines-output-dhpc
              "medicines-output-referrals-report_en.xlsx"]
 FDA = "https://api.fda.gov"
 S = requests.Session()
+S.headers["User-Agent"] = "MSFrontier data pipeline (https://msfrontier.org)"
 DISEASE_RX = re.compile(r"multiple sclerosis|neuromyelitis optica|myelin oligodendrocyte", re.I)
 
 
 def fetch_ema():
+    """Download the three EMA reports. The EMA website limits how often one client may download (HTTP 429), so wait
+    between files, retry with growing pauses (or as long as the site asks), and if a file still cannot be fetched,
+    use last week's copy kept in the Actions cache. Fail only if there is no copy at all."""
     EMA.mkdir(parents=True, exist_ok=True)
-    for f in EMA_FILES:
-        r = S.get(EMA_BASE + f, timeout=180)
-        r.raise_for_status()
-        (EMA / f).write_bytes(r.content)
+    for i, f in enumerate(EMA_FILES):
+        if i:
+            time.sleep(20)
+        ok = False
+        for attempt in range(5):
+            try:
+                r = S.get(EMA_BASE + f, timeout=180)
+                if r.status_code == 200 and r.content:
+                    (EMA / f).write_bytes(r.content)
+                    ok = True
+                    break
+                wait = r.headers.get("Retry-After")
+                wait = int(wait) if wait and wait.isdigit() else 60 * (attempt + 1)
+                print(f"EMA {f}: HTTP {r.status_code}, waiting {min(wait, 600)} s (attempt {attempt + 1} of 5)")
+            except requests.RequestException as e:
+                wait = 60 * (attempt + 1)
+                print(f"EMA {f}: {type(e).__name__}, waiting {wait} s (attempt {attempt + 1} of 5)")
+            time.sleep(min(wait, 600))
+        if not ok:
+            if (EMA / f).exists():
+                print(f"EMA {f}: download failed, using last week's copy")
+            else:
+                raise RuntimeError(f"EMA {f}: download failed and no earlier copy exists")
 
 
 def read_ema(name):
