@@ -49,6 +49,8 @@ jobs:
             trialbank/raw/opentargets_cache.json
             trialbank/raw/abstracts_cache.json
             trialbank/raw/ema
+            trialbank/raw/conference_cache.json
+            trialbank/raw/announcements_cache.json
           key: trialbank-lookups-${{ github.run_id }}
           restore-keys: trialbank-lookups-
 
@@ -74,6 +76,20 @@ jobs:
 
       # Hypothesis ledger. Genetics and paper readouts are optional: if either fails, the ledger is still built and
       # the database keeps last week's genetics/readouts.
+      # Results presented at conferences and announced by sponsors, matched to trials: provisional, never a verdict.
+      # Both are optional: if either fails the run continues and the database keeps last week's rows.
+      - name: Conference reports (AAN abstracts)
+        continue-on-error: true
+        env:
+          CONF_MEETINGS: AAN2026
+        run: cd scripts && python conference_layer.py
+
+      - name: Company and conference announcements as provisional results
+        continue-on-error: true
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: cd scripts && python announcements_layer.py
+
       - name: Genetic leads (Open Targets)
         id: genetics
         continue-on-error: true
