@@ -48,6 +48,7 @@ jobs:
             trialbank/raw/europepmc_cache.json
             trialbank/raw/opentargets_cache.json
             trialbank/raw/abstracts_cache.json
+            trialbank/raw/ema
           key: trialbank-lookups-${{ github.run_id }}
           restore-keys: trialbank-lookups-
 
