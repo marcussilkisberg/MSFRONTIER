@@ -11,7 +11,8 @@ Matching: a news item is linked to a trial when its title or text names the tria
 the trial together with a word for the trial's population and a result word. Reading: Claude extracts the result,
 and every number in its summary must appear in the source text (the same rule as the news summaries).
 
-Writes data/trial_announcements.parquet (+ CSV). Cache: raw/announcements_cache.json.
+Writes data/trial_announcements.parquet (+ CSV). Cache and log: readouts/announcements_cache.json and
+readouts/announcements_log.json, committed with the readouts so a run can be inspected afterwards.
 Env: ANTHROPIC_API_KEY (reading; without it nothing new is read), ANN_MAX (default 60 new readings per run).
 Usage: python announcements_layer.py
 """
@@ -29,7 +30,8 @@ from conference_layer import MEETING_MONTH  # noqa: E402
 
 ROOT = Path(__file__).resolve().parent.parent
 RAW, DATA, NEWS = ROOT / "raw", ROOT / "data", ROOT / "news" / "items.json"
-CACHE = RAW / "announcements_cache.json"
+CACHE = ROOT / "readouts" / "announcements_cache.json"   # versioned in the repository with the readouts
+LOG = ROOT / "readouts" / "announcements_log.json"       # what this run decided, and any error, for inspection
 VERSION = "ann_v2"
 MODEL = os.environ.get("ANN_MODEL", "claude-sonnet-5-5")
 MAX_NEW = int(os.environ.get("ANN_MAX", "60"))
@@ -64,19 +66,19 @@ def read_one(prompt):
         try:
             text = lit.call(prompt, model=model)
         except Exception as e:   # one bad reading must not stop the run
-            print("reading failed:", type(e).__name__, str(e)[:160])
+            log(f"reading failed: {type(e).__name__} {str(e)[:200]}")
             if "404" in str(e) or "not_found" in str(e):
                 continue   # the requested model does not exist for this key: try the default one
             return None
         text = re.sub(r"^```(?:json)?|```$", "", text.strip(), flags=re.M)
         m = re.search(r"\{.*\}", re.sub(r"(?<![:\w])//[^\n]*", "", text), re.S)
         if not m:
-            print("reading failed: no JSON in reply:", text[:120].replace("\n", " "))
+            log("reading failed: no JSON in reply: " + text[:160].replace("\n", " "))
             return None
         try:
             return json.loads(m.group(0))
         except json.JSONDecodeError as e:
-            print("reading failed: bad JSON:", str(e)[:80])
+            log(f"reading failed: bad JSON: {str(e)[:80]}")
             return None
     return None
 
@@ -94,8 +96,17 @@ def load_news():
     return [i for i in items if i.get("title")]
 
 
+LOG_ROWS = []
+
+
+def log(line):
+    print(line)
+    LOG_ROWS.append(line)
+
+
 def main():
     RAW.mkdir(exist_ok=True)
+    CACHE.parent.mkdir(exist_ok=True)
     cache = json.loads(CACHE.read_text()) if CACHE.exists() else {}
     trials = pd.read_parquet(DATA / "trials.parquet", columns=["msf_trial_id", "acronym", "title", "population_group",
                                                                 "drugs", "status", "phase", "primary_completion_date"])
@@ -164,7 +175,7 @@ def main():
             if j is None:   # the API failed: leave the item uncached so the next run tries again
                 n_failed += 1
                 if n_failed >= 5:
-                    print("announcements: five readings failed in a row, stopping new readings this run")
+                    log("announcements: five readings failed in a row, stopping new readings this run")
                     have_key = False
                 continue
             n_failed = 0
@@ -174,7 +185,7 @@ def main():
             ok = about and result in ("met", "not_met", "mixed", "safety") and nums
             why = "ok" if ok else ("not about this trial" if not about else f"result {result}" if result not in (
                 "met", "not_met", "mixed", "safety") else "a number in the summary is not in the source")
-            print(f"  {r.acronym or r.msf_trial_id} <- {it.get('source')}: {str(it['title'])[:60]!r}: {why}")
+            log(f"  {r.acronym or r.msf_trial_id} <- {it.get('source')}: {str(it['title'])[:60]!r}: {why}")
             cache[key] = {"ok": ok, "result": result, "measure": j.get("measure"), "summary": j.get("summary"),
                           "peer_reviewed": bool(j.get("peer_reviewed")), "why": why, "version": VERSION}
             CACHE.write_text(json.dumps(cache))
@@ -192,9 +203,22 @@ def main():
         "measure", "summary", "peer_reviewed", "match_rule", "read_by", "provisional"])
     df.to_parquet(DATA / "trial_announcements.parquet", index=False)
     df.to_csv(DATA / "trial_announcements.csv", index=False)
-    print(f"announcements: {len(cands)} candidates, {n_new} read this run, {len(df)} results for "
-          f"{df.msf_trial_id.nunique() if len(df) else 0} trials")
+    log(f"announcements: {len(cands)} candidates, {n_new} read this run, {len(df)} results for "
+        f"{df.msf_trial_id.nunique() if len(df) else 0} trials")
 
 
 if __name__ == "__main__":
-    main()
+    import datetime
+    import traceback
+    err = None
+    try:
+        main()
+    except Exception:   # the log must be written even when the step fails
+        err = traceback.format_exc()
+        log("announcements: FAILED\n" + err)
+    LOG.parent.mkdir(exist_ok=True)
+    LOG.write_text(json.dumps({"run_at": datetime.datetime.now(datetime.timezone.utc).isoformat(timespec="seconds"),
+                               "have_key": bool(os.environ.get("ANTHROPIC_API_KEY")), "model": MODEL,
+                               "lines": LOG_ROWS[-400:], "error": err}, indent=1))
+    if err:
+        raise SystemExit(1)

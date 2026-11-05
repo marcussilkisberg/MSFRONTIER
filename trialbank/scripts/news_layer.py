@@ -275,7 +275,7 @@ def main():
     have_key = bool(os.environ.get("ANTHROPIC_API_KEY"))
     n = 0
     for it in sorted(store.values(), key=lambda x: x.get("published_at") or "", reverse=True):
-        if "summary_model" in it or not have_key or n >= MAX_NEW_SUMMARIES:
+        if it.get("summary_model") or not have_key or n >= MAX_NEW_SUMMARIES:
             continue
         try:
             j = summarise(it)

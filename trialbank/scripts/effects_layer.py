@@ -117,7 +117,20 @@ def orient(a, b, t, effect_type, est):
     return a, b
 
 
-def registry_effects(results, trials):
+def clean_comparator(comp, rx, bank_names):
+    """A comparator taken from an arm title ("Part 1: Interferon β-1a", "IFN β-1a 30 µg (301)/DAC HYP 150 mg")
+    becomes the bank's medicine name when one is recognised, otherwise 'other arm'."""
+    if not comp or comp == "placebo":
+        return comp or "other arm"
+    parts = [x.strip() for x in comp.split(",")]
+    if bank_names and all(x.lower() in bank_names for x in parts):
+        return comp
+    text = comp.replace("β", "beta").replace("IFN", "interferon")
+    found = [bank_names[m.lower()][1] for m in rx.findall(text)] if rx else []
+    return ", ".join(dict.fromkeys(found)) or "other arm"
+
+
+def registry_effects(results, trials, rx=None, bank_names=None):
     rows = []
     res = results[results.analysis_estimate.notna()].copy()
     for (uid, title, tf), g in res.groupby(["msf_trial_id", "outcome_title", "time_frame"], dropna=False):
@@ -135,8 +148,8 @@ def registry_effects(results, trials):
         p = num(first.analysis_p_value) if pd.notna(first.analysis_p_value) else None
         if est is None:
             continue
-        plc = arms[arms.arm_is_placebo == True]   # noqa: E712
-        act = arms[arms.arm_is_placebo != True]   # noqa: E712
+        is_plc = (arms.arm_is_placebo == True) | arms.arm_title.fillna("").str.contains(r"placebo|sham|vehicle", case=False, regex=True)   # noqa: E712
+        plc, act = arms[is_plc], arms[~is_plc]
         comparator = "placebo" if len(plc) else None
         trt_value = ctrl_value = trt_n = ctrl_n = None
         trt_drug = None
@@ -152,10 +165,18 @@ def registry_effects(results, trials):
             trt_value, ctrl_value = num(trt.value), num(ctrl.value)
             trt_n, ctrl_n = (int(trt.n_analysed) if pd.notna(trt.n_analysed) else None), (int(ctrl.n_analysed) if pd.notna(ctrl.n_analysed) else None)
             comp_drugs = set(str(t.comparator_drugs or "").split("|")) - {""}
+            if len(plc) == 1:
+                comp_drugs |= set(drug_list(ctrl.arm_drugs))   # a background medicine both arms get
             trt_list = drug_list(trt.arm_drugs)
             trt_drug = ", ".join([x for x in trt_list if x not in comp_drugs] or trt_list) or None
+        if trt_drug is None and len(act):
+            sets = [set(drug_list(a.arm_drugs)) for a in act.itertuples()]
+            common = set.intersection(*sets) if sets and all(sets) else set()
+            background = set(drug_list(plc.iloc[0].arm_drugs)) if len(plc) else set()
+            trt_drug = ", ".join(sorted(common - background)) or None
         if comparator is None:
             comparator = ", ".join(drug_list(t.comparator_drugs)) or "other arm"
+        comparator = clean_comparator(comparator, rx, bank_names)
         fam = family_of(first.endpoint_tags, title)
         key = hashlib.md5(f"{title}|{tf}".encode()).hexdigest()[:10]
         rows.append({"effect_id": f"reg:{uid}:{key}", "msf_trial_id": uid, "source": "registry",
@@ -213,7 +234,9 @@ def main():
     if cache_path.exists():
         c = json.loads(cache_path.read_text())
         readouts = list(c.values()) if isinstance(c, dict) else c
-    rows = registry_effects(results, trials) + paper_effects(readouts, trials)
+    import literature_layer as lit
+    rx, bank_names = lit.drug_matcher()
+    rows = registry_effects(results, trials, rx, bank_names) + paper_effects(readouts, trials)
     df = pd.DataFrame(rows)
     if len(df):
         # a ratio below 1 on a bad event is a relative reduction
@@ -226,6 +249,8 @@ def main():
         both = df.treatment_value.notna() & df.comparator_value.notna() & df.family.isin(BAD_EVENT)
         df["absolute_diff_per_100"] = ((df.comparator_value - df.treatment_value) * 100).round(1).where(both)
         df = df[df.treatment.notna()].drop_duplicates("effect_id")
+        same = [bool(set(str(a).split(", ")) & set(str(b).split(", "))) for a, b in zip(df.treatment, df.comparator)]
+        df = df[~pd.Series(same, index=df.index)]   # a medicine against itself (doses, extensions) says nothing here
     DATA.mkdir(exist_ok=True)
     df.to_parquet(DATA / "trial_effects.parquet", index=False)
     df.to_csv(DATA / "trial_effects.csv", index=False)
