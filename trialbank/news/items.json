@@ -15,6 +15,26 @@
   "summary_model": "claude-sonnet-5-5",
   "title": "B cell CD19 is transferred between immune cells in mice and humans"
  },
+ "08eddc47eacf17fb": {
+  "collected_at": "2026-11-05T13:29:15.919849+00:00",
+  "description": "Children and teenagers in Canada with relapsing-remitting multiple sclerosis (RRMS) now have a second treatment option following Health Canada’s approval of the infusion therapy Ocrevus (ocrelizumab). The regulatory decision extends the use of Ocrevus to patients 10 and older. Previously authorized in Canada only for adults, Ocrevus joins daily oral Gilenya (fingolimod) as the only […] The post Canadian families gain new therapy for children with relapsing MS appeared first on Multiple Sclerosis News Today .",
+  "id": "08eddc47eacf17fb",
+  "link": "https://multiplesclerosisnewstoday.com/news-posts/2026/11/04/canada-expands-ocrevus-approval-children-relapsing-ms/",
+  "published_at": "2026-11-04T13:00:47+00:00",
+  "source": "MS News Today",
+  "source_type": "news",
+  "title": "Canadian families gain new therapy for children with relapsing MS"
+ },
+ "090b2fb39055a816": {
+  "collected_at": "2026-11-05T13:29:15.920101+00:00",
+  "description": "How MS organisations can shape research MS International Federation .",
+  "id": "090b2fb39055a816",
+  "link": "https://www.msif.org/news/2026/10/29/how-ms-organisations-can-shape-research/",
+  "published_at": "2026-10-29T15:14:18+00:00",
+  "source": "MSIF",
+  "source_type": "patient_org",
+  "title": "How MS organisations can shape research"
+ },
  "09996d8bae14a13a": {
   "about_ms": true,
   "category": "research",
@@ -30,6 +50,26 @@
   "summary": "A Nature-published study in a mouse model of MS (experimental autoimmune encephalomyelitis) reports that polymeric microparticles loaded with autoantigen associate with B cells and promote tolerogenic antigen presentation. This is early lab work in mice, not tested in people.",
   "summary_model": "claude-sonnet-5-5",
   "title": "Autoantigen-loaded Polymeric Microparticles associate with B cells and promote tolerogenic antigen presentation in a mouse model of experimental autoimmune encephalomyelitis"
+ },
+ "0a0d970f442cf49a": {
+  "collected_at": "2026-11-05T13:29:15.920301+00:00",
+  "description": "UniQure gets review date and adcomm; Inovio’s stock surges after approval Endpoints News",
+  "id": "0a0d970f442cf49a",
+  "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPY0t5RDlNSFBQeTk3ZGJiZENnN0pfZkZYcWRDWWZkR1VuVkx0QmE5ZGUwaTlhTjVDUElEMV8waUF6TUt1UG45MXRJQ3d2OUFXZzdNdExFQVlsVzNaaWJObERuUXplbFZpNWdkQi0zN2tscVBobHZsWGJFY0JkTkxLWlJ1YzBzcnZoU1oycU1PUWxFWGpfaUJHaDE0RQ?oc=5",
+  "published_at": "2026-11-02T16:10:00+00:00",
+  "source": "Endpoints News",
+  "source_type": "news_search",
+  "title": "UniQure gets review date and adcomm; Inovio’s stock surges after approval"
+ },
+ "0f14e43cfc83a9f6": {
+  "collected_at": "2026-11-05T13:29:15.920306+00:00",
+  "description": "Teva signs deal for two FDA-approved biosimilars grafa.com",
+  "id": "0f14e43cfc83a9f6",
+  "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPX2R4UUZOdEZ1VC1FTEJwVzlNc2QtMmhVc2d6SGlKdk5XYVJ4Z3JLU2NpQ19FOTNzcUxfUWN3cEh6aWoxNVBuWkJfc2Z2bXl3Slp4VVcwekRpbFlILXlhaENhakFXSk9iUmt3OGV2TURzYVVfNGxFN0ZwUjIweG42d3pxLWR6RHlrVWhGUENITkVrSHlyN0xZa2dR?oc=5",
+  "published_at": "2026-11-03T15:42:00+00:00",
+  "source": "grafa.com",
+  "source_type": "news_search",
+  "title": "Teva signs deal for two FDA-approved biosimilars"
  },
  "0f5856c5b314c465": {
   "about_ms": false,
@@ -47,6 +87,26 @@
   "summary_model": "claude-sonnet-5-5",
   "title": "An activity-modulated transport route across myelin (TRAM) for motor-driven organelle transfer in oligodendrocytes"
  },
+ "0fc7799dd14e5ea2": {
+  "collected_at": "2026-11-05T13:29:15.920419+00:00",
+  "description": "A Placebo-Controlled Trial of Oral Cladribine for Relapsing Multiple Sclerosis NEJM",
+  "id": "0fc7799dd14e5ea2",
+  "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFB6RkI1aTdxbHV3MElxYTNmQjloUlFnUUp5Q3J4d3BpeTlXWUxxMFpkRmVWRm1JNjNrdFBoZ1cwQzBGbW5QbkRBZlZhMk1JOGRTd3FzYnM2a2pJck5FMi1yNg?oc=5",
+  "published_at": "2010-01-20T08:00:00+00:00",
+  "source": "NEJM",
+  "source_type": "news_search",
+  "title": "A Placebo-Controlled Trial of Oral Cladribine for Relapsing Multiple Sclerosis"
+ },
+ "11d4c4c8f6705aff": {
+  "collected_at": "2026-11-05T13:29:15.920718+00:00",
+  "description": "﻿D&D Pharmatech’s pegsebrenatide and vorasidenib combination efficacy highlighted in IDH-mutated brain tumors 더바이오",
+  "id": "11d4c4c8f6705aff",
+  "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1hYlRfaEZmWDhNTURnRDJZY2dURnBQRXJnSlotVWQwbWRyOGpaTEMtQ0ljaW5MNTRZRXI2V1B3b0dnNUhwVFc2S05mUkZrOW1OZVN3QTcwekVoSnZxc29TVFpCcHZTZUc1ZjljQ01DYzHSAXBBVV95cUxNYWJUX2hGZlg4TU1EZ0QyWWNnVEZwUEVyZ0paLVVkMG1kcjhqWkxDLUNJY2luTDU0WUVyNldQd29HZzVIcFRXNktOZlJGazltTmVTd0E3MHpFaEp2cXNvU1RaQnB2U2VHNWY5Y0NNQ2Mx?oc=5",
+  "published_at": "2026-11-02T07:14:11+00:00",
+  "source": "더바이오",
+  "source_type": "news_search",
+  "title": "﻿D&D Pharmatech’s pegsebrenatide and vorasidenib combination efficacy highlighted in IDH-mutated brain tumors"
+ },
  "12302b6230b81dfa": {
   "about_ms": true,
   "category": "research",
@@ -63,6 +123,16 @@
   "summary_model": "claude-sonnet-5-5",
   "title": "Small Thai study finds high malnutrition risk rate in MS patients"
  },
+ "1336055723e715f6": {
+  "collected_at": "2026-11-05T13:29:15.920257+00:00",
+  "description": "Novartis Analyst Targets Diverge as $2.2 Billion in Pipeline Setbacks Temper Post-Earnings Optimism ad-hoc-news.de",
+  "id": "1336055723e715f6",
+  "link": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxNSGdtUzJkOTlXMXMzRmtoOE9idjZCTWtWSGc5bUZRWkZfamhTVUxxc1drR0N1UWVRV2JYX1VWd2lwekVGSWVkMG5vMG1rQWRTWlpfQXNWTUZJYXAxRkhCeFZkS3pVOGtXRTBjRV9Mbk5oMDdjU2YzWWp3X21UeUloSTY5LWZNM0dDVmp1OGcxem1icktRajJoelExMG5DN0hZbEtGdFlEX0F5LVV3dmhMLUQ3M3RWYXdGaE5JMGVBeXJLS0VXZURGbDgxdDlvY2RQWGJtczNOankzWDV6RENmb1FwcXRFN0ZKRGxOLVBJMDhnbXRjOUs4aHB4Mzc1WVE?oc=5",
+  "published_at": "2026-10-29T13:51:21+00:00",
+  "source": "ad-hoc-news.de",
+  "source_type": "news_search",
+  "title": "Novartis Analyst Targets Diverge as $2.2 Billion in Pipeline Setbacks Temper Post-Earnings Optimism"
+ },
  "1744c8a99e20d05b": {
   "about_ms": true,
   "category": "living_with_ms",
@@ -78,6 +148,26 @@
   "summary": "An MS Trust podcast episode from 22 March 2022 discusses MS fatigue, described as exhaustion out of proportion to activity. Listeners describe life with fatigue and share management tips, and occupational therapist Kate Hayward outlines her own fatigue management techniques.",
   "summary_model": "claude-sonnet-5-5",
   "title": "How can I manage living with MS fatigue?"
+ },
+ "189bbfedef64d846": {
+  "collected_at": "2026-11-05T13:29:15.920351+00:00",
+  "description": "NMOSD Underdiagnosed and Overlooked: A Neurologist and Pharmacist on the Path to Better Care HCPLive",
+  "id": "189bbfedef64d846",
+  "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOVE1oVHRlek5sUklNOWNTc0N1WVhUWFVxNG5ldTFDYnVyNEE3YVNoZ0EycFBUUkp5RUNSY1NtMlVoWWk2eW9DR2VOeE52Y0xsLU1xT0VhNWk2Rzg1dnE3YWd5eE1BV1Q4OU0zclFQd0pTcE5LNmFnYWN3VlZSMnpwQnE2THZ0a0ZVbUtaZkRaTV9ab3pPd2dDNGxVTGRDMmpBekhoNFFLaEFNVGpJdW1SclZsamtrWkpfdFctNQ?oc=5",
+  "published_at": "2026-10-30T18:07:58+00:00",
+  "source": "HCPLive",
+  "source_type": "news_search",
+  "title": "NMOSD Underdiagnosed and Overlooked: A Neurologist and Pharmacist on the Path to Better Care"
+ },
+ "1a9af33cd3e738ab": {
+  "collected_at": "2026-11-05T13:29:15.920180+00:00",
+  "description": "Physician Views Preview: Can remibrutinib's favourable safety offset efficacy doubts in MS? FirstWord Pharma",
+  "id": "1a9af33cd3e738ab",
+  "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBqM0ZKbDFoSXI0dU5iQTFDNHFJbFpmSTdsckZ1cmpYNlhFdFp0b2hRbnY3YkhTWFRrMUVnVnZjeGRzeVlrcTBKTVE5OXRzdXJFZXZn?oc=5",
+  "published_at": "2026-11-03T08:00:00+00:00",
+  "source": "FirstWord Pharma",
+  "source_type": "news_search",
+  "title": "Physician Views Preview: Can remibrutinib's favourable safety offset efficacy doubts in MS?"
  },
  "1bce55e5057c6f72": {
   "about_ms": true,
@@ -110,6 +200,56 @@
   "summary": "A review found that physical activity programs led by healthcare professionals appear acceptable and feasible for adults with multiple sclerosis. The authors say more research is needed to determine whether these programs can be used successfully in everyday clinical care.",
   "summary_model": "claude-sonnet-5-5",
   "title": "Physical activity programs for people with MS show promise, review finds"
+ },
+ "1e1a14c43598977a": {
+  "collected_at": "2026-11-05T13:29:15.920583+00:00",
+  "description": "New drug vidofludimus calcium secures patent to treat progressive forms of MS Multiple Sclerosis News Today",
+  "id": "1e1a14c43598977a",
+  "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOMWVWSENjYk9LQ256dVR3aVhyOUVRWHBrMWFVOFREc0l4ZTNGa0NEUDg4V1NKTUdZMUh3emZMdjFtcHZLYUJkTUk0YnVibU43bDJlUEpnWHhsLUV4clM5RHo1b3VEZkZBYzE1Y19jZzVqTFR6QVUzU05jVEQxRXNpZ3dwWXNfeFNQS0JUYTJJZzdUTU03VWM4U2tnNTJOdWlKSDltZTVhLU4wUlJxVlpYT1dwN1JHWHVmN25nMU8xbElFZUVfV3cyT0F0TGN4UQ?oc=5",
+  "published_at": "2025-09-11T07:00:00+00:00",
+  "source": "Multiple Sclerosis News Today",
+  "source_type": "news_search",
+  "title": "New drug vidofludimus calcium secures patent to treat progressive forms of MS"
+ },
+ "20a9476507a59309": {
+  "collected_at": "2026-11-05T13:29:15.920379+00:00",
+  "description": "Tolebrutinib in Nonrelapsing Secondary Progressive Multiple Sclerosis NEJM",
+  "id": "20a9476507a59309",
+  "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5iaVNDY3p2LUctRFpOay1ORGlyS1VMRjl4eUFIel9KcG5iemdfR1FSWi03dmZycFhWRWJGU29lX3BlZXJDUmJsNWUydEZPcWhiaEhsUlNSRG03QjI1SzV6NQ?oc=5",
+  "published_at": "2025-04-08T07:00:00+00:00",
+  "source": "NEJM",
+  "source_type": "news_search",
+  "title": "Tolebrutinib in Nonrelapsing Secondary Progressive Multiple Sclerosis"
+ },
+ "22452581fe943558": {
+  "collected_at": "2026-11-05T13:29:15.920373+00:00",
+  "description": "Rituximab Linked to 10-fold Higher Irritable Bowel Disease Risk in MS Medscape",
+  "id": "22452581fe943558",
+  "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOWWVZR2tGcTJ2VWxjcEJTOW5IU1ZtVU5IZFBFNEI4STRRZXBQY1lVeFltanNXbmtXc3lqRE1wbjRkaDhEVF9Gald3blo4akZrejBMUXBCWDBYamxDRkFBanJ1aXZWbDludEpBZjU3YUgxVkZQUFAwTHU3djFLYUUyaEZPbjdUbFVmdy03U1l5N29RNVo1cTVXOUlaS0hCUmt3VGlOQ0VBNDRQamwzNVQ4?oc=5",
+  "published_at": "2026-11-03T11:57:09+00:00",
+  "source": "Medscape",
+  "source_type": "news_search",
+  "title": "Rituximab Linked to 10-fold Higher Irritable Bowel Disease Risk in MS"
+ },
+ "232f6262d5497291": {
+  "collected_at": "2026-11-05T13:29:15.920595+00:00",
+  "description": "Trial: Vidofludimus calcium shows benefits for 9 of 10 RRMS patients Multiple Sclerosis News Today",
+  "id": "232f6262d5497291",
+  "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOS0RoVFdra2dpSzRqYTFtMXhxX2lDWTZGQ1psSzdEdjhvUWlQS0FuVTVDTVFUUXRldE5oYTM1U09rZTJjN3lDWTdEQ2RzQXNBb2pBczhPRloyYWpQelVGQTZKQy1SZVliU1Z1Z2lNLWFxOFQ2czZnQVN6ZHZ0YTV6V2k4amRLaHdRTXQ1RzVmVmVQWkJEcW1SRnhZUkxWczlUZ1JneVE3YUFiMFBtVmJEU1RDd1NtV194?oc=5",
+  "published_at": "2025-06-25T07:00:00+00:00",
+  "source": "Multiple Sclerosis News Today",
+  "source_type": "news_search",
+  "title": "Trial: Vidofludimus calcium shows benefits for 9 of 10 RRMS patients"
+ },
+ "23460b0b0129d9de": {
+  "collected_at": "2026-11-05T13:29:15.920344+00:00",
+  "description": "Processa Pharmaceuticals Shares Stockholder Letter Detailing Vidya Acquisition, VT-7208 Development, and Capital Structure Kalkine Media",
+  "id": "23460b0b0129d9de",
+  "link": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxNRXVkVmgxWWpyMllLaGJGOTV3WHlyeW5nNjNwMFBtOEdlcUxPWm9FbXBNYTRKNnJoZFZnazgyYmh3ZVY1STNPRmZTVXlVa3AzVWlROXhFOEhZYXhoMDdyR0ZkUnpuVU41aXNlMFF6cEtwRzh2UWt5S2Q3VFBNaWRzNTNiZ2o1anRMbWtCSkV6X0xJdGliSWtMU09YZllKdkh6R212Yk1mZlY3VjhDRzhtRHl5Q2hROEtRVG9VOU1BRzZrZGRsYk52eWtBenZxV0tJS2ZZby12STlTenpyNXFhUGVpYmVhcWZ1Zm1TQXl0OERMam5CRUNOLUdGbw?oc=5",
+  "published_at": "2026-11-05T13:19:36+00:00",
+  "source": "Kalkine Media",
+  "source_type": "news_search",
+  "title": "Processa Pharmaceuticals Shares Stockholder Letter Detailing Vidya Acquisition, VT-7208 Development, and Capital Structure"
  },
  "23ce7ce5fd879641": {
   "about_ms": false,
@@ -159,6 +299,26 @@
   "summary_model": "claude-sonnet-5-5",
   "title": "Gut microbiome modulation by Veillonella ratti induces resistance to EAE pathogenesis via microbe-derived metabolites"
  },
+ "263cc0b9f4cf76f7": {
+  "collected_at": "2026-11-05T13:29:15.920530+00:00",
+  "description": "ACTRIMS 2026: Vidofludimus calcium targets key MS mechanisms, data show Multiple Sclerosis News Today",
+  "id": "263cc0b9f4cf76f7",
+  "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNMzJjWGZjOXhEMW54UnhWaUk0RWNQNlVJZ3c2RUtXcWotSUdUN1I0NzJTQVVXSjZZME1nTVBUa1o5RHJGTC15cm02c0NVeVMxVzFlU0pHN2NNcThINmpMM1E2enJLcXpLc3NVenlOTnhnUmdHMnZvN0FUbk9FaEYtLTI0eTlmeXVsS3JOZmNPczlBbVI0VDFBdXRqUWtlVGk2a0MwS3RMVEhrS05qcE44N2tqcHpDMUM0Z3RlaExB?oc=5",
+  "published_at": "2026-02-12T08:00:00+00:00",
+  "source": "Multiple Sclerosis News Today",
+  "source_type": "news_search",
+  "title": "ACTRIMS 2026: Vidofludimus calcium targets key MS mechanisms, data show"
+ },
+ "29d8130161132a49": {
+  "collected_at": "2026-11-05T13:29:15.920173+00:00",
+  "description": "Examining Sustained Disability Signals With Vidofludimus Calcium in Progressive MS: Robert J. Fox, MD NeurologyLive",
+  "id": "29d8130161132a49",
+  "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPb3BabEl1RW9EcjBKd0hlYU5NWG8xbEdDNGZUODZlOGwtcXIwRTRxSFdjRHdTSFZMaWNVSXo3R1ZwRl9WWFp5bFpZVFp6VHAwVThRWDZuVDYyT0FTa1RRY1hQMzhfSElsMVhhNHF0TGsycTI0emY5X2N4MkdsS0RYNE40ei0wYmNTb3ZHNFNTSmxmYXNnMHhidmJYWTJGMy1kNEJ3TklNUTdlQnVIc3hPM2ZqcEhUbWFBZ1JnUi1lWQ?oc=5",
+  "published_at": "2026-11-04T20:09:28+00:00",
+  "source": "NeurologyLive",
+  "source_type": "news_search",
+  "title": "Examining Sustained Disability Signals With Vidofludimus Calcium in Progressive MS: Robert J. Fox, MD"
+ },
  "2ca830c80274b4d8": {
   "collected_at": "2026-11-04T13:15:27.628656+00:00",
   "description": "The experimental oral therapy remibrutinib significantly reduced relapse rates and brain lesion activity more than the approved therapy Aubagio (teriflunomide) in two Phase 3 clinical trials of people with relapsing forms of multiple sclerosis (MS). The trials, REMODEL-1 (NCT05147220) and REMODEL-2 (NCT05156281), compared remibrutinib with Aubagio in about 2,000 adults with MS, ages 18 to […] The post Experimental MS therapy outperforms approved treatment in two trials appeared first on Multiple Sclerosis News Today .",
@@ -168,6 +328,16 @@
   "source": "MS News Today",
   "source_type": "news",
   "title": "Experimental MS therapy outperforms approved treatment in two trials"
+ },
+ "30f615afefbaca0f": {
+  "collected_at": "2026-11-05T13:29:15.920552+00:00",
+  "description": "Zenas acquires BTK inhibitor in Phase 3 trials for progressive MS Multiple Sclerosis News Today",
+  "id": "30f615afefbaca0f",
+  "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNRTZHOEg5YWpBOVM2b29rNXR4dW1xYVR3VktUWjNqTGFGekd0T2MxNTdWbWpCQ0JTY3JCRWcwZW1TLVZwdzNybEdiajhnOEowbjRKS3ZVUDhvOVp2akgzbXBqNHRtVElGbmVIVFl6NHFnOWdfdFM2Y3A5dW5tNWRfVnF0T0ZKeGtyUnNfYkg1b3VNdnpsSjl0am4zRG9XRWZINjA2RDdzMm9BLXhuSXFxbUNGQkduLURlRk1VSg?oc=5",
+  "published_at": "2025-10-09T07:00:00+00:00",
+  "source": "Multiple Sclerosis News Today",
+  "source_type": "news_search",
+  "title": "Zenas acquires BTK inhibitor in Phase 3 trials for progressive MS"
  },
  "367415a3d504aa97": {
   "about_ms": true,
@@ -217,6 +387,36 @@
   "summary_model": "claude-sonnet-5-5",
   "title": "Deeper versus broader B cell depletion in neuromyelitis optica spectrum disorder"
  },
+ "3b69b7b39030ffdb": {
+  "collected_at": "2026-11-05T13:29:15.920275+00:00",
+  "description": "Tiziana's foralumab reduces microglial activation in Phase IIa MS trial at lower dose only AllSci",
+  "id": "3b69b7b39030ffdb",
+  "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQNmFpeDU4X1FRVkw0M3YxMHRLdXhNYzBrSmJJbXk4UWxTazNqMXJVUUZ6RkNDX3dhalh5cUxsc1ZSdm1FTllpNTJIRlRyeFB0eGRQbmpTZFRITUtHT1pfQlVLYTUxekxfQ1JDUWtxb1N3XzEzYnpHQ1FLQmQtaVNLWFVibDAxdzJva0Fta0l4UVJtR1pw?oc=5",
+  "published_at": "2026-11-03T09:50:05+00:00",
+  "source": "AllSci",
+  "source_type": "news_search",
+  "title": "Tiziana's foralumab reduces microglial activation in Phase IIa MS trial at lower dose only"
+ },
+ "3be757fb2f216ed8": {
+  "collected_at": "2026-11-05T13:29:15.920389+00:00",
+  "description": "Ocrelizumab versus Interferon Beta-1a in Relapsing Multiple Sclerosis NEJM",
+  "id": "3be757fb2f216ed8",
+  "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9POWw5ZDlVZHA0dlJZTWxRSWVISmlhMExCWHlqcnc0NGVzbURvQjJ2XzUtQzNyMU96S2Mtc0RUaWdjalphWUlkMElBa1RKZFpRMXAzUmdkR0RwSjdYSmpmUg?oc=5",
+  "published_at": "2016-12-21T08:00:00+00:00",
+  "source": "NEJM",
+  "source_type": "news_search",
+  "title": "Ocrelizumab versus Interferon Beta-1a in Relapsing Multiple Sclerosis"
+ },
+ "3c0970b29fbcd433": {
+  "collected_at": "2026-11-05T13:29:15.920412+00:00",
+  "description": "Oral Fingolimod or Intramuscular Interferon for Relapsing Multiple Sclerosis NEJM",
+  "id": "3c0970b29fbcd433",
+  "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFB0MThFdmdXUVZhbnBQa2ZSdk90YWFXbS1YTEdCZFhoY3ZuUlBTX3J2VFdrakkzeEE1RGx4RXpzXzlTQV9pcWtVTzJlQjcxWXpTdVZFUHJ1aWFUa204a2s4OQ?oc=5",
+  "published_at": "2017-08-13T06:15:06+00:00",
+  "source": "NEJM",
+  "source_type": "news_search",
+  "title": "Oral Fingolimod or Intramuscular Interferon for Relapsing Multiple Sclerosis"
+ },
  "4067b43391342f83": {
   "about_ms": true,
   "category": "living_with_ms",
@@ -232,6 +432,116 @@
   "summary": "An MS Trust podcast episode from 2 August 2022 discusses how MS can affect relationships with family, friends, partners and colleagues. Billy from Shift.ms, who has MS, and Flora from the MS Trust helpline are the guests.",
   "summary_model": "claude-sonnet-5-5",
   "title": "Relationships and MS"
+ },
+ "42a471180211ea66": {
+  "collected_at": "2026-11-05T13:29:15.920468+00:00",
+  "description": "Inexpensive drug may improve brain connectivity in people with multiple sclerosis Medical Xpress",
+  "id": "42a471180211ea66",
+  "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOVEpBRjlXSmxWZGhqWTNIOFZsUHFvSlNFUEhoOXJLV3hkN0NhRzdmTDY0MkotRnBwZEVLbnBQUFdpTDZKTnRqNjQwV2NKZGw3QWVndWRLeU15LS1rc3cxRTRQcGhVenNFcnppS3BJcWF2azBnT1FYTlFmMzNVTVJsR2Qzc2NVWU5YN2c?oc=5",
+  "published_at": "2026-11-03T15:40:12+00:00",
+  "source": "Medical Xpress",
+  "source_type": "news_search",
+  "title": "Inexpensive drug may improve brain connectivity in people with multiple sclerosis"
+ },
+ "432c53f09c9bb8f2": {
+  "collected_at": "2026-11-05T13:29:15.920455+00:00",
+  "description": "Tiziana touts multiple sclerosis win at lower dose as high dose misses mark BioSpace",
+  "id": "432c53f09c9bb8f2",
+  "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNeWE1dTZ3Tzk0MFBsa1pYTkFpZ3VaaFdOSk02SFQ4LU5vdnUxWlFKTzVCalBDRmhHZElhMTZ5cW5tU1pfVEQ0amsyWHY1VUNmcG9CQXZkUTEyUHFGYnJQbnI2VV9qbGhQUFY4X2V1VDFtX0s5bnk5NmVqU0E1ODlSMm5UQ2tpQmRlMVNWcU8tb3M2dXhPN0pqZGZacnZYVFR5bkdwa2lqdU1UOTlfVVA0dS1IVnU4QlRF?oc=5",
+  "published_at": "2026-11-02T15:23:08+00:00",
+  "source": "BioSpace",
+  "source_type": "news_search",
+  "title": "Tiziana touts multiple sclerosis win at lower dose as high dose misses mark"
+ },
+ "45a5c893606f5eff": {
+  "collected_at": "2026-11-05T13:29:15.920318+00:00",
+  "description": "Iovance Eyeing Biomarker-Informed Lung Cancer as Next Amtagvi Indication GenomeWeb",
+  "id": "45a5c893606f5eff",
+  "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOSU1PVUJGUU9nY1NOTmVJN2lqRE9qM3lvMHIzZHd2eUJid1hPR2g4bzlzSGktcGRnNW9HX1QwSkVpSVJ0WjZCV3V5WEd1WG1vZWxPNlJjT3hUckkyNGFIMWcxQlJlMzZnejRaeWVhcmZBdEdiRjVJdmRSYXhwSkxib05nMzV1RVdkZXpDTVZpUlNrN2lRRVBRUnVtVQ?oc=5",
+  "published_at": "2026-10-29T19:06:00+00:00",
+  "source": "GenomeWeb",
+  "source_type": "news_search",
+  "title": "Iovance Eyeing Biomarker-Informed Lung Cancer as Next Amtagvi Indication"
+ },
+ "486722997f5930bb": {
+  "collected_at": "2026-11-05T13:29:15.920571+00:00",
+  "description": "Vidofludimus Calcium Demonstrates Therapeutic Potential in Latest Phase 2 CALLIPER Trial Data of Progressive Multiple Sclerosis NeurologyLive",
+  "id": "486722997f5930bb",
+  "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxPMDBWTXotQTRnX0RjcGFwandvaG1Tc1EzUTVXaFJBTDc5bzBiZk9TX0MtLWhRSHpoUDl0OUZyWnRFWlBmcXVQVURoT2FHTzdNT2s2WkxtdjhzWlB6bDJGTWxFTzVfNnBsVm5sbGVzT1FUMGpkVHY2cnI4Sks5dEI4VDNLeURHQlJHRmFPNmthLVdhRm15NG1MR2kzRzFxYm1xVXNfWW9scFpnSVRoNjZQdEFXS1ZRZE5lM0dtUk1HREMtUk5tdTJUWlhmOTZsbzlneEUyRnp2bWdpUk9BMTRkSlFrbFFlRzRZaVB0WQ?oc=5",
+  "published_at": "2025-04-30T07:00:00+00:00",
+  "source": "NeurologyLive",
+  "source_type": "news_search",
+  "title": "Vidofludimus Calcium Demonstrates Therapeutic Potential in Latest Phase 2 CALLIPER Trial Data of Progressive Multiple Sclerosis"
+ },
+ "499cae944f2140e5": {
+  "collected_at": "2026-11-05T13:29:15.920564+00:00",
+  "description": "Vidofludimus calcium for multiple sclerosis Multiple Sclerosis News Today",
+  "id": "499cae944f2140e5",
+  "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9QWS1CMHYydXhSV214QjgtQkxVU0lDNGRsSWtjVjZpakdYWWdQNzd5UWs1TjhoNFota2tvOFFWNjVCckY1akN3WWRBT0JuQTNaOUlVbzVkSWNIZS1TMlo1WDd4eTZCclNSRlU3Vw?oc=5",
+  "published_at": "2025-09-08T07:00:00+00:00",
+  "source": "Multiple Sclerosis News Today",
+  "source_type": "news_search",
+  "title": "Vidofludimus calcium for multiple sclerosis"
+ },
+ "4a801111d9bdf541": {
+  "collected_at": "2026-11-05T13:29:15.920384+00:00",
+  "description": "Tolebrutinib outcomes not as hoped for progressive MS MS Australia",
+  "id": "4a801111d9bdf541",
+  "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQQ1l4ZXNVTHZxRm1BT0FCd2hrSG1UbkRPRktRWDFpODFzQ2RqU205d2JuVGJjaWlvc3k0SE5Mb2ljUVFBb0JxMURZeDRWSjIyWDdLVDVYekc2dlJmdXF4WGxmcHhCN0JCNGQ4aGVxeE5xUkhPSlhOb0tVTWhDNThlQjVpNjRoQ1Jza2E4bmpCbFdKSnBX?oc=5",
+  "published_at": "2026-01-28T08:00:00+00:00",
+  "source": "MS Australia",
+  "source_type": "news_search",
+  "title": "Tolebrutinib outcomes not as hoped for progressive MS"
+ },
+ "4af1427e806746db": {
+  "collected_at": "2026-11-05T13:29:15.920589+00:00",
+  "description": "Phase 3 trials of vidofludimus calcium in relapsing MS enrolled Multiple Sclerosis News Today",
+  "id": "4af1427e806746db",
+  "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPLU1kdHJ3QWRSeGxCSmM2bHJyajc2VmZuWGVhZGxEOHh6Zlk3dDZWNktQNjhJak5XQm9sSzJadHlNTWp3Z2hiWFlUbDZhOVNTZkNnUHZOOXNaNmQ0d2M5Nmt6R3hBb0NHMFZ6SFhEbjNRdDJnU3RFOVY5NW0xTHNxTjZZN1JUV29PbmVtcks0M3c0RlNOU3Ntd3pvRU54d21PM0EwTlF1T3hULVJxdkZ4amM5Q3U3dHBZb19WdXc3QkhVRkk?oc=5",
+  "published_at": "2025-06-12T07:00:00+00:00",
+  "source": "Multiple Sclerosis News Today",
+  "source_type": "news_search",
+  "title": "Phase 3 trials of vidofludimus calcium in relapsing MS enrolled"
+ },
+ "4c69d03f511c8931": {
+  "collected_at": "2026-11-05T13:29:15.920547+00:00",
+  "description": "BTK Inhibitor Orelabrutinib Shows Promising Efficacy in Phase 2 Study of Relapsing-Remitting Multiple Sclerosis NeurologyLive",
+  "id": "4c69d03f511c8931",
+  "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPWm9PX1QwMjNGNnNhY1otZlkzZHloTVlzeWtsck5mWmJFVGZjbXBtSGl3X3ppOGJBX3lha2tnRS1KTmJoRVF1WGxZc1pCRTdKZUd1ZHhKZDJOZ2h2dmVPMUpycF9xT0F5akN1enlDcFZ5bFR5cGFsd3dnbFZJNTRQQzFPQThTT3RHTnczeVFqeEJaZEh5OWVjTHlnR2RYTXEtQjBYVWZFcEk5VHBacWRNa0V4WmxqN3NXeENFWkRyUGhEbDFZNHlJbHp0cjRUQVVPWXJ4Vm5TNA?oc=5",
+  "published_at": "2025-03-02T08:00:00+00:00",
+  "source": "NeurologyLive",
+  "source_type": "news_search",
+  "title": "BTK Inhibitor Orelabrutinib Shows Promising Efficacy in Phase 2 Study of Relapsing-Remitting Multiple Sclerosis"
+ },
+ "4dd9316e89131eb0": {
+  "collected_at": "2026-11-05T13:29:15.920117+00:00",
+  "description": "New World MS Day Theme MS International Federation .",
+  "id": "4dd9316e89131eb0",
+  "link": "https://www.msif.org/news/2026/10/15/new-world-ms-day-theme/",
+  "published_at": "2026-10-15T14:01:26+00:00",
+  "source": "MSIF",
+  "source_type": "patient_org",
+  "title": "New World MS Day Theme"
+ },
+ "4e157c8430d18db6": {
+  "collected_at": "2026-11-05T13:29:15.920576+00:00",
+  "description": "ECTRIMS 2025: Vidofludimus calcium shows promise against MS Multiple Sclerosis News Today",
+  "id": "4e157c8430d18db6",
+  "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNV3NwMHd3WE9kNTdKbWRaOFpMUXQ0NGlTc0FuU2tnMkdEUlZ4Z25QMzJ4ajVaUzN4cTRWakgxdTFhR0lJUmlKQ2FyQnNFaUxRc01HbUJKRXAwQ1ZmRjZ3Vm9Ua29vUGdHNW02cDNjZ2o0T1Q2Q3pBZjRhM2dGZzh3UmNFU2ZRSGREM2dlYnNnLXVWRjc4bmlTaDA5SXYtRTQ3eW55VGI1bnJXTzJFMGdCLWd5d05lRV9U?oc=5",
+  "published_at": "2025-10-03T07:00:00+00:00",
+  "source": "Multiple Sclerosis News Today",
+  "source_type": "news_search",
+  "title": "ECTRIMS 2025: Vidofludimus calcium shows promise against MS"
+ },
+ "501dab1da50518b9": {
+  "collected_at": "2026-11-05T13:29:15.920624+00:00",
+  "description": "Biogen and Innocare Announce License and Collaboration Agreement For Orelabrutinib, an Innovative CNS Penetrant BTK Inhibitor For the Potential Treatment of Multiple Sclerosis Biogen",
+  "id": "501dab1da50518b9",
+  "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNRXVBLVl5Wm9wOXdBdjNEemVPaXpLU2ZWb3JTS0VOc0JpV3pTdFk3ZkltRWgzbTJkTGE1OC1COXdWQ2dQWHUxTURpTnBDdVZqRDA2RG5PNkRHbWgwN0RsZDdlSDRLMlctSXNTckk1cmlEdzRXcXdvUDJCUFJ3cWFsUDh4ZjFKazh3RmphaXJWX0J1YW1NQWd0U0IwNFZWVHNPQ3BxdHV1ZDFmZURMTWQ0THpOZUNCQ3RiNzZscFF5d2tVNmhJajBV?oc=5",
+  "published_at": "2021-07-12T07:00:00+00:00",
+  "source": "Biogen",
+  "source_type": "news_search",
+  "title": "Biogen and Innocare Announce License and Collaboration Agreement For Orelabrutinib, an Innovative CNS Penetrant BTK Inhibitor For the Potential Treatment of Multiple Sclerosis"
  },
  "510e5caadf277c40": {
   "about_ms": true,
@@ -249,6 +559,56 @@
   "summary_model": "claude-sonnet-5-5",
   "title": "Bringing MS to work: conversations, challenges, and vocational rehab"
  },
+ "5123185eed6378a1": {
+  "collected_at": "2026-11-05T13:29:15.920606+00:00",
+  "description": "ECTRIMS 2023: Vidofludimus calcium lowers RRMS nerve damage Multiple Sclerosis News Today",
+  "id": "5123185eed6378a1",
+  "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOaTdaLW02VjBJcFF5eEdTaVRzQ2p6enBjNmVUNWJqSGhYREtHeFo0M2dsdUVkVGY2V2ZCSzBIMXlfbGY3S1JzQnVHSk1vZTQ1ZzhxZjkxMzZZMHVtLUQ3TDF3VnRUdFNiNUlNdFpsX2ktTmhtc2pwS0l1bHpTZm1LUjhoWUlCdFh2c3JaUVF0a1lQWEllS05mVl85Y283U1lhbklTREJfcnc5TEZDM1NGdExSdTVTZ3VKa0Q1bTBvOXBXalJR?oc=5",
+  "published_at": "2023-10-11T07:00:00+00:00",
+  "source": "Multiple Sclerosis News Today",
+  "source_type": "news_search",
+  "title": "ECTRIMS 2023: Vidofludimus calcium lowers RRMS nerve damage"
+ },
+ "51ef620308c0115a": {
+  "collected_at": "2026-11-05T13:29:15.920213+00:00",
+  "description": "TG Therapeutics Unveils Early Azer-cel Data in Progressive Multiple Sclerosis at MSToronto Kalkine",
+  "id": "51ef620308c0115a",
+  "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQR1BoR3NLUDhTdm5hOTI0enlFTElmN1FoQkl4ZkFaMHV5WXRrMm9xVkdNNWdMUERtVjRsZlNKWWRBS045c2NiWkZ1N0RzNkp4YTBoZ0I1RWVFcGVTUlVLaU4wcURnYnVTQndXWUx0Wm5uVlgxcU5oSjRfaHp5c3hMR1BHbmY3LXZfTDRtdFFZNjBrTzRpRlNJOTlWNE8zX29SRS15bDA1QXVjbHBPNjQ0Z01jWTgtWmZhTzFJc3BFU1RMRkZELVRpZw?oc=5",
+  "published_at": "2026-11-02T12:34:00+00:00",
+  "source": "Kalkine",
+  "source_type": "news_search",
+  "title": "TG Therapeutics Unveils Early Azer-cel Data in Progressive Multiple Sclerosis at MSToronto"
+ },
+ "560f2cf4cd4cdf04": {
+  "collected_at": "2026-11-05T13:29:15.920190+00:00",
+  "description": "BTK Inhibitor Reduces MS Relapse Rates in Two Phase 3 Trials Medscape",
+  "id": "560f2cf4cd4cdf04",
+  "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQTWRNNG9DalVuWkZ4czJfb1dyZG5JQzNmM3c4NEhsYmRqZHo1SEc4RXFzR2Z5WkFoM3dSUkJSWVdUNHV0WjZkeVVCV2pwcjZNSEc0eWJTMDBrQ0s5cjBmemI0cWVrZEE4MkNlTVNNNi1tQ2l1cm1qbmQwaFFLTmQtemViNVA4Ynl5VmdfZU9xVUVfcEJDUmNoeFVPSVdWb0NsblZhRkp0ZFY4Qzg?oc=5",
+  "published_at": "2026-10-30T12:08:37+00:00",
+  "source": "Medscape",
+  "source_type": "news_search",
+  "title": "BTK Inhibitor Reduces MS Relapse Rates in Two Phase 3 Trials"
+ },
+ "589279be370fc61e": {
+  "collected_at": "2026-11-05T13:29:15.920637+00:00",
+  "description": "Arbaclofen ER Tablets Show Similar Potency for Spasticity as Baclofen Multiple Sclerosis News Today",
+  "id": "589279be370fc61e",
+  "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQd2diVUdpLWZ1em5YdU43RnJsWXh5VlBNSXlENEVrWDhvWVNUSUl0Ujg4cm1oMFFyelNyNnZnZG1DM294dGlKX0Q0TGNCc1ZRV2NxN3FaVVgyY3dUMkdWaXRta1Nyd3hFTU16cThXajh3aG9DMzdDV3NVUXZnYnNxQy1rdjlUT21ZdmRKX1cteF9ueEhlM01Xak56bk1GUQ?oc=5",
+  "published_at": "2019-06-28T07:00:00+00:00",
+  "source": "Multiple Sclerosis News Today",
+  "source_type": "news_search",
+  "title": "Arbaclofen ER Tablets Show Similar Potency for Spasticity as Baclofen"
+ },
+ "58a60dca8cfc9de1": {
+  "collected_at": "2026-11-05T13:29:15.920648+00:00",
+  "description": "Azathioprine: Old Drug, New Data Multiple Sclerosis Discovery Forum",
+  "id": "58a60dca8cfc9de1",
+  "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQOHhrcmR6R1RhYnVLSFQ3ZjF5ZVBBS3dWdmQ1ejcyNmFwdjNBa09uRXc0VkhfUl9TQjBnbEI5d2lFNS10ZzN0VWEyU3BDZzNhWUNsTzJwOU1NWUdyY2pMa2drTldlWGczcDlPdlFjaWl5N3VjZ0ZndGE0MURpRTFFMG5yWUpHbG5L?oc=5",
+  "published_at": "2014-12-15T08:00:00+00:00",
+  "source": "Multiple Sclerosis Discovery Forum",
+  "source_type": "news_search",
+  "title": "Azathioprine: Old Drug, New Data"
+ },
  "5b3d9c7966ce14a0": {
   "about_ms": true,
   "category": "living_with_ms",
@@ -264,6 +624,16 @@
   "summary": "An MS Trust podcast episode follows the journey of an MS treatment with Cambridge researcher Dr Nick Cunniffe. Faisal, who has MS, describes what taking part in a clinical trial is like. Episode notes link to the CCMR2 trial of metformin and clemastine.",
   "summary_model": "claude-sonnet-5-5",
   "title": "What is it like taking part in clinical trials for MS research?"
+ },
+ "5b409af77a9f0dcb": {
+  "collected_at": "2026-11-05T13:29:15.920142+00:00",
+  "description": "Earlier diagnosis requires more than new criteria MS International Federation .",
+  "id": "5b409af77a9f0dcb",
+  "link": "https://www.msif.org/news/2026/08/26/earlier-diagnosis-requires-more-than-new-criteria/",
+  "published_at": "2026-08-26T08:09:33+00:00",
+  "source": "MSIF",
+  "source_type": "patient_org",
+  "title": "Earlier diagnosis requires more than new criteria"
  },
  "5dd9b32d5ccf04f2": {
   "about_ms": true,
@@ -297,6 +667,26 @@
   "summary_model": "claude-sonnet-5-5",
   "title": "Antigen presentation by CD40+MHC-II+ astrocytes promotes CNS autoimmunity"
  },
+ "60f15978693a388d": {
+  "collected_at": "2026-11-05T13:29:15.920462+00:00",
+  "description": "Tiziana’s Phase IIa trial of foralumab meets dual endpoints in na-SPMS Yahoo",
+  "id": "60f15978693a388d",
+  "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNeWI4V0Z0RGZTNzlpMXg1QzZUTXBNdEF4T29rOEZrX0I3UEZHemMtazNlUG9tNDZHQkN1R2doejlYWDY4Rnc1Ty1fWC1aSl84dU9BWU9XY0NPSGpScDgzNWdENHkxZGV4QUFFZ0FiQmxEdVlvMHV6Z1IzYmNaQWRKZFZlMDNodC1Lc3F3OXJlbDU1Q2hwbV9J?oc=5",
+  "published_at": "2026-11-03T11:02:02+00:00",
+  "source": "Yahoo",
+  "source_type": "news_search",
+  "title": "Tiziana’s Phase IIa trial of foralumab meets dual endpoints in na-SPMS"
+ },
+ "621eabe36efc3842": {
+  "collected_at": "2026-11-05T13:29:15.920430+00:00",
+  "description": "Natalizumab plus Interferon Beta-1a for Relapsing Multiple Sclerosis NEJM",
+  "id": "621eabe36efc3842",
+  "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBlcHRkT1RBOXhlX3ZiSDJxYUtJaEpxY3ZLOHBtdkJ0dk04Wk55c19xZU9GWFFPRmNrVzRpZjhkeVhNUlhsdWpXeHlMMVhQcnBxTFZvcWZEVVVMaFJpSW1r?oc=5",
+  "published_at": "2006-03-02T08:00:00+00:00",
+  "source": "NEJM",
+  "source_type": "news_search",
+  "title": "Natalizumab plus Interferon Beta-1a for Relapsing Multiple Sclerosis"
+ },
  "64db217fe34e3400": {
   "about_ms": false,
   "category": "other",
@@ -313,6 +703,46 @@
   "summary_model": "claude-sonnet-5-5",
   "title": "Beam-F3 error analysis and validation of Neurally-F3 equations using realistic head models"
  },
+ "6537d5af935b0ebe": {
+  "collected_at": "2026-11-05T13:29:15.920293+00:00",
+  "description": "FDA Approves Ilumya for Adults With Active Psoriatic Arthritis Pharmaceutical Executive",
+  "id": "6537d5af935b0ebe",
+  "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOX2M4OG5xdWhoY1Riak1NLXFDYk1lRW5xNlA1VGVBMnlwZ3ExbVNJUXloNGFGLTU1STJzNTJTclNVUUl3dFNxamFUWWlzNmd2YW92RDhUWEd0UXZNVWVPRWRTZ1ZvN2V5eGpNLUttOXNnU2JQMm5ROVFIR2tuVDVRUEVJYzJKdUJQNDRreHhQb1BlR3ZQVEE?oc=5",
+  "published_at": "2026-10-30T13:31:06+00:00",
+  "source": "Pharmaceutical Executive",
+  "source_type": "news_search",
+  "title": "FDA Approves Ilumya for Adults With Active Psoriatic Arthritis"
+ },
+ "6727bb0a691ecab2": {
+  "collected_at": "2026-11-05T13:29:15.919841+00:00",
+  "description": "I am using the start of November as an opportunity to pause, reflect, and think about what I am thankful for. As we enter a month often associated with gratitude, family, and togetherness, I find myself thinking about what thankfulness looks like when you are living with multiple sclerosis (MS). Gratitude can sometimes feel complicated […] The post Finding gratitude in the middle of the journey with MS appeared first on Multiple Sclerosis News Today .",
+  "id": "6727bb0a691ecab2",
+  "link": "https://multiplesclerosisnewstoday.com/columns/2026/11/04/finding-gratitude-middle-journey-ms/",
+  "published_at": "2026-11-04T15:00:35+00:00",
+  "source": "MS News Today",
+  "source_type": "news",
+  "title": "Finding gratitude in the middle of the journey with MS"
+ },
+ "6801c2b6827d7db1": {
+  "collected_at": "2026-11-05T13:29:15.920703+00:00",
+  "description": "Tysabri (natalizumab) Market Outlook Signals Expansion To Billion Through 2030 openPR.com",
+  "id": "6801c2b6827d7db1",
+  "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQU0hBd2NRanR0WENhenQ2UU52YjduTW9feGVVVGl2QV9wVFNWWlZFWFlQUFNnMmo3YlFGWUl1UXF0VVA2QzBieXp4WTNUY1hzTjQ4YmdfZWZVRmxZN2NycXBuVTE2Rl82b1l2cG5URzJOQ2pCSUFaVElCRldPQU5iSjVaUHZzN1Azb1BSWWVqOWgxdw?oc=5",
+  "published_at": "2026-10-30T09:05:03+00:00",
+  "source": "openPR.com",
+  "source_type": "news_search",
+  "title": "Tysabri (natalizumab) Market Outlook Signals Expansion To Billion Through 2030"
+ },
+ "68990c0c612d9c95": {
+  "collected_at": "2026-11-05T13:29:15.920337+00:00",
+  "description": "Former DEA Administrator Sounds Alarm on Drug Safety as Federal Marijuana Rescheduling Faces Critical November 5 Deadline ACCESS Newswire",
+  "id": "68990c0c612d9c95",
+  "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxOTUU3RjZIUlRSSEtvZ1dJZEtPX3lVd25SYXpuX0JiSG5zeUlpdnZzeU96Y1VuUnc1cDY1RGUzTlkwWGFOQVVPRHVxSEVKZnNRN3FQZXRPWnctcnNEY0x3VkEtQUt0ZFNOQk5KMjUxakttVVVYajVVbDZ6ekdiMDNnU2M1OXdjbUR2M0tzV0pZaEowWnpHbVQwQnB1WWJ3U0t4RUtHSXB0Wl9oS1MwSlZZWTl4Mkp3WmRJWmJtM21hSkMyTXYyc3ZiRldub1FVSThYWWkzTmxTUDhHOGhiMzdLTXdZNEg?oc=5",
+  "published_at": "2026-11-05T02:00:00+00:00",
+  "source": "ACCESS Newswire",
+  "source_type": "news_search",
+  "title": "Former DEA Administrator Sounds Alarm on Drug Safety as Federal Marijuana Rescheduling Faces Critical November 5 Deadline"
+ },
  "68c5d9e8a4719912": {
   "collected_at": "2026-11-04T13:15:27.628650+00:00",
   "description": "A lower dose of the experimental therapy foralumab significantly reduced a marker of brain inflammation in people with nonactive secondary progressive multiple sclerosis (SPMS), according to top-line results from a Phase 2 clinical trial. The 12-week study, called INFORM-MS (NCT06292923), met both its main goals. Both doses of foralumab were safe and well tolerated, while […] The post Experimental MS therapy reduces brain inflammation in Phase 2 trial appeared first on Multiple Sclerosis News Today .",
@@ -322,6 +752,16 @@
   "source": "MS News Today",
   "source_type": "news",
   "title": "Experimental MS therapy reduces brain inflammation in Phase 2 trial"
+ },
+ "69f167c8f9436e31": {
+  "collected_at": "2026-11-05T13:29:15.920495+00:00",
+  "description": "New European patent covers all dosing regimens of experimental MS therapy Multiple Sclerosis News Today",
+  "id": "69f167c8f9436e31",
+  "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxONmVtSUVhdS16SllKY1F3NHNyNEVkU213U0dBVS1yRmo4RFRDZEdaSEVLejZPSzI5dmhfSVF5RTBhcnBxQ2UzZl9MOEVnQ3RKQmxpUi1MaTE0S1VKMFZkM0h1UHYwdC1LdlNFNzkxcDNBY3RCMVRkWDB3ZnNIck5RSDltNmJxZnVvNnd5UlJvc1VyX3BCYzFEemtvS0lGN3BZLW1zSkhFQnFjSThoZUEyTGhDMkdaZVZIRkJEZHRIQkR6cTlTRW4wcFZSRWhMQQ?oc=5",
+  "published_at": "2026-03-12T07:00:00+00:00",
+  "source": "Multiple Sclerosis News Today",
+  "source_type": "news_search",
+  "title": "New European patent covers all dosing regimens of experimental MS therapy"
  },
  "6bbb117cf85b66ae": {
   "about_ms": true,
@@ -379,6 +819,16 @@
   "summary_model": "claude-sonnet-5-5",
   "title": "Study ties MS therapy to higher risk of inflammatory bowel disease"
  },
+ "6e18ce73b4057557": {
+  "collected_at": "2026-11-05T13:29:15.920322+00:00",
+  "description": "FDA Approves Voceryq | PharmExec Pharmaceutical Executive",
+  "id": "6e18ce73b4057557",
+  "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE12ekgwNzI4RTN0RTFIdkhlSXl6VThITFdNRnlzNy1QU3h3R1lFZnRGX055VS1HdXdkenE3X1lGTllTSDdHMmtsYS0ta25zNFIwSVNENFptQkNpNGhHTGloVjM5NGtQd0Q1?oc=5",
+  "published_at": "2026-11-02T19:17:43+00:00",
+  "source": "Pharmaceutical Executive",
+  "source_type": "news_search",
+  "title": "FDA Approves Voceryq | PharmExec"
+ },
  "6fa63a312c602c36": {
   "about_ms": true,
   "category": "research",
@@ -395,6 +845,36 @@
   "summary_model": "claude-sonnet-5-5",
   "title": "APOE ε4 is linked to relapse-associated disability accrual in MS"
  },
+ "75a30f9566a99500": {
+  "collected_at": "2026-11-05T13:29:15.920524+00:00",
+  "description": "Zenas BioPharma Announces Upcoming Presentations of GlobeNewswire",
+  "id": "75a30f9566a99500",
+  "link": "https://news.google.com/rss/articles/CBMi7AJBVV95cUxQN0M3M0Q0djhwX05tV0ZJd2tuRng3SFBHakVzQmhNeVlkcXdDSF9keFYyMHVCU0ZibE1OQVBpNDNzdDV2Q18wSUdzMEIwS3lwYlVraHdLb1VET0FYOTVrX0tvckRJQnQtbWlydUFVaTJzWlJjTVZ5VFpMS0NZX2FaTUhsRzNHSFRFT0Rwam9OSUZvQlo1M1NDdzJzWHFJMUZQYVlJYnJwekRJZ2l0NkJXTThDdFVkajFhZE5zQU43Sjd2dmhZTllscTBaM0hfak5JRUZpUlRPcWdwUHN6OTdZM3pWLWFwX2FPcjloYVY5UF9VMHNLTk41QnBHSEhJWWotSXhzYmZaUldBejZBVmdFTWp1RFZERWN3TnVBbzZQVVFaeF84UkhNOHhlajN0X2VUUVJ1aWM1SnRmRGk5TDBTellUNk45d1VQczBDTjRwd01HYlhYa190cWlrRHAtakVKeWZ1aGtIVTFIZ2ZZ?oc=5",
+  "published_at": "2026-10-07T07:00:00+00:00",
+  "source": "GlobeNewswire",
+  "source_type": "news_search",
+  "title": "Zenas BioPharma Announces Upcoming Presentations of"
+ },
+ "75e2846265d82a99": {
+  "collected_at": "2026-11-05T13:29:15.920600+00:00",
+  "description": "Orelabrutinib reduces brain lesions in RRMS by 90% in Phase 2 trial Multiple Sclerosis News Today",
+  "id": "75e2846265d82a99",
+  "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNQkVKaFRVUEZZS0NLY3hxdGx5XzNTVUsyRUJYcnI4MS1yRkRsc0RvZ2hZT20yc28tSTZMY0dFZG9GME5XTzQxQWdMMVZOMk5ObENQMGxEZ3RGZFNnamZ3ZlJLTkxnQVBodlQyZFlvRkE5bVhSb3BxSGF0MUNTbmMwbzhnYmdWd1dOTTNydktlSmVodmh4cUotLWg4anJCUHpMVTkxWndKMFJWbWN0UGxPa0xtaE5qeXJDMTU0U0tQeUNNcFZHRXQ0?oc=5",
+  "published_at": "2023-03-29T07:00:00+00:00",
+  "source": "Multiple Sclerosis News Today",
+  "source_type": "news_search",
+  "title": "Orelabrutinib reduces brain lesions in RRMS by 90% in Phase 2 trial"
+ },
+ "782e84b283f48b78": {
+  "collected_at": "2026-11-05T13:29:15.920155+00:00",
+  "description": "Strong member endorsement reflects the value of MSIF membership MS International Federation .",
+  "id": "782e84b283f48b78",
+  "link": "https://www.msif.org/news/2026/07/21/member-endorsement/",
+  "published_at": "2026-07-21T12:23:08+00:00",
+  "source": "MSIF",
+  "source_type": "patient_org",
+  "title": "Strong member endorsement reflects the value of MSIF membership"
+ },
  "7bbd07e2f95d5134": {
   "about_ms": true,
   "category": "living_with_ms",
@@ -410,6 +890,36 @@
   "summary": "An MS Trust podcast episode on working life with MS. It covers workplace rights under the Equality Act, disclosing a health condition to an employer, and reducing hours or giving up work. Guests are discrimination case worker Lance Baynham and HR professional Gideon Schulman, who has MS.",
   "summary_model": "claude-sonnet-5-5",
   "title": "Working life and MS"
+ },
+ "7c3ce4e4a22f1751": {
+  "collected_at": "2026-11-05T13:29:15.920137+00:00",
+  "description": "New leadership for MSIF’s International Medical and Scientific Expert Group MS International Federation .",
+  "id": "7c3ce4e4a22f1751",
+  "link": "https://www.msif.org/news/2026/08/26/new-leadership-for-msif-imseg/",
+  "published_at": "2026-08-26T10:07:57+00:00",
+  "source": "MSIF",
+  "source_type": "patient_org",
+  "title": "New leadership for MSIF’s International Medical and Scientific Expert Group"
+ },
+ "7fb7679c366bfa06": {
+  "collected_at": "2026-11-05T13:29:15.920162+00:00",
+  "description": "Relapse Rates Drop Significantly in Relapsing Multiple Sclerosis Trial EMJ",
+  "id": "7fb7679c366bfa06",
+  "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPU0hiUnJZZTdWNEtBbUZNTlFyS1Y1R0xoNHJJQzE5WEg3YkhHYlpFYUZwckdqczNNUXVsbGJOenNyRS14dU1pTXprVzNwbWtaeW55U1E1cVo4dHpIeUdpTVRzTVU1T1NKeFVrcWl1anBVdlRpNW5JWjQ2Wm5oSjduTno3dHJ5VXhPaEdsZ1I3NHFUaU8tTHV0SGJMdHRrWngyYjJOMmx5Qy1acEc2Zkg2OUwtRQ?oc=5",
+  "published_at": "2026-11-01T12:02:24+00:00",
+  "source": "EMJ",
+  "source_type": "news_search",
+  "title": "Relapse Rates Drop Significantly in Relapsing Multiple Sclerosis Trial"
+ },
+ "7fe02132d4362dba": {
+  "collected_at": "2026-11-05T13:29:15.920489+00:00",
+  "description": "Antioxidant May Influence Brain Changes in Multiple Sclerosis, Study Suggests MedPage Today",
+  "id": "7fe02132d4362dba",
+  "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBKV3JXSWcwbEkyZXJ6OWxWLVNVWkRyOExGZTRGd0lLX054dEtMVDBUMlkwOHhMWjkwMjAyWEUzaTBLYkdWcWEyaXdaRm9fVGZBbFVMNE5HeTNaTGN3WkFCdjhUSVpKUWI3?oc=5",
+  "published_at": "2026-10-13T07:00:00+00:00",
+  "source": "MedPage Today",
+  "source_type": "news_search",
+  "title": "Antioxidant May Influence Brain Changes in Multiple Sclerosis, Study Suggests"
  },
  "824aecce47a05e57": {
   "about_ms": true,
@@ -459,6 +969,36 @@
   "summary_model": "claude-sonnet-5-5",
   "title": "Towards a biologically informed description of multiple sclerosis disease course — a roadmap for transition"
  },
+ "87b430d576fed028": {
+  "collected_at": "2026-11-05T13:29:15.920659+00:00",
+  "description": "Trial of Satralizumab in Neuromyelitis Optica Spectrum Disorder NEJM",
+  "id": "87b430d576fed028",
+  "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE83LTF1V2lSWlNiWU5fcDNTZXoySDJNVnpXTnJMNGN0MWwtTk9CZEdzcTJ5R212dWF1ZzEwZlVhZzIwVUFuc2dsbnBGSG5Rc2pFdllqQ0thN0VzcTFnZUNkUA?oc=5",
+  "published_at": "2019-11-27T08:00:00+00:00",
+  "source": "NEJM",
+  "source_type": "news_search",
+  "title": "Trial of Satralizumab in Neuromyelitis Optica Spectrum Disorder"
+ },
+ "889cda1ea4adb0ed": {
+  "collected_at": "2026-11-05T13:29:15.920683+00:00",
+  "description": "Rituximab Displays Superiority to Azathioprine, Mycophenolate Mofetil as Initial NMOSD Treatment NeurologyLive",
+  "id": "889cda1ea4adb0ed",
+  "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPYnJ1U2lQekIzOXdPMEZ4X0E5cWNLcF9TS1RSRmtiLWtLN25DdGhvUUhqNEdkdE1QUkVKblNkS0I3NWRTcDVjcldCRm1ZRFVmR0FmRkFwNG9xQXE4MVd4eWxVMEhWbWtuY1dPNjMwQk14UlpORHY5SlFMeWxsMVpTWkhjRUFReXVYdDM2c2VaWnJYY05BUGxrV3ZKbE03MUtuX1VOemRzNXEtVTA0R1BJck5OZVZMRU1PNmg3Smt0T2UzZw?oc=5",
+  "published_at": "2022-09-13T07:00:00+00:00",
+  "source": "NeurologyLive",
+  "source_type": "news_search",
+  "title": "Rituximab Displays Superiority to Azathioprine, Mycophenolate Mofetil as Initial NMOSD Treatment"
+ },
+ "899d5efa74f1a7c7": {
+  "collected_at": "2026-11-05T13:29:15.920559+00:00",
+  "description": "CALLIPER Subpopulation Data Support Therapeutic Effect of Vidofludimus Calcium in Primary Progressive MS NeurologyLive",
+  "id": "899d5efa74f1a7c7",
+  "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPc3M5V3o3U2JrdFo2NWlPWmhMVGhJUWxJOUFWOThIMWIteDFMQ2pDMEs4SEd2ZHYzaFJHRUhsTkFuMWFsUjhNSE13a01wVFFvcWNPZGhlS3hQUTU4X1piTmdoTWVqeXIxSENMaF8xQzNRa3o5ZkIzYXlxNTZDbm4xbmF0NExiYVhsQWhkOFNnMjJ5aW9MaDkzY2Z4VjNVcXpQVTZXRVY1LXVScUpSRkttem1zSFFidw?oc=5",
+  "published_at": "2025-09-26T07:00:00+00:00",
+  "source": "NeurologyLive",
+  "source_type": "news_search",
+  "title": "CALLIPER Subpopulation Data Support Therapeutic Effect of Vidofludimus Calcium in Primary Progressive MS"
+ },
  "8ba3bcb143b805a8": {
   "about_ms": true,
   "category": "research",
@@ -483,6 +1023,16 @@
   "summary_model": "claude-sonnet-5-5",
   "title": "Mapping the prevalence of Epstein-Barr virus and multiple sclerosis in Middle East and North Africa: a systematic review and meta-analysis."
  },
+ "8bc19c6222104574": {
+  "collected_at": "2026-11-05T13:29:15.920198+00:00",
+  "description": "Remibrutinib Phase 3 Results in RMS, Blood Pressure Variability Findings, and Updated Stroke Rehabilitation Guidelines NeurologyLive",
+  "id": "8bc19c6222104574",
+  "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNclJxRHM3WlFkSUY4NkNMRWFDUnNBQ3ZfbFdTcURha1ZhOFNTcWxqRlpUWk9TVmpKaXhmTFZGYnIwT2lneWlpYThZbExsZlFHb2hTOE5zN1VWeGNIZS1Uc0lFT0NMOUo3X2NnQnM4dHhQcEtHVXV3ZWVScnpnRjM4MXRaSjJtS01YdHRyM1A2V05tVEVRS19KUWhqYkxNN0h3LUtmZUVCSmRoczJKLWQwM3BKZG9nd2tlZEVfQmlydktqcEhYLUhKVkdmY243clMzaC1yYnpNaVBsa08z?oc=5",
+  "published_at": "2026-11-01T00:16:46+00:00",
+  "source": "NeurologyLive",
+  "source_type": "news_search",
+  "title": "Remibrutinib Phase 3 Results in RMS, Blood Pressure Variability Findings, and Updated Stroke Rehabilitation Guidelines"
+ },
  "8fab8c343b3eff1f": {
   "about_ms": true,
   "category": "living_with_ms",
@@ -499,6 +1049,16 @@
   "summary_model": "claude-sonnet-5-5",
   "title": "Heat sensitivity and MS"
  },
+ "8ffa31f2dcd33c4c": {
+  "collected_at": "2026-11-05T13:29:15.920329+00:00",
+  "description": "Marijuana Rescheduling In Peril: AMA Demands FDA Scientific Standards As GAO Report Exposes Malaise News-Press NOW",
+  "id": "8ffa31f2dcd33c4c",
+  "link": "https://news.google.com/rss/articles/CBMimAJBVV95cUxNMS03YVhCbFlNY2lLYnRfbmFmczNESGpHVmNSYS1MWE1ybnJFU0pWMkZnQmVyS21sTG1qMkQ3aDFUT2JjNm5KRmktUUJrWV9acy1LaHJrNTFJSXpfcVhib3dILThoNExFZlFjR2xSczhBeGhIV0JCcVdsWkU4blJqU3ZESTNNeEFEazBNa2YzVGlCYjhJdmp5ckxicjl5cmh1eE5TTHczWTVlZkRSWkFwQnlsU1Z3b1FGMkNyXzhzU2dyUzk0WXNmelZLUTVrLWllckZZUzJHQnJjeEtZVEpkMTMxdERPS3NSZmZ6Rzg0V09XOWZWOUNjTjJCZlQtb3FZSFFXVmxYZUx6b1hrXzFsT2lPalFCb0lV?oc=5",
+  "published_at": "2026-11-02T16:31:45+00:00",
+  "source": "News-Press NOW",
+  "source_type": "news_search",
+  "title": "Marijuana Rescheduling In Peril: AMA Demands FDA Scientific Standards As GAO Report Exposes Malaise"
+ },
  "90bde309092e14d9": {
   "about_ms": true,
   "category": "living_with_ms",
@@ -514,6 +1074,16 @@
   "summary": "Christina Applegate was diagnosed with MS in 2021, which explained her symptoms and gave her a community for support. The article's title refers to an MS misdiagnosis more than five years later, but the excerpt gives no details.",
   "summary_model": "claude-sonnet-5-5",
   "title": "Christina Applegate’s MS misdiagnosis sparks discussion"
+ },
+ "916a1c76d540759f": {
+  "collected_at": "2026-11-05T13:29:15.920401+00:00",
+  "description": "Trial of Fingolimod versus Interferon Beta-1a in Pediatric Multiple Sclerosis NEJM",
+  "id": "916a1c76d540759f",
+  "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5XaUtjenBKTzZvN0h3aENubGRROUxTSGNmVkRCVzFldHJBQmxLZ3dRRTNsOERmRFFfVWFlUDFiZHM1Ul9BVF9yZ281ZHFMcU9MUGk3aUFHa2NlS0dsdnY2SA?oc=5",
+  "published_at": "2018-09-12T07:00:00+00:00",
+  "source": "NEJM",
+  "source_type": "news_search",
+  "title": "Trial of Fingolimod versus Interferon Beta-1a in Pediatric Multiple Sclerosis"
  },
  "9371dee89b54dffc": {
   "about_ms": true,
@@ -547,6 +1117,16 @@
   "summary_model": "claude-sonnet-5-5",
   "title": "B-cell therapies linked to fewer relapses in early MS, study finds"
  },
+ "9450389664e69991": {
+  "collected_at": "2026-11-05T13:29:15.920425+00:00",
+  "description": "Alemtuzumab vs. Interferon Beta-1a in Early Multiple Sclerosis NEJM",
+  "id": "9450389664e69991",
+  "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE81MUE2NXhKaXFRdWpTUjBhcDZWc2QxSTBZRmtJUFR5d2M2eFhZcExQakVPajdaMEl3RENCbElRbXJGdkxjTlpwbUUwZHFHQWV3QnpCbkRXZXFjdk1ueVJ2WA?oc=5",
+  "published_at": "2017-10-12T11:29:33+00:00",
+  "source": "NEJM",
+  "source_type": "news_search",
+  "title": "Alemtuzumab vs. Interferon Beta-1a in Early Multiple Sclerosis"
+ },
  "9738ef7bae4bceca": {
   "about_ms": true,
   "category": "research",
@@ -562,6 +1142,16 @@
   "summary": "A Nature article considers what the 'negative space' tells us about the immunology of multiple sclerosis. No article text was available, so its findings and the study type cannot be described.",
   "summary_model": "claude-sonnet-5-5",
   "title": "What the ‘negative space’ tells us about the immunology of multiple sclerosis"
+ },
+ "99c5225fea4b3c1c": {
+  "collected_at": "2026-11-05T13:29:15.920475+00:00",
+  "description": "Understanding the Mechanism and Therapeutic Potential of Vidofludimus Calcium for Multiple Sclerosis NeurologyLive",
+  "id": "99c5225fea4b3c1c",
+  "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPWGJZNmJ3ZUk4eVRJeEJubHIwdG9FREtzOXRHRnp2azRyWWRqTnR6REljdXp0ZkJiRTRDYmgzMkF3ODhnVXNGMkFyMnBVN3ZLQlhGcE9HTEZFM0x3M0dGRGVuSkMtd3Z6c3RCdm5BWnd2dzZfNmVsVHViWllDUFBBTkw5Sy1hSkwxbm8xVlQxQ2xXMk9xLUdKUnRlVTNPS05DOElHd1U3VnYydXpKWWpmMm5Ga3lsRDNyN0s4MkZleDJfZw?oc=5",
+  "published_at": "2026-06-09T07:00:00+00:00",
+  "source": "NeurologyLive",
+  "source_type": "news_search",
+  "title": "Understanding the Mechanism and Therapeutic Potential of Vidofludimus Calcium for Multiple Sclerosis"
  },
  "9df59308fc6e7bb3": {
   "about_ms": true,
@@ -595,6 +1185,46 @@
   "summary_model": "claude-sonnet-5-5",
   "title": "Breg cells to the rescue"
  },
+ "a57a8df497853457": {
+  "collected_at": "2026-11-05T13:29:15.920129+00:00",
+  "description": "The May 50K 2026: What participants told us MS International Federation .",
+  "id": "a57a8df497853457",
+  "link": "https://www.msif.org/news/2026/09/01/the-may-50k-2026-what-participants-told-us/",
+  "published_at": "2026-09-01T15:03:32+00:00",
+  "source": "MSIF",
+  "source_type": "patient_org",
+  "title": "The May 50K 2026: What participants told us"
+ },
+ "a6d753815fc9b68d": {
+  "collected_at": "2026-11-05T13:29:15.920406+00:00",
+  "description": "Oral Fingolimod (FTY720) for Relapsing Multiple Sclerosis NEJM",
+  "id": "a6d753815fc9b68d",
+  "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE03c0Z6WE5TRlY3OEl6M1FTemZzUU5pWGZXZVI3SEpvd3pISF9JYnRqZHpTc2staVFZZXpPTXA0aTFmLVNBckxqQmxkYnQ0QjQ4dTRNaEs1bFlJdlI3Ymg4?oc=5",
+  "published_at": "2018-03-04T15:31:12+00:00",
+  "source": "NEJM",
+  "source_type": "news_search",
+  "title": "Oral Fingolimod (FTY720) for Relapsing Multiple Sclerosis"
+ },
+ "a8af009631d3fd59": {
+  "collected_at": "2026-11-05T13:29:15.920395+00:00",
+  "description": "Tolebrutinib versus Teriflunomide in Relapsing Multiple Sclerosis NEJM",
+  "id": "a8af009631d3fd59",
+  "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1xc3hEUFJUY0ktelVSa3dqX3JsU1RtZnpobVMyWU8ybTB4a0xHbWNiVUdUZUNzSm5BNFJqaTFpOWhFQXBIdDRzWkNVZXMxcF8xZjVwd2Vsd212Mm5jM3pJ?oc=5",
+  "published_at": "2025-04-08T17:24:21+00:00",
+  "source": "NEJM",
+  "source_type": "news_search",
+  "title": "Tolebrutinib versus Teriflunomide in Relapsing Multiple Sclerosis"
+ },
+ "aaa418fa46cd0544": {
+  "collected_at": "2026-11-05T13:29:15.919827+00:00",
+  "description": "Adhering to diets that exclude gluten may lead to improvements in fatigue, quality of life, and some measures of disability in people with multiple sclerosis (MS), but it remains unclear whether these benefits stem from avoiding gluten itself or other dietary changes, a review of six studies found. Overall, the evidence was of very low certainty […] The post Review casts doubt on clinicial benefits of a gluten-free diet in MS appeared first on Multiple Sclerosis News Today .",
+  "id": "aaa418fa46cd0544",
+  "link": "https://multiplesclerosisnewstoday.com/news-posts/2026/11/04/review-casts-doubt-clinical-benefits-gluten-free-diet-ms/",
+  "published_at": "2026-11-04T15:45:20+00:00",
+  "source": "MS News Today",
+  "source_type": "news",
+  "title": "Review casts doubt on clinicial benefits of a gluten-free diet in MS"
+ },
  "acf23ac4737284ee": {
   "about_ms": true,
   "category": "living_with_ms",
@@ -627,6 +1257,16 @@
   "summary_model": "claude-sonnet-5-5",
   "title": "What are disease modifying drugs in MS?"
  },
+ "ad7e8086d68857b1": {
+  "collected_at": "2026-11-05T13:29:15.920696+00:00",
+  "description": "Real-World Study Highlights Immunotherapy Trends and Effectiveness in NMOSD and MOGAD NeurologyLive",
+  "id": "ad7e8086d68857b1",
+  "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQMS1CZFNuN0VvUks1dlQwUktlQUVkZXJaUVduQ2p4SGxSd2d4SEJGR1NiRV9FbDVKVlVfVkcyVm1ZWlZ0M3ZLWkZIWEFRUWJwYTZFS0MyNnhTWFV0amhBWXVyWVR3WVhyc2MyUXJibG9QTjF0NVlqcHlWUS1GcGMzdlVvNVM4a1Q3dUFzMmFSSUNYX09fcTcyNFF3TUxocldxdFpzazg1QkZ1bTg3U3c?oc=5",
+  "published_at": "2025-02-02T08:00:00+00:00",
+  "source": "NeurologyLive",
+  "source_type": "news_search",
+  "title": "Real-World Study Highlights Immunotherapy Trends and Effectiveness in NMOSD and MOGAD"
+ },
  "b2bc82ba9f6fc9a3": {
   "about_ms": true,
   "category": "living_with_ms",
@@ -642,6 +1282,36 @@
   "summary": "In a podcast episode from 11 April 2022, volunteer Will talks to Simon and Janice of the MS Trust information team about the questions the helpline receives and their work to help people with MS access the treatments and services they need.",
   "summary_model": "claude-sonnet-5-5",
   "title": "Meet the MS Trust... MS Trust information team"
+ },
+ "b544e867f6a5fb28": {
+  "collected_at": "2026-11-05T13:29:15.920206+00:00",
+  "description": "Tiziana Life Sciences reports positive phase 2a results for Intranasal Foralumab in MS Proactive financial news",
+  "id": "b544e867f6a5fb28",
+  "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxNbTlDM0NLSlZBWlJzaDNIZ01aeVRKWEVoOUxyOVlwbnN1QkRJWkhQUUs5ZC13dldVSDRCR2FjQ0VXWFRMM01VQ1FhTWdHQUdFdzBpdUFPTi1rbFAtRUdkTEZ5UEVhcnpPYl9kV1JNMVJxVmczTUFNZFZJMTEyaGdRcjVoLVFTWmdBYmx1a1NIVTcxbHg0N09fRTRJcEVvaklIU0xMR1NKZ1o5djZLQXRzcWxKajhpNXRmX3VNWW1qejRURkRJUTRrQ1FjbWtXVlhFMU9EYWt0SFhFQXNoMFpMSTMyRQ?oc=5",
+  "published_at": "2026-11-02T15:15:42+00:00",
+  "source": "Proactive financial news",
+  "source_type": "news_search",
+  "title": "Tiziana Life Sciences reports positive phase 2a results for Intranasal Foralumab in MS"
+ },
+ "b9361f634ffac734": {
+  "collected_at": "2026-11-05T13:29:15.920282+00:00",
+  "description": "Cell therapy weekly: discontinuation of autoimmune disease NK cell therapy RegMedNet",
+  "id": "b9361f634ffac734",
+  "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQU0VpcnV1MF8xMnRWRjRXcEs4d21CNXZTQ2d4RWpvYy1QZGZYOHJJdkphd3Nsc2QycWFGTEpYQi1vbFg5bW12SzNib2hWZUNZNzYwZzdvcGpVRWo0cTgyLVVWRDFwNDlCcGJhSURDVlh5S2pZU0g0dFBMVkhob19fNmdiVFktNUxCRUd1UXNwQ1Z3dnBGbEk3am9PYWNMZ0gyemc?oc=5",
+  "published_at": "2026-10-30T10:26:21+00:00",
+  "source": "RegMedNet",
+  "source_type": "news_search",
+  "title": "Cell therapy weekly: discontinuation of autoimmune disease NK cell therapy"
+ },
+ "bb23ac3ccb55767b": {
+  "collected_at": "2026-11-05T13:29:15.920124+00:00",
+  "description": "Number of people living with MS across the world surpasses 3 million for the first time MS International Federation .",
+  "id": "bb23ac3ccb55767b",
+  "link": "https://www.msif.org/news/2026/09/11/over-3-million-with-ms/",
+  "published_at": "2026-09-11T15:24:35+00:00",
+  "source": "MSIF",
+  "source_type": "patient_org",
+  "title": "Number of people living with MS across the world surpasses 3 million for the first time"
  },
  "beffcf47c2c8fd36": {
   "about_ms": false,
@@ -675,6 +1345,46 @@
   "summary_model": "claude-sonnet-5-5",
   "title": "Monocarboxylate transporter 2 regulates maintenance of myelin and axonal integrity by oligodendrocytes"
  },
+ "c17ad9f1c7282b91": {
+  "collected_at": "2026-11-05T13:29:15.920363+00:00",
+  "description": "A pharma giant is moving past one patent cliff — but another is already looming CNBC",
+  "id": "c17ad9f1c7282b91",
+  "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQaUprNkYxaHBaU1V3ZGVzZ091RHhxTTFnSFdEUWVCQjNpbjZYdnpEcTBUM1Z1cnlBZU9fbWNDZzRHdE1WTzY1S09MYmR3QUVlaHpKdnhsQ3hTWHJmcDJUdWNISkl2UFJoVEQ3TmdQWll0Ync0UU1LaGlyWTR3WHc0emY4UdIBiAFBVV95cUxQT3gwb3ZxQmNmZ2lqZXh4YUxtQXAtZnJ0eWxoYTBTT1hQamZvS192azJuTXc1NU5vbmJhWFhuQWdRZ3F6djd1b1hqX0RYOTJ1RTN0TXV3ZHhJelVzR2VxaVdkVkJnTk4wX25vZVdBR0VJektnNUhONXcwREQ5U1RxOW9sZXllbzlH?oc=5",
+  "published_at": "2026-10-30T06:00:01+00:00",
+  "source": "CNBC",
+  "source_type": "news_search",
+  "title": "A pharma giant is moving past one patent cliff — but another is already looming"
+ },
+ "c29b6226cae8368d": {
+  "collected_at": "2026-11-05T13:29:15.920288+00:00",
+  "description": "Teva to discontinue mid-stage neurodegenerative disorder study Yahoo Finance Singapore",
+  "id": "c29b6226cae8368d",
+  "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNQ1pSbl95LVpWX050dVBpbXE5aGRpSFlDUC1iTFVidUJtUkROaW5oVE9aYjh1OWF4VTgtZGYtM3lOSTktWHh1Ri1sUmVIcHQ3T3J1R2s4bFJDcHVZRUlyRE9mcnJNbmRzMXdKQWczQVkwZGdLUkRrMXRQOGxoZGdpaUFhalJqNzV5S0hBYUdSeUtVX0VFT2RSbQ?oc=5",
+  "published_at": "2026-11-02T13:18:20+00:00",
+  "source": "Yahoo Finance Singapore",
+  "source_type": "news_search",
+  "title": "Teva to discontinue mid-stage neurodegenerative disorder study"
+ },
+ "c730cdba895d6804": {
+  "collected_at": "2026-11-05T13:29:15.920690+00:00",
+  "description": "Efficacy and safety of tacrolimus treatment for neuromyelitis optica spectrum disorder | Scientific Reports Nature",
+  "id": "c730cdba895d6804",
+  "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5GeWN0Q3o2MVpjM21QVGxXcVhoNm53Y0Y5MXhadjd3RGdBM3V3b0g1SEpKbkI2ZjFxVFAyb3RXaGFkQkJXb3k1VEN0S2ZPWmRQcGRSemd5eWN0Q0JmNGFv?oc=5",
+  "published_at": "2017-04-11T07:00:00+00:00",
+  "source": "Nature",
+  "source_type": "news_search",
+  "title": "Efficacy and safety of tacrolimus treatment for neuromyelitis optica spectrum disorder | Scientific Reports"
+ },
+ "c866496f58bdc341": {
+  "collected_at": "2026-11-05T13:29:15.920107+00:00",
+  "description": "The future of MS course descriptors MS International Federation .",
+  "id": "c866496f58bdc341",
+  "link": "https://www.msif.org/news/2026/10/29/global-discussion-explores-the-future-of-ms-course-descriptors/",
+  "published_at": "2026-10-29T15:12:06+00:00",
+  "source": "MSIF",
+  "source_type": "patient_org",
+  "title": "The future of MS course descriptors"
+ },
  "c9bd161f335b0bce": {
   "about_ms": true,
   "category": "research",
@@ -691,6 +1401,16 @@
   "summary_model": "claude-sonnet-5-5",
   "title": "Challenges and future directions for multiple sclerosis after the 2024 McDonald diagnostic criteria"
  },
+ "ca4b3dbb20bb0c1f": {
+  "collected_at": "2026-11-05T13:29:15.920444+00:00",
+  "description": "Efficacy and safety of ofatumumab in Chinese participants with multiple sclerosis: results from a 12-month, prospective, open-label, multicenter study springermedicine.com",
+  "id": "ca4b3dbb20bb0c1f",
+  "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOOHdTMXNxejFxUVhTZUQwcW9LWjQ5ZzdCeVhBYWdEcFhnNFh3T2l0ZXB6a2lGYzZUS0ZGOFpobUdaSjVCMW9fRjBubjJ0RnVoSUk0MEhMRUFSYTd4dkdnZjlWbXZBQkw5NU01REJVTXU2SXo5ZmtaQVQtTHh6dmRSZDRUYXB0Q0FMeFY0YnlNV0xrYkNjZWtpY1Jwam1EbmI3SXdrQ25pUHJ4Zw?oc=5",
+  "published_at": "2026-11-04T04:29:27+00:00",
+  "source": "springermedicine.com",
+  "source_type": "news_search",
+  "title": "Efficacy and safety of ofatumumab in Chinese participants with multiple sclerosis: results from a 12-month, prospective, open-label, multicenter study"
+ },
  "cb339adabae1f581": {
   "about_ms": true,
   "category": "research",
@@ -706,6 +1426,16 @@
   "summary": "A Nature article titled \"Irisin as a driver of neuroprotection in multiple sclerosis\" addresses irisin's role in neuroprotection in MS. No article text was provided, so the study type, findings and whether it involved people or animals are unknown.",
   "summary_model": "claude-sonnet-5-5",
   "title": "Irisin as a driver of neuroprotection in multiple sclerosis"
+ },
+ "ccfbb66d31ee307e": {
+  "collected_at": "2026-11-05T13:29:15.920615+00:00",
+  "description": "Immunic Announces Vidofludimus Calcium Reduced Risk of Disability Worsening by 30% in Primary Progressive Multiple Sclerosis Patients from Phase 2 CALLIPER Trial PR Newswire",
+  "id": "ccfbb66d31ee307e",
+  "link": "https://news.google.com/rss/articles/CBMivAJBVV95cUxOazZYVWZtVThEVEtudThfbkZwV2MtTkE4c1FPQXFqR204UWpfR3dybGdTN0JQc003UWk4VEhIS0pNWnUtSWRpZnMzTDRnSXRjejlya0hfa0E2LWJBSG5rUDZhTUJqU3ZkRWhzRG0tS2huNDRraVZiazFEQktjZEEwUWprYllERnhNNVpRaFRveGk1ZXpUZ2U0Q1A2S2NRaVVxV0dIRlNlQ3Z6WDB3U0FfYlJwSngxb0R4QUJoMlJtVmtCVHRoNDRBZ2pGN2ZOWk0tTlNnSUFyUkZGS2dTcTBhWHB6b2QwRXFIaUQ4TU05RE4tM21BSmt1cEtONmtqalpUMW1VQ2tuemFZcjNHTXcxMlBtVVNlZWZVaVI2N2xrVldYNzNkS0RjUHFrdF9lMkRQZjNTRnZUclAyaU53?oc=5",
+  "published_at": "2025-04-30T07:00:00+00:00",
+  "source": "PR Newswire",
+  "source_type": "news_search",
+  "title": "Immunic Announces Vidofludimus Calcium Reduced Risk of Disability Worsening by 30% in Primary Progressive Multiple Sclerosis Patients from Phase 2 CALLIPER Trial"
  },
  "cfbea01e07d2ba83": {
   "about_ms": true,
@@ -755,6 +1485,16 @@
   "summary_model": "claude-sonnet-5-5",
   "title": "Experimental therapy may curb chronic brain inflammation in MS"
  },
+ "d9156dc56d5387d4": {
+  "collected_at": "2026-11-05T13:29:15.920221+00:00",
+  "description": "Is Alzheimer’s Data Altering The Investment Case For Biogen (BIIB)? Yahoo Finance Singapore",
+  "id": "d9156dc56d5387d4",
+  "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPNUh2SjJlVGxPZktULUV5SjJrX1lReXVDZEU3TldrRlJCbENGSFF2dW9uOUpVRW9LMXc4Qy1oNURkZk5IWi1kM3JudVBkM1BFN1FTcnBYd0dSREVzZmtmUzNxNmhSVWNna0hPRWlucTNNMHF6Q1ZiZ0luRjRmS3c2WndfSW9mM0dScVJ1R3dHVmItQQ?oc=5",
+  "published_at": "2026-11-05T09:13:37+00:00",
+  "source": "Yahoo Finance Singapore",
+  "source_type": "news_search",
+  "title": "Is Alzheimer’s Data Altering The Investment Case For Biogen (BIIB)?"
+ },
  "ddc27b971d5a0696": {
   "about_ms": true,
   "category": "research",
@@ -771,6 +1511,16 @@
   "summary_model": "claude-sonnet-5-5",
   "title": "Periventricular gradient pathology is linked to ependymal reactivity and cell adhesion disruption in multiple sclerosis"
  },
+ "de20240936524f27": {
+  "collected_at": "2026-11-05T13:29:15.920674+00:00",
+  "description": "Different blood-brain-barrier disruption profiles in multiple sclerosis, neuromyelitis optica spectrum disorders, and neuropsychiatric systemic lupus erythematosus | Jasiak-Zatońska | Neurologia i Neurochirurgia Polska Via Medica Journals",
+  "id": "de20240936524f27",
+  "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNajlXNGc2WFBPd3diOXBuem9iaFVLMTVqUEFqU2dxakhWLUNuNk1Xb3BVeDlDWGhhR0lzYTg2Rnhicktvczd3M0xKN1BCcXNUSGRILVZ2TkZKcmpXc1VRZ21tcUh3S1MwdmhEazNBa2J6RFQ3T0dMMzRKZ25pWWd6eEp4YTIzd3Nubl9uNG5fcDdpOElfMTFPa1FaZXluVHc?oc=5",
+  "published_at": "2022-02-04T08:00:00+00:00",
+  "source": "Via Medica Journals",
+  "source_type": "news_search",
+  "title": "Different blood-brain-barrier disruption profiles in multiple sclerosis, neuromyelitis optica spectrum disorders, and neuropsychiatric systemic lupus erythematosus | Jasiak-Zatońska | Neurologia i Neurochirurgia Polska"
+ },
  "df4ecb94aa0d5145": {
   "about_ms": true,
   "category": "research",
@@ -786,6 +1536,36 @@
   "summary": "A German study found fewer people with multiple sclerosis are willing to receive recommended routine vaccines than before the COVID-19 pandemic, even though neurologists and family doctors discuss immunization with them more often. Vaccination records showed improved coverage for several vaccines.",
   "summary_model": "claude-sonnet-5-5",
   "title": "MS patients show ‘vaccine fatigue’ after pandemic, German study finds"
+ },
+ "dfe2d5d3a9378734": {
+  "collected_at": "2026-11-05T13:29:15.920539+00:00",
+  "description": "Immunic to Present Additional Phase 2 CALLIPER Trial Data for Vidofludimus Calcium at the ACTRIMS Forum 2026, Reinforcing Its Potential in Progressive Multiple Sclerosis PR Newswire",
+  "id": "dfe2d5d3a9378734",
+  "link": "https://news.google.com/rss/articles/CBMixwJBVV95cUxQZVI1c2k4X3MtS2xMM2xHaXdpQ0Zld0ZHTjB2THVVa2wxakJBSXFsZkx5ZjJ3Sjg2RHFLYlg1UEg5YjZ2OGRvcU1mOG5hdzF5Y0ttYUNYSmtUS3o4V1Q3cmFrZkYxWjI2S1JQT1FIZ0RmOG9reW5qSzdBbEx1RHZlSUZkb0p6RXk2UGVWUHdCaG9mSUZfZERKNjJhR2wxUHJYaU9Hcm4xRHNLeHNMMmJVaGFuSURPWTdfVG9pMTZUR3hEMlBrRXNrZWo1cmRNUFJydVcxMEdoLTkxVXp2amJCT0NFY3FOcDY4Vk9taHd0RWtIT3FyWEJqaXRiOGxhOG5VMnpIR0syRGRMdUJHZzRVckw0dWZ3aUtPdUtLZEJPampKTFBkenhEOENlSEZDalBrdWZUUEhkVzM3THVxMi1OajdzcGVjekE?oc=5",
+  "published_at": "2026-02-04T08:00:00+00:00",
+  "source": "PR Newswire",
+  "source_type": "news_search",
+  "title": "Immunic to Present Additional Phase 2 CALLIPER Trial Data for Vidofludimus Calcium at the ACTRIMS Forum 2026, Reinforcing Its Potential in Progressive Multiple Sclerosis"
+ },
+ "e0743930bdfac204": {
+  "collected_at": "2026-11-05T13:29:15.920236+00:00",
+  "description": "Zenas BioPharma Reports Third Quarter 2026 Financial Results and Provides Corporate Update GlobeNewswire",
+  "id": "e0743930bdfac204",
+  "link": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxQeXVlR0xVc3NaYmUxaEZZZlRRdWhuVFRmbENTZnQtR3RPWTluNEs0dGlQT2Y1aFFZRlY1ZWYxbDBlT1lHZGRKWTViUGhsNnFFMU9xdTI1VFFiVVRQLVpBLW9KcjFZQ1VhOURYMjQ3N3JNaVVUSlBBUUNKejVMaE51ZXNuTEp5bXJDTkhadUY4WnpPMGtrWV9ObnFFeE1kdXByZ1MyNGg3T0dHZXhoSFpXOEczMlNvRV9kQkx1ZEstUUtHOVR2NklPcmJWN1pqenNCcWs4bVNEM09FWE85bGZzV1FSNU1YbmlSbUFWZ213UEZkOTdH?oc=5",
+  "published_at": "2026-11-05T12:00:00+00:00",
+  "source": "GlobeNewswire",
+  "source_type": "news_search",
+  "title": "Zenas BioPharma Reports Third Quarter 2026 Financial Results and Provides Corporate Update"
+ },
+ "e0dd33e6f3feccd4": {
+  "collected_at": "2026-11-05T13:29:15.920631+00:00",
+  "description": "Phase 3 MOGwAI Trial to Test Azathioprine as First-Line Treatment for MOGAD NeurologyLive",
+  "id": "e0dd33e6f3feccd4",
+  "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPWDBpY2VJVTRLNGZvNFYyNDR3c0N0c0JZd3hCZ25ac2JMR3hrTHNTNnhYUWNkMEl3TlBTNjRUZ1hnS1ZhYmJTS3MtNVV1OFpVTTVHR1VuOGowWjZyWTNnZDIxakhFVGR1aWdqT2E2NFJBa2xtaDMyWXJBSWNvdjMzNU5reEx4alNTUzFRZTRRT290TGJZNmRhSDBwbnc5U1dyMWc?oc=5",
+  "published_at": "2024-09-20T07:00:00+00:00",
+  "source": "NeurologyLive",
+  "source_type": "news_search",
+  "title": "Phase 3 MOGwAI Trial to Test Azathioprine as First-Line Treatment for MOGAD"
  },
  "e1408b332c51aab1": {
   "about_ms": true,
@@ -819,6 +1599,16 @@
   "summary_model": "claude-sonnet-5-5",
   "title": "Publisher Correction: TGFβ signaling mediates microglial resilience to spatiotemporally restricted myelin degeneration"
  },
+ "e300af6c6f7f8276": {
+  "collected_at": "2026-11-05T13:29:15.920643+00:00",
+  "description": "Efficacy and safety of rituximab in multiple sclerosis and neuromyelitis optica spectrum disorder Nature",
+  "id": "e300af6c6f7f8276",
+  "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE82eWh6ck5JNEdIMmZvX1NtUVFFY3kyMTB3SDlQX25ZdEpMd2lGeUVrWk8wOE1XaV9URGowNHdob3lVbnlVZGp4Szgyc1JzQVNBSXZ4UXdUcXVSYlF6NXk4?oc=5",
+  "published_at": "2024-02-12T08:00:00+00:00",
+  "source": "Nature",
+  "source_type": "news_search",
+  "title": "Efficacy and safety of rituximab in multiple sclerosis and neuromyelitis optica spectrum disorder"
+ },
  "e567bea7b8053aa3": {
   "about_ms": false,
   "category": "research",
@@ -834,6 +1624,26 @@
   "summary": "A Nature paper reports that complement factor H inside cells protects neurons during inflammation in the central nervous system. Only the title was available, so the model system, any link to MS, and the findings' implications are not stated.",
   "summary_model": "claude-sonnet-5-5",
   "title": "Intracellular complement factor H protects neurons during CNS inflammation"
+ },
+ "e6661f3d084e8518": {
+  "collected_at": "2026-11-05T13:29:15.920519+00:00",
+  "description": "Vidofludimus for Progressive MS: No Impact on Brain Atrophy but Hints of a Role for Disability Cleveland Clinic",
+  "id": "e6661f3d084e8518",
+  "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNNkZsM3otMlVpMHZkaU55RDNaRllOc1pZVlFqVTNBRTgzRFR0UUlsMWE4SzlFRHhnUnF5NDE4QVhtRlJOdjZtLWgzeTFET21XSHVhTE1YQjA0eHFmSXZOWFRlaDBLcDNpblpLVDkyRy1EVzNoMzF2bGVYRVQxU25QN0E3bDJ4SG9WMFJzYzkyMTRGQnRFR1hTamZjQWZ4Tzd5bDFRdnRSRXk4WkFYcXJEU1NvZjB4YWhxWWl4aFQtZHhxc0JKUjYtc3U0bw?oc=5",
+  "published_at": "2025-10-09T07:00:00+00:00",
+  "source": "Cleveland Clinic",
+  "source_type": "news_search",
+  "title": "Vidofludimus for Progressive MS: No Impact on Brain Atrophy but Hints of a Role for Disability"
+ },
+ "e68220523a33aaaa": {
+  "collected_at": "2026-11-05T13:29:15.920263+00:00",
+  "description": "Canada expands Ocrevus approval to children with relapsing MS Multiple Sclerosis News Today",
+  "id": "e68220523a33aaaa",
+  "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQSE14d1VwSG5VZGJqdzJreFZwR0o0eWFCSlRUUkRsWEFVbW1vYURSSE14U2g3ME51Y0J2RE9SOVUtZ3hnVl91UkJ0V29OOEtrS1lJdm11MFg2VlplSEFzSHZRUFpUenU0NURMRXVyaWtaZk1xNWdKUkZNdzRWQnNmOUVnOU9HclJHV0lrcVJDNDRhS3FFUkh2cmUzdmx5NVlCbmZmYU9HZ0E1NXNwT25ncnpFN2w0QQ?oc=5",
+  "published_at": "2026-11-04T17:12:43+00:00",
+  "source": "Multiple Sclerosis News Today",
+  "source_type": "news_search",
+  "title": "Canada expands Ocrevus approval to children with relapsing MS"
  },
  "e6fffb557cfb91b7": {
   "about_ms": true,
@@ -851,6 +1661,16 @@
   "summary_model": "claude-sonnet-5-5",
   "title": "Circulating cell-free DNA methylation profiles as candidate noninvasive multiple sclerosis biomarkers"
  },
+ "e7eae40dde327117": {
+  "collected_at": "2026-11-05T13:29:15.920512+00:00",
+  "description": "Phase 2 Subpopulation Data of Vidofludimus Calcium in Progressive Multiple Sclerosis: Robert J. Fox, MD NeurologyLive",
+  "id": "e7eae40dde327117",
+  "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNVWxFVThsc1ZCeWNLLV9uUko0bjVveF9tR3R1WnluNm13eFJfQURBTFR4c25rRmtNNlpJOU0wNXYtQmM2VW1ZcFNvbUVPU0JNVnF6Q3QtZVZ4OHRvTHNmRktjaEpYSk9WNjllMzRaSFN3c094dk9MYzdqNHJ4dEdXSC1WeXhsaXBfYUNxRms2Z1l0M3JLRVQ1ZG1WNk9OTUhLUmtiLWxZd1lwZ1lP?oc=5",
+  "published_at": "2026-01-07T08:00:00+00:00",
+  "source": "NeurologyLive",
+  "source_type": "news_search",
+  "title": "Phase 2 Subpopulation Data of Vidofludimus Calcium in Progressive Multiple Sclerosis: Robert J. Fox, MD"
+ },
  "ec61e6fd34acbfe3": {
   "about_ms": true,
   "category": "research",
@@ -866,6 +1686,36 @@
   "summary": "A Nature paper reports a multiancestry genome-wide association study of multiple sclerosis combined with multiomics analyses, examining the spatial and cellular features of MS genetics. No abstract or results were provided, so specific findings are not available.",
   "summary_model": "claude-sonnet-5-5",
   "title": "Multiancestry genome-wide association and multiomics analyses elucidate spatiocellular features of multiple sclerosis genetics"
+ },
+ "ee3e576a57ae59b4": {
+  "collected_at": "2026-11-05T13:29:15.920243+00:00",
+  "description": "TG Therapeutics to Host Conference Call on Third Quarter 2026 Financial Results and Business Update Business Wire",
+  "id": "ee3e576a57ae59b4",
+  "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxONkJNZkEyLXpGM1VETTJfR0M3VlhUNlJVYl9iM2R2eUpLU2VZeUhxd1VIczcxT3pIaVJLZEdONlRMRGdHMEN2WURIVm00RE1scDFTU3RpOEEtNjlwdjMwVV9xaGZqMzA2UlRtc3Z0YUNuRzVRdHhhUW5DNk9aQWswd3BEUDFKZEdMaWpBQU03b3lIMmh1V1pfanhmT0lyam1UdWRZajVjemNwbVRweHJhS1pibzMwbFJZS2tWaDg0eThCemlTdjFxU1F1amdVOGkwaF9XTkNhVmZvSDZfTVRNREpPVy1HOUI4WDYtQg?oc=5",
+  "published_at": "2026-11-02T12:30:00+00:00",
+  "source": "Business Wire",
+  "source_type": "news_search",
+  "title": "TG Therapeutics to Host Conference Call on Third Quarter 2026 Financial Results and Business Update"
+ },
+ "f00ffc2055f11e42": {
+  "collected_at": "2026-11-05T13:29:15.920112+00:00",
+  "description": "MSIF 2026 Global Networking Meetings MS International Federation .",
+  "id": "f00ffc2055f11e42",
+  "link": "https://www.msif.org/news/2026/10/29/msif-2026-global-networking-meetings-bring-members-together-in-london/",
+  "published_at": "2026-10-29T14:56:14+00:00",
+  "source": "MSIF",
+  "source_type": "patient_org",
+  "title": "MSIF 2026 Global Networking Meetings"
+ },
+ "f1a058299e959b59": {
+  "collected_at": "2026-11-05T13:29:15.920229+00:00",
+  "description": "Health Canada approves (Pr)Ocrevus® (ocrelizumab) for treating pediatric relapsing-remitting multiple sclerosis PR Newswire Canada",
+  "id": "f1a058299e959b59",
+  "link": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxQbHJJWnBKcmxBenlpeFc5b2J0Mlh5bjBpekRjV2p1NkdXTW85NjR3ZzlnOWlySUYxQ1o5R0NFLXFuZjhHNUtfcHpYQkJIdjZrN3o0VFlxOGk2elNKUEY1V2RoaEhBNGhNdWh2VWV6VUIzNnQ0NjZGNTJnVG96Nm1TbzY4b0U1REtuWE51OGJ1WE4ycWRBTnNOdHdXVlFXZHgyZk9rYmwwNElNTllMa0YyUHg5c3VEV3RTRWNvZEZWMXRhZXg2WmF6QjBGVV9sVjdzQ1NqaEhpWU5DTEJrYVpLUGpXVWRSeG5uQjdIQVpMUXFKdkc3?oc=5",
+  "published_at": "2026-11-03T14:05:00+00:00",
+  "source": "PR Newswire Canada",
+  "source_type": "news_search",
+  "title": "Health Canada approves (Pr)Ocrevus® (ocrelizumab) for treating pediatric relapsing-remitting multiple sclerosis"
  },
  "f1b32b8e788c3f04": {
   "about_ms": false,
@@ -898,6 +1748,26 @@
   "summary": "A Nature-family paper reports using estimated structural and functional brain connectivity networks and artificial intelligence to predict follow-up cognition in multiple sclerosis. No further details, such as methods, sample size or accuracy, were provided in the source text.",
   "summary_model": "claude-sonnet-5-5",
   "title": "Predicting follow-up cognition using estimated structural and functional connectivity networks and artificial intelligence in multiple sclerosis"
+ },
+ "f52629acfc191aed": {
+  "collected_at": "2026-11-05T13:29:15.920483+00:00",
+  "description": "Early data from twin late-stage MS drug trials expected by year’s end Multiple Sclerosis News Today",
+  "id": "f52629acfc191aed",
+  "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNUEJqYzluYVpOdFMzOGdmYXc5WlRUV3JSaTZMcEMyVkQxdF9TUUs3V1NuSHRxUmFQZHlhcG0tVy0tY3I3akpsdXhoRXN6RGp0Y0tIM29pZVlITUJHbFpWNHNwcTBVYVlRLWlOdXFXZkVxTDZGVHRmMmpCMmtsVDhWbzVKVWt5bGlMVnNkeU9WMk9YZ1lJbC1jaVBOTVgwdXVwR1lTSXNRem1vSGlXeDh6eEQwdGJUek44Yktv?oc=5",
+  "published_at": "2026-08-18T07:00:00+00:00",
+  "source": "Multiple Sclerosis News Today",
+  "source_type": "news_search",
+  "title": "Early data from twin late-stage MS drug trials expected by year’s end"
+ },
+ "f53e37f6b0b9391c": {
+  "collected_at": "2026-11-05T13:29:15.920505+00:00",
+  "description": "Immunic to Present Additional Phase 2 CALLIPER Trial Data for Vidofludimus Calcium at the CMSC Annual Meeting 2026, Reinforcing Its Potential in Progressive Multiple Sclerosis PR Newswire",
+  "id": "f53e37f6b0b9391c",
+  "link": "https://news.google.com/rss/articles/CBMizwJBVV95cUxOMmppSS1sU3dLa1hyTEx5TUVBVEhmcmprME9Ca1REdVhQanlGcmhIUjFWQnlIWTQ2LXUyRUx2aWUxX3g0TzQ2MlMwUWV4QVRQV1RmdzBfRXF6R0lqUl9ZRHlURUpReVIyeXlLUkxDUExqUU05dUdKTlZlSHd6cDd0Tk11ejIxaW03TXhhMWhEX3VsZS1kUWt6S0dWbUF2OWtIRVpNQkFmbjJUejhqTHNJeG1LbUp0Qk5VUTJzR1BNaEVYSFJrblRhUll1SHJPSE5KdkR6TVFlS1Q1eDFYT05zdlRJbnpPbFk2NkozUUNhT3dtaXJLM3J2LUlKTk1CVnlFY2taZ3VvWi1EYjA5NHdkcU1Lc1ktb0NKWmVoOWZIYkxwWHhrWWFWdHhNZ0hzNFc5ZnFibU04WUNPeVVmY2Z4eUJibFJ2RmI5dUNWS1AwMA?oc=5",
+  "published_at": "2026-05-28T07:00:00+00:00",
+  "source": "PR Newswire",
+  "source_type": "news_search",
+  "title": "Immunic to Present Additional Phase 2 CALLIPER Trial Data for Vidofludimus Calcium at the CMSC Annual Meeting 2026, Reinforcing Its Potential in Progressive Multiple Sclerosis"
  },
  "f5815cad7cae3e07": {
   "about_ms": true,
@@ -939,6 +1809,16 @@
   "summary_model": "claude-sonnet-5-5",
   "title": "Pain linked to perceived cognitive difficulties in MS study"
  },
+ "f6225bc3a7673f53": {
+  "collected_at": "2026-11-05T13:29:15.920654+00:00",
+  "description": "New Med Beats Old in Head-to-Head Neuromyelitis Optica Trial Medscape",
+  "id": "f6225bc3a7673f53",
+  "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1tdV9fUjg4YWRqQ2puUWFFcUFsal9oaXhISXRUckRDWnI0dkZzNVQwZVB0cU1fZklhZkNJa2lic25OY24xT0xYZHpQSFNFZXdFaUgySjl3?oc=5",
+  "published_at": "2019-10-15T07:00:00+00:00",
+  "source": "Medscape",
+  "source_type": "news_search",
+  "title": "New Med Beats Old in Head-to-Head Neuromyelitis Optica Trial"
+ },
  "f69c53d3129b59db": {
   "about_ms": false,
   "category": "research",
@@ -954,5 +1834,25 @@
   "summary": "A study found hypertension begins harming the brain before blood pressure measurably rises, with cells tied to blood vessels, signaling, and myelin maintenance aging prematurely. The changes resemble early cognitive decline patterns, and losartan reversed some damage in mice.",
   "summary_model": "claude-sonnet-5-5",
   "title": "Your brain shows damage before your blood pressure even rises"
+ },
+ "fa15cda33e6a7575": {
+  "collected_at": "2026-11-05T13:29:15.920250+00:00",
+  "description": "Oculis appoints Björn Tackenberg as Chief Scien... Pluang",
+  "id": "fa15cda33e6a7575",
+  "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQeUtwbE9hRE9PS1M3R2l5d0JYUm5sTUpnVVAyZFJwUWJXcXI5OVRrYlpFdG00RzRoLVo5MWdrYXhmVzdkYmVSNXl0a3RVT3FVUkVXNGNWSWtBQXQ3MV9XSld0My1NNnZhZS1vVWtmNjEtUTVUb1ZJMGc5TW9KVURyWWNqQ0NPbVIyMGd1N0hvVFJyeGNySjZ1VnNOWE5fcEdlVXV4bmRn?oc=5",
+  "published_at": "2026-11-02T07:13:40+00:00",
+  "source": "Pluang",
+  "source_type": "news_search",
+  "title": "Oculis appoints Björn Tackenberg as Chief Scien..."
+ },
+ "fb6a180415e8991f": {
+  "collected_at": "2026-11-05T13:29:15.920149+00:00",
+  "description": "£1.6 million raised by The May 50K 2026 MS International Federation .",
+  "id": "fb6a180415e8991f",
+  "link": "https://www.msif.org/news/2026/07/23/1-6-million-raised-by-the-may-50k-2026/",
+  "published_at": "2026-07-23T16:01:22+00:00",
+  "source": "MSIF",
+  "source_type": "patient_org",
+  "title": "£1.6 million raised by The May 50K 2026"
  }
 }
