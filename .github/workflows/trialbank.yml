@@ -103,6 +103,11 @@ jobs:
           READOUT_MAX_TRIALS: "400"
         run: cd scripts && python readouts_layer.py
 
+      # How much each treatment changed the main measures: registry analyses plus the papers read above. No API calls.
+      - name: Effect sizes
+        continue-on-error: true
+        run: cd scripts && python effects_layer.py
+
       - name: Build hypothesis ledger
         id: hypotheses
         run: cd scripts && python hypotheses_layer.py
