@@ -585,6 +585,43 @@
    "p": "P < 0.0001 (PV-VDI); P < 0.01 (FPA-VDI)"
   }
  },
+ "MSFT-2015-003147-19|readout_v2|ea82096784": {
+  "checker_model": "claude-haiku-5-5",
+  "checker_said": "met",
+  "checker_version": "check_v2b",
+  "msf_trial_id": "MSFT-2015-003147-19",
+  "pmid": "36353267",
+  "pmids_considered": [
+   "36353267",
+   "23599375"
+  ],
+  "prompt_version": "readout_v2",
+  "quote": "For the intention-to-treat analyses Neuroaspis plp10 significantly reduced the ARR by 80%, (RRR, 0.20; 95% CI: 0.09 to 0.45; p=0.0001) and the risk of sustained progression of disability by 73% (HR, 0.27; 95% CI: 0.09 to 0.83; p=0.022) versus placebo, at 2 years.",
+  "read_on": "2026-11-05",
+  "reader_model": "claude-sonnet-5-5",
+  "reader_said": "met",
+  "readout": "met",
+  "reason": null,
+  "result": {
+   "effect": {
+    "ci_lower": "0.09",
+    "ci_upper": "0.45",
+    "type": "relative rate reduction (RRR)",
+    "value": "0.20"
+   },
+   "follow_up": "2 years",
+   "groups": [
+    {
+     "group": "Neuroaspis plp10",
+     "n": "32",
+     "value": "ARR reduced by 80%"
+    }
+   ],
+   "measure": "annual relapse rate (ARR)",
+   "n_randomised": "61",
+   "p": "p=0.0001"
+  }
+ },
  "MSFT-2016-000700-29|readout_v1|9a1dc0ed92": {
   "checker_model": "claude-haiku-5-5",
   "checker_said": "not_met",
