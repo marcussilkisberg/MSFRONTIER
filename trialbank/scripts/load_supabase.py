@@ -235,6 +235,7 @@ def main():
             load_highlights(cur, set(ids))
             load_preclinical(cur)
             load_reports(cur, set(ids))
+            load_effects(cur, set(ids))
 
             # ---- sync curation file into corrections (authored as 'curation_file')
             ov_path = ROOT / "curation" / "overrides.csv"
@@ -525,6 +526,23 @@ def load_reports(cur, keep_ids):
                 "announcement_id": t, "msf_trial_id": t, "source": t, "source_type": t, "title": t, "url": t,
                 "published_at": d, "result": t, "measure": t, "summary": t, "peer_reviewed": b, "match_rule": t,
                 "read_by": t, "provisional": b})
+
+
+def load_effects(cur, keep_ids):
+    """Effect sizes (024): replaced on every run."""
+    if not has_table(cur, "trial_effects") or not (DATA / "trial_effects.parquet").exists():
+        return
+    df = pd.read_parquet(DATA / "trial_effects.parquet")
+    if not len(df):
+        return
+    num = lambda v: None if missing(v) else float(v)
+    cur.execute("delete from bank.trial_effects")
+    load_child(cur, df, "trial_effects", keep_ids=keep_ids, dedupe=["effect_id"], spec={
+        "effect_id": t, "msf_trial_id": t, "source": t, "pmid": t, "outcome_type": t, "measure": t, "time_frame": t,
+        "family": t, "effect_type": t, "effect_type_raw": t, "estimate": num, "ci_low": num, "ci_high": num, "p_value": num,
+        "comparator": t, "comparator_is_placebo": b, "treatment": t, "treatment_value": num, "comparator_value": num,
+        "treatment_n": i, "comparator_n": i, "value_unit": t, "n_arms": i, "favours": t,
+        "relative_reduction_pct": num, "absolute_diff_per_100": num, "quote": t, "version": t})
 
 
 def load_texts(cur, keep_ids):
