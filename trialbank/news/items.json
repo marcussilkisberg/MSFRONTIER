@@ -175,6 +175,22 @@
   "summary_model": "claude-sonnet-5-5",
   "title": "Novartis Analyst Targets Diverge as $2.2 Billion in Pipeline Setbacks Temper Post-Earnings Optimism"
  },
+ "16bf18b29c465e8b": {
+  "about_ms": true,
+  "category": "research",
+  "collected_at": "2026-11-06T13:13:33.375791+00:00",
+  "description": "Real-World Study Demonstrates FDA-Approved NMOSD Therapies Outperform Rituximab on Relapse Outcomes NeurologyLive",
+  "id": "16bf18b29c465e8b",
+  "is_published": true,
+  "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOSm4ydHNCQkF2bE1qVHVHSkIxdmtfM2VhUTJSbmNWYjgzakVVTWwwb0Q1eGk4QXIwTC01OGZ0YVZCTmctOTlqcGIySjhqa0xtc3JKWHhWVUg3eTYwTXBuMmwxQzc2eFlPakxreVZpRG84Y3Y4R3VXWC1Qa3pHZWpXcHdoUTNkUlNXUFNLQU9BOVFwUERzT0djNVl2SFdLeVR3dWhldFVzQnRCMGx0MkNwa3lJVVRTME03WFMtOUtxZlh2cEt4T3k0RWl3TQ?oc=5",
+  "published_at": "2026-04-02T07:00:00+00:00",
+  "relevance": 3,
+  "source": "NeurologyLive",
+  "source_type": "news_search",
+  "summary": "A NeurologyLive report on a real-world study says FDA-approved NMOSD therapies performed better than rituximab on relapse outcomes. The provided text gives no further details, such as which drugs, participant numbers, or effect sizes.",
+  "summary_model": "claude-sonnet-5-5",
+  "title": "Real-World Study Demonstrates FDA-Approved NMOSD Therapies Outperform Rituximab on Relapse Outcomes"
+ },
  "1744c8a99e20d05b": {
   "about_ms": true,
   "category": "living_with_ms",
@@ -431,6 +447,22 @@
   "summary_model": "claude-sonnet-5-5",
   "title": "Experimental MS therapy outperforms approved treatment in two trials"
  },
+ "2f17a04228da7529": {
+  "about_ms": true,
+  "category": "research",
+  "collected_at": "2026-11-06T13:13:33.375211+00:00",
+  "description": "",
+  "id": "2f17a04228da7529",
+  "is_published": true,
+  "link": "https://www.nature.com/articles/s41582-026-01292-x",
+  "published_at": "2026-11-06T00:00:00+00:00",
+  "relevance": 3,
+  "source": "Nature",
+  "source_type": "research_news",
+  "summary": "A Nature article headline reports that CAR T cells showed early promise in progressive multiple sclerosis. No article text was available, so details such as study size, design, safety and results are not known.",
+  "summary_model": "claude-sonnet-5-5",
+  "title": "CAR T cells show early promise in progressive multiple sclerosis"
+ },
  "30f615afefbaca0f": {
   "about_ms": true,
   "category": "trial_news",
@@ -446,6 +478,22 @@
   "summary": "Zenas has acquired a BTK inhibitor that is in Phase 3 trials for progressive multiple sclerosis, according to Multiple Sclerosis News Today. No further details, such as the drug name, terms of the deal, or trial results, are given in the available text.",
   "summary_model": "claude-sonnet-5-5",
   "title": "Zenas acquires BTK inhibitor in Phase 3 trials for progressive MS"
+ },
+ "361fca5d8825afd7": {
+  "about_ms": true,
+  "category": "trial_news",
+  "collected_at": "2026-11-06T13:13:33.375630+00:00",
+  "description": "Tiziana Life Sciences Announces Positive Phase 2a INFORM-MS Trial Results for Intranasal Foralumab Kalkine Media",
+  "id": "361fca5d8825afd7",
+  "is_published": false,
+  "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxOck95d3RIQ0xHaE41dGROU2Jiem1fQ3djRWNES0w5RlQ4ZjROSjBINmp4MjQtQU5ZR1JHY0JHNWRwSkdwSnlHdWdyNGYxUTJSNDl5MVdqOWE2U1JVOXpndU02M1ZDaXhTU1o3U2RsWjBSYWlwdGFnMndsUG9xWk1WWThNelhVdW0zVjZZcWZfaGVlOFVtbHNXSmRqTVNGVUpQMWtybzF0M1J3Um42NEJiY2RzcUhBdDZ5dkN6c1BKc0RDZDBEalUzNWU2SUVEOERXNnJwSlpfTllyQ1lJS3c?oc=5",
+  "published_at": "2026-11-02T12:02:06+00:00",
+  "relevance": 2,
+  "source": "Kalkine Media",
+  "source_type": "news_search",
+  "summary": "Tiziana Life Sciences announced what it describes as positive results from its Phase 2a INFORM-MS trial of intranasal foralumab. The source text gives only the headline, so no details on participants, outcomes, or safety are available.",
+  "summary_model": "claude-sonnet-5-5",
+  "title": "Tiziana Life Sciences Announces Positive Phase 2a INFORM-MS Trial Results for Intranasal Foralumab"
  },
  "367415a3d504aa97": {
   "about_ms": true,
@@ -606,6 +654,22 @@
   "summary": "BioSpace reports that Tiziana is presenting a multiple sclerosis result at a lower dose, while the high dose missed its target. The source text gives no further details on the trial, outcomes, or participants.",
   "summary_model": "claude-sonnet-5-5",
   "title": "Tiziana touts multiple sclerosis win at lower dose as high dose misses mark"
+ },
+ "44f0d0861922602c": {
+  "about_ms": false,
+  "category": "other",
+  "collected_at": "2026-11-06T13:13:33.375527+00:00",
+  "description": "Bristol Myers Squibb (BMY) Wins FDA Approval, Is The Rally Already Priced In? Yahoo Finance Australia",
+  "id": "44f0d0861922602c",
+  "is_published": false,
+  "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNdUh4VTlYTF9TQjcxNVh3SlJYM1VVLVljdUlScWpmRDBQOFN2elJkSV9RS1BPOGFocnBMcjNOR0h4WGZ2QWZaNjN4VWRaYUVRMHpYaUhoSTV0X2RtUldPbHhvRHQycm4xMDJnN3VTZGlhZVN5UDF0ZVRKdlJzay0wS2ZRV24?oc=5",
+  "published_at": "2026-11-05T16:17:40+00:00",
+  "relevance": 1,
+  "source": "Yahoo Finance Australia",
+  "source_type": "news_search",
+  "summary": "A Yahoo Finance Australia article reports that Bristol Myers Squibb (BMY) received FDA approval and asks whether the resulting share price rally is already priced in. The text provided does not say which drug was approved or whether it relates to MS.",
+  "summary_model": "claude-sonnet-5-5",
+  "title": "Bristol Myers Squibb (BMY) Wins FDA Approval, Is The Rally Already Priced In?"
  },
  "45a5c893606f5eff": {
   "about_ms": false,
@@ -1190,6 +1254,22 @@
   "summary": "The MS International Federation reports strong endorsement from its members, which it presents as reflecting the value of MSIF membership. The source text gives no further detail on the endorsement or on MS research, treatment or care.",
   "summary_model": "claude-sonnet-5-5",
   "title": "Strong member endorsement reflects the value of MSIF membership"
+ },
+ "785f502bbb687fbc": {
+  "about_ms": true,
+  "category": "trial_news",
+  "collected_at": "2026-11-06T13:13:33.375509+00:00",
+  "description": "Tiziana to Host Investor Call with Key Opinion Leaders to Discuss Positive Phase 2a INFORM-MS Topline Results Quantisnow",
+  "id": "785f502bbb687fbc",
+  "is_published": false,
+  "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPTW5qOVdRLWU4M0Y2d2RGRlBEcFZoRlM2S2RDbXRiY3NoZTI2QTBhM2VJaEtQN18ydGVocExQbmhYNTRXN3JLcVZ2aWx2dl9CWUpCemRxOGU4aXdTQUVCWlU5cmFuMGZVY0stdkFfbXU3bm1MMWNlUzhTeE1qME1xSktFT0M2NVhkZmhnbkVBWmVIRGZ0bURqZGo4TXhMWWtrV2c?oc=5",
+  "published_at": "2026-11-05T19:20:21+00:00",
+  "relevance": 2,
+  "source": "Quantisnow",
+  "source_type": "news_search",
+  "summary": "Tiziana announced an investor call with key opinion leaders to discuss topline results from its Phase 2a INFORM-MS trial, which the company describes as positive. The source text gives no data, so the findings cannot be assessed yet.",
+  "summary_model": "claude-sonnet-5-5",
+  "title": "Tiziana to Host Investor Call with Key Opinion Leaders to Discuss Positive Phase 2a INFORM-MS Topline Results"
  },
  "7bbd07e2f95d5134": {
   "about_ms": true,
@@ -2206,6 +2286,22 @@
   "summary": "NeurologyLive posted an item titled as a discussion with Robert J. Fox, MD, on phase 2 subpopulation data for vidofludimus calcium in progressive multiple sclerosis. The provided text gives no results or other details.",
   "summary_model": "claude-sonnet-5-5",
   "title": "Phase 2 Subpopulation Data of Vidofludimus Calcium in Progressive Multiple Sclerosis: Robert J. Fox, MD"
+ },
+ "e8a32096ea866b3b": {
+  "about_ms": false,
+  "category": "trial_news",
+  "collected_at": "2026-11-06T13:13:33.375729+00:00",
+  "description": "Biogen bails on BTK race just 19 months after placing $125M bet Fierce Biotech",
+  "id": "e8a32096ea866b3b",
+  "is_published": false,
+  "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOcVYyb1FmNHhfZm05YTJ2ZmluTlNzZk42eVoyRWw0YlBJRTlNMEF1MTNvM2Q4U25RRDNGbFFVdnRkVTFfbUk3ekpMZlNKZDM4Umk2UWhzRnFsNDZYallxOU5ER2p5UmN2VF9YTkg0STJaV2piRDdXZENocmJQWVhubXJzeVNZYWZLLVQtQlczS2UyT3dWa3VXNF9ZOTVNQQ?oc=5",
+  "published_at": "2023-02-15T08:00:00+00:00",
+  "relevance": 2,
+  "source": "Fierce Biotech",
+  "source_type": "news_search",
+  "summary": "Fierce Biotech reports that Biogen has exited the race to develop BTK inhibitors, 19 months after placing a $125M bet. The provided text gives no further detail, including which drug or conditions are involved.",
+  "summary_model": "claude-sonnet-5-5",
+  "title": "Biogen bails on BTK race just 19 months after placing $125M bet"
  },
  "ec61e6fd34acbfe3": {
   "about_ms": true,
