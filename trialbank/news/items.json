@@ -143,6 +143,22 @@
   "summary_model": "claude-sonnet-5-5",
   "title": "﻿D&D Pharmatech’s pegsebrenatide and vorasidenib combination efficacy highlighted in IDH-mutated brain tumors"
  },
+ "11f0e03bcc65821b": {
+  "about_ms": true,
+  "category": "research",
+  "collected_at": "2026-11-07T11:55:42.165395+00:00",
+  "description": "Case Report Examines Rare T-Cell Lymphoma During Multiple Sclerosis Treatment Bioengineer.org",
+  "id": "11f0e03bcc65821b",
+  "is_published": false,
+  "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQVDN0eWRTSGR0Sk9JNWF3RTAxTkVsSVZUN1N0cXhIV1lsd1d5NlFucjNZYjB6WTRwSldJbXRkVjlRelFEcjlIVnd6YWVwWWY3cWd6SDdicjhsaHAxSTRXVkJpaE92YjMzYi1obnZFVkE0QklkMEY4bnZFTngwSU41cFJpcWxVQ3BfUFVyRzVaTkFiZzBLNFkzLUhDYlFNdzI3SHNEQw?oc=5",
+  "published_at": "2026-11-07T09:32:37+00:00",
+  "relevance": 2,
+  "source": "Bioengineer.org",
+  "source_type": "news_search",
+  "summary": "A case report examines a rare T-cell lymphoma that occurred in a person during treatment for multiple sclerosis. The provided text gives no details on the patient, the drug involved, or any conclusions.",
+  "summary_model": "claude-sonnet-5-5",
+  "title": "Case Report Examines Rare T-Cell Lymphoma During Multiple Sclerosis Treatment"
+ },
  "12302b6230b81dfa": {
   "about_ms": true,
   "category": "research",
@@ -559,6 +575,22 @@
   "summary_model": "claude-sonnet-5-5",
   "title": "Deeper versus broader B cell depletion in neuromyelitis optica spectrum disorder"
  },
+ "3ab0c42023a2d0f2": {
+  "about_ms": true,
+  "category": "trial_news",
+  "collected_at": "2026-11-07T11:55:42.165327+00:00",
+  "description": "Tiziana Life Sciences to discuss positive Phase 2a multiple sclerosis trial results Proactive financial news",
+  "id": "3ab0c42023a2d0f2",
+  "is_published": false,
+  "link": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxNdlhHbFpTdTFOZUxXWUVQejZPOW1zS3VrbHZIM0pyRUZ2Z0FmY19JcWJOV2lWZWdYTVF6RFBJamZuSlhGX1NJOHYtOFJNUWFHYjhTbjRrckl2RjRpMG5nR1Z1c0dZeFlqTW5TZGdoU1RYMjk0QmV1SlZsQWpieUV2bmRXUUcyWFdmV3U3LTBTM3Azai1pY1lzVHRLN3BHSGhDUmhyUzJuY21ZUVdkNy1DUEUzQm5YdDl5RTlwUE1NSkctbThYRmE3TEYtS21SMkRGejZzb2Z0ODk1N01rWjBpa3R2cGN3SUxXSkE?oc=5",
+  "published_at": "2026-11-05T14:22:00+00:00",
+  "relevance": 2,
+  "source": "Proactive financial news",
+  "source_type": "news_search",
+  "summary": "Tiziana Life Sciences, according to a financial news outlet, will discuss results from a Phase 2a multiple sclerosis trial, which the headline describes as positive. No data, treatment details, or participant numbers are given in the available text.",
+  "summary_model": "claude-sonnet-5-5",
+  "title": "Tiziana Life Sciences to discuss positive Phase 2a multiple sclerosis trial results"
+ },
  "3b69b7b39030ffdb": {
   "about_ms": true,
   "category": "trial_news",
@@ -686,6 +718,22 @@
   "summary": "GenomeWeb reports that Iovance is considering biomarker-informed lung cancer as the next indication for its cell therapy Amtagvi. The provided text includes no further details, and it does not mention MS or related demyelinating diseases.",
   "summary_model": "claude-sonnet-5-5",
   "title": "Iovance Eyeing Biomarker-Informed Lung Cancer as Next Amtagvi Indication"
+ },
+ "46ced590b5acb2d3": {
+  "about_ms": false,
+  "category": "other",
+  "collected_at": "2026-11-07T11:55:42.165355+00:00",
+  "description": "D&D Pharmatech is pushing for technology export of \"DD01,\" a treatment for hepatitis (MASH) rela.. 매일경제",
+  "id": "46ced590b5acb2d3",
+  "is_published": false,
+  "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE1aQzF4TTRVR0ZtbWN1ZHhiWm1XanBjMUx4ZlVaRlNPR25FYkJ6VDlvQTAyZHFIRXZMN0xRNFVkeHk4SDBLZndvcmNlWQ?oc=5",
+  "published_at": "2026-11-03T09:00:36+00:00",
+  "relevance": 1,
+  "source": "매일경제",
+  "source_type": "news_search",
+  "summary": "D&D Pharmatech is pursuing a technology export deal for DD01, a treatment for MASH, a liver disease related to hepatitis. The source text does not mention multiple sclerosis or other demyelinating diseases.",
+  "summary_model": "claude-sonnet-5-5",
+  "title": "D&D Pharmatech is pushing for technology export of \"DD01,\" a treatment for hepatitis (MASH) rela.."
  },
  "486722997f5930bb": {
   "about_ms": true,
@@ -846,6 +894,22 @@
   "summary": "A report from the ECTRIMS 2023 conference says vidofludimus calcium lowered nerve damage in relapsing-remitting MS. The text provided gives only the headline, with no details on study design, size or results.",
   "summary_model": "claude-sonnet-5-5",
   "title": "ECTRIMS 2023: Vidofludimus calcium lowers RRMS nerve damage"
+ },
+ "512569bc564cc456": {
+  "about_ms": false,
+  "category": "other",
+  "collected_at": "2026-11-07T11:55:42.165336+00:00",
+  "description": "Empire Forum 2026: Ambati on K8 phase 2 results in geographic atrophy | Eye Care Network - Modern Retina Ophthalmology Times",
+  "id": "512569bc564cc456",
+  "is_published": false,
+  "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNMFhSdWE4YW1kOEF3RDMyMGhkS3k1RzJTT2Z4RzRDQl84Q3NCRGxQY29UaHNxLVI0S1U2UTVfVS1wYUJSYS1HTjVTVjdWT0JLcVZCeDhSQnd4dTQtTFV6RGxhNldMcDg4V25uY2E2STIyZ1c3bUUwQlRnYTR0WENWLXJsUXNNU2t0OXpxRTFOaHZwSmU1X3BNdVZYN1dUem1JNV9LbmpoN3Y?oc=5",
+  "published_at": "2026-11-06T15:34:26+00:00",
+  "relevance": 1,
+  "source": "Ophthalmology Times",
+  "source_type": "news_search",
+  "summary": "The item is titled as a presentation by Ambati at Empire Forum 2026 on phase 2 results of K8 in geographic atrophy, an eye disease. The provided text gives no results or details, and it does not mention MS or related demyelinating disease.",
+  "summary_model": "claude-sonnet-5-5",
+  "title": "Empire Forum 2026: Ambati on K8 phase 2 results in geographic atrophy | Eye Care Network - Modern Retina"
  },
  "51ef620308c0115a": {
   "about_ms": true,
@@ -1663,6 +1727,22 @@
   "summary_model": "claude-sonnet-5-5",
   "title": "The May 50K 2026: What participants told us"
  },
+ "a60dca0d260797b3": {
+  "about_ms": true,
+  "category": "research",
+  "collected_at": "2026-11-07T11:55:42.165388+00:00",
+  "description": "Disability, Anti-CD20 Therapy Drive Serious Infection Risk in MS Medscape",
+  "id": "a60dca0d260797b3",
+  "is_published": true,
+  "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPT00xZkxOLXo3WHEyY3JlSlFKQTh0UzI2eFBGQlpzY29YTUhuMkQ0WFdLa0hicTBvQVhhUTdsNV9hSldDd0FpRnpSY0Q5YWwxeWp1bk1MbHBvSXBXbUw1bWkydzBMeDRKak9nQVVHV01ab0F4bGVIQTNzbXEyaG9kN2Qxb2ZhQndNb2YwV1F2Q2hKOUI4aVVvc1dpdDVyaHFKRjNBeFhQMmZoQkdFUUE?oc=5",
+  "published_at": "2026-11-06T22:34:56+00:00",
+  "relevance": 3,
+  "source": "Medscape",
+  "source_type": "news_search",
+  "summary": "A Medscape report indicates that greater disability and anti-CD20 therapy are linked to a higher risk of serious infection in people with multiple sclerosis. No further details, such as study design or figures, were provided in the text.",
+  "summary_model": "claude-sonnet-5-5",
+  "title": "Disability, Anti-CD20 Therapy Drive Serious Infection Risk in MS"
+ },
  "a6d753815fc9b68d": {
   "about_ms": true,
   "category": "research",
@@ -1775,6 +1855,22 @@
   "summary_model": "claude-sonnet-5-5",
   "title": "Meet the MS Trust... MS Trust information team"
  },
+ "b4341446a102c2b0": {
+  "about_ms": true,
+  "category": "living_with_ms",
+  "collected_at": "2026-11-07T11:55:42.165106+00:00",
+  "description": "People with multiple sclerosis (MS) may be able to enjoy ocean sailing as a way to stay active, a small study found, with participants showing no measurable decline in physical or cognitive function after a 10-day expedition. All participants completed the planned sailing activities, although two-thirds experienced some degree of seasickness. Testing after the expedition […] The post Study shows ocean sailing safe, feasible for adults with MS appeared first on Multiple Sclerosis News Today .",
+  "id": "b4341446a102c2b0",
+  "is_published": false,
+  "link": "https://multiplesclerosisnewstoday.com/news-posts/2026/11/06/study-shows-ocean-sailing-safe-feasible-adults-ms/",
+  "published_at": "2026-11-06T13:00:24+00:00",
+  "relevance": 2,
+  "source": "MS News Today",
+  "source_type": "news",
+  "summary": "A small study found adults with MS showed no measurable decline in physical or cognitive function after a 10-day ocean sailing expedition. All participants completed the planned sailing activities, though two-thirds experienced some degree of seasickness.",
+  "summary_model": "claude-sonnet-5-5",
+  "title": "Study shows ocean sailing safe, feasible for adults with MS"
+ },
  "b544e867f6a5fb28": {
   "about_ms": true,
   "category": "trial_news",
@@ -1886,6 +1982,22 @@
   "summary": "Teva is discontinuing a mid-stage study of a neurodegenerative disorder, according to the headline. The provided text gives no details on the condition, the drug, or the reason, and does not mention multiple sclerosis.",
   "summary_model": "claude-sonnet-5-5",
   "title": "Teva to discontinue mid-stage neurodegenerative disorder study"
+ },
+ "c3bf9271fed75bae": {
+  "about_ms": true,
+  "category": "regulatory",
+  "collected_at": "2026-11-07T11:55:42.165373+00:00",
+  "description": "Pediatric Multiple Sclerosis Treatments: Roche's Ocrevus IV Gains Canadian Approval… Trend Hunter",
+  "id": "c3bf9271fed75bae",
+  "is_published": true,
+  "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE4xelZGODVWLWJFWElfbWF4c0FZUDhhWG1SX0YyZ19yRm9RN3N6andwcmR5SnRVX0dvcEJUZVlLQnRvcGNnSU5FWXNtSm5WeWpLVEVCaXFMdVpLcGhrRkVwMTRKN2RwREptclJhQUlGY0JnT29SS1l0cWotN3dJVEk?oc=5",
+  "published_at": "2026-11-04T15:23:18+00:00",
+  "relevance": 3,
+  "source": "Trend Hunter",
+  "source_type": "news_search",
+  "summary": "Roche's Ocrevus (ocrelizumab) intravenous formulation has reportedly been approved in Canada for pediatric multiple sclerosis, according to the Trend Hunter headline. No further details, such as age range or approval conditions, are given in the text provided.",
+  "summary_model": "claude-sonnet-5-5",
+  "title": "Pediatric Multiple Sclerosis Treatments: Roche's Ocrevus IV Gains Canadian Approval…"
  },
  "c730cdba895d6804": {
   "about_ms": true,
