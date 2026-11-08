@@ -191,6 +191,22 @@
   "summary_model": "claude-sonnet-5-5",
   "title": "Novartis Analyst Targets Diverge as $2.2 Billion in Pipeline Setbacks Temper Post-Earnings Optimism"
  },
+ "143f75e9ded254ca": {
+  "about_ms": true,
+  "category": "regulatory",
+  "collected_at": "2026-11-08T12:11:39.483670+00:00",
+  "description": "Watchdog probes U.S. drugmaker Biogen over restricted access to multiple sclerosis test NL Times",
+  "id": "143f75e9ded254ca",
+  "is_published": true,
+  "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQZEFEME1SaHZLR3A2WERSM2RDUWo2elA4bHc0ZHVfTVNfTHV4UEROMVhKMTZ5RHJZZnBwNmtKMEZ0bE40d3lSeUlfeUpRREpwcnVYa04wUTNpRHhHU2tiM0lXX2tLZ0dlaFBWd0oxbjRpTGxqd3lHZ3ZuVHdrbjRobzYzY0lORE5rVEdKX05DQUZXZnk4WkFMVDM0d0ZGZjNSZlNyVHVYempUaGc?oc=5",
+  "published_at": "2026-11-07T12:55:00+00:00",
+  "relevance": 3,
+  "source": "NL Times",
+  "source_type": "news_search",
+  "summary": "A watchdog is investigating U.S. drugmaker Biogen over restricted access to a multiple sclerosis test, according to NL Times. No further details, such as the test involved or the watchdog's concerns, are given in the available text.",
+  "summary_model": "claude-sonnet-5-5",
+  "title": "Watchdog probes U.S. drugmaker Biogen over restricted access to multiple sclerosis test"
+ },
  "16bf18b29c465e8b": {
   "about_ms": true,
   "category": "research",
@@ -1838,6 +1854,22 @@
   "summary": "NeurologyLive reports on a real-world study of immunotherapy trends and effectiveness in neuromyelitis optica spectrum disorder (NMOSD) and MOG antibody disease (MOGAD). No further details, such as treatments, outcomes, or participant numbers, are given in the available text.",
   "summary_model": "claude-sonnet-5-5",
   "title": "Real-World Study Highlights Immunotherapy Trends and Effectiveness in NMOSD and MOGAD"
+ },
+ "b28e6f0d9276112d": {
+  "about_ms": false,
+  "category": "other",
+  "collected_at": "2026-11-08T12:11:39.483686+00:00",
+  "description": "symbol__ Stock Quote Price and Forecast CNN",
+  "id": "b28e6f0d9276112d",
+  "is_published": false,
+  "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9Mclp3bTZOTlFaSmlXcFhUQmEzSDJwRXZsUFFKTU1fOXNhVG9Wd1R0bUpVU3Zpd1hVRmkwcDVFR0hneGZ2QVh1VEwwZVhUMndC?oc=5",
+  "published_at": "2026-11-06T12:05:22+00:00",
+  "relevance": 1,
+  "source": "CNN",
+  "source_type": "news_search",
+  "summary": "The source is a CNN stock quote page with an unfilled template placeholder (\"symbol__\") in the title. It contains no information about multiple sclerosis, NMOSD, MOGAD, or any related condition.",
+  "summary_model": "claude-sonnet-5-5",
+  "title": "symbol__ Stock Quote Price and Forecast"
  },
  "b2bc82ba9f6fc9a3": {
   "about_ms": true,
