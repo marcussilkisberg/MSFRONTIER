@@ -15,6 +15,22 @@
   "summary_model": "claude-sonnet-5-5",
   "title": "B cell CD19 is transferred between immune cells in mice and humans"
  },
+ "07626440e6d92296": {
+  "about_ms": false,
+  "category": "other",
+  "collected_at": "2026-11-09T14:20:05.061965+00:00",
+  "description": "TG Therapeutics Reports Third Quarter 2026 Financial Results and Raises Full-Year Revenue Guidance Business Wire",
+  "id": "07626440e6d92296",
+  "is_published": false,
+  "link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxPVDNiVXNjYzJaVXJjU3VZU3M2NmgxNHExUXpSUXBqaWxwSEhFSjhkd0hDU1h0ekhjZkwtb3RUckZWYTcyTmo0SVY3M1VQRFZERFRsWlVneVcyM08yc3EwNlB2eVhrSFBBeTM3aWhTZk5Zd2JNdXd4OTA3aXJIaXRZV2hybFZHR2xwV2daZXhDTWQyR1dXS0RLUlpvaXRaNjRfNDRVbFFWSjluSXBpT0xEYmpJZXc2cFpmdi1BT01QeFVTTDk1NldGMENxVTBDeHRGUnZnekJuTFhIR3RIdDlQalhYYlBKeTJGcUNJ?oc=5",
+  "published_at": "2026-11-09T12:00:00+00:00",
+  "relevance": 1,
+  "source": "Business Wire",
+  "source_type": "news_search",
+  "summary": "TG Therapeutics reported third quarter 2026 financial results and raised its full-year revenue guidance. The text provided contains no further details, such as figures, products, or clinical information.",
+  "summary_model": "claude-sonnet-5-5",
+  "title": "TG Therapeutics Reports Third Quarter 2026 Financial Results and Raises Full-Year Revenue Guidance"
+ },
  "08eddc47eacf17fb": {
   "about_ms": true,
   "category": "regulatory",
@@ -254,6 +270,22 @@
   "summary": "HCPLive features a discussion between a neurologist and a pharmacist on neuromyelitis optica spectrum disorder (NMOSD), describing it as underdiagnosed and overlooked, and on the path to better care. No further details are available in the provided text.",
   "summary_model": "claude-sonnet-5-5",
   "title": "NMOSD Underdiagnosed and Overlooked: A Neurologist and Pharmacist on the Path to Better Care"
+ },
+ "199d66e5f5bf83f7": {
+  "about_ms": true,
+  "category": "treatment",
+  "collected_at": "2026-11-09T14:20:05.062125+00:00",
+  "description": "Home MS Treatment Linked to Higher Patient Satisfaction Bioengineer.org",
+  "id": "199d66e5f5bf83f7",
+  "is_published": false,
+  "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOblhhRjZHNzJTWGF6Y05TUE9hM2x3T1ZWTGVjNllLa1ZjbDFNWHBTbG1EM0p2X1pxdmFLRHZqRHN4T29aQkp2Smp6OGtnUHZHMEhwb1ZrMnljN3ZFekVhTGhWenhRUndtTmNRbWhYWEV3VmtOMHl3V2JFc2VxN3FiVU5yeUhESzA?oc=5",
+  "published_at": "2026-11-09T03:06:32+00:00",
+  "relevance": 2,
+  "source": "Bioengineer.org",
+  "source_type": "news_search",
+  "summary": "A Bioengineer.org item reports that receiving MS treatment at home is linked to higher patient satisfaction. The provided text gives no details on the study, treatments, participants or how satisfaction was measured.",
+  "summary_model": "claude-sonnet-5-5",
+  "title": "Home MS Treatment Linked to Higher Patient Satisfaction"
  },
  "1a9af33cd3e738ab": {
   "about_ms": true,
@@ -943,6 +975,22 @@
   "summary_model": "claude-sonnet-5-5",
   "title": "TG Therapeutics Unveils Early Azer-cel Data in Progressive Multiple Sclerosis at MSToronto"
  },
+ "544c0d5a0afc5a91": {
+  "about_ms": false,
+  "category": "research",
+  "collected_at": "2026-11-09T14:20:05.062308+00:00",
+  "description": "Dalfampridine Improves Walking Speed in Pilot Trial for HTLV-1-Associated Myelopathy Bioengineer.org",
+  "id": "544c0d5a0afc5a91",
+  "is_published": false,
+  "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxObzY5Ymt5ZHhwc1JVWmVkd2liZENKVlFUR1RHaUpTRWpnUmx5YmZFb25hYjdTc2RER05fd2NTREM4eGJSUW1GLWU4bnFqTGhTOWRmQXpUbm4wQXdMcjhxYzFqZkxBelB4VTh5MVVyYTMwUmJYdFR5UFAwdUhwZ1pyOG5hQ3ZJVVV4eUY5ekFlQmk2Zy14RWR4MGh5SVpmRU0yd2pKcnFObktGOFcxQUE?oc=5",
+  "published_at": "2026-11-08T12:17:33+00:00",
+  "relevance": 2,
+  "source": "Bioengineer.org",
+  "source_type": "news_search",
+  "summary": "A pilot trial reported that dalfampridine improved walking speed in people with HTLV-1-associated myelopathy, a different spinal cord condition from MS. The source text provides no further details, such as participant numbers or the size of the improvement.",
+  "summary_model": "claude-sonnet-5-5",
+  "title": "Dalfampridine Improves Walking Speed in Pilot Trial for HTLV-1-Associated Myelopathy"
+ },
  "560f2cf4cd4cdf04": {
   "about_ms": true,
   "category": "research",
@@ -1551,6 +1599,22 @@
   "summary_model": "claude-sonnet-5-5",
   "title": "Remibrutinib Phase 3 Results in RMS, Blood Pressure Variability Findings, and Updated Stroke Rehabilitation Guidelines"
  },
+ "8c9b4c3f3779ff9a": {
+  "about_ms": true,
+  "category": "research",
+  "collected_at": "2026-11-09T14:20:05.062119+00:00",
+  "description": "Multicenter Study Tracks Ofatumumab Effectiveness and Infection Risks in Multiple Sclerosis Bioengineer.org",
+  "id": "8c9b4c3f3779ff9a",
+  "is_published": false,
+  "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNbFZvdDNUN1hhREJrVGFfUW1yUTlDYWNqWnZFRU82WVRfbFRRenRlOVlBR1M5TkpGSGJodkFPaUtMVnhySWV6eEpidzNEVjEyVDctOWRUVkwxcGdKUHFHamZhVzcyOVRydGU3dEFzTTBVSl9QZ3lXeFBEZWY3SkhJVEVZVEZCNVg0Vm0tRng2ckhQLWU0ZFpaUXd0Xzlwc2dEeEpGNDBFaVB4dklpSk1QV3c4aVZnU28?oc=5",
+  "published_at": "2026-11-08T21:39:56+00:00",
+  "relevance": 2,
+  "source": "Bioengineer.org",
+  "source_type": "news_search",
+  "summary": "A Bioengineer.org item reports a multicenter study tracking the effectiveness of ofatumumab and infection risks in multiple sclerosis. The provided text contains only the title, so no results, patient numbers or findings are available.",
+  "summary_model": "claude-sonnet-5-5",
+  "title": "Multicenter Study Tracks Ofatumumab Effectiveness and Infection Risks in Multiple Sclerosis"
+ },
  "8fab8c343b3eff1f": {
   "about_ms": true,
   "category": "living_with_ms",
@@ -1775,6 +1839,22 @@
   "summary_model": "claude-sonnet-5-5",
   "title": "Oral Fingolimod (FTY720) for Relapsing Multiple Sclerosis"
  },
+ "a75306dffa61e98e": {
+  "about_ms": true,
+  "category": "research",
+  "collected_at": "2026-11-09T14:20:05.061613+00:00",
+  "description": "",
+  "id": "a75306dffa61e98e",
+  "is_published": true,
+  "link": "https://www.nature.com/articles/s41582-026-01291-y",
+  "published_at": "2026-11-09T00:00:00+00:00",
+  "relevance": 3,
+  "source": "Nature",
+  "source_type": "research_news",
+  "summary": "A Nature article headline reports that a novel BTK inhibitor reduces multiple sclerosis relapses. No article text was provided, so the study type, drug name, participants and results are not known.",
+  "summary_model": "claude-sonnet-5-5",
+  "title": "Novel BTK inhibitor reduces multiple sclerosis relapses"
+ },
  "a8af009631d3fd59": {
   "about_ms": true,
   "category": "research",
@@ -1934,6 +2014,22 @@
   "summary": "RegMedNet's weekly cell therapy roundup includes an item on the discontinuation of an NK cell therapy for autoimmune disease. The provided text gives no details on the product, the company, the reason, or whether multiple sclerosis is involved.",
   "summary_model": "claude-sonnet-5-5",
   "title": "Cell therapy weekly: discontinuation of autoimmune disease NK cell therapy"
+ },
+ "ba65e3004bcc8d30": {
+  "about_ms": false,
+  "category": "other",
+  "collected_at": "2026-11-09T14:20:05.061913+00:00",
+  "description": "NEW YORK--(BUSINESS WIRE)--Morgan Stanley (NYSE: MS) today announced that it has entered into an agreement to acquire Vinyl Equity, a digital-first SEC-registered transfer agent and shareholder recordkeeping platform. The acquisition expands Morgan Stanley at Work's ecosystem by adding transfer agency capabilities, giving companies a single platform for cap table management, equity administration, share transfer, and wealth management infrastructure across private and public markets. \"Our clien",
+  "id": "ba65e3004bcc8d30",
+  "is_published": false,
+  "link": "http://www.businesswire.com/news/home/20261109303064/en/Morgan-Stanley-to-Acquire-Digital-Native-Transfer-Agent-Vinyl-Equity/?feedref=JjAwJuNHiystnCoBq_hl-Rc4vIAVcHHkbDcwJimU8QtrtlakeQ9hNboBqTAWIjTge3KWq9s9jif-UkBjBsFRyYAbRTSLTc1mgvhPlnaBA55M-oupQnbXnhKsYk8RmHF_kAy2gZikaX3QWV6xOvgFlA==",
+  "published_at": "2026-11-09T14:15:00+00:00",
+  "relevance": 1,
+  "source": "Business Wire",
+  "source_type": "press_release",
+  "summary": "Morgan Stanley announced an agreement to acquire Vinyl Equity, a digital-first SEC-registered transfer agent and shareholder recordkeeping platform. The deal adds transfer agency capabilities to Morgan Stanley at Work. It is not related to multiple sclerosis or demyelinating disease.",
+  "summary_model": "claude-sonnet-5-5",
+  "title": "Morgan Stanley to Acquire Digital-Native Transfer Agent Vinyl Equity"
  },
  "bb23ac3ccb55767b": {
   "about_ms": true,
@@ -2542,6 +2638,22 @@
   "summary": "Scientists report that oligodendrocytes, brain cells previously thought entirely beneficial, can become dysfunctional with age and produce abnormal amounts of myelin. This may disrupt nerve fibers and potentially contribute to worsening memory and thinking skills.",
   "summary_model": "claude-sonnet-5-5",
   "title": "Brain cells meant to protect us may be fueling cognitive decline"
+ },
+ "f1f0938852c5a077": {
+  "about_ms": true,
+  "category": "research",
+  "collected_at": "2026-11-09T14:20:05.062111+00:00",
+  "description": "Ofatumumab Shows Strong Relapse Control in Chinese Multiple Sclerosis Patients Over 12 Months Bioengineer.org",
+  "id": "f1f0938852c5a077",
+  "is_published": true,
+  "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxONktOLXZmdjFaNnAzMkFSR0lJLUdCMWxfMG05VU5lMHAzby1yWm1VWEZRdUdLYWFxeGQ1VjhtMDdiZlRidlBYWGpMS0pYUXg4UUFIRl9aVDFJME5fbHJlaWg5UVNvbFBFSXpOejZEYU9qYl8zeWhQZEIyOXhnb193QTVKMVM0OXRJV3NpV0ZKVmpwZGhESUMzN2lzT3V1eTg0eWcycEZ0d3pxc0xwWEtHb3gyUlczalNJTlE?oc=5",
+  "published_at": "2026-11-08T23:45:37+00:00",
+  "relevance": 3,
+  "source": "Bioengineer.org",
+  "source_type": "news_search",
+  "summary": "A Bioengineer.org article reports that ofatumumab controlled relapses in Chinese people with multiple sclerosis over 12 months. The provided text gives no further details on study design, participant numbers or results.",
+  "summary_model": "claude-sonnet-5-5",
+  "title": "Ofatumumab Shows Strong Relapse Control in Chinese Multiple Sclerosis Patients Over 12 Months"
  },
  "f40769728b6dec4c": {
   "about_ms": true,
