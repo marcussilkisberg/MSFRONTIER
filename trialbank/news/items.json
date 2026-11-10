@@ -767,6 +767,22 @@
   "summary_model": "claude-sonnet-5-5",
   "title": "Iovance Eyeing Biomarker-Informed Lung Cancer as Next Amtagvi Indication"
  },
+ "4630e47f11bb8504": {
+  "about_ms": false,
+  "category": "trial_news",
+  "collected_at": "2026-11-10T13:45:39.645627+00:00",
+  "description": "Final Results Reported for EPISOD1 Trial of SOD1-ALS Gene Therapy AMT-162 NeurologyLive",
+  "id": "4630e47f11bb8504",
+  "is_published": false,
+  "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNd3I5VDFBdEhyUGVLdzN0bzl2dGQ1SHFaYk93QVZTREtPMGtCbWYzQU5ESFBuWjRJRE5NdDJrUHg1SUwxZU5CUHJWNzFRQUlJS1d1akRDY0wzWWt5c1plRDVucHhxclA0QzlXVnBCNjJvaGgweXFWN1ZKeHhMM2ttYjV2X05uQkZZaS03enp2UWlpM1JscTlmdThVeWcxNktWU0RJ?oc=5",
+  "published_at": "2026-11-04T17:14:53+00:00",
+  "relevance": 1,
+  "source": "NeurologyLive",
+  "source_type": "news_search",
+  "summary": "NeurologyLive reports final results from the EPISOD1 trial of AMT-162, a gene therapy for SOD1-ALS (amyotrophic lateral sclerosis). The source text gives no further details, and the article is not about multiple sclerosis or related demyelinating disease.",
+  "summary_model": "claude-sonnet-5-5",
+  "title": "Final Results Reported for EPISOD1 Trial of SOD1-ALS Gene Therapy AMT-162"
+ },
  "46ced590b5acb2d3": {
   "about_ms": false,
   "category": "other",
@@ -1071,6 +1087,22 @@
   "summary_model": "claude-sonnet-5-5",
   "title": "Earlier diagnosis requires more than new criteria"
  },
+ "5bec631cbe84a6e5": {
+  "about_ms": true,
+  "category": "other",
+  "collected_at": "2026-11-10T13:45:39.645643+00:00",
+  "description": "MS Phenotypes, ICD-10 Codes, and Payer Barriers to Treatment The American Journal of Managed Care",
+  "id": "5bec631cbe84a6e5",
+  "is_published": false,
+  "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNNDQxSVpnNUdiUU9TWjRLdnUyenhraHlKMXF4amN3bDlIMUVQMjR3Wms4T2I4cWNKX0VkZjZoanVkdDBudTBDR0VSZ0FZZ1lUN0ZkbGxtUjQ2ZEtuY245a3VoOFpiWTB1bGh4WjFPZjAwMnpTNjc1ZDItSGtMWDJDb3l0N0d0Zi1VT2JsMw?oc=5",
+  "published_at": "2026-11-06T13:11:08+00:00",
+  "relevance": 2,
+  "source": "The American Journal of Managed Care",
+  "source_type": "news_search",
+  "summary": "The American Journal of Managed Care published a piece titled \"MS Phenotypes, ICD-10 Codes, and Payer Barriers to Treatment.\" The text provided contains only the title, so no findings or details can be reported.",
+  "summary_model": "claude-sonnet-5-5",
+  "title": "MS Phenotypes, ICD-10 Codes, and Payer Barriers to Treatment"
+ },
  "5dd9b32d5ccf04f2": {
   "about_ms": true,
   "category": "living_with_ms",
@@ -1319,6 +1351,22 @@
   "summary_model": "claude-sonnet-5-5",
   "title": "FDA Approves Voceryq | PharmExec"
  },
+ "6e8d7170268be84c": {
+  "about_ms": true,
+  "category": "research",
+  "collected_at": "2026-11-10T13:45:39.645261+00:00",
+  "description": "Workplace exposure to petroleum-based lubricants is linked to higher odds of multiple sclerosis (MS), a new study in Sweden suggests. The association was particularly strong among current smokers and people with certain genetic risk factors. Researchers found that people who reported working with products such as engine oil, concrete form oil, and cutting fluids used […] The post Workplace lubricant exposure linked to higher odds of MS in new study appeared first on Multiple Sclerosis News Today .",
+  "id": "6e8d7170268be84c",
+  "is_published": true,
+  "link": "https://multiplesclerosisnewstoday.com/news-posts/2026/11/09/petroleum-based-lubricant-exposure-linked-higher-ms-odds/",
+  "published_at": "2026-11-09T13:00:19+00:00",
+  "relevance": 3,
+  "source": "MS News Today",
+  "source_type": "news",
+  "summary": "A Swedish study found that workplace exposure to petroleum-based lubricants, such as engine oil, concrete form oil and cutting fluids, is linked to higher odds of multiple sclerosis. The association was particularly strong among current smokers and people with certain genetic risk factors.",
+  "summary_model": "claude-sonnet-5-5",
+  "title": "Workplace lubricant exposure linked to higher odds of MS in new study"
+ },
  "6fa63a312c602c36": {
   "about_ms": true,
   "category": "research",
@@ -1415,6 +1463,22 @@
   "summary_model": "claude-sonnet-5-5",
   "title": "Working life and MS"
  },
+ "7c35a8a3daea501d": {
+  "about_ms": false,
+  "category": "other",
+  "collected_at": "2026-11-10T13:45:39.645637+00:00",
+  "description": "TLSA: SEC Form 6-K filed by Tiziana Life Sciences Ltd. Quantisnow",
+  "id": "7c35a8a3daea501d",
+  "is_published": false,
+  "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPTUt2TEZlR1c2LWVHaVJtWU0yOEIxTDBtNTNBQUFzWTA5TkZ2Rzh1bFluRlFiZDE3Y0xZN0pBZ0lTRDhuVDUzN3l4ZlIyM3ZTWG41LUUzcmhSV2htRWxraUhIeXdWRnllNXhMS2tRdThzNVNDYldicHNBN0szelZoRFRwTXc2OG1xMy02SDAyLWlvaTA1?oc=5",
+  "published_at": "2026-11-09T18:57:46+00:00",
+  "relevance": 1,
+  "source": "Quantisnow",
+  "source_type": "news_search",
+  "summary": "Quantisnow lists an SEC Form 6-K filing by Tiziana Life Sciences Ltd. (ticker TLSA). The source text gives no details of the filing's contents, and nothing in it mentions multiple sclerosis or related diseases.",
+  "summary_model": "claude-sonnet-5-5",
+  "title": "TLSA: SEC Form 6-K filed by Tiziana Life Sciences Ltd."
+ },
  "7c3ce4e4a22f1751": {
   "about_ms": true,
   "category": "other",
@@ -1462,6 +1526,22 @@
   "summary": "A MedPage Today report says a study suggests an antioxidant may influence brain changes in multiple sclerosis. The provided text gives no details on the antioxidant, study design, participants or findings, so the strength of the evidence cannot be judged.",
   "summary_model": "claude-sonnet-5-5",
   "title": "Antioxidant May Influence Brain Changes in Multiple Sclerosis, Study Suggests"
+ },
+ "8056b7b81752524a": {
+  "about_ms": false,
+  "category": "other",
+  "collected_at": "2026-11-10T13:45:39.645667+00:00",
+  "description": "Compass Pathways stock gains on FDA filing for depression drug Yahoo Finance Singapore",
+  "id": "8056b7b81752524a",
+  "is_published": false,
+  "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQZ0FOaERPeWRwMXZudGZlWlFSbzFLdmxmMDE2ckZwNFhmVUtseXRxNkExZllnRjZtSWdmQkJMR1F2WExON2dKT0FiMkk4UHhjemxaZEdCbFZ4NWppckxnUHVvX3VkR2xBbHpZYllmblFsa2pNV2xqM0Q2b2cxUF9zcklfYmg0ZC1w?oc=5",
+  "published_at": "2026-11-09T18:09:18+00:00",
+  "relevance": 1,
+  "source": "Yahoo Finance Singapore",
+  "source_type": "news_search",
+  "summary": "Compass Pathways shares rose after the company made an FDA filing for its depression drug. The source text gives no further details, and it does not mention multiple sclerosis or related demyelinating diseases.",
+  "summary_model": "claude-sonnet-5-5",
+  "title": "Compass Pathways stock gains on FDA filing for depression drug"
  },
  "824aecce47a05e57": {
   "about_ms": true,
@@ -1526,6 +1606,22 @@
   "summary": "NEJM lists a trial of satralizumab in neuromyelitis optica spectrum disorder. The text provided gives only the title, with no results, design details or safety information.",
   "summary_model": "claude-sonnet-5-5",
   "title": "Trial of Satralizumab in Neuromyelitis Optica Spectrum Disorder"
+ },
+ "881e6764f3a96486": {
+  "about_ms": false,
+  "category": "other",
+  "collected_at": "2026-11-10T13:45:39.645649+00:00",
+  "description": "Precision BioSciences Reports Third Quarter 2026 Financial Results and Provides Business Update 01net",
+  "id": "881e6764f3a96486",
+  "is_published": false,
+  "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQay1pUGZwLVdwNXdCY2xkemJiRjFrQlZsMU5hMmVCLUE5Q1VLT01FbTFlN0NoRnJOTGFMcElXSnN6QkQwNnJhWWdMRnRJZ19FaEhObk1KOFhOakh2eWpJc0l0U3k4X0tQRWtxSTBrNU9JcU9FSHlvUzdpUkN4TTF2Sk9uZ0wxTVBxZk5tNEt1elJQSXZhSzBYTm1WRzU5cTUzbWlnWkFaUkc4eTFfS1VvUjFwcFA2MkU5?oc=5",
+  "published_at": "2026-11-03T15:01:00+00:00",
+  "relevance": 1,
+  "source": "01net",
+  "source_type": "news_search",
+  "summary": "Precision BioSciences issued a third quarter 2026 financial results and business update, according to 01net. The provided text contains no details on content, and no mention of multiple sclerosis or related demyelinating disease.",
+  "summary_model": "claude-sonnet-5-5",
+  "title": "Precision BioSciences Reports Third Quarter 2026 Financial Results and Provides Business Update"
  },
  "889cda1ea4adb0ed": {
   "about_ms": true,
@@ -1598,6 +1694,22 @@
   "summary": "A NeurologyLive roundup covers phase 3 results for remibrutinib in relapsing multiple sclerosis, findings on blood pressure variability, and updated stroke rehabilitation guidelines. The text provided gives no details of the results.",
   "summary_model": "claude-sonnet-5-5",
   "title": "Remibrutinib Phase 3 Results in RMS, Blood Pressure Variability Findings, and Updated Stroke Rehabilitation Guidelines"
+ },
+ "8c84d19bbfb53343": {
+  "about_ms": true,
+  "category": "trial_news",
+  "collected_at": "2026-11-10T13:45:39.645586+00:00",
+  "description": "Tiziana’s nasal foralumab reduces microglial activation in progressive MS trial Proactive financial news",
+  "id": "8c84d19bbfb53343",
+  "is_published": false,
+  "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPZThEdDhycXFqeU13RllLdGU0MURsOWFEMElJUXYyYUdBR0xrZ3daMFhTdjhpZnFyNkdKclpHbmRHRnFnV3h2TXNVd1E2OU1KSTUyblBzYzQxOHI0SHduSDlfWGZzWDVYXzQ5NUotcG9Fcm9CVnNkeElpSDJRTHRaaVBFMHAxZ3dicjFQVU5IV0Exbk9iNG40cEhEWUNkNnJ4bFZ4TTN0U1ZXRlJXNVRaTXhZX3BlNk9wQXc4azE1bXpmSFVCVDEzenJEeF83Y2VPWEk0dGk3UEFEZ1prQlZTZzQxZ24?oc=5",
+  "published_at": "2026-11-09T14:46:00+00:00",
+  "relevance": 2,
+  "source": "Proactive financial news",
+  "source_type": "news_search",
+  "summary": "Proactive financial news reports that Tiziana's nasal foralumab reduced microglial activation in a progressive MS trial. The source text gives no further details on participants, methods, or clinical outcomes.",
+  "summary_model": "claude-sonnet-5-5",
+  "title": "Tiziana’s nasal foralumab reduces microglial activation in progressive MS trial"
  },
  "8c9b4c3f3779ff9a": {
   "about_ms": true,
@@ -1759,6 +1871,54 @@
   "summary_model": "claude-sonnet-5-5",
   "title": "Understanding the Mechanism and Therapeutic Potential of Vidofludimus Calcium for Multiple Sclerosis"
  },
+ "9bee2a06f6a973af": {
+  "about_ms": true,
+  "category": "living_with_ms",
+  "collected_at": "2026-11-10T13:45:39.645699+00:00",
+  "description": "How to Deal With ‘Wearing-Off’ Phenomenon in MS Treatment Everyday Health",
+  "id": "9bee2a06f6a973af",
+  "is_published": false,
+  "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQVDZTOHVZYmN6bUVRNDNGUk5feHk2QTRBaTQzV0tDUDMwcV9DLUVvRE9JZDAzVWpMeDdOZ1ZjQXdDZ0FybW9zTGVPYzljX3BiU1VEdG5ZcUhhUkNUbEVJNHZhUXl2NWtoeGNWRE1hTDFBaHg0OTQtX2xWbEp2TFQtbUp6aEpadk4xNWwxeWlvYVp0d0IxSG1GYm9lYjlBUC0wQWp6YWRqOA?oc=5",
+  "published_at": "2026-11-09T22:29:07+00:00",
+  "relevance": 2,
+  "source": "Everyday Health",
+  "source_type": "news_search",
+  "summary": "Everyday Health published an article on the 'wearing-off' phenomenon in MS treatment. Only the headline was provided, so no details about causes, affected treatments, or management approaches can be stated.",
+  "summary_model": "claude-sonnet-5-5",
+  "title": "How to Deal With ‘Wearing-Off’ Phenomenon in MS Treatment"
+ },
+ "9c6619474f869508": {
+  "about_ms": false,
+  "category": "other",
+  "collected_at": "2026-11-10T13:45:39.645674+00:00",
+  "description": "Weekly Buzz: RDY, LUPIN, SUNPHARMA Score FDA Wins; AGIO, RARE Slash Jobs; CVS Plots Split RTTNews",
+  "id": "9c6619474f869508",
+  "is_published": false,
+  "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxORUUzUU03eW1lN05rYUh0eDFDaXVlRHo0NW5uRmRvN3FKeXZDRld0UVlQWW9MaTBKWWJ4V2lDTVBTT2RXQ1lLcWtJcmhWWjNjMVhQOGg5RFpEZTZtU0hVdXFodl9PN2hZMkdkc2ZWYkR0WXpWb1BVdmNxZHYzQzJfc2RDaHl0M1pDZGNTeFdSMGdMNmRhUzZtdVl0REdnbnJocDRtNV9CNkhWV0Z1eklvaHJTNXI5UkFWZGtJRA?oc=5",
+  "published_at": "2026-11-06T14:54:00+00:00",
+  "relevance": 1,
+  "source": "RTTNews",
+  "source_type": "news_search",
+  "summary": "RTTNews published a weekly biotech and pharma roundup. Its headline mentions FDA wins for RDY, LUPIN and SUNPHARMA, job cuts at AGIO and RARE, and a planned split at CVS. No details on MS or related diseases are given.",
+  "summary_model": "claude-sonnet-5-5",
+  "title": "Weekly Buzz: RDY, LUPIN, SUNPHARMA Score FDA Wins; AGIO, RARE Slash Jobs; CVS Plots Split"
+ },
+ "9db1cbc53afbc88a": {
+  "about_ms": true,
+  "category": "research",
+  "collected_at": "2026-11-10T13:45:39.645736+00:00",
+  "description": "A Placebo-Controlled Trial of Oral Fingolimod in Relapsing Multiple Sclerosis NEJM",
+  "id": "9db1cbc53afbc88a",
+  "is_published": true,
+  "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1QMXhyWV9tczZnNW14ZE9sOUxGMXZpeGRhLXJVLWYwVDVTWWg1MDc5S1lVRGRLSWNDZnFUeWQwUWUtdGpIckh5UWNQZS0xNDhlMlh2d0xfaF83dFVHZHRkQg?oc=5",
+  "published_at": "2018-03-04T15:32:29+00:00",
+  "relevance": 3,
+  "source": "NEJM",
+  "source_type": "news_search",
+  "summary": "NEJM published a placebo-controlled trial of oral fingolimod in relapsing multiple sclerosis. The provided text gives only the title, with no results, dose, population, or outcome details.",
+  "summary_model": "claude-sonnet-5-5",
+  "title": "A Placebo-Controlled Trial of Oral Fingolimod in Relapsing Multiple Sclerosis"
+ },
  "9df59308fc6e7bb3": {
   "about_ms": true,
   "category": "research",
@@ -1790,6 +1950,22 @@
   "summary": "Nature published an item titled \"Breg cells to the rescue.\" No article text was provided, so its content, subject, and any link to multiple sclerosis or related demyelinating disease cannot be determined.",
   "summary_model": "claude-sonnet-5-5",
   "title": "Breg cells to the rescue"
+ },
+ "a2524105df812f5c": {
+  "about_ms": false,
+  "category": "research",
+  "collected_at": "2026-11-10T13:45:39.645662+00:00",
+  "description": "Overviewing the 1-Year KYSA-8 Findings of Miv-cel in Stiff Person Syndrome: Amanda Piquet, MD NeurologyLive",
+  "id": "a2524105df812f5c",
+  "is_published": false,
+  "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNNVJTOVM5VFo0dGRZWmVnRVJfQy1jOURJR1BTcGJCT2lfTUJMMzdDV1QtQkhlOTdzVUtQWktrR0JYdnZXRmNkVzNxTzRWUXFFRklpQjhyejd1ZkZ1eDdXRjBDT1gwVlpsMGV5RHdwNEo5VnV1Q1dPa3QyRXpqZWhJNGJFS2pONVpURDJsb0dXR1lGbWsxZEZoVF9JdWJPc0U?oc=5",
+  "published_at": "2026-11-05T23:08:40+00:00",
+  "relevance": 1,
+  "source": "NeurologyLive",
+  "source_type": "news_search",
+  "summary": "NeurologyLive lists an interview with Amanda Piquet, MD, overviewing 1-year findings from the KYSA-8 study of miv-cel in stiff person syndrome. No further details are given, and the topic is not multiple sclerosis.",
+  "summary_model": "claude-sonnet-5-5",
+  "title": "Overviewing the 1-Year KYSA-8 Findings of Miv-cel in Stiff Person Syndrome: Amanda Piquet, MD"
  },
  "a57a8df497853457": {
   "about_ms": true,
@@ -2127,6 +2303,38 @@
   "summary_model": "claude-sonnet-5-5",
   "title": "Pediatric Multiple Sclerosis Treatments: Roche's Ocrevus IV Gains Canadian Approval…"
  },
+ "c40f7a5222aabffa": {
+  "about_ms": false,
+  "category": "research",
+  "collected_at": "2026-11-10T13:45:39.645685+00:00",
+  "description": "Two Phase 3 Trials Show Good Efficacy and Safety of Satralizumab for TED American Academy of Ophthalmology",
+  "id": "c40f7a5222aabffa",
+  "is_published": false,
+  "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQdHVqeGFVTkRaWUtJUXJQZWc2ZGlqbmVMblJmS3hxZHNrbnd0dW9vNEhoVV9VWnFSUDZFZkt1aFJCWmZvZFNTNW1oUVRPdUJ3YkN3Y21YQXZ0Rzl1aUo1RF9RZDhlcG93Uk5kdlJabkY0aGRjWW9oc3BCQjBLZ09IR0R0eE1WMUNjRWNuTk5ST2J4R2VXZGl4QXpKbw?oc=5",
+  "published_at": "2026-11-09T22:23:28+00:00",
+  "relevance": 1,
+  "source": "American Academy of Ophthalmology",
+  "source_type": "news_search",
+  "summary": "A report from the American Academy of Ophthalmology says two Phase 3 trials showed good efficacy and safety of satralizumab for thyroid eye disease (TED). The text provided does not mention MS or related demyelinating conditions.",
+  "summary_model": "claude-sonnet-5-5",
+  "title": "Two Phase 3 Trials Show Good Efficacy and Safety of Satralizumab for TED"
+ },
+ "c61d0fce49d275d9": {
+  "about_ms": true,
+  "category": "other",
+  "collected_at": "2026-11-10T13:45:39.645761+00:00",
+  "description": "Tiziana Life Sciences to advance foralumab partnering talks at BIO-Europe 2026 Proactive financial news",
+  "id": "c61d0fce49d275d9",
+  "is_published": false,
+  "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxNVU5Idmx6OFhLby1kYTNIc2l5RWxHS0FxMS1XRnN5SU9WcWUxcmo2bHo5cHRFaGtZcExoZ3BsU2xZbXdtc3h1UmExbnNxemh5cTV6eF9ZbFpvVlJReFUwZHFYajdvSTd3cXAxN1lTNENac0UzU2Q3SXVJSUVrZExsNkg4eVN4a2NvWTRPaFNMd1NqSFZ0QWMwVWFCN21fb0VxS29GVm4zdFJNamlPbWJuaDNpYnd1dzlrLU5MVTdvS2NfRkpNSmRtOUFCcDM0bDJYS29ibGZGTWlvX1Y3RTV1eUtKYw?oc=5",
+  "published_at": "2026-11-09T09:54:00+00:00",
+  "relevance": 1,
+  "source": "Proactive financial news",
+  "source_type": "news_search",
+  "summary": "Tiziana Life Sciences says it will continue partnering discussions for its drug candidate foralumab at the BIO-Europe 2026 conference. The brief text gives no trial results, regulatory decisions or other clinical details.",
+  "summary_model": "claude-sonnet-5-5",
+  "title": "Tiziana Life Sciences to advance foralumab partnering talks at BIO-Europe 2026"
+ },
  "c730cdba895d6804": {
   "about_ms": true,
   "category": "research",
@@ -2287,6 +2495,22 @@
   "summary_model": "claude-sonnet-5-5",
   "title": "Experimental therapy may curb chronic brain inflammation in MS"
  },
+ "d629a8e3ddf0701d": {
+  "about_ms": false,
+  "category": "other",
+  "collected_at": "2026-11-10T13:45:39.645654+00:00",
+  "description": "Kyverna Therapeutics Announces Publication of Registrational... Quantisnow",
+  "id": "d629a8e3ddf0701d",
+  "is_published": false,
+  "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOYnVwLVd3U1RLOFNHX2RzQTJzeW5aeDViSk1rcHFZR0lYYWRtRjdyU2xUckNfMnVPZlJjQUtyVUxDU1VRcVE2cm5ncnJfdktuMkhiekRhSmJkSktVSGduSkZtcGVNV1pnVWpHcS1DOWs1NmljZ2FqWTZheldRTkJkVG83b0I1ZWktNzhVMG5CZTBzNzJpYzUxSExLRmNUSlFXT1NMRWZxMWEtdG1NMlF4NDBleWp3U0FpODZNTUt4dERkdw?oc=5",
+  "published_at": "2026-11-09T16:08:25+00:00",
+  "relevance": 1,
+  "source": "Quantisnow",
+  "source_type": "news_search",
+  "summary": "Kyverna Therapeutics announced the publication of registrational data, according to a truncated headline from Quantisnow. The text provided does not say which condition, treatment, or results are involved, and it does not mention MS.",
+  "summary_model": "claude-sonnet-5-5",
+  "title": "Kyverna Therapeutics Announces Publication of Registrational..."
+ },
  "d9156dc56d5387d4": {
   "about_ms": false,
   "category": "other",
@@ -2318,6 +2542,22 @@
   "summary": "A Nature paper links periventricular gradient pathology in multiple sclerosis to ependymal reactivity and disrupted cell adhesion. No article text was available, so methods, sample, and findings beyond the title are not stated.",
   "summary_model": "claude-sonnet-5-5",
   "title": "Periventricular gradient pathology is linked to ependymal reactivity and cell adhesion disruption in multiple sclerosis"
+ },
+ "ddcce3a04fd64da8": {
+  "about_ms": false,
+  "category": null,
+  "collected_at": "2026-11-10T13:45:39.645576+00:00",
+  "description": "Immunic at guggenheim conference: phase iii readout looms By Investing.com Investing.com UK",
+  "id": "ddcce3a04fd64da8",
+  "is_published": false,
+  "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNdTZ6MFBtNndmQkRDckJyODd3MVVmMTFKTG5SeGM2b0NFdmltSFQ2dEdLcjFxS0Q2c0xValZOT3pmd0lEaTdYZWt0NktSSUo0WExUS2J5cnNzMWpOMm9kSHIxTlhUTXllU2VMeWp0bTVFTTR2SlVOSS0xS3dzdTZUdFpqN0FjRkpDbkFXSk5Db3pFMUVvZ2dvRkVZT0xiVHQ4T3JKdVhTUk9FN2Y3aklpMk9nSm5jSkla?oc=5",
+  "published_at": "2026-11-09T18:38:00+00:00",
+  "relevance": null,
+  "source": "Investing.com UK",
+  "source_type": "news_search",
+  "summary": null,
+  "summary_model": "claude-sonnet-5-5",
+  "title": "Immunic at guggenheim conference: phase iii readout looms By Investing.com"
  },
  "de20240936524f27": {
   "about_ms": true,
@@ -2494,6 +2734,22 @@
   "summary": "Canada has expanded its approval of Ocrevus (ocrelizumab) to include children with relapsing multiple sclerosis, according to Multiple Sclerosis News Today. No further details, such as age range or supporting data, were provided in the text available.",
   "summary_model": "claude-sonnet-5-5",
   "title": "Canada expands Ocrevus approval to children with relapsing MS"
+ },
+ "e6addbb4b806f517": {
+  "about_ms": true,
+  "category": "regulatory",
+  "collected_at": "2026-11-10T13:45:39.645930+00:00",
+  "description": "FDA Will Review Arbaclofen ER, Potential Oral Therapy for MS Spasticity Multiple Sclerosis News Today",
+  "id": "e6addbb4b806f517",
+  "is_published": true,
+  "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPSzNrTmhycnhtcENKa0tRYnJ3WGh0YllVcHlPRHl3Y2JwanZ3V3JOOGR5dmVvaDRRQ2FKMlYtXzY0c1FIU096Ukpqdzc3RFVRRzdDV2hXN3pFZXN1bXVBVXN4aTh3VmdnQlRlOUV0eFRab0gweTAzd2d6Vl9RcVYwNjhLRzM4aUgwUFgyNkJoSk9DNDRiNlZTakRiM1puTC1LenJmaWlsMVBWTng5UzE2a2VndGFLdXZJOTN2OWJWdDc5eHF5cmxBRVJn?oc=5",
+  "published_at": "2020-07-22T07:00:00+00:00",
+  "relevance": 3,
+  "source": "Multiple Sclerosis News Today",
+  "source_type": "news_search",
+  "summary": "The FDA will review arbaclofen ER, a potential oral therapy for spasticity in people with multiple sclerosis. The source text gives only the headline, so details such as the review timeline and supporting trial data are not stated.",
+  "summary_model": "claude-sonnet-5-5",
+  "title": "FDA Will Review Arbaclofen ER, Potential Oral Therapy for MS Spasticity"
  },
  "e6fffb557cfb91b7": {
   "about_ms": true,
@@ -2806,6 +3062,22 @@
   "summary": "The May 50K 2026, an MS fundraising event, raised £1.6 million, according to a headline from the MS International Federation. No further details, such as how the money will be used, are given in the source text.",
   "summary_model": "claude-sonnet-5-5",
   "title": "£1.6 million raised by The May 50K 2026"
+ },
+ "fbce6321365a2be7": {
+  "about_ms": false,
+  "category": "research",
+  "collected_at": "2026-11-10T13:45:39.645710+00:00",
+  "description": "Rituximab Shows Limited Evidence for Severe Nervous System Complications in Sjögren’s Disease Bioengineer.org",
+  "id": "fbce6321365a2be7",
+  "is_published": false,
+  "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNXzFpNC1uWU1oN2U4OHBnanZpUVl4RnA2RHlqZzh6RGJ3WjlPcXRNWkxwbzRXRFRvTjE1U0NpQ2xjQXE2cnVBZkx3SlpzakFRR1pVWnZtZFJDMllKQkNWV1J5LThsQ3FKeWVKNURNbm14NVlILTE5Zjc3SFZGOVF4TWpncXlHaHlRcGFKc09kelJEa2tOMzhtYzY5QVJVb0RLVlZQbjR3TXdkcGZHQ2xsZGhadWE0bmNH?oc=5",
+  "published_at": "2026-11-10T06:38:45+00:00",
+  "relevance": 1,
+  "source": "Bioengineer.org",
+  "source_type": "news_search",
+  "summary": "A Bioengineer.org article reports that rituximab has limited evidence of benefit for severe nervous system complications in Sjögren's disease. The source text provided contains only the headline, with no details on the data or study design.",
+  "summary_model": "claude-sonnet-5-5",
+  "title": "Rituximab Shows Limited Evidence for Severe Nervous System Complications in Sjögren’s Disease"
  },
  "fcad29da744f4f09": {
   "about_ms": true,
