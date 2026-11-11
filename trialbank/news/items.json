@@ -1,4 +1,20 @@
 {
+ "016cc5dcfca3ce95": {
+  "about_ms": false,
+  "category": "other",
+  "collected_at": "2026-11-11T12:56:41.146460+00:00",
+  "description": "France Remains One of Europe’s Leading Biotech Funding Hubs PharmTech.com",
+  "id": "016cc5dcfca3ce95",
+  "is_published": false,
+  "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQc0N4ZEM3M2p5WTNNbm9xcVNWaW9JdEYtZkFjZmtiNFRDbWdyMlZZYnZacWg4blNUZDFtSW1USmp0bGRTVE5NVlktRXN6Z1N3VGZkNDU0XzctbjdGX3JldlktY2h1SkNnaHIzZXpTU2VJdHgyRE5HNXctbktfQ29tb2w5MmFLeW4xSXB3QlRWNUtuX2Rx?oc=5",
+  "published_at": "2026-11-10T13:09:55+00:00",
+  "relevance": 1,
+  "source": "PharmTech.com",
+  "source_type": "news_search",
+  "summary": "The article, from PharmTech.com, is titled \"France Remains One of Europe's Leading Biotech Funding Hubs.\" No further text was provided, so no details about funding, companies, or multiple sclerosis are available.",
+  "summary_model": "claude-sonnet-5-5",
+  "title": "France Remains One of Europe’s Leading Biotech Funding Hubs"
+ },
  "02a8207a1150def3": {
   "about_ms": false,
   "category": "research",
@@ -14,6 +30,22 @@
   "summary": "A Nature paper reports that CD19, a protein on B cells, is transferred between immune cells in mice and humans. No further details were provided, and the title does not mention MS or any treatment.",
   "summary_model": "claude-sonnet-5-5",
   "title": "B cell CD19 is transferred between immune cells in mice and humans"
+ },
+ "04378f53a9b18e78": {
+  "about_ms": true,
+  "category": "trial_news",
+  "collected_at": "2026-11-11T12:56:41.146544+00:00",
+  "description": "Physician Views Results: Novartis’ remibrutinib gets second opinion from neurologists FirstWord Pharma",
+  "id": "04378f53a9b18e78",
+  "is_published": false,
+  "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE43TGNjVHdxRUctc003aGlZRzFYSDNtZGlCTUNDblptNThfUUwxdnpwbXdDbGVBU2pyTXFPMk1CTUtkbjRTdm9FblE5OE9TM054dDdZ?oc=5",
+  "published_at": "2026-11-09T02:21:20+00:00",
+  "relevance": 2,
+  "source": "FirstWord Pharma",
+  "source_type": "news_search",
+  "summary": "FirstWord Pharma reports on a neurologist survey giving a second opinion on Novartis' remibrutinib. The provided text contains only the headline, so no results, data or trial details are stated.",
+  "summary_model": "claude-sonnet-5-5",
+  "title": "Physician Views Results: Novartis’ remibrutinib gets second opinion from neurologists"
  },
  "07626440e6d92296": {
   "about_ms": false,
@@ -46,6 +78,22 @@
   "summary": "Health Canada approved Ocrevus (ocrelizumab), an infusion therapy, for children and teenagers aged 10 and older with relapsing-remitting MS. Previously authorized only for adults in Canada, it joins daily oral Gilenya (fingolimod) as a treatment option for this age group.",
   "summary_model": "claude-sonnet-5-5",
   "title": "Canadian families gain new therapy for children with relapsing MS"
+ },
+ "09077967d7da2cab": {
+  "about_ms": false,
+  "category": "other",
+  "collected_at": "2026-11-11T12:56:41.146472+00:00",
+  "description": "Alkermes at stifel 2026 healthcare conference: pipeline widens By Investing.com Investing.com India",
+  "id": "09077967d7da2cab",
+  "is_published": false,
+  "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPY284RFlkMXRrZThnd3JQZGhHVEdYaEtfT0VLTkNzN05CcF9iVlI4NE1vNFVRT24wYmU5TmhtM01qd1lZMW1NVGlmQVVOUVpQQXBCdDlSVF9OTkR1eG1IRFFpYnVfRldvOUhqOTFtQ25aZk82UFNIMXlZVW5JUWlNcEhuZGxkLUVfQ01mR3BpSzdDQmYzeG9qd2NibkoyY3lOQVRGWWJXRzlkNmJySlFqT0FTdVlNVmVCZnYyOUF1QQ?oc=5",
+  "published_at": "2026-11-10T16:37:49+00:00",
+  "relevance": 1,
+  "source": "Investing.com India",
+  "source_type": "news_search",
+  "summary": "The title says Alkermes presented at the Stifel 2026 Healthcare Conference and that its pipeline is widening. No further details were provided, and the text does not mention multiple sclerosis or related demyelinating diseases.",
+  "summary_model": "claude-sonnet-5-5",
+  "title": "Alkermes at stifel 2026 healthcare conference: pipeline widens By Investing.com"
  },
  "090b2fb39055a816": {
   "about_ms": true,
@@ -479,6 +527,22 @@
   "summary_model": "claude-sonnet-5-5",
   "title": "ACTRIMS 2026: Vidofludimus calcium targets key MS mechanisms, data show"
  },
+ "2682664b24f91661": {
+  "about_ms": true,
+  "category": "research",
+  "collected_at": "2026-11-11T12:56:41.146251+00:00",
+  "description": "A low-fat diet may help reduce fatigue in multiple sclerosis (MS) by altering how the body processes lipids, or fats, and amino acids, which serve as the building blocks of proteins, a small study by U.S. researchers suggests. These scientists analyzed data from a small clinical trial involving adults with MS that evaluated the effects […] The post Low-fat diet may help reduce fatigue in MS, new trial analysis suggests appeared first on Multiple Sclerosis News Today .",
+  "id": "2682664b24f91661",
+  "is_published": true,
+  "link": "https://multiplesclerosisnewstoday.com/news-posts/2026/11/10/low-fat-diet-potentially-reduces-fatigue-ms-trial-analysis-suggests/",
+  "published_at": "2026-11-10T17:45:30+00:00",
+  "relevance": 3,
+  "source": "MS News Today",
+  "source_type": "news",
+  "summary": "A small analysis of clinical trial data in adults with MS suggests a low-fat diet may reduce fatigue. The researchers propose this may work by altering how the body processes lipids (fats) and amino acids, the building blocks of proteins.",
+  "summary_model": "claude-sonnet-5-5",
+  "title": "Low-fat diet may help reduce fatigue in MS, new trial analysis suggests"
+ },
  "29d8130161132a49": {
   "about_ms": true,
   "category": "research",
@@ -735,6 +799,22 @@
   "summary_model": "claude-sonnet-5-5",
   "title": "Tiziana touts multiple sclerosis win at lower dose as high dose misses mark"
  },
+ "441b75a7e5269c5e": {
+  "about_ms": true,
+  "category": "other",
+  "collected_at": "2026-11-11T12:56:41.146551+00:00",
+  "description": "Why It’s Time to Rethink Multiple Sclerosis Sanofi",
+  "id": "441b75a7e5269c5e",
+  "is_published": false,
+  "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPbUpFZlhCb1RSb3EzYlBCVnFia3dfamttVG5lZVZ5cnoxSDhPZHhSLXZ0NzMtdVpaZEM0UnF5Q21jMEhoWEd3OEFITFdTbU9kSWxkbzdCbkhBTHBsNTV3cmpiV2pORVJuckJiMG82eGlQY2RfN29NelBFQVA2OGtySzUzT3FGTFdlX09vWldsd2N1REU?oc=5",
+  "published_at": "2026-11-04T14:37:36+00:00",
+  "relevance": 1,
+  "source": "Sanofi",
+  "source_type": "news_search",
+  "summary": "Sanofi published a piece titled \"Why It's Time to Rethink Multiple Sclerosis.\" The provided text contains only the title, with no details on findings, data, treatments or decisions.",
+  "summary_model": "claude-sonnet-5-5",
+  "title": "Why It’s Time to Rethink Multiple Sclerosis"
+ },
  "44f0d0861922602c": {
   "about_ms": false,
   "category": "other",
@@ -814,6 +894,22 @@
   "summary": "NeurologyLive reports new data from the phase 2 CALLIPER trial of vidofludimus calcium in progressive multiple sclerosis. The headline says the data show therapeutic potential; no results, numbers or safety details are given in the text provided.",
   "summary_model": "claude-sonnet-5-5",
   "title": "Vidofludimus Calcium Demonstrates Therapeutic Potential in Latest Phase 2 CALLIPER Trial Data of Progressive Multiple Sclerosis"
+ },
+ "486fe794cf32a742": {
+  "about_ms": true,
+  "category": "regulatory",
+  "collected_at": "2026-11-11T12:56:41.146696+00:00",
+  "description": "CPI | Dutch Regulators Probe Biogen Over MS Treatment Competition PYMNTS.com",
+  "id": "486fe794cf32a742",
+  "is_published": false,
+  "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNc2dPNjd5elBWcFFJaFpIQnViVW1KY0puU2FkeFJQWUlteEU0NmNuZGdpVHlYaEZKN0VrWWFnaTdldzJGeEtmZ2Z4WXJ5WGNmYXFNcTRJdG9rUUU3RkxIUElXdTJaZUxSdzNidEQzcmJaMlV5M243QklYZjhVcGJ1R1lVbGl4TDFPYVRZaVZ1U1pLOXoyamJUbQ?oc=5",
+  "published_at": "2026-11-10T18:03:38+00:00",
+  "relevance": 2,
+  "source": "PYMNTS.com",
+  "source_type": "news_search",
+  "summary": "Dutch regulators are reportedly investigating Biogen over competition in the market for multiple sclerosis treatment, according to the headline. No further details about the probe were provided in the available text.",
+  "summary_model": "claude-sonnet-5-5",
+  "title": "CPI | Dutch Regulators Probe Biogen Over MS Treatment Competition"
  },
  "499cae944f2140e5": {
   "about_ms": true,
@@ -1103,6 +1199,22 @@
   "summary_model": "claude-sonnet-5-5",
   "title": "MS Phenotypes, ICD-10 Codes, and Payer Barriers to Treatment"
  },
+ "5c76cd47603204b2": {
+  "about_ms": false,
+  "category": "research",
+  "collected_at": "2026-11-11T12:56:41.146529+00:00",
+  "description": "CAR-T Therapy Cuts Walking Time 46% in Stiff Person Syndrome, Registering Zero Deaths as Rival Drugs Killed Three Tech Times",
+  "id": "5c76cd47603204b2",
+  "is_published": false,
+  "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNRXlGU0prVDcwQ25qTEhoSk9BSUJxVzJTRGY0NXJIMGJxdm00dmZXNUxqTmFIUzc1eW1sUWFXVE9yYlJPU0pxTnhFai1peXNTc09mZE1NZTlYZlNlVTREdlJhakZZMHNfbzNCcTdlOEJNcUNGamtzbG14aWR5TnZvUVRoaC1mTlVzeFFDVlVfdGQ2UE0xVGhidUp3QU1FSVBLNFRURG5sU0NzX0tEbzVmOVFPWW5JX3lyNXJxc0hjTHhaNnZnTlN2YXlNYXdsNEFCXzlpWTdBdzAwS0R2MjZIdQ?oc=5",
+  "published_at": "2026-11-11T01:34:01+00:00",
+  "relevance": 2,
+  "source": "Tech Times",
+  "source_type": "news_search",
+  "summary": "A Tech Times headline reports that CAR-T therapy cut walking time by 46% in stiff person syndrome, with zero deaths, while three deaths occurred with other drugs. The text provided gives no further detail and does not mention MS.",
+  "summary_model": "claude-sonnet-5-5",
+  "title": "CAR-T Therapy Cuts Walking Time 46% in Stiff Person Syndrome, Registering Zero Deaths as Rival Drugs Killed Three"
+ },
  "5dd9b32d5ccf04f2": {
   "about_ms": true,
   "category": "living_with_ms",
@@ -1367,6 +1479,22 @@
   "summary_model": "claude-sonnet-5-5",
   "title": "Workplace lubricant exposure linked to higher odds of MS in new study"
  },
+ "6ed3a8e4e0a9e76f": {
+  "about_ms": false,
+  "category": "other",
+  "collected_at": "2026-11-11T12:56:41.146534+00:00",
+  "description": "Alzheimer's MRI Software Sorts Dementia Patients Into 2-Year and 7-Year Groups, Wins Drug Vote Tech Times",
+  "id": "6ed3a8e4e0a9e76f",
+  "is_published": false,
+  "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPUVNxQnFIWUs1YTg5Y2J0RXZzQWZXTDZ0cHcxa1Q5VWdaVnpQQWp0N3E0NTFFTTNUcEh2ZDc4U2FyTTFCX3V5LVZsX0ttLWlzTGxnMkh2Rk8wYlBvWWZNajY4MGJBbkNhaENPSDBEcFJBMEFVamZFMkRKV1RuOGs3VUhCQUljRFBRWFJOSlktR19lQ3lTbllMRTRYYUFCRzV2OEpZckhWNzEyaElCZjhpcks5RmQ5cGJQZlZBTEZZdHlPOHoteDk0OWhZNG9MYy1jR0RHWA?oc=5",
+  "published_at": "2026-11-05T19:37:54+00:00",
+  "relevance": 1,
+  "source": "Tech Times",
+  "source_type": "news_search",
+  "summary": "Tech Times reports that MRI software for Alzheimer's disease sorts dementia patients into 2-year and 7-year groups and won a drug vote. The provided text gives no further details, and it does not mention multiple sclerosis.",
+  "summary_model": "claude-sonnet-5-5",
+  "title": "Alzheimer's MRI Software Sorts Dementia Patients Into 2-Year and 7-Year Groups, Wins Drug Vote"
+ },
  "6fa63a312c602c36": {
   "about_ms": true,
   "category": "research",
@@ -1447,6 +1575,22 @@
   "summary_model": "claude-sonnet-5-5",
   "title": "Tiziana to Host Investor Call with Key Opinion Leaders to Discuss Positive Phase 2a INFORM-MS Topline Results"
  },
+ "79590caeab4cc98d": {
+  "about_ms": true,
+  "category": "other",
+  "collected_at": "2026-11-11T12:56:41.146476+00:00",
+  "description": "TG Therapeutics (NASDAQ:TGTX) Q3 2026: BRIUMVI Lifts Guidance Kalkine Media",
+  "id": "79590caeab4cc98d",
+  "is_published": false,
+  "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPc1UwaDB6OGFtaHktclgxeEpkX0pRSTRndGJ2Wk1iMlNyT1pzN253YlRTRWJzdjFVa2FFYWxJWmx3X3pQSV82SGZjV21zMk9yZ1R6XzVtLUFHREZpV1FfaUtDMlc5dnlRLTJ1VHo3X1plWU9kU2JQVExMYmVIcUhrQTgzS1FoNmFrdnRCcEZrX2xmSS1tbGR2QWtUM1RLWVFiS09NTExn?oc=5",
+  "published_at": "2026-11-10T15:11:00+00:00",
+  "relevance": 2,
+  "source": "Kalkine Media",
+  "source_type": "news_search",
+  "summary": "Kalkine Media reports on TG Therapeutics' third-quarter 2026 results, stating that sales of BRIUMVI, its multiple sclerosis treatment, led the company to raise its guidance. The text provided gives no figures or further details.",
+  "summary_model": "claude-sonnet-5-5",
+  "title": "TG Therapeutics (NASDAQ:TGTX) Q3 2026: BRIUMVI Lifts Guidance"
+ },
  "7bbd07e2f95d5134": {
   "about_ms": true,
   "category": "living_with_ms",
@@ -1494,6 +1638,38 @@
   "summary": "The MS International Federation (MSIF) has announced new leadership for its International Medical and Scientific Expert Group. The available text gives no names, dates or other details about the appointments.",
   "summary_model": "claude-sonnet-5-5",
   "title": "New leadership for MSIF’s International Medical and Scientific Expert Group"
+ },
+ "7cd8d975219f2ef2": {
+  "about_ms": false,
+  "category": "regulatory",
+  "collected_at": "2026-11-11T12:56:41.146508+00:00",
+  "description": "FDA Approves PIMJETMI® (pimicotinib) for Patients with Tenosynovial Giant Cell Tumor Business Wire",
+  "id": "7cd8d975219f2ef2",
+  "is_published": false,
+  "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNZEhLZXlWWlU2VW56ZG1FdTNDa0tHQWRyUklXUXlOeXlMN2g1SWpzSW9xanp3cFI4MUVNcW1mczlZaUtMRG42U1l1azBlOTA4dnlvY3JPZEdSQTlOT0FUZ3hGZUt1bS1ITkxoOEVWWlRXNFUwU0hoYTJESm1GZWVVTGllbmtjX0R2NVlybGlXazVrX1RSc3RucjZjYjRpUEhWX1F5TzRtejNPR3p3Mlp1TXNqUVdXRTMyemJTejlKM2JVTEwtc0FSYU1hLWxONHdYVFBzbA?oc=5",
+  "published_at": "2026-11-10T20:39:00+00:00",
+  "relevance": 1,
+  "source": "Business Wire",
+  "source_type": "news_search",
+  "summary": "The FDA has approved PIMJETMI (pimicotinib) for patients with tenosynovial giant cell tumor, according to a Business Wire headline. The source text gives no further details, and it does not mention multiple sclerosis or related demyelinating diseases.",
+  "summary_model": "claude-sonnet-5-5",
+  "title": "FDA Approves PIMJETMI® (pimicotinib) for Patients with Tenosynovial Giant Cell Tumor"
+ },
+ "7e7465db17612dc1": {
+  "about_ms": false,
+  "category": "regulatory",
+  "collected_at": "2026-11-11T12:56:41.146525+00:00",
+  "description": "DEA Marijuana Rescheduling Hearing Closes With Government Not Meeting Its Burden Of Proof? Newswire",
+  "id": "7e7465db17612dc1",
+  "is_published": false,
+  "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQMFBTRXEyalFKOHdsZG1NYnhveG8ycW5nS245WmZpUFM1anFwT1YtYWVyazYzdERSZThIcnRUS2RRd2VNQm4tUXlBWU81ZHFnb3dJVFluSGhhM3ZYQjNkYjhpbEFfZlp4NHNJZ3NuSFdzM05FQ0hVam9leHZKZ082djd2R0FRb3VyaHZkV3I1YXVzVDNwbU01Z205emV2ZjhudjJ0N25YbzUyTzl2?oc=5",
+  "published_at": "2026-11-07T12:30:00+00:00",
+  "relevance": 1,
+  "source": "Newswire",
+  "source_type": "news_search",
+  "summary": "A Newswire item titled as a question reports that the DEA marijuana rescheduling hearing has closed, with the government possibly not having met its burden of proof. No details are given, and the text does not mention MS.",
+  "summary_model": "claude-sonnet-5-5",
+  "title": "DEA Marijuana Rescheduling Hearing Closes With Government Not Meeting Its Burden Of Proof?"
  },
  "7fb7679c366bfa06": {
   "about_ms": true,
@@ -1655,6 +1831,22 @@
   "summary_model": "claude-sonnet-5-5",
   "title": "CALLIPER Subpopulation Data Support Therapeutic Effect of Vidofludimus Calcium in Primary Progressive MS"
  },
+ "8abfa0837e29ce0e": {
+  "about_ms": true,
+  "category": "research",
+  "collected_at": "2026-11-11T12:56:41.146265+00:00",
+  "description": "Nearly 15% of people with multiple sclerosis (MS) declined free cognitive testing offered at a specialized clinic in Canada, a new study found. Those with progressive MS, anxiety-related disorders, or no reported concerns about their thinking and memory were more likely to decline testing. This could leave cognitive difficulties undetected and contribute to gaps in […] The post Nearly 15% of MS patients declined cognitive testing in new study appeared first on Multiple Sclerosis News Today .",
+  "id": "8abfa0837e29ce0e",
+  "is_published": true,
+  "link": "https://multiplesclerosisnewstoday.com/news-posts/2026/11/10/people-ms-may-decline-cognitive-testing-study-finds/",
+  "published_at": "2026-11-10T13:00:46+00:00",
+  "relevance": 3,
+  "source": "MS News Today",
+  "source_type": "news",
+  "summary": "A study at a specialized Canadian clinic found nearly 15% of people with MS declined free cognitive testing. Decliners were more likely to have progressive MS, anxiety-related disorders, or no reported concerns about thinking and memory, which could leave cognitive difficulties undetected.",
+  "summary_model": "claude-sonnet-5-5",
+  "title": "Nearly 15% of MS patients declined cognitive testing in new study"
+ },
  "8ba3bcb143b805a8": {
   "about_ms": true,
   "category": "research",
@@ -1694,6 +1886,22 @@
   "summary": "A NeurologyLive roundup covers phase 3 results for remibrutinib in relapsing multiple sclerosis, findings on blood pressure variability, and updated stroke rehabilitation guidelines. The text provided gives no details of the results.",
   "summary_model": "claude-sonnet-5-5",
   "title": "Remibrutinib Phase 3 Results in RMS, Blood Pressure Variability Findings, and Updated Stroke Rehabilitation Guidelines"
+ },
+ "8c7739a246507546": {
+  "about_ms": false,
+  "category": "other",
+  "collected_at": "2026-11-11T12:56:41.146595+00:00",
+  "description": "Tiziana Life Sciences to Present at BIO-Europe 2026 and Host KOL Webcast NTB Kommunikasjon",
+  "id": "8c7739a246507546",
+  "is_published": false,
+  "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxQaGh5SUNTNGRYUUU5dUhXWVNVUTF3QzVjSHVLT25tenhMaURyLWRCY3dJbGFydlphNHlyajlyb2lGQTRLX05TZzNYS3FqdDM4bVBPcGhmcGtHUlozVndJZlFzUlRHYmtSTUdQYWtNdVpyb0NJbnR3Nkh5RGVjSi1QSURSZkxYWWdrNlZKSGlCRFQtMDA1SXBmeGV2aEcyODBrcFVkR0poRmQ1OTJ6TWFfOWlwV254eGwzSzhTb0V3SENhSk8tb3U0ZXhKX09fd2NFYWNfamZBVHpKZ3J0STFyYkVmSWhSenM?oc=5",
+  "published_at": "2026-11-09T12:00:00+00:00",
+  "relevance": 1,
+  "source": "NTB Kommunikasjon",
+  "source_type": "news_search",
+  "summary": "Tiziana Life Sciences announced it will present at BIO-Europe 2026 and host a key opinion leader (KOL) webcast. The text provided gives no further details, and does not mention multiple sclerosis or any specific results.",
+  "summary_model": "claude-sonnet-5-5",
+  "title": "Tiziana Life Sciences to Present at BIO-Europe 2026 and Host KOL Webcast"
  },
  "8c84d19bbfb53343": {
   "about_ms": true,
@@ -1903,6 +2111,22 @@
   "summary_model": "claude-sonnet-5-5",
   "title": "Weekly Buzz: RDY, LUPIN, SUNPHARMA Score FDA Wins; AGIO, RARE Slash Jobs; CVS Plots Split"
  },
+ "9cd2df4916d08afb": {
+  "about_ms": false,
+  "category": "regulatory",
+  "collected_at": "2026-11-11T12:56:41.146495+00:00",
+  "description": "FDA Approves Asundexian for Secondary Stroke Prevention in Adults HMP Global Learning Network",
+  "id": "9cd2df4916d08afb",
+  "is_published": false,
+  "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNd3F5b2ZoczlnOXRHOFd0aC1GXzR5QTRNQS01d3lMazg0ekt6NjBpbTBOYWQxN25VNzBRS0VzYXAtbldZbkZEVWZONERXeEpXUnZNNnNxY1RpT0JMejFISXVYekMyN1NTV0t3YklybjRNeF9pUnNPWWhjU1JPOGRzTUlseV9XM0o1R3RDT3ZKSUFzZFZhWnlhMEViLUhPNHA3d0RhTXZwUERWaFdpcURHVV9yb3o3Qk80TlJ2TExR?oc=5",
+  "published_at": "2026-11-10T21:16:46+00:00",
+  "relevance": 1,
+  "source": "HMP Global Learning Network",
+  "source_type": "news_search",
+  "summary": "The headline reports that the FDA approved asundexian for secondary stroke prevention in adults. The source text gives no further detail, and nothing in it mentions multiple sclerosis or related demyelinating diseases.",
+  "summary_model": "claude-sonnet-5-5",
+  "title": "FDA Approves Asundexian for Secondary Stroke Prevention in Adults"
+ },
  "9db1cbc53afbc88a": {
   "about_ms": true,
   "category": "research",
@@ -1966,6 +2190,22 @@
   "summary": "NeurologyLive lists an interview with Amanda Piquet, MD, overviewing 1-year findings from the KYSA-8 study of miv-cel in stiff person syndrome. No further details are given, and the topic is not multiple sclerosis.",
   "summary_model": "claude-sonnet-5-5",
   "title": "Overviewing the 1-Year KYSA-8 Findings of Miv-cel in Stiff Person Syndrome: Amanda Piquet, MD"
+ },
+ "a2c551c683ce6a80": {
+  "about_ms": false,
+  "category": "other",
+  "collected_at": "2026-11-11T12:56:41.146514+00:00",
+  "description": "Rx Product News Pharmacy Times",
+  "id": "a2c551c683ce6a80",
+  "is_published": false,
+  "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1iQVVFUTRvemxMcllYcFp5T1RiWk1sT2V5YVNtY3BUaGhRWlh3cDRiV252Z0hTZkJ5aW93WmZMekVTVC1Ba3BLa0JiN3lfWU05dVhINkE2eHR1OTFfalF2YkQwUQ?oc=5",
+  "published_at": "2026-11-06T14:00:00+00:00",
+  "relevance": 1,
+  "source": "Pharmacy Times",
+  "source_type": "news_search",
+  "summary": "The source text gives only the title 'Rx Product News' from Pharmacy Times. It contains no details about multiple sclerosis, NMOSD, MOGAD, or any specific product, study, or decision.",
+  "summary_model": "claude-sonnet-5-5",
+  "title": "Rx Product News"
  },
  "a57a8df497853457": {
   "about_ms": true,
@@ -2895,6 +3135,22 @@
   "summary_model": "claude-sonnet-5-5",
   "title": "Brain cells meant to protect us may be fueling cognitive decline"
  },
+ "f1c4426dcf64de95": {
+  "about_ms": false,
+  "category": "other",
+  "collected_at": "2026-11-11T12:56:41.146483+00:00",
+  "description": "Alemtuzumab (Campath, Lemtrada): Mechanism of Action, Dosing, Clinical Uses, Trials, and Side Effects Oncodaily",
+  "id": "f1c4426dcf64de95",
+  "is_published": false,
+  "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5YRkd6THNjbThmSTY4Y0xYcW8yMEZlNHdTa0VoM214MG10Qm9sOXZvOVQ0dWNiZzItM3E4Rk13Tkk1SmFFT3lsZE1tR1h1OEpCREpKdUoxVkFFTXBFTHo3dQ?oc=5",
+  "published_at": "2026-11-10T20:31:25+00:00",
+  "relevance": 2,
+  "source": "Oncodaily",
+  "source_type": "news_search",
+  "summary": "Oncodaily published an overview of alemtuzumab, sold as Campath and Lemtrada, covering its mechanism of action, dosing, clinical uses, trials and side effects. Only the title was available, so no specific findings or MS details can be confirmed.",
+  "summary_model": "claude-sonnet-5-5",
+  "title": "Alemtuzumab (Campath, Lemtrada): Mechanism of Action, Dosing, Clinical Uses, Trials, and Side Effects"
+ },
  "f1f0938852c5a077": {
   "about_ms": true,
   "category": "research",
@@ -3094,5 +3350,21 @@
   "summary": "A new study found that people with MS who report a lot of physical activity tend to have better quality of life and less walking-related disability, regardless of time since diagnosis. Associations with several quality-of-life measures were generally stronger in those diagnosed more recently.",
   "summary_model": "claude-sonnet-5-5",
   "title": "Study links exercise to better quality of life in multiple sclerosis"
+ },
+ "ff6f70ece9bf35c9": {
+  "about_ms": false,
+  "category": "other",
+  "collected_at": "2026-11-11T12:56:41.146491+00:00",
+  "description": "Pharmalittle: We're reading about an approval for novel drug for strokes, a warning for GLP-1 drugs, and more STAT",
+  "id": "ff6f70ece9bf35c9",
+  "is_published": false,
+  "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQVm1sNW1NSUR2V0I1ek5tdDQ4NlZPdmRoTkJOcDM3WmZJcXJYeGRhTUNkWmk3d2J6ZGJXQkpFWTlBZ2hOVDl3UTNwRm1yVl9XbERYSVp1UzVBaHJXeHhwNXY3Y0ZHQ0paV0NRYUoyb1paZXZYSG9nOGxmWGJwWC0yaW5hdE11TVVRTmYzYnVRbl9Xb2hBMVRiSlVHLS1Od3VyTWFTNA?oc=5",
+  "published_at": "2026-11-10T14:26:30+00:00",
+  "relevance": 1,
+  "source": "STAT",
+  "source_type": "news_search",
+  "summary": "This STAT roundup is titled as covering an approval of a novel stroke drug and a warning about GLP-1 drugs. No MS, NMOSD or MOGAD content is stated in the available text, and no further details were provided.",
+  "summary_model": "claude-sonnet-5-5",
+  "title": "Pharmalittle: We're reading about an approval for novel drug for strokes, a warning for GLP-1 drugs, and more"
  }
 }
