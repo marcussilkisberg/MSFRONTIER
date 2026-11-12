@@ -543,6 +543,22 @@
   "summary_model": "claude-sonnet-5-5",
   "title": "Low-fat diet may help reduce fatigue in MS, new trial analysis suggests"
  },
+ "289b188b0090e1ba": {
+  "about_ms": false,
+  "category": "trial_news",
+  "collected_at": "2026-11-12T13:58:46.879767+00:00",
+  "description": "Australian-developed MND therapy advances to Phase 2 clinical trial News-Medical",
+  "id": "289b188b0090e1ba",
+  "is_published": false,
+  "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPcE8yWUU1WWFzQ3Rudm9wQ2pNWU9tX1puSzNWZW1hS2hqaXJoLXRKZkVyWkt5cGdjVnR0Zk5leE00SzhHcmJrQkxoVmZrT1p3ZmVKNk14R295YW5WVUx3aXJSajdqWENSMDE1M1RJVWo5OTRqZV9ibmxrMkdpV1JleHdXc0xQZksyZUZDWVFlLU9XNnlNMmJIZzBqczM3RERCQ1p5cFdXNllJMmVPZ2NZSF9HV3dHQQ?oc=5",
+  "published_at": "2026-11-10T00:54:00+00:00",
+  "relevance": 1,
+  "source": "News-Medical",
+  "source_type": "news_search",
+  "summary": "An Australian-developed therapy for motor neurone disease (MND) is advancing to a Phase 2 clinical trial, according to the headline. No further details are given in the available text, and it does not mention multiple sclerosis.",
+  "summary_model": "claude-sonnet-5-5",
+  "title": "Australian-developed MND therapy advances to Phase 2 clinical trial"
+ },
  "29d8130161132a49": {
   "about_ms": true,
   "category": "research",
@@ -606,6 +622,22 @@
   "summary": "Zenas has acquired a BTK inhibitor that is in Phase 3 trials for progressive multiple sclerosis, according to Multiple Sclerosis News Today. No further details, such as the drug name, terms of the deal, or trial results, are given in the available text.",
   "summary_model": "claude-sonnet-5-5",
   "title": "Zenas acquires BTK inhibitor in Phase 3 trials for progressive MS"
+ },
+ "325bb06339610991": {
+  "about_ms": true,
+  "category": "trial_news",
+  "collected_at": "2026-11-12T13:58:46.879970+00:00",
+  "description": "Immunic presents new vidofludimus calcium data at multiple sclerosis conference Proactive financial news",
+  "id": "325bb06339610991",
+  "is_published": false,
+  "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNMkhaMzF2cEcwbUlaeHZiSnYzR3dnbHhmRXE1YUNSTFNCZWJJSFB4RDNfNkJkbFA3RnFyV0NNR2lvSUJFX1JmLUdRcjhqWXVsbGxBa1BOaldhbjVjMEMtVXRVZk1NdkFyZk9LaFNyQnE3Z21LUW40OE1tUW5CWkkzQlV5TVRNd0MtNWpZYlRTbEo1b3ZGUS1MQmxIXzRsQkgxSVFjWXRtUFZyUVcwak1vN09HblVQdFJsaG10M2tORmt4TXNvV3F2RDJ5RzFCb1Q1M1BlTlZTaVFjNEM4b0VoX3BfOXU?oc=5",
+  "published_at": "2026-05-28T07:00:00+00:00",
+  "relevance": 2,
+  "source": "Proactive financial news",
+  "source_type": "news_search",
+  "summary": "Immunic presented new data on its multiple sclerosis drug candidate vidofludimus calcium at a multiple sclerosis conference. The source text gives no details on the findings, trial phase, or results.",
+  "summary_model": "claude-sonnet-5-5",
+  "title": "Immunic presents new vidofludimus calcium data at multiple sclerosis conference"
  },
  "361fca5d8825afd7": {
   "about_ms": true,
@@ -751,6 +783,32 @@
   "summary_model": "claude-sonnet-5-5",
   "title": "Oral Fingolimod or Intramuscular Interferon for Relapsing Multiple Sclerosis"
  },
+ "3e78ed33529ca255": {
+  "about_ms": true,
+  "category": "research",
+  "collected_at": "2026-11-12T13:58:46.880139+00:00",
+  "description": "Importance Preventing irreversible disability accumulation is a primary treatment goal in multiple sclerosis (MS). Objective To assess 10-year safety and efficacy of ocrelizumab (OCR) in patients with relapsing MS (RMS). Design, setting, and participants In 2 phase 3 multicenter randomized clinical trials (OPERA I and II), patients were randomized to OCR or interferon beta-1a (IFN) throughout a 2-year double-blind period (DBP) and entered an open-label extension (OLE) to receive OCR for up to an additional 8 years. Study periods were August 2011 to December 2022, with clinical cutoff on July 15, 2023. Data analyses were run between March 2023 and May 2026. Patients with RMS, aged 18 to 55 years, with an Expanded Disability Status Scale (EDSS) score of 0 to 5.5, and at least 1 relapse within the year before screening were eligible for inclusion. Interventions OCR (600 mg every 24 weeks) or IFN (44 µg 3 times weekly) in the DBP, then OCR during the OLE. Main outcomes and measures Outcomes included time to onset of 48-week confirmed disability progression (CDP) or progression independent of relapse activity (PIRA); time to reach EDSS score of 4.0 and 6.0; relapse rates; and incidence of adverse events (AEs) and serious AEs. Results A total of 1656 patients were randomized, and 1651 patients received either OCR (n = 825) or IFN (n = 826). A total of 1325 patients (80.0%) entered the OLE, of whom 853 (64.4%) completed the studies. A total of 1093 of 1656 patients (66.0%) were fema",
+  "doi": "10.1001/jamaneurol.2026.3507",
+  "id": "3e78ed33529ca255",
+  "is_published": true,
+  "journal": "JAMA Neurol",
+  "link": "https://pubmed.ncbi.nlm.nih.gov/42832215/",
+  "pmid": "42832215",
+  "pub_types": [
+   "clinical trial, phase iii",
+   "research-article",
+   "multicenter study",
+   "randomized controlled trial",
+   "journal article"
+  ],
+  "published_at": "2026-11-01T00:00:00+00:00",
+  "relevance": 4,
+  "source": "JAMA Neurol",
+  "source_type": "paper",
+  "summary": "A 10-year follow-up of the OPERA I and II phase 3 trials assessed safety and efficacy of ocrelizumab in relapsing MS. Of 1651 treated patients, 1325 entered the open-label extension, and 853 of them completed the studies.",
+  "summary_model": "claude-sonnet-5-5",
+  "title": "Ten Years of Ocrelizumab in Relapsing Multiple Sclerosis: The OPERA I and II Randomized Clinical Trials."
+ },
  "4067b43391342f83": {
   "about_ms": true,
   "category": "living_with_ms",
@@ -831,6 +889,22 @@
   "summary_model": "claude-sonnet-5-5",
   "title": "Bristol Myers Squibb (BMY) Wins FDA Approval, Is The Rally Already Priced In?"
  },
+ "452df3d5f3b80a5b": {
+  "about_ms": true,
+  "category": "research",
+  "collected_at": "2026-11-12T13:58:46.879454+00:00",
+  "description": "In the large, late-stage clinical trials that led to the approval of the multiple sclerosis (MS) drug Ocrevus (ocrelizumab), participants with relapsing forms of MS who were initially assigned to — and remained on the infusion therapy for as long as 10 years — had less disability progression after a decade than those who began […] The post Early start on now-approved MS drug seen to limit progression over 10 years appeared first on Multiple Sclerosis News Today .",
+  "id": "452df3d5f3b80a5b",
+  "is_published": true,
+  "link": "https://multiplesclerosisnewstoday.com/news-posts/2026/11/12/early-start-approved-ms-drug-trial-limits-10-year-disability-progression/",
+  "published_at": "2026-11-12T13:45:04+00:00",
+  "relevance": 4,
+  "source": "MS News Today",
+  "source_type": "news",
+  "summary": "In the late-stage trials that led to Ocrevus (ocrelizumab) approval, people with relapsing MS who started on the infusion therapy and stayed on it for up to 10 years had less disability progression than those who began treatment later.",
+  "summary_model": "claude-sonnet-5-5",
+  "title": "Early start on now-approved MS drug seen to limit progression over 10 years"
+ },
  "45a5c893606f5eff": {
   "about_ms": false,
   "category": "other",
@@ -879,6 +953,22 @@
   "summary_model": "claude-sonnet-5-5",
   "title": "D&D Pharmatech is pushing for technology export of \"DD01,\" a treatment for hepatitis (MASH) rela.."
  },
+ "47eb904c08a3c0ed": {
+  "about_ms": true,
+  "category": "other",
+  "collected_at": "2026-11-12T13:58:46.880132+00:00",
+  "description": "Recent Market Research on Tysabri (natalizumab) by The Business Research Company Highlights Upcoming Industry Trends EIN News",
+  "id": "47eb904c08a3c0ed",
+  "is_published": false,
+  "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxOaC1NNUI4aDBZdl9fWUhaNlRRV2FtT3JzWUpRUlNPVUtBRHpuXzhwY3hibUtwNEttVGQxTE84TVdHWTEzVmNLWWlLcTdnbzNkZG42SDh0TldTNEFFb0YxaHBjdGp0eExPYjMyeHdJSFVGZHNuMVVkNUdYX29oZnZKbHFXYVY5QWtpVXNHT1FlMU9nMnltdW42aEo1VEdnY0VWeHFmMERnajdwdElDMEFNMkx0UjdUQV96YUJlZW5tSkFtMHpQaEZsM1JPX2dlTmNSU09KZ215VHZBb3FNUGpIZV9wdG90MkFTSnNleg?oc=5",
+  "published_at": "2026-11-11T18:00:00+00:00",
+  "relevance": 1,
+  "source": "EIN News",
+  "source_type": "news_search",
+  "summary": "EIN News lists a market research report from The Business Research Company on Tysabri (natalizumab), described as highlighting upcoming industry trends. No clinical findings, regulatory decisions or other details are given in the available text.",
+  "summary_model": "claude-sonnet-5-5",
+  "title": "Recent Market Research on Tysabri (natalizumab) by The Business Research Company Highlights Upcoming Industry Trends"
+ },
  "486722997f5930bb": {
   "about_ms": true,
   "category": "trial_news",
@@ -910,6 +1000,22 @@
   "summary": "Dutch regulators are reportedly investigating Biogen over competition in the market for multiple sclerosis treatment, according to the headline. No further details about the probe were provided in the available text.",
   "summary_model": "claude-sonnet-5-5",
   "title": "CPI | Dutch Regulators Probe Biogen Over MS Treatment Competition"
+ },
+ "49428a0824092893": {
+  "about_ms": false,
+  "category": "other",
+  "collected_at": "2026-11-12T13:58:46.879869+00:00",
+  "description": "What is breast implant illness, the condition Christina Applegate is looking into? Nacionale",
+  "id": "49428a0824092893",
+  "is_published": false,
+  "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQRHRlWXFQcnZMOWYzRTZYMzYzbVR4Y0otLThvNllwUFltYzdxMzUwZXFhQU5oODVTWGFGd0F4N3U2dWdDeDZyVWQyRVNSSjhYdzBWOW5RVHlZYU5ZUmh0UTJJakdwY2o2OEFjVmF0OThJU1ZsZ1ZyWTA4NVFSOUV2ZDJ3WEZCaTZKQWx6WWMxQlAzNjctd0luTnJEcUdUSkxvb2RaM3cwVU1RQQ?oc=5",
+  "published_at": "2026-11-12T05:30:49+00:00",
+  "relevance": 1,
+  "source": "Nacionale",
+  "source_type": "news_search",
+  "summary": "The article asks what breast implant illness is, the condition actress Christina Applegate is looking into. Only the headline is available, so no details about the condition or any link to multiple sclerosis are given.",
+  "summary_model": "claude-sonnet-5-5",
+  "title": "What is breast implant illness, the condition Christina Applegate is looking into?"
  },
  "499cae944f2140e5": {
   "about_ms": true,
@@ -958,6 +1064,22 @@
   "summary": "Multiple Sclerosis News Today reports that enrollment has been completed in the phase 3 trials of vidofludimus calcium in relapsing multiple sclerosis. No further details, such as participant numbers or timelines, were provided in the text available.",
   "summary_model": "claude-sonnet-5-5",
   "title": "Phase 3 trials of vidofludimus calcium in relapsing MS enrolled"
+ },
+ "4b3c45ca6a95e87e": {
+  "about_ms": false,
+  "category": "trial_news",
+  "collected_at": "2026-11-12T13:58:46.879794+00:00",
+  "description": "Zura Bio Provides Clinical Update on Phase 2 TibuSHIELD Study of Tibulizumab (ZB-106) in Hidradenitis Suppurativa BioSpace",
+  "id": "4b3c45ca6a95e87e",
+  "is_published": false,
+  "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxNenBaU0loMGd5TGdfS2xGdFZZUGR4eUx1bGtBUVVxSzBCRFNocDE2a256LWVIVVBMNU8tYmVGNEI3OV8tZmcyZWRQeHlkNGZPaVlubXRJSXZHcDZJVGJxNTBQTG1WWElvbElsVmNTRG1WSnFycktfWndYRDZRajVURUJCTTVTUjF4LTBpdW92aUZIYXJPVEZ3dS04T056THNLYXJyQ0kxUVZ3WlZMZXRrejFKcDhfbDRrUU9wQ0NHTXpDdjBGYzJyQWpEa1YtMGZfRHluM3dvS19vOVhYOTdOYnZwS1pTUQ?oc=5",
+  "published_at": "2026-11-09T16:58:37+00:00",
+  "relevance": 1,
+  "source": "BioSpace",
+  "source_type": "news_search",
+  "summary": "Zura Bio issued a clinical update on its Phase 2 TibuSHIELD study of tibulizumab (ZB-106) in hidradenitis suppurativa. The provided text gives no further details, and the item does not concern multiple sclerosis or related demyelinating diseases.",
+  "summary_model": "claude-sonnet-5-5",
+  "title": "Zura Bio Provides Clinical Update on Phase 2 TibuSHIELD Study of Tibulizumab (ZB-106) in Hidradenitis Suppurativa"
  },
  "4c69d03f511c8931": {
   "about_ms": true,
@@ -1231,6 +1353,22 @@
   "summary_model": "claude-sonnet-5-5",
   "title": "Talking advance care planning"
  },
+ "5f4616494b58951f": {
+  "about_ms": true,
+  "category": "other",
+  "collected_at": "2026-11-12T13:58:46.879814+00:00",
+  "description": "New York Forum Tackles Unmet Needs in Multiple Sclerosis Care NeurologyLive",
+  "id": "5f4616494b58951f",
+  "is_published": false,
+  "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOLVBQM0QwcGZ1VzBFZUFoYUtyck5WYkgxZHpfNElnazk5UkhPRy1FNVlSd0FwVlFBUjdZSm93ako1cFpCQnBZaVlWSWxiUlExLW1lR2pKZDFvM281bXRSZWFrOTNvbkEwenhlY3Qza0JGSHV4NDZ2elIxaFhqaTBnd1dDQS1wam01enlBV3p0TURnUnVNNTdOMA?oc=5",
+  "published_at": "2026-11-11T13:13:36+00:00",
+  "relevance": 2,
+  "source": "NeurologyLive",
+  "source_type": "news_search",
+  "summary": "NeurologyLive reports on a New York forum addressing unmet needs in multiple sclerosis care. The provided text contains only the headline, so no details on the topics discussed, participants, or any findings are available.",
+  "summary_model": "claude-sonnet-5-5",
+  "title": "New York Forum Tackles Unmet Needs in Multiple Sclerosis Care"
+ },
  "60c3b14f58431606": {
   "about_ms": false,
   "category": null,
@@ -1262,6 +1400,22 @@
   "summary": "Tiziana reports that its Phase IIa trial of foralumab in non-active secondary progressive MS (na-SPMS) met two endpoints. The source text provided gives no further details on the endpoints, results, or participant numbers.",
   "summary_model": "claude-sonnet-5-5",
   "title": "Tiziana’s Phase IIa trial of foralumab meets dual endpoints in na-SPMS"
+ },
+ "6197e758468c1099": {
+  "about_ms": false,
+  "category": "other",
+  "collected_at": "2026-11-12T13:58:46.879805+00:00",
+  "description": "Inflammasome inhibition with K8 in geographic atrophy: A Q&A | Eye Care Network - Modern Retina Ophthalmology Times",
+  "id": "6197e758468c1099",
+  "is_published": false,
+  "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPREZRNHVMMC04cXhTV25TdGNmMEVEOF9hSi1yeVRGclNUblFXMkprb284S0xValVUb0NCSWp5U3FraDVXWUNBVk1memFXYndpbml2Sm1uYmFWSjY5WU9HSm40NE5CZGJSaWF6RlpnbTUtU2RvQm1lUHhtRWRja043NTZCdHZhMGRpN2tEZWs0aGEwWWZ1anlVdl9BUm1wby1rYmtzTVZvU2xHQQ?oc=5",
+  "published_at": "2026-11-12T11:04:53+00:00",
+  "relevance": 1,
+  "source": "Ophthalmology Times",
+  "source_type": "news_search",
+  "summary": "This is a Q&A listing about K8, an inflammasome inhibitor, in geographic atrophy, an eye disease. The provided text gives no details and does not mention multiple sclerosis or related demyelinating conditions.",
+  "summary_model": "claude-sonnet-5-5",
+  "title": "Inflammasome inhibition with K8 in geographic atrophy: A Q&A | Eye Care Network - Modern Retina"
  },
  "621eabe36efc3842": {
   "about_ms": true,
@@ -1543,6 +1697,22 @@
   "summary_model": "claude-sonnet-5-5",
   "title": "Orelabrutinib reduces brain lesions in RRMS by 90% in Phase 2 trial"
  },
+ "76a250680bed4fa3": {
+  "about_ms": false,
+  "category": "regulatory",
+  "collected_at": "2026-11-12T13:58:46.879875+00:00",
+  "description": "Most-favored nations policy makes drugmakers rethink launches abroad STAT",
+  "id": "76a250680bed4fa3",
+  "is_published": false,
+  "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOYTkybHhqZXhXOVJkLUpKUU9QRkhDa0FycERhQlktWlNoY3hZRzNqQUg4bG9OSElhb2xVYjR5ODQ4dDRtYlZIYzExdmt5MnhxN3l3SGdkNmFWYWVENUxsWGlMeG5DdGQwR19jQUd2UW1wZS12bDVlZkRNdTV4Z2JiUHNha18tVFZ2aXQ4eENabzlsb0tjb2dKaENn?oc=5",
+  "published_at": "2026-11-11T19:45:28+00:00",
+  "relevance": 1,
+  "source": "STAT",
+  "source_type": "news_search",
+  "summary": "A STAT article reports that the most-favored nations policy is leading drugmakers to rethink how they launch products in other countries. The provided text does not mention multiple sclerosis or any specific drug.",
+  "summary_model": "claude-sonnet-5-5",
+  "title": "Most-favored nations policy makes drugmakers rethink launches abroad"
+ },
  "782e84b283f48b78": {
   "about_ms": false,
   "category": "other",
@@ -1767,6 +1937,22 @@
   "summary_model": "claude-sonnet-5-5",
   "title": "Towards a biologically informed description of multiple sclerosis disease course — a roadmap for transition"
  },
+ "85caeab92ffd9a47": {
+  "about_ms": false,
+  "category": "other",
+  "collected_at": "2026-11-12T13:58:46.879842+00:00",
+  "description": "Guggenheim Names Top Biotechnology Stock Yahoo Finance Singapore",
+  "id": "85caeab92ffd9a47",
+  "is_published": false,
+  "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNa0g5T2NOMTNaNzN4dTRIWkVuaUN3WkNaT2J4MmJWN2hNM2ZvYTlMMVRDVFVvMXZyazZkMUhTSkw0QjJOSm9ybURFMUpYMGJ0Q1R1V0lKWEhsSmN1RjNDeW01RXFMd2F5S2dFb3ZLOXFmXzF0OFh5Vm10Zl9vZ1lYcGlWWi1zVFV5Z2l1cnNxZW1fQm8?oc=5",
+  "published_at": "2026-11-11T16:11:22+00:00",
+  "relevance": 1,
+  "source": "Yahoo Finance Singapore",
+  "source_type": "news_search",
+  "summary": "The source is a Yahoo Finance Singapore item titled 'Guggenheim Names Top Biotechnology Stock'. No article text beyond the title was provided, so no details about MS, NMOSD, MOGAD, or any company or drug are available.",
+  "summary_model": "claude-sonnet-5-5",
+  "title": "Guggenheim Names Top Biotechnology Stock"
+ },
  "87b430d576fed028": {
   "about_ms": true,
   "category": "research",
@@ -1887,6 +2073,22 @@
   "summary_model": "claude-sonnet-5-5",
   "title": "Remibrutinib Phase 3 Results in RMS, Blood Pressure Variability Findings, and Updated Stroke Rehabilitation Guidelines"
  },
+ "8bf8ec5330373fc3": {
+  "about_ms": true,
+  "category": "research",
+  "collected_at": "2026-11-12T13:58:46.879915+00:00",
+  "description": "Evobrutinib Fails to Improve Relapse or Disability in Relapsing Multiple Sclerosis Bioengineer.org",
+  "id": "8bf8ec5330373fc3",
+  "is_published": true,
+  "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPUV9MeTFJUUhKSEtjaWItdnNKQ21lX3l4N2VMdGpVSmx3aGtyWHRlZ05Fek42U1BMTDFFNFRqdjg4R21wRzFhRjNNVS1MVVg0WmRTNWtvcnNsUjRvZU45SHZtVlNlYmhKVWpZNHN4NDRkb3NISWlaQTVJSlhUQzBmdTViSjM1cWtuX05lLUpnVHZtc3RsZVRMYjIwSU04YXRLd29IYUt6VUpmOEU?oc=5",
+  "published_at": "2026-11-12T02:07:55+00:00",
+  "relevance": 4,
+  "source": "Bioengineer.org",
+  "source_type": "news_search",
+  "summary": "A Bioengineer.org report states that evobrutinib did not improve relapse or disability outcomes in relapsing multiple sclerosis. No further details, such as trial design, comparator or participant numbers, are given in the text provided.",
+  "summary_model": "claude-sonnet-5-5",
+  "title": "Evobrutinib Fails to Improve Relapse or Disability in Relapsing Multiple Sclerosis"
+ },
  "8c7739a246507546": {
   "about_ms": false,
   "category": "other",
@@ -1966,6 +2168,22 @@
   "summary": "The headline says the American Medical Association is demanding FDA scientific standards for marijuana rescheduling, and that a GAO report reveals problems. No article text beyond the title was provided, and MS is not mentioned.",
   "summary_model": "claude-sonnet-5-5",
   "title": "Marijuana Rescheduling In Peril: AMA Demands FDA Scientific Standards As GAO Report Exposes Malaise"
+ },
+ "902c8ff5d26228ee": {
+  "about_ms": true,
+  "category": "research",
+  "collected_at": "2026-11-12T13:58:46.879834+00:00",
+  "description": "Measuring MS Progression: Biomarkers, Comorbidities, and Rehabilitation AJMC",
+  "id": "902c8ff5d26228ee",
+  "is_published": true,
+  "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQVmM2MnloV2E1NVpoWlZtUEE2M2pOTjRTa0p2QjNDZTdTaG9RdnFQQ0I2Y1AzempORmU3REtKMlFtZmxza2ZLMlRGRl9IQW03YnhJcnYtNWhzNG92SXVsbGFtUDFEZkxtS2ZhR2ZtZmhKdGZVc2VCM2ZSNFM5VFgzMjBwY1pGSFJRTUhOWHdWWGkwWjFfUjJIckdR?oc=5",
+  "published_at": "2026-11-06T13:11:08+00:00",
+  "relevance": 3,
+  "source": "AJMC",
+  "source_type": "news_search",
+  "summary": "An AJMC article on measuring MS progression, with the title pointing to three topics: biomarkers, comorbidities, and rehabilitation. The text provided gives no further details or findings.",
+  "summary_model": "claude-sonnet-5-5",
+  "title": "Measuring MS Progression: Biomarkers, Comorbidities, and Rehabilitation"
  },
  "90bde309092e14d9": {
   "about_ms": true,
@@ -2110,6 +2328,22 @@
   "summary": "RTTNews published a weekly biotech and pharma roundup. Its headline mentions FDA wins for RDY, LUPIN and SUNPHARMA, job cuts at AGIO and RARE, and a planned split at CVS. No details on MS or related diseases are given.",
   "summary_model": "claude-sonnet-5-5",
   "title": "Weekly Buzz: RDY, LUPIN, SUNPHARMA Score FDA Wins; AGIO, RARE Slash Jobs; CVS Plots Split"
+ },
+ "9c90a986fa043029": {
+  "about_ms": true,
+  "category": "living_with_ms",
+  "collected_at": "2026-11-12T13:58:46.879468+00:00",
+  "description": "Somewhere along the way, our society started treating difficult experiences as opportunities for growth. We are sometimes encouraged to find the lesson, recognize how much stronger we’ve become, and turn our hardest moments into something meaningful. I understand the intention behind that, but I sometimes wonder: What if I don’t have a lesson to share? […] The post Giving ourselves permission to have an MS story without a neat ending appeared first on Multiple Sclerosis News Today .",
+  "id": "9c90a986fa043029",
+  "is_published": false,
+  "link": "https://multiplesclerosisnewstoday.com/columns/2026/11/11/giving-ourselves-permission-have-ms-story-without-neat-ending/",
+  "published_at": "2026-11-11T15:00:50+00:00",
+  "relevance": 2,
+  "source": "MS News Today",
+  "source_type": "news",
+  "summary": "A personal column from MS News Today questions the social expectation that hard experiences must yield growth or a lesson. The author asks what happens if she has no lesson to share and argues for permission to have an MS story without a neat ending.",
+  "summary_model": "claude-sonnet-5-5",
+  "title": "Giving ourselves permission to have an MS story without a neat ending"
  },
  "9cd2df4916d08afb": {
   "about_ms": false,
@@ -3350,6 +3584,22 @@
   "summary": "A new study found that people with MS who report a lot of physical activity tend to have better quality of life and less walking-related disability, regardless of time since diagnosis. Associations with several quality-of-life measures were generally stronger in those diagnosed more recently.",
   "summary_model": "claude-sonnet-5-5",
   "title": "Study links exercise to better quality of life in multiple sclerosis"
+ },
+ "fdfa729ef951347a": {
+  "about_ms": false,
+  "category": "regulatory",
+  "collected_at": "2026-11-12T13:58:46.879858+00:00",
+  "description": "Kyverna Therapeutics Announces Completion of BLA Submission for... Quantisnow",
+  "id": "fdfa729ef951347a",
+  "is_published": false,
+  "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPb0o3eTc2ZmpUenVkaW8zdm1WQm16UFhYblBZX2I5b0lzNkk2Y2pWQ09MUXdLUWRYU1NzQkgzS0dhWWxZbUgxLUhxYVIwZ0hEeGFENlpBcFFUYkx5aTlkOWR2SW9jcS0zbFc5eUd3QjRUMXhtZDRVcy1wOG85Zi1LYklnUnBlM2tJMmVDRUlJd3Rkamlyc29uN2hsMGotbktSVFVyRmJFNTJTWTJuQzhaaWY3SDRMaFBP?oc=5",
+  "published_at": "2026-11-12T13:01:52+00:00",
+  "relevance": 2,
+  "source": "Quantisnow",
+  "source_type": "news_search",
+  "summary": "Kyverna Therapeutics announced it has completed a Biologics License Application (BLA) submission. The available text is cut off, so the product and condition are not stated, and a link to MS cannot be confirmed.",
+  "summary_model": "claude-sonnet-5-5",
+  "title": "Kyverna Therapeutics Announces Completion of BLA Submission for..."
  },
  "ff6f70ece9bf35c9": {
   "about_ms": false,
