@@ -13,6 +13,10 @@ on:
         description: "Send the newsletter now (otherwise a manual run only saves a draft in Buttondown)"
         type: boolean
         default: false
+      readout_max:
+        description: "Most paper readings in this run (the weekly run uses 400)"
+        type: string
+        default: "400"
 
 permissions:
   contents: write
@@ -100,7 +104,7 @@ jobs:
         continue-on-error: true
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
-          READOUT_MAX_TRIALS: "400"
+          READOUT_MAX_TRIALS: ${{ github.event.inputs.readout_max || '400' }}
         run: cd scripts && python readouts_layer.py
 
       # How much each treatment changed the main measures: registry analyses plus the papers read above. No API calls.
