@@ -1,4 +1,4 @@
-"""Emails Marcus a short report after each weekly run, and an alert when a run fails.
+"""Emails Marcus a short report after each full (Sunday) run, and an alert when a daily run or a news run fails.
 
 Sent through Resend. Until msfrontier.org is verified in Resend, leave ALERT_FROM unset: Resend's test sender
 onboarding@resend.dev can send to the address the Resend account was created with, which is all an alert needs.
@@ -12,8 +12,9 @@ Environment
   RUN_URL          link to the workflow run
 
 Usage
-  python alerts.py --weekly              weekly report after the refresh
+  python alerts.py --weekly              weekly report after the full run
   python alerts.py --failure "News refresh"
+  python alerts.py --failure "Trial bank refresh, daily run"
 """
 import json
 import os
@@ -31,6 +32,7 @@ STEP_NAMES = {"harvest": "Harvest, tag and build", "genetics": "Genetic leads", 
               "hypotheses": "Build hypothesis ledger", "results_watch": "Results watch", "literature": "Reviews and guidelines", "preclinical": "Lab evidence",
               "highlights": "Trials to watch",
               "save_readouts": "Save paper results to the repository", "load": "Load into Supabase",
+              "site_views": "Refresh the site's stored views",
               "exports": "Build the open data exports", "release": "Publish the open data release",
               "newsletter": "Send the newsletter"}
 
@@ -77,6 +79,11 @@ def weekly_figures():
                        from bank.load_runs order by id desc limit 2""")
         runs = cur.fetchall()
         out["runs"] = runs
+        # the bank is loaded every day: the week's figures are the sum over the loads of the last 7 days
+        cur.execute("""select count(*), coalesce(sum(n_new), 0), coalesce(sum(n_changed), 0),
+                              count(*) filter (where error is not null)
+                       from bank.load_runs where started_at >= now() - interval '7 days'""")
+        out["week"] = cur.fetchone()
         cur.execute("""select kind, count(*) from bank.weekly_changes
                        where changed_at >= now() - interval '8 days' group by kind""")
         out["changes"] = dict(cur.fetchall())
@@ -113,6 +120,9 @@ def weekly():
         if abs(delta) > 0.05 * runs[1][2]:
             flags.append(f"The number of trials changed by {delta:+,} since the previous load. Check for a "
                          f"harvest problem.")
+    wk_errors = (f.get("week") or (0, 0, 0, 0))[3]
+    if wk_errors and not (runs and runs[0][6] and wk_errors == 1):
+        flags.append(f"{wk_errors} load(s) in the last 7 days recorded an error. The alert of that day has the link.")
     if runs and (runs[0][5] or 0) > 50:
         flags.append(f"{runs[0][5]:,} trials dropped out of the build this week.")
     for name, old, new in f.get("big_hyp", []):
@@ -126,8 +136,11 @@ def weekly():
     lines.append("<h3>Needs your attention</h3>" + (ul(flags) if flags else "<p>Nothing. The run looks normal.</p>"))
     if runs:
         r = runs[0]
+        wk = f.get("week") or (1, r[3] or 0, r[4] or 0, 0)
         lines.append(f"<h3>This week</h3>" + ul([
-            f"Trials in the bank: {r[2]:,} ({r[3] or 0:,} new, {r[4] or 0:,} changed)",
+            f"Trials in the bank: {r[2] or 0:,}",
+            f"Loads in the last 7 days: {wk[0]:,} ({wk[1]:,} new trials, {wk[2]:,} changes to trials"
+            + (f", {wk[3]:,} with an error" if wk[3] else "") + ")",
             *[f"{k.replace('_', ' ').capitalize()}: {v}" for k, v in sorted((f.get('changes') or {}).items())]]))
     if RUN_URL:
         lines.append(f'<p><a href="{RUN_URL}">Open the run on GitHub</a></p>')

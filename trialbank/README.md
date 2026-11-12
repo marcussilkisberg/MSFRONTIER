@@ -7,7 +7,7 @@ week by a GitHub Action. About 20 minutes.
 
 ```
 myelin-ops/
-├── .github/workflows/trialbank.yml        weekly refresh (Sundays 03:23 UTC) + "Run workflow" button
+├── .github/workflows/trialbank.yml        full run on Sundays and a daily run Monday to Saturday (03:23 UTC) + "Run workflow" button
 ├── supabase/migrations/003_trial_bank.sql the "bank" schema (next to your 001 and 002)
 └── trialbank/
     ├── scripts/                           harvest → tag → build → load

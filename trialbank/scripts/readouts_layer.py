@@ -1,13 +1,24 @@
-"""Paper readouts: for completed randomised phase 2/3 trials whose registry entry has no primary result, read the
-abstracts of the linked papers and record whether the trial met its main goal.
+"""Paper readouts: for finished randomised trials whose registry entry has no primary result, read the abstracts of
+the linked papers and record whether the trial met its main goal.
+
+Scope (READOUT_SCOPE):
+  all       every finished randomised trial past phase 1: medicines in any later phase, and trials of treatments that
+            are not medicines (exercise, rehabilitation, devices, therapy), which have no phase. Default since
+            November 2026. Medicine trials in phase 2 and 3 are still read first.
+  p23_drug  the scope before November 2026: phase 2 and 3 trials of a medicine only.
+
+Papers: each trial has a first list (registry result papers, papers the results watch matched, and papers Europe PMC
+types as a trial report) and a second list (the other papers linked to the trial). The second list is read only when
+the first has no main results paper, or is empty.
 
 Gates (all must pass, otherwise the readout is stored as 'unclear' with the reason, and is not used for verdicts):
   1. the reader returns valid JSON naming one of the supplied papers as the main results paper;
   2. its supporting sentence appears word for word in that paper's abstract;
   3. a second, independent model, shown only the outcome, the abstract and the sentence, reaches the same answer.
 
-Runs only when ANTHROPIC_API_KEY is set. Cached in ../raw/readouts_cache.json, keyed by trial and paper set, so each
-trial is read once unless new papers are linked. Spend is capped by READOUT_MAX_TRIALS per run (default 150).
+Runs only when ANTHROPIC_API_KEY is set. Cached in ../readouts/readouts_cache.json, keyed by trial, prompt version and
+paper list, so each list is read once unless new papers are linked. Spend is capped by READOUT_MAX_TRIALS readings
+per run (default 400). A reading is one call to the reader and, when it names a paper, one call to the checker.
 Writes ../data/trial_readouts.parquet.
 Usage: python readouts_layer.py
 """
@@ -36,6 +47,16 @@ CHECKER = os.environ.get("READOUT_CHECK_MODEL", "claude-haiku-5-5")
 MAX_TRIALS = int(os.environ.get("READOUT_MAX_TRIALS", "400"))
 # v2: abstracts keep "p < 0.001" (v1 stripped it as if it were HTML); equivalence and non-efficacy trials separated
 PROMPT_VERSION = "readout_v2"
+# v2n: the same prompt for a trial with no medicine the bank recognises (exercise, devices, therapy, or a medicine
+# not matched to ChEMBL). Only the list of possible controls differs (adds sham, usual care, a waiting list). Trials
+# of a recognised medicine keep readout_v2 and its exact text, so nothing already read is read again.
+PROMPT_VERSION_NONDRUG = "readout_v2n"
+VERSIONS = {PROMPT_VERSION, PROMPT_VERSION_NONDRUG}
+SCOPE = os.environ.get("READOUT_SCOPE", "all")
+SKIP_PHASES = {"phase1", "early_phase1"}
+CONTROLS = {PROMPT_VERSION: "placebo, no treatment or another drug",
+            PROMPT_VERSION_NONDRUG: "placebo, sham, usual care, a waiting list, no treatment or another treatment"}
+NO_MAIN_PAPER = ("no main results paper found", "no abstract available")
 # v2b: v2's checker had a 60-token reply limit, so explanations were cut off and read as "unclear" (94 of 117
 # readings rejected, ORATORIO among them). Readings rejected by an older checker are read again.
 CHECKER_VERSION = "check_v2b"
@@ -50,7 +71,7 @@ Task: decide what the trial found for its PRIMARY ENDPOINT, using only the abstr
 - Use the paper that reports the main results of THIS trial (not a protocol, sub-study, extension, pooled \
 analysis or review). If none does, answer "unclear".
 - "met": the primary endpoint showed a statistically significant BENEFIT of the experimental treatment over the \
-control (placebo, no treatment or another drug).
+control ({controls}).
 - "not_met": the primary endpoint did not show a significant benefit (including non-significant trends), or the \
 experimental treatment did worse.
 - "mixed": several primary endpoints or co-primary comparisons with different results.
@@ -152,16 +173,40 @@ def fetch_abstracts(pmids, cache):
     return cache
 
 
-def candidates():
+def is_drug_trial(t):
+    return bool(str(getattr(t, "drugs", "") or "").strip())
+
+
+def version_for(t):
+    return PROMPT_VERSION if is_drug_trial(t) else PROMPT_VERSION_NONDRUG
+
+
+def experimental(t):
+    """What the trial tested, for the prompts: its medicines, or for other treatments the registry's own wording."""
+    if is_drug_trial(t):
+        return t.drugs
+    raw = str(getattr(t, "interventions_raw", "") or "").replace("|", "; ").strip()
+    return raw[:300] or "-"
+
+
+def candidates(scope=None):
+    """Finished randomised trials with no primary result the registry lets software judge. Phase 2 and 3 trials of a
+    medicine come first, in the order they always had, then the rest with the largest trials first."""
+    scope = scope or SCOPE
     t = pd.read_parquet(DATA / "trials.parquet")
-    t = t[(t.study_type == "interventional") & t.phase.isin(P23)
+    t = t[(t.study_type == "interventional")
           & t.allocation.fillna("").str.lower().str.startswith("random")
           & t.status.isin(["completed", "terminated", "unknown"])
           & ~t.result_signal.fillna("").isin(DECIDED)
           & ~t.result_signal.fillna("").str.contains("futility|safety")]
-    t = t[t.drugs.fillna("") != ""]
+    core = t.phase.isin(P23) & (t.drugs.fillna("") != "")
+    t = t[core] if scope == "p23_drug" else t[core | ~t.phase.isin(SKIP_PHASES)]
+    core = core.reindex(t.index)
     pri = (t.population_group == "progressive").astype(int) * 2 + t.phase.isin({"phase3", "phase2|phase3"}).astype(int)
-    return t.assign(_p=pri).sort_values(["_p", "start_year"], ascending=[False, False])
+    size = pd.to_numeric(t.enrollment, errors="coerce").fillna(0)
+    key = t.start_year.where(core, size)
+    return t.assign(is_core=core.astype(int), _p=pri, _k=key).sort_values(["is_core", "_p", "_k"],
+                                                                          ascending=[False, False, False])
 
 
 def search_matches():
@@ -210,6 +255,36 @@ def papers_for(uid, reg, epmc, found=None):
     return order[:6]
 
 
+NOT_A_REPORT = re.compile(r"review|protocol|case report|comment|editorial|letter|erratum|retract|news|guideline")
+
+
+def more_papers(uid, epmc, first, acronym=None):
+    """The second list: papers linked to the trial that the first list left out. Many main results papers are typed
+    only "Journal Article" in Europe PMC, so they never reached the reader (98 phase 2 and 3 medicine trials had
+    linked papers and an empty first list). Papers that name the trial's acronym in the title come first, then the
+    oldest."""
+    acr = str(acronym or "").strip().lower()
+    acr = acr if len(acr) >= 4 else ""
+    rows = []
+    for r in epmc[epmc.msf_trial_id == uid].itertuples():
+        pmid = str(r.pmid)
+        if not pmid.isdigit() or pmid in first:
+            continue
+        pt, title = str(r.pub_type or "").lower(), str(r.title or "").lower()
+        if NOT_A_REPORT.search(pt) or re.search(r"\bprotocol\b|study design|rationale and design|\bcase report\b", title):
+            continue
+        try:
+            year = int(r.pub_year)
+        except (TypeError, ValueError):
+            year = 9999
+        rows.append((0 if acr and acr in title else 1, year, pmid))
+    out = []
+    for _, _, pmid in sorted(rows):
+        if pmid not in out:
+            out.append(pmid)
+    return out[:6]
+
+
 def checker_answer(text):
     """The checker's verdict from its reply, tolerating explanation text around the JSON."""
     text = text or ""
@@ -235,8 +310,12 @@ def read_trial(t, pmids, abstracts, outcomes, reader=call):
     primary = "; ".join(outcomes.get(t.msf_trial_id, [])[:3]) or "not stated"
     block = "\n\n".join(f"[PMID {p}] {a['title']} ({a['year']})\n{clean(a['abstract'])}"
                         for p, a in usable)
+    version = version_for(t)
+    exp = experimental(t)
+    comparator = t.comparator_drugs or ("placebo or none listed" if version == PROMPT_VERSION
+                                        else "placebo, sham, usual care or none listed")
     prompt = READER_PROMPT.format(title=t.title, acronym=t.acronym or "-", ids=t.registry_ids, phase=t.phase,
-                                  drugs=t.drugs or "-", comparator=t.comparator_drugs or "placebo or none listed",
+                                  drugs=exp or "-", comparator=comparator, controls=CONTROLS[version],
                                   primary=primary, abstracts=block)
     j = parse_json(reader(READER, prompt))
     if not j or j.get("readout") not in OUTCOMES:
@@ -249,7 +328,7 @@ def read_trial(t, pmids, abstracts, outcomes, reader=call):
     if len(quote) < 20 or norm(quote) not in norm(abstracts[pmid]["abstract"]):
         return {**base, "readout": "unclear", "pmid": pmid, "reason": "quote not found word for word in abstract"}
     cj = (reader(CHECKER, CHECK_PROMPT.format(
-        title=t.title, drugs=t.drugs or "-", comparator=t.comparator_drugs or "placebo or none listed",
+        title=t.title, drugs=exp or "-", comparator=comparator,
         primary=primary, abstract=clean(abstracts[pmid]["abstract"]), quote=quote), 600))
     check = checker_answer(cj)
     if check != j["readout"]:
@@ -315,37 +394,68 @@ def main():
     print(f"readout candidates: {len(cand)}; API key {'set' if have_key else 'NOT set: reusing cached readouts only'}")
 
     found = search_matches()
-    plan = [(t, papers_for(t.msf_trial_id, reg, epmc, found)) for t in cand.itertuples()]
-    plan = [(t, p) for t, p in plan if p]
-    fetch_abstracts(sorted({x for _, p in plan for x in p}), abstracts)
+    plan = []
+    for t in cand.itertuples():
+        first = papers_for(t.msf_trial_id, reg, epmc, found)
+        more = more_papers(t.msf_trial_id, epmc, first, t.acronym)
+        if first or more:
+            plan.append((t, first, more))
+    fetch_abstracts(sorted({x for _, first, more in plan for x in first + more}), abstracts)
     ABSTRACTS.write_text(json.dumps(abstracts))
+    n_core = sum(1 for t, _, _ in plan if t.is_core)
+    print(f"scope '{SCOPE}': {len(plan)} candidates have a linked paper "
+          f"({n_core} phase 2 or 3 medicine trials, {len(plan) - n_core} others)")
 
-    n_new = 0
-    for t, pmids in plan:
-        key = f"{t.msf_trial_id}|{PROMPT_VERSION}|" + hashlib.sha1(",".join(sorted(pmids)).encode()).hexdigest()[:10]
-        stale = key in cache and cache[key].get("reason") == "second model disagreed" \
-            and cache[key].get("checker_version") != CHECKER_VERSION
-        # an accepted reading whose paper is still among this trial's candidates stays valid when the candidate
-        # list changes; no need to pay for it again
-        accepted = any(k.startswith(t.msf_trial_id + "|" + PROMPT_VERSION) and not v.get("reason")
-                       and v.get("pmid") in pmids for k, v in cache.items())
-        if (key in cache and not stale) or accepted or not have_key or n_new >= MAX_TRIALS:
+    def key_for(t, pmids):
+        return f"{t.msf_trial_id}|{version_for(t)}|" + hashlib.sha1(",".join(sorted(pmids)).encode()).hexdigest()[:10]
+
+    def read(t, pmids, which):
+        cache[key_for(t, pmids)] = {**read_trial(t, pmids, abstracts, outcomes), "reader_model": READER,
+                                    "checker_model": CHECKER, "checker_version": CHECKER_VERSION,
+                                    "prompt_version": version_for(t), "paper_list": which,
+                                    "read_on": date.today().isoformat()}
+
+    n_new = n_left = 0
+    for t, first, more in plan:
+        prefix, linked = f"{t.msf_trial_id}|{version_for(t)}|", set(first) | set(more)
+        # an accepted reading whose paper is still among this trial's papers stays valid when the lists change;
+        # no need to pay for it again
+        if any(k.startswith(prefix) and not v.get("reason") and v.get("pmid") in linked for k, v in cache.items()):
             continue
-        try:
-            cache[key] = {**read_trial(t, pmids, abstracts, outcomes), "reader_model": READER,
-                          "checker_model": CHECKER, "checker_version": CHECKER_VERSION,
-                          "prompt_version": PROMPT_VERSION, "read_on": date.today().isoformat()}
-            n_new += 1
-        except RuntimeError as e:
-            print("stopping readouts:", e)
+        todo = []
+        k1 = key_for(t, first) if first else None
+        if first and (k1 not in cache or (cache[k1].get("reason") == "second model disagreed"
+                                          and cache[k1].get("checker_version") != CHECKER_VERSION)):
+            todo.append((first, "first"))
+        # the second list is read when the first one is empty or held no main results paper
+        if more and key_for(t, more) not in cache:
+            todo.append((more, "second"))
+        stop = False
+        for pmids, which in todo:
+            if which == "second" and first and cache.get(k1, {}).get("reason") not in NO_MAIN_PAPER:
+                continue      # the first list gave an answer, or has not been read yet
+            if not have_key or n_new >= MAX_TRIALS:
+                n_left += 1
+                continue
+            try:
+                read(t, pmids, which)
+                n_new += 1
+            except RuntimeError as e:
+                print("stopping readouts:", e)
+                stop = True
+                break
+            if n_new % 20 == 0:
+                CACHE.write_text(json.dumps(cache, indent=1, sort_keys=True))
+        if stop:
             break
-        if n_new % 20 == 0:
-            CACHE.write_text(json.dumps(cache, indent=1, sort_keys=True))
     CACHE.write_text(json.dumps(cache, indent=1, sort_keys=True))
+    if n_left:
+        print(f"{n_left} readings left for a later run (READOUT_MAX_TRIALS={MAX_TRIALS}"
+              f"{'' if have_key else ', no API key'})")
 
     # latest readout per trial (a newer paper set or prompt version supersedes older ones)
     latest = {}
-    rank = lambda v: (v.get("prompt_version") == PROMPT_VERSION, not v.get("reason"), v.get("read_on", ""))
+    rank = lambda v: (v.get("prompt_version") in VERSIONS, not v.get("reason"), v.get("read_on", ""))
     for k, v in cache.items():
         uid = k.split("|")[0]
         if uid not in latest or rank(v) >= rank(latest[uid]):
@@ -354,6 +464,7 @@ def main():
     df["result_json"] = df["result"].apply(lambda r: json.dumps(r) if isinstance(r, dict) else None) \
         if "result" in df.columns else None
     df = df.drop(columns=["result", "reader_result", "checker_version"], errors="ignore")
+    df = df.drop(columns=["paper_list"], errors="ignore")
     for c in ("pmid", "quote", "reader_said", "checker_said", "reason", "reader_model", "checker_model",
               "prompt_version", "read_on"):
         if c not in df.columns:

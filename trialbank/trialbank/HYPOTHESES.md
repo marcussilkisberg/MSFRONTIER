@@ -53,7 +53,13 @@ A hypothesis is **approach × aim × population**, with a stable ID such as
   recorded and neither count toward nor block a verdict: "equivalent" (non-inferiority or biosimilarity shown) and
   "not_efficacy" (primary endpoint was safety, PK, cell counts or vaccine response). v1 (first 150 readings) stripped
   "p < 0.001" from abstracts as if it were HTML, so positive results were wrongly discarded; v2 re-reads them. The cache is committed to the repository
-  (`readouts/`) as the audit trail; each trial is read once unless new papers appear.
+  (`readouts/`) as the audit trail; each trial is read once unless new papers appear. Since November 2026 the
+  reader covers every finished randomised trial past phase 1 (before: phase 2 and 3 trials of a medicine only), so
+  exercise, rehabilitation, device and therapy trials are read too. When the first list of papers (registry result
+  papers and papers typed as trial reports) is empty or holds no main results paper, a second list (the other papers
+  linked to the trial) is read. A reading of a trial outside phase 2 and 3 is stored and shown on the trial. It does
+  not count toward a verdict, because the verdict rules count phase 2 and 3 only. `READOUT_SCOPE=p23_drug` restores
+  the old scope.
 - **Genetic leads**: genes with an Open Targets genetic-association score ≥ 0.5 are shown; a lead is "tested" if any
   bank drug acts on it (or on its ligand/receptor partner, from a fixed partner list) in an MS trial.
 
