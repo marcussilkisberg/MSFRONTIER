@@ -1,6 +1,6 @@
 # MSFrontier knowledge layers (v1, machine-only) — 27 Oct 2026
 
-Everything below is machine-assembled from structured public sources, refreshed weekly by the "Trial bank refresh"
+Everything below is machine-assembled from structured public sources, refreshed by the "Trial bank refresh"
 GitHub workflow, and loaded into the Supabase `bank` schema by migration 005. Nothing is human-reviewed.
 
 | Layer | Table(s) | Source | Size (first build) |

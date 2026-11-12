@@ -29,6 +29,7 @@ python validate.py > ../data/validate.log
 
 if [ -n "${SUPABASE_DB_URL:-}" ]; then
   python load_supabase.py ../data
+  python refresh_site.py                 # the site's stored views (needs migration 036; does nothing before it)
 else
   echo "SUPABASE_DB_URL not set: built ../data but did not load it."
 fi

@@ -1,10 +1,26 @@
 name: Trial bank refresh
+run-name: Trial bank refresh, ${{ (github.event.schedule == '23 3 * * 1-6' || github.event.inputs.mode == 'light') && 'daily run' || 'full run' }}
 
+# Two runs share this file.
+#   Full run, Sundays: everything below, the open data release, the newsletter and the report by email.
+#   Daily run, Monday to Saturday: the registries, registry results, regulators, announcements, the paper reader,
+#   the hypothesis ledger and the load. It leaves out the steps marked "full run only": reviews and guidelines,
+#   lab evidence, the open data release, the newsletter and the weekly report. It reuses Sunday's download of the
+#   EU's old register (about 25 minutes, and closed to new trials since 2023), so it takes about 10 minutes.
+# The database keeps Sunday's rows for every table the daily run does not build (see load_supabase.py).
 on:
   schedule:
-    - cron: "23 3 * * 0"   # Sundays 03:23 UTC
+    - cron: "23 3 * * 0"     # Sundays 03:23 UTC: full run
+    - cron: "23 3 * * 1-6"   # Monday to Saturday 03:23 UTC: daily run. MODE below compares against this exact text
   workflow_dispatch:
     inputs:
+      mode:
+        description: "full = everything, as on Sundays. light = the daily run"
+        type: choice
+        options:
+          - full
+          - light
+        default: full
       load:
         description: "Load into Supabase after building"
         type: boolean
@@ -21,7 +37,7 @@ on:
 permissions:
   contents: write
 
-# the weekly run and the daily news run both commit to this repository: never run them at the same time
+# this workflow and the daily news run both commit to this repository: never run them at the same time
 concurrency:
   group: msfrontier-writes
   cancel-in-progress: false   # lets the run commit the machine-read paper results (readouts/) back to this repository
@@ -30,6 +46,8 @@ jobs:
   refresh:
     runs-on: ubuntu-latest
     timeout-minutes: 330
+    env:
+      MODE: ${{ (github.event.schedule == '23 3 * * 1-6' || github.event.inputs.mode == 'light') && 'light' || 'full' }}
     defaults:
       run:
         working-directory: trialbank
@@ -43,7 +61,8 @@ jobs:
       - name: Install
         run: pip install -r requirements.txt
 
-      # ChEMBL and Europe PMC lookups are cached between runs so only new names/IDs are queried
+      # ChEMBL and Europe PMC lookups are cached between runs so only new names/IDs are queried.
+      # raw/euctr_full.txt is the last download of the EU's old register, which the daily run reuses.
       - name: Restore lookup caches
         uses: actions/cache@v5
         with:
@@ -55,6 +74,7 @@ jobs:
             trialbank/raw/ema
             trialbank/raw/conference_cache.json
             trialbank/raw/announcements_cache.json
+            trialbank/raw/euctr_full.txt
           key: trialbank-lookups-${{ github.run_id }}
           restore-keys: trialbank-lookups-
 
@@ -66,7 +86,13 @@ jobs:
           retry() { for i in 1 2 3; do "$@" && return 0; echo "attempt $i failed, retrying in 2 minutes"; sleep 120; done; return 1; }
           retry python harvest_ctgov.py ../raw
           retry python harvest_isrctn.py ../raw
-          retry python harvest_euctr.py ../raw
+          # The daily run reuses the last download of the EU's old register when the cache holds one that is
+          # less than 9 days old. Without one it downloads the register like the full run.
+          if [ "$MODE" = "light" ] && [ -n "$(find ../raw/euctr_full.txt -mtime -9 -size +1000k 2>/dev/null)" ]; then
+            echo "EU old register: using the download of $(date -u -r ../raw/euctr_full.txt +%Y-%m-%d)"
+          else
+            retry python harvest_euctr.py ../raw
+          fi
           retry python harvest_ctis.py ../raw
           python warm_chembl_all.py
           python build.py
@@ -129,8 +155,10 @@ jobs:
         run: cd scripts && python results_watch_layer.py
 
       # Reviews and guidelines from Europe PMC, tagged by a model. Optional: if it fails, the bank keeps last week's.
+      # Full run only.
       - name: Reviews and guidelines (needs ANTHROPIC_API_KEY)
         id: literature
+        if: ${{ env.MODE == 'full' }}
         continue-on-error: true
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
@@ -138,8 +166,10 @@ jobs:
 
       # Lab evidence: animal and human cell studies from Europe PMC, tagged by a model. Optional, like the reviews.
       # Tagging stops after PRE_MAX_MINUTES and continues on the next run, so the first weeks fill it in stages.
+      # Full run only.
       - name: Lab evidence (needs ANTHROPIC_API_KEY)
         id: preclinical
+        if: ${{ env.MODE == 'full' }}
         continue-on-error: true
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
@@ -159,7 +189,7 @@ jobs:
             git config user.name "trialbank-bot"
             git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
             git add trialbank/readouts
-            git commit -m "Weekly paper readouts [skip ci]"
+            git commit -m "Paper readouts [skip ci]"
             for i in 1 2 3; do
               git pull --rebase --autostash -X theirs origin "${GITHUB_REF_NAME}" && git push && break
               sleep 10
@@ -175,11 +205,23 @@ jobs:
           cd scripts
           python load_supabase.py ../data
 
+      # The site's pages read stored views (materialised views) that hold the bank as it was when they were last
+      # refreshed. Refresh them after every load, or the pages keep showing the previous load. Needs migration 036;
+      # before it the step says so and does nothing. A failure stops the daily run, so that the alert goes out.
+      # The full run carries on and names the step in the weekly report.
+      - name: Refresh the site's stored views
+        id: site_views
+        if: ${{ steps.load.outcome == 'success' }}
+        continue-on-error: ${{ env.MODE == 'full' }}
+        env:
+          SUPABASE_DB_URL: ${{ secrets.SUPABASE_DB_URL }}
+        run: cd scripts && python refresh_site.py
+
       # Organisations (companies and institutions working on MS). Runs once scripts/organisations.py from the
       # organisations package is in the repository, and writes organisations.csv into data/ for the open data.
       - name: Organisations
         id: organisations
-        if: ${{ steps.load.outcome == 'success' }}
+        if: ${{ steps.load.outcome == 'success' && env.MODE == 'full' }}
         continue-on-error: true
         env:
           SUPABASE_DB_URL: ${{ secrets.SUPABASE_DB_URL }}
@@ -188,8 +230,10 @@ jobs:
 
       # Open data: CSVs, a data dictionary and one zip, published as a GitHub release with stable file names, so
       # https://github.com/<owner>/<repo>/releases/latest/download/msfrontier-data.zip is always the newest build.
+      # Full run only: one release a week.
       - name: Build the open data exports
         id: exports
+        if: ${{ env.MODE == 'full' }}
         continue-on-error: true
         run: |
           cd scripts
@@ -197,7 +241,7 @@ jobs:
 
       - name: Publish the open data release
         id: release
-        if: ${{ github.event_name == 'schedule' || inputs.load }}
+        if: ${{ env.MODE == 'full' && (github.event_name == 'schedule' || inputs.load) }}
         continue-on-error: true
         env:
           GH_TOKEN: ${{ github.token }}
@@ -209,9 +253,10 @@ jobs:
 
       # Weekly newsletter through Buttondown. The Sunday run sends it (unless the repository variable NEWSLETTER_MODE
       # is set to draft or off). A manual run saves a draft, or sends if "Send the newsletter now" is ticked.
+      # Full run only: the daily run never sends or drafts a newsletter.
       - name: Send the newsletter
         id: newsletter
-        if: ${{ steps.load.outcome == 'success' }}
+        if: ${{ steps.load.outcome == 'success' && env.MODE == 'full' }}
         continue-on-error: true
         env:
           SUPABASE_DB_URL: ${{ secrets.SUPABASE_DB_URL }}
@@ -220,9 +265,9 @@ jobs:
           NEWSLETTER_MODE: ${{ github.event_name == 'schedule' && (vars.NEWSLETTER_MODE || 'send') || (inputs.newsletter && 'send' || 'draft') }}
         run: cd scripts && python newsletter.py
 
-      # A short report to Marcus after every run, including runs that failed part-way.
+      # A short report to Marcus after every full run, including runs that failed part-way.
       - name: Email the weekly report
-        if: ${{ always() }}
+        if: ${{ always() && env.MODE == 'full' }}
         continue-on-error: true
         env:
           RESEND_API_KEY: ${{ secrets.RESEND_API_KEY }}
@@ -233,9 +278,20 @@ jobs:
           RUN_URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
         run: cd scripts && python alerts.py --weekly
 
+      # The daily run sends no report. It sends an alert when it fails.
+      - name: Email an alert if the daily run failed
+        if: ${{ failure() && env.MODE == 'light' }}
+        continue-on-error: true
+        env:
+          RESEND_API_KEY: ${{ secrets.RESEND_API_KEY }}
+          ALERT_EMAIL: ${{ secrets.ALERT_EMAIL }}
+          ALERT_FROM: ${{ vars.ALERT_FROM }}
+          RUN_URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
+        run: cd scripts && python alerts.py --failure "Trial bank refresh, daily run"
+
       - name: Keep the built files
         uses: actions/upload-artifact@v5
         with:
           name: trialbank-data
           path: trialbank/data/
-          retention-days: 30
+          retention-days: ${{ env.MODE == 'full' && 30 || 7 }}
