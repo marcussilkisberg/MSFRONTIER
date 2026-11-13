@@ -1,4 +1,20 @@
 {
+ "00f15df875d10d85": {
+  "about_ms": false,
+  "category": "other",
+  "collected_at": "2026-11-13T13:25:52.492248+00:00",
+  "description": "Narcolepsy Type 1 in the Workplace: Tips for Navigating Your 9-to-5 Everyday Health",
+  "id": "00f15df875d10d85",
+  "is_published": false,
+  "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOaEpDRDQ4UzJVeTNhT2dWcjNuQ20tVDVQcVM1a0dQMU9adGsyaUV3clRqV2dHQTNfcElnMkc3akdNS2hxOVV0UG9waDJFQkZVOHNJWHFBWk1yVk1pSDZTbG5fcVlFSS1Rb1lLdkZnU3BDSTYtcUE3bUpLZkRLUlJ2Y3lJd2dhY201YnJGRlBBX1NueUU?oc=5",
+  "published_at": "2026-11-12T19:43:41+00:00",
+  "relevance": 1,
+  "source": "Everyday Health",
+  "source_type": "news_search",
+  "summary": "Everyday Health published an article offering workplace tips for people with narcolepsy type 1. The provided text contains only the title, with no details, and does not mention multiple sclerosis or related demyelinating diseases.",
+  "summary_model": "claude-sonnet-5-5",
+  "title": "Narcolepsy Type 1 in the Workplace: Tips for Navigating Your 9-to-5"
+ },
  "016cc5dcfca3ce95": {
   "about_ms": false,
   "category": "other",
@@ -142,6 +158,22 @@
   "summary": "The headline says uniQure has received a regulatory review date and an advisory committee meeting, and that Inovio's stock rose after an approval. The provided text gives no further details, and nothing indicates a link to multiple sclerosis or related demyelinating disease.",
   "summary_model": "claude-sonnet-5-5",
   "title": "UniQure gets review date and adcomm; Inovio’s stock surges after approval"
+ },
+ "0bafe11ab378b66e": {
+  "about_ms": true,
+  "category": "research",
+  "collected_at": "2026-11-13T13:25:52.491906+00:00",
+  "description": "An MRI technique known as APART-QSM may help researchers track signs of repair to the myelin sheath, which is damaged in people with multiple sclerosis (MS), according to a study from China. Researchers found that increases in a myelin-sensitive MRI measurement within MS lesions were significantly associated with improvements in disability scores. These changes may […] The post New MRI technique may reveal signs of myelin repair in multiple sclerosis appeared first on Multiple Sclerosis News Today .",
+  "id": "0bafe11ab378b66e",
+  "is_published": true,
+  "link": "https://multiplesclerosisnewstoday.com/news-posts/2026/11/12/mri-technique-may-show-signs-myelin-repair-multiple-sclerosis/",
+  "published_at": "2026-11-12T16:45:02+00:00",
+  "relevance": 3,
+  "source": "MS News Today",
+  "source_type": "news",
+  "summary": "A study from China found that an MRI technique called APART-QSM may help researchers track signs of myelin repair in MS. Increases in a myelin-sensitive MRI measurement within lesions were significantly associated with improvements in disability scores.",
+  "summary_model": "claude-sonnet-5-5",
+  "title": "New MRI technique may reveal signs of myelin repair in multiple sclerosis"
  },
  "0f14e43cfc83a9f6": {
   "about_ms": false,
@@ -591,6 +623,22 @@
   "summary_model": "claude-sonnet-5-5",
   "title": "Experimental MS therapy outperforms approved treatment in two trials"
  },
+ "2cb53186b9963a9c": {
+  "about_ms": true,
+  "category": "research",
+  "collected_at": "2026-11-13T13:25:52.492286+00:00",
+  "description": "Intranasal Nanocarriers Offer Investigational Strategy for Multiple Sclerosis Brain Drug Delivery Bioengineer.org",
+  "id": "2cb53186b9963a9c",
+  "is_published": false,
+  "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOd1BUbTVTS2lVem1US0tDVXlHYmluTzloUmVfZnpxeGIxS0l3ZktIVmRXcEtrbG02UmpydXlEWXV6Und6MWJnbmRyS0JwdTRLUXlYR3dFR0VFY1pBYW1DUk1KM2hYeVhBY1A0bFZ2QV93aU9yZV9uY281LWR5eW1LdmE5X2pvY0wxdXpsN3JGczJKYld6b21mWndTU3NhOWFwa3EwbnFVU2lGOHF3SzJNOG8xWDVldnFIZHJBalkyTQ?oc=5",
+  "published_at": "2026-11-13T03:49:35+00:00",
+  "relevance": 2,
+  "source": "Bioengineer.org",
+  "source_type": "news_search",
+  "summary": "A Bioengineer.org article describes intranasal nanocarriers as an investigational approach for delivering drugs to the brain in multiple sclerosis. The text provided gives no details on study design, results, or whether any patients have been treated.",
+  "summary_model": "claude-sonnet-5-5",
+  "title": "Intranasal Nanocarriers Offer Investigational Strategy for Multiple Sclerosis Brain Drug Delivery"
+ },
  "2f17a04228da7529": {
   "about_ms": true,
   "category": "research",
@@ -703,6 +751,31 @@
   "summary_model": "claude-sonnet-5-5",
   "title": "Rituximab Linked to 10-fold Higher IBD Risk in MS"
  },
+ "3a546ad26ad8325a": {
+  "about_ms": true,
+  "category": "research",
+  "collected_at": "2026-11-13T13:25:52.492474+00:00",
+  "description": "Anti-CD20 B-cell-depleting therapies demonstrate robust efficacy in people with multiple sclerosis (pwMS). This study addressed the limited understanding of relationships between B-cell populations before and after treatment with ocrelizumab and outcomes in people with relapsing MS (pwRMS) or primary progressive MS (pwPPMS). Total circulating blood B cells and B-cell subsets were examined at baseline and longitudinally in pwRMS and pwPPMS enrolled in the pivotal Phase 3 trials (OPERA I, OPERA II, and ORATORIO). Relationships to disease outcomes before and after treatment with ocrelizumab or comparators were evaluated using generalized linear models and time-to-event analyses. Ocrelizumab rapidly depleted total B cells in pwRMS. Blood samples (n = 15,025) were assessed from 3 Phase 3 trials from 2,370 pwMS, demonstrating depletion in all B-cell subsets. Greater depletion was observed with higher ocrelizumab exposure and longer treatment duration. In limited pwMS with detectable B cells, the majority were mature-naive B cells. Findings from the double-blind treatment period considered robust were that pwRMS with detectable mature-naive, memory, or total B cells had greater risk of developing new/enlarging T2 lesions (odds ratio: 3.8-4.9; p < 0.001), while pwPPMS with higher circulating plasmablasts had greater thalamic volume loss (β: -1.4; p < 0.001). Above-median baseline memory B-cell levels identified interferon beta-1a-treated pwRMS at greater risk of disability progressio",
+  "doi": "10.1212/nxi.0000000000200665",
+  "id": "3a546ad26ad8325a",
+  "is_published": true,
+  "journal": "Neurol Neuroimmunol Neuroinflamm",
+  "link": "https://pubmed.ncbi.nlm.nih.gov/43019492/",
+  "pmid": "43019492",
+  "pub_types": [
+   "clinical trial, phase iii",
+   "im",
+   "randomized controlled trial",
+   "journal article"
+  ],
+  "published_at": "2026-11-12T00:00:00+00:00",
+  "relevance": 3,
+  "source": "Neurol Neuroimmunol Neuroinflamm",
+  "source_type": "paper",
+  "summary": "Analysis of three Phase 3 ocrelizumab trials (2,370 people) found B-cell depletion across all subsets. In relapsing MS, detectable B cells were linked to higher risk of new or enlarging T2 lesions; in primary progressive MS, higher plasmablasts were linked to greater thalamic volume loss.",
+  "summary_model": "claude-sonnet-5-5",
+  "title": "Biomarker Synergy in Relapsing Multiple Sclerosis: Neurofilament Light Chain and B Cells in Relation to Disease Outcomes."
+ },
  "3a59356bda4fa407": {
   "about_ms": true,
   "category": "research",
@@ -782,6 +855,22 @@
   "summary": "NEJM lists a study comparing oral fingolimod with intramuscular interferon in relapsing multiple sclerosis. The text provided gives only the title, with no results, so findings and outcomes are not stated.",
   "summary_model": "claude-sonnet-5-5",
   "title": "Oral Fingolimod or Intramuscular Interferon for Relapsing Multiple Sclerosis"
+ },
+ "3dd9b59e146b763c": {
+  "about_ms": false,
+  "category": "regulatory",
+  "collected_at": "2026-11-13T13:25:52.492199+00:00",
+  "description": "CHMP recommends EU approval of Roche’s Gazyva/Gazyvaro for systemic lupus erythematosus (SLE) Yahoo Finance UK",
+  "id": "3dd9b59e146b763c",
+  "is_published": false,
+  "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPLVhFX1RmcVh1Z1l6ZHVpZTRfOFN2Qk1YOUlteDMxdGhzbUYzTnlNUXhFclRNMzZCWENaOHd6MVhpSUtmOWdpZ3dBcHNfdk8za04xb054ems0dUlOenFQLVpYblBnV1hZMVdDVlctN09tbmJkenhZdDBSLUhfRm1YdU9NSVRFTS1MNlE?oc=5",
+  "published_at": "2026-11-13T11:30:00+00:00",
+  "relevance": 1,
+  "source": "Yahoo Finance UK",
+  "source_type": "news_search",
+  "summary": "The European Medicines Agency's CHMP has recommended EU approval of Roche's Gazyva/Gazyvaro (obinutuzumab) for systemic lupus erythematosus (SLE). The source text does not mention multiple sclerosis or related demyelinating conditions.",
+  "summary_model": "claude-sonnet-5-5",
+  "title": "CHMP recommends EU approval of Roche’s Gazyva/Gazyvaro for systemic lupus erythematosus (SLE)"
  },
  "3e78ed33529ca255": {
   "about_ms": true,
@@ -1097,6 +1186,22 @@
   "summary_model": "claude-sonnet-5-5",
   "title": "BTK Inhibitor Orelabrutinib Shows Promising Efficacy in Phase 2 Study of Relapsing-Remitting Multiple Sclerosis"
  },
+ "4d905727c680642a": {
+  "about_ms": false,
+  "category": "other",
+  "collected_at": "2026-11-13T13:25:52.492182+00:00",
+  "description": "Quantum BioPharma Q3FY26 Results: Shareholder equity rises 91% to $9.77 million scanx.trade",
+  "id": "4d905727c680642a",
+  "is_published": false,
+  "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOUE5WMFlmUXlDSF9WT2xOQ25haUtRMFlBSVNfaXc1RkJTVk5mUnZicTI2UEp5NkhiV0Y1WjdrT0MzNkR4Zm1YY1pwRndWSWZ3VkJTa3hMX0s0UWV3ZFRsc1BqemthXzIxQmN0MlhtZmk3RDh2TUp0eWdSUEsxcEJXN19pRnYtUl9BaTZ2SmhyVGtmbHllLW9RZks1TEg1SHc1MUF0M0h0SjZFM04tbTF2ZGJNUVgySHM5eHN4aE5lTQ?oc=5",
+  "published_at": "2026-11-13T13:04:20+00:00",
+  "relevance": 1,
+  "source": "scanx.trade",
+  "source_type": "news_search",
+  "summary": null,
+  "summary_model": "claude-sonnet-5-5",
+  "title": "Quantum BioPharma Q3FY26 Results: Shareholder equity rises 91% to $9.77 million"
+ },
  "4dd9316e89131eb0": {
   "about_ms": true,
   "category": "other",
@@ -1193,6 +1298,22 @@
   "summary_model": "claude-sonnet-5-5",
   "title": "Empire Forum 2026: Ambati on K8 phase 2 results in geographic atrophy | Eye Care Network - Modern Retina"
  },
+ "519781c67fbe4770": {
+  "about_ms": false,
+  "category": "other",
+  "collected_at": "2026-11-13T13:25:52.492239+00:00",
+  "description": "Guggenheim highlights top biotechnology stock Yahoo Finance Singapore",
+  "id": "519781c67fbe4770",
+  "is_published": false,
+  "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOVEU5OC1sOVdhZFdiU2NUbWIzb01xeElkZ0dlV253dExMS1RIUWdkMHkxcWMwdk9CZEZMZ2dvNERZTDFWTGk0aUlQVDZ2bVJ5OGIyMC1fVkNIcC1ZcW02OGYyc0huaThWMVZ3dm1UNmdJRnhoTGJEbUU2bUpXa20zMW5BZzZGeFVzODVseW9nLW9rbFBDMERXMVpn?oc=5",
+  "published_at": "2026-11-12T19:43:47+00:00",
+  "relevance": 1,
+  "source": "Yahoo Finance Singapore",
+  "source_type": "news_search",
+  "summary": "The source gives only a headline saying Guggenheim highlights a top biotechnology stock. No company, disease, drug or multiple sclerosis information is stated, so nothing relevant to MS can be reported.",
+  "summary_model": "claude-sonnet-5-5",
+  "title": "Guggenheim highlights top biotechnology stock"
+ },
  "51ef620308c0115a": {
   "about_ms": true,
   "category": "trial_news",
@@ -1241,6 +1362,22 @@
   "summary_model": "claude-sonnet-5-5",
   "title": "BTK Inhibitor Reduces MS Relapse Rates in Two Phase 3 Trials"
  },
+ "579798737e6fecc0": {
+  "about_ms": false,
+  "category": "other",
+  "collected_at": "2026-11-13T13:25:52.492187+00:00",
+  "description": "Immunic Q3FY26 Results: EPS of $(0.99) misses estimate, loss narrows 25% YoY scanx.trade",
+  "id": "579798737e6fecc0",
+  "is_published": false,
+  "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQMDdUcHN0V3lMNVpkTUhpRnZ1TTBua0J2d2otdE1pdTJSRTRqRm9OeGptYk45U3ZZRDVKUVpMbXhFOU44T3RudS1fTkVpcllLY1hsbHpVVXEwdWZmSXR3ZzIxcGdCcG83UEpqLVBCMzF5WVNGUDRVbEdjSE8xdjdxTG5talpKdElXYnlJblJKcGNURms2Mks1VzdwVWxkNml2WjJJQm41WkctcHZPbW5NaHg0MTU5V0hYQzZQVQ?oc=5",
+  "published_at": "2026-11-13T12:40:16+00:00",
+  "relevance": 1,
+  "source": "scanx.trade",
+  "source_type": "news_search",
+  "summary": null,
+  "summary_model": "claude-sonnet-5-5",
+  "title": "Immunic Q3FY26 Results: EPS of $(0.99) misses estimate, loss narrows 25% YoY"
+ },
  "589279be370fc61e": {
   "about_ms": true,
   "category": "research",
@@ -1272,6 +1409,22 @@
   "summary": "Multiple Sclerosis Discovery Forum published a piece titled \"Azathioprine: Old Drug, New Data.\" The provided text contains no details on the data, study design, or findings, so nothing further can be stated.",
   "summary_model": "claude-sonnet-5-5",
   "title": "Azathioprine: Old Drug, New Data"
+ },
+ "5a77d95f8957ba95": {
+  "about_ms": true,
+  "category": "trial_news",
+  "collected_at": "2026-11-13T13:25:52.492149+00:00",
+  "description": "– Pivotal Phase 3 ENSURE-1 and ENSURE-2 Trials of Vidofludimus Calcium in Relapsing Multiple Sclerosis Remain on Track, with Top-Line Data Expected in December 2026 – – Initiation of Phase 3 PROTECT-MS Trial of Vidofludimus Calcium in Progressive Multiple Sclerosis Ongoing, with...",
+  "id": "5a77d95f8957ba95",
+  "is_published": true,
+  "link": "https://www.prnewswire.com/news-releases/immunic-inc-reports-third-quarter-2026-financial-results-and-provides-corporate-update-302938612.html",
+  "published_at": "2026-11-13T11:30:00+00:00",
+  "relevance": 3,
+  "source": "PR Newswire",
+  "source_type": "press_release",
+  "summary": "Immunic reports its Phase 3 ENSURE-1 and ENSURE-2 trials of vidofludimus calcium in relapsing multiple sclerosis remain on track, with top-line data expected in December 2026. Initiation of the Phase 3 PROTECT-MS trial in progressive MS is ongoing.",
+  "summary_model": "claude-sonnet-5-5",
+  "title": "Immunic, Inc. Reports Third Quarter 2026 Financial Results and Provides Corporate Update"
  },
  "5b3d9c7966ce14a0": {
   "about_ms": true,
@@ -1368,6 +1521,22 @@
   "summary": "NeurologyLive reports on a New York forum addressing unmet needs in multiple sclerosis care. The provided text contains only the headline, so no details on the topics discussed, participants, or any findings are available.",
   "summary_model": "claude-sonnet-5-5",
   "title": "New York Forum Tackles Unmet Needs in Multiple Sclerosis Care"
+ },
+ "5fc4a74b87bf7553": {
+  "about_ms": true,
+  "category": "trial_news",
+  "collected_at": "2026-11-13T13:25:52.492177+00:00",
+  "description": "Immunic Reports $42.3 Million Third-Quarter Loss as ENSURE Data Nears Quiver Quantitative",
+  "id": "5fc4a74b87bf7553",
+  "is_published": false,
+  "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxONFZhcUpMbzJ6eUY5MXJQb2o2ZHpDTFZ2N1RucXFQRHd2RlI4WlBHT192RnRwVEtqYnZhclpKOGUwYXl1T0V6VmVJQ2k4djl5VmlGNHVGMkJ2RUF5elA0SDJNdVo3VXQ0aUVURzZxUHBJTTVMaVpya3B2dGR2bWFXRXZUbWdGN2hvWDFHVUNCRzdndFZZQkxqYVdUQVEzVlMxZTJGOEROdw?oc=5",
+  "published_at": "2026-11-13T13:06:00+00:00",
+  "relevance": 2,
+  "source": "Quiver Quantitative",
+  "source_type": "news_search",
+  "summary": "Immunic reported a $42.3 million loss for the third quarter. The headline says data from its ENSURE trials are approaching, but the provided text gives no trial results or other details.",
+  "summary_model": "claude-sonnet-5-5",
+  "title": "Immunic Reports $42.3 Million Third-Quarter Loss as ENSURE Data Nears"
  },
  "60c3b14f58431606": {
   "about_ms": false,
@@ -1585,6 +1754,22 @@
   "summary_model": "claude-sonnet-5-5",
   "title": "Is resistance training effective to increase BDNF in multiple sclerosis? An updated systematic review and meta-analysis of isolated interventions."
  },
+ "6d3d268046574983": {
+  "about_ms": false,
+  "category": "regulatory",
+  "collected_at": "2026-11-13T13:25:52.492207+00:00",
+  "description": "Euro Roundup: EMA posts draft guideline on approval dossiers for biomarker-guided therapies RAPS",
+  "id": "6d3d268046574983",
+  "is_published": false,
+  "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNcmxnUDFsWmN0ZnRNU0doTkh5WVo2WmduRno3N1N0RVJxNDdNOEpFbWROdUFUWlZQOHFQV3p3RW5rcktXUm9SSVIzSnREcGhGVFNGbnE4Rk5ubFRQUTVFeWRkMldBRVlJWmxTM2VsMUY5MURDUnJQZllRRG1JYi1UU0w3Qlgyc1M4dzhLTkVKRXR2Wi1TZmlmbndBQUw0VWF4azhVUnZERkU5aUhhZ2I3OGpDb1FjcmZySGdsX2R1cEVYYlk?oc=5",
+  "published_at": "2026-11-12T20:22:00+00:00",
+  "relevance": 1,
+  "source": "RAPS",
+  "source_type": "news_search",
+  "summary": "The European Medicines Agency has posted a draft guideline on what approval dossiers should contain for biomarker-guided therapies. The source text does not mention multiple sclerosis or any other demyelinating disease.",
+  "summary_model": "claude-sonnet-5-5",
+  "title": "Euro Roundup: EMA posts draft guideline on approval dossiers for biomarker-guided therapies"
+ },
  "6d62f11c1c4c4292": {
   "about_ms": true,
   "category": "research",
@@ -1697,6 +1882,22 @@
   "summary_model": "claude-sonnet-5-5",
   "title": "Orelabrutinib reduces brain lesions in RRMS by 90% in Phase 2 trial"
  },
+ "761bb474f61d3c99": {
+  "about_ms": true,
+  "category": "living_with_ms",
+  "collected_at": "2026-11-13T13:25:52.491924+00:00",
+  "description": "I am 49 years old and have multiple sclerosis (MS). I’m also smack in the middle of perimenopause. You’d think that with all the medical appointments, research, and conversations I’ve had since my diagnosis, someone might’ve mentioned how these two things could be connected. Nope. I’m not someone who simply accepts an answer and moves […] The post Guest Voice: Why we need more research on menopause and MS appeared first on Multiple Sclerosis News Today .",
+  "id": "761bb474f61d3c99",
+  "is_published": false,
+  "link": "https://multiplesclerosisnewstoday.com/guest-voice/2026/11/12/guest-voice-why-we-need-more-research-menopause/",
+  "published_at": "2026-11-12T15:00:11+00:00",
+  "relevance": 2,
+  "source": "MS News Today",
+  "source_type": "news",
+  "summary": "A 49-year-old woman with MS, currently in perimenopause, writes that despite many medical appointments and conversations since diagnosis, no one mentioned how menopause and MS might be connected. Her guest column argues for more research on the topic.",
+  "summary_model": "claude-sonnet-5-5",
+  "title": "Guest Voice: Why we need more research on menopause and MS"
+ },
  "76a250680bed4fa3": {
   "about_ms": false,
   "category": "regulatory",
@@ -1760,6 +1961,38 @@
   "summary": "Kalkine Media reports on TG Therapeutics' third-quarter 2026 results, stating that sales of BRIUMVI, its multiple sclerosis treatment, led the company to raise its guidance. The text provided gives no figures or further details.",
   "summary_model": "claude-sonnet-5-5",
   "title": "TG Therapeutics (NASDAQ:TGTX) Q3 2026: BRIUMVI Lifts Guidance"
+ },
+ "7a6074d4cae854d9": {
+  "about_ms": true,
+  "category": "research",
+  "collected_at": "2026-11-13T13:25:52.492257+00:00",
+  "description": "Rituximab Associated with Elevated Risk of Inflammatory Bowel Disease in Individuals with Multiple... Medical Dialogues",
+  "id": "7a6074d4cae854d9",
+  "is_published": true,
+  "link": "https://news.google.com/rss/articles/CBMijAJBVV95cUxPSnptSWJBanI5S2VNNU1mR0Q4NTNtYlIySTM0WldRZnhPRWNwVm4td0pyWXpNbnNiMFpfcEJVNmp5Z21jckFSdFNCZ3lqelpZckRJam9TWWJ2cE5CMFVoVDBzX09pdjR2ODB6TWZTNUU2RC1tNmdrVHhPeXlRdldoMVV5MHhNR2VhbC1pcno3WXNfVDA4RjJ0SWlCQ2ZVSm4ydktWcmF0ZzVDTU1ESHNYbkxzd3FWZ1ZZVW9FeXB0RG1EUDQxX19LWm5UZkowbzIzTmNYQ2ZqaWhCbmNJYjQxUndHZnNwZ2Z3cmx2REpvTnZqMW9hRHJORGtaV2Z3NFNGaW51TjMwU1loazE50gGMAkFVX3lxTE9Kem1JYkFqcjlLZU01TWZHRDg1M21iUjJJMzRaV1FmeE9FY3BWbi13SnJZek1uc2IwWl9wQlU2anlnbWNyQVJ0U0JneWp6WllyRElqb1NZYnZwTkIwVWhUMHNfT2l2NHY4MHpNZlM1RTZELW02Z2tUeE95eVF2V2gxVXkweE1HZWFsLWlyejdZc19UMDhGMnRJaUJDZlVKbjJ2S1ZyYXRnNUNNTURIc1huTHN3cVZnVllVb0V5cHREbURQNDFfX0tablRmSjBvMjNOY1hDZmppaEJuY0liNDFSd0dmc3BnZndybHZESm9Odmoxb2FEck5Ea1pXZnc0U0ZpbnVOMzBTWWhrMTk?oc=5",
+  "published_at": "2026-11-12T15:30:32+00:00",
+  "relevance": 3,
+  "source": "Medical Dialogues",
+  "source_type": "news_search",
+  "summary": "A Medical Dialogues report says rituximab is associated with an elevated risk of inflammatory bowel disease in people with multiple sclerosis. The available text is only a truncated headline, so study design, size and risk figures are not given.",
+  "summary_model": "claude-sonnet-5-5",
+  "title": "Rituximab Associated with Elevated Risk of Inflammatory Bowel Disease in Individuals with Multiple..."
+ },
+ "7ac11f526f7da959": {
+  "about_ms": true,
+  "category": "trial_news",
+  "collected_at": "2026-11-13T13:25:52.492155+00:00",
+  "description": "Immunic CEO discusses Q3 highlights and December Phase 3 MS trial readouts Proactive financial news",
+  "id": "7ac11f526f7da959",
+  "is_published": false,
+  "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOQjRjVmNGZWJTbFRhTW5zZkduVXBGdE0xQ1lCSlFCRUk2X1RQaVkwYlBZWm5WVkNhNzBoWHY0NE9XSWZRcFdScjRHRFNkc0IxZVQtTDhNVFgxNDFzdTQ0bHM2dnhiWm9DSUNRclZFSFVpV3UzemNJdkNwTGFFdjEzS2pNUXduSE43S2dRWVJHbUs2NVZma2Z0R0o1WTE2TXMydGNsaXNfZkFyWkFiZ3ZYczVqNmZVbTBVaTQ2cGdRUnlYV3BtMnpQMGQ2TWFzSVE5WlE0?oc=5",
+  "published_at": "2026-11-13T11:45:00+00:00",
+  "relevance": 2,
+  "source": "Proactive financial news",
+  "source_type": "news_search",
+  "summary": "Immunic's CEO discussed the company's third-quarter highlights and upcoming December readouts from its Phase 3 trials in multiple sclerosis, according to Proactive financial news. No trial results or data are given in the text.",
+  "summary_model": "claude-sonnet-5-5",
+  "title": "Immunic CEO discusses Q3 highlights and December Phase 3 MS trial readouts"
  },
  "7bbd07e2f95d5134": {
   "about_ms": true,
@@ -2505,6 +2738,22 @@
   "summary_model": "claude-sonnet-5-5",
   "title": "Novel BTK inhibitor reduces multiple sclerosis relapses"
  },
+ "a8a23b1790f6194d": {
+  "about_ms": false,
+  "category": "other",
+  "collected_at": "2026-11-13T13:25:52.492192+00:00",
+  "description": "Immunic reports $42.3 million Q3 net loss grafa.com",
+  "id": "a8a23b1790f6194d",
+  "is_published": false,
+  "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOdzRPbmdLRWhaSzlnMEphYlVHQ25tdFBYd1FtOFozVmdKQndEX2MwTEpTY3d3bDBLVWIwTTBFR25JZHJwRVdSaXZqNDN1cFhoSW5jbjNocGNtNkJDM1hSUUE2amRvRlBxeEcxMkFIY2tsS2hfam8yTVVQelNEcE9wNkhIRQ?oc=5",
+  "published_at": "2026-11-13T12:04:29+00:00",
+  "relevance": 1,
+  "source": "grafa.com",
+  "source_type": "news_search",
+  "summary": "Immunic reported a net loss of $42.3 million for the third quarter, according to the headline. The text provided gives no further details, such as trial progress or any MS-related information.",
+  "summary_model": "claude-sonnet-5-5",
+  "title": "Immunic reports $42.3 million Q3 net loss"
+ },
  "a8af009631d3fd59": {
   "about_ms": true,
   "category": "research",
@@ -2713,6 +2962,22 @@
   "summary_model": "claude-sonnet-5-5",
   "title": "Glial cells in chronic inflammation: diversity, dysfunction and therapeutic targeting"
  },
+ "bf1aa9bf1449d1b6": {
+  "about_ms": false,
+  "category": "regulatory",
+  "collected_at": "2026-11-13T13:25:52.492171+00:00",
+  "description": "Kyverna Completes BLA Submission for Autoimmune CAR T, Abandons Another GenomeWeb",
+  "id": "bf1aa9bf1449d1b6",
+  "is_published": false,
+  "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNV3BMZUFuOU1jaTUxaEIybmMzb0ttOUlrenVSd1E1V3djelplX3JVTVhkSklOSjVPTVEzNURFYWpHSVpVc0ttd1k5OGQ3aUxuV1Byb2lWdEpYOHNHRF9DUURyN2J6Nnd4V2tkWGtBYkwzNFNpbU1DSDFpbEJRdXJBR3U0aWRPVTVhaGJ2XzdUWUpUSk1LWGM0T3haNHA0aEFkRHFqTlZtY1EwN0h6dnRvald0dktvYjljdDhPaVRR?oc=5",
+  "published_at": "2026-11-12T20:19:00+00:00",
+  "relevance": 2,
+  "source": "GenomeWeb",
+  "source_type": "news_search",
+  "summary": "Kyverna has completed a Biologics License Application (BLA) submission for an autoimmune CAR T-cell therapy and is abandoning another program. The text provided does not say which diseases or products are involved, so any relevance to MS is unclear.",
+  "summary_model": "claude-sonnet-5-5",
+  "title": "Kyverna Completes BLA Submission for Autoimmune CAR T, Abandons Another"
+ },
  "c15c9a06ae503c90": {
   "about_ms": false,
   "category": "research",
@@ -2792,6 +3057,22 @@
   "summary": "A report from the American Academy of Ophthalmology says two Phase 3 trials showed good efficacy and safety of satralizumab for thyroid eye disease (TED). The text provided does not mention MS or related demyelinating conditions.",
   "summary_model": "claude-sonnet-5-5",
   "title": "Two Phase 3 Trials Show Good Efficacy and Safety of Satralizumab for TED"
+ },
+ "c43c95f2dd73d090": {
+  "about_ms": true,
+  "category": "living_with_ms",
+  "collected_at": "2026-11-13T13:25:52.491918+00:00",
+  "description": "A high-pitched, enthusiastic shout came hurdling through my low-lit office sanctuary: “Good morning, everyone! Please join us in the lobby to meet our new employee!” At 8:30 a.m. on a Monday, my biggest enemy was a mandatory meeting. I managed to gather the little energy left in my body from the weekend and slowly inched […] The post Finally meeting the intriguing new employee with multiple sclerosis appeared first on Multiple Sclerosis News Today .",
+  "id": "c43c95f2dd73d090",
+  "is_published": false,
+  "link": "https://multiplesclerosisnewstoday.com/columns/2026/11/12/finally-meeting-intriguing-new-employee/",
+  "published_at": "2026-11-12T15:00:41+00:00",
+  "relevance": 2,
+  "source": "MS News Today",
+  "source_type": "news",
+  "summary": "A personal column describes a Monday 8:30 a.m. mandatory meeting in the lobby to meet a new employee, with the writer low on energy after the weekend. The excerpt is cut off before the new employee is introduced.",
+  "summary_model": "claude-sonnet-5-5",
+  "title": "Finally meeting the intriguing new employee with multiple sclerosis"
  },
  "c61d0fce49d275d9": {
   "about_ms": true,
@@ -2968,6 +3249,22 @@
   "summary": "New analyses of three ongoing Phase 3 trials found Genentech's experimental oral therapy fenebrutinib was associated with significant reductions in slowly expanding brain lesions, linked to chronic inflammation and disability progression, in relapsing MS and primary progressive MS.",
   "summary_model": "claude-sonnet-5-5",
   "title": "Experimental therapy may curb chronic brain inflammation in MS"
+ },
+ "d4fc3472bc9c0cce": {
+  "about_ms": true,
+  "category": "treatment",
+  "collected_at": "2026-11-13T13:25:52.492413+00:00",
+  "description": "A Case Report of Neuromyelitis Optica Spectrum Disorder (NMOSD) Treatment in Resource-Limited Setup: An Ethiopian Experience Wiley Online Library",
+  "id": "d4fc3472bc9c0cce",
+  "is_published": false,
+  "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5wOGZYRWU3ZHNLQk5JakV0bGtQZWRyZXRVUTBabGdXRm1pdFRyem51bERPOF9PbDhyQlhYOUhscWRVa2ktbnNfSlFJbEFJUlBTOHNjc21XdUZfMGhaaG5CRmRKcTZ5NXdfTDlF?oc=5",
+  "published_at": "2025-02-07T08:00:00+00:00",
+  "relevance": 2,
+  "source": "Wiley Online Library",
+  "source_type": "news_search",
+  "summary": "A case report describes treatment of a person with neuromyelitis optica spectrum disorder (NMOSD) in Ethiopia, a resource-limited setting. The source text gives only the title, so no details on the treatment used or the outcome are available.",
+  "summary_model": "claude-sonnet-5-5",
+  "title": "A Case Report of Neuromyelitis Optica Spectrum Disorder (NMOSD) Treatment in Resource-Limited Setup: An Ethiopian Experience"
  },
  "d629a8e3ddf0701d": {
   "about_ms": false,
@@ -3208,6 +3505,22 @@
   "summary": "Canada has expanded its approval of Ocrevus (ocrelizumab) to include children with relapsing multiple sclerosis, according to Multiple Sclerosis News Today. No further details, such as age range or supporting data, were provided in the text available.",
   "summary_model": "claude-sonnet-5-5",
   "title": "Canada expands Ocrevus approval to children with relapsing MS"
+ },
+ "e69853c20c0840f2": {
+  "about_ms": false,
+  "category": "regulatory",
+  "collected_at": "2026-11-13T13:25:52.492236+00:00",
+  "description": "Kyverna Therapeutics completes miv‑cel BLA for stiff person syndrome Mugglehead Investment Magazine",
+  "id": "e69853c20c0840f2",
+  "is_published": false,
+  "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQRGsyM2dBMkZZcV91MjZHdGMyMkJ2c3JtQ3h0QlNLVHF6X1dqM2lRZFN4Ym90TFdDRTRfcm1VblFRZ0RiSU9zU1ExS18tVTRvNUZkaGozVHVPQ2lHT2x4NnNEdXBoY0dpeGlBRjMyOEFUdVpaSklSdnRyUjlXcWxObEphXzU?oc=5",
+  "published_at": "2026-11-12T14:52:09+00:00",
+  "relevance": 2,
+  "source": "Mugglehead Investment Magazine",
+  "source_type": "news_search",
+  "summary": "Kyverna Therapeutics has completed its Biologics License Application (BLA) for miv-cel as a treatment for stiff person syndrome. The source text gives no further detail, and the item does not concern multiple sclerosis or related demyelinating disease.",
+  "summary_model": "claude-sonnet-5-5",
+  "title": "Kyverna Therapeutics completes miv‑cel BLA for stiff person syndrome"
  },
  "e6addbb4b806f517": {
   "about_ms": true,
@@ -3488,6 +3801,22 @@
   "summary": "A recent study found that pain in people with MS was associated with more reported difficulties with thinking and memory, but did not predict performance on objective cognition tests. Mental health issues, pain and fatigue were linked to greater perceived cognitive problems.",
   "summary_model": "claude-sonnet-5-5",
   "title": "Pain linked to perceived cognitive difficulties in MS study"
+ },
+ "f5d0c3cdd5320b01": {
+  "about_ms": false,
+  "category": "trial_news",
+  "collected_at": "2026-11-13T13:25:52.492227+00:00",
+  "description": "Kyverna abandons next-gen autoimmune CAR-T once touted as follow-up to miv-cel Fierce Biotech",
+  "id": "f5d0c3cdd5320b01",
+  "is_published": false,
+  "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNZVhCNWluOUY3bFZhaHA3NFdCU2VQb29ZLVkwaE1zQVhYSk1obDIwbm5nNVYtd09qVkQ0b1NBcUZuTXVXcTg4M3A0WkJpcGU4bi1iVm41dUE4V0F6dm9yN2NPVUhyZHdoU2k1WHBtZjBCVGZkS0JNX0szanU3dkV5LXZyREQwY1VpeHhpTTk0Z1c2V0NCUlJKZ1RhLTU?oc=5",
+  "published_at": "2026-11-12T15:06:27+00:00",
+  "relevance": 2,
+  "source": "Fierce Biotech",
+  "source_type": "news_search",
+  "summary": "Fierce Biotech reports that Kyverna has abandoned a next-generation autoimmune CAR-T therapy that had been presented as a follow-up to its lead candidate, miv-cel. The provided text gives no further details, including any link to MS.",
+  "summary_model": "claude-sonnet-5-5",
+  "title": "Kyverna abandons next-gen autoimmune CAR-T once touted as follow-up to miv-cel"
  },
  "f6225bc3a7673f53": {
   "about_ms": true,
