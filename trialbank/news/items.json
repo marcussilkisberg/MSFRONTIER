@@ -639,6 +639,22 @@
   "summary_model": "claude-sonnet-5-5",
   "title": "Intranasal Nanocarriers Offer Investigational Strategy for Multiple Sclerosis Brain Drug Delivery"
  },
+ "2cdc8b9d03ad52e9": {
+  "about_ms": true,
+  "category": "research",
+  "collected_at": "2026-11-14T12:29:59.231606+00:00",
+  "description": "An educational program aimed at empowering the whole family may help improve mental health for people with multiple sclerosis (MS), according to data from a clinical trial. Results also indicate that the program can help MS patients take more steps to proactively manage their own health, emphasizing the importance of including family members as integral […] The post Family-focused MS education program boosts patient mental health appeared first on Multiple Sclerosis News Today .",
+  "id": "2cdc8b9d03ad52e9",
+  "is_published": true,
+  "link": "https://multiplesclerosisnewstoday.com/news-posts/2026/11/13/family-focused-ms-education-program-boosts-patient-mental-health/",
+  "published_at": "2026-11-13T15:30:20+00:00",
+  "relevance": 3,
+  "source": "MS News Today",
+  "source_type": "news",
+  "summary": "Clinical trial data suggest an educational program that involves the whole family may improve mental health in people with MS. Results also indicate it can help patients take more steps to manage their own health, highlighting the value of including family members.",
+  "summary_model": "claude-sonnet-5-5",
+  "title": "Family-focused MS education program boosts patient mental health"
+ },
  "2f17a04228da7529": {
   "about_ms": true,
   "category": "research",
@@ -962,6 +978,22 @@
   "summary_model": "claude-sonnet-5-5",
   "title": "Why It’s Time to Rethink Multiple Sclerosis"
  },
+ "443cd5ef566b5e43": {
+  "about_ms": true,
+  "category": "research",
+  "collected_at": "2026-11-14T12:29:59.231988+00:00",
+  "description": "From platform therapies to high-efficacy treatments: nationwide trends in multiple sclerosis care in Poland Via Medica Journals",
+  "id": "443cd5ef566b5e43",
+  "is_published": true,
+  "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNanpvRlpNTkRlSjhOMXRWbVc2bzBOZ3BXeDdteUdUYWZtOXVRZmgtTjdpQS1yWnZoVDJCODh1cWtlMHdrU0tuTmRtYTNMRTBFYTFkWXVocnc4aE44dGxfVVNuWTBmSGp3aE0zblctYWI4VS1oamtLdzhVWUd6cXE4SWxadHp2UFBtMHc?oc=5",
+  "published_at": "2026-11-13T14:39:23+00:00",
+  "relevance": 3,
+  "source": "Via Medica Journals",
+  "source_type": "news_search",
+  "summary": "A Via Medica Journals article examines nationwide trends in multiple sclerosis care in Poland, describing a shift from platform therapies to high-efficacy treatments. No further details, such as data or figures, were provided in the available text.",
+  "summary_model": "claude-sonnet-5-5",
+  "title": "From platform therapies to high-efficacy treatments: nationwide trends in multiple sclerosis care in Poland"
+ },
  "44f0d0861922602c": {
   "about_ms": false,
   "category": "other",
@@ -1025,6 +1057,22 @@
   "summary": "NeurologyLive reports final results from the EPISOD1 trial of AMT-162, a gene therapy for SOD1-ALS (amyotrophic lateral sclerosis). The source text gives no further details, and the article is not about multiple sclerosis or related demyelinating disease.",
   "summary_model": "claude-sonnet-5-5",
   "title": "Final Results Reported for EPISOD1 Trial of SOD1-ALS Gene Therapy AMT-162"
+ },
+ "46c528bdfe1e806d": {
+  "about_ms": false,
+  "category": "other",
+  "collected_at": "2026-11-14T12:29:59.231926+00:00",
+  "description": "FDA Grants Priority Review to Huntington Disease Gene Therapy BLA, Sevasemten Misses Primary, Secondary End Points in BMD, Overviewing the 1-Year KYSA-8 Findings NeurologyLive",
+  "id": "46c528bdfe1e806d",
+  "is_published": false,
+  "link": "https://news.google.com/rss/articles/CBMikAJBVV95cUxPU2U4eWxObzFHdXFVSlpzbkNpNnZlcWxIOGZjLU1JWGtSMTJaUjkyYktVdTdRSVk4dHNmd3pXa2g4al92RmJfRmtocWl2SWFrYjFyWHlrOERGVjlYYWcwN3BrbUFQRFNLWE1QZldaVk81ekFLTXR0UHYxX0pjeVlFRnpyTWoyWVlVeDNZUnRWZ0g5TlpvcEI2RXMxRGlqQ0l3NkhkOVJkSUltUmFjRUg1VWdhQ0Ytd3lLd3BwaFZnV2RSeERmZHdiOWFwTVdIVEVpY083WXVEVG1Pc1R3ZzNLakpPTHN2bnFwTGs5cmVMQWlJWlAwbE8xN3QzU1J5QUhaT0NCeWc0ell0cXVnQXFzZg?oc=5",
+  "published_at": "2026-11-07T21:45:31+00:00",
+  "relevance": 1,
+  "source": "NeurologyLive",
+  "source_type": "news_search",
+  "summary": "A NeurologyLive roundup lists three neurology items: FDA priority review for a Huntington disease gene therapy application, sevasemten missing its primary and secondary end points in Becker muscular dystrophy, and a 1-year KYSA-8 findings overview. None concern MS.",
+  "summary_model": "claude-sonnet-5-5",
+  "title": "FDA Grants Priority Review to Huntington Disease Gene Therapy BLA, Sevasemten Misses Primary, Secondary End Points in BMD, Overviewing the 1-Year KYSA-8 Findings"
  },
  "46ced590b5acb2d3": {
   "about_ms": false,
@@ -1233,6 +1281,30 @@
   "summary": "Multiple Sclerosis News Today reports that vidofludimus calcium showed promise against MS, according to data presented at ECTRIMS 2025. The provided text gives no details on trial design, results, or safety.",
   "summary_model": "claude-sonnet-5-5",
   "title": "ECTRIMS 2025: Vidofludimus calcium shows promise against MS"
+ },
+ "4f73b545b8647fb7": {
+  "about_ms": true,
+  "category": "trial_news",
+  "collected_at": "2026-11-14T12:29:59.232196+00:00",
+  "description": "Mindfulness-based cognitive therapy (MBCT) is an effective treatment for recurrent depression in the general population and is recommended in clinical guidelines for those with mild-moderate depression. However, the effectiveness of MBCT in people with multiple sclerosis (PwMS) with mild to moderate depression is unknown. Further, how best to tailor and implement MBCT for PwMS is largely unstudied. This manuscript describes the study protocol for a hybrid-effectiveness study to evaluate online MBCT tailored for PwMS. This type 1 hybrid effectiveness-implementation study will employ an embedded mixed methods experimental design. Quantitative findings will be collected through a powered waitlist randomized controlled trial examining online MBCT in a minimum of 152 PwMS with case-ness of mild-moderate depression (Clinical Trials Gov #NCT07742579). The intervention will consist of an online 8-week MBCT course with weekly sessions conducted by qualified mindfulness instructors experienced int the care of PwMS. Questionnaires will be collected at baseline, post-intervention, and 3 months later. The primary outcome will be depression, measured using the Hospital Anxiety and Depression Score - Depression (HADS-D). An intention-to-treat analysis will be conducted. Qualitative findings will be collected through semi-structured interviews with 30-40 MBCT participants, HCPs, MBCT instructors, and MS decision makers. Thematic analyses will be used to analyze interview data. The RE-AIM PRI",
+  "doi": "10.1371/journal.pone.0362553",
+  "id": "4f73b545b8647fb7",
+  "is_published": false,
+  "journal": "PLoS One",
+  "link": "https://pubmed.ncbi.nlm.nih.gov/43024620/",
+  "pmid": "43024620",
+  "pub_types": [
+   "im",
+   "randomized controlled trial",
+   "journal article"
+  ],
+  "published_at": "2026-11-13T00:00:00+00:00",
+  "relevance": 2,
+  "source": "PLoS One",
+  "source_type": "paper",
+  "summary": "Researchers published a protocol for a waitlist randomized trial of an online 8-week mindfulness-based cognitive therapy course tailored for people with MS and mild-to-moderate depression. It plans at least 152 participants, with depression measured by HADS-D; no results yet.",
+  "summary_model": "claude-sonnet-5-5",
+  "title": "Online mindfulness-based cognitive therapy for people with multiple sclerosis with mild-to-moderate depression- protocol for a type 1 hybrid effectiveness-implementation study."
  },
  "501dab1da50518b9": {
   "about_ms": true,
@@ -1713,6 +1785,22 @@
   "summary": "A new European patent has been granted covering all dosing regimens of an experimental MS therapy. The text provided gives no details on the drug, the company, or any clinical results, so its effect on patients is unclear.",
   "summary_model": "claude-sonnet-5-5",
   "title": "New European patent covers all dosing regimens of experimental MS therapy"
+ },
+ "69fd0ad42e5ea3ba": {
+  "about_ms": false,
+  "category": "trial_news",
+  "collected_at": "2026-11-14T12:29:59.231890+00:00",
+  "description": "Immunic stock: Q3 loss widens as ENSURE data stays on track ad-hoc-news.de",
+  "id": "69fd0ad42e5ea3ba",
+  "is_published": false,
+  "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPWHZabVRxcXNYc0tCZHJESURyY0txRmlKWktCWno4NG9EZGlGXzdENFoxNGRyMjhrYkw2SDJ6ei1rcUJrVFB5UUEzN3RpWm9FWFBHQ0tzZUh1cmMwWTB1YmFHbHJuYmdGdWZFRFVHTk1MWGFTUFUxYjV1YklBSk5CMmg2cHlsbVRSSGZyc0hMcGpHY01DSF8wb2ZhVDNQbnVERVRFSjEwRFpSZXl4OU9NYkoyN3UxWkpsT1Bsa1FR?oc=5",
+  "published_at": "2026-11-13T21:15:53+00:00",
+  "relevance": 2,
+  "source": "ad-hoc-news.de",
+  "source_type": "news_search",
+  "summary": "Immunic's third-quarter loss widened, according to the headline, while data from its ENSURE trial are described as on track. The provided text gives no figures, trial results or other details, so nothing more can be confirmed.",
+  "summary_model": "claude-sonnet-5-5",
+  "title": "Immunic stock: Q3 loss widens as ENSURE data stays on track"
  },
  "6bbb117cf85b66ae": {
   "about_ms": true,
@@ -2498,6 +2586,22 @@
   "summary_model": "claude-sonnet-5-5",
   "title": "Alemtuzumab vs. Interferon Beta-1a in Early Multiple Sclerosis"
  },
+ "95afaccd558ade9c": {
+  "about_ms": true,
+  "category": "trial_news",
+  "collected_at": "2026-11-14T12:29:59.232035+00:00",
+  "description": "Tiziana Life Sciences to present Phase 2a multiple sclerosis results at Jefferies conference Proactive financial news",
+  "id": "95afaccd558ade9c",
+  "is_published": false,
+  "link": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxPRjQwMmNrSF8wZjluNXhkUzBhVGxwb2VUcXVQcTdyYTU2Y3VFRXliOXZpU3ZVM2dfR2xtTVpXUFBMZjVycmRNczR0YlJQU0J3Ukgzc3dkSXp1QUtjb3VpOGZTRFUtWXNtdHhSTkZyNmpyeDYwOTBfZXRoSkE5UFc4N2ViVVQ1LTFqS19NS0llSWpjSzJzOTlDblEzcVNkeGM1dDdzei0tOUlWdDFIWmZGRTdsWndnRkZhbE9hY0xybFhMVHB4OXBTbTBWSk9WZkRjc3N5VndzR19hTkFtNnd4dEtuS0hlcnZXektDZWx0V2tlSzZuc1E?oc=5",
+  "published_at": "2026-11-12T15:33:00+00:00",
+  "relevance": 2,
+  "source": "Proactive financial news",
+  "source_type": "news_search",
+  "summary": "Tiziana Life Sciences plans to present Phase 2a results in multiple sclerosis at the Jefferies conference. The source gives no details on the data, the treatment tested, or the findings, so the results cannot yet be assessed.",
+  "summary_model": "claude-sonnet-5-5",
+  "title": "Tiziana Life Sciences to present Phase 2a multiple sclerosis results at Jefferies conference"
+ },
  "9738ef7bae4bceca": {
   "about_ms": true,
   "category": "research",
@@ -2898,6 +3002,22 @@
   "summary_model": "claude-sonnet-5-5",
   "title": "Tiziana Life Sciences reports positive phase 2a results for Intranasal Foralumab in MS"
  },
+ "b5f0cd3cbe3b2466": {
+  "about_ms": false,
+  "category": "other",
+  "collected_at": "2026-11-14T12:29:59.231936+00:00",
+  "description": "Arrowhead’s Ionis problem, Kyverna’s next-gen end and more biotech earnings BioSpace",
+  "id": "b5f0cd3cbe3b2466",
+  "is_published": false,
+  "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQQmdtUE5DMVRiTEZaRnpNbWxqZUpJUkc0RnVBTk80UmhJWE8xZWZFbVBPQjdvY2xhNVd4c0x1X2NKYlpZY2J3cEkzallwUVlTNmRpcG1QZS0wbk9lOHExbGczSTh4X1h6dEtQMlFHclBrRjhsNlVvM0lnTjhmaFBwMHNvSjBJdU5JaVBjSjR6SVFGWmFDbTlEel9tYU9VT1J6N0NhU0o4U2w4UQ?oc=5",
+  "published_at": "2026-11-13T15:57:37+00:00",
+  "relevance": 1,
+  "source": "BioSpace",
+  "source_type": "news_search",
+  "summary": "BioSpace published a biotech earnings roundup whose title mentions Arrowhead's issue with Ionis and Kyverna's next-generation end. The provided text contains no details, and nothing in it addresses multiple sclerosis or related demyelinating disease.",
+  "summary_model": "claude-sonnet-5-5",
+  "title": "Arrowhead’s Ionis problem, Kyverna’s next-gen end and more biotech earnings"
+ },
  "b9361f634ffac734": {
   "about_ms": false,
   "category": "trial_news",
@@ -2945,6 +3065,22 @@
   "summary": "The MS International Federation reports that the number of people living with MS worldwide has passed 3 million for the first time.",
   "summary_model": "claude-sonnet-5-5",
   "title": "Number of people living with MS across the world surpasses 3 million for the first time"
+ },
+ "bed689b71d58f82f": {
+  "about_ms": true,
+  "category": "research",
+  "collected_at": "2026-11-14T12:29:59.231974+00:00",
+  "description": "FDA Safety Database Analysis Identifies Delayed Postmarketing Events for Eculizumab in NMOSD Bioengineer.org",
+  "id": "bed689b71d58f82f",
+  "is_published": true,
+  "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPR0NaOUhRdDI2LURuNlRPVzUtQll5VmlxQmRYd1NEdGFSR3RKd1hUMF9OQmQzMVQtcnlvWlJGbmJONDBUOW5EeVJqR08yM05KWTNnV3pRN1FQcDhGOWx1a2c0MUp4aEdPY2RuVDJ5cXQxYjliRlpmN1VvOWQzZGxXbW5PaHNYc0N6MDlXVExZRDBPMVUyX0c3aXJ0LXhXWERnU19MemcxWFJsQlFWNnFXUEN1OFdKZFpV?oc=5",
+  "published_at": "2026-11-14T00:02:40+00:00",
+  "relevance": 3,
+  "source": "Bioengineer.org",
+  "source_type": "news_search",
+  "summary": "Bioengineer.org reports an analysis of an FDA safety database that identified delayed postmarketing events associated with eculizumab in neuromyelitis optica spectrum disorder (NMOSD). The text provided gives no further details on the specific events or findings.",
+  "summary_model": "claude-sonnet-5-5",
+  "title": "FDA Safety Database Analysis Identifies Delayed Postmarketing Events for Eculizumab in NMOSD"
  },
  "beffcf47c2c8fd36": {
   "about_ms": false,
@@ -3649,6 +3785,22 @@
   "summary": "The MS International Federation (MSIF) has posted a notice titled \"MSIF 2026 Global Networking Meetings.\" The source text gives no details on dates, location, format or agenda.",
   "summary_model": "claude-sonnet-5-5",
   "title": "MSIF 2026 Global Networking Meetings"
+ },
+ "f076a10c85742fb9": {
+  "about_ms": true,
+  "category": "trial_news",
+  "collected_at": "2026-11-14T12:29:59.231857+00:00",
+  "description": "Immunic on track for December Phase 3 readout in relapsing MS, funded into late 2027 Proactive financial news",
+  "id": "f076a10c85742fb9",
+  "is_published": true,
+  "link": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxOdjVaM29DVkdmTnlfRGhmUU5yVHptUzVJbENYWlBScDhOWU5QaU1DTTM2SVBHZkh3R0tOenV4ek1yT0NXRWJDaEdZTWt3dmdva0VQOGdtT0hyaUl6RUtLdXdBWURRRmxXZ0MyWUJUV282NGJkY1JWNXZpamZJV0VVR05uTmpoMGtzZ2liLUtDQ1ZiTmsxODN0V2JDNzhXbGdqNDlNemJySmdQVGUwUEs3WDNhdWtNcGFqV0k0NnlDQlE5UG8xS1Q4UWh1RkhmUlVPenotUnpfY29ZUTFTTHNqY29JUWZzaHVZckE?oc=5",
+  "published_at": "2026-11-13T14:10:00+00:00",
+  "relevance": 3,
+  "source": "Proactive financial news",
+  "source_type": "news_search",
+  "summary": "Immunic says it is on track to report Phase 3 results in relapsing multiple sclerosis in December. The company also says it has funding into late 2027. The source text gives no details on the drug or trial design.",
+  "summary_model": "claude-sonnet-5-5",
+  "title": "Immunic on track for December Phase 3 readout in relapsing MS, funded into late 2027"
  },
  "f1a058299e959b59": {
   "about_ms": true,
