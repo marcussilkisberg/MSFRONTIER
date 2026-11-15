@@ -1,11 +1,20 @@
 {
- "run_at": "2026-11-08T11:00:27+00:00",
+ "run_at": "2026-11-15T11:39:06+00:00",
  "have_key": true,
  "model": "claude-sonnet-5-5",
  "lines": [
-  "  INFORM <- Kalkine Media: 'Tiziana Life Sciences Announces Positive Phase 2a INFORM-MS ': not about this trial",
-  "  INFORM <- Quantisnow: 'Tiziana to Host Investor Call with Key Opinion Leaders to Di': not about this trial",
-  "announcements: 46 candidates, 2 read this run, 11 results for 10 trials"
+  "  REMODEL-2 <- MS News Today: 'Experimental MS therapy outperforms approved treatment in tw': ok",
+  "  OPERA I <- Neurol Neuroimmunol Neuroinflamm: 'Biomarker Synergy in Relapsing Multiple Sclerosis: Neurofila': not about this trial",
+  "  OPERA II <- Neurol Neuroimmunol Neuroinflamm: 'Biomarker Synergy in Relapsing Multiple Sclerosis: Neurofila': not about this trial",
+  "  Oratorio <- Neurol Neuroimmunol Neuroinflamm: 'Biomarker Synergy in Relapsing Multiple Sclerosis: Neurofila': not about this trial",
+  "  OPERA I <- JAMA Neurol: 'Ten Years of Ocrelizumab in Relapsing Multiple Sclerosis: Th': result no_result",
+  "  EDSS <- JAMA Neurol: 'Ten Years of Ocrelizumab in Relapsing Multiple Sclerosis: Th': not about this trial",
+  "  ENSURE-1 <- PR Newswire: 'Immunic, Inc. Reports Third Quarter 2026 Financial Results a': not about this trial",
+  "  ENSURE-2 <- PR Newswire: 'Immunic, Inc. Reports Third Quarter 2026 Financial Results a': not about this trial",
+  "  ProTEct-MS <- PR Newswire: 'Immunic, Inc. Reports Third Quarter 2026 Financial Results a': not about this trial",
+  "  TILS-022 <- Proactive financial news: 'Tiziana\u2019s nasal foralumab reduces microglial activation in p': result other",
+  "  nan <- Proactive financial news: 'Tiziana\u2019s nasal foralumab reduces microglial activation in p': result other",
+  "announcements: 57 candidates, 11 read this run, 12 results for 11 trials"
  ],
  "error": null
 }
