@@ -79,6 +79,22 @@
   "summary_model": "claude-sonnet-5-5",
   "title": "TG Therapeutics Reports Third Quarter 2026 Financial Results and Raises Full-Year Revenue Guidance"
  },
+ "08c721ee2f0e1918": {
+  "about_ms": false,
+  "category": "other",
+  "collected_at": "2026-11-15T12:57:15.411035+00:00",
+  "description": "Seven-Day Triple Therapy Matches Fourteen-Day Quadruple Regimen for Helicobacter Pylori Bioengineer.org",
+  "id": "08c721ee2f0e1918",
+  "is_published": false,
+  "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQanJOXzJrN3hva2dCbW0zdTY1ZmxpbHZqSkIzSXhSaFFhbm4yN1VkV081MjVMUTI3MzJ2VUNFOVluUXFIV0dJSXN2eENkcjNtXzhPTXh3cUFqM2hHcFk4V3JxOVd6MEVjbV85SGNueURGQzJiYWlSRnJrX0pnamZRUnpYVjFCaUtqV3laT3BZczBVN0w5WTJEd3dpcUdILXp0ZXR3bHZTZlJoVW5TSkgxbWdn?oc=5",
+  "published_at": "2026-11-13T02:42:36+00:00",
+  "relevance": 1,
+  "source": "Bioengineer.org",
+  "source_type": "news_search",
+  "summary": "The headline reports that a seven-day triple therapy matched a fourteen-day quadruple regimen for Helicobacter pylori infection. No further details were provided, and the item does not mention multiple sclerosis or related demyelinating diseases.",
+  "summary_model": "claude-sonnet-5-5",
+  "title": "Seven-Day Triple Therapy Matches Fourteen-Day Quadruple Regimen for Helicobacter Pylori"
+ },
  "08eddc47eacf17fb": {
   "about_ms": true,
   "category": "regulatory",
@@ -303,6 +319,22 @@
   "summary_model": "claude-sonnet-5-5",
   "title": "Watchdog probes U.S. drugmaker Biogen over restricted access to multiple sclerosis test"
  },
+ "14862a73a5873af2": {
+  "about_ms": true,
+  "category": "research",
+  "collected_at": "2026-11-15T12:57:15.410925+00:00",
+  "description": "Stephen Krieger, MD, Reviews BTK Inhibitor Trial Outcomes Neurology Advisor",
+  "id": "14862a73a5873af2",
+  "is_published": true,
+  "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOZnVKd2N6QWF4R0cxRWplVkY3TWpCWnZEaG50YWUzRTZxS21FMzdRNUZBR2w2R2xBUW10czdMR0pfLWVoRXJrcFdSaHhNUTdtcnNCX183V1BveEVSMFpxYTA3UzZFcGg5bWhoN2hWMzgzOGlFZExhbDR1MEpTRkpkWThmVXhZWHNZS2JuODg2MnBXTVFHSnBTaWxB?oc=5",
+  "published_at": "2026-11-13T05:00:00+00:00",
+  "relevance": 3,
+  "source": "Neurology Advisor",
+  "source_type": "news_search",
+  "summary": "Neurology Advisor features Stephen Krieger, MD, reviewing outcomes from trials of BTK inhibitors. The source text gives no details on which drugs, results, or findings were discussed.",
+  "summary_model": "claude-sonnet-5-5",
+  "title": "Stephen Krieger, MD, Reviews BTK Inhibitor Trial Outcomes"
+ },
  "16bf18b29c465e8b": {
   "about_ms": true,
   "category": "research",
@@ -334,6 +366,22 @@
   "summary": "An MS Trust podcast episode from 22 March 2022 discusses MS fatigue, described as exhaustion out of proportion to activity. Listeners describe life with fatigue and share management tips, and occupational therapist Kate Hayward outlines her own fatigue management techniques.",
   "summary_model": "claude-sonnet-5-5",
   "title": "How can I manage living with MS fatigue?"
+ },
+ "17eab7de0e008f32": {
+  "about_ms": true,
+  "category": "research",
+  "collected_at": "2026-11-15T12:57:15.410983+00:00",
+  "description": "A meaningful exploration of ofatumumab in refractory NMOSD: a case report Frontiers",
+  "id": "17eab7de0e008f32",
+  "is_published": false,
+  "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNU01BckphbHR3b3ZfRGZ0b2NocW1UN2M2Nm9XSUphcVY1NXFHYWNqUHU0UFVJQ1NmNTM5RXgyY3plTEdxRjgyc0poTUw2U1h0VHU5Skc5R3o3SUdOaFlGbUtjdzhSVnhCNEZvQWJXVkNJVmZXR05PMTRMbFB6ZGZNLVYtNU9NMnpPV3M3LXFJTzlLUQ?oc=5",
+  "published_at": "2023-06-28T07:00:00+00:00",
+  "relevance": 2,
+  "source": "Frontiers",
+  "source_type": "news_search",
+  "summary": "A case report in Frontiers explores the use of ofatumumab in a person with refractory neuromyelitis optica spectrum disorder (NMOSD). Only the title is available, so no details on outcomes or safety are stated.",
+  "summary_model": "claude-sonnet-5-5",
+  "title": "A meaningful exploration of ofatumumab in refractory NMOSD: a case report"
  },
  "189bbfedef64d846": {
   "about_ms": true,
@@ -399,6 +447,22 @@
   "summary_model": "claude-sonnet-5-5",
   "title": "Cell-specific proteome profiling reveals altered peripheral immune cell communication in early multiple sclerosis"
  },
+ "1d28de0a080ea46c": {
+  "about_ms": false,
+  "category": "other",
+  "collected_at": "2026-11-15T12:57:15.411017+00:00",
+  "description": "Doxycycline Use Associated with Higher Risk of Pregnancy Loss Drug Topics",
+  "id": "1d28de0a080ea46c",
+  "is_published": false,
+  "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOLVFwalVkWFNIS2psQ0JRbU1EWkNUcWZER25UQThfRFF2QTh6ZEtyT29vTGJwXzFuMWZ0QWs4LVNFNGxUaUtrTlNnV3NCQXRROVl2aVV4VjRWSDlVcU5IVFNwZE9EM0lvR0xMVTQxUVFlNk94N2swU2dnVDljNTZRWUJDLUd5RXNnRTlFWnFtbTdCSEs4MEt5ZQ?oc=5",
+  "published_at": "2026-11-12T17:36:46+00:00",
+  "relevance": 1,
+  "source": "Drug Topics",
+  "source_type": "news_search",
+  "summary": "A Drug Topics article reports that doxycycline use is associated with a higher risk of pregnancy loss. The provided text contains no further details, and no link to multiple sclerosis or other demyelinating disease is stated.",
+  "summary_model": "claude-sonnet-5-5",
+  "title": "Doxycycline Use Associated with Higher Risk of Pregnancy Loss"
+ },
  "1d494f4350a89242": {
   "about_ms": true,
   "category": "research",
@@ -446,6 +510,22 @@
   "summary": "NEJM has published a study titled \"Tolebrutinib in Nonrelapsing Secondary Progressive Multiple Sclerosis.\" The provided text gives only the title, so no results, design, or outcomes are stated.",
   "summary_model": "claude-sonnet-5-5",
   "title": "Tolebrutinib in Nonrelapsing Secondary Progressive Multiple Sclerosis"
+ },
+ "218f4a24551fd1a3": {
+  "about_ms": true,
+  "category": "research",
+  "collected_at": "2026-11-15T12:57:15.410885+00:00",
+  "description": "Early High-Efficacy Therapy in MS: Escalation, De-Escalation, and Ongoing Trials The American Journal of Managed Care",
+  "id": "218f4a24551fd1a3",
+  "is_published": true,
+  "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQaXBkTkRtcVFkdFJmQS1oRVlYWWEyVTlLdjN1WUkzX1NwNGpjcnRHWWdGSUJUMTBwLWRSekJ1Y09NRVlieHhmX09OdkJzeUtLenVXUFhTVmVJcDBVSEJBUHlIOWJXRl9kWGlWYXpOXzNQU0hCQTUwaGdLTTQ5Z1BPbTNUTmZIM3BIeUpLUDh5MGhpNUxUZWZSV05MVzQ0SEVZZmNEazR3?oc=5",
+  "published_at": "2026-11-13T13:15:05+00:00",
+  "relevance": 3,
+  "source": "The American Journal of Managed Care",
+  "source_type": "news_search",
+  "summary": "The American Journal of Managed Care published a piece on early high-efficacy therapy in MS, covering escalation, de-escalation, and ongoing trials. No findings or data are given in the text provided.",
+  "summary_model": "claude-sonnet-5-5",
+  "title": "Early High-Efficacy Therapy in MS: Escalation, De-Escalation, and Ongoing Trials"
  },
  "22452581fe943558": {
   "about_ms": true,
@@ -590,6 +670,22 @@
   "summary": "An Australian-developed therapy for motor neurone disease (MND) is advancing to a Phase 2 clinical trial, according to the headline. No further details are given in the available text, and it does not mention multiple sclerosis.",
   "summary_model": "claude-sonnet-5-5",
   "title": "Australian-developed MND therapy advances to Phase 2 clinical trial"
+ },
+ "28d28d61ac260577": {
+  "about_ms": false,
+  "category": "other",
+  "collected_at": "2026-11-15T12:57:15.411023+00:00",
+  "description": "UTI Treatment: Which Antibiotics Work Best? GoodRx",
+  "id": "28d28d61ac260577",
+  "is_published": false,
+  "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOVkpGT01VVGs2bXJxeG9Nb19wVEpzNjJMX3NHNVlJTVg0ektqT0djS1VFSGhzWlhXNHNSck9OVElIWjhCTVIxTFRvNkg2aXNrbjc1OUhmM1NNNzRzZE1hMnN5QW9wQ2d3ZUtfTDJKZWxfSXQ1d2VBdEVCMmpLM0NkWnV0QmFGdVp5UDZHbjIzY1NCVzJRQWc?oc=5",
+  "published_at": "2026-11-03T08:00:00+00:00",
+  "relevance": 1,
+  "source": "GoodRx",
+  "source_type": "news_search",
+  "summary": "GoodRx published an article titled \"UTI Treatment: Which Antibiotics Work Best?\" The provided text contains only the title, with no details on antibiotics, findings, or any link to multiple sclerosis.",
+  "summary_model": "claude-sonnet-5-5",
+  "title": "UTI Treatment: Which Antibiotics Work Best?"
  },
  "29d8130161132a49": {
   "about_ms": true,
@@ -1802,6 +1898,22 @@
   "summary_model": "claude-sonnet-5-5",
   "title": "Immunic stock: Q3 loss widens as ENSURE data stays on track"
  },
+ "6a2534999e725c79": {
+  "about_ms": false,
+  "category": "other",
+  "collected_at": "2026-11-15T12:57:15.411038+00:00",
+  "description": "Outcomes after Angiography with Sodium Bicarbonate and Acetylcysteine The New England Journal of Medicine",
+  "id": "6a2534999e725c79",
+  "is_published": false,
+  "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9TdHVvSURFWEZPdkN2bWZhMmF3MDZFdm9xeGl5ZklHUnVSNnBycGpvRk91XzBNRzdXcWcwTmtvcHJaOTRBcnpNazg1TVNwM2xvNldPbFdWalRyT3VMbEZXMg?oc=5",
+  "published_at": "2017-11-12T08:00:00+00:00",
+  "relevance": 1,
+  "source": "The New England Journal of Medicine",
+  "source_type": "news_search",
+  "summary": "The New England Journal of Medicine published an article titled \"Outcomes after Angiography with Sodium Bicarbonate and Acetylcysteine.\" The provided text gives no findings or details, and it does not mention multiple sclerosis or related demyelinating disease.",
+  "summary_model": "claude-sonnet-5-5",
+  "title": "Outcomes after Angiography with Sodium Bicarbonate and Acetylcysteine"
+ },
  "6bbb117cf85b66ae": {
   "about_ms": true,
   "category": "research",
@@ -1817,6 +1929,22 @@
   "summary": "A Nature paper reports that inhibiting HSPA8 eased experimental autoimmune encephalomyelitis, an MS animal model, by dampening NLRP3 inflammasome activation. The title says it acts on both NF-κB-mediated priming and ASC-dependent assembly. No human data are stated.",
   "summary_model": "claude-sonnet-5-5",
   "title": "Inhibition of HSPA8 alleviates experimental autoimmune encephalomyelitis via dual modulation of NLRP3 inflammasome activation: suppressing both NF-κB–mediated priming and ASC-dependent assembly"
+ },
+ "6bf7bdd3d81784f4": {
+  "about_ms": true,
+  "category": "trial_news",
+  "collected_at": "2026-11-15T12:57:15.411010+00:00",
+  "description": "Clemastine Arm of TRAP-MS Trial Halted Following Increased Disability Accumulation in Progressive Multiple Sclerosis NeurologyLive",
+  "id": "6bf7bdd3d81784f4",
+  "is_published": true,
+  "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQMXN1MENSLUJieW9XV19qNHVaLU9WejRDaE5FdkVuZ2hXZWFLMDRUb0tIcGRTT2htMVNzNzNKeFMzb001VXk3WnhQM2JKVWdVdk9GazBrLWpuQWhNMDh2YjNEbTM4STQzaExDU3FQOFl2dmVhMS1GMmZOWmE5S2U0cmwwMEVYenVrTTI3RWxseU1BbVAzbVdvSnRvTTZhV1JZeU5WbTdid1ZoNDlMVXo4bEhxd1dnVGlwZEdweW9PU29QM3VuZ19NdA?oc=5",
+  "published_at": "2024-03-02T08:00:00+00:00",
+  "relevance": 4,
+  "source": "NeurologyLive",
+  "source_type": "news_search",
+  "summary": "The clemastine arm of the TRAP-MS trial in progressive multiple sclerosis was halted after participants showed increased disability accumulation, according to NeurologyLive's headline. No further details were provided in the text available.",
+  "summary_model": "claude-sonnet-5-5",
+  "title": "Clemastine Arm of TRAP-MS Trial Halted Following Increased Disability Accumulation in Progressive Multiple Sclerosis"
  },
  "6c90e05dce9e683c": {
   "about_ms": true,
@@ -2049,6 +2177,22 @@
   "summary": "Kalkine Media reports on TG Therapeutics' third-quarter 2026 results, stating that sales of BRIUMVI, its multiple sclerosis treatment, led the company to raise its guidance. The text provided gives no figures or further details.",
   "summary_model": "claude-sonnet-5-5",
   "title": "TG Therapeutics (NASDAQ:TGTX) Q3 2026: BRIUMVI Lifts Guidance"
+ },
+ "7a2b8f28c5c96e9e": {
+  "about_ms": false,
+  "category": "other",
+  "collected_at": "2026-11-15T12:57:15.411030+00:00",
+  "description": "High demand for amoxicillin is causing shortages amid child RSV surge The Washington Post",
+  "id": "7a2b8f28c5c96e9e",
+  "is_published": false,
+  "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNaEZ5MEE0VHJGTFp6dmtxeTk1QUtxbFg5VDNtMUZHNk11SElnX1B1NkhxeS1hb1VRZUsteHFLU3NDcHJCLXZuWkhrUnBWcC1TZGs4ZERYY0MtODUtV2ttQkZJa3Rfa0FQMXpjY1dybnhLcnBiWm9TQ1QwLWdFeDY4TzZhcGhZU3hqNTZxRQ?oc=5",
+  "published_at": "2022-11-02T07:00:00+00:00",
+  "relevance": 1,
+  "source": "The Washington Post",
+  "source_type": "news_search",
+  "summary": "The Washington Post reports that high demand for amoxicillin is causing shortages amid a surge in RSV among children. The provided text does not mention multiple sclerosis or related demyelinating diseases.",
+  "summary_model": "claude-sonnet-5-5",
+  "title": "High demand for amoxicillin is causing shortages amid child RSV surge"
  },
  "7a6074d4cae854d9": {
   "about_ms": true,
@@ -2458,6 +2602,22 @@
   "summary_model": "claude-sonnet-5-5",
   "title": "Multicenter Study Tracks Ofatumumab Effectiveness and Infection Risks in Multiple Sclerosis"
  },
+ "8f3cb71a77158923": {
+  "about_ms": true,
+  "category": "research",
+  "collected_at": "2026-11-15T12:57:15.410988+00:00",
+  "description": "A single-center, randomized, double-blind, placebo-controlled study of interferon beta-1b on primary progressive and transitional multiple sclerosis National Institutes of Health (NIH) | (.gov)",
+  "id": "8f3cb71a77158923",
+  "is_published": true,
+  "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBUakdnWGo0MTJIVVg2R0tKUWFEYU1JYnlCZnZUSWdfNk1EWW1tT2FIVlpfMXVBQzJ4VkJPQU1qNFNOYkVYSHI2QU1TemdZSTdkMXNj?oc=5",
+  "published_at": "2020-05-25T06:41:44+00:00",
+  "relevance": 3,
+  "source": "National Institutes of Health (NIH) | (.gov)",
+  "source_type": "news_search",
+  "summary": "A single-center, randomized, double-blind, placebo-controlled study tested interferon beta-1b in people with primary progressive and transitional multiple sclerosis. The source text gives only the title, with no results, participant numbers or outcomes stated.",
+  "summary_model": "claude-sonnet-5-5",
+  "title": "A single-center, randomized, double-blind, placebo-controlled study of interferon beta-1b on primary progressive and transitional multiple sclerosis"
+ },
  "8fab8c343b3eff1f": {
   "about_ms": true,
   "category": "living_with_ms",
@@ -2730,6 +2890,22 @@
   "summary_model": "claude-sonnet-5-5",
   "title": "EBV reactivation priming of the peripheral immune system in multiple sclerosis relapse"
  },
+ "9e2fe25dc6bf0a22": {
+  "about_ms": true,
+  "category": "regulatory",
+  "collected_at": "2026-11-15T12:57:15.410997+00:00",
+  "description": "FDA approves Novartis Kesimpta® (ofatumumab), the first and only self-administered, targeted B-cell therapy for patients with relapsing multiple sclerosis Novartis",
+  "id": "9e2fe25dc6bf0a22",
+  "is_published": true,
+  "link": "https://news.google.com/rss/articles/CBMijgJBVV95cUxOcVpnM1ljSGlSZGtPWXoyR2R6aEpqcy1BUUxhbkFaMnlwSUIxQTg3NGJJT1dtZVN3Vnk1SENualA0UnBjVkNOWFI3V0o1YXRnd0pmc2hhb2F1Ym9Oc0ZtWkZaSk0talBlZGJjVWZkNEZuajlMbVVDQmc0U3VtVjFOSHpGaFFPQ3l6dVNGREdLemh1VWE4QkRLSWp6Mk5BS2l3OGljZlZja3VVWDhvaTZkbE9sSFVPV1JjdlZpVkwybF8tcFZOMFNkcDlDZVc2NTdCajhrNFZXLWI0ZGNscXVBSmFxWTJrLV9GQWZyckFMNjU0Y0sxU1dzN1dnNU5KRVRTWmNzRUFWYWdyeGdHM3c?oc=5",
+  "published_at": "2020-08-20T07:00:00+00:00",
+  "relevance": 5,
+  "source": "Novartis",
+  "source_type": "news_search",
+  "summary": "The FDA has approved Novartis's Kesimpta (ofatumumab) for relapsing multiple sclerosis. Novartis describes it as the first and only self-administered, targeted B-cell therapy for this patient group.",
+  "summary_model": "claude-sonnet-5-5",
+  "title": "FDA approves Novartis Kesimpta® (ofatumumab), the first and only self-administered, targeted B-cell therapy for patients with relapsing multiple sclerosis"
+ },
  "9ea23018630c9c8d": {
   "about_ms": false,
   "category": "other",
@@ -2842,6 +3018,22 @@
   "summary_model": "claude-sonnet-5-5",
   "title": "Novel BTK inhibitor reduces multiple sclerosis relapses"
  },
+ "a76b5c55c96e0614": {
+  "about_ms": true,
+  "category": "research",
+  "collected_at": "2026-11-15T12:57:15.410978+00:00",
+  "description": "Ofatumumab versus Teriflunomide in Multiple Sclerosis NEJM",
+  "id": "a76b5c55c96e0614",
+  "is_published": true,
+  "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9FM2hNY0dmcU1YcXdsYzlGR2xmRlF1aDFrZjdGMVZEWmVFMHhWT3JxVXNVVVFJUEhyQXBnOU1TVERFekZBWkZTcE5fNWFBR0JTTDQ1TnJzcEhlUXBBQzJZ?oc=5",
+  "published_at": "2020-08-05T07:00:00+00:00",
+  "relevance": 4,
+  "source": "NEJM",
+  "source_type": "news_search",
+  "summary": "The New England Journal of Medicine published a study titled \"Ofatumumab versus Teriflunomide in Multiple Sclerosis,\" comparing these two MS treatments. The provided text gives no details on design, results, or safety findings.",
+  "summary_model": "claude-sonnet-5-5",
+  "title": "Ofatumumab versus Teriflunomide in Multiple Sclerosis"
+ },
  "a8a23b1790f6194d": {
   "about_ms": false,
   "category": "other",
@@ -2873,6 +3065,22 @@
   "summary": "NEJM has published a study comparing tolebrutinib with teriflunomide in relapsing multiple sclerosis. The text provided gives only the title, with no results, so outcomes and safety findings are not stated.",
   "summary_model": "claude-sonnet-5-5",
   "title": "Tolebrutinib versus Teriflunomide in Relapsing Multiple Sclerosis"
+ },
+ "a9600c963d11a849": {
+  "about_ms": false,
+  "category": "regulatory",
+  "collected_at": "2026-11-15T12:57:15.410871+00:00",
+  "description": "What Asundexian’s Approval Means for Secondary Stroke Prevention at the Bedside: Ashkan Shoamanesh, MD NeurologyLive",
+  "id": "a9600c963d11a849",
+  "is_published": false,
+  "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQNXE5dTZjdUltWlBHSkxhckxEU01fSk0xUTdDc0o4NDh5Ri04WWRGVjhfMlNobG1UclRuYlBvRlF5M3lyUnFpSjNXaHpja216TlUyX1ItSVdEU2g3dzh4ZjludGczcWtpZlMtaVIxVDRfdExvODRMZjNCbFhYWW5FMXhlYXdWcjZQaGo0NEsyMW13bXU0ejB0MU95QTk5ZkJvdk9fWmRKd25DbDlQOUxZR3M1MWJtdkMxeGJF?oc=5",
+  "published_at": "2026-11-11T20:17:08+00:00",
+  "relevance": 1,
+  "source": "NeurologyLive",
+  "source_type": "news_search",
+  "summary": "NeurologyLive features an interview with Ashkan Shoamanesh, MD, on what the approval of asundexian means for secondary stroke prevention at the bedside. The text gives no further details, and it does not mention multiple sclerosis.",
+  "summary_model": "claude-sonnet-5-5",
+  "title": "What Asundexian’s Approval Means for Secondary Stroke Prevention at the Bedside: Ashkan Shoamanesh, MD"
  },
  "aaa418fa46cd0544": {
   "about_ms": true,
@@ -3210,6 +3418,22 @@
   "summary_model": "claude-sonnet-5-5",
   "title": "Finally meeting the intriguing new employee with multiple sclerosis"
  },
+ "c54132c282a2b49a": {
+  "about_ms": true,
+  "category": "research",
+  "collected_at": "2026-11-15T12:57:15.410961+00:00",
+  "description": "Ofatumumab Outperforms Rituximab in Reducing Relapse Risk of MOGAD, Study Shows NeurologyLive",
+  "id": "c54132c282a2b49a",
+  "is_published": true,
+  "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPRWdsV2tTekd1WEdTNldpNXBlWGJkR3RpLWJ1LVRLZlY3WkFrOGtxb055SzkxbjV1ckVDY3U5UUw4WndPWEdJTWFIN19kLXVLS3BGWDk4M1NReC1BOVhJZFNERUY5RjB5dlBJcUR5eDZqOGM2dWdzZGJNcGNjSjZVVXVYNjFYSGp0RW9oV0VzamxPRzV4NVJ5RTV4YmxyVjRLTGhWdnZqd3dhNFU?oc=5",
+  "published_at": "2026-05-23T07:00:00+00:00",
+  "relevance": 3,
+  "source": "NeurologyLive",
+  "source_type": "news_search",
+  "summary": "A study reported by NeurologyLive found that ofatumumab outperformed rituximab in reducing relapse risk in MOGAD (myelin oligodendrocyte glycoprotein antibody-associated disease). No further details, such as study design or numbers, were provided in the available text.",
+  "summary_model": "claude-sonnet-5-5",
+  "title": "Ofatumumab Outperforms Rituximab in Reducing Relapse Risk of MOGAD, Study Shows"
+ },
  "c61d0fce49d275d9": {
   "about_ms": true,
   "category": "other",
@@ -3370,6 +3594,22 @@
   "summary_model": "claude-sonnet-5-5",
   "title": "Early treatment may ease long-term disability in progressive MS"
  },
+ "d19937b74bc94e77": {
+  "about_ms": true,
+  "category": "trial_news",
+  "collected_at": "2026-11-15T12:57:15.410975+00:00",
+  "description": "Diabetes drug and antihistamine could together repair multiple sclerosis damage, trial finds University of Cambridge",
+  "id": "d19937b74bc94e77",
+  "is_published": true,
+  "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQMGs1Z2xXR3YtVVI2MXFJQ3ZyeHhQMEx1ZnQ5VHF1cjlWVFA5a1BHWjJKc0tsVFhXOHlZakxTdUxmekNjNDhzeFIzemdpdndfMDNrMjZYVXdhbEJna3VYTGZKTGxzOC1Mb3FXdThxRUp1TWN2clZHTGR5V196X19MbGxnV0dlMFNFc2g1bDdQMHdZb2xkX2h6V2V0cnJDdFNDU1JydndnX1pDbmhiNjhHRmY0OWZnazBNZENlajRfalhLM05tWVhPSTN2UmJCT3M?oc=5",
+  "published_at": "2025-09-26T07:00:00+00:00",
+  "relevance": 3,
+  "source": "University of Cambridge",
+  "source_type": "news_search",
+  "summary": "University of Cambridge reports that a trial found a diabetes drug and an antihistamine, used together, could repair damage caused by multiple sclerosis. The provided text gives no details on the drugs, participants or results.",
+  "summary_model": "claude-sonnet-5-5",
+  "title": "Diabetes drug and antihistamine could together repair multiple sclerosis damage, trial finds"
+ },
  "d2cc8facda937b7b": {
   "about_ms": true,
   "category": "research",
@@ -3385,6 +3625,22 @@
   "summary": "New analyses of three ongoing Phase 3 trials found Genentech's experimental oral therapy fenebrutinib was associated with significant reductions in slowly expanding brain lesions, linked to chronic inflammation and disability progression, in relapsing MS and primary progressive MS.",
   "summary_model": "claude-sonnet-5-5",
   "title": "Experimental therapy may curb chronic brain inflammation in MS"
+ },
+ "d2de81b5f5ffe20c": {
+  "about_ms": false,
+  "category": "other",
+  "collected_at": "2026-11-15T12:57:15.411020+00:00",
+  "description": "She Had a Life-Threatening Reaction After Sex MedPage Today",
+  "id": "d2de81b5f5ffe20c",
+  "is_published": false,
+  "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBXdkhXUFZfUXh4RkdEanFxWDRUV05rSXB3NWF1WkZtSnNpLVE3ZkhYSUdfYnZNX1FPME9udnR2LVloUGtCaHVrZUdnMGpTVlJpWXlvTko0TEdLZzRRMHk1T3hZUFR1VDNOenFXeWlYVVdEa1E?oc=5",
+  "published_at": "2026-11-02T08:00:00+00:00",
+  "relevance": 1,
+  "source": "MedPage Today",
+  "source_type": "news_search",
+  "summary": "MedPage Today published a piece titled \"She Had a Life-Threatening Reaction After Sex.\" The provided text contains only the title, with no details on the condition, cause, or any link to multiple sclerosis or related diseases.",
+  "summary_model": "claude-sonnet-5-5",
+  "title": "She Had a Life-Threatening Reaction After Sex"
  },
  "d4fc3472bc9c0cce": {
   "about_ms": true,
@@ -3562,6 +3818,22 @@
   "summary_model": "claude-sonnet-5-5",
   "title": "Experimental CAR T-cell therapy shows promise in early MS trial"
  },
+ "e2aed0fe592da1e0": {
+  "about_ms": true,
+  "category": "research",
+  "collected_at": "2026-11-15T12:57:15.410971+00:00",
+  "description": "Up to 8 Years of Ofatumumab Treatment Demonstrates Stable Long-term Safety Profile in Relapsing Multiple Sclerosis NeurologyLive",
+  "id": "e2aed0fe592da1e0",
+  "is_published": true,
+  "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPRVV5Z2dZWXpfalFJM212dHFKOWprdlRYcElZQjRJWW5MQTNPeGVMMklfU1VyVnlGV1I4WlluOVJTSWN5enljb1JDVlNhV2Q0ZjJkOE9SdmNMdEgyVEs4Wkk5ZFMtal9Wdk5SRjFmdy1TbjRxYy1aRk1HUlowaGJGYk9JLW14LUo0OG5qZmJsNjZGUUhsUE96M2lrV0Jub1JpTVA4ZGlmeWVyX3lBek1FRm13S2U2b0RjWmM1X2c0dXJzMU9SMTV3eHhVbndlYUgzcnFr?oc=5",
+  "published_at": "2026-04-21T07:00:00+00:00",
+  "relevance": 3,
+  "source": "NeurologyLive",
+  "source_type": "news_search",
+  "summary": "NeurologyLive reports that up to 8 years of ofatumumab treatment in relapsing multiple sclerosis showed a stable long-term safety profile. No further details, such as participant numbers or specific findings, were provided in the available text.",
+  "summary_model": "claude-sonnet-5-5",
+  "title": "Up to 8 Years of Ofatumumab Treatment Demonstrates Stable Long-term Safety Profile in Relapsing Multiple Sclerosis"
+ },
  "e2c9415416051f80": {
   "about_ms": false,
   "category": "other",
@@ -3594,6 +3866,22 @@
   "summary_model": "claude-sonnet-5-5",
   "title": "Efficacy and safety of rituximab in multiple sclerosis and neuromyelitis optica spectrum disorder"
  },
+ "e4d694be4e82cd07": {
+  "about_ms": false,
+  "category": "other",
+  "collected_at": "2026-11-15T12:57:15.411044+00:00",
+  "description": "UKHSA amoxicillin, erythromycin and doxycycline warning as hundreds fall ill Yorkshire Live",
+  "id": "e4d694be4e82cd07",
+  "is_published": false,
+  "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNaDg2X3llMkRqem5OcWdlcVZtQTMwd1gyQnA5R0ZLNUVVbjNmQVpBMERmMG14M1BaWUZ3aW5IODloNVBGVmpvRTZCQUhKMVhqdmpoRnUxUkhKX1BTWmtQQzZ3dDFELUVfU0VNVzFQVVNyQ1MxR21rbUJidE5IY04zZVVrcHBQQVV3QUhCdVZUbzA5bU1TQ0hDYlV6dGlkdzNSdWdhR1pyNFRrRmhlcWFvcllLaG5LOGdadHBTbFZQOEFtUdIBxwFBVV95cUxQRFB4OHcwMnhwVldLTFdDeGhBZHY5X3JYdDJXcS1zblA4cDR2OW1wYmlGV0k5djFCSlBvMnpkT3ZEQXJnUENOM3J3NGRQdm81Qi1KME1oWWpudWgza09jRGtic0diRjcwZ2NVN1lzR0xlVjRvSVBuRlFESmdkVDRSWV9ndUx3VGZRa1JGR3hXUjFfM3UwcDJHTl9NRV9ncmdDS0E5TmNzcU1BQ0ZWT1d2OU16OGFiUDJjMW1FWmYyQVRZRFpKMFk4?oc=5",
+  "published_at": "2026-11-12T06:54:00+00:00",
+  "relevance": 1,
+  "source": "Yorkshire Live",
+  "source_type": "news_search",
+  "summary": "Yorkshire Live reports a UKHSA warning involving the antibiotics amoxicillin, erythromycin and doxycycline, with hundreds of people falling ill. The text provided gives no further details, and it does not mention multiple sclerosis or related conditions.",
+  "summary_model": "claude-sonnet-5-5",
+  "title": "UKHSA amoxicillin, erythromycin and doxycycline warning as hundreds fall ill"
+ },
  "e567bea7b8053aa3": {
   "about_ms": false,
   "category": "research",
@@ -3609,6 +3897,22 @@
   "summary": "A Nature paper reports that complement factor H inside cells protects neurons during inflammation in the central nervous system. Only the title was available, so the model system, any link to MS, and the findings' implications are not stated.",
   "summary_model": "claude-sonnet-5-5",
   "title": "Intracellular complement factor H protects neurons during CNS inflammation"
+ },
+ "e5823eceba6d7dde": {
+  "about_ms": false,
+  "category": "other",
+  "collected_at": "2026-11-15T12:57:15.411027+00:00",
+  "description": "newsGP - Miscarriage risk from common antibiotic reaffirmed Royal Australian College of General Practitioners (RACGP)",
+  "id": "e5823eceba6d7dde",
+  "is_published": false,
+  "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQWDNFd3B5Vkt1T29VQzFWVWJ2SzRmbFlpREVHbnVOUkZpV0NVRzBLYkFkZUxjd0VTRkkwelRBN0V2dVNJOXBya3g1a3NFbVpSWXpBUVlHYVp0UDdmUzgzcDRPbFRsNDVEZUlSWndXQ1l6am9DaFJfaFIxT3Nka21iM3hxX1E0TElqdXFFVzJiWnRuUkRLS1Nz?oc=5",
+  "published_at": "2026-11-10T03:18:32+00:00",
+  "relevance": 1,
+  "source": "Royal Australian College of General Practitioners (RACGP)",
+  "source_type": "news_search",
+  "summary": "A newsGP article from the Royal Australian College of General Practitioners reaffirms a miscarriage risk linked to a common antibiotic. The text provided gives no further detail, and no link to multiple sclerosis or related demyelinating disease is stated.",
+  "summary_model": "claude-sonnet-5-5",
+  "title": "newsGP - Miscarriage risk from common antibiotic reaffirmed"
  },
  "e6661f3d084e8518": {
   "about_ms": true,
@@ -3866,6 +4170,22 @@
   "summary_model": "claude-sonnet-5-5",
   "title": "Ofatumumab Shows Strong Relapse Control in Chinese Multiple Sclerosis Patients Over 12 Months"
  },
+ "f351a1f38cb29474": {
+  "about_ms": false,
+  "category": "research",
+  "collected_at": "2026-11-15T12:57:15.411014+00:00",
+  "description": "Study links first-trimester doxycycline use to higher pregnancy loss risk than amoxicillin, but does not prove causation Medical Daily",
+  "id": "f351a1f38cb29474",
+  "is_published": false,
+  "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOTzVySndnd21Ma1poaVMtcDdnbVVBWHFGZ3BLeko2TkpXaldpRXZzZ2hXMldVbkpvNWY3d24xMlNsbHM2OEhqOHU5TGlIZU5lMk5LM3JGZk1TVzJyTHJ1bUtTNFNDN2M0azB1cngxbzRfN0U4LUFUZFNWUFIwZlBKMEc0TVJUMGRHQ0pHWThTVQ?oc=5",
+  "published_at": "2026-11-14T13:15:17+00:00",
+  "relevance": 2,
+  "source": "Medical Daily",
+  "source_type": "news_search",
+  "summary": "A study linked doxycycline use in the first trimester of pregnancy to a higher risk of pregnancy loss than amoxicillin. The source notes the study does not prove that doxycycline causes the increased risk.",
+  "summary_model": "claude-sonnet-5-5",
+  "title": "Study links first-trimester doxycycline use to higher pregnancy loss risk than amoxicillin, but does not prove causation"
+ },
  "f40769728b6dec4c": {
   "about_ms": true,
   "category": "research",
@@ -3881,6 +4201,22 @@
   "summary": "A Nature-family paper reports using estimated structural and functional brain connectivity networks and artificial intelligence to predict follow-up cognition in multiple sclerosis. No further details, such as methods, sample size or accuracy, were provided in the source text.",
   "summary_model": "claude-sonnet-5-5",
   "title": "Predicting follow-up cognition using estimated structural and functional connectivity networks and artificial intelligence in multiple sclerosis"
+ },
+ "f51121f2646ffc48": {
+  "about_ms": true,
+  "category": "research",
+  "collected_at": "2026-11-15T12:57:15.410966+00:00",
+  "description": "Multiple Sclerosis With Migraine and Pyoderma Gangrenosum Treated With Ofatumumab and Erenumab Cureus",
+  "id": "f51121f2646ffc48",
+  "is_published": false,
+  "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOVmpqTm9hRDFZWUJmYXVQemw1cVVnNEtDb3NkVkgwVFlaWGQxWXRSVWJJVmwzNEZKTHpnRVdweEdMdXduanR1Tl9IaE91Z3VHalcteE1nVDVEUlozbGw2eWhnelJNakRsNDEydXpPMkE5bmFFLWF1V0NHVEpmY3gyMFFiMjdnVTJtSldHaEo1dXZSdDVaUmd5SWpRY1liZWp0Ri1CdDgtVm1oQ29jN1l4S1d4UVZ1NEtrMUF1V3lvUWVKMUV0a3JSNXIwSW04QQ?oc=5",
+  "published_at": "2026-01-20T08:00:00+00:00",
+  "relevance": 2,
+  "source": "Cureus",
+  "source_type": "news_search",
+  "summary": "A Cureus case report describes a person with multiple sclerosis who also had migraine and pyoderma gangrenosum, treated with ofatumumab and erenumab. No outcomes or further details were provided in the available text.",
+  "summary_model": "claude-sonnet-5-5",
+  "title": "Multiple Sclerosis With Migraine and Pyoderma Gangrenosum Treated With Ofatumumab and Erenumab"
  },
  "f52629acfc191aed": {
   "about_ms": true,
@@ -4001,6 +4337,22 @@
   "summary": "A study found hypertension begins harming the brain before blood pressure measurably rises, with cells tied to blood vessels, signaling, and myelin maintenance aging prematurely. The changes resemble early cognitive decline patterns, and losartan reversed some damage in mice.",
   "summary_model": "claude-sonnet-5-5",
   "title": "Your brain shows damage before your blood pressure even rises"
+ },
+ "f8f8a49ae59e7a21": {
+  "about_ms": true,
+  "category": "research",
+  "collected_at": "2026-11-15T12:57:15.411005+00:00",
+  "description": "ECTRIMS Studies Showcase Treatment Benefits of Ofatumumab for NMOSD NeurologyLive",
+  "id": "f8f8a49ae59e7a21",
+  "is_published": false,
+  "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOSDduLUFTTk9yaG9lck1OM1hHZndfWDd0eUZTbzluQ2pvQ3plUDdZMklXejgxZzJ3dXI1TUdiZ25IZVdmaDZlU0dQMDFESFpMZ2hiUkNLamFXWXlyQk9SZlJ5U3l4WXIyaVR3YjBsYWpTbGZZMERnUkU3ZDBBTmR2cUxPdk8tYzRVc1hLTnhza0pfMkJUdnFDWFpKWQ?oc=5",
+  "published_at": "2025-09-24T07:00:00+00:00",
+  "relevance": 2,
+  "source": "NeurologyLive",
+  "source_type": "news_search",
+  "summary": "NeurologyLive reports on studies presented at ECTRIMS examining ofatumumab as a treatment for neuromyelitis optica spectrum disorder (NMOSD). The provided text gives no data, study design, or results.",
+  "summary_model": "claude-sonnet-5-5",
+  "title": "ECTRIMS Studies Showcase Treatment Benefits of Ofatumumab for NMOSD"
  },
  "fa15cda33e6a7575": {
   "about_ms": false,
