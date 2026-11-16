@@ -431,6 +431,22 @@
   "summary_model": "claude-sonnet-5-5",
   "title": "Physician Views Preview: Can remibrutinib's favourable safety offset efficacy doubts in MS?"
  },
+ "1b72125e166e05eb": {
+  "about_ms": false,
+  "category": "other",
+  "collected_at": "2026-11-16T13:58:54.056721+00:00",
+  "description": "New serious risk alert for drugs like amoxicillin, erythromycin and doxycycline The Mirror",
+  "id": "1b72125e166e05eb",
+  "is_published": false,
+  "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxORGQtYUtyZDRxdThxeFE2TUhCOENnNzhFamJSdW5EQnF5QVlPU2ZRNHJXR3NHMHphc2F2d3p1YzNFcUMtanVFNjRYZXp1d20xWThzQTB6WkpvRDdiNjRRdzlLME1xTXJWbnJCdmdCTXRaYVQyLWN2VHMzRGJlbFFFSg?oc=5",
+  "published_at": "2026-11-12T06:59:00+00:00",
+  "relevance": 1,
+  "source": "The Mirror",
+  "source_type": "news_search",
+  "summary": "The Mirror reports a new serious risk alert for antibiotics such as amoxicillin, erythromycin and doxycycline. The supplied text gives no details of the risk, and it does not mention multiple sclerosis or related demyelinating disease.",
+  "summary_model": "claude-sonnet-5-5",
+  "title": "New serious risk alert for drugs like amoxicillin, erythromycin and doxycycline"
+ },
  "1bce55e5057c6f72": {
   "about_ms": true,
   "category": "research",
@@ -799,6 +815,22 @@
   "summary_model": "claude-sonnet-5-5",
   "title": "Immunic presents new vidofludimus calcium data at multiple sclerosis conference"
  },
+ "351a391a1c5b2802": {
+  "about_ms": false,
+  "category": "other",
+  "collected_at": "2026-11-16T13:58:54.056699+00:00",
+  "description": "Doxycycline Use in First-trimester Tied to Pregnancy Loss Medscape",
+  "id": "351a391a1c5b2802",
+  "is_published": false,
+  "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOWjFPaDFtQjkySGpveEFCLTBQeVZoMWFKd0ZySFk1ZEVwSEJOcjZBQ1pCVElJcEZRV0RJeTJFNXhDVnU3SDZtYWMzR3ZGSkhUblgwMkpvLUt5S3ZRdkQ3aTJXTnFaMUdTOXdMWGttejlCdFJBaVg0YXBCZHBwQ1E2SDFMVy1GcU9vSWVQM0pxTmtOZDRsOE1NZldVVnVwSGZVUS1V?oc=5",
+  "published_at": "2026-11-13T02:58:11+00:00",
+  "relevance": 1,
+  "source": "Medscape",
+  "source_type": "news_search",
+  "summary": "A Medscape headline reports that doxycycline use in the first trimester of pregnancy is tied to pregnancy loss. No further details, such as study design or numbers, are given, and multiple sclerosis is not mentioned.",
+  "summary_model": "claude-sonnet-5-5",
+  "title": "Doxycycline Use in First-trimester Tied to Pregnancy Loss"
+ },
  "361fca5d8825afd7": {
   "about_ms": true,
   "category": "trial_news",
@@ -831,6 +863,22 @@
   "summary_model": "claude-sonnet-5-5",
   "title": "Review study links physical disability to cognitive problems in MS"
  },
+ "367cd12bf8b5349c": {
+  "about_ms": false,
+  "category": "other",
+  "collected_at": "2026-11-16T13:58:54.056537+00:00",
+  "description": "Immunic, Inc. (IMUX) stock price, news, quote and history Yahoo Finance UK",
+  "id": "367cd12bf8b5349c",
+  "is_published": false,
+  "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9sVlJkVm9mWjZmVXMzUGJrSWVmX2ZaTFdHSzV5UThEMDZ0aUlNaWRtSXg2Zl9qZ3VHSmZqRXRlVnFsaThmU1FRQm1aQlZORXJqdGc?oc=5",
+  "published_at": "2026-11-14T05:50:36+00:00",
+  "relevance": 1,
+  "source": "Yahoo Finance UK",
+  "source_type": "news_search",
+  "summary": "This is a Yahoo Finance UK stock quote page for Immunic, Inc. (IMUX). The provided text contains only the page title and no information on research, treatments, trials or regulatory decisions related to MS.",
+  "summary_model": "claude-sonnet-5-5",
+  "title": "Immunic, Inc. (IMUX) stock price, news, quote and history"
+ },
  "382540e0559012d6": {
   "about_ms": true,
   "category": "research",
@@ -862,6 +910,22 @@
   "summary": "A Medscape report says rituximab use in people with multiple sclerosis is linked to a 10-fold higher risk of inflammatory bowel disease. Only the headline was available, so study design, population and absolute risk are not stated.",
   "summary_model": "claude-sonnet-5-5",
   "title": "Rituximab Linked to 10-fold Higher IBD Risk in MS"
+ },
+ "38d9e053800923fe": {
+  "about_ms": true,
+  "category": "research",
+  "collected_at": "2026-11-16T13:58:54.056292+00:00",
+  "description": "A study linked abnormalities in cholesterol metabolism and elevated inflammatory markers to more severe disability in people with progressive forms of multiple sclerosis (MS). “Our results demonstrate marked alterations in metabolic, inflammatory, nutritional, and [brain cell] biomarker networks in Severe [progressive MS], and that disrupted cholesterol metabolism and chronic inflammation are associated with greater disability in […] The post Cholesterol, inflammation shifts tied to disability in progressive MS appeared first on Multiple Sclerosis News Today .",
+  "id": "38d9e053800923fe",
+  "is_published": true,
+  "link": "https://multiplesclerosisnewstoday.com/news-posts/2026/11/16/cholesterol-inflammation-shifts-tied-disability-progressive-ms/",
+  "published_at": "2026-11-16T13:00:25+00:00",
+  "relevance": 3,
+  "source": "MS News Today",
+  "source_type": "news",
+  "summary": "A study linked abnormal cholesterol metabolism and elevated inflammatory markers to greater disability in people with progressive multiple sclerosis. Researchers reported marked changes in metabolic, inflammatory, nutritional, and brain cell biomarker networks in those with severe progressive MS.",
+  "summary_model": "claude-sonnet-5-5",
+  "title": "Cholesterol, inflammation shifts tied to disability in progressive MS"
  },
  "3a546ad26ad8325a": {
   "about_ms": true,
@@ -1025,6 +1089,22 @@
   "summary": "An MS Trust podcast episode from 2 August 2022 discusses how MS can affect relationships with family, friends, partners and colleagues. Billy from Shift.ms, who has MS, and Flora from the MS Trust helpline are the guests.",
   "summary_model": "claude-sonnet-5-5",
   "title": "Relationships and MS"
+ },
+ "4116f68e37324ecc": {
+  "about_ms": false,
+  "category": "regulatory",
+  "collected_at": "2026-11-16T13:58:54.056581+00:00",
+  "description": "Roche’s Gazyva/Gazyvaro becomes the first FDA-approved treatment for primary membranous nephropathy Yahoo Finance UK",
+  "id": "4116f68e37324ecc",
+  "is_published": false,
+  "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNdzRxWnNfVnlUYWJXWmd3X1hSNkVtNmdnanpNVE5RM0xJREdfZWwwWjVmR1JDMlJlSTlXQS1IdEFDZnFPSzlVYmMxTk5qSGVtbFRpZEhZbW9QTUFmTjFfLVBlUXViaGtuckoyelFGQW5xbzlFUEpvNTc3RmdwWmpFQmtfbGVzeTFkY3M4Yw?oc=5",
+  "published_at": "2026-11-16T06:00:00+00:00",
+  "relevance": 1,
+  "source": "Yahoo Finance UK",
+  "source_type": "news_search",
+  "summary": "Roche's Gazyva/Gazyvaro (obinutuzumab) has become the first FDA-approved treatment for primary membranous nephropathy, a kidney condition. The source text does not mention multiple sclerosis or related demyelinating diseases.",
+  "summary_model": "claude-sonnet-5-5",
+  "title": "Roche’s Gazyva/Gazyvaro becomes the first FDA-approved treatment for primary membranous nephropathy"
  },
  "42a471180211ea66": {
   "about_ms": true,
@@ -1658,6 +1738,22 @@
   "summary_model": "claude-sonnet-5-5",
   "title": "CAR-T Therapy Cuts Walking Time 46% in Stiff Person Syndrome, Registering Zero Deaths as Rival Drugs Killed Three"
  },
+ "5dae15b1b369160b": {
+  "about_ms": true,
+  "category": "regulatory",
+  "collected_at": "2026-11-16T13:58:54.056543+00:00",
+  "description": "Oculis Announces FDA IND Clearance Enabling Acceleration of Privosegtor Development Program in Acute Multiple Sclerosis Relapses NTB Kommunikasjon",
+  "id": "5dae15b1b369160b",
+  "is_published": true,
+  "link": "https://news.google.com/rss/articles/CBMisgJBVV95cUxNQmpFY2tuVnNRR0NUaXdzNWtJcTQ3TTJXUWJ2cGIzSEFOSTNDdkhNS05WZWt1X1duTjNrT1l1VWpteHhjU00yb19BN3c3U0RFM09NckxCOXhiM0g3SWZxaHNudjhqei1yQTdkb3Z1bHFSaDVacnRYUzlnMENvM3czd1ZfRzNzcXh5bFUtdTRtdEw1eWwtSlFFU3NKWGpSZU5mUjUwVzR3TDZEbDNIQ29pWUFvUk9iLUVNMlMxbTc2azVNaUtUVWZma05ab3NyWl9UR0pnaHo1TkpQUWE4SEhkTWlzRDBKYTFuX3QzS1h5NHljWktSdHJ3VU9ZeXZ5X0lJMkVjWVpmZ3BwWlJud0FYbUZqeGU1R2swQmVzbF9PVFhvUEUxTDZkMVJqV2VDaUJUb1E?oc=5",
+  "published_at": "2026-11-16T07:00:00+00:00",
+  "relevance": 3,
+  "source": "NTB Kommunikasjon",
+  "source_type": "news_search",
+  "summary": "Oculis announced that the US FDA cleared its Investigational New Drug application for privosegtor in acute multiple sclerosis relapses. The announcement says this allows the company to accelerate the drug's development program. No trial results are given in the source text.",
+  "summary_model": "claude-sonnet-5-5",
+  "title": "Oculis Announces FDA IND Clearance Enabling Acceleration of Privosegtor Development Program in Acute Multiple Sclerosis Relapses"
+ },
  "5dd9b32d5ccf04f2": {
   "about_ms": true,
   "category": "living_with_ms",
@@ -1705,6 +1801,22 @@
   "summary": "Immunic reported a $42.3 million loss for the third quarter. The headline says data from its ENSURE trials are approaching, but the provided text gives no trial results or other details.",
   "summary_model": "claude-sonnet-5-5",
   "title": "Immunic Reports $42.3 Million Third-Quarter Loss as ENSURE Data Nears"
+ },
+ "606b4a7f00430514": {
+  "about_ms": true,
+  "category": "research",
+  "collected_at": "2026-11-16T13:58:54.056604+00:00",
+  "description": "Turkish Cohort Shows Dimethyl Fumarate Maintains Disease Control in MS Bioengineer.org",
+  "id": "606b4a7f00430514",
+  "is_published": true,
+  "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNSVdDejNMcTFTdHBTRzRacVN0bnowd2VWNHFmOHdWUkJHZlFBREVSck1FM0QyaXlsaU1tVllKZF9INlZkUE8zaU94d2F3VnU5amJwdUVyU0xiVTQtcjI5MFN4cUxwaDdwZXcwYzh5NFhWVTlTeTM5aU9XbG9sbXZRTTVWc216UDY1VTN0ZlRySVI4RVBzNHdocDlxOA?oc=5",
+  "published_at": "2026-11-15T21:20:34+00:00",
+  "relevance": 3,
+  "source": "Bioengineer.org",
+  "source_type": "news_search",
+  "summary": "A Bioengineer.org item reports on a Turkish cohort study of dimethyl fumarate in multiple sclerosis. Based on the title, it indicates disease control was maintained. No further details, such as patient numbers or outcomes, were provided in the text.",
+  "summary_model": "claude-sonnet-5-5",
+  "title": "Turkish Cohort Shows Dimethyl Fumarate Maintains Disease Control in MS"
  },
  "60c3b14f58431606": {
   "about_ms": false,
@@ -2554,6 +2666,22 @@
   "summary_model": "claude-sonnet-5-5",
   "title": "Evobrutinib Fails to Improve Relapse or Disability in Relapsing Multiple Sclerosis"
  },
+ "8c15bbb49e7726d5": {
+  "about_ms": false,
+  "category": "regulatory",
+  "collected_at": "2026-11-16T13:58:54.056587+00:00",
+  "description": "Attorney General Rescheduling Order Claimed State Marijuana Controls Were Robust. Oklahoma Law Enforcement Tells a Different Story Newswire",
+  "id": "8c15bbb49e7726d5",
+  "is_published": false,
+  "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOblk3TGM0NUEzV1hQNDJWOEFxS2t2bzcwd19uT0lLUG9tLWNXM1VxUlFNckF2MmxHSWQ5NWVuR1dmWnhLUVYzcGxEelVsTU5tMmsyQ2lyUVhNX3pxbk1zU1g2Ml8wZF9zSTczVUZhYjdCYVIwUFJPWTUwdzk0RXRHWVd2Ull6enRVcmdDNkw3WjJxaENnaVBhMmM4TmZLZkw3NW5hbEZhUXdsUGM?oc=5",
+  "published_at": "2026-11-15T22:00:00+00:00",
+  "relevance": 1,
+  "source": "Newswire",
+  "source_type": "news_search",
+  "summary": "A newswire item says an Attorney General's marijuana rescheduling order claimed state marijuana controls were robust, while Oklahoma law enforcement describes a different situation. The text provided does not mention multiple sclerosis or related demyelinating diseases.",
+  "summary_model": "claude-sonnet-5-5",
+  "title": "Attorney General Rescheduling Order Claimed State Marijuana Controls Were Robust. Oklahoma Law Enforcement Tells a Different Story"
+ },
  "8c7739a246507546": {
   "about_ms": false,
   "category": "other",
@@ -2681,6 +2809,22 @@
   "summary": "Christina Applegate was diagnosed with MS in 2021, which explained her symptoms and gave her a community for support. The article's title refers to an MS misdiagnosis more than five years later, but the excerpt gives no details.",
   "summary_model": "claude-sonnet-5-5",
   "title": "Christina Applegate’s MS misdiagnosis sparks discussion"
+ },
+ "9143194c5978c1dc": {
+  "about_ms": true,
+  "category": "trial_news",
+  "collected_at": "2026-11-16T13:58:54.056733+00:00",
+  "description": "Tiziana Life Sciences Ltd Provides Positive Topline Results from Phase 2A Inform-Ms Trial of Intranasal Foralumab for Non-Active Secondary Progressive Multiple Sclerosis www.marketscreener.com",
+  "id": "9143194c5978c1dc",
+  "is_published": false,
+  "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxNTEIzcUtiX0JldnNjaTFEQy1sRVBCSmktczlqVENkS3Q2ZjlKQWNzeXVzaUZ4ZVROZ0NyWkhwaG9KWkpIR3g0YTQtWUR3RGhXM21Scm1oMVdRQ3MyUTVORW9TeWxQZmQyMW5WcVlKLTRHUk5sR0Fqb19Ydm82ZVZ1TUNzd3lLN3VYTldLQWJ3dE9ybDYwQVNNRnpkQ1BGRnVZNzR1VGhiWmRRQmhlZ1A3VVZ0bF8yNHNnZW1PcVhuMlItSXVpU2J3SWtXRnREYnRUYi1Da0ZzVUlkUmxyZW1seHg5TE1TTlk4?oc=5",
+  "published_at": "2026-11-09T18:35:00+00:00",
+  "relevance": 2,
+  "source": "www.marketscreener.com",
+  "source_type": "news_search",
+  "summary": "Tiziana Life Sciences announced what it calls positive topline results from its Phase 2A INFORM-MS trial of intranasal foralumab in non-active secondary progressive MS. The source text gives no data, so the findings cannot be assessed; this is a company announcement.",
+  "summary_model": "claude-sonnet-5-5",
+  "title": "Tiziana Life Sciences Ltd Provides Positive Topline Results from Phase 2A Inform-Ms Trial of Intranasal Foralumab for Non-Active Secondary Progressive Multiple Sclerosis"
  },
  "916a1c76d540759f": {
   "about_ms": true,
@@ -3146,6 +3290,22 @@
   "summary_model": "claude-sonnet-5-5",
   "title": "Real-World Study Highlights Immunotherapy Trends and Effectiveness in NMOSD and MOGAD"
  },
+ "affc7e83fe303763": {
+  "about_ms": true,
+  "category": "research",
+  "collected_at": "2026-11-16T13:58:54.056629+00:00",
+  "description": "Daclizumab HYP versus Interferon Beta-1a in Relapsing Multiple Sclerosis The New England Journal of Medicine",
+  "id": "affc7e83fe303763",
+  "is_published": true,
+  "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5ZWXIwbUd4V3FSS21WRDVBWDJ6elhQbTgxdm1tMjBYX2pmME9kalZyeXBDSUlYQ2duUm43VzFTampVX2N0Nld1dFZZLUZ1REdLNWU5ZndKRUxfU0EtX0FZWQ?oc=5",
+  "published_at": "2015-10-08T07:00:00+00:00",
+  "relevance": 3,
+  "source": "The New England Journal of Medicine",
+  "source_type": "news_search",
+  "summary": "The New England Journal of Medicine published a study comparing daclizumab HYP with interferon beta-1a in relapsing multiple sclerosis. The text provided gives no results or other details.",
+  "summary_model": "claude-sonnet-5-5",
+  "title": "Daclizumab HYP versus Interferon Beta-1a in Relapsing Multiple Sclerosis"
+ },
  "b28e6f0d9276112d": {
   "about_ms": false,
   "category": "other",
@@ -3241,6 +3401,22 @@
   "summary": "RegMedNet's weekly cell therapy roundup includes an item on the discontinuation of an NK cell therapy for autoimmune disease. The provided text gives no details on the product, the company, the reason, or whether multiple sclerosis is involved.",
   "summary_model": "claude-sonnet-5-5",
   "title": "Cell therapy weekly: discontinuation of autoimmune disease NK cell therapy"
+ },
+ "b96a0cee94f21483": {
+  "about_ms": false,
+  "category": "other",
+  "collected_at": "2026-11-16T13:58:54.056712+00:00",
+  "description": "Anterior Cingulate Glutathione Levels Linked to Oxidative Stress in Bipolar Disorder Bioengineer.org",
+  "id": "b96a0cee94f21483",
+  "is_published": false,
+  "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPZTFuM0l4NHQwaWNrQURaUjBQMWtTTElwcHNJZ1BYREdVSXY5RXdHeXp2MHBzZDl6UWJHZjRwWmdoTEhNTGkzNXZfbm1TWmNJbWF1OHZTQUpHSlVqQWVPbXNnRk82V0hSY3c3NG5zTjJzVmtsUGtlX3NLUTJocXdRWWg4Qy1UWmZZLWtDX2tuWG5lNkQzNlBlXzNqd0J3Q3JhbXYwYW5oWVRqdl84cGc?oc=5",
+  "published_at": "2026-11-16T00:56:03+00:00",
+  "relevance": 1,
+  "source": "Bioengineer.org",
+  "source_type": "news_search",
+  "summary": "The title says anterior cingulate glutathione levels are linked to oxidative stress in bipolar disorder. No further details were provided, and the item does not mention multiple sclerosis or related demyelinating diseases.",
+  "summary_model": "claude-sonnet-5-5",
+  "title": "Anterior Cingulate Glutathione Levels Linked to Oxidative Stress in Bipolar Disorder"
  },
  "ba65e3004bcc8d30": {
   "about_ms": false,
@@ -3577,6 +3753,22 @@
   "summary": "A Nature paper reports a lab study in female mice with experimental autoimmune encephalomyelitis, an MS model. Its title links a lactate–H4K12la–HDAC1 epigenetic pathway to changes in microglial state. No full text or results were provided.",
   "summary_model": "claude-sonnet-5-5",
   "title": "A Lactate–H4K12la–HDAC1 epigenetic axis governs microglial state transitions during experimental autoimmune encephalomyelitis in female mice"
+ },
+ "cfe8697590ac99e5": {
+  "about_ms": true,
+  "category": "research",
+  "collected_at": "2026-11-16T13:58:54.056519+00:00",
+  "description": "Novel, highly selective ROCK2 inhibitor GV300 demonstrated enhanced brain penetration, improved solubility and oral bioavailability. GV300 ameliorated clinical scores as well as reduced demyelination, inflammation, and biomarkers of neurodegeneration in preclinical models of multiple...",
+  "id": "cfe8697590ac99e5",
+  "is_published": false,
+  "link": "https://www.prnewswire.com/news-releases/graviton-bioscience-announces-new-preclinical-data-highlighting-the-potential-of-selective-rock2-inhibition-in-multiple-sclerosis-at-neuroscience-2026-302939449.html",
+  "published_at": "2026-11-16T13:30:00+00:00",
+  "relevance": 2,
+  "source": "PR Newswire",
+  "source_type": "press_release",
+  "summary": "Graviton BioScience reported preclinical data on GV300, an oral ROCK2 inhibitor, at Neuroscience 2026. In lab models of multiple sclerosis, it improved clinical scores and reduced demyelination, inflammation and neurodegeneration biomarkers. No human data were reported.",
+  "summary_model": "claude-sonnet-5-5",
+  "title": "Graviton BioScience Announces New Preclinical Data Highlighting the Potential of Selective ROCK2 Inhibition in Multiple Sclerosis at Neuroscience 2026"
  },
  "d161d33c6aeb35fe": {
   "about_ms": true,
@@ -4402,6 +4594,22 @@
   "summary_model": "claude-sonnet-5-5",
   "title": "Rituximab Shows Limited Evidence for Severe Nervous System Complications in Sjögren’s Disease"
  },
+ "fca8ccf3733e3fa0": {
+  "about_ms": false,
+  "category": "other",
+  "collected_at": "2026-11-16T13:58:54.056696+00:00",
+  "description": "Late-Stage Data Highlight 5 Emerging Therapies for Autoimmune Diseases Rheumatology Advisor",
+  "id": "fca8ccf3733e3fa0",
+  "is_published": false,
+  "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPVkxtQ0ZzbGtBV3lLLWswZGhNbVk1UjN3WDBHbHZ5SkN2REtXQUk4bkhVNzF1VGJpSGdDNDVqcjU4YXRIbmtFYXZFeHBlOUhCRW11VWdMbGlnUlNQWnk5a1AxNHNTWG9zRDJ2SXdMT2tiaXJTb1BuYUJfWWZkN3lKY29qWGN0alZPMDE3dUVrSllpX1dZUWFSR1h4SVlEbzJHLUNOdlAzOVVzWUVQTnEyX0ZKNnRUZw?oc=5",
+  "published_at": "2026-11-11T05:00:00+00:00",
+  "relevance": 1,
+  "source": "Rheumatology Advisor",
+  "source_type": "news_search",
+  "summary": "A Rheumatology Advisor article titled \"Late-Stage Data Highlight 5 Emerging Therapies for Autoimmune Diseases\". The text provided contains only the title, so the specific therapies, diseases and findings are not stated and any link to MS cannot be confirmed.",
+  "summary_model": "claude-sonnet-5-5",
+  "title": "Late-Stage Data Highlight 5 Emerging Therapies for Autoimmune Diseases"
+ },
  "fcad29da744f4f09": {
   "about_ms": true,
   "category": "research",
@@ -4433,6 +4641,22 @@
   "summary": "Kyverna Therapeutics announced it has completed a Biologics License Application (BLA) submission. The available text is cut off, so the product and condition are not stated, and a link to MS cannot be confirmed.",
   "summary_model": "claude-sonnet-5-5",
   "title": "Kyverna Therapeutics Announces Completion of BLA Submission for..."
+ },
+ "ff25a236b343db65": {
+  "about_ms": false,
+  "category": "other",
+  "collected_at": "2026-11-16T13:58:54.056716+00:00",
+  "description": "Hold your breath: Mucolytic may treat solvent addiction Inquirer.net",
+  "id": "ff25a236b343db65",
+  "is_published": false,
+  "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQWUJUWDVtTUcyZ0M5cEJ1T0YyaUFuUElXTEt2Mkp3OU44azgxVWpIQWhRc1phbDVRVjJfTFd5aC1XUzJwb1VMNGdUdGhVb2xpMVJtN2lFaUdvRXBLbFNEeEU4ZmtkTHNMc3NDb0Z3UnJuR01wcjBqdXlVMTBoSW1ES0d6ODgybVZScjJ0aF92bUI3WWdnRFlr0gGcAUFVX3lxTE9LUldTajFvdVl1VDRtZkUxVC1ObFRSSDRGMDEzX2d1VUtuOUNCNHFzUDdfZkk2YWFyc0d5dW9ERUdPZlh6NHNTSW45N0FxRGFhZnFWZzN5bHV4MWZrblFNUG1seGFFbG1femY2czhsamZxM0NXOE13cHdxYVdacTA2YjktNVJ2S3F0MmkxNjZleTJNWHg5SGJ4OGFWbg?oc=5",
+  "published_at": "2026-11-15T20:50:00+00:00",
+  "relevance": 1,
+  "source": "Inquirer.net",
+  "source_type": "news_search",
+  "summary": "The title says a mucolytic, a drug that thins mucus, may treat solvent addiction. The supplied text contains no further details, and it does not mention multiple sclerosis or related demyelinating disease.",
+  "summary_model": "claude-sonnet-5-5",
+  "title": "Hold your breath: Mucolytic may treat solvent addiction"
  },
  "ff6f70ece9bf35c9": {
   "about_ms": false,
