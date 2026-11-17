@@ -191,6 +191,22 @@
   "summary_model": "claude-sonnet-5-5",
   "title": "New MRI technique may reveal signs of myelin repair in multiple sclerosis"
  },
+ "0ec4817f65d43ae3": {
+  "about_ms": false,
+  "category": "regulatory",
+  "collected_at": "2026-11-17T14:52:47.686119+00:00",
+  "description": "Oculis Announces FDA IND Clearance Enabling Acceleration of GlobeNewswire",
+  "id": "0ec4817f65d43ae3",
+  "is_published": false,
+  "link": "https://news.google.com/rss/articles/CBMipwJBVV95cUxNQ3RiMmJicEJhRGM2aVp5Rl9aNmFXZE4xYVVJZ1VxV2ZIWXRQRUNLbTE1cW9uZy1CTG1IV01rQ091QTFIcVJoOXJ3b1NpLTQxcThvSkk3MWZPN1hfTVVOR1ZHcU1IbG04SmlqbFBTbk9fTGU5YndUTDhKd0J0QXNWbnJKVF9sWFRtTXFxVkJ2eTdWeG03VTJZeVg1bjVfSFRKZjItNDg2U2NQdmx1cjQxTU0xRkRfWDc3X2VDclFxQkplbUpJajZ1cVZLcW84X0FQQzdvVGI2NnF6QmFPcVVKdnFwSkZ1alNEdkhtUnlCVldDalFGUlRCejliSktqUVo5MmtJZkUyd2htanRYbm9PdHRTMENLYm9TbG1tQ2szMTVhM3ZFMDNn?oc=5",
+  "published_at": "2026-11-16T07:00:00+00:00",
+  "relevance": 1,
+  "source": "GlobeNewswire",
+  "source_type": "news_search",
+  "summary": "Oculis announced that the FDA cleared an Investigational New Drug (IND) application, enabling acceleration of an unspecified program. The available text names no drug or condition, and does not mention MS or related demyelinating disease.",
+  "summary_model": "claude-sonnet-5-5",
+  "title": "Oculis Announces FDA IND Clearance Enabling Acceleration of"
+ },
  "0f14e43cfc83a9f6": {
   "about_ms": false,
   "category": "other",
@@ -238,6 +254,22 @@
   "summary": "NEJM lists a placebo-controlled trial of oral cladribine in relapsing multiple sclerosis. The text provided gives only the title, so no results, dosing or participant details are available.",
   "summary_model": "claude-sonnet-5-5",
   "title": "A Placebo-Controlled Trial of Oral Cladribine for Relapsing Multiple Sclerosis"
+ },
+ "110e67681c7bace1": {
+  "about_ms": true,
+  "category": "trial_news",
+  "collected_at": "2026-11-17T14:52:47.686342+00:00",
+  "description": "Immunic at Stifel 2026 Healthcare Conference 2026: MS data loom By Investing.com Investing.com Canada",
+  "id": "110e67681c7bace1",
+  "is_published": false,
+  "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPNTExOWQ5RVNEQ1dkRWE5MmJVNktrUlZqZzh0MEswaThhbXprdTRYRkFfT0lrTHhYWVRCM2xzRk9ZVDVybGtnV2M3LTZ5SE1UUzk5elJ2WVFid1p3UkhVcmxSSzQ3dENQSlg1cU45R3lsTy1pMWhLWVB1bFJvRkJtbUU0SE0xOF9femZCSWtzSmNpQlBlREhNYl8zNVlHSWMtUkYzSldHUWdaU292aGJsTS1UaW9hekVBSElXb2pBUjg?oc=5",
+  "published_at": "2026-11-11T20:05:34+00:00",
+  "relevance": 2,
+  "source": "Investing.com Canada",
+  "source_type": "news_search",
+  "summary": "Investing.com reports on Immunic's presentation at the Stifel 2026 Healthcare Conference, with the headline noting that MS data are expected. The provided text gives no details on the data, trial results, or timing.",
+  "summary_model": "claude-sonnet-5-5",
+  "title": "Immunic at Stifel 2026 Healthcare Conference 2026: MS data loom By Investing.com"
  },
  "11d4c4c8f6705aff": {
   "about_ms": false,
@@ -767,6 +799,22 @@
   "summary_model": "claude-sonnet-5-5",
   "title": "Family-focused MS education program boosts patient mental health"
  },
+ "2d384fede2914420": {
+  "about_ms": true,
+  "category": "research",
+  "collected_at": "2026-11-17T14:52:47.686179+00:00",
+  "description": "ACTRIMS-ECTRIMS 2026: Emerging RRMS Treatment Options and JCV Testing Considerations Medscape",
+  "id": "2d384fede2914420",
+  "is_published": true,
+  "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxONXRobDJlSFZpRUZxeUZIbTdLYWZKWGljZG5EMk41UTFkY0VGQmVrdWo5dXd5T3o4QU5PVVdmMHFtdHB5NzV2R2s0WVhsZFZRUDFoZU5zX3h6dkdtQUZBRWVKZWJkblVBb3ZONy1QMkxveHJVcWtTQlFzQUFjaWpNRm9GUHhDS1N2VTdUMTNSNVlxRkphMUc0aGV2eno?oc=5",
+  "published_at": "2026-11-13T21:18:28+00:00",
+  "relevance": 3,
+  "source": "Medscape",
+  "source_type": "news_search",
+  "summary": "Medscape's title indicates coverage from the ACTRIMS-ECTRIMS 2026 meeting on emerging treatment options for relapsing-remitting MS and considerations around JC virus testing. No further details were provided in the available text.",
+  "summary_model": "claude-sonnet-5-5",
+  "title": "ACTRIMS-ECTRIMS 2026: Emerging RRMS Treatment Options and JCV Testing Considerations"
+ },
  "2f17a04228da7529": {
   "about_ms": true,
   "category": "research",
@@ -1073,6 +1121,22 @@
   "summary": "A 10-year follow-up of the OPERA I and II phase 3 trials assessed safety and efficacy of ocrelizumab in relapsing MS. Of 1651 treated patients, 1325 entered the open-label extension, and 853 of them completed the studies.",
   "summary_model": "claude-sonnet-5-5",
   "title": "Ten Years of Ocrelizumab in Relapsing Multiple Sclerosis: The OPERA I and II Randomized Clinical Trials."
+ },
+ "3eb7ac997695424b": {
+  "about_ms": true,
+  "category": "research",
+  "collected_at": "2026-11-17T14:52:47.686195+00:00",
+  "description": "Study Uncovers Disproportionate Infection Signals Linked to Specific Multiple Sclerosis Therapies Bioengineer.org",
+  "id": "3eb7ac997695424b",
+  "is_published": false,
+  "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNQVlvQTgyM0t2Y21yeEI1aUljLTl5X2l1cjVER2xHQkRQRC1WVF9fUGdkcWlzOGM1ZExjZDM1R2gwYTFMZXlrcXFydzVWNk13SzN2SWthWEFhRWJzb08wcHQzb2d2WGwzLXhnZ0VJbkVxbHp3N0lWWERQN08tdnhfcHk0S3Q0aXV2WWJVVzVvQ1BYdUJQbXdBeDBWOG5FdWUwYWF3WWxSR2huVjd5ZFhmOVhIRHpFSVBKRURCcTBjQQ?oc=5",
+  "published_at": "2026-11-17T10:52:30+00:00",
+  "relevance": 2,
+  "source": "Bioengineer.org",
+  "source_type": "news_search",
+  "summary": "A Bioengineer.org item reports a study identifying disproportionate infection signals linked to specific multiple sclerosis therapies. The provided text contains no details on which treatments, which infections, the data source, or the size of the signals.",
+  "summary_model": "claude-sonnet-5-5",
+  "title": "Study Uncovers Disproportionate Infection Signals Linked to Specific Multiple Sclerosis Therapies"
  },
  "4067b43391342f83": {
   "about_ms": true,
@@ -1393,6 +1457,22 @@
   "summary": "Zura Bio issued a clinical update on its Phase 2 TibuSHIELD study of tibulizumab (ZB-106) in hidradenitis suppurativa. The provided text gives no further details, and the item does not concern multiple sclerosis or related demyelinating diseases.",
   "summary_model": "claude-sonnet-5-5",
   "title": "Zura Bio Provides Clinical Update on Phase 2 TibuSHIELD Study of Tibulizumab (ZB-106) in Hidradenitis Suppurativa"
+ },
+ "4b6f899d2c309fe0": {
+  "about_ms": true,
+  "category": "research",
+  "collected_at": "2026-11-17T14:52:47.686185+00:00",
+  "description": "Cladribine Preserves Antibody Levels Better Than Anti-CD20 Multiple Sclerosis Therapies Bioengineer.org",
+  "id": "4b6f899d2c309fe0",
+  "is_published": true,
+  "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQanY2aXhBWms0bXY1dEVZQUNWdWJfNmhTQk5FajgzOFg2bXQxYlNZeU8yaUFqU1ZBcldsV1FISGU0cnJKUmV4Y0M2TjZiUGk5aXlGWnpuMEwwcEVDUkFoeEtzdkhodGpMUXkwaHhFYjV6dktlU2k0bU85NURJaE91RlMwSGtrMWpXV08xaklDRFhwSXRMZEJtNWxuQ1FIQjlTb1MtQzdIaWJVb0ZJQ0NjVmxn?oc=5",
+  "published_at": "2026-11-16T22:07:44+00:00",
+  "relevance": 3,
+  "source": "Bioengineer.org",
+  "source_type": "news_search",
+  "summary": "A Bioengineer.org item reports that cladribine preserves antibody levels better than anti-CD20 therapies in multiple sclerosis. The provided text gives only the headline, so study design, size, and the specific antibodies measured are not stated.",
+  "summary_model": "claude-sonnet-5-5",
+  "title": "Cladribine Preserves Antibody Levels Better Than Anti-CD20 Multiple Sclerosis Therapies"
  },
  "4c69d03f511c8931": {
   "about_ms": true,
@@ -1930,6 +2010,22 @@
   "summary_model": "claude-sonnet-5-5",
   "title": "Finding gratitude in the middle of the journey with MS"
  },
+ "679800fbd98347d6": {
+  "about_ms": false,
+  "category": "other",
+  "collected_at": "2026-11-17T14:52:47.686148+00:00",
+  "description": "What Does Roche Holding (SWX:ROP) Gain From Gazyva’s New Kidney And Lupus Progress? Yahoo Finance Singapore",
+  "id": "679800fbd98347d6",
+  "is_published": false,
+  "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNQ0NDU01oV3pWRVZNVkJERzNmSXpMSHJtS3RvNFk4QUgyUVdVa3ktdlJONU9tRFFSbi1tMmZiM3o3dzc3NXU1WGtWUnVueWJITUhDck9YWFZtT0RkRjJzTVZTTlBLUUZ6bVlrZ3gxZHZJRHRINmlJeExaVWlweTFVMQ?oc=5",
+  "published_at": "2026-11-16T19:17:34+00:00",
+  "relevance": 1,
+  "source": "Yahoo Finance Singapore",
+  "source_type": "news_search",
+  "summary": "The article is a financial piece on Roche Holding (SWX:ROP) and what it may gain from new kidney and lupus progress with Gazyva. The provided text gives no details on multiple sclerosis or other demyelinating disease.",
+  "summary_model": "claude-sonnet-5-5",
+  "title": "What Does Roche Holding (SWX:ROP) Gain From Gazyva’s New Kidney And Lupus Progress?"
+ },
  "6801c2b6827d7db1": {
   "about_ms": true,
   "category": "other",
@@ -1977,6 +2073,22 @@
   "summary": "In top-line Phase 2 INFORM-MS results (12 weeks), a lower dose of experimental foralumab significantly reduced a marker of brain inflammation in people with nonactive secondary progressive MS. The trial met both main goals, and both doses were safe and well tolerated.",
   "summary_model": "claude-sonnet-5-5",
   "title": "Experimental MS therapy reduces brain inflammation in Phase 2 trial"
+ },
+ "6976ea0c56b58c8b": {
+  "about_ms": false,
+  "category": "other",
+  "collected_at": "2026-11-17T14:52:47.686387+00:00",
+  "description": "Tiziana Life Sciences to Present at the Jefferies Global Healthcare Conference 2026 in London NTB Kommunikasjon",
+  "id": "6976ea0c56b58c8b",
+  "is_published": false,
+  "link": "https://news.google.com/rss/articles/CBMigwJBVV95cUxORHc4TDBLdXFTaEpOcDhNMnlnbzVNaW9ZcTFwUGxtLVZlTGRJZlJYUlAtUEYxaDNvdWthWkdQcC1lUzRnWGN5bXZ6TFlzd0xnSlhmZU9HdVlaYVdMUW5oQ0RIc1NGMlBhUUktYVZlU21IVERqYzRJYm40NmhuRTNUZnJvUTU0QnN3N0lLUzFKY1Q2cmk1bGNWbEVpSDdWNjZfRWN6ZkxSNGRoMVJkejk2b3M2Z2NGNDk1VHpYa1cwTHEyWE5VUHdLWWl0bHlJaXkzVERhS1NNQTNSODJ2eGw1NGNwUDRocmo2MnRMbWZuZ3VqR1ExYXV6eUtURmZXWWRVak84?oc=5",
+  "published_at": "2026-11-12T13:00:00+00:00",
+  "relevance": 1,
+  "source": "NTB Kommunikasjon",
+  "source_type": "news_search",
+  "summary": "Tiziana Life Sciences announced it will present at the Jefferies Global Healthcare Conference 2026 in London. The text provided gives no further details, and it does not mention multiple sclerosis or any data, trial or regulatory decision.",
+  "summary_model": "claude-sonnet-5-5",
+  "title": "Tiziana Life Sciences to Present at the Jefferies Global Healthcare Conference 2026 in London"
  },
  "69f167c8f9436e31": {
   "about_ms": true,
@@ -2162,6 +2274,22 @@
   "summary_model": "claude-sonnet-5-5",
   "title": "Alzheimer's MRI Software Sorts Dementia Patients Into 2-Year and 7-Year Groups, Wins Drug Vote"
  },
+ "6f22f7d433fac20f": {
+  "about_ms": false,
+  "category": "other",
+  "collected_at": "2026-11-17T14:52:47.686330+00:00",
+  "description": "5 medications that can cause bone thinning — and what to do if you’re on one The Washington Post",
+  "id": "6f22f7d433fac20f",
+  "is_published": false,
+  "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQSXNYR0xWSEZnUmRUY0t4X2JVMDdMZzA3V3BCc2UyNkZvVmNySGxPUG9OdDRHWkgydVVlNWhRTWlFTzZKWWswVVZvOFZka1B5RU53S0NqR2JyakpmSWdIWmd3NXFQMndjQXdmWmRJdUpBXzlfUWdtS0xYNDN3VWlMdGF2N3hfRGtNVTRjOVRNRWJvSE5EZVJmWk05NVliZw?oc=5",
+  "published_at": "2026-11-09T19:00:00+00:00",
+  "relevance": 2,
+  "source": "The Washington Post",
+  "source_type": "news_search",
+  "summary": "The Washington Post published an article titled \"5 medications that can cause bone thinning — and what to do if you're on one.\" Only the headline was provided, so the specific medications and recommendations are not stated.",
+  "summary_model": "claude-sonnet-5-5",
+  "title": "5 medications that can cause bone thinning — and what to do if you’re on one"
+ },
  "6fa63a312c602c36": {
   "about_ms": true,
   "category": "research",
@@ -2338,6 +2466,22 @@
   "summary_model": "claude-sonnet-5-5",
   "title": "Immunic CEO discusses Q3 highlights and December Phase 3 MS trial readouts"
  },
+ "7b975010574e983e": {
+  "about_ms": false,
+  "category": "other",
+  "collected_at": "2026-11-17T14:52:47.686348+00:00",
+  "description": "Tigecycline Use Linked to Klebsiella pneumoniae Resistance in Six-Year Hospital Study Bioengineer.org",
+  "id": "7b975010574e983e",
+  "is_published": false,
+  "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPZFpDV0t6UEpabU41N0pqVHR3QVExOE9VT0dmS3Q2WmlEOHZnZlpWQ2h5NFI4WlZYTjJXOXNobDlqYnhNamp0bUhsMlRYNHBPR1ZPaXlRZHpKYXExTVM3QVlGbEdpSWEzQmRWZGJQNUZscERva3QzU3ZDX2VhVV95XzZUNVN5NnhBSHo0NHhxOXplVkJQTlJ5d0FoNXpGb3E4azhIYXZOMWQ0bjdrUlo0?oc=5",
+  "published_at": "2026-11-16T21:57:43+00:00",
+  "relevance": 1,
+  "source": "Bioengineer.org",
+  "source_type": "news_search",
+  "summary": "A six-year hospital study reportedly links tigecycline use to resistance in Klebsiella pneumoniae bacteria. The source text provides only the headline, with no details, and does not mention multiple sclerosis or related demyelinating diseases.",
+  "summary_model": "claude-sonnet-5-5",
+  "title": "Tigecycline Use Linked to Klebsiella pneumoniae Resistance in Six-Year Hospital Study"
+ },
  "7bbd07e2f95d5134": {
   "about_ms": true,
   "category": "living_with_ms",
@@ -2353,6 +2497,22 @@
   "summary": "An MS Trust podcast episode on working life with MS. It covers workplace rights under the Equality Act, disclosing a health condition to an employer, and reducing hours or giving up work. Guests are discrimination case worker Lance Baynham and HR professional Gideon Schulman, who has MS.",
   "summary_model": "claude-sonnet-5-5",
   "title": "Working life and MS"
+ },
+ "7c16511396ee1d71": {
+  "about_ms": false,
+  "category": "other",
+  "collected_at": "2026-11-17T14:52:47.686372+00:00",
+  "description": "'Emergency' Medical Kits Touted by Dr. Drew and Others Draw Criticism MedPage Today",
+  "id": "7c16511396ee1d71",
+  "is_published": false,
+  "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOODRlMGhaQkhKeUlyTm5ia1U3SDF0YnJDcWFxek53c1lWaUhmaEg1QU83SXhqczBDelNKVGRTNGMwVUNWUXJuMmdyejY2dDg1M2xVcVJGM2lQQ1V3Y1hpS1FfbzRTRXpVYXZVa0tUekpIYWJ2WDlCZXUtTzZYZFRINFBqaGQ?oc=5",
+  "published_at": "2026-09-14T07:00:00+00:00",
+  "relevance": 1,
+  "source": "MedPage Today",
+  "source_type": "news_search",
+  "summary": "MedPage Today reports that 'emergency' medical kits promoted by Dr. Drew and others have drawn criticism. The provided text gives no further detail and does not mention multiple sclerosis or related demyelinating diseases.",
+  "summary_model": "claude-sonnet-5-5",
+  "title": "'Emergency' Medical Kits Touted by Dr. Drew and Others Draw Criticism"
  },
  "7c35a8a3daea501d": {
   "about_ms": false,
@@ -2498,6 +2658,22 @@
   "summary_model": "claude-sonnet-5-5",
   "title": "CAR T-cell therapy shows encouraging early results in progressive MS"
  },
+ "841419f125d4afb5": {
+  "about_ms": true,
+  "category": "other",
+  "collected_at": "2026-11-17T14:52:47.686155+00:00",
+  "description": "Benjamin Greenberg, MD, MHS, on Highlights From the 2026 Rare Neuroimmune Disorders Symposium NeurologyLive",
+  "id": "841419f125d4afb5",
+  "is_published": false,
+  "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOdDhtb1lTQWY4ZTAwaFVoSThPN21oSjlNWEFiS21GSVY2bThTOGI0TG1HZFNEVmN0eWxRWWkxWWpQT1F0cXNkellXUkVneFJDN2FCX3Yxb2FLVG9VYmYxbEdnZlZXWWNCZ09xdm9UVWhGMFVCeFlYVGs5RV96MExqYzJDQ3IyaDFmRncwdG1VbmJVUHVPdmx2YmJ6Sy0tU0h1a3NnWHhqbjc3RzQ3WEFuNw?oc=5",
+  "published_at": "2026-11-16T18:05:58+00:00",
+  "relevance": 2,
+  "source": "NeurologyLive",
+  "source_type": "news_search",
+  "summary": "NeurologyLive lists an item featuring Benjamin Greenberg, MD, MHS, discussing highlights from the 2026 Rare Neuroimmune Disorders Symposium. The provided text gives no details about the topics, findings, or conditions covered.",
+  "summary_model": "claude-sonnet-5-5",
+  "title": "Benjamin Greenberg, MD, MHS, on Highlights From the 2026 Rare Neuroimmune Disorders Symposium"
+ },
  "843e0ca489135046": {
   "about_ms": true,
   "category": "research",
@@ -2529,6 +2705,22 @@
   "summary": "The source is a Yahoo Finance Singapore item titled 'Guggenheim Names Top Biotechnology Stock'. No article text beyond the title was provided, so no details about MS, NMOSD, MOGAD, or any company or drug are available.",
   "summary_model": "claude-sonnet-5-5",
   "title": "Guggenheim Names Top Biotechnology Stock"
+ },
+ "877cb556183ed64f": {
+  "about_ms": true,
+  "category": "research",
+  "collected_at": "2026-11-17T14:52:47.686287+00:00",
+  "description": "Micropillar arrays as a high-throughput screening platform for therapeutics in multiple sclerosis Nature",
+  "id": "877cb556183ed64f",
+  "is_published": false,
+  "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBBZDNZdUNoRk1qQUhrZGJ2ZW5SX2NPRWxIYmpaRlFJRjlBUEktZTA1dFBTTDB0aERmODZicXUtRW9Db0I0R0xJRkVpQ3Y5dS04?oc=5",
+  "published_at": "2014-07-06T07:00:00+00:00",
+  "relevance": 2,
+  "source": "Nature",
+  "source_type": "news_search",
+  "summary": "A Nature paper describes micropillar arrays as a high-throughput platform for screening potential therapeutics in multiple sclerosis. The source text gives only the title, so details on methods, results and any treatment candidates are not stated.",
+  "summary_model": "claude-sonnet-5-5",
+  "title": "Micropillar arrays as a high-throughput screening platform for therapeutics in multiple sclerosis"
  },
  "87b430d576fed028": {
   "about_ms": true,
@@ -2938,6 +3130,22 @@
   "summary_model": "claude-sonnet-5-5",
   "title": "Understanding the Mechanism and Therapeutic Potential of Vidofludimus Calcium for Multiple Sclerosis"
  },
+ "9a0511f544b60cea": {
+  "about_ms": false,
+  "category": "other",
+  "collected_at": "2026-11-17T14:52:47.686308+00:00",
+  "description": "WHO warns progress on antimicrobial resistance falls short of 2030 targets RFI",
+  "id": "9a0511f544b60cea",
+  "is_published": false,
+  "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPRXpHRFlKWVVocDBWXzc3U25pdWdubEJWRllxOWV0bkZtMjFJVnNEbFhnRllGV0g3MW5hbEpsZFVabmppU1VGYmw1RFF3MDZRbnJ6OFJQdUcwMUNsaDEzLS1Va0dyRGR2TjJXd0JYZUJSakhGcVNSMjdXODNIV2NsQXdxMldsb25fd19Cb1djYXZKZF9UeW1DbzVmZ0pEeXJJTHR4clByY0tXdEJWZ29EcFpmT0I0VS1QNE5R?oc=5",
+  "published_at": "2026-11-17T09:23:49+00:00",
+  "relevance": 1,
+  "source": "RFI",
+  "source_type": "news_search",
+  "summary": "The World Health Organization warns that progress on antimicrobial resistance is falling short of its 2030 targets. The source text gives no further detail and does not mention multiple sclerosis or related demyelinating diseases.",
+  "summary_model": "claude-sonnet-5-5",
+  "title": "WHO warns progress on antimicrobial resistance falls short of 2030 targets"
+ },
  "9bee2a06f6a973af": {
   "about_ms": true,
   "category": "living_with_ms",
@@ -3065,6 +3273,22 @@
   "summary": "Nature published an item titled \"Breg cells to the rescue.\" No article text was provided, so its content, subject, and any link to multiple sclerosis or related demyelinating disease cannot be determined.",
   "summary_model": "claude-sonnet-5-5",
   "title": "Breg cells to the rescue"
+ },
+ "a0a9805072e0c933": {
+  "about_ms": true,
+  "category": "research",
+  "collected_at": "2026-11-17T14:52:47.686160+00:00",
+  "description": "RRMS Updates From ACTRIMS-ECTRIMS 2026 Medscape",
+  "id": "a0a9805072e0c933",
+  "is_published": true,
+  "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPVGY0UlBjTXBpcjJwTDJXVnRZejdPUEVMTElNOVB0NHpFQ1I0M2pSOVNvMVZJd2VtSGhuSGFwQ0tyUVhOZnYwYUZ4bXU5MVNLLXd1Q1Z5UmZpMXZkRzN3cDBVai13cUNWaFNiaDFZVTl6Mi1EV0hxdUdmVWo2b055d29kSm14UHIydXU3Y2dDTE13a3RqQi1PU2lVVDVZUE9mODNKRW1SMTFTSVFFSmc?oc=5",
+  "published_at": "2026-11-16T14:54:34+00:00",
+  "relevance": 3,
+  "source": "Medscape",
+  "source_type": "news_search",
+  "summary": "Medscape published a roundup of relapsing-remitting MS (RRMS) updates from the 2026 ACTRIMS-ECTRIMS meeting. The source text gives only the title, so no specific findings, drugs or data are available here.",
+  "summary_model": "claude-sonnet-5-5",
+  "title": "RRMS Updates From ACTRIMS-ECTRIMS 2026"
  },
  "a2524105df812f5c": {
   "about_ms": false,
@@ -3273,6 +3497,22 @@
   "summary": "An MS Trust podcast episode features a neurologist explaining disease modifying drugs (DMDs), most of which are for relapsing remitting MS. In RRMS they reduce relapse number and severity; each NHS-approved drug has different benefits and risks.",
   "summary_model": "claude-sonnet-5-5",
   "title": "What are disease modifying drugs in MS?"
+ },
+ "ad77ec9f957e7b65": {
+  "about_ms": true,
+  "category": "research",
+  "collected_at": "2026-11-17T14:52:47.685751+00:00",
+  "description": "GV300, an experimental treatment being developed by Graviton Bioscience for progressive forms of multiple sclerosis (MS), reduced inflammation and myelin damage and promoted myelin repair in mouse models of the disease. The findings, presented at the Neuroscience 2026 conference, suggest that targeting a protein called ROCK2 could help address several processes involved in MS, including […] The post Experimental MS therapy reduces damage, helps repair myelin in mice appeared first on Multiple Sclerosis News Today .",
+  "id": "ad77ec9f957e7b65",
+  "is_published": false,
+  "link": "https://multiplesclerosisnewstoday.com/news-posts/2026/11/17/experimental-therapy-helps-repair-damaged-myelin-mice/",
+  "published_at": "2026-11-17T13:00:55+00:00",
+  "relevance": 2,
+  "source": "MS News Today",
+  "source_type": "news",
+  "summary": "Graviton Bioscience's experimental treatment GV300, which targets the ROCK2 protein, reduced inflammation and myelin damage and promoted myelin repair in mouse models of MS. The findings were presented at the Neuroscience 2026 conference; no human data are reported.",
+  "summary_model": "claude-sonnet-5-5",
+  "title": "Experimental MS therapy reduces damage, helps repair myelin in mice"
  },
  "ad7e8086d68857b1": {
   "about_ms": true,
@@ -3626,6 +3866,22 @@
   "summary_model": "claude-sonnet-5-5",
   "title": "Tiziana Life Sciences to advance foralumab partnering talks at BIO-Europe 2026"
  },
+ "c6863b6644c7ed0b": {
+  "about_ms": false,
+  "category": "other",
+  "collected_at": "2026-11-17T14:52:47.686336+00:00",
+  "description": "Nearly 1 in 5 Kids Get High Eye Pressure After Steroids Medscape",
+  "id": "c6863b6644c7ed0b",
+  "is_published": false,
+  "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNMWk0LXVLQjlXeGZwck9ZRW1aNFpVMkdlbWxhZWo0QmZFc0t0dW8zdk9MNVdDSTlyWmVpaEJxTVIwLV9XYkM0MHRUVXpTb3NMLUd6c1BveUFtSjg3WXYxWl9VZGFkUnlnb21sc3NiUE9HVGtPbE0yWXI3UmZ5SnlKaXczVGVUdDdSUDIyN0tuSnlqU1AxV01zd0tyM2t3bllTZzJVZA?oc=5",
+  "published_at": "2026-11-17T11:30:29+00:00",
+  "relevance": 1,
+  "source": "Medscape",
+  "source_type": "news_search",
+  "summary": "A Medscape headline reports that nearly 1 in 5 children develop high eye pressure after steroid treatment. No further details are provided, and the item does not mention MS, NMOSD, MOGAD or related demyelinating diseases.",
+  "summary_model": "claude-sonnet-5-5",
+  "title": "Nearly 1 in 5 Kids Get High Eye Pressure After Steroids"
+ },
  "c730cdba895d6804": {
   "about_ms": true,
   "category": "research",
@@ -3881,6 +4137,22 @@
   "summary": "The Yahoo Finance Singapore piece asks whether Alzheimer's data is changing the investment case for Biogen (BIIB). Only the headline was provided, so no details on the data or on multiple sclerosis are available.",
   "summary_model": "claude-sonnet-5-5",
   "title": "Is Alzheimer’s Data Altering The Investment Case For Biogen (BIIB)?"
+ },
+ "da41dedec9297ac4": {
+  "about_ms": false,
+  "category": "other",
+  "collected_at": "2026-11-17T14:52:47.686396+00:00",
+  "description": "Tiziana Life Sciences Ltd (TLSA) stock price, news, quote and history Yahoo Finance Singapore",
+  "id": "da41dedec9297ac4",
+  "is_published": false,
+  "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1xMkxYQ2VOSkRYMkRsRkg2eW5vb0FFMGxZZTJObFpPemlLeVlTbVl4NTNjY0h3R2F6bjh4TUFWN2I3WkNFVS15eTlxbV9Za2pYUEE?oc=5",
+  "published_at": "2026-11-13T04:22:02+00:00",
+  "relevance": 1,
+  "source": "Yahoo Finance Singapore",
+  "source_type": "news_search",
+  "summary": "This is a stock quote page for Tiziana Life Sciences (TLSA) on Yahoo Finance Singapore. The text provided contains no information about multiple sclerosis, research findings, treatments, or trials.",
+  "summary_model": "claude-sonnet-5-5",
+  "title": "Tiziana Life Sciences Ltd (TLSA) stock price, news, quote and history"
  },
  "ddc27b971d5a0696": {
   "about_ms": true,
@@ -4282,6 +4554,22 @@
   "summary_model": "claude-sonnet-5-5",
   "title": "MSIF 2026 Global Networking Meetings"
  },
+ "f02b4e3507196582": {
+  "about_ms": false,
+  "category": "other",
+  "collected_at": "2026-11-17T14:52:47.686134+00:00",
+  "description": "MMJ International Holdings: The 800-Pound Gorilla in the Room: DEA Now Confirms Marijuana Production Quotas Are Coming FinanzNachrichten.de",
+  "id": "f02b4e3507196582",
+  "is_published": false,
+  "link": "https://news.google.com/rss/articles/CBMilAJBVV95cUxPRzI3TE1HdV9RQ3dzY05uOEViWmpZNG5ZX0ppQ0phWFU1TUh4Y2xjZEcwbW40UUFOSzVFTVZqdDVHSEw0NDM5NUFQZkxnVmVrVVZsVmxYckdOZlVDcmtBN0VfN0tlT3RtTUVPR0lkUkphX2lTZHNRSzJjUExwenhkbl9GbjlEdTM1d0luRkFkQ3JYYzZTUE80QW82Rm5xREliOEVEcTUzN0p0Umxyb0UtVWJYMW1oSW1Cd1VkNTdNMEhTQUNLLTFmRmFfZmFhM0JWWml4bHZTSmtKTGxid2plN3RkMFJKOUF0MWk3MC1VYThxQ19RVDVlM2ljM2VTQ1dpYmU4aFhZWjRiajFWdjFkUUpkV24?oc=5",
+  "published_at": "2026-11-17T03:02:00+00:00",
+  "relevance": 1,
+  "source": "FinanzNachrichten.de",
+  "source_type": "news_search",
+  "summary": "A promotional-style headline from MMJ International Holdings says the DEA has confirmed marijuana production quotas are coming. The text provided gives no details and does not mention multiple sclerosis or any demyelinating disease.",
+  "summary_model": "claude-sonnet-5-5",
+  "title": "MMJ International Holdings: The 800-Pound Gorilla in the Room: DEA Now Confirms Marijuana Production Quotas Are Coming"
+ },
  "f076a10c85742fb9": {
   "about_ms": true,
   "category": "trial_news",
@@ -4514,6 +4802,22 @@
   "summary_model": "claude-sonnet-5-5",
   "title": "New Med Beats Old in Head-to-Head Neuromyelitis Optica Trial"
  },
+ "f698048b922f480b": {
+  "about_ms": false,
+  "category": "other",
+  "collected_at": "2026-11-17T14:52:47.686366+00:00",
+  "description": "PITT-BRADFORD STUDENTS PRESENT ORIGINAL RESEARCH AT CONSORTIUM Solomon's Words for the Wise",
+  "id": "f698048b922f480b",
+  "is_published": false,
+  "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNZjZsYklyNXFLcU5HWHJrT2ZBd0w2U2dVcWpPOUJZVkh5VGhiM1NmemZTMkxqSnpWWlRIdmtYZjJIYy1NUGgxRm9zdWpsdmV3Y3c2bWwxLUVwbmRPMThwSlVUWWF6MmdraW5CNDFhZG9pcXQ2azBvMm03SkVBR1lrRmpOU2Z2dzJ5VXY2Z0lLb1FXVkE?oc=5",
+  "published_at": "2026-11-17T01:52:02+00:00",
+  "relevance": 1,
+  "source": "Solomon's Words for the Wise",
+  "source_type": "news_search",
+  "summary": "The source lists a headline saying Pitt-Bradford students presented original research at a consortium. No details on the research topic, findings, or any link to multiple sclerosis or related demyelinating disease are given.",
+  "summary_model": "claude-sonnet-5-5",
+  "title": "PITT-BRADFORD STUDENTS PRESENT ORIGINAL RESEARCH AT CONSORTIUM"
+ },
  "f69c53d3129b59db": {
   "about_ms": false,
   "category": "research",
@@ -4529,6 +4833,22 @@
   "summary": "A study found hypertension begins harming the brain before blood pressure measurably rises, with cells tied to blood vessels, signaling, and myelin maintenance aging prematurely. The changes resemble early cognitive decline patterns, and losartan reversed some damage in mice.",
   "summary_model": "claude-sonnet-5-5",
   "title": "Your brain shows damage before your blood pressure even rises"
+ },
+ "f7039faf8e4852d3": {
+  "about_ms": true,
+  "category": "regulatory",
+  "collected_at": "2026-11-17T14:52:47.686073+00:00",
+  "description": "Oculis Gains FDA IND Clearance for Privosegtor in Acute MS Relapses Quiver Quantitative",
+  "id": "f7039faf8e4852d3",
+  "is_published": true,
+  "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNWE5HdGUxWlpZazBTQ25rVTFPSFg2V2FTMUd5WktFc211VHB0UGxxWDdqNDNPOVpfSnE0LWhyNGJjdXdnb05CRnRwVUg2TXBkUVR5eTd4b3FWRXNlU0RtSTFQc2xBeVJsMWh4T0tPS3ZELV9zYXdHbFRGZmM2bGFXSmpCdWg5VlBVeF84UGlSVHppNDJqaW1JbmJRa0RENTNTUlE?oc=5",
+  "published_at": "2026-11-16T07:11:00+00:00",
+  "relevance": 3,
+  "source": "Quiver Quantitative",
+  "source_type": "news_search",
+  "summary": "Oculis has received FDA clearance of its Investigational New Drug application for privosegtor in acute multiple sclerosis relapses. This allows clinical testing of the drug in this setting to proceed. No trial results are reported in the text provided.",
+  "summary_model": "claude-sonnet-5-5",
+  "title": "Oculis Gains FDA IND Clearance for Privosegtor in Acute MS Relapses"
  },
  "f8f8a49ae59e7a21": {
   "about_ms": true,
