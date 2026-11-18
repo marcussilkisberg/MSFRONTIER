@@ -191,6 +191,22 @@
   "summary_model": "claude-sonnet-5-5",
   "title": "New MRI technique may reveal signs of myelin repair in multiple sclerosis"
  },
+ "0eab631caf3c4d77": {
+  "about_ms": false,
+  "category": "other",
+  "collected_at": "2026-11-18T14:32:10.313131+00:00",
+  "description": "Group 1 Carcinogen Helicobacter pylori: Eradication Success Rate Reaches 92.9% With Resistance-Test-Guided Treatment 스포츠조선",
+  "id": "0eab631caf3c4d77",
+  "is_published": false,
+  "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPZng2NWhTSWdsVGhQclZtazY4MGRmUlNvN2l4c0J5bldaa3hHUHRmamZVTC1ycjhHaHFabWxYeUttTzBJQ2JMUkhYUkJlNUZLRUZSRTl2NUtZWHlPTW9wOTRfS2lERjA2ZE92NVhLWjk0N2pSX2szREtIZ1RaSnQxag?oc=5",
+  "published_at": "2026-11-18T00:57:20+00:00",
+  "relevance": 1,
+  "source": "스포츠조선",
+  "source_type": "news_search",
+  "summary": "A 스포츠조선 article reports that treating Helicobacter pylori, a Group 1 carcinogen, based on resistance testing reached an eradication success rate of 92.9%. The text provided does not mention multiple sclerosis or related demyelinating diseases.",
+  "summary_model": "claude-sonnet-5-5",
+  "title": "Group 1 Carcinogen Helicobacter pylori: Eradication Success Rate Reaches 92.9% With Resistance-Test-Guided Treatment"
+ },
  "0ec4817f65d43ae3": {
   "about_ms": false,
   "category": "regulatory",
@@ -1234,6 +1250,22 @@
   "summary_model": "claude-sonnet-5-5",
   "title": "From platform therapies to high-efficacy treatments: nationwide trends in multiple sclerosis care in Poland"
  },
+ "44aef9f78924f29c": {
+  "about_ms": true,
+  "category": "trial_news",
+  "collected_at": "2026-11-18T14:32:10.312919+00:00",
+  "description": "Disease-Modifying Therapies Market Advances as Roche's Fenebrutinib Cuts Multiple Sclerosis Relapses by Up to 58% openPR.com",
+  "id": "44aef9f78924f29c",
+  "is_published": false,
+  "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPbnBMcFRZYzNQZ2tSQ3hyeUNJN3dWQU5nYWRldzBfXzlVSjIweEdGRzg4QUk5RGp2ZjlpZDkzSFlsa1BuaUV0V1VRRHp1VExRUmo1LXl6ZHhHdWZZeFlBYUJDYVUwRzMwZVQ1bW9STURnWGFrSk0zbFQxcXRDOE9LSjFrUFF5cUhteF9vUDJmdEFtX0hs?oc=5",
+  "published_at": "2026-11-18T09:36:37+00:00",
+  "relevance": 2,
+  "source": "openPR.com",
+  "source_type": "news_search",
+  "summary": "An openPR market-report headline says Roche's fenebrutinib reduced multiple sclerosis relapses by up to 58%. The source text gives no trial details, patient groups or comparators, so the figure cannot be assessed from this item alone.",
+  "summary_model": "claude-sonnet-5-5",
+  "title": "Disease-Modifying Therapies Market Advances as Roche's Fenebrutinib Cuts Multiple Sclerosis Relapses by Up to 58%"
+ },
  "44f0d0861922602c": {
   "about_ms": false,
   "category": "other",
@@ -1505,6 +1537,22 @@
   "summary": null,
   "summary_model": "claude-sonnet-5-5",
   "title": "Quantum BioPharma Q3FY26 Results: Shareholder equity rises 91% to $9.77 million"
+ },
+ "4dca8a3116b098aa": {
+  "about_ms": true,
+  "category": "regulatory",
+  "collected_at": "2026-11-18T14:32:10.312952+00:00",
+  "description": "Multiple Sclerosis Stem Cell Therapy NG01: Company Says FDA Cleared Access, May Charge Patients Tech Times",
+  "id": "4dca8a3116b098aa",
+  "is_published": false,
+  "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxPUlRFU19fWlJnZUQtYTVQU0E5RThXaWFXVTV0YnZaQ013dmRyWDV2d2FvVUJEQ1hILTFYdE40aC1MY1U0Rlo1eXZPb01hNThNZ1lXcTVOaUFVWlJYdF9NSUFBdW0tSHNmeERwYS01MWJ6bEdzd0RNVkdNVFhLSUtNdGl2SHBQaEVTUW9fV05ETHRjR2ktVzR5cF9qQ0RoRU93UGh6bHhqTXkxOGYxNkpXTUliVEJWd2Y1cHBWV3FQbEZXa1NmSjhIQTg4VlhBdFRnYkRuTFVsVmlGRkdGNEQ0M2tn?oc=5",
+  "published_at": "2026-11-17T18:10:07+00:00",
+  "relevance": 2,
+  "source": "Tech Times",
+  "source_type": "news_search",
+  "summary": "A company says the FDA has cleared access to its multiple sclerosis stem cell therapy, NG01, and that it may charge patients for it. The source text provides only the headline, with no details on the therapy, eligibility, cost or supporting evidence.",
+  "summary_model": "claude-sonnet-5-5",
+  "title": "Multiple Sclerosis Stem Cell Therapy NG01: Company Says FDA Cleared Access, May Charge Patients"
  },
  "4dd9316e89131eb0": {
   "about_ms": true,
@@ -1930,6 +1978,22 @@
   "summary_model": "claude-sonnet-5-5",
   "title": "Tiziana’s Phase IIa trial of foralumab meets dual endpoints in na-SPMS"
  },
+ "60f881bec2c1232a": {
+  "about_ms": false,
+  "category": "other",
+  "collected_at": "2026-11-18T14:32:10.313147+00:00",
+  "description": "German Cohort Study Reveals Broad Polymyalgia Care Adherence Despite Steroid Dosing Gaps Bioengineer.org",
+  "id": "60f881bec2c1232a",
+  "is_published": false,
+  "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNQWhPQ2RyQ1NKS2xRSS13RDQ4WWhwN0VWQ2Fyc3BWcUNIUGdDZXc5N0Q0TUl5RXZLcG5SZW15SzluMU5rM0RCVEZyTVc2ck1pZFp3UTYydmhuMFJtSlJoaXllR3VrZDFXWTNDR3FRMWw5Tm9OMkJRWnVTZThISGFSZU80eVY4Q3RQVnJ6N0l0ckUtRzRHNUl1S2VlNndfdXd6UlpBMGdPOWxYYVFyMUhlZXZBRQ?oc=5",
+  "published_at": "2026-11-17T21:25:46+00:00",
+  "relevance": 1,
+  "source": "Bioengineer.org",
+  "source_type": "news_search",
+  "summary": "A German cohort study on polymyalgia rheumatica reports broad adherence to recommended care, with gaps in steroid dosing. The source text is only a headline and does not mention multiple sclerosis or related demyelinating disease.",
+  "summary_model": "claude-sonnet-5-5",
+  "title": "German Cohort Study Reveals Broad Polymyalgia Care Adherence Despite Steroid Dosing Gaps"
+ },
  "6197e758468c1099": {
   "about_ms": false,
   "category": "other",
@@ -2138,6 +2202,22 @@
   "summary_model": "claude-sonnet-5-5",
   "title": "Outcomes after Angiography with Sodium Bicarbonate and Acetylcysteine"
  },
+ "6a32056cd1a486c8": {
+  "about_ms": false,
+  "category": "other",
+  "collected_at": "2026-11-18T14:32:10.313159+00:00",
+  "description": "Longitudinal Registry Reveals Repeated Health State Transitions in Classic Congenital Adrenal Hyperplasia Bioengineer.org",
+  "id": "6a32056cd1a486c8",
+  "is_published": false,
+  "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPYVRpUVU2dkstTkxuaHhyeHR4SnZzZ05oWm0zYUcyRHhxYkJYcmVheTVTZDBRcm9jQmlwSUl0YXY5SkFYTUlwMG1tdHRtVmhOeGV2MXdMaDByZHBwZUk3UnV4Q3BDaXZSX1NIMHpISW45b2NQemVqVFd0d0lITUs2NVdEYVppaWxyV2lzcnctNUVPN0liWk15MC1zSUN2Y251ZnZlbkk1NEJpLVFLdzU1aHhUa1JEbUVVdEJWV2Z4SXBmaGJjaG12dVZB?oc=5",
+  "published_at": "2026-11-14T06:37:15+00:00",
+  "relevance": 1,
+  "source": "Bioengineer.org",
+  "source_type": "news_search",
+  "summary": "A Bioengineer.org item reports that a longitudinal registry of people with classic congenital adrenal hyperplasia found repeated transitions between health states. The text provided gives no further details, and the condition is not related to multiple sclerosis or demyelinating disease.",
+  "summary_model": "claude-sonnet-5-5",
+  "title": "Longitudinal Registry Reveals Repeated Health State Transitions in Classic Congenital Adrenal Hyperplasia"
+ },
  "6bbb117cf85b66ae": {
   "about_ms": true,
   "category": "research",
@@ -2306,6 +2386,22 @@
   "summary_model": "claude-sonnet-5-5",
   "title": "APOE ε4 is linked to relapse-associated disability accrual in MS"
  },
+ "72d04e4415d66d9f": {
+  "about_ms": false,
+  "category": "other",
+  "collected_at": "2026-11-18T14:32:10.313154+00:00",
+  "description": "Systemic Steroids Clear Rare Bladder Sarcoidosis Following Clot-Forming Hematuria Bioengineer.org",
+  "id": "72d04e4415d66d9f",
+  "is_published": false,
+  "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQRU53MnBVR1EwN2VNd1lDaWx2b2NKRjJSNUhWNkszNDRtLUFJaGNPU2w3V2JZRmxXS2hnV2ZGRGxrbm96NndXNGRtUTYxQXhSRTJuVFJvaWxveW5uZ2RxQ3NNQVd3eFhrYjMyTXRoejgzMENZbkkxbWphUkdfU2tMT0RzSndaTnZKTU1vVlo0Y1NMaG9zSldJZGxrQlR4VmtLQ3RwNVR5c1phdw?oc=5",
+  "published_at": "2026-11-18T13:20:43+00:00",
+  "relevance": 1,
+  "source": "Bioengineer.org",
+  "source_type": "news_search",
+  "summary": "The title reports that systemic steroids cleared a rare case of bladder sarcoidosis that followed hematuria with clots. The source text gives no further detail, and the title does not mention multiple sclerosis or related demyelinating disease.",
+  "summary_model": "claude-sonnet-5-5",
+  "title": "Systemic Steroids Clear Rare Bladder Sarcoidosis Following Clot-Forming Hematuria"
+ },
  "75a30f9566a99500": {
   "about_ms": false,
   "category": "other",
@@ -2369,6 +2465,22 @@
   "summary": "A STAT article reports that the most-favored nations policy is leading drugmakers to rethink how they launch products in other countries. The provided text does not mention multiple sclerosis or any specific drug.",
   "summary_model": "claude-sonnet-5-5",
   "title": "Most-favored nations policy makes drugmakers rethink launches abroad"
+ },
+ "76fd81c3f5621477": {
+  "about_ms": false,
+  "category": "other",
+  "collected_at": "2026-11-18T14:32:10.312926+00:00",
+  "description": "Immunic stock: Q3 loss widens ahead of December trial data ad-hoc-news.de",
+  "id": "76fd81c3f5621477",
+  "is_published": false,
+  "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQTDBtcmdSR2dScVFFOE5aYmxzVjJLcXpvQjNrRXFSbFNUY3RKajV2cTdqbG9ObmpsdFFnaVA5LUpsV3hEYTNrTzFKQ2hMb3lRMXNuWFE3RW14ejZEb3NRb0dqX1BWWXRVZkpYRXRaazU0WGtIc1dhdk1zWGhYN3hMWTdKVGZ0eDBMNEhYVC1UcF9VSDIyRVljM1lnM3V3RzFTMWo1am9PQzY1OWFIcERzMHVMLUlHTFFZd0dEbw?oc=5",
+  "published_at": "2026-11-17T21:19:12+00:00",
+  "relevance": 1,
+  "source": "ad-hoc-news.de",
+  "source_type": "news_search",
+  "summary": "Immunic's third-quarter loss widened, according to a stock-focused report. The headline says trial data are expected in December, but the text gives no details about the trial or any disease.",
+  "summary_model": "claude-sonnet-5-5",
+  "title": "Immunic stock: Q3 loss widens ahead of December trial data"
  },
  "782e84b283f48b78": {
   "about_ms": false,
@@ -2706,6 +2818,22 @@
   "summary_model": "claude-sonnet-5-5",
   "title": "Guggenheim Names Top Biotechnology Stock"
  },
+ "86e6ea52ffad1652": {
+  "about_ms": false,
+  "category": "regulatory",
+  "collected_at": "2026-11-18T14:32:10.312935+00:00",
+  "description": "Novartis receives positive CHMP opinion for Cosentyx® in adolescents aged 12+ with hidradenitis suppurativa (HS) Yahoo Finance UK",
+  "id": "86e6ea52ffad1652",
+  "is_published": false,
+  "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOV2lQeUhvOC1wOTJQVU9CeEhMN2xMY2prcjRmWGtvc211Vk5aZ2tfZk9zMG84c1RTWDJicVZITFNRaEhEcHJwMnZZaGpVelo5WEIwYW5FaGl3U3Y1S08tRWtramhyTnVMMkFsZmZPZHZPNzlmTWowNTU4Ukl0a2hwbUJNUXE2QTFNazV5MmZzNXJkZw?oc=5",
+  "published_at": "2026-11-13T18:30:00+00:00",
+  "relevance": 1,
+  "source": "Yahoo Finance UK",
+  "source_type": "news_search",
+  "summary": "Novartis announced a positive CHMP opinion for Cosentyx (secukinumab) in adolescents aged 12 and over with hidradenitis suppurativa, a skin condition. The source text does not mention multiple sclerosis or related demyelinating diseases.",
+  "summary_model": "claude-sonnet-5-5",
+  "title": "Novartis receives positive CHMP opinion for Cosentyx® in adolescents aged 12+ with hidradenitis suppurativa (HS)"
+ },
  "877cb556183ed64f": {
   "about_ms": true,
   "category": "research",
@@ -2753,6 +2881,22 @@
   "summary": "Precision BioSciences issued a third quarter 2026 financial results and business update, according to 01net. The provided text contains no details on content, and no mention of multiple sclerosis or related demyelinating disease.",
   "summary_model": "claude-sonnet-5-5",
   "title": "Precision BioSciences Reports Third Quarter 2026 Financial Results and Provides Business Update"
+ },
+ "8855e885a259bbee": {
+  "about_ms": false,
+  "category": "other",
+  "collected_at": "2026-11-18T14:32:10.313121+00:00",
+  "description": "A Push on Capitol Hill to Strengthen American-made Medicines Alliance for American Manufacturing",
+  "id": "8855e885a259bbee",
+  "is_published": false,
+  "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOSkNGYTVzLVAxbUhPZTZlSExFLUtMaW05V3FDZkplcDN3VzVBV19uSUJneDhUM0E5djh1WFk5eG5jaFh6dEtGX19XNnVQYmxDS0VZal92RzRpZF9pMTFRU2M2R19QTVpNU1FGcm9lWkxKd00zSlRKVERLNWozY0lDMlVOaDdCN09FaFpBeUN6Vjd2YXlTbG9IdWljNV9GZnFpUnI3MXJUdw?oc=5",
+  "published_at": "2026-11-18T00:37:24+00:00",
+  "relevance": 1,
+  "source": "Alliance for American Manufacturing",
+  "source_type": "news_search",
+  "summary": "The Alliance for American Manufacturing published a piece titled 'A Push on Capitol Hill to Strengthen American-made Medicines.' The provided text gives no further details, and no mention of multiple sclerosis or related diseases appears.",
+  "summary_model": "claude-sonnet-5-5",
+  "title": "A Push on Capitol Hill to Strengthen American-made Medicines"
  },
  "889cda1ea4adb0ed": {
   "about_ms": true,
@@ -3114,6 +3258,22 @@
   "summary_model": "claude-sonnet-5-5",
   "title": "What the ‘negative space’ tells us about the immunology of multiple sclerosis"
  },
+ "974b19377b9390e1": {
+  "about_ms": true,
+  "category": "research",
+  "collected_at": "2026-11-18T14:32:10.312652+00:00",
+  "description": "A daily supplement combining probiotics and prebiotics may help manage fatigue in people with multiple sclerosis (MS), according to a small clinical trial. Probiotics are live microorganisms thought to help with gut health, while prebiotics are substances that support beneficial gut microbes. Data showed that participants taking Familact, a supplement containing nine bacterial strains and […] The post Daily supplement may help ease MS fatigue, small trial suggests appeared first on Multiple Sclerosis News Today .",
+  "id": "974b19377b9390e1",
+  "is_published": false,
+  "link": "https://multiplesclerosisnewstoday.com/news-posts/2026/11/17/daily-supplement-help-ease-ms-fatigue-small-trial-suggests/",
+  "published_at": "2026-11-17T18:15:14+00:00",
+  "relevance": 2,
+  "source": "MS News Today",
+  "source_type": "news",
+  "summary": "A small clinical trial found that people with MS taking Familact, a daily supplement combining probiotics and prebiotics with nine bacterial strains, showed data suggesting it may help manage fatigue. The trial was small, so findings are preliminary.",
+  "summary_model": "claude-sonnet-5-5",
+  "title": "Daily supplement may help ease MS fatigue, small trial suggests"
+ },
  "99c5225fea4b3c1c": {
   "about_ms": true,
   "category": "research",
@@ -3145,6 +3305,22 @@
   "summary": "The World Health Organization warns that progress on antimicrobial resistance is falling short of its 2030 targets. The source text gives no further detail and does not mention multiple sclerosis or related demyelinating diseases.",
   "summary_model": "claude-sonnet-5-5",
   "title": "WHO warns progress on antimicrobial resistance falls short of 2030 targets"
+ },
+ "9ad6fccb74c0a1b0": {
+  "about_ms": false,
+  "category": "other",
+  "collected_at": "2026-11-18T14:32:10.313101+00:00",
+  "description": "Cerebral Infarctions Reveal Hypereosinophilic Syndrome in Patient with Loeffler Endocarditis Bioengineer.org",
+  "id": "9ad6fccb74c0a1b0",
+  "is_published": false,
+  "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxObXc0MW5QeEIyWlhEcjZYTVdaSFE3dFJUWkI0TzF3Wnp4NGYwTEtKXzczLWRBeHVGVUxKbHFnVnAwMEFjWTJMZW9kTzNvcHJ6aDd2OEhzTjFta3VLYzgwdzlQU0V3Y1hTUm92YlowS19rOUltOE1HYVFhWWNiY01QRUloOFNfY0Q4b3ZRVm04MkJfOG42WEp4RzMteDBwdC1BTFp2aHFZOHRlT18wQVFFSHlNb194VzVx?oc=5",
+  "published_at": "2026-11-18T01:41:16+00:00",
+  "relevance": 1,
+  "source": "Bioengineer.org",
+  "source_type": "news_search",
+  "summary": "A Bioengineer.org item reports that cerebral infarctions (strokes) revealed hypereosinophilic syndrome in a patient with Loeffler endocarditis. The text provided gives no further details, and multiple sclerosis or related demyelinating disease is not mentioned.",
+  "summary_model": "claude-sonnet-5-5",
+  "title": "Cerebral Infarctions Reveal Hypereosinophilic Syndrome in Patient with Loeffler Endocarditis"
  },
  "9bee2a06f6a973af": {
   "about_ms": true,
@@ -4090,6 +4266,22 @@
   "summary_model": "claude-sonnet-5-5",
   "title": "She Had a Life-Threatening Reaction After Sex"
  },
+ "d335a906078f799a": {
+  "about_ms": false,
+  "category": "trial_news",
+  "collected_at": "2026-11-18T14:32:10.313125+00:00",
+  "description": "UK HealthCare patient enters experimental CAR-T therapy trial for lupus LEX 18 News",
+  "id": "d335a906078f799a",
+  "is_published": false,
+  "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQTHNxRmlmZVBfUEFfd1BzM3N3SXA4YkdSWWRWZk9vOURHV216S1FzZ1RYbzc5aUR2SEZ2SzlQYkNyaVVBd2JFcnlCMFJCLXk4QUQ0U3Jwdm5yV3NxRG43bDB4YjEwZHBaVlg2bTZrZmhuUnQxbldlTVA0QXpiVDBuakwyS19Ucm9sOVNUdkF5S3ZTajB2NjZZTWxPcU5maVp4elpBcVB5QUNMWjB6SkdvMUt0RmpDUjg?oc=5",
+  "published_at": "2026-11-13T04:29:46+00:00",
+  "relevance": 2,
+  "source": "LEX 18 News",
+  "source_type": "news_search",
+  "summary": "LEX 18 News reports that a UK HealthCare patient has entered an experimental CAR-T therapy trial for lupus. The source text gives only the headline, with no details on the trial, results, or any link to multiple sclerosis.",
+  "summary_model": "claude-sonnet-5-5",
+  "title": "UK HealthCare patient enters experimental CAR-T therapy trial for lupus"
+ },
  "d4fc3472bc9c0cce": {
   "about_ms": true,
   "category": "treatment",
@@ -4121,6 +4313,22 @@
   "summary": "Kyverna Therapeutics announced the publication of registrational data, according to a truncated headline from Quantisnow. The text provided does not say which condition, treatment, or results are involved, and it does not mention MS.",
   "summary_model": "claude-sonnet-5-5",
   "title": "Kyverna Therapeutics Announces Publication of Registrational..."
+ },
+ "d62c8e607fedf574": {
+  "about_ms": false,
+  "category": "other",
+  "collected_at": "2026-11-18T14:32:10.313109+00:00",
+  "description": "“Antibiotics, Too, Must Be Chosen Carefully” ... Tailored Prescriptions Eradicate H. pylori in 9 Out of 10 Patients [Health Check] 파이낸셜뉴스",
+  "id": "d62c8e607fedf574",
+  "is_published": false,
+  "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9mZkNaMWlxQ0dGV2xWQkhjaTRFSXZ2WWZrR0N0OTAxY285aVEtUUgtSE4xSzRsUFRnNTYyMTRRWTdfUXFNckVvZEJ6QjZCaEtLZGxFOGZSRmU?oc=5",
+  "published_at": "2026-11-18T00:09:57+00:00",
+  "relevance": 1,
+  "source": "파이낸셜뉴스",
+  "source_type": "news_search",
+  "summary": "A Korean news article reports that H. pylori infection was eradicated in 9 out of 10 patients when antibiotic prescriptions were tailored to the individual. The text provided does not mention multiple sclerosis or related demyelinating diseases.",
+  "summary_model": "claude-sonnet-5-5",
+  "title": "“Antibiotics, Too, Must Be Chosen Carefully” ... Tailored Prescriptions Eradicate H. pylori in 9 Out of 10 Patients [Health Check]"
  },
  "d9156dc56d5387d4": {
   "about_ms": false,
@@ -4506,6 +4714,22 @@
   "summary_model": "claude-sonnet-5-5",
   "title": "Multiancestry genome-wide association and multiomics analyses elucidate spatiocellular features of multiple sclerosis genetics"
  },
+ "ed987c8195e4b6bf": {
+  "about_ms": false,
+  "category": "other",
+  "collected_at": "2026-11-18T14:32:10.313091+00:00",
+  "description": "Tapering Steroids for PMR - Expert Guidance Included CreakyJoints",
+  "id": "ed987c8195e4b6bf",
+  "is_published": false,
+  "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1HNHNDMnF6Skg3Um82WnJqM3FCU0NxNGhrSlZJYzktSm5JVU81NWcxRzJSNVNiR0FmS1NLQ1VoVl9XbGduUnJIeHV2elFQeGVrQjJfMHN5b3Z6d0pocUU2VFJsTTRpUHhsSnBHYXdB?oc=5",
+  "published_at": "2026-11-17T18:48:43+00:00",
+  "relevance": 1,
+  "source": "CreakyJoints",
+  "source_type": "news_search",
+  "summary": "CreakyJoints published an item on tapering steroids for polymyalgia rheumatica (PMR), with expert guidance included. It does not address MS, NMOSD, MOGAD or related demyelinating disease, and no further details are given.",
+  "summary_model": "claude-sonnet-5-5",
+  "title": "Tapering Steroids for PMR - Expert Guidance Included"
+ },
  "ee244cf0eb8f7361": {
   "about_ms": true,
   "category": "trial_news",
@@ -4785,6 +5009,22 @@
   "summary": "Fierce Biotech reports that Kyverna has abandoned a next-generation autoimmune CAR-T therapy that had been presented as a follow-up to its lead candidate, miv-cel. The provided text gives no further details, including any link to MS.",
   "summary_model": "claude-sonnet-5-5",
   "title": "Kyverna abandons next-gen autoimmune CAR-T once touted as follow-up to miv-cel"
+ },
+ "f5e62490fdde944c": {
+  "about_ms": false,
+  "category": "regulatory",
+  "collected_at": "2026-11-18T14:32:10.312966+00:00",
+  "description": "The FDA Has Approved Four Cannabis Medicines. The Plant Stayed in Schedule I. stupidDOPE",
+  "id": "f5e62490fdde944c",
+  "is_published": false,
+  "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOV09PZkswLTY1SjdxY1hiem14OV9VQnNOYllqMFR1UDAxUXI1Sl8weGVXZ3BKT3BXendSQlpxdG9ZZlVsaGpIWGR3RTRLY19PSUtzT1BSTjFnYk90UnJod3YwYVB2Zk01MmRMbDJrVndETlFJNnJ4ek1ydS1DemxJYm1IeVZISzNPNEFRSjd2UW1heWQ1TkZNT0lsZmRIY2ZpYnR2cnI3ZGFqaUU?oc=5",
+  "published_at": "2026-11-16T21:16:21+00:00",
+  "relevance": 1,
+  "source": "stupidDOPE",
+  "source_type": "news_search",
+  "summary": "The source's title says the FDA has approved four cannabis-based medicines while the cannabis plant itself remains in Schedule I. No article text beyond the title was provided, and MS is not mentioned.",
+  "summary_model": "claude-sonnet-5-5",
+  "title": "The FDA Has Approved Four Cannabis Medicines. The Plant Stayed in Schedule I."
  },
  "f6225bc3a7673f53": {
   "about_ms": true,
