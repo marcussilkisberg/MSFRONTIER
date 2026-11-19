@@ -1,4 +1,20 @@
 {
+ "00a0ffb6163c2fbf": {
+  "about_ms": false,
+  "category": "other",
+  "collected_at": "2026-11-19T14:41:45.473838+00:00",
+  "description": "Low-Virulence Bacteria Fail to Prove Causation in Spinal Disc Degeneration Bioengineer.org",
+  "id": "00a0ffb6163c2fbf",
+  "is_published": false,
+  "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOXy1rUTc5M2x3RFVEc0p2eURzZWhzLW8xNzlmMkZ0dGktS2lvdHlwZ0E3bmxtQy1zeUJHS1pYeWdlcHVOcERPdm5vZWU0OHlFZUhzMGdkVk1sQWY0WHBBd0VCQ0FfdHJjWGVzR1pGeG5wNzhHRnpaMzZVeGdVNl82dE1BMmxpMkpfRnhMbFh3NzU2YVF6akM1ZnpYU0lCVHRa?oc=5",
+  "published_at": "2026-11-19T05:32:26+00:00",
+  "relevance": 1,
+  "source": "Bioengineer.org",
+  "source_type": "news_search",
+  "summary": "The title says low-virulence bacteria have not been shown to cause spinal disc degeneration. The provided text has no further detail, and nothing in it relates to multiple sclerosis or other demyelinating disease.",
+  "summary_model": "claude-sonnet-5-5",
+  "title": "Low-Virulence Bacteria Fail to Prove Causation in Spinal Disc Degeneration"
+ },
  "00f15df875d10d85": {
   "about_ms": false,
   "category": "other",
@@ -190,6 +206,22 @@
   "summary": "A study from China found that an MRI technique called APART-QSM may help researchers track signs of myelin repair in MS. Increases in a myelin-sensitive MRI measurement within lesions were significantly associated with improvements in disability scores.",
   "summary_model": "claude-sonnet-5-5",
   "title": "New MRI technique may reveal signs of myelin repair in multiple sclerosis"
+ },
+ "0da8343f33c383be": {
+  "about_ms": false,
+  "category": "other",
+  "collected_at": "2026-11-19T14:41:45.473599+00:00",
+  "description": "Novartis showcases hematology momentum and continued breast cancer leadership at ASH and SABCS Yahoo Finance UK",
+  "id": "0da8343f33c383be",
+  "is_published": false,
+  "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNMzhmMjMxTmhOMmoxZ09iR2F2d3ZJYktzNTZfRFF4WFNET0wtcWZ4V2FMZ1VLSnBMMDlCQjlka004SzEyZ25oR2c1djl0S3laX01WYkZjMHUySHZaeElqSFFCQTRrSUxTODBxcjUzRUdKS1B2cDBPcHpSVEF2aDFOTE8yenU4bzZwaXRqelNUM2lwVVRZMExqLWMwaktsUQ?oc=5",
+  "published_at": "2026-11-18T06:00:00+00:00",
+  "relevance": 1,
+  "source": "Yahoo Finance UK",
+  "source_type": "news_search",
+  "summary": "Novartis announced it is presenting data in hematology at the ASH meeting and in breast cancer at SABCS. The text provided gives no details and does not mention multiple sclerosis or related demyelinating diseases.",
+  "summary_model": "claude-sonnet-5-5",
+  "title": "Novartis showcases hematology momentum and continued breast cancer leadership at ASH and SABCS"
  },
  "0eab631caf3c4d77": {
   "about_ms": false,
@@ -750,6 +782,22 @@
   "summary": "GoodRx published an article titled \"UTI Treatment: Which Antibiotics Work Best?\" The provided text contains only the title, with no details on antibiotics, findings, or any link to multiple sclerosis.",
   "summary_model": "claude-sonnet-5-5",
   "title": "UTI Treatment: Which Antibiotics Work Best?"
+ },
+ "294e5b8309e8ae5c": {
+  "about_ms": false,
+  "category": "other",
+  "collected_at": "2026-11-19T14:41:45.473641+00:00",
+  "description": "Global agenda: new approvals, market withdrawals, deals, guideline changes, and research wins and failures Новости GxP",
+  "id": "294e5b8309e8ae5c",
+  "is_published": false,
+  "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPT2FZVjcwQUN2MlFTTi1obnljN0JsanprMWhXTWk2WXFYY0QtSk9ZZzNiRUtnb0xhakVyaDVMNG83MFhMZlNEbFRBbVhQSFFKMFk4RmwyYWw4TVpobjFBT05OcU1hOWVuaHpXUGxtVy1KRldMY0x3MXpNNzBLN2lhN2ZEZkFGbW9CVklFYlVEM2ZSOTl2WXJpYjBmSkExNURvMnZVMmpZQ0lxZVhDVFlwaUhXdXNBT1BQbnJhaFRjeVVHYU4xeTdYc0VSYWxSd9IBzgFBVV95cUxPT2FZVjcwQUN2MlFTTi1obnljN0JsanprMWhXTWk2WXFYY0QtSk9ZZzNiRUtnb0xhakVyaDVMNG83MFhMZlNEbFRBbVhQSFFKMFk4RmwyYWw4TVpobjFBT05OcU1hOWVuaHpXUGxtVy1KRldMY0x3MXpNNzBLN2lhN2ZEZkFGbW9CVklFYlVEM2ZSOTl2WXJpYjBmSkExNURvMnZVMmpZQ0lxZVhDVFlwaUhXdXNBT1BQbnJhaFRjeVVHYU4xeTdYc0VSYWxSdw?oc=5",
+  "published_at": "2026-11-16T14:10:12+00:00",
+  "relevance": 1,
+  "source": "Новости GxP",
+  "source_type": "news_search",
+  "summary": "The source is a general pharmaceutical news roundup covering approvals, market withdrawals, deals, guideline changes, and research successes and failures. The text provided names no multiple sclerosis or related demyelinating disease content.",
+  "summary_model": "claude-sonnet-5-5",
+  "title": "Global agenda: new approvals, market withdrawals, deals, guideline changes, and research wins and failures"
  },
  "29d8130161132a49": {
   "about_ms": true,
@@ -1362,6 +1410,22 @@
   "summary_model": "claude-sonnet-5-5",
   "title": "D&D Pharmatech is pushing for technology export of \"DD01,\" a treatment for hepatitis (MASH) rela.."
  },
+ "475cdbeec549edab": {
+  "about_ms": false,
+  "category": "other",
+  "collected_at": "2026-11-19T14:41:45.473834+00:00",
+  "description": "Transcriptomic Analysis Identifies LRRC8A as Colon Adenocarcinoma Prognostic Indicator Bioengineer.org",
+  "id": "475cdbeec549edab",
+  "is_published": false,
+  "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOdFZSN2RJdndLb3FOUXdnNzB1YXZxR3lHNkRzZjVUNDJjdDhIZkZTYmtCUThMRWRHYTZObG1UQlNHSXp5d1FTQ2dRZkd4LVgwZkd5enptdTNFclRuOHFMbC1pNzBqSTBlX2JoV3paTjcwaXVCdU5falVZM0RiTHJhUGRMbUEzTkV0MHVtaGhTQkYteDYyclZia3ZkYkFhdF80ZDFZZkxabl9BZTdHZkdtOQ?oc=5",
+  "published_at": "2026-11-16T03:13:57+00:00",
+  "relevance": 1,
+  "source": "Bioengineer.org",
+  "source_type": "news_search",
+  "summary": "The title reports a transcriptomic analysis identifying LRRC8A as a prognostic indicator in colon adenocarcinoma. No further details are given, and the item does not mention multiple sclerosis or related demyelinating diseases.",
+  "summary_model": "claude-sonnet-5-5",
+  "title": "Transcriptomic Analysis Identifies LRRC8A as Colon Adenocarcinoma Prognostic Indicator"
+ },
  "47eb904c08a3c0ed": {
   "about_ms": true,
   "category": "other",
@@ -1609,6 +1673,22 @@
   "summary": "Researchers published a protocol for a waitlist randomized trial of an online 8-week mindfulness-based cognitive therapy course tailored for people with MS and mild-to-moderate depression. It plans at least 152 participants, with depression measured by HADS-D; no results yet.",
   "summary_model": "claude-sonnet-5-5",
   "title": "Online mindfulness-based cognitive therapy for people with multiple sclerosis with mild-to-moderate depression- protocol for a type 1 hybrid effectiveness-implementation study."
+ },
+ "4fb5f3d59ab6cf6b": {
+  "about_ms": false,
+  "category": "regulatory",
+  "collected_at": "2026-11-19T14:41:45.473786+00:00",
+  "description": "Pharmacology Update 2026: New Approvals for PsA, SLE, and Pulmonary Fibrosis Rheumatology Advisor",
+  "id": "4fb5f3d59ab6cf6b",
+  "is_published": false,
+  "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPRlY4YWZkRldKLUZzVS00VGoyUW54UHJGTkJBQnlCbzZ5cy1xSGRGeGJWT2NSbXJVQWNFYk15QlowTkExRWFhaGlHc1hRb3RFZnRxRmZJNmUzRk5WRlExRTcwb29Za2hlSnNiN1hOVnZFcWNCbGlTRzlmNVFxMUxJenJseHBtZXpJVWQ1aHFLTDljVDVRczNKNGJ3eXJyWmpHT0RWdDVFNFpueFk?oc=5",
+  "published_at": "2026-11-11T05:00:00+00:00",
+  "relevance": 1,
+  "source": "Rheumatology Advisor",
+  "source_type": "news_search",
+  "summary": "Rheumatology Advisor's 2026 pharmacology update covers new drug approvals for psoriatic arthritis, systemic lupus erythematosus, and pulmonary fibrosis. The provided text does not mention multiple sclerosis or related demyelinating diseases, and gives no further details.",
+  "summary_model": "claude-sonnet-5-5",
+  "title": "Pharmacology Update 2026: New Approvals for PsA, SLE, and Pulmonary Fibrosis"
  },
  "501dab1da50518b9": {
   "about_ms": true,
@@ -1865,6 +1945,22 @@
   "summary": "A Tech Times headline reports that CAR-T therapy cut walking time by 46% in stiff person syndrome, with zero deaths, while three deaths occurred with other drugs. The text provided gives no further detail and does not mention MS.",
   "summary_model": "claude-sonnet-5-5",
   "title": "CAR-T Therapy Cuts Walking Time 46% in Stiff Person Syndrome, Registering Zero Deaths as Rival Drugs Killed Three"
+ },
+ "5cd71b05fb5c09af": {
+  "about_ms": false,
+  "category": "other",
+  "collected_at": "2026-11-19T14:41:45.473795+00:00",
+  "description": "Inebilizumab Isn’t a Last Resort in gMG: Richard J. Nowak, MD, MS The American Journal of Managed Care",
+  "id": "5cd71b05fb5c09af",
+  "is_published": false,
+  "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPWGh3Q3B6Mmd4Ymc1LW11SGFxU24zaXpMLWd4RGlSQjM2YlliUC1yZ2JvTHRBa0ZmVDZOblpmZGF6SWFZNTVmYmpyS2drbUdzbUdES1ZPTnhqNnA3ajV3T01YU0FlMkk5bnA2dklhM01tMkdSSU9RX0M5ZVdwN1BPNmdaNzMtcHM0THlkSFd5Tmk?oc=5",
+  "published_at": "2026-11-17T22:18:34+00:00",
+  "relevance": 1,
+  "source": "The American Journal of Managed Care",
+  "source_type": "news_search",
+  "summary": "The American Journal of Managed Care lists an item titled \"Inebilizumab Isn't a Last Resort in gMG,\" featuring Richard J. Nowak, MD, MS. It concerns generalized myasthenia gravis, not MS or related demyelinating disease. No further details were provided in the text.",
+  "summary_model": "claude-sonnet-5-5",
+  "title": "Inebilizumab Isn’t a Last Resort in gMG: Richard J. Nowak, MD, MS"
  },
  "5dae15b1b369160b": {
   "about_ms": true,
@@ -2154,6 +2250,22 @@
   "summary_model": "claude-sonnet-5-5",
   "title": "Tiziana Life Sciences to Present at the Jefferies Global Healthcare Conference 2026 in London"
  },
+ "69cd21d665f59ee5": {
+  "about_ms": false,
+  "category": "other",
+  "collected_at": "2026-11-19T14:41:45.473782+00:00",
+  "description": "Acute and Chronic Urticaria: Evaluation and Treatment American Academy Of Family Physicians | AAFP",
+  "id": "69cd21d665f59ee5",
+  "is_published": false,
+  "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE50S090YmFBUXZ0WFplMlpZcjhvRnZsbzdMWjRhN0k2RWdONTUzMjFCVUJGaDdrOHhBLUxFOUlRZ0NoTUJqMGI4N0laVTVqcW5rY0xvQ3hnQQ?oc=5",
+  "published_at": "2026-05-16T22:42:53+00:00",
+  "relevance": 1,
+  "source": "American Academy Of Family Physicians | AAFP",
+  "source_type": "news_search",
+  "summary": "The source is an American Academy of Family Physicians article titled \"Acute and Chronic Urticaria: Evaluation and Treatment.\" The provided text gives no further details, and it does not mention multiple sclerosis or related demyelinating disease.",
+  "summary_model": "claude-sonnet-5-5",
+  "title": "Acute and Chronic Urticaria: Evaluation and Treatment"
+ },
  "69f167c8f9436e31": {
   "about_ms": true,
   "category": "regulatory",
@@ -2306,6 +2418,22 @@
   "summary_model": "claude-sonnet-5-5",
   "title": "Study ties MS therapy to higher risk of inflammatory bowel disease"
  },
+ "6da6632b839db3ec": {
+  "about_ms": false,
+  "category": "regulatory",
+  "collected_at": "2026-11-19T14:41:45.473806+00:00",
+  "description": "FDA Approves Secukinumab as First IL-17 Biologic for Polymyalgia Rheumatica Pharmacy Times",
+  "id": "6da6632b839db3ec",
+  "is_published": false,
+  "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPMUxDeTdSbkppcGczTEk4SHMybXNDZHBEYTU3VzgxNUQ0Q05uY0dBNU96NEhvUFdpMDB4dDRYUDAxNlh0Y0t4Nm9SbGFOMExLUGFXTlk0TDFRLTQ3ZUNKeUFKS1AxOXRmczNXbjRhaGo4Q1g5Tmo2eGVDR3lvTktzSk9sMnRnVVB2cG1lcnhtTlBjU0VvUlAtTlhhM2dMS2lzeGIxSEdvbjkwQi00QTNN?oc=5",
+  "published_at": "2026-11-17T16:30:05+00:00",
+  "relevance": 1,
+  "source": "Pharmacy Times",
+  "source_type": "news_search",
+  "summary": "The FDA has approved secukinumab as the first IL-17 biologic for polymyalgia rheumatica, according to Pharmacy Times. The provided text gives no further details, and the item does not concern multiple sclerosis or related demyelinating diseases.",
+  "summary_model": "claude-sonnet-5-5",
+  "title": "FDA Approves Secukinumab as First IL-17 Biologic for Polymyalgia Rheumatica"
+ },
  "6e18ce73b4057557": {
   "about_ms": false,
   "category": "regulatory",
@@ -2385,6 +2513,22 @@
   "summary": "A Nature paper reports an association between the APOE ε4 gene variant and disability accrual linked to relapses in MS. No further details, such as study size or effect size, were available beyond the title.",
   "summary_model": "claude-sonnet-5-5",
   "title": "APOE ε4 is linked to relapse-associated disability accrual in MS"
+ },
+ "6faa220049ca942e": {
+  "about_ms": false,
+  "category": "research",
+  "collected_at": "2026-11-19T14:41:45.473765+00:00",
+  "description": "Nanoliposomes May Deliver Malvidin or N-Acetylcysteine to Target Alzheimer’s Mitochondrial Failure Bioengineer.org",
+  "id": "6faa220049ca942e",
+  "is_published": false,
+  "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNOXoxcmdqbllXNDB5OENwTVMxSXB1cGpyRXVkRHpzSmNkZnpfc3RhWUI4V2I3bUVwMzc3bmlZZzRzWjNFU1RlOTRnVW5sei00UFB0S2lhdjlJaTkyMndTOGJlX1VRUlYwYTNPMmNocXFTWWgyaS1fMExIYWJWQlg0dk1PUjkwZzVFdkgyRDUwUnVtTlNpSXVTRnJwZHVhVGV2YTBVeGRHNk5GQks1cDRXY0FnZnh6RXNnMVlycnN0aw?oc=5",
+  "published_at": "2026-11-19T03:41:33+00:00",
+  "relevance": 1,
+  "source": "Bioengineer.org",
+  "source_type": "news_search",
+  "summary": "A Bioengineer.org item, based on its title, discusses nanoliposomes as a possible way to deliver malvidin or N-acetylcysteine to target mitochondrial failure in Alzheimer's disease. No multiple sclerosis content or study details are given.",
+  "summary_model": "claude-sonnet-5-5",
+  "title": "Nanoliposomes May Deliver Malvidin or N-Acetylcysteine to Target Alzheimer’s Mitochondrial Failure"
  },
  "72d04e4415d66d9f": {
   "about_ms": false,
@@ -2690,6 +2834,22 @@
   "summary_model": "claude-sonnet-5-5",
   "title": "DEA Marijuana Rescheduling Hearing Closes With Government Not Meeting Its Burden Of Proof?"
  },
+ "7ee23572a9fc11aa": {
+  "about_ms": true,
+  "category": "living_with_ms",
+  "collected_at": "2026-11-19T14:41:45.473374+00:00",
+  "description": "November marks 10 years since I was diagnosed with relapsing-remitting multiple sclerosis (MS). It’s a number that feels both significant and a little difficult to put into words. I have found myself wondering whether to call it an anniversary, because anniversaries are often associated with celebrations, happy memories, and moments worth commemorating. I am not […] The post Sitting with the complicated reality of an MS milestone appeared first on Multiple Sclerosis News Today .",
+  "id": "7ee23572a9fc11aa",
+  "is_published": false,
+  "link": "https://multiplesclerosisnewstoday.com/columns/2026/11/18/sitting-complicated-reality-ms-milestone/",
+  "published_at": "2026-11-18T15:00:27+00:00",
+  "relevance": 2,
+  "source": "MS News Today",
+  "source_type": "news",
+  "summary": "A columnist marks 10 years since being diagnosed with relapsing-remitting MS this November. The writer reflects on whether \"anniversary\" is the right word, since it usually implies celebration, and finds the milestone hard to put into words.",
+  "summary_model": "claude-sonnet-5-5",
+  "title": "Sitting with the complicated reality of an MS milestone"
+ },
  "7fb7679c366bfa06": {
   "about_ms": true,
   "category": "trial_news",
@@ -2802,6 +2962,22 @@
   "summary_model": "claude-sonnet-5-5",
   "title": "Towards a biologically informed description of multiple sclerosis disease course — a roadmap for transition"
  },
+ "846fd5b17a2e3f7d": {
+  "about_ms": false,
+  "category": "regulatory",
+  "collected_at": "2026-11-19T14:41:45.473589+00:00",
+  "description": "FDA clears IND for Oculis' privosegtor program expansion Glance by Eyes On Eyecare",
+  "id": "846fd5b17a2e3f7d",
+  "is_published": false,
+  "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPRmlMTWdHcVBia0ZaNGZuOTA3U18xR2xtUVU5N1RTTlFBVFNZcDNWTUxYd3FGR0FlTlZ4ZzlpdVJWTGpSMG5qQ0pqbjY0Z0htZW5sSVhuay1CQnRZRWlkSnVtN2Q2OFgxcTh5Wk94ZmRXbTlIaUplSXRSY0VZeGVXZXJCTkNWQ0FkTnRaSG9tYXhhODRFTWZnRVR0RGZaRGMxbTJPdXRJQ3ZyV0dh?oc=5",
+  "published_at": "2026-11-19T12:27:56+00:00",
+  "relevance": 2,
+  "source": "Glance by Eyes On Eyecare",
+  "source_type": "news_search",
+  "summary": "The FDA has cleared an Investigational New Drug application for an expansion of Oculis' privosegtor program, according to the headline. The text gives no details on the conditions, trial design or any link to MS.",
+  "summary_model": "claude-sonnet-5-5",
+  "title": "FDA clears IND for Oculis' privosegtor program expansion"
+ },
  "85caeab92ffd9a47": {
   "about_ms": false,
   "category": "other",
@@ -2817,6 +2993,22 @@
   "summary": "The source is a Yahoo Finance Singapore item titled 'Guggenheim Names Top Biotechnology Stock'. No article text beyond the title was provided, so no details about MS, NMOSD, MOGAD, or any company or drug are available.",
   "summary_model": "claude-sonnet-5-5",
   "title": "Guggenheim Names Top Biotechnology Stock"
+ },
+ "85d6f0b645a4531a": {
+  "about_ms": false,
+  "category": "other",
+  "collected_at": "2026-11-19T14:41:45.473830+00:00",
+  "description": "Dissociative Corticosteroid Vamorolone Shows Differentiated Safety and Efficacy for DMD Treatment Bioengineer.org",
+  "id": "85d6f0b645a4531a",
+  "is_published": false,
+  "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPSkplV1ZjWk5yT1VMdGVncnRGcVBVUmVIQlJiRDhKOUhwOENkMWRncTlXZFBJa1NIZ21ENTktWURSLUt4YmQtbWxWbzdYSmZkenpTeUxWRWVnWk1TM0lYYWJrak1XUXdCRmFsNk8zcHlVWU13X3hMSkRIamdINE5FMFhjTjNwcWYxM2RVWmM3ZHlncmtnb202SmR2VDI5ZlZhYnFzd0IyUkxRdjlYTXlFbVE5d3JmMjFyMlRVR3lzaw?oc=5",
+  "published_at": "2026-11-18T20:41:26+00:00",
+  "relevance": 1,
+  "source": "Bioengineer.org",
+  "source_type": "news_search",
+  "summary": "A Bioengineer.org item titled as reporting that vamorolone, a dissociative corticosteroid, shows differentiated safety and efficacy for treating Duchenne muscular dystrophy (DMD). The text provided gives no further details and does not mention MS or related demyelinating diseases.",
+  "summary_model": "claude-sonnet-5-5",
+  "title": "Dissociative Corticosteroid Vamorolone Shows Differentiated Safety and Efficacy for DMD Treatment"
  },
  "86e6ea52ffad1652": {
   "about_ms": false,
@@ -3338,6 +3530,22 @@
   "summary_model": "claude-sonnet-5-5",
   "title": "How to Deal With ‘Wearing-Off’ Phenomenon in MS Treatment"
  },
+ "9c0bef90ee222133": {
+  "about_ms": false,
+  "category": "research",
+  "collected_at": "2026-11-19T14:41:45.473674+00:00",
+  "description": "Multiple Sclerosis Drug Teriflunomide Eases Inflammatory Diseases by Directly Inhibiting NLRP3 Bioengineer.org",
+  "id": "9c0bef90ee222133",
+  "is_published": false,
+  "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOVGlteVk3VHNWdkdoSk9qS2dZNGxua2Q3V2xfYkpSOF92Z2N3bHNZZmV4TXFaU3U4TkJMYkNvUkJxVVRCMUpINVlQVEdlaHR3b2w1bDhWWGNVbVdkM0JmVWNRLU9uckRJWk5UdUIxcmhtYm5RNU5GbTl0eXZBMGF2WERrSm5WWGFCN01tcktlUGRYRXBtLWw4ZmJ0RktrSUZIdVhZNHdlTVA0QXZzQkxYYXpybFluLVI2Q2hF?oc=5",
+  "published_at": "2026-11-19T03:06:32+00:00",
+  "relevance": 2,
+  "source": "Bioengineer.org",
+  "source_type": "news_search",
+  "summary": "A Bioengineer.org report says teriflunomide, a multiple sclerosis drug, eases inflammatory diseases by directly inhibiting NLRP3. The provided text gives no details on study type, models used, or results, so the findings' relevance to people with MS is unclear.",
+  "summary_model": "claude-sonnet-5-5",
+  "title": "Multiple Sclerosis Drug Teriflunomide Eases Inflammatory Diseases by Directly Inhibiting NLRP3"
+ },
  "9c6619474f869508": {
   "about_ms": false,
   "category": "other",
@@ -3641,6 +3849,22 @@
   "summary": "A review of six studies found gluten-free diets may improve fatigue, quality of life, and some disability measures in people with MS. It is unclear whether gluten avoidance or other dietary changes explain this, and the evidence was of very low certainty.",
   "summary_model": "claude-sonnet-5-5",
   "title": "Review casts doubt on clinicial benefits of a gluten-free diet in MS"
+ },
+ "ab88b4fcb2b5cba8": {
+  "about_ms": false,
+  "category": "other",
+  "collected_at": "2026-11-19T14:41:45.473770+00:00",
+  "description": "Deretil asks the EU to support the manufacture of key components for antibiotics such as amoxicillin Demócrata",
+  "id": "ab88b4fcb2b5cba8",
+  "is_published": false,
+  "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQYlZpTGFYTnZKZEZwbU11QTJKSUdTbm5YRmdLcWJua0szLXZCYmNvdDQtNndIa2lBYnBQVDlmZVd3dXdCblkxY3ZqeDZ1TmhyUGtYdzFqZU9nY3RwZ3ZUUEtNaXJNWkdPc1M4WFIxOEQ3bjYxbW9GMjlOUV96NmNiRHZLblNCQk8zTE54bEd5WlVwSlBrOHZHcHZEWE9JZHdLeVdsUXFOS1dUaVBGVUI1bnl2Wmt0allsUE11N3pvLTBGLVVpSWRQSm1yU3JnSzVmYmc?oc=5",
+  "published_at": "2026-11-19T11:24:01+00:00",
+  "relevance": 1,
+  "source": "Demócrata",
+  "source_type": "news_search",
+  "summary": "Deretil, a company, is asking the European Union to support manufacturing of key components for antibiotics such as amoxicillin. The source text provides no further detail and does not mention multiple sclerosis or related demyelinating diseases.",
+  "summary_model": "claude-sonnet-5-5",
+  "title": "Deretil asks the EU to support the manufacture of key components for antibiotics such as amoxicillin"
  },
  "acf23ac4737284ee": {
   "about_ms": true,
@@ -4074,6 +4298,22 @@
   "summary_model": "claude-sonnet-5-5",
   "title": "Efficacy and safety of tacrolimus treatment for neuromyelitis optica spectrum disorder | Scientific Reports"
  },
+ "c73ebe144d88d9fc": {
+  "about_ms": false,
+  "category": "other",
+  "collected_at": "2026-11-19T14:41:45.473802+00:00",
+  "description": "What To Know About Biologics for COPD Cleveland Clinic Health Essentials",
+  "id": "c73ebe144d88d9fc",
+  "is_published": false,
+  "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBkYUFWVVNkeEhUelN1YXhkMERFR3kzb3NwdUlvaEx5R2JjenZDeTRUQk0waXhkc3FpakR1eUVwdGlKeWdxOThYTDBSUzFTQUZmcll6R2hOX3Q5bmw2QUN0bGFaSQ?oc=5",
+  "published_at": "2026-11-19T05:08:58+00:00",
+  "relevance": 1,
+  "source": "Cleveland Clinic Health Essentials",
+  "source_type": "news_search",
+  "summary": "Cleveland Clinic Health Essentials published an article titled \"What To Know About Biologics for COPD.\" Only the title is available, so no details on findings, drugs, or any link to multiple sclerosis can be stated.",
+  "summary_model": "claude-sonnet-5-5",
+  "title": "What To Know About Biologics for COPD"
+ },
  "c866496f58bdc341": {
   "about_ms": true,
   "category": "other",
@@ -4105,6 +4345,38 @@
   "summary": "A Nature article discusses challenges and future directions for multiple sclerosis following the 2024 McDonald diagnostic criteria. No article text was provided, so no further details on its content or findings can be given.",
   "summary_model": "claude-sonnet-5-5",
   "title": "Challenges and future directions for multiple sclerosis after the 2024 McDonald diagnostic criteria"
+ },
+ "c9eaf7a0418aa9c3": {
+  "about_ms": true,
+  "category": "regulatory",
+  "collected_at": "2026-11-19T14:41:45.473362+00:00",
+  "description": "Oculis is expanding the clinical development of privosegtor, its experimental nerve-protecting therapy, to include the treatment of acute relapses in people with multiple sclerosis (MS). The move follows the U.S. Food and Drug Administration’s (FDA) clearance of an investigational new drug (IND) application, paving the way for clinical trials in this new indication. Privosegtor was […] The post Neuroprotective therapy cleared by FDA for testing in acute MS relapses appeared first on Multiple Sclerosis News Today .",
+  "id": "c9eaf7a0418aa9c3",
+  "is_published": true,
+  "link": "https://multiplesclerosisnewstoday.com/news-posts/2026/11/18/neuroprotective-therapy-cleared-testing-acute-ms-relapses/",
+  "published_at": "2026-11-18T18:45:53+00:00",
+  "relevance": 3,
+  "source": "MS News Today",
+  "source_type": "news",
+  "summary": "Oculis is expanding development of privosegtor, an experimental nerve-protecting therapy, to treat acute relapses in people with multiple sclerosis. The U.S. FDA cleared its investigational new drug application, allowing clinical trials in this new indication to proceed.",
+  "summary_model": "claude-sonnet-5-5",
+  "title": "Neuroprotective therapy cleared by FDA for testing in acute MS relapses"
+ },
+ "c9fdf6926c8b4da1": {
+  "about_ms": true,
+  "category": "research",
+  "collected_at": "2026-11-19T14:41:45.473379+00:00",
+  "description": "Most people with highly active relapsing multiple sclerosis (MS) who received the approved therapy Mavenclad (cladribine) maintained their cognitive function over four years, while experiencing improved quality of life. That’s according to pooled results from 280 patients who completed the global Phase 4 CLARIFY-MS clinical trial (NCT03369665), where they were given Mavenclad for two years, […] The post MS therapy preserves cognitive function over 4 years, study shows appeared first on Multiple Sclerosis News Today .",
+  "id": "c9fdf6926c8b4da1",
+  "is_published": true,
+  "link": "https://multiplesclerosisnewstoday.com/news-posts/2026/11/18/ms-therapy-preserves-cognitive-function-4-years-study-shows/",
+  "published_at": "2026-11-18T14:00:18+00:00",
+  "relevance": 3,
+  "source": "MS News Today",
+  "source_type": "news",
+  "summary": "Pooled results from 280 people with highly active relapsing MS who completed the Phase 4 CLARIFY-MS trial found most maintained cognitive function over four years after receiving Mavenclad (cladribine) for two years, with improved quality of life.",
+  "summary_model": "claude-sonnet-5-5",
+  "title": "MS therapy preserves cognitive function over 4 years, study shows"
  },
  "ca4b3dbb20bb0c1f": {
   "about_ms": true,
@@ -4410,6 +4682,22 @@
   "summary_model": "claude-sonnet-5-5",
   "title": "Different blood-brain-barrier disruption profiles in multiple sclerosis, neuromyelitis optica spectrum disorders, and neuropsychiatric systemic lupus erythematosus | Jasiak-Zatońska | Neurologia i Neurochirurgia Polska"
  },
+ "de78aa9adbbb3db1": {
+  "about_ms": false,
+  "category": "other",
+  "collected_at": "2026-11-19T14:41:45.473819+00:00",
+  "description": "Ignacio Yáñez (Deretil): \"Europe cannot guarantee the supply of antibiotics if it loses its manufacturing capacity\" Demócrata",
+  "id": "de78aa9adbbb3db1",
+  "is_published": false,
+  "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxNWXNGUnBCZjJQRkx5NVZPQ2JMMXRJdktPRjJncHJqbDZHbDBuTXB0TjdqdjlYY1JzSUJYaXBSTHMwcFhsLTYyZTAtNmtDMFplcHhBeFl1ZFhXZ3JiMXNJMHJjMml1N0kzbnQ1M2IyMnRaSGxwSl8wVXE4UU1uMUNaaElrc1VnRktnU05vOTFEQThYNVA5cG9ablRpSG1uYVJBaEh3b0x1THhUd3ZpLWxKdVVGaTVNTHRoX21PY1Zsc3RQTllWdEJ0R2lWSVZUUGxoUDJiZGNlRnFLYUFzbjlJdHAyaUtTbUJz0gHuAUFVX3lxTE44TldDMnE2SVNYVDIyYmlVbUNJSlZKNnU3azBiVUd0VnJHQUVXTlByc1lkUlpyWkVXY2RBM0ZmVXlqbGhGZDNEdkxjUWZfZHVUbXo1bWR1LUVwSjFnbEpkSkNYNFM5UW9jb1c1cEUtY1VpekM1SElYbWN3UFkwOVdxdXVpSkU0RC1DR2FFSUw4ZGh4YmRHOXZLZk1OZ3NIVTQ2RDF5NndzaWdmTlFXVzJuaXBUWmdUTl9VdjFJMFpPbGNqMUZ0M2VSQjl2RmpPS2dFRHZneGVtZGMxNk1FMk5zb3FPZF9FY1daaUk2cEE?oc=5",
+  "published_at": "2026-11-19T11:42:47+00:00",
+  "relevance": 1,
+  "source": "Demócrata",
+  "source_type": "news_search",
+  "summary": "Ignacio Yáñez of Deretil is quoted saying Europe cannot guarantee its antibiotic supply if it loses its manufacturing capacity. The provided text gives no further detail and does not mention multiple sclerosis or related diseases.",
+  "summary_model": "claude-sonnet-5-5",
+  "title": "Ignacio Yáñez (Deretil): \"Europe cannot guarantee the supply of antibiotics if it loses its manufacturing capacity\""
+ },
  "df4ecb94aa0d5145": {
   "about_ms": true,
   "category": "research",
@@ -4585,6 +4873,22 @@
   "summary": "A newsGP article from the Royal Australian College of General Practitioners reaffirms a miscarriage risk linked to a common antibiotic. The text provided gives no further detail, and no link to multiple sclerosis or related demyelinating disease is stated.",
   "summary_model": "claude-sonnet-5-5",
   "title": "newsGP - Miscarriage risk from common antibiotic reaffirmed"
+ },
+ "e601377449339a56": {
+  "about_ms": false,
+  "category": "other",
+  "collected_at": "2026-11-19T14:41:45.473625+00:00",
+  "description": "Pheno Therapeutics secures two patents for neurological drug pipeline Manufacturing Chemist",
+  "id": "e601377449339a56",
+  "is_published": false,
+  "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOMzg0aDVuQTVWTVQ4ZVNDZXV4bm0xUW1PUmkxc2lvVlBWU1BHNDRRaXNwS2drLWhtRnpXcmhmemtnam5lVGlORlVRbm9UQkFEa0N6djZHaWM2Y3BlRjl0Vy1sZWRBbFZKMVRrN1NlSFY2cUszOFJJU0JPaTlQUUlnS2pTREk2N3lU?oc=5",
+  "published_at": "2026-11-19T11:37:50+00:00",
+  "relevance": 1,
+  "source": "Manufacturing Chemist",
+  "source_type": "news_search",
+  "summary": "Manufacturing Chemist reports that Pheno Therapeutics has secured two patents for its neurological drug pipeline. The provided text gives no details on the drugs, the conditions targeted, or any link to multiple sclerosis or related diseases.",
+  "summary_model": "claude-sonnet-5-5",
+  "title": "Pheno Therapeutics secures two patents for neurological drug pipeline"
  },
  "e6661f3d084e8518": {
   "about_ms": true,
@@ -4809,6 +5113,38 @@
   "summary": "Immunic says it is on track to report Phase 3 results in relapsing multiple sclerosis in December. The company also says it has funding into late 2027. The source text gives no details on the drug or trial design.",
   "summary_model": "claude-sonnet-5-5",
   "title": "Immunic on track for December Phase 3 readout in relapsing MS, funded into late 2027"
+ },
+ "f12fd5cd89966aa7": {
+  "about_ms": true,
+  "category": "trial_news",
+  "collected_at": "2026-11-19T14:41:45.473609+00:00",
+  "description": "Quantum BioPharma (QNTM) Reports $12.22M in Cash and Digital Assets, Advances Lucid-MS Phase 2 Trial NewMediaWire",
+  "id": "f12fd5cd89966aa7",
+  "is_published": false,
+  "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNdTU4M01Za0FhUDdpZkhZeFA3dE1OdnZNbEJpQkZPTmtBQndMMHpReHBtNjVZWGNaanJiZlZOSHktMVlHUW1WSE5LcDAyZmNUaXZEQ2lnckhMOHJVYXhHTU14NjNpTzdjQTRldnNKNllMZ0swaUN3ZzVmWE9OWnhDakNMUDBlQ1RHNHZnSzFXSWkydU5YTGJuYTJ2YU1FT1QxSkdtZ1YwcmNoVGFfdjJtUUcyRWQ2SlVreVdiZkhXYWdBY3FBWVhIXzJJYVU0aTl2dWFZXw?oc=5",
+  "published_at": "2026-11-16T19:32:46+00:00",
+  "relevance": 2,
+  "source": "NewMediaWire",
+  "source_type": "news_search",
+  "summary": "Quantum BioPharma reported $12.22 million in cash and digital assets and said it is advancing its Lucid-MS Phase 2 trial. The source text gives no trial design, enrollment, or results details.",
+  "summary_model": "claude-sonnet-5-5",
+  "title": "Quantum BioPharma (QNTM) Reports $12.22M in Cash and Digital Assets, Advances Lucid-MS Phase 2 Trial"
+ },
+ "f19e3cc0941d75a2": {
+  "about_ms": false,
+  "category": "other",
+  "collected_at": "2026-11-19T14:41:45.473646+00:00",
+  "description": "Novartis guides to 5% annual sales growth through 2031 and raises peak sales targets for Kesimpta, Scemblix and Leqvio MLQ.ai",
+  "id": "f19e3cc0941d75a2",
+  "is_published": false,
+  "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPaUhPY1ZMNGtFdVdpMl85OGd1Wk1SNFY3ejFRUEI4dXVxSjI3QmpIcjEyX2FoeE1WZ0h6VHQzVEIyNGtidlIwZ0dIMUJNQWdvMDBNbmVGQnlsRFg2NlNpS0dZOHM0NnlSelJtVlhrN2hZc1ZybWJ6OVRuN09fRkI1ckJkSHB5TjRrYmk5QlVVdWV6MHB4azhkbTQ5Tm5tMnBqbzl2Y1ZyMG50ZklRa3BpSGJJWlVNU0hnYnVVUlUxUUFRUDZsRDRtS19adTFGekh3LXN3?oc=5",
+  "published_at": "2026-11-19T08:42:55+00:00",
+  "relevance": 1,
+  "source": "MLQ.ai",
+  "source_type": "news_search",
+  "summary": "Novartis guides to 5% annual sales growth through 2031 and has raised peak sales targets for Kesimpta, Scemblix and Leqvio. Only the headline is available, so no further details are given.",
+  "summary_model": "claude-sonnet-5-5",
+  "title": "Novartis guides to 5% annual sales growth through 2031 and raises peak sales targets for Kesimpta, Scemblix and Leqvio"
  },
  "f1a058299e959b59": {
   "about_ms": true,
