@@ -31,6 +31,22 @@
   "summary_model": "claude-sonnet-5-5",
   "title": "Narcolepsy Type 1 in the Workplace: Tips for Navigating Your 9-to-5"
  },
+ "0167b21a786d1f1a": {
+  "about_ms": false,
+  "category": "other",
+  "collected_at": "2026-11-20T14:21:10.350115+00:00",
+  "description": "Can a WT1 cancer vaccine succeed where others failed? Drug Discovery News",
+  "id": "0167b21a786d1f1a",
+  "is_published": false,
+  "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNUm5rME00c3BBZWhrd09ndFFHd1pmOVVUTDNXSEJ5dFVlamhERjRvenlsb3NDWnpaZzIyS3BCMHV5YUp6MG9LaUZTbngzRlJvOEFycDU3SFBfT3Z5NjRjRzNKdHg4Si1Ta2hRdUxmMlRGMDRFNmxLQnE0RWR5ZWtuZjhLcV8zSnIxSWVELWNJNGtDVHk0ak9N?oc=5",
+  "published_at": "2026-11-20T01:25:41+00:00",
+  "relevance": 1,
+  "source": "Drug Discovery News",
+  "source_type": "news_search",
+  "summary": "Drug Discovery News published a piece asking whether a WT1 cancer vaccine can succeed where other cancer vaccines have failed. The provided text gives no further details, and it does not mention MS or related demyelinating diseases.",
+  "summary_model": "claude-sonnet-5-5",
+  "title": "Can a WT1 cancer vaccine succeed where others failed?"
+ },
  "016cc5dcfca3ce95": {
   "about_ms": false,
   "category": "other",
@@ -78,6 +94,22 @@
   "summary": "FirstWord Pharma reports on a neurologist survey giving a second opinion on Novartis' remibrutinib. The provided text contains only the headline, so no results, data or trial details are stated.",
   "summary_model": "claude-sonnet-5-5",
   "title": "Physician Views Results: Novartis’ remibrutinib gets second opinion from neurologists"
+ },
+ "05b7e0524babfa78": {
+  "about_ms": false,
+  "category": "other",
+  "collected_at": "2026-11-20T14:21:10.350109+00:00",
+  "description": "Alkermes at Jefferies Global Healthcare Conference: orexin push widens By Investing.com Investing.com UK",
+  "id": "05b7e0524babfa78",
+  "is_published": false,
+  "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNV2J2WkpYelVyTGJnc2hHZThSTThrX3NYd2c1YTVsa0pianZCU3kyTzZrZlVCV2NvOU1ETFpyeXd3R0p3dmZzUzBhUEdscm9ISHJBVkFuMGN5TWVUMmhaamxSeEVVN1hLR0p1QlhOclRwVjVPeFZWZi1yUkJvTFNGeTR4aG91R2U1bThfSmVac1BCWWU3SVFQWExDNzRpVXAyMVBzek9DeXh2X2RHT2ZhQnJUNXFCZjYxcWktOFNfaUQ3c1I1dXYyblVB?oc=5",
+  "published_at": "2026-11-18T17:48:00+00:00",
+  "relevance": 1,
+  "source": "Investing.com UK",
+  "source_type": "news_search",
+  "summary": "Investing.com reports on Alkermes presenting at the Jefferies Global Healthcare Conference, with the headline noting a widening focus on orexin. The available text gives no details and does not mention multiple sclerosis or related demyelinating diseases.",
+  "summary_model": "claude-sonnet-5-5",
+  "title": "Alkermes at Jefferies Global Healthcare Conference: orexin push widens By Investing.com"
  },
  "07626440e6d92296": {
   "about_ms": false,
@@ -751,6 +783,22 @@
   "summary_model": "claude-sonnet-5-5",
   "title": "Low-fat diet may help reduce fatigue in MS, new trial analysis suggests"
  },
+ "26e154445b65ba88": {
+  "about_ms": false,
+  "category": "other",
+  "collected_at": "2026-11-20T14:21:10.350181+00:00",
+  "description": "Markets & Stocks - The DEA Laid The Trap - And State Marijuana Operators Took The Bait FinancialContent",
+  "id": "26e154445b65ba88",
+  "is_published": false,
+  "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQS1dUS1V0c0FId1VtdWsydkN1c1pCeVdSS0VNUklJS3YxYnY4bndVSkQtSWRnQlBxbkNiVkJOZzFObkwzQi1WdTI2MWdSMHJvN1RtbWZwQkxHR2xwUmg4VTFkeFFqSGcwUHIxQ1pSclNyem9QTlFaUVJpejEzNHktRDlNSHdfdWtpZUJoTFNjcDlMMkFRVzVOTm0zWkhZdXRJS1FVbzNPcGVCeVhUSXF0dXdOY2NURmpiRDdNUUZPYmdBclZvV3JkTHZsampfVTVMTVE?oc=5",
+  "published_at": "2026-11-20T06:15:00+00:00",
+  "relevance": 1,
+  "source": "FinancialContent",
+  "source_type": "news_search",
+  "summary": "The item is a FinancialContent markets article with the headline 'The DEA Laid The Trap - And State Marijuana Operators Took The Bait.' No article text beyond the title was provided, and MS is not mentioned.",
+  "summary_model": "claude-sonnet-5-5",
+  "title": "Markets & Stocks - The DEA Laid The Trap - And State Marijuana Operators Took The Bait"
+ },
  "289b188b0090e1ba": {
   "about_ms": false,
   "category": "trial_news",
@@ -814,6 +862,54 @@
   "summary": "NeurologyLive lists an interview with Robert J. Fox, MD, about sustained disability signals with vidofludimus calcium in progressive MS. The provided text contains no data, results or study details.",
   "summary_model": "claude-sonnet-5-5",
   "title": "Examining Sustained Disability Signals With Vidofludimus Calcium in Progressive MS: Robert J. Fox, MD"
+ },
+ "2a8fc1ae5fff3de3": {
+  "about_ms": false,
+  "category": "trial_news",
+  "collected_at": "2026-11-20T14:21:10.350125+00:00",
+  "description": "Bristol Myers Squibb Presents First Clinical Data from Two Phase 3 Studies in the ADEPT Program Evaluating KarXT for Psychosis Associated with Alzheimer’s Disease BioSpace",
+  "id": "2a8fc1ae5fff3de3",
+  "is_published": false,
+  "link": "https://news.google.com/rss/articles/CBMiqAJBVV95cUxPYzRSLUs2OHNXMG4zMTdzd25xcVVoT2JZQkxMUnZVamw4STQ4SGJxbnBVV0p2SjNFU1VOTlp1VmJzakJIZ0xTUnlWelczM3NtLWRFTHIxNnNDVG9sVVpJWFpjbExxR1FvVVptVEhLOUtVNno2MzdMdmNhby1DdzNfTTBUSGRDTUJFYTJ1ZHFmTEs5RVFzcndGbHY0RzA2MmszU2V6ZXgwOHpPRXl3TTI1cGlhS2FBNGNiODhEcTF4eUN6SVV2cWRzb3QtVUtZZjE2c0d0a2JUXzd4c2daSmdIZjFsbWFoNUU1eGpmcWxGWmhPWDB5dmJOUFUzdWxoYzJiZTg0a2hlMTlBakJ4SDRXSUhKTEVWWEVFbUdpSjhaZmVIZzE2ZUluQw?oc=5",
+  "published_at": "2026-11-19T01:38:58+00:00",
+  "relevance": 1,
+  "source": "BioSpace",
+  "source_type": "news_search",
+  "summary": "Bristol Myers Squibb presented first clinical data from two Phase 3 studies in the ADEPT program, which is evaluating KarXT for psychosis associated with Alzheimer's disease. The source text gives no results or details, and the topic is not multiple sclerosis.",
+  "summary_model": "claude-sonnet-5-5",
+  "title": "Bristol Myers Squibb Presents First Clinical Data from Two Phase 3 Studies in the ADEPT Program Evaluating KarXT for Psychosis Associated with Alzheimer’s Disease"
+ },
+ "2af74d9647b798df": {
+  "about_ms": true,
+  "category": "research",
+  "collected_at": "2026-11-20T14:21:10.350217+00:00",
+  "description": "German Inpatient Multiple Sclerosis Admissions Dropped 28 Percent From 2019 to 2024 Bioengineer.org",
+  "id": "2af74d9647b798df",
+  "is_published": false,
+  "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNbFNFSk5NMGFpSmRhdEtlVTNXWE81R0lFaWh2LXRNUktUNV9NRE9mMzU2NnhERkc5WllrbEdEUWRTYXJIUWZjbGRiSmZWbmk4QjZJbURfejh1b1NQNnFhcnU4ODMxU0dMYVhyMUMyalRUWUo3WkVrMWN5bF9tQ1NsWHlVcmVFQ0RISHhpemVRaWxFSUhfVWFCM0ZvRVRxVXYwOG9Lcm5LNWVka0dV?oc=5",
+  "published_at": "2026-11-20T05:36:05+00:00",
+  "relevance": 2,
+  "source": "Bioengineer.org",
+  "source_type": "news_search",
+  "summary": "A Bioengineer.org item reports that inpatient multiple sclerosis admissions in Germany fell 28 percent between 2019 and 2024. The available text gives no further detail on causes, data sources or patient groups.",
+  "summary_model": "claude-sonnet-5-5",
+  "title": "German Inpatient Multiple Sclerosis Admissions Dropped 28 Percent From 2019 to 2024"
+ },
+ "2b81842976c39588": {
+  "about_ms": false,
+  "category": "research",
+  "collected_at": "2026-11-20T14:21:10.350307+00:00",
+  "description": "IVIG Improves Outcomes in Newly Diagnosed Inflammatory Myopathies: Study Medical Dialogues",
+  "id": "2b81842976c39588",
+  "is_published": false,
+  "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQNUF6SkU5Z1ZBSXYxSlYtdk9uWWhhSjhUYTdZRVZjcWdJaFNRTWFuLUVWbU1OekFWVWRkdWJTLVhuVERUdzVYcW9sOXpkSEtWeDZTNUdFSnlMMzM1cUJyNFpiOVhEZnZNMXFGajdOeTJsOWNoU05aaF96RjFsYXRfVzZLclF2cF9CT2d6U3cyWXpQaHhVa0cxa3BmWm5CamIyMWdpd2tzV1dmd3Y0SVNjUzNCR0FVOUtiLVRMSlZpSlQ0Y0NGT1htSHJJaDBOblnSAdQBQVVfeXFMTl92YnMxN1Z2ajdhREFoMWRMRk4td2VNb0VtZ2xZNjVSZEl2bDdyMkJDUDBOTGVUV0t3QlBUWnZ1Sk84VTdlSlBfMU1CbUlBQkVyUHpXUDF6b2VxWG92MlI3Wk0zcHVlVGhQN0dkbXhEeVVQdFNQLTZ2UmstaUxzLThaeW91cHdJYjdRZ2F3MDBfcWIyV2xMcVRxc0ozRnMzQzcxYndGdFQ4U21qOG1PZ0c4RE9JRkc2ZTZ4b1U3WFlPZFVpeEZNNkxTVENaX0EzeEJhT08?oc=5",
+  "published_at": "2026-11-20T02:15:45+00:00",
+  "relevance": 1,
+  "source": "Medical Dialogues",
+  "source_type": "news_search",
+  "summary": "A Medical Dialogues article reports a study finding that intravenous immunoglobulin (IVIG) improves outcomes in newly diagnosed inflammatory myopathies. The provided text contains no further details, and it does not concern MS or related demyelinating diseases.",
+  "summary_model": "claude-sonnet-5-5",
+  "title": "IVIG Improves Outcomes in Newly Diagnosed Inflammatory Myopathies: Study"
  },
  "2ca830c80274b4d8": {
   "about_ms": true,
@@ -911,6 +1007,22 @@
   "summary_model": "claude-sonnet-5-5",
   "title": "Zenas acquires BTK inhibitor in Phase 3 trials for progressive MS"
  },
+ "31ca8fa0e81bb4da": {
+  "about_ms": false,
+  "category": "other",
+  "collected_at": "2026-11-20T14:21:10.350340+00:00",
+  "description": "Case Report Links Somatic KRAS Mutation to Drug-Resistant Infantile Spasms Bioengineer.org",
+  "id": "31ca8fa0e81bb4da",
+  "is_published": false,
+  "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNX2duU0RxUG16SGNDSmMzN0JvTkk4blF6UzZacmpRdkhQaTlldUxqTjBKdVh2eTVoaWYtclh3M0kwbWlZamd4QXA0UmZqTHNINFlLZTludXpiczBiakgwWHNDWGlhT2paMFItQVItckw2S3M5Yk83c2ZUQ0Jfa0k2bHlZMkM4S0Y0cFRwNTZsS2tSVWlkN2J0aG4zSk1OWG4y?oc=5",
+  "published_at": "2026-11-14T00:02:40+00:00",
+  "relevance": 1,
+  "source": "Bioengineer.org",
+  "source_type": "news_search",
+  "summary": "A case report links a somatic KRAS mutation to drug-resistant infantile spasms, a childhood epilepsy disorder. The source text gives no further details, and it does not mention multiple sclerosis or related demyelinating diseases.",
+  "summary_model": "claude-sonnet-5-5",
+  "title": "Case Report Links Somatic KRAS Mutation to Drug-Resistant Infantile Spasms"
+ },
  "325bb06339610991": {
   "about_ms": true,
   "category": "trial_news",
@@ -926,6 +1038,22 @@
   "summary": "Immunic presented new data on its multiple sclerosis drug candidate vidofludimus calcium at a multiple sclerosis conference. The source text gives no details on the findings, trial phase, or results.",
   "summary_model": "claude-sonnet-5-5",
   "title": "Immunic presents new vidofludimus calcium data at multiple sclerosis conference"
+ },
+ "3456abab1624a0ab": {
+  "about_ms": true,
+  "category": "research",
+  "collected_at": "2026-11-20T14:21:10.349882+00:00",
+  "description": "A molecule called furapyrrodole can promote brain repair and reduce inflammation in cellular and mouse models of multiple sclerosis (MS), a study shows. Researchers found that furapyrrodole can activate immature brain cells to grow into new nerve cells and cells that produce myelin, the sheath that covers nerve fibers and is progressively lost in people […] The post Scientists identify molecule that may boost brain repair in multiple sclerosis appeared first on Multiple Sclerosis News Today .",
+  "id": "3456abab1624a0ab",
+  "is_published": false,
+  "link": "https://multiplesclerosisnewstoday.com/news-posts/2026/11/19/scientists-identify-molecule-boost-brain-repair-ms/",
+  "published_at": "2026-11-19T20:45:48+00:00",
+  "relevance": 2,
+  "source": "MS News Today",
+  "source_type": "news",
+  "summary": "A molecule called furapyrrodole promoted brain repair and reduced inflammation in cellular and mouse models of MS. In these models it activated immature brain cells to grow into new nerve cells and myelin-producing cells. It has not been tested in people.",
+  "summary_model": "claude-sonnet-5-5",
+  "title": "Scientists identify molecule that may boost brain repair in multiple sclerosis"
  },
  "351a391a1c5b2802": {
   "about_ms": false,
@@ -1426,6 +1554,22 @@
   "summary_model": "claude-sonnet-5-5",
   "title": "Transcriptomic Analysis Identifies LRRC8A as Colon Adenocarcinoma Prognostic Indicator"
  },
+ "47af37e1c0080b12": {
+  "about_ms": false,
+  "category": "other",
+  "collected_at": "2026-11-20T14:21:10.350144+00:00",
+  "description": "Novartis AG guides for 5% net sales CAGR through 2031 scanx.trade",
+  "id": "47af37e1c0080b12",
+  "is_published": false,
+  "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOc29Pemt3U25xSnpsczRid0VoeVNucjhITHFhRUE0ZkpBT09kV3NXbW85aWhHMkxOOVpTTS1fWmQ2Z2QxZjM2cUxJeUNpN0JzTmdSTFM0Q2ltMmc4d3hZLUYtTDNtU043ZzI2ZF9MVjV3M3ZuU0JxNWdxY1hhaThEa0ZySGFVUm5UR0h1bUZlVU1aNDdXM1BNaTFlQ2hyc1gyY2RuUk5KS2Y?oc=5",
+  "published_at": "2026-11-19T16:08:19+00:00",
+  "relevance": 1,
+  "source": "scanx.trade",
+  "source_type": "news_search",
+  "summary": "Novartis AG has guided for a 5% net sales compound annual growth rate through 2031, according to scanx.trade. The text provided does not mention multiple sclerosis or any specific treatment.",
+  "summary_model": "claude-sonnet-5-5",
+  "title": "Novartis AG guides for 5% net sales CAGR through 2031"
+ },
  "47eb904c08a3c0ed": {
   "about_ms": true,
   "category": "other",
@@ -1818,6 +1962,22 @@
   "summary_model": "claude-sonnet-5-5",
   "title": "BTK Inhibitor Reduces MS Relapse Rates in Two Phase 3 Trials"
  },
+ "577f004b87752131": {
+  "about_ms": false,
+  "category": "other",
+  "collected_at": "2026-11-20T14:21:10.350328+00:00",
+  "description": "US Rifaximin Market Gains Clinical Attention Amid Combination Research and Updated Treatment Guidelines ChemAnalyst",
+  "id": "577f004b87752131",
+  "is_published": false,
+  "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPY09SYVpwdURabzlaUzBaMFhrdjJ1UGdtTDhNU0FyRW9yZGJxUkxNR1dsNkZPb292eHdtbFFFOERmcHFMME9Dd3ZDNEd4eWJSa1g2TnY4emsybDhhb2xMM3J4cFNoVFNFem1QaTJfOHZ6ekZZeERITHdjQlQtYnNDbzFhV1F0eWd2Q0NjY0lZM0E0NXd5WGhUbUFzaFdDSnlXX25vT3hOVktkeXhqWDJPVmlnZEtpZHVwcFFvdg?oc=5",
+  "published_at": "2026-11-20T12:08:08+00:00",
+  "relevance": 1,
+  "source": "ChemAnalyst",
+  "source_type": "news_search",
+  "summary": "The item is a market-focused piece from ChemAnalyst on the US rifaximin market, mentioning combination research and updated treatment guidelines. The provided text gives no details and does not mention multiple sclerosis or related demyelinating diseases.",
+  "summary_model": "claude-sonnet-5-5",
+  "title": "US Rifaximin Market Gains Clinical Attention Amid Combination Research and Updated Treatment Guidelines"
+ },
  "579798737e6fecc0": {
   "about_ms": false,
   "category": "other",
@@ -2121,6 +2281,22 @@
   "summary": "NEJM lists an article titled \"Natalizumab plus Interferon Beta-1a for Relapsing Multiple Sclerosis.\" The provided text gives only the title, with no details on methods, results, or conclusions.",
   "summary_model": "claude-sonnet-5-5",
   "title": "Natalizumab plus Interferon Beta-1a for Relapsing Multiple Sclerosis"
+ },
+ "643c0a702f098a93": {
+  "about_ms": false,
+  "category": "regulatory",
+  "collected_at": "2026-11-20T14:21:10.350193+00:00",
+  "description": "The 800-Pound Gorilla in the Room: DEA Now Confirms Marijuana Production Quotas Are Coming Digital Journal",
+  "id": "643c0a702f098a93",
+  "is_published": false,
+  "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPeTlJMThrUjhwZVJtMFk5VURKdXhKRUktUGt6Uk5QSFNMd2pQQlBrRVhKODR2cGhtZW1SSHJOTXFsNFlDcnVtTm55MTdIZVRQUi12d1FyVmZLeEhZOEVVZ3hab1owcjVEQ2xKMUxTZVNKeEhQa2RPTW9IeWlHZ3VEck5WVEhQYWJjcjh4S3Y1SG1jUlhIYVpZY3JaQms1M012VEtEazM2eDM5Zw?oc=5",
+  "published_at": "2026-11-17T03:54:06+00:00",
+  "relevance": 1,
+  "source": "Digital Journal",
+  "source_type": "news_search",
+  "summary": "The title says the DEA now confirms marijuana production quotas are coming. No further details were provided in the text, and it does not mention multiple sclerosis or related demyelinating diseases.",
+  "summary_model": "claude-sonnet-5-5",
+  "title": "The 800-Pound Gorilla in the Room: DEA Now Confirms Marijuana Production Quotas Are Coming"
  },
  "64db217fe34e3400": {
   "about_ms": false,
@@ -2850,6 +3026,22 @@
   "summary_model": "claude-sonnet-5-5",
   "title": "Sitting with the complicated reality of an MS milestone"
  },
+ "7f231ed442e5a3e0": {
+  "about_ms": false,
+  "category": "other",
+  "collected_at": "2026-11-20T14:21:10.350301+00:00",
+  "description": "Trial Finds Postoperative Antibiotics Show Early Trend in Reducing Anal Fistula Formation Bioengineer.org",
+  "id": "7f231ed442e5a3e0",
+  "is_published": false,
+  "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOTmlWcG9zc1ZQaU1QRXAxMDBXY0pxRFlEV2NvVmFIM1Z4WE9fd2dqdWVTQWxlMkpKYVc5Z1RVeGlGY3oxbmNZV2loWW5YNU16RjVGRW1WYm9HU096WHkzUThGeTdqbXVidnhFZWc0TzdNYUxQQnlfUWF2WFpXb1FMbWZsamdlZnpBUVpMMDMtV0FhOURrbjFOZVc5QmJxMUptZWdrMU14bXJUZzR4WjlfM0dtNG4?oc=5",
+  "published_at": "2026-11-20T08:16:20+00:00",
+  "relevance": 1,
+  "source": "Bioengineer.org",
+  "source_type": "news_search",
+  "summary": "A trial reports an early trend suggesting postoperative antibiotics may reduce anal fistula formation. The source text provides no further details, and the topic is not related to multiple sclerosis or other demyelinating diseases.",
+  "summary_model": "claude-sonnet-5-5",
+  "title": "Trial Finds Postoperative Antibiotics Show Early Trend in Reducing Anal Fistula Formation"
+ },
  "7fb7679c366bfa06": {
   "about_ms": true,
   "category": "trial_news",
@@ -3418,6 +3610,22 @@
   "summary_model": "claude-sonnet-5-5",
   "title": "Alemtuzumab vs. Interferon Beta-1a in Early Multiple Sclerosis"
  },
+ "9513c7d3a2393c08": {
+  "about_ms": true,
+  "category": "research",
+  "collected_at": "2026-11-20T14:21:10.350202+00:00",
+  "description": "Real-World Ocrelizumab Multiple Sclerosis Study Tracks Immunoglobulin Decline and Infection Risk Bioengineer.org",
+  "id": "9513c7d3a2393c08",
+  "is_published": false,
+  "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQTmJ6Q29SSWdrUnpWc3lDNjN1M240RDcyU3gtNVdqY1NMREwzOEdRVGFWazFtc2h4bjdIcnJXeGRxYUhRQVA0NmIteFc0VUV6Mi1BVkhjWHRVVjk2X0wwaC1aR3VhYnlXMXNIQWtsWUtiYXppT2VEZlY0TWdkYWM4TXZfRTZPYVZmc2RRYWtEVHlmeURiXzlSYXRmQ19hMWNpWVYtX0VTU04tWGh0S09rUEtVNi10dV9xd1JUS1VR?oc=5",
+  "published_at": "2026-11-20T01:56:05+00:00",
+  "relevance": 2,
+  "source": "Bioengineer.org",
+  "source_type": "news_search",
+  "summary": "A real-world study of ocrelizumab in multiple sclerosis tracks declines in immunoglobulin levels and infection risk, according to its title. No findings, patient numbers, or results were provided in the available text.",
+  "summary_model": "claude-sonnet-5-5",
+  "title": "Real-World Ocrelizumab Multiple Sclerosis Study Tracks Immunoglobulin Decline and Infection Risk"
+ },
  "95afaccd558ade9c": {
   "about_ms": true,
   "category": "trial_news",
@@ -3465,6 +3673,22 @@
   "summary": "A small clinical trial found that people with MS taking Familact, a daily supplement combining probiotics and prebiotics with nine bacterial strains, showed data suggesting it may help manage fatigue. The trial was small, so findings are preliminary.",
   "summary_model": "claude-sonnet-5-5",
   "title": "Daily supplement may help ease MS fatigue, small trial suggests"
+ },
+ "975bd74047e5087a": {
+  "about_ms": true,
+  "category": "research",
+  "collected_at": "2026-11-20T14:21:10.350225+00:00",
+  "description": "Real-World Cladribine Study Shows Low Relapse Rates in Older Multiple Sclerosis Bioengineer.org",
+  "id": "975bd74047e5087a",
+  "is_published": true,
+  "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNcENIaTcweU4xTUZqbEJuUXZPVnVYbFhjRVI4VDNFUzNralRodUc1eVNfUGlmTkI3dkZXdDZSSWxObUx1RGFMQkVWQVlScWxPdFZ1TjBpellUN2tKMDNxSDdGMGJLTkFvaUlJekQtYzR4V0JWbUZrajBLc3AtNF8yaWhnNThmclFVelhCOWllaXZQdVNYUVhZd2pMM0RKRW1kQXFldlZnZw?oc=5",
+  "published_at": "2026-11-19T16:15:07+00:00",
+  "relevance": 3,
+  "source": "Bioengineer.org",
+  "source_type": "news_search",
+  "summary": "A real-world study of cladribine in older people with multiple sclerosis reports low relapse rates, according to the title. No further details, such as participant numbers, age range, or follow-up length, were provided in the source text.",
+  "summary_model": "claude-sonnet-5-5",
+  "title": "Real-World Cladribine Study Shows Low Relapse Rates in Older Multiple Sclerosis"
  },
  "99c5225fea4b3c1c": {
   "about_ms": true,
@@ -4314,6 +4538,22 @@
   "summary_model": "claude-sonnet-5-5",
   "title": "What To Know About Biologics for COPD"
  },
+ "c851ef91581e6f73": {
+  "about_ms": false,
+  "category": "other",
+  "collected_at": "2026-11-20T14:21:10.350324+00:00",
+  "description": "How Lead Exposure Erodes Long-Term Memory Neuroscience News",
+  "id": "c851ef91581e6f73",
+  "is_published": false,
+  "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9fWVZYUGRhSzJhOG1IUU5GLUJQV09ubWIzYlc4NGkxRVVFSmtvb0xIX21ERU5pd2hhRDlxcE8zSGFFUWJnZ1dJeVliNS12QTdpRmZUVG9xcGxNMGRxU1p6M254T3B5MUZnYWlSUWo3dXRnOTMyUURfLQ?oc=5",
+  "published_at": "2026-11-16T19:17:45+00:00",
+  "relevance": 1,
+  "source": "Neuroscience News",
+  "source_type": "news_search",
+  "summary": "The source is titled 'How Lead Exposure Erodes Long-Term Memory' and appears to concern lead exposure and memory. No further details, study type, or any link to MS or demyelinating disease are given in the text provided.",
+  "summary_model": "claude-sonnet-5-5",
+  "title": "How Lead Exposure Erodes Long-Term Memory"
+ },
  "c866496f58bdc341": {
   "about_ms": true,
   "category": "other",
@@ -4554,6 +4794,22 @@
   "summary_model": "claude-sonnet-5-5",
   "title": "UK HealthCare patient enters experimental CAR-T therapy trial for lupus"
  },
+ "d3fce5c7b57941cc": {
+  "about_ms": false,
+  "category": "other",
+  "collected_at": "2026-11-20T14:21:10.350151+00:00",
+  "description": "Biogen (BIIB) Reports Promising Phase 2 CELIA Trial Results for Early Alzheimer's Therapy GuruFocus",
+  "id": "d3fce5c7b57941cc",
+  "is_published": false,
+  "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOMHZUcE43TU0wcDhhVmdvdTI5Wnc4VnNhd1ZOUFFETFdCRUxIdC1xZ29jUTBBZG1UT3lSWmktajlvb253TWlORm05SHR2dk9zeDBiU094eWxWYTRjZU5HUUhFQmNaQzZmMEdIWkExSEM4YTl1V0FFSlJSLUdoN3hRS0Q1UHFtckNGbUx5M0ttTHZITy1zUFV5VVdxR3c1dzJ5cXhWYTNSN3R2azNDM1VzMTdWOTJGQ0hIcHIta2FhZkpIWWM?oc=5",
+  "published_at": "2026-11-17T23:03:13+00:00",
+  "relevance": 1,
+  "source": "GuruFocus",
+  "source_type": "news_search",
+  "summary": "Biogen reported Phase 2 CELIA trial results for a therapy in early Alzheimer's disease, according to a GuruFocus headline. The text provided gives no further details, and the item does not concern multiple sclerosis or related demyelinating conditions.",
+  "summary_model": "claude-sonnet-5-5",
+  "title": "Biogen (BIIB) Reports Promising Phase 2 CELIA Trial Results for Early Alzheimer's Therapy"
+ },
  "d4fc3472bc9c0cce": {
   "about_ms": true,
   "category": "treatment",
@@ -4569,6 +4825,22 @@
   "summary": "A case report describes treatment of a person with neuromyelitis optica spectrum disorder (NMOSD) in Ethiopia, a resource-limited setting. The source text gives only the title, so no details on the treatment used or the outcome are available.",
   "summary_model": "claude-sonnet-5-5",
   "title": "A Case Report of Neuromyelitis Optica Spectrum Disorder (NMOSD) Treatment in Resource-Limited Setup: An Ethiopian Experience"
+ },
+ "d5bf39a5324353ec": {
+  "about_ms": true,
+  "category": "trial_news",
+  "collected_at": "2026-11-20T14:21:10.350136+00:00",
+  "description": "Immunic Nears Multiple Sclerosis Readout: Will December Data ENSURE A Stock Rally? RTTNews",
+  "id": "d5bf39a5324353ec",
+  "is_published": false,
+  "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQazI5dVhyN3RCd1JZMGpQTXVmaVY5Slg1UHZodFRjdjdrN2xqSFU0M2VDQzZKXzhtOXlzVWVjRDNQZUFHRFNuMEhRcTl4RDJSZ1BwTXhhbVkxdGZTRHZjZkdzQlBmYmgyQmU3UWI0SUNfQlBlTFBuZ2R6ZFN5bnVNVnpJcXYyLTktR1pMT3R2TWdzLUc3YVlhMzZlc0R5SFVsS0pHeUdlbjZ1U0RxTmJQcE9HV0VZVEZs?oc=5",
+  "published_at": "2026-11-18T14:16:00+00:00",
+  "relevance": 2,
+  "source": "RTTNews",
+  "source_type": "news_search",
+  "summary": "RTTNews reports that Immunic is nearing a multiple sclerosis data readout expected in December, from the ENSURE program, and discusses whether it could lift the company's stock. The provided text gives no trial results or other details.",
+  "summary_model": "claude-sonnet-5-5",
+  "title": "Immunic Nears Multiple Sclerosis Readout: Will December Data ENSURE A Stock Rally?"
  },
  "d629a8e3ddf0701d": {
   "about_ms": false,
@@ -5066,6 +5338,22 @@
   "summary_model": "claude-sonnet-5-5",
   "title": "TG Therapeutics to Host Conference Call on Third Quarter 2026 Financial Results and Business Update"
  },
+ "ef12c073510a1e0d": {
+  "about_ms": false,
+  "category": "other",
+  "collected_at": "2026-11-20T14:21:10.350334+00:00",
+  "description": "China Develops Military Drone That Fires Painkiller Darts at Wounded Troops Israel Defense",
+  "id": "ef12c073510a1e0d",
+  "is_published": false,
+  "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5zMWR4cDdNOVJmSmRrVlNQYlFVRGVLWkJlOTFEMnA0VFV0WF9UcDF3eDF6bUxsdU02LTZtRHpZa1MwV0N0N2tCT0FoRWJPWWNwVEplTVdxaGU?oc=5",
+  "published_at": "2026-11-19T11:05:00+00:00",
+  "relevance": 1,
+  "source": "Israel Defense",
+  "source_type": "news_search",
+  "summary": "Israel Defense reports that China has developed a military drone that fires painkiller darts at wounded troops. The source text gives no further details, and the item is not related to multiple sclerosis or demyelinating disease.",
+  "summary_model": "claude-sonnet-5-5",
+  "title": "China Develops Military Drone That Fires Painkiller Darts at Wounded Troops"
+ },
  "f00ffc2055f11e42": {
   "about_ms": true,
   "category": "other",
@@ -5410,6 +5698,22 @@
   "summary_model": "claude-sonnet-5-5",
   "title": "Your brain shows damage before your blood pressure even rises"
  },
+ "f6b62d6e92fd30ea": {
+  "about_ms": true,
+  "category": "regulatory",
+  "collected_at": "2026-11-20T14:21:10.349895+00:00",
+  "description": "The U.S. Food and Drug Administration (FDA) has cleared Neurogenesis Bio to provide its experimental stem cell therapy NG01 to people with progressive forms of multiple sclerosis (MS) through an expanded access program (EAP). The program, which will allow certain patients unable to participate in the company’s clinical trials to receive the investigational treatment, will […] The post FDA clears expanded access program for MS stem cell therapy appeared first on Multiple Sclerosis News Today .",
+  "id": "f6b62d6e92fd30ea",
+  "is_published": true,
+  "link": "https://multiplesclerosisnewstoday.com/news-posts/2026/11/19/fda-clears-expanded-access-program-ms-stem-cell-therapy/",
+  "published_at": "2026-11-19T13:00:16+00:00",
+  "relevance": 3,
+  "source": "MS News Today",
+  "source_type": "news",
+  "summary": "The U.S. FDA has cleared Neurogenesis Bio to offer its experimental stem cell therapy NG01 to people with progressive multiple sclerosis through an expanded access program. It is for certain patients who cannot take part in the company's clinical trials.",
+  "summary_model": "claude-sonnet-5-5",
+  "title": "FDA clears expanded access program for MS stem cell therapy"
+ },
  "f7039faf8e4852d3": {
   "about_ms": true,
   "category": "regulatory",
@@ -5537,6 +5841,22 @@
   "summary": "Kyverna Therapeutics announced it has completed a Biologics License Application (BLA) submission. The available text is cut off, so the product and condition are not stated, and a link to MS cannot be confirmed.",
   "summary_model": "claude-sonnet-5-5",
   "title": "Kyverna Therapeutics Announces Completion of BLA Submission for..."
+ },
+ "fee2f75e12c99bd1": {
+  "about_ms": false,
+  "category": "other",
+  "collected_at": "2026-11-20T14:21:10.350346+00:00",
+  "description": "Case Report Links Hepatic Actinomycosis With Masquerading IgG4-Related Liver Disease Bioengineer.org",
+  "id": "fee2f75e12c99bd1",
+  "is_published": false,
+  "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQdUhLNEg2T01QaV9CaHJfS3JJQzN3bmE2Y1NGVldJVk94c21tWENBZGVNNFdoZW9aWHcyRm9PSnhTUmxfeGpxdVI3WjdpV01UekZaVERQSzdScWxpUkRXZXQ1d2lsZkw3M1FEUk5SV0tTVVlrSXhaV3F2bGJjeGpreXdLaUVPdVQ5ZDJFb1lKN0ZVaWp4TlpqSVM5M0lqUGs5TXdPZVBtLWFJY0FINFE?oc=5",
+  "published_at": "2026-11-20T05:16:05+00:00",
+  "relevance": 1,
+  "source": "Bioengineer.org",
+  "source_type": "news_search",
+  "summary": "A case report links hepatic actinomycosis, a bacterial infection of the liver, with a presentation that mimicked IgG4-related liver disease. The source text gives only the title, with no further detail, and does not mention multiple sclerosis or related demyelinating conditions.",
+  "summary_model": "claude-sonnet-5-5",
+  "title": "Case Report Links Hepatic Actinomycosis With Masquerading IgG4-Related Liver Disease"
  },
  "ff25a236b343db65": {
   "about_ms": false,
