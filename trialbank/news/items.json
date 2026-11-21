@@ -671,6 +671,22 @@
   "summary_model": "claude-sonnet-5-5",
   "title": "Rituximab Linked to 10-fold Higher Irritable Bowel Disease Risk in MS"
  },
+ "225d890e1042e04d": {
+  "about_ms": false,
+  "category": "living_with_ms",
+  "collected_at": "2026-11-21T13:42:24.083993+00:00",
+  "description": "Combo treatment helped my husband put his pirate eye patch away Myasthenia Gravis News",
+  "id": "225d890e1042e04d",
+  "is_published": false,
+  "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPQXFGSHYwU0UxZUZBbkVHTk1meVBXeVZ5Um50Sjk2Z3NCRlVTMjI2RVktR05RN2FvNWN2UzRNUXd2UUF2eGk4OHlITkJGZEZzd1NzQXhuN3hFZFJaZ3hsUXc2bzkzNVR2Ykd2VlhkUWZmVlRqdTh6S3BQUmhseTNnOFp2cmJ1dzdNNlNvaFRKQm80cTFfMFc5X3RseUtlT0k?oc=5",
+  "published_at": "2026-11-20T20:55:59+00:00",
+  "relevance": 1,
+  "source": "Myasthenia Gravis News",
+  "source_type": "news_search",
+  "summary": "A Myasthenia Gravis News piece, apparently a personal account, says a combination treatment helped a husband stop wearing an eye patch. The text gives no details on the treatment or results, and the article is about myasthenia gravis, not MS.",
+  "summary_model": "claude-sonnet-5-5",
+  "title": "Combo treatment helped my husband put his pirate eye patch away"
+ },
  "232f6262d5497291": {
   "about_ms": true,
   "category": "trial_news",
@@ -1441,6 +1457,22 @@
   "summary": "An openPR market-report headline says Roche's fenebrutinib reduced multiple sclerosis relapses by up to 58%. The source text gives no trial details, patient groups or comparators, so the figure cannot be assessed from this item alone.",
   "summary_model": "claude-sonnet-5-5",
   "title": "Disease-Modifying Therapies Market Advances as Roche's Fenebrutinib Cuts Multiple Sclerosis Relapses by Up to 58%"
+ },
+ "44e53daae2321a9b": {
+  "about_ms": true,
+  "category": "living_with_ms",
+  "collected_at": "2026-11-21T13:42:24.083432+00:00",
+  "description": "Note: This column describes the author’s own experiences with acupuncture. Not everyone will have the same response. Consult your doctor before starting or stopping a therapy. I sometimes look beyond conventional medicine for additional ways to feel better when multiple sclerosis (MS) and other elusive issues get in the way. In my case, that means […] The post My MS symptoms were getting in the way, but the dance floor was calling me appeared first on Multiple Sclerosis News Today .",
+  "id": "44e53daae2321a9b",
+  "is_published": false,
+  "link": "https://multiplesclerosisnewstoday.com/columns/2026/11/20/ms-symptoms-getting-way-dance-floor-calling/",
+  "published_at": "2026-11-20T15:00:32+00:00",
+  "relevance": 2,
+  "source": "MS News Today",
+  "source_type": "news",
+  "summary": "A personal column in which the author describes using acupuncture alongside conventional care for multiple sclerosis symptoms and other issues, with dancing mentioned in the title. The note says responses vary and advises consulting a doctor before starting or stopping any therapy.",
+  "summary_model": "claude-sonnet-5-5",
+  "title": "My MS symptoms were getting in the way, but the dance floor was calling me"
  },
  "44f0d0861922602c": {
   "about_ms": false,
@@ -2281,6 +2313,38 @@
   "summary": "NEJM lists an article titled \"Natalizumab plus Interferon Beta-1a for Relapsing Multiple Sclerosis.\" The provided text gives only the title, with no details on methods, results, or conclusions.",
   "summary_model": "claude-sonnet-5-5",
   "title": "Natalizumab plus Interferon Beta-1a for Relapsing Multiple Sclerosis"
+ },
+ "626afad18bd21a9c": {
+  "about_ms": false,
+  "category": "other",
+  "collected_at": "2026-11-21T13:42:24.084023+00:00",
+  "description": "Study Links First-Trimester Doxycycline Prescriptions to Pregnancy Loss FindArticles",
+  "id": "626afad18bd21a9c",
+  "is_published": false,
+  "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPTlRBbUk1bl84WjNibjRybXBCQVRTTmJYNmhtLTdsNEN5MGVYbEFyWnY1UWxCVjJuZHhKbm5wYVBwMkl1d1pKaHFSaUUwaG4zUlhjQjFzdDFyd3ZRTWNTUGVSSWY1bkgzQmJtaE1fbzdYcS1pQ1o3cXRiS01NNGt2aG04TUNTM24ySjVEQkRQZXdOemVjV05tdllDV19IcGPSAacBQVVfeXFMTXhvODZ5UXExTDJtUVJmVHQ5NV9mYUxPR1pPaEhfTzNQLUIxajFrSTFJSjdhOHQ2WHNiaHQ0clNtaTUxaHdJekM2ZHZJdU9YUkxsbmZXbGFJV2pyalRzclRXdkVKaXc5Q204SGQyclN0Z2dZRzFBUzlmTVZwM1psanZXSlVUWGJ2a0p2MWx0R0MwV2FPQk12V2Y1bnpxNGdkeVdpazUzdW8?oc=5",
+  "published_at": "2026-11-13T00:53:31+00:00",
+  "relevance": 1,
+  "source": "FindArticles",
+  "source_type": "news_search",
+  "summary": "A study links doxycycline prescriptions in the first trimester of pregnancy to pregnancy loss, according to the headline. No further details, such as study size, design, or any connection to multiple sclerosis, were provided in the source text.",
+  "summary_model": "claude-sonnet-5-5",
+  "title": "Study Links First-Trimester Doxycycline Prescriptions to Pregnancy Loss"
+ },
+ "638dfff23c1c50b7": {
+  "about_ms": true,
+  "category": "research",
+  "collected_at": "2026-11-21T13:42:24.083828+00:00",
+  "description": "Subcutaneous Ocrelizumab Reduces Hospital Costs in Multiple Sclerosis Budget Model Bioengineer.org",
+  "id": "638dfff23c1c50b7",
+  "is_published": false,
+  "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNd2YtMXY0VU1KdmQ0LTFLTEVrWHpWakxtWW15QjZ0Y01vS0xyTFkwLURXWlFURXd1TFRmUEVrenpiTEpWcE1wRGJQTjUwLVlqY1ZvV1JqWmJ0WGVRWFlGWE5XZnZXRU5reUxHdGRzWFAycE13eGQ1VjRqd01iMk5MVDNnQnRLMkdiM2lBZGdiTU54bXROSnNDUFhKVWdIXzE2VnBpR0lPbGc2V0U?oc=5",
+  "published_at": "2026-11-21T06:37:06+00:00",
+  "relevance": 2,
+  "source": "Bioengineer.org",
+  "source_type": "news_search",
+  "summary": "A budget model suggests subcutaneous ocrelizumab reduces hospital costs in multiple sclerosis. Only the headline was available, so the model's assumptions, setting, size of savings and comparator are not stated.",
+  "summary_model": "claude-sonnet-5-5",
+  "title": "Subcutaneous Ocrelizumab Reduces Hospital Costs in Multiple Sclerosis Budget Model"
  },
  "643c0a702f098a93": {
   "about_ms": false,
@@ -3722,6 +3786,22 @@
   "summary_model": "claude-sonnet-5-5",
   "title": "WHO warns progress on antimicrobial resistance falls short of 2030 targets"
  },
+ "9a837b2bf669031b": {
+  "about_ms": false,
+  "category": "other",
+  "collected_at": "2026-11-21T13:42:24.084014+00:00",
+  "description": "Yarrowia lipolytica Yeast Mobilizes Phosphate and Enhances Tomato and Maize Growth Bioengineer.org",
+  "id": "9a837b2bf669031b",
+  "is_published": false,
+  "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPU2ZLek5WX0FHTWpRNGoxdGs1dTVSNGJWa0c5X0htdVFzVVo3OFF6OUQ0RHFOV0U1MnZ0NUVGNmFzMWpKSTR1X1Q3Y0FQMWNBQUZMbmRNZUFmdzkyRjRyWFNYUldIb2ZDM1RycFRISUY4UXFEVHZKTGMxNl9YQVotQVlSd19uSS1zSGc1S2dQQjhtMXJZWkEwXzRzTlNpOXM0eXgwMXczcGoxT0E?oc=5",
+  "published_at": "2026-11-17T14:14:56+00:00",
+  "relevance": 1,
+  "source": "Bioengineer.org",
+  "source_type": "news_search",
+  "summary": "The title says Yarrowia lipolytica yeast mobilizes phosphate and enhances tomato and maize growth. It is an agricultural topic with no stated connection to multiple sclerosis or related demyelinating disease. No further details were provided.",
+  "summary_model": "claude-sonnet-5-5",
+  "title": "Yarrowia lipolytica Yeast Mobilizes Phosphate and Enhances Tomato and Maize Growth"
+ },
  "9ad6fccb74c0a1b0": {
   "about_ms": false,
   "category": "other",
@@ -3930,6 +4010,22 @@
   "summary_model": "claude-sonnet-5-5",
   "title": "Rx Product News"
  },
+ "a50e4c32b70ac614": {
+  "about_ms": false,
+  "category": "research",
+  "collected_at": "2026-11-21T13:42:24.083446+00:00",
+  "description": "Six researchers will receive up to $150,000 each to investigate biological mechanisms that may be shared across multiple sclerosis (MS), type 1 diabetes, and systemic lupus erythematosus — the most common form of lupus. The grants are part of the Common Mechanisms in Autoimmunity Insight Awards, which supports one-year pilot projects aimed at improving understanding […] The post Grants fund six studies on shared drivers of diabetes, lupus, and MS appeared first on Multiple Sclerosis News Today .",
+  "id": "a50e4c32b70ac614",
+  "is_published": false,
+  "link": "https://multiplesclerosisnewstoday.com/news-posts/2026/11/20/grants-fund-6-studies-shared-drivers-diabetes-lupus-ms/",
+  "published_at": "2026-11-20T14:30:34+00:00",
+  "relevance": 2,
+  "source": "MS News Today",
+  "source_type": "news",
+  "summary": "Six researchers will each receive up to $150,000 for one-year pilot projects investigating biological mechanisms that may be shared across multiple sclerosis, type 1 diabetes, and systemic lupus erythematosus. The funding comes from the Common Mechanisms in Autoimmunity Insight Awards.",
+  "summary_model": "claude-sonnet-5-5",
+  "title": "Grants fund six studies on shared drivers of diabetes, lupus, and MS"
+ },
  "a57a8df497853457": {
   "about_ms": true,
   "category": "living_with_ms",
@@ -4009,6 +4105,22 @@
   "summary": "The New England Journal of Medicine published a study titled \"Ofatumumab versus Teriflunomide in Multiple Sclerosis,\" comparing these two MS treatments. The provided text gives no details on design, results, or safety findings.",
   "summary_model": "claude-sonnet-5-5",
   "title": "Ofatumumab versus Teriflunomide in Multiple Sclerosis"
+ },
+ "a85f9d9375e7d054": {
+  "about_ms": false,
+  "category": "other",
+  "collected_at": "2026-11-21T13:42:24.083982+00:00",
+  "description": "Over 84 Percent of Bangladesh Outpatients With Influenza-Like Illness Received Antibiotics Bioengineer.org",
+  "id": "a85f9d9375e7d054",
+  "is_published": false,
+  "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOeFZ0aGxLS0kzOTJReE0tU2ZQYkduQlVGT3BrdjFtYjVsbmc5SHFHancwNG5yWm1La0h6SnRYWDY3STF6WHZMek9MRVQ5QjB1ZlJGanlPR0ttRWt3YU5ySXV6M1gtSFpTamt1dUVjd0pjanJ6VHdqUGFGQTk4OE1LYi1UeXhETU1aQkNWYmJyY0ozTW9UdEN1ZU1saUNGcG9ZZzdTLUgxSl9pT3dQcG1PUWctQmVrZw?oc=5",
+  "published_at": "2026-11-20T22:21:08+00:00",
+  "relevance": 1,
+  "source": "Bioengineer.org",
+  "source_type": "news_search",
+  "summary": "A Bioengineer.org item reports that over 84 percent of outpatients with influenza-like illness in Bangladesh received antibiotics. No further details are given in the provided text, and it does not mention multiple sclerosis or related demyelinating diseases.",
+  "summary_model": "claude-sonnet-5-5",
+  "title": "Over 84 Percent of Bangladesh Outpatients With Influenza-Like Illness Received Antibiotics"
  },
  "a8a23b1790f6194d": {
   "about_ms": false,
@@ -4298,6 +4410,22 @@
   "summary_model": "claude-sonnet-5-5",
   "title": "Morgan Stanley to Acquire Digital-Native Transfer Agent Vinyl Equity"
  },
+ "baa08966c468a221": {
+  "about_ms": true,
+  "category": "research",
+  "collected_at": "2026-11-21T13:42:24.083859+00:00",
+  "description": "Oral Cladribine Leaves Chronic Brain Inflammation Unchecked in Multiple Sclerosis Pilot Study Bioengineer.org",
+  "id": "baa08966c468a221",
+  "is_published": true,
+  "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNeFV3RnpMQi1Mc2thMHRDRy14Mi11OGRKSHI1Q2w5TGEtMDA2NEcxSEZfRjMyMmlVb1RMVXRYdTdIYzJfMnBWUTZ6MVlSaHVSZzMxUkpxTFFvaDlfTWR5bFVfQ2luc1hlS21IVjRNUW1vR2ZmYV9MUlNWV3JTM3hYU3FuUFlCWHRSbnV2UDY3YkxTQ2JWOGJ0SE1DN0RxTVBEZllPLWROM1V1cGkwSFRHV2ZqOGhHdkpNVnc?oc=5",
+  "published_at": "2026-11-21T00:01:47+00:00",
+  "relevance": 3,
+  "source": "Bioengineer.org",
+  "source_type": "news_search",
+  "summary": "A pilot study in multiple sclerosis reports that oral cladribine did not suppress chronic brain inflammation. Only the headline was available, so details such as participant numbers, how inflammation was measured, and follow-up length are not stated.",
+  "summary_model": "claude-sonnet-5-5",
+  "title": "Oral Cladribine Leaves Chronic Brain Inflammation Unchecked in Multiple Sclerosis Pilot Study"
+ },
  "bb23ac3ccb55767b": {
   "about_ms": true,
   "category": "other",
@@ -4313,6 +4441,22 @@
   "summary": "The MS International Federation reports that the number of people living with MS worldwide has passed 3 million for the first time.",
   "summary_model": "claude-sonnet-5-5",
   "title": "Number of people living with MS across the world surpasses 3 million for the first time"
+ },
+ "bdff4c9a465c5c05": {
+  "about_ms": false,
+  "category": "other",
+  "collected_at": "2026-11-21T13:42:24.084005+00:00",
+  "description": "Mitotic Respiratory Supercomplex Assembly Safeguards Chromosome Segregation to Fuel Tumor Growth Bioengineer.org",
+  "id": "bdff4c9a465c5c05",
+  "is_published": false,
+  "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOZFhEUTFSS0N6enFKWENuYmhpTnBaalBHaFFXenZlbERtdlpuYlpqZ1BrS21OWnM0X0FzbjIxM1lBa25VVDRULUtRbDBNWnZFVDJmMHQ3TFhMSEhnNGVqQUxBNzNtZWJzOU44WXBBTF9LRzlyMmRNRDZONE5PQ1NGUlU4Z0h5WG81aXZ5NThBU09tak1UYmctaV90a0EzSkhFNTFtaHpPaXh6Z3FPalQ0enhnTUNXSFBIZmdnNHBn?oc=5",
+  "published_at": "2026-11-14T07:28:58+00:00",
+  "relevance": 1,
+  "source": "Bioengineer.org",
+  "source_type": "news_search",
+  "summary": "The source title describes research on how respiratory supercomplex assembly during mitosis safeguards chromosome segregation and supports tumor growth. The text provided gives no further detail and does not mention multiple sclerosis or related demyelinating diseases.",
+  "summary_model": "claude-sonnet-5-5",
+  "title": "Mitotic Respiratory Supercomplex Assembly Safeguards Chromosome Segregation to Fuel Tumor Growth"
  },
  "bed689b71d58f82f": {
   "about_ms": true,
@@ -4393,6 +4537,22 @@
   "summary": "A CNBC article says a large pharmaceutical company is moving past one patent cliff while another is approaching. The provided text gives no further detail, and does not mention multiple sclerosis or any specific drug.",
   "summary_model": "claude-sonnet-5-5",
   "title": "A pharma giant is moving past one patent cliff — but another is already looming"
+ },
+ "c21ce822b207739f": {
+  "about_ms": true,
+  "category": "research",
+  "collected_at": "2026-11-21T13:42:24.083819+00:00",
+  "description": "Extended Anti-CD20 Dosing Shows Promise for Multiple Sclerosis Safety Bioengineer.org",
+  "id": "c21ce822b207739f",
+  "is_published": false,
+  "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQSkc4dDB2MnZIUUpNRGNLTGxyYVlDVU02YVhxcWxWLWhwZEhaQVFtQUJoeWhZM2FlWjFNNlNqM1gzMDRVWm1Cb0tvZHFNeXRkb05UNFpvT0RiWDZwOUdTdXRQWnpGRnRXcC1NaWx6M19GR2lfdTlzaGQ0R2VhUWVwR1Q1by1GRldJdVlhRzE5THF3bXhnaTBOcEpn?oc=5",
+  "published_at": "2026-11-20T17:09:24+00:00",
+  "relevance": 2,
+  "source": "Bioengineer.org",
+  "source_type": "news_search",
+  "summary": "A Bioengineer.org item titled \"Extended Anti-CD20 Dosing Shows Promise for Multiple Sclerosis Safety\" suggests longer intervals between anti-CD20 doses may improve safety in MS. The provided text contains no data, study design, or results, so details cannot be confirmed.",
+  "summary_model": "claude-sonnet-5-5",
+  "title": "Extended Anti-CD20 Dosing Shows Promise for Multiple Sclerosis Safety"
  },
  "c29b6226cae8368d": {
   "about_ms": false,
@@ -4905,6 +5065,22 @@
   "summary": "This is a stock quote page for Tiziana Life Sciences (TLSA) on Yahoo Finance Singapore. The text provided contains no information about multiple sclerosis, research findings, treatments, or trials.",
   "summary_model": "claude-sonnet-5-5",
   "title": "Tiziana Life Sciences Ltd (TLSA) stock price, news, quote and history"
+ },
+ "db74249b9e6e4aa3": {
+  "about_ms": false,
+  "category": "other",
+  "collected_at": "2026-11-21T13:42:24.083972+00:00",
+  "description": "Case Report Links Multifocal Kimura Disease With Synchronous Generalized Pruritic Rashes Bioengineer.org",
+  "id": "db74249b9e6e4aa3",
+  "is_published": false,
+  "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOU0VicGFJOXIxZVpBb2lKR012dG5ZaW1sbENRY09LcTBJUHZPRU45ZjVQMS1wZEptekJCd2lxdVVWMVVjSk43MEVYU2hDRjJYVkN6aHljdDE3aGdjdjNiZ0paYmozM1FjUWhubzNOSnNRMkhUNURueUpPa3ZFa1NkRFktTkViNTFnWnhTNE44MVdQREp5bUNBcTRkSmF5ZnpfNWVzNEIwMC1hUUtra2RDUGV3VQ?oc=5",
+  "published_at": "2026-11-21T11:52:19+00:00",
+  "relevance": 1,
+  "source": "Bioengineer.org",
+  "source_type": "news_search",
+  "summary": "A case report links multifocal Kimura disease with generalized pruritic rashes occurring at the same time. The source text gives only the title, with no further details, and does not mention multiple sclerosis or related demyelinating diseases.",
+  "summary_model": "claude-sonnet-5-5",
+  "title": "Case Report Links Multifocal Kimura Disease With Synchronous Generalized Pruritic Rashes"
  },
  "ddc27b971d5a0696": {
   "about_ms": true,
@@ -5713,6 +5889,22 @@
   "summary": "The U.S. FDA has cleared Neurogenesis Bio to offer its experimental stem cell therapy NG01 to people with progressive multiple sclerosis through an expanded access program. It is for certain patients who cannot take part in the company's clinical trials.",
   "summary_model": "claude-sonnet-5-5",
   "title": "FDA clears expanded access program for MS stem cell therapy"
+ },
+ "f6e2f7ef5c176b9c": {
+  "about_ms": false,
+  "category": "other",
+  "collected_at": "2026-11-21T13:42:24.083999+00:00",
+  "description": "Cobalt-Induced Ototoxicity Treated With Corticosteroids, Chelation, and Hyperbaric Oxygen Therapy Cureus",
+  "id": "f6e2f7ef5c176b9c",
+  "is_published": false,
+  "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNdGFwRHpoS2hUelJmOVpTdU4tQ3FjRFVzbDhWNlRiTXdXcU1oRjNDeFVXLWU5UXZsMUtLWDBISmVaa09CM1lOa3VTek15cTRRRGlFYkt2WkRMYXNQYlN2Ukw4cVp2YVRBRUZOWUJxdlJJb3Awa2lJQ0xENUl2eUMwT1FOY1lEQkswOTcyNkJSUkxoRmtRbDVPUTlDQzJHX1B6VVJPemlweUFoQUhnbVl0bGIwaG1lREpReVluQlRPUEhyN3FOVnZHQ1hnXzNfZlk?oc=5",
+  "published_at": "2026-11-17T19:11:20+00:00",
+  "relevance": 1,
+  "source": "Cureus",
+  "source_type": "news_search",
+  "summary": "A Cureus report is titled as describing cobalt-induced ototoxicity (hearing and ear toxicity) treated with corticosteroids, chelation, and hyperbaric oxygen therapy. The source text gives no further details, and it does not mention multiple sclerosis or related demyelinating disease.",
+  "summary_model": "claude-sonnet-5-5",
+  "title": "Cobalt-Induced Ototoxicity Treated With Corticosteroids, Chelation, and Hyperbaric Oxygen Therapy"
  },
  "f7039faf8e4852d3": {
   "about_ms": true,
