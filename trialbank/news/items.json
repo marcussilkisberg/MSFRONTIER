@@ -95,6 +95,22 @@
   "summary_model": "claude-sonnet-5-5",
   "title": "Physician Views Results: Novartis’ remibrutinib gets second opinion from neurologists"
  },
+ "0560066e96f62ac4": {
+  "about_ms": false,
+  "category": "regulatory",
+  "collected_at": "2026-11-22T13:35:58.246042+00:00",
+  "description": "FDA Moves to Make NAC Supplements Legal Again Global Agriculture",
+  "id": "0560066e96f62ac4",
+  "is_published": false,
+  "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOaXYyaUhRWUFsYTBuMmZSVHBhellOLXFtMlozV3R4MDU1VmI5eVZaZ0doNzNBQnJDSDRoTjltODJQakV4b0dnRFlnV1JFTHJldDJQaWJ3WE5tbkJKOV9DQnBrRHNHNHF1ZFpZbWpJT0NWR3gtc1UxaV9rQXdkZWQ5WFdOYzlOeHMtYjAtLWd1M0FheUg4X24yOFptRnJlRWd2UEpwWE9RaFQ?oc=5",
+  "published_at": "2026-11-21T15:52:13+00:00",
+  "relevance": 1,
+  "source": "Global Agriculture",
+  "source_type": "news_search",
+  "summary": "Global Agriculture reports that the FDA is moving to make NAC (N-acetylcysteine) supplements legal again. The provided text gives no further detail and does not mention multiple sclerosis or related demyelinating diseases.",
+  "summary_model": "claude-sonnet-5-5",
+  "title": "FDA Moves to Make NAC Supplements Legal Again"
+ },
  "05b7e0524babfa78": {
   "about_ms": false,
   "category": "other",
@@ -863,6 +879,22 @@
   "summary_model": "claude-sonnet-5-5",
   "title": "Global agenda: new approvals, market withdrawals, deals, guideline changes, and research wins and failures"
  },
+ "29b1b96b31ed3dea": {
+  "about_ms": true,
+  "category": "research",
+  "collected_at": "2026-11-22T13:35:58.245976+00:00",
+  "description": "TG Therapeutics Announces Publication of Five-Year Comparative Analysis of BRIUMVI Versus Ocrelizumab and Ofatumumab in Relapsing Multiple Sclerosis TG Therapeutics",
+  "id": "29b1b96b31ed3dea",
+  "is_published": false,
+  "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPYkEyZFlvbXZrR0RYeldWYklHM3NlaGRlU0lZbjVCT0RrWjByeEJtXzVyb3F1MjR6d01GR1ZPYWNLc3RUSlVwbFJrVXRSLXFvUVV1U3FfVlFHN3FyWG1DcE9jMTZ5Nlh6SUQzWnRtdWdCSEttZHpyRXY0Vm14Q2RUWHU0ZzVkekhYXzdBemlpcUEwOWYwVmtUMUpsSklkclJuaERPMmFOdmVIa3hLbFRoMHlsQVp0UEhWTUpNR1ZtbnBtQQ?oc=5",
+  "published_at": "2026-10-12T07:00:00+00:00",
+  "relevance": 2,
+  "source": "TG Therapeutics",
+  "source_type": "news_search",
+  "summary": "TG Therapeutics announced publication of a five-year comparative analysis of BRIUMVI (ublituximab) versus ocrelizumab and ofatumumab in relapsing multiple sclerosis. The provided text gives no results, study design, or methods, and the announcement comes from the drug's manufacturer.",
+  "summary_model": "claude-sonnet-5-5",
+  "title": "TG Therapeutics Announces Publication of Five-Year Comparative Analysis of BRIUMVI Versus Ocrelizumab and Ofatumumab in Relapsing Multiple Sclerosis"
+ },
  "29d8130161132a49": {
   "about_ms": true,
   "category": "research",
@@ -1054,6 +1086,22 @@
   "summary": "Immunic presented new data on its multiple sclerosis drug candidate vidofludimus calcium at a multiple sclerosis conference. The source text gives no details on the findings, trial phase, or results.",
   "summary_model": "claude-sonnet-5-5",
   "title": "Immunic presents new vidofludimus calcium data at multiple sclerosis conference"
+ },
+ "3357e95eca742740": {
+  "about_ms": false,
+  "category": "regulatory",
+  "collected_at": "2026-11-22T13:35:58.245888+00:00",
+  "description": "FDA Med Therapies: Sanofi Wins FDA Approval for Infilbray as Gaucher Disease Type 3… Trend Hunter",
+  "id": "3357e95eca742740",
+  "is_published": false,
+  "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1hR1ZOLVZwSm5oVGRPRnFDTnRxcjR4c1dlVEVWSUF6bWxGaUFtQ0RNc0s3QTFzTmp1d1BsUV9qaUZsTnFRZXBDQ1FYSG5ueUFtM2R2d01lRk1QX0VDcTRjbndB?oc=5",
+  "published_at": "2026-11-21T22:47:40+00:00",
+  "relevance": 1,
+  "source": "Trend Hunter",
+  "source_type": "news_search",
+  "summary": "Trend Hunter reports that Sanofi has won FDA approval for Infilbray as a treatment for Gaucher disease type 3. The text provided does not mention multiple sclerosis or related demyelinating conditions, and gives no further details.",
+  "summary_model": "claude-sonnet-5-5",
+  "title": "FDA Med Therapies: Sanofi Wins FDA Approval for Infilbray as Gaucher Disease Type 3…"
  },
  "3456abab1624a0ab": {
   "about_ms": true,
@@ -1345,6 +1393,22 @@
   "summary": "A Bioengineer.org item reports a study identifying disproportionate infection signals linked to specific multiple sclerosis therapies. The provided text contains no details on which treatments, which infections, the data source, or the size of the signals.",
   "summary_model": "claude-sonnet-5-5",
   "title": "Study Uncovers Disproportionate Infection Signals Linked to Specific Multiple Sclerosis Therapies"
+ },
+ "401b2a2d604722d2": {
+  "about_ms": false,
+  "category": "other",
+  "collected_at": "2026-11-22T13:35:58.245914+00:00",
+  "description": "FDA Approves 2 gMG Treatments, AR1001 Slows Decline in Monotherapy Group of POLARIS-AD Trial, Benjamin Greenberg's, MD, MHS, Insights From the 2026 RNDS NeurologyLive",
+  "id": "401b2a2d604722d2",
+  "is_published": false,
+  "link": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxPb1RSQmJWX3ZWZ05nVXNFaFNPRmVGTjJ5a0FRYy1xWkdORmJFeWptWDJvNUpBQUhBUkF1cFdReklwaTR0MW5FWkxyMEtPOGpYX2hRemdYR1dneTFNd1ZNeFVuRlE5TmlxYVZJbWZtdlc2eUFGQWw1LXBZTlFlTGtGcHpTZDkxYnpjQjVyQkF6bkNjd01Dc19vdGpqY3RxQmF6X1F3YnJHWWxDdDhhMXJZQi1QRF9zS281S2pyb0ZBcGxENTJZQXdGU2h2U1dpVVhzTEJRT3V0ZnZ3WUJZdFRpYV8ydHMxUzBjZE1HN1h0TW1xQXNyaDlHOA?oc=5",
+  "published_at": "2026-11-22T01:42:06+00:00",
+  "relevance": 1,
+  "source": "NeurologyLive",
+  "source_type": "news_search",
+  "summary": "This NeurologyLive roundup headline lists FDA approval of two generalized myasthenia gravis treatments, AR1001 slowing decline in the monotherapy group of the POLARIS-AD trial, and Benjamin Greenberg's insights from the 2026 RNDS. No further details are provided.",
+  "summary_model": "claude-sonnet-5-5",
+  "title": "FDA Approves 2 gMG Treatments, AR1001 Slows Decline in Monotherapy Group of POLARIS-AD Trial, Benjamin Greenberg's, MD, MHS, Insights From the 2026 RNDS"
  },
  "4067b43391342f83": {
   "about_ms": true,
@@ -1681,6 +1745,22 @@
   "summary": "Multiple Sclerosis News Today lists an item on vidofludimus calcium for multiple sclerosis. The text provided contains only the title, with no details on study results, trial phase, or regulatory status.",
   "summary_model": "claude-sonnet-5-5",
   "title": "Vidofludimus calcium for multiple sclerosis"
+ },
+ "49e74d408651781d": {
+  "about_ms": false,
+  "category": "research",
+  "collected_at": "2026-11-22T13:35:58.246046+00:00",
+  "description": "Autologous Immune Cell Infusions Prove Safe in Canine Lymphoma Pilot Study Bioengineer.org",
+  "id": "49e74d408651781d",
+  "is_published": false,
+  "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOU1dZd055aWJJeklHLTBTLWxkN2hWZVRFZnEyM2hldlNuREZIdjA4QzIwRldzYk1KYnAxc3VxanhRNmpFNi14WG92dFQzd3hSZ214elhpdlV3SUNVa19yTzFlVFJOam1MOGVBMm42eXlia19NX0wwLW1qNUQzYWI5aTdQdHhXLWhjWmtSWXZ1TTBBOVpnSUpXMFJLdHNpYzVM?oc=5",
+  "published_at": "2026-11-21T20:13:22+00:00",
+  "relevance": 1,
+  "source": "Bioengineer.org",
+  "source_type": "news_search",
+  "summary": "A pilot study reports that infusions of a dog's own immune cells were safe in canine lymphoma. The source text provided gives no further detail and does not mention multiple sclerosis or related demyelinating diseases.",
+  "summary_model": "claude-sonnet-5-5",
+  "title": "Autologous Immune Cell Infusions Prove Safe in Canine Lymphoma Pilot Study"
  },
  "4a801111d9bdf541": {
   "about_ms": true,
@@ -2770,6 +2850,22 @@
   "summary_model": "claude-sonnet-5-5",
   "title": "Nanoliposomes May Deliver Malvidin or N-Acetylcysteine to Target Alzheimer’s Mitochondrial Failure"
  },
+ "7262814070911b6c": {
+  "about_ms": false,
+  "category": "other",
+  "collected_at": "2026-11-22T13:35:58.246050+00:00",
+  "description": "Elliott Schuchardt Warns That U.S. Must Devalue the Dollar to End Dependence on China PR Underground",
+  "id": "7262814070911b6c",
+  "is_published": false,
+  "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQNWVBbjNnUnZIaVB2Vl9IMmxyX3d2ZTVTSXpLRXlac01JeTJSSHhoU01zRWoyX1JYalptSlFROTMzZUhQX19DaVhLZTJjUW5XeDFsbkNRRE8xQ0RpaWVqUVJRTmcxSG4xeThQc210ZDVOeFFLd0NLYkt5RUo0OWEtYUVkc00wSmhrdmE5dS0yajVIaUlfWHIxNkxldzQxanJoaXJ1Yi1JbWJlekxiWkNoaWpJZFkwNlpJZWhzU2JZa2wzTEYxVU4zZmpfN0U?oc=5",
+  "published_at": "2026-11-21T23:06:17+00:00",
+  "relevance": 1,
+  "source": "PR Underground",
+  "source_type": "news_search",
+  "summary": "A PR Underground item titled \"Elliott Schuchardt Warns That U.S. Must Devalue the Dollar to End Dependence on China.\" The text provided contains only the title and no details. It has no stated connection to multiple sclerosis or related diseases.",
+  "summary_model": "claude-sonnet-5-5",
+  "title": "Elliott Schuchardt Warns That U.S. Must Devalue the Dollar to End Dependence on China"
+ },
  "72d04e4415d66d9f": {
   "about_ms": false,
   "category": "other",
@@ -2785,6 +2881,22 @@
   "summary": "The title reports that systemic steroids cleared a rare case of bladder sarcoidosis that followed hematuria with clots. The source text gives no further detail, and the title does not mention multiple sclerosis or related demyelinating disease.",
   "summary_model": "claude-sonnet-5-5",
   "title": "Systemic Steroids Clear Rare Bladder Sarcoidosis Following Clot-Forming Hematuria"
+ },
+ "75443ca558bb0ff7": {
+  "about_ms": false,
+  "category": "other",
+  "collected_at": "2026-11-22T13:35:58.246060+00:00",
+  "description": "Endothelial PLK2 Depletion Suppresses Pathological Ocular Blood Vessel Growth in Mice Bioengineer.org",
+  "id": "75443ca558bb0ff7",
+  "is_published": false,
+  "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOZXhBZWpIWGhiUGZheWZTem5haUdiM2hrQnZnNVEwRm5fWTdjSmdzdHprcC0wRTdzZG1IaVQ0XzAyUkNWTWoyRWlrODFvNmNXemR0U0VWX2RrdEp1UTdNbFloRFR1aVNETVc4WWNjR2V2RUd0QTVrblVNQ2FTODJqUUtObDhZWHdwb2lGTlh3UkxsdHlLNUtuQmFkaEZrUncxelAxY184QTJ3RnFXeVJB?oc=5",
+  "published_at": "2026-11-16T00:00:59+00:00",
+  "relevance": 1,
+  "source": "Bioengineer.org",
+  "source_type": "news_search",
+  "summary": "A mouse study reports that depleting PLK2 in endothelial cells suppresses pathological blood vessel growth in the eye. The provided text gives no details and does not mention multiple sclerosis or related demyelinating diseases.",
+  "summary_model": "claude-sonnet-5-5",
+  "title": "Endothelial PLK2 Depletion Suppresses Pathological Ocular Blood Vessel Growth in Mice"
  },
  "75a30f9566a99500": {
   "about_ms": false,
@@ -5050,6 +5162,22 @@
   "summary_model": "claude-sonnet-5-5",
   "title": "Is Alzheimer’s Data Altering The Investment Case For Biogen (BIIB)?"
  },
+ "da22a4abeba4bf28": {
+  "about_ms": false,
+  "category": "other",
+  "collected_at": "2026-11-22T13:35:58.246054+00:00",
+  "description": "Melanin Nanomedicines Hitchhike on Myeloperoxidase to Target and Alleviate Chronic Inflammation Bioengineer.org",
+  "id": "da22a4abeba4bf28",
+  "is_published": false,
+  "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOQlh6Y095MlZIbnF2djlhMVFkQmZaMzhxLUhfeXZ2Qi1MTzQzelM4aVctSEtrQlA3R2s1aU1YRC00eWhsbnE2YjU2Y3FuYW5uUHRKMnZhYjE4MTgyVTg0MUhPcWZfa0pIMmJHZ1dKZ2JySGctcjZlZHdfWG0zRk1GODZEZGtwNVFVdi10bkk5b0FtNk9QU0NCQTlud1Z1T0s0LVU4UmtqWFVyc0oycVVjN25zZEJDMFNtcHN4OA?oc=5",
+  "published_at": "2026-11-21T19:13:09+00:00",
+  "relevance": 1,
+  "source": "Bioengineer.org",
+  "source_type": "news_search",
+  "summary": "The source gives only a headline, which says melanin nanomedicines attach to myeloperoxidase to target and reduce chronic inflammation. No details on the study, disease models, results, or any link to MS or related demyelinating diseases are provided.",
+  "summary_model": "claude-sonnet-5-5",
+  "title": "Melanin Nanomedicines Hitchhike on Myeloperoxidase to Target and Alleviate Chronic Inflammation"
+ },
  "da41dedec9297ac4": {
   "about_ms": false,
   "category": "other",
@@ -5225,6 +5353,22 @@
   "summary": "Interim Phase 1 Breakfree-2 results (NCT06220201) show most people with relapsing or progressive MS had stable or improved disability scores, with signs of reduced disease activity, after a single infusion of the experimental CAR T-cell therapy zolacabtagene autoleucel (zola-cel).",
   "summary_model": "claude-sonnet-5-5",
   "title": "Experimental CAR T-cell therapy shows promise in early MS trial"
+ },
+ "e22081ada2dc2377": {
+  "about_ms": false,
+  "category": "other",
+  "collected_at": "2026-11-22T13:35:58.246037+00:00",
+  "description": "Complicated Urinary Tract Infections IDSA",
+  "id": "e22081ada2dc2377",
+  "is_published": false,
+  "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNNmtfN25mUE5DSjViTWpLTVpVcHlNeG9kOEY0V1dDSkpIUzlQczdidDBfcVA5a21QT3NVYVg3N0Fock13eXVwUnkyM05SY0RRMzNYQUJ0bEtDTUE5MEd5cE96cWg2eEFiMmNCUV9FRjY5cUV1QVh5S01Pa1djd09semNmd24wTHNQNGc?oc=5",
+  "published_at": "2025-07-17T07:00:00+00:00",
+  "relevance": 1,
+  "source": "IDSA",
+  "source_type": "news_search",
+  "summary": "The source is titled \"Complicated Urinary Tract Infections\" and is attributed to IDSA (Infectious Diseases Society of America). No further content is provided, and the text does not mention multiple sclerosis or related demyelinating disease.",
+  "summary_model": "claude-sonnet-5-5",
+  "title": "Complicated Urinary Tract Infections"
  },
  "e2aed0fe592da1e0": {
   "about_ms": true,
