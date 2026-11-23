@@ -767,6 +767,22 @@
   "summary_model": "claude-sonnet-5-5",
   "title": "A human-induced pluripotent stem cell-derived spheroid model to investigate myelin injury and repair"
  },
+ "25f05a20f048f998": {
+  "about_ms": true,
+  "category": "research",
+  "collected_at": "2026-11-23T16:36:46.049744+00:00",
+  "description": "People with higher levels of chronic, low-grade inflammation have a greater risk of developing multiple sclerosis (MS), and the association is particularly strong among people with high blood pressure and those with lower socioeconomic status, according to a new study. The findings suggest that systemic (body-wide) inflammation may be a marker of MS susceptibility, although […] The post Chronic, low-grade inflammation tied to higher MS risk, study finds appeared first on Multiple Sclerosis News Today .",
+  "id": "25f05a20f048f998",
+  "is_published": true,
+  "link": "https://multiplesclerosisnewstoday.com/news-posts/2026/11/23/chronic-low-grade-inflammation-tied-higher-ms-risk-study-finds/",
+  "published_at": "2026-11-23T13:00:05+00:00",
+  "relevance": 3,
+  "source": "MS News Today",
+  "source_type": "news",
+  "summary": "A new study found that people with higher levels of chronic, low-grade inflammation have a greater risk of developing MS. The association was particularly strong among people with high blood pressure and those with lower socioeconomic status.",
+  "summary_model": "claude-sonnet-5-5",
+  "title": "Chronic, low-grade inflammation tied to higher MS risk, study finds"
+ },
  "25fd1f7189d61615": {
   "about_ms": true,
   "category": "research",
