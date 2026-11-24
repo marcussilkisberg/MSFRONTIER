@@ -95,6 +95,22 @@
   "summary_model": "claude-sonnet-5-5",
   "title": "Physician Views Results: Novartis’ remibrutinib gets second opinion from neurologists"
  },
+ "055cdb9460ac62d4": {
+  "about_ms": false,
+  "category": "other",
+  "collected_at": "2026-11-24T16:21:59.011328+00:00",
+  "description": "Daratumumab plus Bortezomib, Melphalan, and Prednisone for Untreated Myeloma NEJM",
+  "id": "055cdb9460ac62d4",
+  "is_published": false,
+  "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5XZzFKOWlKTVByNExPY3FGUmhqRVhtYkFpOTBzWnhpOVRObTdKR0prUUJDY0VvUjc3Mk1fQzlOOVVqSm1Ka3JPcEt2a1pZQndHNG9DNnNlbWVCbWhaVXo5cA?oc=5",
+  "published_at": "2017-12-12T08:00:00+00:00",
+  "relevance": 1,
+  "source": "NEJM",
+  "source_type": "news_search",
+  "summary": "NEJM published a report on daratumumab added to bortezomib, melphalan, and prednisone for untreated myeloma. The text provided gives no results or details, and the article does not concern MS or related demyelinating diseases.",
+  "summary_model": "claude-sonnet-5-5",
+  "title": "Daratumumab plus Bortezomib, Melphalan, and Prednisone for Untreated Myeloma"
+ },
  "0560066e96f62ac4": {
   "about_ms": false,
   "category": "regulatory",
@@ -127,6 +143,22 @@
   "summary_model": "claude-sonnet-5-5",
   "title": "Alkermes at Jefferies Global Healthcare Conference: orexin push widens By Investing.com"
  },
+ "06e04131a754bf52": {
+  "about_ms": true,
+  "category": "other",
+  "collected_at": "2026-11-24T16:21:59.010307+00:00",
+  "description": "Test Your Knowledge: Top Findings from MSToronto2026 Neurology Advisor",
+  "id": "06e04131a754bf52",
+  "is_published": false,
+  "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOM3ZrWE94dzhvckFsNEp3emNVMHlhYUF5VWdUTk5hODYtZ0lxTHNzUDhudUJwUHp1dDNqZFc4Um1Xc3IwcGgxRXVvQWs0RHp0TGtSRmVMdkQ2Znpybi1wYUtUTnFKa1YtWHNjSGRiX0hNSGpSVzZtai1TT0hhTF83YXdjWDZrSDl6clhwUnBINU52MldIcldybGdsYw?oc=5",
+  "published_at": "2026-11-19T05:00:00+00:00",
+  "relevance": 2,
+  "source": "Neurology Advisor",
+  "source_type": "news_search",
+  "summary": "Neurology Advisor published a knowledge-test feature on top findings from MSToronto2026. The text provided contains only the title, so no specific findings, data or conclusions can be reported.",
+  "summary_model": "claude-sonnet-5-5",
+  "title": "Test Your Knowledge: Top Findings from MSToronto2026"
+ },
  "07626440e6d92296": {
   "about_ms": false,
   "category": "other",
@@ -142,6 +174,22 @@
   "summary": "TG Therapeutics reported third quarter 2026 financial results and raised its full-year revenue guidance. The text provided contains no further details, such as figures, products, or clinical information.",
   "summary_model": "claude-sonnet-5-5",
   "title": "TG Therapeutics Reports Third Quarter 2026 Financial Results and Raises Full-Year Revenue Guidance"
+ },
+ "07f98fa7b9a489dd": {
+  "about_ms": false,
+  "category": "other",
+  "collected_at": "2026-11-24T16:21:59.011103+00:00",
+  "description": "Amoxicillin-Clavulanate-Induced Pityriasis Rosea: A Pharmacovigilance Case Report Cureus",
+  "id": "07f98fa7b9a489dd",
+  "is_published": false,
+  "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNbnd6ZklnYktfMWc2OVNmLUJ0THoxb1Azc2tWNm01bEE5anA1X05vdVdqQTJROWlYRHVCNHIzSFl4Nkg5MTVHb0hibm51U0p0WGNXMlhMSmRTQjI2UTdaV3QwNnVDZVV5cmZjcHYydDlvOERDVkFfTTExU2R2STR0YThObW5OWlBHb0lIUnh2U0hQaU9QcExiY21vUGpYa0FVNUlUMWhKS0c5UTJIeDh5VGRTSkVaYmpHU2xj?oc=5",
+  "published_at": "2026-01-26T08:00:00+00:00",
+  "relevance": 1,
+  "source": "Cureus",
+  "source_type": "news_search",
+  "summary": "A Cureus pharmacovigilance case report describes pityriasis rosea, a skin rash, linked to the antibiotic amoxicillin-clavulanate. The provided text gives no further details and does not mention multiple sclerosis or related demyelinating diseases.",
+  "summary_model": "claude-sonnet-5-5",
+  "title": "Amoxicillin-Clavulanate-Induced Pityriasis Rosea: A Pharmacovigilance Case Report"
  },
  "08c721ee2f0e1918": {
   "about_ms": false,
@@ -174,6 +222,22 @@
   "summary": "Health Canada approved Ocrevus (ocrelizumab), an infusion therapy, for children and teenagers aged 10 and older with relapsing-remitting MS. Previously authorized only for adults in Canada, it joins daily oral Gilenya (fingolimod) as a treatment option for this age group.",
   "summary_model": "claude-sonnet-5-5",
   "title": "Canadian families gain new therapy for children with relapsing MS"
+ },
+ "08fbbaa533fb411d": {
+  "about_ms": true,
+  "category": "regulatory",
+  "collected_at": "2026-11-24T16:21:59.010378+00:00",
+  "description": "TG Therapeutics Announces FDA Acceptance of Supplemental Biologics License Application for BRIUMVI Single Dose Initiation Schedule Business Wire",
+  "id": "08fbbaa533fb411d",
+  "is_published": true,
+  "link": "https://news.google.com/rss/articles/CBMilgJBVV95cUxQZjllZUhmaTJhaFRXM2hnMU5Xdmg0SkllMC1TS05VdUw2cEJYeHU3VUZ4SUxvRzNmYUdPLTgxU3R3ZkNDMFJMQXpWeEphdnl5bTJMazgxdXVuOWh1dUpOLXZsZk1WRjkxVmNhWU5jQUZhdFh2djU2Q3BDWGUyWWtxdUZBUEJueXZlaFpweUVsLWhqWWR0YXJhOXZhSTRBR1ZKRXVRWnJENHlhTWNUdFBwcDhBNnF3LTFJTVZTQkxzdHY1REEweU9xWTdUcWRvb1V3UkNVMUMzS2Y4bjJsdGVYWGdDMnAzQjlwVncyaHpVMGEtZzllRDRHMmFsT3N6dXdxOUVSVm9UWV9ydUE2eUVTQlBINTE5QQ?oc=5",
+  "published_at": "2026-11-24T12:30:53+00:00",
+  "relevance": 3,
+  "source": "Business Wire",
+  "source_type": "news_search",
+  "summary": "TG Therapeutics announced that the FDA has accepted its supplemental Biologics License Application for a single dose initiation schedule of BRIUMVI. No further details, such as a decision date, were given in the text provided.",
+  "summary_model": "claude-sonnet-5-5",
+  "title": "TG Therapeutics Announces FDA Acceptance of Supplemental Biologics License Application for BRIUMVI Single Dose Initiation Schedule"
  },
  "09077967d7da2cab": {
   "about_ms": false,
@@ -255,6 +319,22 @@
   "summary_model": "claude-sonnet-5-5",
   "title": "New MRI technique may reveal signs of myelin repair in multiple sclerosis"
  },
+ "0c41fd31fab213f7": {
+  "about_ms": false,
+  "category": "research",
+  "collected_at": "2026-11-24T16:21:59.010550+00:00",
+  "description": "German Nationwide Survey Reveals Diagnostic and Treatment Gaps in Rare Autoimmune Conditions Bioengineer.org",
+  "id": "0c41fd31fab213f7",
+  "is_published": false,
+  "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPZDRMNGtfYno5MWlfWGhYSFdwUjhiU2pNT1p2VHpiV0xxYzQ3SDIwUzdQTjZlYUQzV2JqMkZKTmJuMW5hbFVZU3dsZGhwbktldEp3V3BUUVdyc2xfQl9hOVYwRHZtSkxra09KU3B6NGpEWVQ4M3BVQXJidFp4Y2NKeDZES2duQjhFTW9Ma0pNQ0ZJSHlLMDBFejZpWmd6YWx2NnhVMFZwV0xUa3FOcDFTWlRIcl8yM3JV?oc=5",
+  "published_at": "2026-11-20T13:16:38+00:00",
+  "relevance": 2,
+  "source": "Bioengineer.org",
+  "source_type": "news_search",
+  "summary": "A Bioengineer.org item reports on a German nationwide survey of rare autoimmune conditions that found gaps in diagnosis and treatment. The provided text gives no details on which conditions were covered, so any link to MS, NMOSD or MOGAD is unclear.",
+  "summary_model": "claude-sonnet-5-5",
+  "title": "German Nationwide Survey Reveals Diagnostic and Treatment Gaps in Rare Autoimmune Conditions"
+ },
  "0da8343f33c383be": {
   "about_ms": false,
   "category": "other",
@@ -335,6 +415,22 @@
   "summary_model": "claude-sonnet-5-5",
   "title": "An activity-modulated transport route across myelin (TRAM) for motor-driven organelle transfer in oligodendrocytes"
  },
+ "0f7277eeee8fdf2f": {
+  "about_ms": false,
+  "category": "other",
+  "collected_at": "2026-11-24T16:21:59.010936+00:00",
+  "description": "Upcycling medical waste into a magnetic adsorbent for amoxicillin removal: a circular economy approach Nature",
+  "id": "0f7277eeee8fdf2f",
+  "is_published": false,
+  "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBJRC1iR0N6aHhtUHZvS1JlZ0piXzkySkZsMmJpUG1POV9VR1MtY3F2d21Xd2RaWnJ6XzRTZGtxWlU0SlJOSjNIVS1kRmVzcDIyWkxhR0FuNzh5em93QUtV?oc=5",
+  "published_at": "2026-09-16T07:00:00+00:00",
+  "relevance": 1,
+  "source": "Nature",
+  "source_type": "news_search",
+  "summary": "A Nature article titled as describing the upcycling of medical waste into a magnetic adsorbent for removing the antibiotic amoxicillin, framed as a circular economy approach. The provided text gives no further details and does not mention multiple sclerosis.",
+  "summary_model": "claude-sonnet-5-5",
+  "title": "Upcycling medical waste into a magnetic adsorbent for amoxicillin removal: a circular economy approach"
+ },
  "0fc7799dd14e5ea2": {
   "about_ms": true,
   "category": "research",
@@ -350,6 +446,22 @@
   "summary": "NEJM lists a placebo-controlled trial of oral cladribine in relapsing multiple sclerosis. The text provided gives only the title, so no results, dosing or participant details are available.",
   "summary_model": "claude-sonnet-5-5",
   "title": "A Placebo-Controlled Trial of Oral Cladribine for Relapsing Multiple Sclerosis"
+ },
+ "100be59e4508164a": {
+  "about_ms": false,
+  "category": "other",
+  "collected_at": "2026-11-24T16:21:59.010869+00:00",
+  "description": "Protective roles of green plant extracts as functional foods and N-acetylcysteine against CCL Nature",
+  "id": "100be59e4508164a",
+  "is_published": false,
+  "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5sUWRIZm5DYU40TUZiZzQ0SkVuRkRhdGxycjYwcU5uem9wWC1XV0NfZ2dXYVNKWFcwLVQyQ29fNWZ2M015MnlaWGFsbWd5SldOLV9TNjZRekp6VDlQQ3hz?oc=5",
+  "published_at": "2026-06-08T07:00:00+00:00",
+  "relevance": 1,
+  "source": "Nature",
+  "source_type": "news_search",
+  "summary": "The title suggests a Nature-published study on green plant extracts as functional foods and N-acetylcysteine for protection against CCL (the title is cut off). The text gives no details on MS, study design, species, or results.",
+  "summary_model": "claude-sonnet-5-5",
+  "title": "Protective roles of green plant extracts as functional foods and N-acetylcysteine against CCL"
  },
  "110e67681c7bace1": {
   "about_ms": true,
@@ -463,6 +575,38 @@
   "summary_model": "claude-sonnet-5-5",
   "title": "Stephen Krieger, MD, Reviews BTK Inhibitor Trial Outcomes"
  },
+ "16a1b7e14580189b": {
+  "about_ms": false,
+  "category": "other",
+  "collected_at": "2026-11-24T16:21:59.010733+00:00",
+  "description": "Moving Generalized Myasthenia Gravis Care Beyond Long-Term High-Dose Prednisone NeurologyLive",
+  "id": "16a1b7e14580189b",
+  "is_published": false,
+  "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNZ1BJWU55Wlh5Z3FkdEMyWGZGaFpSalJKSk1YZ1pENlBIUHNJbFUwMEJVQm5QMUZldUl0Y2NiZEtoUy1uT0Q3SXI2c0I5SURMUHdUSHFKeVozaTFaaUNqRmFvWFM2ZWxNVVhGQWJQYXh0U1NaYTJBQ3NEWDc1c0oxcmx5eklKd1hUYmtUb29fbURuaGVBbWpsR25DQkw1S2doLTgtblFLeEVHS2ozY0FrUC0wNkM?oc=5",
+  "published_at": "2026-11-21T16:17:17+00:00",
+  "relevance": 1,
+  "source": "NeurologyLive",
+  "source_type": "news_search",
+  "summary": "NeurologyLive published a piece titled \"Moving Generalized Myasthenia Gravis Care Beyond Long-Term High-Dose Prednisone.\" It concerns generalized myasthenia gravis, not MS or related demyelinating disease. No further details were available beyond the title.",
+  "summary_model": "claude-sonnet-5-5",
+  "title": "Moving Generalized Myasthenia Gravis Care Beyond Long-Term High-Dose Prednisone"
+ },
+ "16b83db0bd02e35c": {
+  "about_ms": false,
+  "category": "other",
+  "collected_at": "2026-11-24T16:21:59.010906+00:00",
+  "description": "Eradication of Helicobacter pylori With Vonoprazan–Amoxicillin Dual Therapy as an Alternative for Bismuth‐Based Quadruple Therapy: A Systematic Review and Noninferiority Meta‐Analysis Wiley Online Library",
+  "id": "16b83db0bd02e35c",
+  "is_published": false,
+  "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1oaHNWcFByT3dTQnJCMTZCQ0w2UWllUDEyNkt5cm4wZk5lYlB5M0RKYk93TVFwS1QtRGY2Q2NGc2ZweVVBbGVuZHp5ckNNQnB3cVFjZUZDZUJPUlRWdTZXZnc4SzktTUxlVGc?oc=5",
+  "published_at": "2026-07-11T07:00:00+00:00",
+  "relevance": 1,
+  "source": "Wiley Online Library",
+  "source_type": "news_search",
+  "summary": "A systematic review and noninferiority meta-analysis examines vonoprazan–amoxicillin dual therapy as an alternative to bismuth-based quadruple therapy for eradicating Helicobacter pylori. The text provided gives no results and does not mention multiple sclerosis or related demyelinating diseases.",
+  "summary_model": "claude-sonnet-5-5",
+  "title": "Eradication of Helicobacter pylori With Vonoprazan–Amoxicillin Dual Therapy as an Alternative for Bismuth‐Based Quadruple Therapy: A Systematic Review and Noninferiority Meta‐Analysis"
+ },
  "16bf18b29c465e8b": {
   "about_ms": true,
   "category": "research",
@@ -575,6 +719,22 @@
   "summary_model": "claude-sonnet-5-5",
   "title": "New serious risk alert for drugs like amoxicillin, erythromycin and doxycycline"
  },
+ "1b958a0574f37567": {
+  "about_ms": false,
+  "category": "other",
+  "collected_at": "2026-11-24T16:21:59.011388+00:00",
+  "description": "Community-based amoxicillin treatment for fast breathing pneumonia in young infants 7–59 days old: a cluster randomised trial in rural Bangladesh, Ethiopia, India and Malawi BMJ Global Health",
+  "id": "1b958a0574f37567",
+  "is_published": false,
+  "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBJNHc0M0Jrbm9Mc1JWU3Jta3M3SmtPNXVqUVlmQXVxeFh4NlhZZDZvVjIzVmt4UzF0OXdZcTU2UjBuYkI0bFc5Skhyc2JMT3c?oc=5",
+  "published_at": "2021-08-20T07:00:00+00:00",
+  "relevance": 1,
+  "source": "BMJ Global Health",
+  "source_type": "news_search",
+  "summary": "A cluster randomised trial in rural Bangladesh, Ethiopia, India and Malawi examined community-based amoxicillin treatment for fast breathing pneumonia in infants aged 7–59 days. The source text gives no results and does not mention multiple sclerosis or related conditions.",
+  "summary_model": "claude-sonnet-5-5",
+  "title": "Community-based amoxicillin treatment for fast breathing pneumonia in young infants 7–59 days old: a cluster randomised trial in rural Bangladesh, Ethiopia, India and Malawi"
+ },
  "1bce55e5057c6f72": {
   "about_ms": true,
   "category": "research",
@@ -591,6 +751,22 @@
   "summary_model": "claude-sonnet-5-5",
   "title": "Cell-specific proteome profiling reveals altered peripheral immune cell communication in early multiple sclerosis"
  },
+ "1cac9dc6c59a66bf": {
+  "about_ms": true,
+  "category": "research",
+  "collected_at": "2026-11-24T16:21:59.011394+00:00",
+  "description": "GLP-1 Agonists Show Multiple Sclerosis Preclinical Promise but Lack Human Efficacy Evidence Bioengineer.org",
+  "id": "1cac9dc6c59a66bf",
+  "is_published": true,
+  "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNZll5MVRYN3QxcWIwZV9NX3AtbkZyaEFvemU1akJ6QS11dGxRWmFod0I4UHdPcU9VMW1maGFrQ2UwM3p4eV9IelhyS2FxWUFSQjY3MmpQZHVwS1BxS05Ickw1eWdHYzJ1RmZwcFZwSFJxMmhsbjFrLXlNOTZHYVBOMXBqNER5eXp5OUg0U1EtMFFGbFFHc3Z3WmRqVmxiZllvbU5TUzFSelNsd0NqQXoxZHg1YWJ1c0U?oc=5",
+  "published_at": "2026-11-23T15:23:34+00:00",
+  "relevance": 3,
+  "source": "Bioengineer.org",
+  "source_type": "news_search",
+  "summary": "A Bioengineer.org item reports that GLP-1 agonists have shown promise in preclinical multiple sclerosis studies. It also states there is a lack of evidence of efficacy in humans. No further details were available in the provided text.",
+  "summary_model": "claude-sonnet-5-5",
+  "title": "GLP-1 Agonists Show Multiple Sclerosis Preclinical Promise but Lack Human Efficacy Evidence"
+ },
  "1d28de0a080ea46c": {
   "about_ms": false,
   "category": "other",
@@ -606,6 +782,22 @@
   "summary": "A Drug Topics article reports that doxycycline use is associated with a higher risk of pregnancy loss. The provided text contains no further details, and no link to multiple sclerosis or other demyelinating disease is stated.",
   "summary_model": "claude-sonnet-5-5",
   "title": "Doxycycline Use Associated with Higher Risk of Pregnancy Loss"
+ },
+ "1d2b8a4a2dd47352": {
+  "about_ms": false,
+  "category": "other",
+  "collected_at": "2026-11-24T16:21:59.011081+00:00",
+  "description": "N-Acetylcysteine (NAC): Potential Benefits, Known Risks, and More Everyday Health",
+  "id": "1d2b8a4a2dd47352",
+  "is_published": false,
+  "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQNnBOaXdNaTZUeVFSdDc3dnlVeWdhM2dFVUYzYXNpMTIxWjVoM0Nxbk1fNE4xSkhyYnJTWjhIOE92ZDdzdUtRWVZfUjBnWXgxTXRCZEVEZjF3Z2hlT3F1ZERCUmxiSXYxUzRibkhibDlSdFBySG1xckNFMDNTU2pHeFplMG1GdHZKVzJNUFFmNEpodjJGSnI4R3RlNlhjek55bjR2TDNn?oc=5",
+  "published_at": "2026-03-19T14:38:29+00:00",
+  "relevance": 1,
+  "source": "Everyday Health",
+  "source_type": "news_search",
+  "summary": "Everyday Health has published a general article on N-acetylcysteine (NAC), covering its potential benefits and known risks. The text provided gives only the title, with no details on MS or any other findings.",
+  "summary_model": "claude-sonnet-5-5",
+  "title": "N-Acetylcysteine (NAC): Potential Benefits, Known Risks, and More"
  },
  "1d494f4350a89242": {
   "about_ms": true,
@@ -639,6 +831,22 @@
   "summary_model": "claude-sonnet-5-5",
   "title": "New drug vidofludimus calcium secures patent to treat progressive forms of MS"
  },
+ "1e3ded1ffe581835": {
+  "about_ms": false,
+  "category": "other",
+  "collected_at": "2026-11-24T16:21:59.011210+00:00",
+  "description": "N-Acetylcysteine Role in Maintaining Renal Function in Cancer Patients with Cisplatin-Based Chemotherapy Dove Medical Press",
+  "id": "1e3ded1ffe581835",
+  "is_published": false,
+  "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOaVBHOEQ2dVNtVEE1cFdrYnJIZmU1dlhrWm1TamtyZVUtNHNvd2RoMnZlSWxYa2lFZ3liZWtkWHg4SGhCa3JzX1pCSjE4c085T3dXc1NfLUtadFM2RkpEdk0yMzI4dDdZTDhyb1hpbUlQZzBIQlhWMUZNOWVoZF9PWUdTQVVSYnJEZVFabHZuemNEQ2V5QlFXYVROUDVkNk1rVlFYUTMwQXVUOUdEREtBcUYzbkdFSldJQ056QU11ZXdUV25rQVVGRm1Ic2VrUQ?oc=5",
+  "published_at": "2025-11-27T08:00:00+00:00",
+  "relevance": 1,
+  "source": "Dove Medical Press",
+  "source_type": "news_search",
+  "summary": "The source is titled as a report on N-acetylcysteine's role in maintaining kidney function in cancer patients receiving cisplatin-based chemotherapy. No findings or details are given beyond the title, and it does not mention multiple sclerosis or related demyelinating disease.",
+  "summary_model": "claude-sonnet-5-5",
+  "title": "N-Acetylcysteine Role in Maintaining Renal Function in Cancer Patients with Cisplatin-Based Chemotherapy"
+ },
  "20a9476507a59309": {
   "about_ms": true,
   "category": "research",
@@ -654,6 +862,22 @@
   "summary": "NEJM has published a study titled \"Tolebrutinib in Nonrelapsing Secondary Progressive Multiple Sclerosis.\" The provided text gives only the title, so no results, design, or outcomes are stated.",
   "summary_model": "claude-sonnet-5-5",
   "title": "Tolebrutinib in Nonrelapsing Secondary Progressive Multiple Sclerosis"
+ },
+ "213dc470762a0004": {
+  "about_ms": false,
+  "category": "other",
+  "collected_at": "2026-11-24T16:21:59.011045+00:00",
+  "description": "The Effect of Prednisone Dose on the Clinical and... : Arab Board Medical Journal Ovid",
+  "id": "213dc470762a0004",
+  "is_published": false,
+  "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNcTN5YVBCUTZuWVpRS0Fac3NxV1R0LXZEbjhhTnptbTdXYTlvTjFHUmtNeEY3UVJ0cGxFTW9SN3ZyNks1QnlXaGNpalpwYThJbEx2Q2Fncm13aVdFQXNEc25lV0x4X2RpYkliNmItRjRFU3Q2RnBRMHZmSGZaeEV4NzFOV0xwd013TE1DVlowMVpvN0ZsbjFYMHhXSkFFUUE2TWlybkJheHpZcDFUSkV0M0YtWnRncXRmbjBUdlVUS0RfUQ?oc=5",
+  "published_at": "2026-02-15T14:27:27+00:00",
+  "relevance": 1,
+  "source": "Ovid",
+  "source_type": "news_search",
+  "summary": "The source gives only a truncated title, 'The Effect of Prednisone Dose on the Clinical and...', from the Arab Board Medical Journal via Ovid. No condition, study design, or findings are stated, so a link to MS or related diseases cannot be confirmed.",
+  "summary_model": "claude-sonnet-5-5",
+  "title": "The Effect of Prednisone Dose on the Clinical and... : Arab Board Medical Journal"
  },
  "218f4a24551fd1a3": {
   "about_ms": true,
@@ -847,6 +1071,22 @@
   "summary_model": "claude-sonnet-5-5",
   "title": "Markets & Stocks - The DEA Laid The Trap - And State Marijuana Operators Took The Bait"
  },
+ "2793ddc7ffc8b12f": {
+  "about_ms": false,
+  "category": "other",
+  "collected_at": "2026-11-24T16:21:59.010854+00:00",
+  "description": "Molecular signatures of amoxicillin phytotoxicity revealed by integrated cytogenetic, biochemical, and molecular docking analyses | Scientific Reports Nature",
+  "id": "2793ddc7ffc8b12f",
+  "is_published": false,
+  "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1FU1R5UHJhNGRoSVhnYTdPeF9RYkIzV3h3cmlpZGs2Z2N0djFYZFJ3QnZpdVdLVmtla2ZEY0VZVEljWDM4Vy1zOTJ3c3ltNXZJWnJvZkhBeW10aXhwZjVB?oc=5",
+  "published_at": "2026-08-21T07:00:00+00:00",
+  "relevance": 1,
+  "source": "Nature",
+  "source_type": "news_search",
+  "summary": "A Scientific Reports paper examines amoxicillin's toxic effects on plants using cytogenetic, biochemical and molecular docking analyses. The provided text gives no details and does not mention multiple sclerosis or related demyelinating diseases.",
+  "summary_model": "claude-sonnet-5-5",
+  "title": "Molecular signatures of amoxicillin phytotoxicity revealed by integrated cytogenetic, biochemical, and molecular docking analyses | Scientific Reports"
+ },
  "289b188b0090e1ba": {
   "about_ms": false,
   "category": "trial_news",
@@ -974,6 +1214,22 @@
   "summary": "A Medical Dialogues article reports a study finding that intravenous immunoglobulin (IVIG) improves outcomes in newly diagnosed inflammatory myopathies. The provided text contains no further details, and it does not concern MS or related demyelinating diseases.",
   "summary_model": "claude-sonnet-5-5",
   "title": "IVIG Improves Outcomes in Newly Diagnosed Inflammatory Myopathies: Study"
+ },
+ "2c1f021476482826": {
+  "about_ms": false,
+  "category": "other",
+  "collected_at": "2026-11-24T16:21:59.011266+00:00",
+  "description": "Prednisone and Coronavirus: Do Corticosteroids Make You Immunosuppressed and Higher Risk for COVID-19? CreakyJoints",
+  "id": "2c1f021476482826",
+  "is_published": false,
+  "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOWXdrMzJoQnJwYVNvTUlydVljT3ZHUDAzTHY5VXZQQVNTQ1VIS1BFdXhUWlp3M0h1LUNrQks3blVLUFhGc0FmSkl3SkF6R2JRaDVPUFprN2dlTU53S1NqdnpLejdHUktuYU1FT0lvOXV1SWFEZ3JYV21OQlRVTHBYMVFQbnBWRFB6VDZOaEZpbmFCcUJucTd3c0ZlNzFLUEhPU25seloxWUtTTzUwQWctdEt3VG1aTWdqX0N4Tw?oc=5",
+  "published_at": "2020-03-25T07:00:00+00:00",
+  "relevance": 2,
+  "source": "CreakyJoints",
+  "source_type": "news_search",
+  "summary": "A CreakyJoints article asks whether prednisone and other corticosteroids cause immunosuppression and raise COVID-19 risk. Only the title was provided, so no findings or details are available. It is not specific to MS or related demyelinating diseases.",
+  "summary_model": "claude-sonnet-5-5",
+  "title": "Prednisone and Coronavirus: Do Corticosteroids Make You Immunosuppressed and Higher Risk for COVID-19?"
  },
  "2ca830c80274b4d8": {
   "about_ms": true,
@@ -1103,6 +1359,22 @@
   "summary_model": "claude-sonnet-5-5",
   "title": "Immunic presents new vidofludimus calcium data at multiple sclerosis conference"
  },
+ "3355956f53ee8506": {
+  "about_ms": false,
+  "category": "other",
+  "collected_at": "2026-11-24T16:21:59.011293+00:00",
+  "description": "Amoxicillin is effective for many people hospitalised with pneumonia NIHR Evidence",
+  "id": "3355956f53ee8506",
+  "is_published": false,
+  "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNbkpESkp2MVJ5bTV1R21jaFdnWl9RaXJjUnRNa0xhRHFNeklKTUlvM3B0Y2MxNU1IcW5mSDVpWVgyRTlfYVJQelNHUE1ESjRpRzMyM0ZDVEpTVGFTNFpyTkZJc0E3MmhGTWp4VXc4V2l2QTRiVGRwSlRqX3RvMWhDdUJ6S1JUZUhJODFrYmJZZUhyT3RTZXNkQVhiai1QbENiLWNaYkxn?oc=5",
+  "published_at": "2024-11-22T08:00:00+00:00",
+  "relevance": 1,
+  "source": "NIHR Evidence",
+  "source_type": "news_search",
+  "summary": "NIHR Evidence reports that amoxicillin is effective for many people hospitalised with pneumonia. The text provided gives no further detail, and it does not mention multiple sclerosis or related demyelinating conditions.",
+  "summary_model": "claude-sonnet-5-5",
+  "title": "Amoxicillin is effective for many people hospitalised with pneumonia"
+ },
  "3357e95eca742740": {
   "about_ms": false,
   "category": "regulatory",
@@ -1118,6 +1390,22 @@
   "summary": "Trend Hunter reports that Sanofi has won FDA approval for Infilbray as a treatment for Gaucher disease type 3. The text provided does not mention multiple sclerosis or related demyelinating conditions, and gives no further details.",
   "summary_model": "claude-sonnet-5-5",
   "title": "FDA Med Therapies: Sanofi Wins FDA Approval for Infilbray as Gaucher Disease Type 3…"
+ },
+ "342a362af16b13fd": {
+  "about_ms": false,
+  "category": "other",
+  "collected_at": "2026-11-24T16:21:59.011219+00:00",
+  "description": "Niraparib and abiraterone acetate plus prednisone for HRR-deficient metastatic castration-sensitive prostate cancer: a randomized phase 3 trial Nature",
+  "id": "342a362af16b13fd",
+  "is_published": false,
+  "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBTaGt2ZzdpRWFGcW1oTjFlYzZuQ000eFdndk91VmdUb2hUWVhSME9qNHA0ejRqb2FGcW9wT2dEQ0ZtWXpkZ3lmTkNYOGxyeHVjcEFXcEt4cXc4QUhRQzU0?oc=5",
+  "published_at": "2025-10-07T07:00:00+00:00",
+  "relevance": 1,
+  "source": "Nature",
+  "source_type": "news_search",
+  "summary": "A Nature article reports a randomized phase 3 trial of niraparib plus abiraterone acetate and prednisone in metastatic castration-sensitive prostate cancer with homologous recombination repair deficiency. It does not concern multiple sclerosis or related demyelinating diseases.",
+  "summary_model": "claude-sonnet-5-5",
+  "title": "Niraparib and abiraterone acetate plus prednisone for HRR-deficient metastatic castration-sensitive prostate cancer: a randomized phase 3 trial"
  },
  "3456abab1624a0ab": {
   "about_ms": true,
@@ -1151,6 +1439,22 @@
   "summary_model": "claude-sonnet-5-5",
   "title": "Doxycycline Use in First-trimester Tied to Pregnancy Loss"
  },
+ "35a8db14a4a855b9": {
+  "about_ms": false,
+  "category": "research",
+  "collected_at": "2026-11-24T16:21:59.010923+00:00",
+  "description": "Adding IVIG to Prednisone Boosts Outcomes in Idiopathic Inflammatory Myopathies Medscape",
+  "id": "35a8db14a4a855b9",
+  "is_published": false,
+  "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPTEdfT2NBOUhoMkFucnpEcml2NXE5RXo3UmRWVHdwbklDYmFNbDVENjB6WG9KVndyenNnV0xTcTJxVnEyVklaMl9EZlZ6R1JLWHF0UzZ3akNVZWxLU21xaWlhdVBWU0poYndiQkVLZWlabXM1SDB4a3JEdTlSdVJ3ankwcHRFaTZyaE9HNlprTFFtZ0hnSGMxeXYxTUZPX3Rp?oc=5",
+  "published_at": "2026-09-17T07:00:00+00:00",
+  "relevance": 1,
+  "source": "Medscape",
+  "source_type": "news_search",
+  "summary": "A Medscape report says adding intravenous immunoglobulin (IVIG) to prednisone improved outcomes in idiopathic inflammatory myopathies, a group of muscle diseases. The text provided does not mention multiple sclerosis or related demyelinating conditions.",
+  "summary_model": "claude-sonnet-5-5",
+  "title": "Adding IVIG to Prednisone Boosts Outcomes in Idiopathic Inflammatory Myopathies"
+ },
  "361fca5d8825afd7": {
   "about_ms": true,
   "category": "trial_news",
@@ -1166,6 +1470,22 @@
   "summary": "Tiziana Life Sciences announced what it describes as positive results from its Phase 2a INFORM-MS trial of intranasal foralumab. The source text gives only the headline, so no details on participants, outcomes, or safety are available.",
   "summary_model": "claude-sonnet-5-5",
   "title": "Tiziana Life Sciences Announces Positive Phase 2a INFORM-MS Trial Results for Intranasal Foralumab"
+ },
+ "363ef33b1325e230": {
+  "about_ms": true,
+  "category": "regulatory",
+  "collected_at": "2026-11-24T16:21:59.010448+00:00",
+  "description": "Siemens Healthineers Receives FDA De Novo Authorization for MS Blood Test GenomeWeb",
+  "id": "363ef33b1325e230",
+  "is_published": true,
+  "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQSHQzQnhNaTZoNk9PUzNFMDJNbE0tRFVFaVhuNk1pbDlDeDYxVVpEM1ExdGNwUUI0blJDbGdLZ0FSMWlkdkZIMlVUY2trbzZJV29TTjBITTIwLVRpeV9WOHM0SV9Ebll3U3g0dFI2OXViemktcnFaSkZZVml6bE52LU1ZNmJ2MlphSnpJTmozRkhVMzd3OURYRjBvNVpUQmdUc1Z6RjgyODdlYnM?oc=5",
+  "published_at": "2026-11-23T19:22:00+00:00",
+  "relevance": 4,
+  "source": "GenomeWeb",
+  "source_type": "news_search",
+  "summary": "Siemens Healthineers has received FDA De Novo authorization for a blood test related to multiple sclerosis, according to GenomeWeb. The source text provided gives no details on what the test measures, how it is used, or its performance.",
+  "summary_model": "claude-sonnet-5-5",
+  "title": "Siemens Healthineers Receives FDA De Novo Authorization for MS Blood Test"
  },
  "367415a3d504aa97": {
   "about_ms": true,
@@ -1199,6 +1519,22 @@
   "summary_model": "claude-sonnet-5-5",
   "title": "Immunic, Inc. (IMUX) stock price, news, quote and history"
  },
+ "37fefd83fa82512b": {
+  "about_ms": false,
+  "category": "other",
+  "collected_at": "2026-11-24T16:21:59.011254+00:00",
+  "description": "Amoxicillin: Side effects, dosage, uses, and more Medical News Today",
+  "id": "37fefd83fa82512b",
+  "is_published": false,
+  "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBTeWtISW1FOFFUSmdTTkl1UE45bEhiWTRSenRfNU9RbFBPRWg4amJBYWt0V0dlMlM1R1JmcW9MWnNCX3lqeG1YcnFBejg1ZlhHaXhVZmN6SEVjdGIySjVQY3VXMmFIWHVFYkJwVmNsSDE3cEU?oc=5",
+  "published_at": "2020-05-21T17:14:26+00:00",
+  "relevance": 1,
+  "source": "Medical News Today",
+  "source_type": "news_search",
+  "summary": "The source is a general Medical News Today article on amoxicillin, covering side effects, dosage and uses. The text provided contains no information about multiple sclerosis or related demyelinating disease.",
+  "summary_model": "claude-sonnet-5-5",
+  "title": "Amoxicillin: Side effects, dosage, uses, and more"
+ },
  "382540e0559012d6": {
   "about_ms": true,
   "category": "research",
@@ -1214,6 +1550,22 @@
   "summary": "A Nature item titled \"EBV reactivation precedes multiple sclerosis relapse\" suggests Epstein-Barr virus reactivation occurs before MS relapses. No article text was provided, so study design, participants, and findings are unknown.",
   "summary_model": "claude-sonnet-5-5",
   "title": "EBV reactivation precedes multiple sclerosis relapse"
+ },
+ "3836a9672b9363d9": {
+  "about_ms": true,
+  "category": "research",
+  "collected_at": "2026-11-24T16:21:59.010418+00:00",
+  "description": "MRI Yield in MS Declines With Patient Age Wisevoter",
+  "id": "3836a9672b9363d9",
+  "is_published": false,
+  "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPYXhNVWxraHplUENJUFNjXzd4eHNYaHF0cENxUGVrYW5kTzYwRVhmTllyUmVCMVM4aGs4ME9xMjlyQlJvaFdnUXY2WG5YVEVaY2xFc3VFalp0cHNhcW5YelZJQnJVRmdUWWpkUm9tNjhjUDBJYWZmc2lnN3JkbW1CN1dGRFh5dV82VnRUMWdR?oc=5",
+  "published_at": "2026-11-23T18:39:25+00:00",
+  "relevance": 2,
+  "source": "Wisevoter",
+  "source_type": "news_search",
+  "summary": "A Wisevoter item titled \"MRI Yield in MS Declines With Patient Age\" suggests MRI becomes less informative in older people with MS. No study details, methods, figures or findings beyond the headline were provided.",
+  "summary_model": "claude-sonnet-5-5",
+  "title": "MRI Yield in MS Declines With Patient Age"
  },
  "384ca637adaa7dec": {
   "about_ms": true,
@@ -1246,6 +1598,22 @@
   "summary": "A study linked abnormal cholesterol metabolism and elevated inflammatory markers to greater disability in people with progressive multiple sclerosis. Researchers reported marked changes in metabolic, inflammatory, nutritional, and brain cell biomarker networks in those with severe progressive MS.",
   "summary_model": "claude-sonnet-5-5",
   "title": "Cholesterol, inflammation shifts tied to disability in progressive MS"
+ },
+ "3a38419bdf8ec838": {
+  "about_ms": false,
+  "category": "other",
+  "collected_at": "2026-11-24T16:21:59.011015+00:00",
+  "description": "Study supports amoxicillin as first choice for sinusitis CIDRAP",
+  "id": "3a38419bdf8ec838",
+  "is_published": false,
+  "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPUmlnR0JORHh1UC1MdUF1bUlXbnNELVMyYkdscVR5SG5FRUstRXlfOVpOSEJ5SmlScjNUcjVWN0pzV1VER2JUc0k1WjZQR1hJRC1HTmZmTjJPc25NOTN2eDFsYmxxbTA3dnJhVzBGbVphWjVZQlY0Zm1OQW93VTItV1BldDFFRVVKcFF6Z2lsS3F0eE1kakQ0SV9WLUNlMUdTc0Q1Zg?oc=5",
+  "published_at": "2026-04-21T07:00:00+00:00",
+  "relevance": 1,
+  "source": "CIDRAP",
+  "source_type": "news_search",
+  "summary": "A CIDRAP item titled \"Study supports amoxicillin as first choice for sinusitis.\" No further details are provided, and the title makes no mention of multiple sclerosis or related demyelinating disease.",
+  "summary_model": "claude-sonnet-5-5",
+  "title": "Study supports amoxicillin as first choice for sinusitis"
  },
  "3a546ad26ad8325a": {
   "about_ms": true,
@@ -1458,6 +1826,38 @@
   "summary_model": "claude-sonnet-5-5",
   "title": "Roche’s Gazyva/Gazyvaro becomes the first FDA-approved treatment for primary membranous nephropathy"
  },
+ "41c61af1d8012ee6": {
+  "about_ms": false,
+  "category": "other",
+  "collected_at": "2026-11-24T16:21:59.010369+00:00",
+  "description": "Key Trials to Watch at CTAD 2026 NeurologyLive",
+  "id": "41c61af1d8012ee6",
+  "is_published": false,
+  "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1fYXRoQ2tDcHBpUTBTV1Jrd0hjRFRscm1tOHhZeWtxUlpIMFcyOHZPeGRKN2JXZDNsRnBLLVE4YUhqQlFRQ3c3cHItS3dNaDhFU2UtejlqdmQ5NzNINlkzTHBRS01rdmE5TzBtR0owNkk?oc=5",
+  "published_at": "2026-11-20T18:00:00+00:00",
+  "relevance": 1,
+  "source": "NeurologyLive",
+  "source_type": "news_search",
+  "summary": "NeurologyLive published a piece titled \"Key Trials to Watch at CTAD 2026.\" CTAD is a conference on Alzheimer's disease trials. The source text gives only the title, with no details on specific trials or any MS or related demyelinating disease content.",
+  "summary_model": "claude-sonnet-5-5",
+  "title": "Key Trials to Watch at CTAD 2026"
+ },
+ "422a93a2b50b9caf": {
+  "about_ms": false,
+  "category": "research",
+  "collected_at": "2026-11-24T16:21:59.010768+00:00",
+  "description": "Prednisone may impair bone health in children with Duchenne muscular dystrophy News-Medical",
+  "id": "422a93a2b50b9caf",
+  "is_published": false,
+  "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNVzdSVXJDdHN5cTVtMFQtRG1xdmZqekRKSDRjbjlpTF8zMWpVakFoTVRITFR2bW50QVRINmNRTVYwdnZzNndWc2lCZWRXYmJDbGpfS2liZXoxNG1rTXJwbGpXTXJJQUNXSkxmM0pnVE1MYU05Rm1UNlNUUWlocmJ6YmVvTTdzSlFJeVVMc2s3VFpROW1hbjJEUDFHSlJSTGNfVFAxWUVkMm96R0dNd1h5eGkzN1h0Y3BfQ2xRQktCdWZBTDR3?oc=5",
+  "published_at": "2026-09-04T07:00:00+00:00",
+  "relevance": 1,
+  "source": "News-Medical",
+  "source_type": "news_search",
+  "summary": "A News-Medical item reports that prednisone may impair bone health in children with Duchenne muscular dystrophy. The text provided gives no further details, and the item does not concern multiple sclerosis or related demyelinating disease.",
+  "summary_model": "claude-sonnet-5-5",
+  "title": "Prednisone may impair bone health in children with Duchenne muscular dystrophy"
+ },
  "42a471180211ea66": {
   "about_ms": true,
   "category": "research",
@@ -1489,6 +1889,22 @@
   "summary": "BioSpace reports that Tiziana is presenting a multiple sclerosis result at a lower dose, while the high dose missed its target. The source text gives no further details on the trial, outcomes, or participants.",
   "summary_model": "claude-sonnet-5-5",
   "title": "Tiziana touts multiple sclerosis win at lower dose as high dose misses mark"
+ },
+ "43dc769d30244f85": {
+  "about_ms": true,
+  "category": "research",
+  "collected_at": "2026-11-24T16:21:59.010533+00:00",
+  "description": "Rituximab Suppresses Relapses but Disability Continues Accumulating in Multiple Sclerosis Bioengineer.org",
+  "id": "43dc769d30244f85",
+  "is_published": false,
+  "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQWVZqQmo5b2psd3k2bkJsdG5KaDRUcC13aHVncmFMSmxoWFRXdU5MZzJNQnZ2cTBBejlqenRkUTZRTkc4YWlRY0U0R1NqTmZ6M1haSEk2ZHBfYWw4RFJuNVNFQWczVmNIR2l6X2gyYVRXTWowdFNLZHNCQ0ZySWJ1QUNuUU9XNkxGVkpFV0FhRE1zbjZSajMta3Z4WnJNQXQ1SERJMnAtckExeXJEMFdfcHFicEE?oc=5",
+  "published_at": "2026-11-23T20:46:37+00:00",
+  "relevance": 2,
+  "source": "Bioengineer.org",
+  "source_type": "news_search",
+  "summary": "A Bioengineer.org item reports that rituximab suppresses relapses in multiple sclerosis, but disability continues to accumulate. The provided text contains only the title, so study design, population, and data are not available.",
+  "summary_model": "claude-sonnet-5-5",
+  "title": "Rituximab Suppresses Relapses but Disability Continues Accumulating in Multiple Sclerosis"
  },
  "441b75a7e5269c5e": {
   "about_ms": true,
@@ -1537,6 +1953,22 @@
   "summary": "An openPR market-report headline says Roche's fenebrutinib reduced multiple sclerosis relapses by up to 58%. The source text gives no trial details, patient groups or comparators, so the figure cannot be assessed from this item alone.",
   "summary_model": "claude-sonnet-5-5",
   "title": "Disease-Modifying Therapies Market Advances as Roche's Fenebrutinib Cuts Multiple Sclerosis Relapses by Up to 58%"
+ },
+ "44ba6dd3512386e5": {
+  "about_ms": false,
+  "category": "other",
+  "collected_at": "2026-11-24T16:21:59.010886+00:00",
+  "description": "The antibacterial effectiveness of fourth-generation poly-amidoamine dendrimers-loaded with amoxicillin in combating methicillin-resistant Staphylococcus aureus | Scientific Reports Nature",
+  "id": "44ba6dd3512386e5",
+  "is_published": false,
+  "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9zejNIY2JTSzRmeE9PNHJBZjRWdVAyUVNRSTYzY2F2V3NMOEJnV1o5ZVJnS0h3SGJxXzVra3hXd2lIRWtHdE9VZTd5cmJ0VVhSOEhHOUdxbXVNU3lvWWEw?oc=5",
+  "published_at": "2026-02-16T08:00:00+00:00",
+  "relevance": 1,
+  "source": "Nature",
+  "source_type": "news_search",
+  "summary": "A Scientific Reports article examines fourth-generation poly-amidoamine dendrimers loaded with amoxicillin and their antibacterial effectiveness against methicillin-resistant Staphylococcus aureus (MRSA). The excerpt gives no details, and it does not mention multiple sclerosis or related demyelinating diseases.",
+  "summary_model": "claude-sonnet-5-5",
+  "title": "The antibacterial effectiveness of fourth-generation poly-amidoamine dendrimers-loaded with amoxicillin in combating methicillin-resistant Staphylococcus aureus | Scientific Reports"
  },
  "44e53daae2321a9b": {
   "about_ms": true,
@@ -1601,6 +2033,22 @@
   "summary": "GenomeWeb reports that Iovance is considering biomarker-informed lung cancer as the next indication for its cell therapy Amtagvi. The provided text includes no further details, and it does not mention MS or related demyelinating diseases.",
   "summary_model": "claude-sonnet-5-5",
   "title": "Iovance Eyeing Biomarker-Informed Lung Cancer as Next Amtagvi Indication"
+ },
+ "460709a91358f08b": {
+  "about_ms": false,
+  "category": "other",
+  "collected_at": "2026-11-24T16:21:59.011229+00:00",
+  "description": "Abiraterone plus Prednisone in Metastatic, Castration-Sensitive Prostate Cancer NEJM",
+  "id": "460709a91358f08b",
+  "is_published": false,
+  "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1JeHNGcmMtc3NUblFoZTdSTjNrcU80VzdaNHJCdW1YT0F5OEp3MWhIcEczSGZBUlN5dkZpY3lRbl9zNnR4UDVwVTNnMjB0dk1oZWlpU0NvS0xiRjNfWHNuVA?oc=5",
+  "published_at": "2017-06-04T07:00:00+00:00",
+  "relevance": 1,
+  "source": "NEJM",
+  "source_type": "news_search",
+  "summary": "The NEJM article, titled \"Abiraterone plus Prednisone in Metastatic, Castration-Sensitive Prostate Cancer,\" concerns prostate cancer treatment. The provided text contains no details on findings or any link to multiple sclerosis or related demyelinating disease.",
+  "summary_model": "claude-sonnet-5-5",
+  "title": "Abiraterone plus Prednisone in Metastatic, Castration-Sensitive Prostate Cancer"
  },
  "4630e47f11bb8504": {
   "about_ms": false,
@@ -1810,6 +2258,22 @@
   "summary_model": "claude-sonnet-5-5",
   "title": "Phase 3 trials of vidofludimus calcium in relapsing MS enrolled"
  },
+ "4b2b136b82119a70": {
+  "about_ms": true,
+  "category": "regulatory",
+  "collected_at": "2026-11-24T16:21:59.010350+00:00",
+  "description": "FDA Accepts Application for Single-Dose Ublituximab Initiation in Multiple Sclerosis NeurologyLive",
+  "id": "4b2b136b82119a70",
+  "is_published": true,
+  "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNM3laTFBnWkRhY29rWmtPQXB2OVVyNUp1X211ZGNiZW1QcFRFT1hjSG8ydHV0Y3NOSDN6M19reTRNVkx3WG5IN3VrT3d2T08yTC1Ka1N6UWlWLXNFVDhDOFFYZWxERTJRcHNuN2NKc2swcl9nWGhiX0RURzEzQnJ2VkhfWGU2a09hVFdJNU5IZU5Od2I3RTF6Q1ZaZE9lWFd6bVBwQjNfMTFzcTFKQ2V3Y0Fn?oc=5",
+  "published_at": "2026-11-24T15:31:15+00:00",
+  "relevance": 3,
+  "source": "NeurologyLive",
+  "source_type": "news_search",
+  "summary": "NeurologyLive reports that the FDA has accepted an application for single-dose initiation of ublituximab in multiple sclerosis. No further details, such as dosing, timeline or decision date, are given in the text provided.",
+  "summary_model": "claude-sonnet-5-5",
+  "title": "FDA Accepts Application for Single-Dose Ublituximab Initiation in Multiple Sclerosis"
+ },
  "4b3c45ca6a95e87e": {
   "about_ms": false,
   "category": "trial_news",
@@ -1842,6 +2306,22 @@
   "summary_model": "claude-sonnet-5-5",
   "title": "Cladribine Preserves Antibody Levels Better Than Anti-CD20 Multiple Sclerosis Therapies"
  },
+ "4c38658e10ed93a9": {
+  "about_ms": false,
+  "category": "other",
+  "collected_at": "2026-11-24T16:21:59.011203+00:00",
+  "description": "Can I Take Ibuprofen with Prednisone? MedShadow Foundation",
+  "id": "4c38658e10ed93a9",
+  "is_published": false,
+  "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOOGc2RjdnRnF4b2lLeXBzT3ZUSjg1cEk1cUVzbVdJNVVtYlMzcmF5OWc3aTVmdlcySXhDb19vSmpnWVQ4MVQ1LW5KZlFnYXBadXRHbnZ4MzlwNkcxT1gxZHBuNVg4WTZ5RVNvUUlIMkZhNDZQLWRtNlRHcjU2b1JrOWpHLUNhc0QtZVdLQXhkU2YxLVJGR0h5NWZkdjdJWTY4WjJWRGZ3TDd3QQ?oc=5",
+  "published_at": "2025-12-16T18:20:42+00:00",
+  "relevance": 1,
+  "source": "MedShadow Foundation",
+  "source_type": "news_search",
+  "summary": "The source is titled \"Can I Take Ibuprofen with Prednisone?\" and comes from the MedShadow Foundation. No further text was provided, so nothing is stated about multiple sclerosis, findings, or recommendations.",
+  "summary_model": "claude-sonnet-5-5",
+  "title": "Can I Take Ibuprofen with Prednisone?"
+ },
  "4c69d03f511c8931": {
   "about_ms": true,
   "category": "research",
@@ -1857,6 +2337,22 @@
   "summary": "NeurologyLive reports that orelabrutinib, a BTK inhibitor, showed promising efficacy in a phase 2 study in relapsing-remitting multiple sclerosis. The text provided gives no data on results, participant numbers, or safety.",
   "summary_model": "claude-sonnet-5-5",
   "title": "BTK Inhibitor Orelabrutinib Shows Promising Efficacy in Phase 2 Study of Relapsing-Remitting Multiple Sclerosis"
+ },
+ "4d2d253ce07427ee": {
+  "about_ms": false,
+  "category": "other",
+  "collected_at": "2026-11-24T16:21:59.011010+00:00",
+  "description": "N-Acetylcysteine-Loaded Scaffolds and Their Role in Extracellular ROS and Redox-Related Gene Regulation in Chondrocytes Wiley Online Library",
+  "id": "4d2d253ce07427ee",
+  "is_published": false,
+  "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE82ZVNLUTlJSlRnekczanJHcnQzaWRrbnAwRWl6Ync3bVpDTGR3Tkh6QjRQZjdWR04xWmJpOWtxRERGQ0g0ZkhnLUlKdWVyNW5iVFg2blhDXzgwdG9iNWJSN3Nwd2RQVUhBUlpIRWVyZHY?oc=5",
+  "published_at": "2026-02-09T08:00:00+00:00",
+  "relevance": 1,
+  "source": "Wiley Online Library",
+  "source_type": "news_search",
+  "summary": "A Wiley Online Library article on N-acetylcysteine-loaded scaffolds and their role in extracellular reactive oxygen species and redox-related gene regulation in chondrocytes (cartilage cells). The text provided does not mention multiple sclerosis or other demyelinating disease.",
+  "summary_model": "claude-sonnet-5-5",
+  "title": "N-Acetylcysteine-Loaded Scaffolds and Their Role in Extracellular ROS and Redox-Related Gene Regulation in Chondrocytes"
  },
  "4d905727c680642a": {
   "about_ms": false,
@@ -2026,6 +2522,22 @@
   "summary_model": "claude-sonnet-5-5",
   "title": "Empire Forum 2026: Ambati on K8 phase 2 results in geographic atrophy | Eye Care Network - Modern Retina"
  },
+ "5175306811c33a33": {
+  "about_ms": false,
+  "category": "other",
+  "collected_at": "2026-11-24T16:21:59.011259+00:00",
+  "description": "6 Common Questions About Taking Prednisone for Rheumatoid Arthritis CreakyJoints",
+  "id": "5175306811c33a33",
+  "is_published": false,
+  "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPeF9UMnBuVlEtQk9GMkdLcVZsdjYtcmtkeGZaR2NjZFZKMTktcU1SYlhpbloxemd1RFE2ZkJxOTBOdHVjb1lNVmZ5UmZzVzVnVDc5V2RlVGFiQVNtR0JIZVdJNk5BSnV6dmxBMnVHS2xVOTVJbUw1TmlOWHlqVjc5d0xDb3QxejFYOUJRaDc0UW1fbUNXLXE2UmZINGNiNVZ6TjhqOFJIel9NaVNmYkJDeg?oc=5",
+  "published_at": "2019-01-14T08:00:00+00:00",
+  "relevance": 1,
+  "source": "CreakyJoints",
+  "source_type": "news_search",
+  "summary": "CreakyJoints published an article answering six common questions about taking prednisone for rheumatoid arthritis. The provided text gives no details on its content, and it does not mention multiple sclerosis or related demyelinating diseases.",
+  "summary_model": "claude-sonnet-5-5",
+  "title": "6 Common Questions About Taking Prednisone for Rheumatoid Arthritis"
+ },
  "519781c67fbe4770": {
   "about_ms": false,
   "category": "other",
@@ -2057,6 +2569,54 @@
   "summary": "TG Therapeutics presented early data on azer-cel in progressive multiple sclerosis at the MSToronto meeting, according to Kalkine. The source text gives no details on participants, results or safety.",
   "summary_model": "claude-sonnet-5-5",
   "title": "TG Therapeutics Unveils Early Azer-cel Data in Progressive Multiple Sclerosis at MSToronto"
+ },
+ "5207dee7c5266568": {
+  "about_ms": false,
+  "category": "other",
+  "collected_at": "2026-11-24T16:21:59.010987+00:00",
+  "description": "Woman’s anaphylaxis triggered by amoxicillin in partner’s semen: case report AusDoc",
+  "id": "5207dee7c5266568",
+  "is_published": false,
+  "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOa0pfOG1tWU92RzFya1ZZSGlocURQckNFak1aYTlla0tzMElUSFBmNVJ5Z1hlRnRiSEN6dGVsZ1N5RGN1NllpLVV1VTdFZnNCNVljSzZ4NnZpdXVDVkJDd3lNWUp4N3VyWnNadmVzQmtJa3VGUHFMNWFPdmxSdUhvUWhlcE01YTdOYl9pcEhLWUpmaF9QTTd3ZEFXdlNvT2thME5faXJvYm0?oc=5",
+  "published_at": "2026-11-20T06:55:44+00:00",
+  "relevance": 1,
+  "source": "AusDoc",
+  "source_type": "news_search",
+  "summary": "AusDoc reports a case of a woman whose anaphylaxis was triggered by amoxicillin present in her partner's semen. The text provided contains no information about multiple sclerosis or related demyelinating diseases.",
+  "summary_model": "claude-sonnet-5-5",
+  "title": "Woman’s anaphylaxis triggered by amoxicillin in partner’s semen: case report"
+ },
+ "52e8115f9bdc51f4": {
+  "about_ms": false,
+  "category": "other",
+  "collected_at": "2026-11-24T16:21:59.010995+00:00",
+  "description": "Eco-friendly activated carbon derived from pomegranate peel for amoxicillin removal: batch adsorption, kinetic modeling, and thermodynamics Nature",
+  "id": "52e8115f9bdc51f4",
+  "is_published": false,
+  "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE8yN2huRG1PcHB5aXZFMXNwcFQyVHlqUkJmMkVpa0IwZEJXc25LcW5fT05YTm40QzA1cTNLc1JxZ20xTHpvaEZUNkJaT2hDSzFxTGFzeE5xdlhPMnpXRTFB?oc=5",
+  "published_at": "2026-05-23T07:00:00+00:00",
+  "relevance": 1,
+  "source": "Nature",
+  "source_type": "news_search",
+  "summary": "A Nature article describes activated carbon made from pomegranate peel to remove the antibiotic amoxicillin from water, examined through batch adsorption, kinetic modeling, and thermodynamics. It does not concern multiple sclerosis or related demyelinating diseases.",
+  "summary_model": "claude-sonnet-5-5",
+  "title": "Eco-friendly activated carbon derived from pomegranate peel for amoxicillin removal: batch adsorption, kinetic modeling, and thermodynamics"
+ },
+ "5403b0b2088b4171": {
+  "about_ms": false,
+  "category": "regulatory",
+  "collected_at": "2026-11-24T16:21:59.011097+00:00",
+  "description": "FDA Approves Capivasertib Plus Abiraterone With ADT/Prednisone in Patients With mHSPC The ASCO Post",
+  "id": "5403b0b2088b4171",
+  "is_published": false,
+  "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQemh1TjBUVEktcC1OU2plQ1ZiODBvemJHTFl1TTd3T1Jpb0w4VThyY1ZsQnk5R0hfNXJ4LVJCejFvZ2tGNENyWVU3QUo5djUwcEZXaGs0MFdmZWxKWDl1QUxteC1FRDJHRGF3ZjRTd3p4eXpxZzBmcDhES3ZyUTBEZUNxakgwLVlORHBXVE8zRkpYUk93ZnhmQ2l5TFRhRTFoaWt5YVVnX1pJV3pyZFhmcWpOdVZJRVh2QmlZYmdSaHRyY1hQ?oc=5",
+  "published_at": "2026-06-25T07:00:00+00:00",
+  "relevance": 1,
+  "source": "The ASCO Post",
+  "source_type": "news_search",
+  "summary": "The FDA approved capivasertib combined with abiraterone, androgen deprivation therapy (ADT) and prednisone for patients with metastatic hormone-sensitive prostate cancer (mHSPC), according to The ASCO Post. The text does not mention multiple sclerosis or related demyelinating disease.",
+  "summary_model": "claude-sonnet-5-5",
+  "title": "FDA Approves Capivasertib Plus Abiraterone With ADT/Prednisone in Patients With mHSPC"
  },
  "544c0d5a0afc5a91": {
   "about_ms": false,
@@ -2170,6 +2730,22 @@
   "summary_model": "claude-sonnet-5-5",
   "title": "Immunic, Inc. Reports Third Quarter 2026 Financial Results and Provides Corporate Update"
  },
+ "5a9887a2e611080e": {
+  "about_ms": false,
+  "category": "regulatory",
+  "collected_at": "2026-11-24T16:21:59.011074+00:00",
+  "description": "FDA Approves Capivasertib Plus Abiraterone and Prednisone for PTEN-Deficient Prostate Cancer Targeted Onc",
+  "id": "5a9887a2e611080e",
+  "is_published": false,
+  "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQclhTeWpfN25nYUN4bExGbGJjSVVJUHZ4TWVXM18waVRXX3ZHTXZHSlR4Q0prejdoSDdrVGFIZmpUQWRoWGRyYlRQNm5XeEJ4UEM4YUQxWjgwdkd1djlRTkhLdGVfU0ZkU3ZPYzdUZGtGX2VqUVAtVmxBWVJEYUJ2YVA1UXlTaGlpUmx4Y1pwcEluU1lEeTdRVmZjUXBfR2lEVjZFZ1U0Tk1zSnpsYmJEczhyV25oYmFIQXBzYkN6aWs5dm8?oc=5",
+  "published_at": "2026-06-14T07:00:00+00:00",
+  "relevance": 1,
+  "source": "Targeted Onc",
+  "source_type": "news_search",
+  "summary": "The FDA approved capivasertib combined with abiraterone and prednisone for prostate cancer with PTEN deficiency. The source text gives no further details, and it does not mention multiple sclerosis or related demyelinating diseases.",
+  "summary_model": "claude-sonnet-5-5",
+  "title": "FDA Approves Capivasertib Plus Abiraterone and Prednisone for PTEN-Deficient Prostate Cancer"
+ },
  "5b3d9c7966ce14a0": {
   "about_ms": true,
   "category": "living_with_ms",
@@ -2281,6 +2857,22 @@
   "summary": "The MS Trust published an information book, 'Thinking ahead: setting out your wishes for your future care and treatment', on advance care planning. Its authors, an information team member and two MS specialist nurses, discuss the topic in a 28 June 2022 episode.",
   "summary_model": "claude-sonnet-5-5",
   "title": "Talking advance care planning"
+ },
+ "5e38db6a15ffd4eb": {
+  "about_ms": false,
+  "category": "other",
+  "collected_at": "2026-11-24T16:21:59.010357+00:00",
+  "description": "Novartis Secures Dual Catalysts: Leqvio Phase III Success, 2026 Profit Guidance Upgrade NAI500",
+  "id": "5e38db6a15ffd4eb",
+  "is_published": false,
+  "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQS1BNM0RXUFVkd1c5VDJndWRRNWZVbkJBUWJ6ZWtOLTdlVnV4OVp4Wjg1cTE0UDcxT094U0VjMlR6Tk5Td0p4YnY2YkVpeVlrZzN0YnRqaUU3MXJLdTFhbmwxNURZSnIxV2Rsc1VIVlVVUWtrSFN1bHZJSE9MX082UFUxWmFULWVoM19rVmI3QVpiRTZuZldSRFhkWWlUaGFMNVNZUTFfTmowYU9BS2JrTWR6c1JxY2U2OUE?oc=5",
+  "published_at": "2026-11-24T01:38:31+00:00",
+  "relevance": 1,
+  "source": "NAI500",
+  "source_type": "news_search",
+  "summary": "Novartis reported positive Phase III results for Leqvio and raised its 2026 profit guidance, according to the headline. The source text gives no further detail, and nothing in it mentions multiple sclerosis or related demyelinating diseases.",
+  "summary_model": "claude-sonnet-5-5",
+  "title": "Novartis Secures Dual Catalysts: Leqvio Phase III Success, 2026 Profit Guidance Upgrade"
  },
  "5f4616494b58951f": {
   "about_ms": true,
@@ -2394,6 +2986,38 @@
   "summary_model": "claude-sonnet-5-5",
   "title": "Inflammasome inhibition with K8 in geographic atrophy: A Q&A | Eye Care Network - Modern Retina"
  },
+ "61e87c2daad59328": {
+  "about_ms": false,
+  "category": "other",
+  "collected_at": "2026-11-24T16:21:59.010836+00:00",
+  "description": "Biological effects of N-acetylcysteine, calcium hydroxide, chlorhexidine and their combinations as intracanal medications: cytotoxicity, genotoxicity and cytokine modulation Nature",
+  "id": "61e87c2daad59328",
+  "is_published": false,
+  "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1LblRhTHJKNkRwV21RcGFMUzZlSjVZSEx6RHgxT1dIenNvVE1lY2pqQWl1TW5QdVF5czRoNHhsTUxjSEZJb3hSQ21KemdWeHNncnFVandta1NIRnFnTXdV?oc=5",
+  "published_at": "2026-10-01T07:00:00+00:00",
+  "relevance": 1,
+  "source": "Nature",
+  "source_type": "news_search",
+  "summary": "A Nature paper examines N-acetylcysteine, calcium hydroxide, chlorhexidine and their combinations as intracanal (dental root canal) medications, assessing cytotoxicity, genotoxicity and cytokine modulation. The text provided does not mention multiple sclerosis or related demyelinating disease.",
+  "summary_model": "claude-sonnet-5-5",
+  "title": "Biological effects of N-acetylcysteine, calcium hydroxide, chlorhexidine and their combinations as intracanal medications: cytotoxicity, genotoxicity and cytokine modulation"
+ },
+ "6212af17b9075ff4": {
+  "about_ms": false,
+  "category": "other",
+  "collected_at": "2026-11-24T16:21:59.010364+00:00",
+  "description": "US initiative targets $200M to accelerate therapeutic cancer vaccines Drug Discovery News",
+  "id": "6212af17b9075ff4",
+  "is_published": false,
+  "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNZUQtak45LV9KaWZOdWI0U016ZFAzV0VZYnVSZ2V2blZrN1FsOFdjZUJfdWxEUHZULTFmSG51cXpLNUhCNTRCeUhoblVQSW9Sem5ZTG9qYkVtanpNdXdMZkxiMWRjbl9HckFnbW5Yejk3UW1TMm40U01oQkdXOUVDRzNmN0xDNmZ1NGthZjhQVEtXdVprbDNjcFJ1R3NZNkR6cGU0ejRYcWwtZUJG?oc=5",
+  "published_at": "2026-11-22T16:16:15+00:00",
+  "relevance": 1,
+  "source": "Drug Discovery News",
+  "source_type": "news_search",
+  "summary": "A US initiative is targeting $200 million to accelerate the development of therapeutic cancer vaccines. The source text gives no further detail, and it does not mention multiple sclerosis or related demyelinating diseases.",
+  "summary_model": "claude-sonnet-5-5",
+  "title": "US initiative targets $200M to accelerate therapeutic cancer vaccines"
+ },
  "621eabe36efc3842": {
   "about_ms": true,
   "category": "research",
@@ -2458,6 +3082,22 @@
   "summary_model": "claude-sonnet-5-5",
   "title": "The 800-Pound Gorilla in the Room: DEA Now Confirms Marijuana Production Quotas Are Coming"
  },
+ "647ddfd037f27a6e": {
+  "about_ms": false,
+  "category": "regulatory",
+  "collected_at": "2026-11-24T16:21:59.011034+00:00",
+  "description": "FDA Approves Capivasertib Plus Abiraterone and Prednisone for PTEN-Deficient mHSPC OncLive",
+  "id": "647ddfd037f27a6e",
+  "is_published": false,
+  "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPMHZtcDVXR0RqZ2c4UlpJV2Rnd3pGeUZ5ZzdXWEFSYkwwR1hZalowX1c2MWNsUnpDODZBTDlGQUpseGlQamZFbU5CQ3FJbXBhOTl0X2o3NGM5c2RSck9RdHhaLW5yRVVtZGgxaFpBTUh5TnRxX2w2QW1lMWFzeHd5LVh4QzhFY19OQkdCajJyT0NZU1dEMnVScVVvX1Y0cVdMZXBsbExiV2Y3NzlXQklUcg?oc=5",
+  "published_at": "2026-06-12T07:00:00+00:00",
+  "relevance": 1,
+  "source": "OncLive",
+  "source_type": "news_search",
+  "summary": "The FDA has approved capivasertib combined with abiraterone and prednisone for PTEN-deficient metastatic hormone-sensitive prostate cancer (mHSPC), according to OncLive. The source text gives no further details, and the item does not concern MS or related demyelinating disease.",
+  "summary_model": "claude-sonnet-5-5",
+  "title": "FDA Approves Capivasertib Plus Abiraterone and Prednisone for PTEN-Deficient mHSPC"
+ },
  "64db217fe34e3400": {
   "about_ms": false,
   "category": "other",
@@ -2505,6 +3145,22 @@
   "summary": "A columnist uses the start of November to pause and reflect on what they are thankful for. The piece considers what gratitude looks like when living with multiple sclerosis, noting it can feel complicated.",
   "summary_model": "claude-sonnet-5-5",
   "title": "Finding gratitude in the middle of the journey with MS"
+ },
+ "67750c9cd20443f2": {
+  "about_ms": false,
+  "category": "other",
+  "collected_at": "2026-11-24T16:21:59.010877+00:00",
+  "description": "Ozone based advanced oxidation for antibiotic amoxicillin removal from aqueous environment with kinetic and economic evaluation Nature",
+  "id": "67750c9cd20443f2",
+  "is_published": false,
+  "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9GblZmNVRkV2lxVzQ4d3c0SEl2Tnp4NVNrTk9ZaEVzUkw5bDFPQ0pLcHRoWGNCNFZKSFo0bEVVZkpPazdrLUwzZHFBd1NMSHdHMVBlaXpjNmI2b0dzNDFV?oc=5",
+  "published_at": "2026-07-14T07:00:00+00:00",
+  "relevance": 1,
+  "source": "Nature",
+  "source_type": "news_search",
+  "summary": "A Nature article titled as a study of ozone-based advanced oxidation for removing the antibiotic amoxicillin from water, including kinetic and economic evaluation. No details beyond the title are given, and it does not mention multiple sclerosis or related diseases.",
+  "summary_model": "claude-sonnet-5-5",
+  "title": "Ozone based advanced oxidation for antibiotic amoxicillin removal from aqueous environment with kinetic and economic evaluation"
  },
  "679800fbd98347d6": {
   "about_ms": false,
@@ -2601,6 +3257,22 @@
   "summary": "The source is an American Academy of Family Physicians article titled \"Acute and Chronic Urticaria: Evaluation and Treatment.\" The provided text gives no further details, and it does not mention multiple sclerosis or related demyelinating disease.",
   "summary_model": "claude-sonnet-5-5",
   "title": "Acute and Chronic Urticaria: Evaluation and Treatment"
+ },
+ "69d89e08d6173a21": {
+  "about_ms": false,
+  "category": "other",
+  "collected_at": "2026-11-24T16:21:59.011064+00:00",
+  "description": "N-acetylcysteine in Thrombotic Thrombocytopenic Purpura: A Systematic Review Cureus",
+  "id": "69d89e08d6173a21",
+  "is_published": false,
+  "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPMU91RFRZYjlQeUJKTFhUb3dYOXUydVM0UVoyLXhlR1h2dXZsS1hrNkE2MmotbmM4MFBTQ1ZnMVNrMzhjZC1xUHBqTWdldWpCaDhPOFpqZC0xTDBveHhRV0JJZC1Ia1N1dXo2UGVtaTE5RW1mTmhoc0k5bF82OVh3YmE2WmpuYXdZNFVpbEFKR1JESThtakNhS0l2QjlDMEpTXzRETlhtOEQxRDBlNjFvRjRXT0M?oc=5",
+  "published_at": "2026-05-23T07:00:00+00:00",
+  "relevance": 1,
+  "source": "Cureus",
+  "source_type": "news_search",
+  "summary": "A Cureus systematic review looks at N-acetylcysteine as a treatment for thrombotic thrombocytopenic purpura, a blood disorder. The provided text gives no findings, and it does not mention multiple sclerosis or related demyelinating diseases.",
+  "summary_model": "claude-sonnet-5-5",
+  "title": "N-acetylcysteine in Thrombotic Thrombocytopenic Purpura: A Systematic Review"
  },
  "69f167c8f9436e31": {
   "about_ms": true,
@@ -2866,6 +3538,22 @@
   "summary_model": "claude-sonnet-5-5",
   "title": "Nanoliposomes May Deliver Malvidin or N-Acetylcysteine to Target Alzheimer’s Mitochondrial Failure"
  },
+ "7257a0bb8a6dd67a": {
+  "about_ms": false,
+  "category": "other",
+  "collected_at": "2026-11-24T16:21:59.011146+00:00",
+  "description": "Does Prednisone Cause Nail Fungus? A Medical Review - View OgzTYF7Uh UB - Universitat de Barcelona",
+  "id": "7257a0bb8a6dd67a",
+  "is_published": false,
+  "link": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxOeW4xNEFqcTUyUFVydmZ1TzBxbzBUTnM3UlJNUF8ySTZvU05ISWliaGZuR3dTVEFMZEtacW5pZDdzUW5mV3pYV09TWnRFZ3haWHVfMWpWQ1hXYk5WdXJ1Qmg5UUYxNjN5dFFaZFNsQmpPZWhSRXcyX2ZOcTV3LTF1UFpaX1dKVTlkWUZtT1ZjWHlMMVB6ejZfbVJhQ0ZXWVVJREkwV2hTTkwtd3YyaGFkYW1HN2ZDTEV1ZEp3bDdPUU9LNE45ekJGcjhHenlQU2dXWVJNYVpINmNtNEZpSE1vNmhhQTkxRXhpbXc?oc=5",
+  "published_at": "2026-10-26T11:14:06+00:00",
+  "relevance": 1,
+  "source": "UB - Universitat de Barcelona",
+  "source_type": "news_search",
+  "summary": "The item is titled 'Does Prednisone Cause Nail Fungus? A Medical Review' and is attributed to UB - Universitat de Barcelona. No article text or findings are provided, and MS is not mentioned. The title format suggests a promotional or spam-like listing.",
+  "summary_model": "claude-sonnet-5-5",
+  "title": "Does Prednisone Cause Nail Fungus? A Medical Review - View OgzTYF7Uh"
+ },
  "7262814070911b6c": {
   "about_ms": false,
   "category": "other",
@@ -3026,6 +3714,22 @@
   "summary_model": "claude-sonnet-5-5",
   "title": "Tiziana to Host Investor Call with Key Opinion Leaders to Discuss Positive Phase 2a INFORM-MS Topline Results"
  },
+ "792093cc75b55827": {
+  "about_ms": false,
+  "category": null,
+  "collected_at": "2026-11-24T16:21:59.011091+00:00",
+  "description": "Novartis pauses CAR T studies due to 3 deaths; BMS follows suit after safety events BioSpace",
+  "id": "792093cc75b55827",
+  "is_published": false,
+  "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNTVg5TnhRV3BnZENvQXRkV1NFQ2QzUW1NVERoblBOS29ReG1KZDFHRkdqV2hFdGR0TTlsNkVCV29WZkplSXF2U3ZBN09Fb01ObUhqNWVOZDFqUHNmQ2hiYXo1QmFkQXlpOGNFY2dqVW12RHlVUVNjeGR6MDF6VkxGaHE4MzNNejE4bnVLQmQ4NXM1NDhsZUNJQ2laUlhqM1Z2NXdJZDJoZ0pZeUlFWjRoYTZlR0U1QmpQMU95V0tqWHZVZw?oc=5",
+  "published_at": "2026-09-01T07:00:00+00:00",
+  "relevance": null,
+  "source": "BioSpace",
+  "source_type": "news_search",
+  "summary": null,
+  "summary_model": "claude-sonnet-5-5",
+  "title": "Novartis pauses CAR T studies due to 3 deaths; BMS follows suit after safety events"
+ },
  "79590caeab4cc98d": {
   "about_ms": true,
   "category": "other",
@@ -3090,6 +3794,22 @@
   "summary_model": "claude-sonnet-5-5",
   "title": "Immunic CEO discusses Q3 highlights and December Phase 3 MS trial readouts"
  },
+ "7b4dd45128fd7ec1": {
+  "about_ms": false,
+  "category": "other",
+  "collected_at": "2026-11-24T16:21:59.011052+00:00",
+  "description": "Oral amoxicillin-clavulanate: an alternative treatment to refractory Nocardia keratitis—a case report ASM Journals",
+  "id": "7b4dd45128fd7ec1",
+  "is_published": false,
+  "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9EYklpMkZ3WUFSckRKTGd6LWRBbzZ1cjI0NUpPbnB0cTBhNmZnR1A4b1pfX3l6RXB0UGdtSjlUam1lMGVmdERsTm9uN1RtbmMyYmdfV1FXMk5FaVh1NlVzSw?oc=5",
+  "published_at": "2026-04-24T14:36:02+00:00",
+  "relevance": 1,
+  "source": "ASM Journals",
+  "source_type": "news_search",
+  "summary": "A case report describes oral amoxicillin-clavulanate as an alternative treatment for refractory Nocardia keratitis, a corneal infection. The source text does not mention multiple sclerosis or related demyelinating diseases.",
+  "summary_model": "claude-sonnet-5-5",
+  "title": "Oral amoxicillin-clavulanate: an alternative treatment to refractory Nocardia keratitis—a case report"
+ },
  "7b975010574e983e": {
   "about_ms": false,
   "category": "other",
@@ -3121,6 +3841,22 @@
   "summary": "An MS Trust podcast episode on working life with MS. It covers workplace rights under the Equality Act, disclosing a health condition to an employer, and reducing hours or giving up work. Guests are discrimination case worker Lance Baynham and HR professional Gideon Schulman, who has MS.",
   "summary_model": "claude-sonnet-5-5",
   "title": "Working life and MS"
+ },
+ "7bc807b3410ebace": {
+  "about_ms": false,
+  "category": "other",
+  "collected_at": "2026-11-24T16:21:59.011058+00:00",
+  "description": "Standard-dose amoxicillin the 'preferred choice' of treatment for uncomplicated acute sinusitis WashU",
+  "id": "7bc807b3410ebace",
+  "is_published": false,
+  "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOVFhNcW1NbDg3bWVCb2ZqbE1RSm1aS2FtZk5lR1FKNV96dngtOTFqOV9pSnFyRVpSV1N4RUxvMVRhVnQyUkRZZXQ2RVYzWl9pa0pNSGxDSDFUMklzWF94Rk5NemhsbFlrNDJPTXdRckhNcmNXdXduMi14Uk5UdG9waUNDV1h1T3l5VjBVYkxyVjdCNGduU1VLaVY5TTIwejRWSEFQLUt6VTQwLTFZNXc?oc=5",
+  "published_at": "2026-04-23T07:00:00+00:00",
+  "relevance": 1,
+  "source": "WashU",
+  "source_type": "news_search",
+  "summary": "A WashU item reports that standard-dose amoxicillin is the preferred choice for treating uncomplicated acute sinusitis. The source text gives no further details and does not mention multiple sclerosis or related demyelinating diseases.",
+  "summary_model": "claude-sonnet-5-5",
+  "title": "Standard-dose amoxicillin the 'preferred choice' of treatment for uncomplicated acute sinusitis"
  },
  "7c16511396ee1d71": {
   "about_ms": false,
@@ -3170,6 +3906,22 @@
   "summary_model": "claude-sonnet-5-5",
   "title": "New leadership for MSIF’s International Medical and Scientific Expert Group"
  },
+ "7ca9e3a43331d938": {
+  "about_ms": false,
+  "category": "other",
+  "collected_at": "2026-11-24T16:21:59.011121+00:00",
+  "description": "What prednisone and blood sugar interaction means and who notices it most NTNU",
+  "id": "7ca9e3a43331d938",
+  "is_published": false,
+  "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQZjRKdXJ1YUowc0hmNEhBRnMyNlY4eTViYW05Y2lIQ2d0Zmp3T0JnVktRM01uNERzcWZIOHlqRS1VeXNrZ0pRSmFMZmI2SU9DYlRWbVd1T1dZSVZfeVhsU1dIRVRjcUZ6cjY3QVdpdVJ5YVNMNDJEMEpkUnFQVWlmTU9UdWxncGZGUERpUVpaa2d2VGJiN2VF?oc=5",
+  "published_at": "2026-11-15T03:09:47+00:00",
+  "relevance": 1,
+  "source": "NTNU",
+  "source_type": "news_search",
+  "summary": "The source gives only a title, from NTNU, about the interaction between prednisone and blood sugar and who notices it most. No article text, findings, or mention of multiple sclerosis or related diseases is provided, so no further facts can be stated.",
+  "summary_model": "claude-sonnet-5-5",
+  "title": "What prednisone and blood sugar interaction means and who notices it most"
+ },
  "7cd8d975219f2ef2": {
   "about_ms": false,
   "category": "regulatory",
@@ -3201,6 +3953,22 @@
   "summary": "A Newswire item titled as a question reports that the DEA marijuana rescheduling hearing has closed, with the government possibly not having met its burden of proof. No details are given, and the text does not mention MS.",
   "summary_model": "claude-sonnet-5-5",
   "title": "DEA Marijuana Rescheduling Hearing Closes With Government Not Meeting Its Burden Of Proof?"
+ },
+ "7ecc88a4a05932b9": {
+  "about_ms": true,
+  "category": "research",
+  "collected_at": "2026-11-24T16:21:59.010319+00:00",
+  "description": "Older patients with MS may not need frequent MRI monitoring AuntMinnie",
+  "id": "7ecc88a4a05932b9",
+  "is_published": true,
+  "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNaWhxSHl4dlZuVkRMbE5SdGItMGZVck9tNXY1VXN3TjVYdVVLM20yMDBEdVlkNV9LNXdZV2JySExvR1NxSkh2MUt0Mm5TNTh4NWhZaDRzb2RzeHRsVHhCTXVQOTJEWEg4RHZpTUE4bC1GNlZMc2hkQXV3TDZoSFpITjUxVmdoNlBwbTZ0VU0zcGVBeXQxMmFnOEk0MC12TEFGMjIwZS15d2RrSUpkQk5vbnNNbGZxZmRpSUdFamNB?oc=5",
+  "published_at": "2026-11-23T17:34:52+00:00",
+  "relevance": 3,
+  "source": "AuntMinnie",
+  "source_type": "news_search",
+  "summary": "An AuntMinnie report suggests older patients with multiple sclerosis may not need frequent MRI monitoring. No further details, such as study design, age thresholds or findings, are given in the text provided.",
+  "summary_model": "claude-sonnet-5-5",
+  "title": "Older patients with MS may not need frequent MRI monitoring"
  },
  "7ee23572a9fc11aa": {
   "about_ms": true,
@@ -3266,6 +4034,22 @@
   "summary_model": "claude-sonnet-5-5",
   "title": "Antioxidant May Influence Brain Changes in Multiple Sclerosis, Study Suggests"
  },
+ "8040bc7b52d55b83": {
+  "about_ms": false,
+  "category": "other",
+  "collected_at": "2026-11-24T16:21:59.010749+00:00",
+  "description": "The Risks Of Long Term Prednisone Use For Your Muscles And Joints Guide Derby - Diocese",
+  "id": "8040bc7b52d55b83",
+  "is_published": false,
+  "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOTmZvQ1ozakJsSkI1NHRPbXAweXFKc2Joa0taM2V6cy1SV2tfZ0JWUVdBb2ktVlBJTUowQmlMR0pZMnRFb1YwcnAwajQ1bjRNQ1JhNG9uakFfdDlCV0lzUjBlWlF0dWEwcmhtM3J2X19VSHI3VDB2and1SzFkSVdxSnl6bTlSOXBoaDRXX1ZXWWVRVmJnVENEM09PNE1kcFNE?oc=5",
+  "published_at": "2026-11-23T08:22:16+00:00",
+  "relevance": 1,
+  "source": "Derby - Diocese",
+  "source_type": "news_search",
+  "summary": "The source, titled as a guide on long-term prednisone risks for muscles and joints, appears on a diocese website. No further text is provided, and MS, NMOSD and MOGAD are not mentioned. The item appears generic and possibly promotional.",
+  "summary_model": "claude-sonnet-5-5",
+  "title": "The Risks Of Long Term Prednisone Use For Your Muscles And Joints Guide"
+ },
  "8056b7b81752524a": {
   "about_ms": false,
   "category": "other",
@@ -3281,6 +4065,22 @@
   "summary": "Compass Pathways shares rose after the company made an FDA filing for its depression drug. The source text gives no further details, and it does not mention multiple sclerosis or related demyelinating diseases.",
   "summary_model": "claude-sonnet-5-5",
   "title": "Compass Pathways stock gains on FDA filing for depression drug"
+ },
+ "821b5e6ba865bab9": {
+  "about_ms": false,
+  "category": "other",
+  "collected_at": "2026-11-24T16:21:59.010959+00:00",
+  "description": "Organic solvent-free micellar liquid chromatographic determination of amoxicillin, chlorzoxazone, and ibuprofen in pharmaceutical and biological matrices Nature",
+  "id": "821b5e6ba865bab9",
+  "is_published": false,
+  "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5HQ1ppZm1OSkJDUlpCaGNhZFFzSUdMaFVyNmN6NUxiNnFlSkNNNW85YTJSRVEwck9CdjhyRjU0REU3RmhZd29tNXV0VzZGM0l5QjZGaTVpYm9lUHBkOXFr?oc=5",
+  "published_at": "2026-08-07T07:00:00+00:00",
+  "relevance": 1,
+  "source": "Nature",
+  "source_type": "news_search",
+  "summary": "A Nature paper describes a liquid chromatography method that avoids organic solvents to measure amoxicillin, chlorzoxazone, and ibuprofen in pharmaceutical products and biological samples. The provided text does not mention multiple sclerosis or related demyelinating diseases.",
+  "summary_model": "claude-sonnet-5-5",
+  "title": "Organic solvent-free micellar liquid chromatographic determination of amoxicillin, chlorzoxazone, and ibuprofen in pharmaceutical and biological matrices"
  },
  "824aecce47a05e57": {
   "about_ms": true,
@@ -3410,6 +4210,22 @@
   "summary_model": "claude-sonnet-5-5",
   "title": "Novartis receives positive CHMP opinion for Cosentyx® in adolescents aged 12+ with hidradenitis suppurativa (HS)"
  },
+ "877281879ca2b94f": {
+  "about_ms": false,
+  "category": "regulatory",
+  "collected_at": "2026-11-24T16:21:59.010464+00:00",
+  "description": "Roche’s Genentech notches 2nd breast cancer approval for oral SERD in a week BioSpace",
+  "id": "877281879ca2b94f",
+  "is_published": false,
+  "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNZDBzalNaNTlPZTk2Qk5URDRtdEhmTDRRWDJSdktlVml4ZXpxNmpybU5OY1JYVTIwY25GdUowR2tJTjdyZGJZVGJaVE5DSDA5N0lnY0d0YXJLOENLVDhucF83S0s5SGpmdjh0NTJaWXdoNDZJOHVyNC1sdzBGLUJvZXJhemw3cEdxT0NxWnQ1aHkzUlNUakJvLS1LcUNxbU90dW96VWdQMA?oc=5",
+  "published_at": "2026-11-24T14:50:21+00:00",
+  "relevance": 1,
+  "source": "BioSpace",
+  "source_type": "news_search",
+  "summary": "Roche's Genentech received its second breast cancer approval in a week for an oral selective estrogen receptor degrader (SERD), per BioSpace. The text provided gives no further details and does not mention multiple sclerosis.",
+  "summary_model": "claude-sonnet-5-5",
+  "title": "Roche’s Genentech notches 2nd breast cancer approval for oral SERD in a week"
+ },
  "877cb556183ed64f": {
   "about_ms": true,
   "category": "research",
@@ -3425,6 +4241,22 @@
   "summary": "A Nature paper describes micropillar arrays as a high-throughput platform for screening potential therapeutics in multiple sclerosis. The source text gives only the title, so details on methods, results and any treatment candidates are not stated.",
   "summary_model": "claude-sonnet-5-5",
   "title": "Micropillar arrays as a high-throughput screening platform for therapeutics in multiple sclerosis"
+ },
+ "877f58f238457ade": {
+  "about_ms": false,
+  "category": "other",
+  "collected_at": "2026-11-24T16:21:59.011278+00:00",
+  "description": "Trial of Tocilizumab in Giant-Cell Arteritis NEJM",
+  "id": "877f58f238457ade",
+  "is_published": false,
+  "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBySlZrTmRhRzI4TG80S3JwWldVbXFURzc1QzRJcEQ1aXlYbEV6QWZOR240TGo2V2FOUnUxdXV3TEowalNSMV9oOHRDeFIybHltQl9KNldta3lQS1pPeTFsWg?oc=5",
+  "published_at": "2017-07-27T07:00:00+00:00",
+  "relevance": 1,
+  "source": "NEJM",
+  "source_type": "news_search",
+  "summary": "NEJM published a trial of tocilizumab in giant-cell arteritis. The source text gives only the title, with no results or details. It does not mention multiple sclerosis or related demyelinating diseases.",
+  "summary_model": "claude-sonnet-5-5",
+  "title": "Trial of Tocilizumab in Giant-Cell Arteritis"
  },
  "87b430d576fed028": {
   "about_ms": true,
@@ -3521,6 +4353,38 @@
   "summary": "A study at a specialized Canadian clinic found nearly 15% of people with MS declined free cognitive testing. Decliners were more likely to have progressive MS, anxiety-related disorders, or no reported concerns about thinking and memory, which could leave cognitive difficulties undetected.",
   "summary_model": "claude-sonnet-5-5",
   "title": "Nearly 15% of MS patients declined cognitive testing in new study"
+ },
+ "8ad5eb314b918486": {
+  "about_ms": false,
+  "category": "other",
+  "collected_at": "2026-11-24T16:21:59.011028+00:00",
+  "description": "Amoxicillin Commonly Used for Ear Infections in Finnish Kids Medscape",
+  "id": "8ad5eb314b918486",
+  "is_published": false,
+  "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPVjlOOTlodW5WMTRQS0NkR3IzSXVqTGNyQVF6TUoyZVVrNjgxMzRhUHg1cVVPS0VDQTJlc2d0ZUJVTTF1Z01mWXRuWThpcmplXzZEdHhPQ1VFYjFJcWNqbWZ3bFBJdTItSTlUTlFxMGZ5eTY4cWRHd2NmUXJXQVplWnhlWm5ncE9JWTItOHg4NUZFSTFRZk1ETVpKSjNlS3BmU1dsU2R3?oc=5",
+  "published_at": "2026-05-04T07:00:00+00:00",
+  "relevance": 1,
+  "source": "Medscape",
+  "source_type": "news_search",
+  "summary": "A Medscape item reports that amoxicillin is commonly used to treat ear infections in children in Finland. No details are provided beyond the headline, and it does not concern MS or related demyelinating disease.",
+  "summary_model": "claude-sonnet-5-5",
+  "title": "Amoxicillin Commonly Used for Ear Infections in Finnish Kids"
+ },
+ "8b95551cc1091e9a": {
+  "about_ms": false,
+  "category": "other",
+  "collected_at": "2026-11-24T16:21:59.010944+00:00",
+  "description": "Can I take Amoxicillin and Clarithromycin together? Patient.info",
+  "id": "8b95551cc1091e9a",
+  "is_published": false,
+  "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNNlF5SV9VUnF4eXBHMTNzWXRvVEpIYlc4SUtuS3RscVFLS3BPenE2MEJiQUN3QWpsR09sdmdadVdlV2p3NVBwUmREME9UcmVrWnh6SlNVenNsWTdIQmZUamJhYWZXZGpKekFtRS1zUlhzWk03dXZYbHJvVEtDLVVtQnlUR3dKV1pvZTlDejdELXg?oc=5",
+  "published_at": "2026-01-25T08:00:00+00:00",
+  "relevance": 1,
+  "source": "Patient.info",
+  "source_type": "news_search",
+  "summary": "Patient.info lists a page titled \"Can I take Amoxicillin and Clarithromycin together?\" The provided text contains no further detail and does not mention multiple sclerosis or related demyelinating diseases.",
+  "summary_model": "claude-sonnet-5-5",
+  "title": "Can I take Amoxicillin and Clarithromycin together?"
  },
  "8ba3bcb143b805a8": {
   "about_ms": true,
@@ -3642,6 +4506,22 @@
   "summary_model": "claude-sonnet-5-5",
   "title": "Multicenter Study Tracks Ofatumumab Effectiveness and Infection Risks in Multiple Sclerosis"
  },
+ "8e4a5a1ae3eefb9f": {
+  "about_ms": false,
+  "category": "other",
+  "collected_at": "2026-11-24T16:21:59.011160+00:00",
+  "description": "Can Amoxicillin Cure Toenail Fungus: Does It Work - View YTq3qJJrK UB - Universitat de Barcelona",
+  "id": "8e4a5a1ae3eefb9f",
+  "is_published": false,
+  "link": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxNdGEyZkNYX2RvQnc4RkMtV25LVkxnVzlQYVlHbkcwbGpOZ1ZhQnVhSlQ4VUEzVzVwd2huOXd4RnVpZWJOSnk4MTlzSjFrYWxtTzgtc3pZdkNlaEVhOW81UGUtdHZxZXRDQ1dnLUhDZlRMaXN2QnJDSFRnYjNWTENUSE1INWlLQ1VFd0hmc01BeXBTS2RTU0hkOHB6WTlubkxkNDFoVDFLb09fV2l5VDkxRkhIbnczZVRjejNfYjFKaGtIc0NmdmRUdjBCSzhpb18yZHJ4ZkRMNkZnRkhUT1BBSFVfTWYtWHBsakE?oc=5",
+  "published_at": "2026-10-26T01:46:04+00:00",
+  "relevance": 1,
+  "source": "UB - Universitat de Barcelona",
+  "source_type": "news_search",
+  "summary": "The item is titled 'Can Amoxicillin Cure Toenail Fungus: Does It Work' and is attributed to Universitat de Barcelona. No article content is provided beyond the title, and it appears to be spam or promotional. It has no stated link to MS.",
+  "summary_model": "claude-sonnet-5-5",
+  "title": "Can Amoxicillin Cure Toenail Fungus: Does It Work - View YTq3qJJrK"
+ },
  "8f3cb71a77158923": {
   "about_ms": true,
   "category": "research",
@@ -3721,6 +4601,38 @@
   "summary": "Christina Applegate was diagnosed with MS in 2021, which explained her symptoms and gave her a community for support. The article's title refers to an MS misdiagnosis more than five years later, but the excerpt gives no details.",
   "summary_model": "claude-sonnet-5-5",
   "title": "Christina Applegate’s MS misdiagnosis sparks discussion"
+ },
+ "90e401c98ae33756": {
+  "about_ms": false,
+  "category": "other",
+  "collected_at": "2026-11-24T16:21:59.011127+00:00",
+  "description": "What to Know About Tapering Off Steroids When You Have Polymyalgia Rheumatica Everyday Health",
+  "id": "90e401c98ae33756",
+  "is_published": false,
+  "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQdTdGRjRVRlJsajJJQ3ZpRmpsZ1Z0d19Gdmp4ZzZPQTRRRmFoaTFseU85anZZTzZHRm5TS3FqeWFpYW9ZT2lTdTF0RExHa3FFcTlmWVBHd2hQd2lNa2xWQWxRUVJISnRiRHIwMmpzcGEzckhGcmNLSFVSY3JCTzdIb1ZQQURHZnNxQ3dESWlpUm00VWxqbDN5eFZndmkyN3JqT3lNZ1JKejJjeFlIeElpZg?oc=5",
+  "published_at": "2026-05-05T21:55:44+00:00",
+  "relevance": 1,
+  "source": "Everyday Health",
+  "source_type": "news_search",
+  "summary": "Everyday Health published an article on tapering off steroids for people with polymyalgia rheumatica. The provided text contains only the title, with no further detail, and does not mention multiple sclerosis or related demyelinating diseases.",
+  "summary_model": "claude-sonnet-5-5",
+  "title": "What to Know About Tapering Off Steroids When You Have Polymyalgia Rheumatica"
+ },
+ "911462833278cb0f": {
+  "about_ms": false,
+  "category": "other",
+  "collected_at": "2026-11-24T16:21:59.011318+00:00",
+  "description": "Prednisone Side Effects: Managing Severe Mood Swings MedShadow Foundation",
+  "id": "911462833278cb0f",
+  "is_published": false,
+  "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOOUFWZjdWcHZNWlVYNThzUXpfdDlicUJkaEVXa2lubDhrYWtUd3RvS2hzcHZKV3JRZ19TOFFYY042MktlaHhvSGpla1BzVXRCSjV5NWNPNDRDck9VRnZoeHdoVmhuV1VKaDhRVzRHLXMzTjFaSTQzZUR6QTVubU5wdzVmMFZVcGZhdXd4QjVaekZoLUFOVV9qYU1nTjBLVk5jODcw?oc=5",
+  "published_at": "2025-12-15T18:43:00+00:00",
+  "relevance": 2,
+  "source": "MedShadow Foundation",
+  "source_type": "news_search",
+  "summary": "MedShadow Foundation published an article titled \"Prednisone Side Effects: Managing Severe Mood Swings.\" Only the title was provided, so no details on findings, MS relevance, or management approaches are available.",
+  "summary_model": "claude-sonnet-5-5",
+  "title": "Prednisone Side Effects: Managing Severe Mood Swings"
  },
  "9143194c5978c1dc": {
   "about_ms": true,
@@ -3818,6 +4730,22 @@
   "summary_model": "claude-sonnet-5-5",
   "title": "Real-World Ocrelizumab Multiple Sclerosis Study Tracks Immunoglobulin Decline and Infection Risk"
  },
+ "95546a73c9fa3897": {
+  "about_ms": false,
+  "category": "other",
+  "collected_at": "2026-11-24T16:21:59.011334+00:00",
+  "description": "Toxicity analysis of amoxicillin, polyphosphate ester and its complex with amoxicillin on mice Nature",
+  "id": "95546a73c9fa3897",
+  "is_published": false,
+  "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1sc0YxVnVsaEFpaWNDUWg3YUdBUXc3N1NZajY2Y3U1ckNPcTZQb1d0RFR3Y3NwNGRxelNybGpfNEN0dk5RanJPYjMwRU04TGo4Q1I5blJnMlFZRzRXbTF3?oc=5",
+  "published_at": "2025-05-25T07:00:00+00:00",
+  "relevance": 1,
+  "source": "Nature",
+  "source_type": "news_search",
+  "summary": "A Nature paper reports a toxicity analysis in mice of amoxicillin, a polyphosphate ester, and a complex of the two. The source text gives no findings and does not mention multiple sclerosis or related demyelinating diseases.",
+  "summary_model": "claude-sonnet-5-5",
+  "title": "Toxicity analysis of amoxicillin, polyphosphate ester and its complex with amoxicillin on mice"
+ },
  "95afaccd558ade9c": {
   "about_ms": true,
   "category": "trial_news",
@@ -3914,6 +4842,22 @@
   "summary_model": "claude-sonnet-5-5",
   "title": "WHO warns progress on antimicrobial resistance falls short of 2030 targets"
  },
+ "9a71881a0a6353bc": {
+  "about_ms": false,
+  "category": "other",
+  "collected_at": "2026-11-24T16:21:59.011022+00:00",
+  "description": "A single extinction-based treatment with N-Acetylcysteine produces long-term reduction in cocaine relapse Nature",
+  "id": "9a71881a0a6353bc",
+  "is_published": false,
+  "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1peG5sTGY1XzJHWWdkWmhZVU9oNUljQnNLMEhZOUZRNVlveDNmSElIcjhjenhFc19BeFVrcjB2bWRsbFF2MnFYejhjakZuMVhqSEtmbTZGTXF0OVhrTlZn?oc=5",
+  "published_at": "2026-03-19T07:00:00+00:00",
+  "relevance": 1,
+  "source": "Nature",
+  "source_type": "news_search",
+  "summary": "A Nature paper reports that a single extinction-based treatment with N-Acetylcysteine produced a long-term reduction in cocaine relapse. The text provided does not mention multiple sclerosis or related demyelinating diseases, and gives no details on study type or participants.",
+  "summary_model": "claude-sonnet-5-5",
+  "title": "A single extinction-based treatment with N-Acetylcysteine produces long-term reduction in cocaine relapse"
+ },
  "9a837b2bf669031b": {
   "about_ms": false,
   "category": "other",
@@ -3946,6 +4890,22 @@
   "summary_model": "claude-sonnet-5-5",
   "title": "Cerebral Infarctions Reveal Hypereosinophilic Syndrome in Patient with Loeffler Endocarditis"
  },
+ "9b86e5b439762f1c": {
+  "about_ms": false,
+  "category": "regulatory",
+  "collected_at": "2026-11-24T16:21:59.010434+00:00",
+  "description": "Roche two for two with breast cancer approval for Wilserdly pharmaphorum",
+  "id": "9b86e5b439762f1c",
+  "is_published": false,
+  "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQZUM3SlR5alQ1T0xqVTgtYVY5Sk5KcERnVVl3cmFsYTVUNnRKcE51dF9MWXJ5RzlkSEEtRFRNRFNYdTRRQzRNejBZUUlXUTBDQUt6V2xsaGlOWlptWjc1X1FvenlOTlFDbHcxVjFiZ0FxYmlPUXpqNEpObndHNWlmbWh3?oc=5",
+  "published_at": "2026-11-24T14:14:13+00:00",
+  "relevance": 1,
+  "source": "pharmaphorum",
+  "source_type": "news_search",
+  "summary": "Per the title, Roche has received a breast cancer approval for Wilserdly, described as its second approval. The source text gives no further details, and the item does not mention multiple sclerosis or related demyelinating disease.",
+  "summary_model": "claude-sonnet-5-5",
+  "title": "Roche two for two with breast cancer approval for Wilserdly"
+ },
  "9bee2a06f6a973af": {
   "about_ms": true,
   "category": "living_with_ms",
@@ -3977,6 +4937,22 @@
   "summary": "A Bioengineer.org report says teriflunomide, a multiple sclerosis drug, eases inflammatory diseases by directly inhibiting NLRP3. The provided text gives no details on study type, models used, or results, so the findings' relevance to people with MS is unclear.",
   "summary_model": "claude-sonnet-5-5",
   "title": "Multiple Sclerosis Drug Teriflunomide Eases Inflammatory Diseases by Directly Inhibiting NLRP3"
+ },
+ "9c13dab757234991": {
+  "about_ms": false,
+  "category": "other",
+  "collected_at": "2026-11-24T16:21:59.010808+00:00",
+  "description": "Impact of co-amoxiclav versus amoxicillin on the gastrointestinal microbiota in sub-Saharan children hospitalized with pneumonia | npj Antimicrobials and Resistance Nature",
+  "id": "9c13dab757234991",
+  "is_published": false,
+  "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1tU3FQWEZOa2VnWkVpRm5EcVMxZkp2X3lTQVZ3MnR6QU9wVkRtcDhzdXZXc0JQZkFvdHd5VlplVjFzcjBZSWFZeE1jb2c0X0FOOXg4TGFrQlZSc01BanRv?oc=5",
+  "published_at": "2026-05-22T07:00:00+00:00",
+  "relevance": 1,
+  "source": "Nature",
+  "source_type": "news_search",
+  "summary": "A paper in npj Antimicrobials and Resistance compares co-amoxiclav with amoxicillin and their effects on the gastrointestinal microbiota in sub-Saharan children hospitalized with pneumonia. The text provided gives no findings and does not mention MS or related demyelinating diseases.",
+  "summary_model": "claude-sonnet-5-5",
+  "title": "Impact of co-amoxiclav versus amoxicillin on the gastrointestinal microbiota in sub-Saharan children hospitalized with pneumonia | npj Antimicrobials and Resistance"
  },
  "9c6619474f869508": {
   "about_ms": false,
@@ -4042,6 +5018,38 @@
   "summary_model": "claude-sonnet-5-5",
   "title": "A Placebo-Controlled Trial of Oral Fingolimod in Relapsing Multiple Sclerosis"
  },
+ "9db81f4e17ce09b0": {
+  "about_ms": false,
+  "category": "other",
+  "collected_at": "2026-11-24T16:21:59.010845+00:00",
+  "description": "Environmental detection of amoxicillin using a molecularly imprinted graphene oxide-polyethylenimine electrochemical sensor Nature",
+  "id": "9db81f4e17ce09b0",
+  "is_published": false,
+  "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBmdkJ3ZGQwZVBzMjFvX2JoWFM1OGhOMUJhaEdhajBjSUNJZXBwNVdFYWpKMUVrMngxWnZfc3JjWU94Q240LWppZkRObF9WRUdUWmR5Tmo5V2FZQUQydWhV?oc=5",
+  "published_at": "2026-06-08T07:00:00+00:00",
+  "relevance": 1,
+  "source": "Nature",
+  "source_type": "news_search",
+  "summary": "A Nature paper describes an electrochemical sensor made with molecularly imprinted graphene oxide and polyethylenimine to detect the antibiotic amoxicillin in environmental samples. The excerpt does not mention multiple sclerosis or related demyelinating diseases.",
+  "summary_model": "claude-sonnet-5-5",
+  "title": "Environmental detection of amoxicillin using a molecularly imprinted graphene oxide-polyethylenimine electrochemical sensor"
+ },
+ "9deb875466096043": {
+  "about_ms": false,
+  "category": null,
+  "collected_at": "2026-11-24T16:21:59.011361+00:00",
+  "description": "Immunic Announces Grant of Key European Patent Protecting Relevant Dosing Regimens for Vidofludimus Calcium PR Newswire",
+  "id": "9deb875466096043",
+  "is_published": false,
+  "link": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxNVHNIQWl6a1g2Q2x3WHlVdkxWampfVm1hVmYwcWxlcGtzN3RXMnBIT0dvSkJyQ05jWkMwSThLN0NQT19uZ2N5WDZfTTBDTUE3aWlxLWs1eG80eVJtRktkY1JIRjFRZTRHLU1CU3diaHdfclJ3UTNWcjBtZ3U5UTRLTXhMUWdyUldEem9UTWo4X18zeXJmQkEyNmVmVXZNcllBNzNxcGl4c2hOTkZjelhlclR0empGWXJNc0NVRHdDQmhKTVBKREpxZGcxcEZ0QXBWTWVnazBzcGlUYTAwR1dpSUZfc2JQT0hRUUZnZnlXc3kzVXpYb3c?oc=5",
+  "published_at": "2026-03-10T07:00:00+00:00",
+  "relevance": null,
+  "source": "PR Newswire",
+  "source_type": "news_search",
+  "summary": null,
+  "summary_model": "claude-sonnet-5-5",
+  "title": "Immunic Announces Grant of Key European Patent Protecting Relevant Dosing Regimens for Vidofludimus Calcium"
+ },
  "9df59308fc6e7bb3": {
   "about_ms": true,
   "category": "research",
@@ -4089,6 +5097,22 @@
   "summary": "Nature published an item titled \"Breg cells to the rescue.\" No article text was provided, so its content, subject, and any link to multiple sclerosis or related demyelinating disease cannot be determined.",
   "summary_model": "claude-sonnet-5-5",
   "title": "Breg cells to the rescue"
+ },
+ "9ffafce8351ebf71": {
+  "about_ms": false,
+  "category": "other",
+  "collected_at": "2026-11-24T16:21:59.011223+00:00",
+  "description": "Pros and Cons: Prednisone MedShadow Foundation",
+  "id": "9ffafce8351ebf71",
+  "is_published": false,
+  "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQWHFOX0ppU3QxYVhLaTdibVJQdVZrM3RfbGQwNDhjNG5SNUtDLWJnSmplS1FaMXpwWk1zM2lhV2ZIVmtOLVBkNEhsaVBFOFdjb01TZEtYd1NNY0VLTVFwSU5MQU03ODhULUJ4OUJLZGtES3hFU3JkdVBpTENKUVpGWWViM0Q?oc=5",
+  "published_at": "2025-12-15T10:49:22+00:00",
+  "relevance": 1,
+  "source": "MedShadow Foundation",
+  "source_type": "news_search",
+  "summary": "MedShadow Foundation published a piece titled 'Pros and Cons: Prednisone.' The provided text contains only the title and source, with no details on content, findings, or any link to multiple sclerosis or related demyelinating diseases.",
+  "summary_model": "claude-sonnet-5-5",
+  "title": "Pros and Cons: Prednisone"
  },
  "a0a9805072e0c933": {
   "about_ms": true,
@@ -4298,6 +5322,54 @@
   "summary_model": "claude-sonnet-5-5",
   "title": "What Asundexian’s Approval Means for Secondary Stroke Prevention at the Bedside: Ashkan Shoamanesh, MD"
  },
+ "aa61bbf109f1d2fe": {
+  "about_ms": false,
+  "category": "other",
+  "collected_at": "2026-11-24T16:21:59.010863+00:00",
+  "description": "Clinical symptoms and cognitive functioning following adjunctive N-acetylcysteine in obsessive-compulsive disorder: a double-blind, placebo-controlled trial Nature",
+  "id": "aa61bbf109f1d2fe",
+  "is_published": false,
+  "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBGd2VQV1AzckV6djN5MVlZd1YtM2Vya3hvVV9iWjl2bXUxamFhcHkzeWJMbnl3UmdUb29fLU1wM0p6TEFaOTd6R3VEb1ctMmlFa1BhVF9kNnVLODFuWXUw?oc=5",
+  "published_at": "2026-06-08T07:00:00+00:00",
+  "relevance": 1,
+  "source": "Nature",
+  "source_type": "news_search",
+  "summary": "A Nature-published double-blind, placebo-controlled trial examined adjunctive N-acetylcysteine in obsessive-compulsive disorder, assessing clinical symptoms and cognitive functioning. The text provided gives no results and does not mention multiple sclerosis or related demyelinating disease.",
+  "summary_model": "claude-sonnet-5-5",
+  "title": "Clinical symptoms and cognitive functioning following adjunctive N-acetylcysteine in obsessive-compulsive disorder: a double-blind, placebo-controlled trial"
+ },
+ "aa65656b14267d21": {
+  "about_ms": false,
+  "category": "regulatory",
+  "collected_at": "2026-11-24T16:21:59.011177+00:00",
+  "description": "FDA Approves Capivasertib Plus Abiraterone and Prednisone for Prostate Cancer Pharmacy Times",
+  "id": "aa65656b14267d21",
+  "is_published": false,
+  "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxOcHd6am9RdG5KTndkMW1GckxRTHJ0UlFQX1pTWndfY2JDUzk0NWdBUWRDQmtqSG1YZDl5VHFadTJVNGQwbGhobkpRWDUwV2tGaGItc3pHazl4eGUzeHh5ejM4V2J1LThTb0JFRE1TLUljeE1CdFpIbUpKVmlTOExiYzV3ZXhQOUNyRWFFMHdqSUsyWjN5WUhLWGlCX0FQLTV4clV0RTR5UUc4YnFaTWU0aHI5eWNMS1lXTVlhaEZSRGNxMTdIQmkxeXU4Y1BobWEteG1EYnUteGlCMmpYeVhHWTFhckl5c2lkbVRiaA?oc=5",
+  "published_at": "2026-06-15T07:00:00+00:00",
+  "relevance": 1,
+  "source": "Pharmacy Times",
+  "source_type": "news_search",
+  "summary": "The FDA approved capivasertib combined with abiraterone and prednisone for prostate cancer, according to Pharmacy Times. The provided text gives no further details and does not mention multiple sclerosis or related demyelinating diseases.",
+  "summary_model": "claude-sonnet-5-5",
+  "title": "FDA Approves Capivasertib Plus Abiraterone and Prednisone for Prostate Cancer"
+ },
+ "aa84c662713dc3a6": {
+  "about_ms": true,
+  "category": "other",
+  "collected_at": "2026-11-24T16:21:59.010300+00:00",
+  "description": "Philadelphia Forum Emphasizes Disability Progression Over Relapse Control in Multiple Sclerosis Care NeurologyLive",
+  "id": "aa84c662713dc3a6",
+  "is_published": true,
+  "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQWEk5Ti1qaFZzZkpfMG0tUGpYQktuczZqYVh6NEFpeGV4NnR5dGU0SjNwLU0xcG00ZnNQMGU3RHBwZmFGNldSMjZYcjFxRE5QVl9hQnZ0X0NHUjVIRmlqMmhPYUNCdUltN2IxVmtjWkxjV1RlYlhxY3paUXhwSFdzMVAxd2gybXVzV0FuaF9WN1hJSVRycUZ3OGZSVlBZQ0xPNi1HbGdjeTZwclhlVGw3eDdDMmxEdFk?oc=5",
+  "published_at": "2026-11-24T13:01:50+00:00",
+  "relevance": 3,
+  "source": "NeurologyLive",
+  "source_type": "news_search",
+  "summary": "NeurologyLive reports on a forum in Philadelphia that emphasized disability progression over relapse control in multiple sclerosis care. The source text provided gives only the headline, with no further details on the discussion.",
+  "summary_model": "claude-sonnet-5-5",
+  "title": "Philadelphia Forum Emphasizes Disability Progression Over Relapse Control in Multiple Sclerosis Care"
+ },
  "aaa418fa46cd0544": {
   "about_ms": true,
   "category": "research",
@@ -4329,6 +5401,54 @@
   "summary": "Deretil, a company, is asking the European Union to support manufacturing of key components for antibiotics such as amoxicillin. The source text provides no further detail and does not mention multiple sclerosis or related demyelinating diseases.",
   "summary_model": "claude-sonnet-5-5",
   "title": "Deretil asks the EU to support the manufacture of key components for antibiotics such as amoxicillin"
+ },
+ "abc93edf979eb64b": {
+  "about_ms": false,
+  "category": "other",
+  "collected_at": "2026-11-24T16:21:59.011313+00:00",
+  "description": "Largest trial of antibiotic amoxicillin for treating chest infections in children finds little effect University of Southampton",
+  "id": "abc93edf979eb64b",
+  "is_published": false,
+  "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNM2dTOWpmVnZ6TUViY1o5ZmpUMVlYcjJrUXEyNXAxVDRLMS1oUktvUUhRRG5vOUhXMkxGMFIySWhJNVhBNFg0N1hoN2VJSDRXcVh2dXUybkVDcUlpemRaVlVPRlRTeTQ4TXl4YnVjZFZrdlZ5eUVjcl81dFdUTzQ1MlVub1JZdUtCQzNWYw?oc=5",
+  "published_at": "2021-09-30T07:00:00+00:00",
+  "relevance": 1,
+  "source": "University of Southampton",
+  "source_type": "news_search",
+  "summary": "The University of Southampton reports that the largest trial to date of amoxicillin for chest infections in children found the antibiotic had little effect. The text provided does not mention multiple sclerosis or related demyelinating conditions.",
+  "summary_model": "claude-sonnet-5-5",
+  "title": "Largest trial of antibiotic amoxicillin for treating chest infections in children finds little effect"
+ },
+ "ac2977b1233d23fb": {
+  "about_ms": false,
+  "category": "other",
+  "collected_at": "2026-11-24T16:21:59.011183+00:00",
+  "description": "Will Amoxicillin Treat Toenail Fungus? Facts for Consumers - View 7rCwjw3eK Prefeitura de São José do Rio Preto",
+  "id": "ac2977b1233d23fb",
+  "is_published": false,
+  "link": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxQb3h4SGcwczlFZjZSa0VjSjJlaXNCWFBXQkp2SXdCZUFqUndaVlpCT2MtN2hfcHZObnZmWmhBRFpTR3h0NjJQNXVFNjNiajdoT0szczJ4dXZ0ZE8wSl9ENFE5OUZaSGZPZk92all5WjdfNjNNLVNJbndtSm5PRW1XNUtRTDM4dlBGdE1jMXpGc1FRTUtXeEZ0QVM0bG1pZUhuOEZsckdUVnZ2VHBMbHNCT29nV1JyUUoyLTNBOHhmTURzeVZpZGNqQktkTU1sMVVReUxEMEFkeEpFbnVkZEQwWHoteDB4cXQ4ZFZIMHk2eEdRV25O?oc=5",
+  "published_at": "2026-11-04T21:22:02+00:00",
+  "relevance": 1,
+  "source": "Prefeitura de São José do Rio Preto",
+  "source_type": "news_search",
+  "summary": "The item is titled as a consumer article asking whether amoxicillin treats toenail fungus, posted under a São José do Rio Preto municipal government name. No content is provided, and it does not mention multiple sclerosis or related diseases. It appears to be spam or promotional.",
+  "summary_model": "claude-sonnet-5-5",
+  "title": "Will Amoxicillin Treat Toenail Fungus? Facts for Consumers - View 7rCwjw3eK"
+ },
+ "ac8a05bf36bb7978": {
+  "about_ms": false,
+  "category": "other",
+  "collected_at": "2026-11-24T16:21:59.010406+00:00",
+  "description": "Novartis projects 5% cc sales CAGR through 2031, margin to hit 40% scanx.trade",
+  "id": "ac8a05bf36bb7978",
+  "is_published": false,
+  "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOUTg5SFJrQ3dRVW5MOXI1VVlTQXEtbTVSWG1aZEZTOURFc2FKQ09TWFBqWEowMWpFdUVrZ3R1LTlVQUZYc2hsNHNmcUhTNW1nZmVRYkNwckpJS1dva3Rsbmp4QkVMbnZGOVR2S1RoaDNqS0pNZ2dab2JESHltMEptT1lJSHl6RzRubmNyUmQ0aGJCd1UyT0pjSWhwUkN3Wk44bkE2WVcyS3VtVDdBN3B5WDdBcE5ESWJu?oc=5",
+  "published_at": "2026-11-19T06:21:50+00:00",
+  "relevance": 1,
+  "source": "scanx.trade",
+  "source_type": "news_search",
+  "summary": "Novartis projects constant-currency sales growth of 5% a year through 2031, with its margin reaching 40%. The text gives no details about multiple sclerosis or any specific product.",
+  "summary_model": "claude-sonnet-5-5",
+  "title": "Novartis projects 5% cc sales CAGR through 2031, margin to hit 40%"
  },
  "acf23ac4737284ee": {
   "about_ms": true,
@@ -4394,6 +5514,86 @@
   "summary_model": "claude-sonnet-5-5",
   "title": "Real-World Study Highlights Immunotherapy Trends and Effectiveness in NMOSD and MOGAD"
  },
+ "ad8b16eed877740d": {
+  "about_ms": false,
+  "category": "other",
+  "collected_at": "2026-11-24T16:21:59.010917+00:00",
+  "description": "Successful N-Acetylcysteine Treatment of... : American Journal of Gastroenterology Ovid",
+  "id": "ad8b16eed877740d",
+  "is_published": false,
+  "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNMVNWNTVrd1VnNkhsNzVFN2h2cEFvd1BhZVBYbTBIbFc0RUt6bDRrZ2FkM3pjX3E1cGNHZlBjWldfNlZOTnRUMXp3NVcwWWlXMU5XQ1NSeVZ3RGJUT3QxOUxiSVdOZU5vd1dWQ2hJMlU0bGstNnV4YndfTV9fRWVVeWcwTDljWWFXcTkyVFJ4dUZCV3dONk91S2VGYm8ya3M5bEhBcVZR?oc=5",
+  "published_at": "2026-07-29T15:48:34+00:00",
+  "relevance": 1,
+  "source": "Ovid",
+  "source_type": "news_search",
+  "summary": "The source is an Ovid listing for an American Journal of Gastroenterology article titled 'Successful N-Acetylcysteine Treatment of...'. The title is truncated and no further text is provided, so the condition treated and any link to MS cannot be determined.",
+  "summary_model": "claude-sonnet-5-5",
+  "title": "Successful N-Acetylcysteine Treatment of... : American Journal of Gastroenterology"
+ },
+ "ae7e02c227d2f573": {
+  "about_ms": false,
+  "category": "other",
+  "collected_at": "2026-11-24T16:21:59.010573+00:00",
+  "description": "TG Therapeutics Ranked Number 5 Fastest-Growing Company in North America on the 2026 Deloitte Technology Fast 500™ FinancialContent",
+  "id": "ae7e02c227d2f573",
+  "is_published": false,
+  "link": "https://news.google.com/rss/articles/CBMigwJBVV95cUxOUy1vRWF4WFF0d3c4R0ZJeC1UdXIwQ0pvcXB1bE1GS3dwTEJ3a1VsN1A1UFd2UGpCNEszVDVDLVo1STk3Y3U4NU13TjNsbUJlUjNFQnJHd0xyNVJXSEZWd3BENF9Kdk40c3djMnE5VERaMVM1bEdtbTBaRGU3WjlGS05IdTJDbjlEX2F4ODFOd1pjMTB4TzdpckxoYmRDeHFYd0pfeDVTWmw2ZmJ1VFd3U2xycWRVUjZibV9hbTF5aVRiZXJPMU03TU1zdnZWR2ZVbW5tZmkwc0xzMG1wUWN4eXJ4YTdlZ2l3Uzk0NzNTUUwzcGhFZkVTS1ZHNmF2cW9WQW40?oc=5",
+  "published_at": "2026-11-18T12:30:00+00:00",
+  "relevance": 1,
+  "source": "FinancialContent",
+  "source_type": "news_search",
+  "summary": "TG Therapeutics was ranked number 5 on the 2026 Deloitte Technology Fast 500, a list of the fastest-growing companies in North America. The source text gives no further details, and no MS-specific information is stated.",
+  "summary_model": "claude-sonnet-5-5",
+  "title": "TG Therapeutics Ranked Number 5 Fastest-Growing Company in North America on the 2026 Deloitte Technology Fast 500™"
+ },
+ "af3c9dfc65990ed2": {
+  "about_ms": false,
+  "category": "research",
+  "collected_at": "2026-11-24T16:21:59.010826+00:00",
+  "description": "Prednisone, not vamorolone, suppresses novel serum bone and cartilage biomarkers associated with growth failure in children with Duchenne muscular dystrophy | Scientific Reports Nature",
+  "id": "af3c9dfc65990ed2",
+  "is_published": false,
+  "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1GRlJJbHA2X1NzdDN3RjByanlFS09XS1cxbGFZVUNMajdrYzQyTEdNZ1F5dnVESjFpbWo5anRPSV95cDRBUVhwUnhlMHZ2VFRjZ0U5RTduWUUyNVk4TWpz?oc=5",
+  "published_at": "2026-08-03T07:00:00+00:00",
+  "relevance": 1,
+  "source": "Nature",
+  "source_type": "news_search",
+  "summary": "A Scientific Reports article on Duchenne muscular dystrophy in children. Per its title, prednisone, but not vamorolone, suppresses novel serum bone and cartilage biomarkers linked to growth failure. It does not concern MS or related demyelinating diseases.",
+  "summary_model": "claude-sonnet-5-5",
+  "title": "Prednisone, not vamorolone, suppresses novel serum bone and cartilage biomarkers associated with growth failure in children with Duchenne muscular dystrophy | Scientific Reports"
+ },
+ "af4bda20611d07ae": {
+  "about_ms": false,
+  "category": "other",
+  "collected_at": "2026-11-24T16:21:59.010756+00:00",
+  "description": "N-acetylcysteine: Impact on Psychiatric Disorders : Advances in Human Biology Ovid",
+  "id": "af4bda20611d07ae",
+  "is_published": false,
+  "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNazRmeDUwN0xGM0hFN2JOSTFKZGhIRHJ5OW9LZzJlcXdmZzVpQm9TX0ZjLUV1bVZDYVh0T0RjMGRCWHUxQ19aSGhVRmxVMFphczJuTlRzMVZkdXZnWUNlRk9Idk82Wm1Qc2g4ZzROWUw1UU1VYUlyX1NvT2xHN0FiWHlDUHczUHR5M0FxYmFPdlkzRlFlQUJQdS1uZ05OYUZoQko5YXVEWTRGaV85OWF1NFBn?oc=5",
+  "published_at": "2026-04-08T13:34:58+00:00",
+  "relevance": 1,
+  "source": "Ovid",
+  "source_type": "news_search",
+  "summary": "An Ovid listing titled \"N-acetylcysteine: Impact on Psychiatric Disorders: Advances in Human Biology.\" The text provided contains only the title, with no findings, methods, or mention of multiple sclerosis or related demyelinating disease.",
+  "summary_model": "claude-sonnet-5-5",
+  "title": "N-acetylcysteine: Impact on Psychiatric Disorders : Advances in Human Biology"
+ },
+ "afda8a4006804186": {
+  "about_ms": false,
+  "category": "other",
+  "collected_at": "2026-11-24T16:21:59.011109+00:00",
+  "description": "Severe Dengue-Associated Hepatitis in an Adolescent Treated With Oral Acetylcysteine: A Case Report Cureus",
+  "id": "afda8a4006804186",
+  "is_published": false,
+  "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOdlpjX3ZZZ0NLMVpwTnN3dU9uSWUzTWRPcDNJeTNoejA2dWlfN3I5QVlJVGVMRlJwczc1Rm91MnFWRzNheUNHWENselNNR3pkLUFJY2x2NmQxd3R0UjhibnltaVpGWEZsWUhSLXdacTZjb2gwUVpTbUdWUGRYYjZ1bGk4Ynp5TXMwc0tmSlhpN2l2R1B2dnFjdXZZNkdsSVVOLWZSZDRIMmhjam9pLVJRSzQtd2p1Zm1BX1FrNU16OU5RaVBjd1V4cTN6V3E1Rjc5NkY4?oc=5",
+  "published_at": "2026-05-07T17:08:13+00:00",
+  "relevance": 1,
+  "source": "Cureus",
+  "source_type": "news_search",
+  "summary": "A Cureus case report describes severe dengue-associated hepatitis in an adolescent who was treated with oral acetylcysteine. The text provided gives no further details and does not mention multiple sclerosis or related demyelinating diseases.",
+  "summary_model": "claude-sonnet-5-5",
+  "title": "Severe Dengue-Associated Hepatitis in an Adolescent Treated With Oral Acetylcysteine: A Case Report"
+ },
  "affc7e83fe303763": {
   "about_ms": true,
   "category": "research",
@@ -4409,6 +5609,38 @@
   "summary": "The New England Journal of Medicine published a study comparing daclizumab HYP with interferon beta-1a in relapsing multiple sclerosis. The text provided gives no results or other details.",
   "summary_model": "claude-sonnet-5-5",
   "title": "Daclizumab HYP versus Interferon Beta-1a in Relapsing Multiple Sclerosis"
+ },
+ "b0b871d319a57fe4": {
+  "about_ms": false,
+  "category": "other",
+  "collected_at": "2026-11-24T16:21:59.011115+00:00",
+  "description": "Can amoxicillin-clavulanate be used when pathogens are resistant to ampicillin-sulbactam? IDSA",
+  "id": "b0b871d319a57fe4",
+  "is_published": false,
+  "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPelp4UW1NMWx4bzFKVF9QN3QzWl9BclV1QmYyTDVSeUgtWnp3OVAzOTZuMERZT1Q3Q0FvVFZJamdZVGk4ZEhHYUZic0JsV3ZfRC1VM0FHeDluQlBxRkhEaG8zVHZiQWF4Ql9nT2lqUk9hcWVnVE0tZFB4bFhNTW1yNFpUNnNDb3dINzdibXZaOXkzY1JCMjlyc1VydTlDU2Z3VWo1T0tCZ3pDN2wyWFB0Z3VyanlDc0t4UmhKRkotVmNjUDF3WFgzTDJkSzkyUjZkS0NNWVA4aw?oc=5",
+  "published_at": "2026-01-27T08:00:00+00:00",
+  "relevance": 1,
+  "source": "IDSA",
+  "source_type": "news_search",
+  "summary": "The IDSA item poses a question about whether amoxicillin-clavulanate can be used when pathogens are resistant to ampicillin-sulbactam. No further details are given, and it does not mention MS or related demyelinating diseases.",
+  "summary_model": "claude-sonnet-5-5",
+  "title": "Can amoxicillin-clavulanate be used when pathogens are resistant to ampicillin-sulbactam?"
+ },
+ "b206bb7e08f58253": {
+  "about_ms": true,
+  "category": "regulatory",
+  "collected_at": "2026-11-24T16:21:59.010499+00:00",
+  "description": "Roche's Satralizumab Secures FDA Priority Review for MOGAD, openPR.com",
+  "id": "b206bb7e08f58253",
+  "is_published": true,
+  "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNaW8wUUJWeEg2Y1dzdnBfTFRydy1VN0hfQWoxRUgtLVo0aHhJRHA0Wk5YVkhoLVRnS2Z6V3Mya2ZiaXZuUE9za3BjZEE1aEptN0Zmb0hIRFhfMkpPdDB5UjZTTXpDTVNkU0w1Zll0YkJiYlY5QXV4cWZ3ZlN3OUNwQ2RRaVZPZlRuMlpya0pXVm5PdU1sU25GdzhB?oc=5",
+  "published_at": "2026-11-23T11:29:27+00:00",
+  "relevance": 3,
+  "source": "openPR.com",
+  "source_type": "news_search",
+  "summary": "According to an openPR.com headline, Roche's satralizumab has received FDA priority review for MOGAD (myelin oligodendrocyte glycoprotein antibody-associated disease). No further details, such as trial data or a decision date, are given in the text provided.",
+  "summary_model": "claude-sonnet-5-5",
+  "title": "Roche's Satralizumab Secures FDA Priority Review for MOGAD,"
  },
  "b28e6f0d9276112d": {
   "about_ms": false,
@@ -4442,6 +5674,22 @@
   "summary_model": "claude-sonnet-5-5",
   "title": "Meet the MS Trust... MS Trust information team"
  },
+ "b3bbe3dea460dc23": {
+  "about_ms": false,
+  "category": "other",
+  "collected_at": "2026-11-24T16:21:59.011355+00:00",
+  "description": "Randomized Trial of Acetylcysteine in Idiopathic Pulmonary Fibrosis NEJM",
+  "id": "b3bbe3dea460dc23",
+  "is_published": false,
+  "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5lQzhZS0NxRnFTeC15Zkt6ck9tcWI0dGNybmRpSEFQVzBFa2JzWWlpOUwzNWgxZHpwWGMyZ1VNVG13ZzZ2RzI2cFJvQ0pQeUNwZG00bmM1NmR5djNSNjBlcQ?oc=5",
+  "published_at": "2014-05-18T07:00:00+00:00",
+  "relevance": 1,
+  "source": "NEJM",
+  "source_type": "news_search",
+  "summary": "NEJM published a randomized trial of acetylcysteine in idiopathic pulmonary fibrosis. The provided text gives no results or details, and the article does not concern MS, NMOSD, MOGAD or related demyelinating disease.",
+  "summary_model": "claude-sonnet-5-5",
+  "title": "Randomized Trial of Acetylcysteine in Idiopathic Pulmonary Fibrosis"
+ },
  "b4341446a102c2b0": {
   "about_ms": true,
   "category": "living_with_ms",
@@ -4458,6 +5706,22 @@
   "summary_model": "claude-sonnet-5-5",
   "title": "Study shows ocean sailing safe, feasible for adults with MS"
  },
+ "b435a0848f1a6c10": {
+  "about_ms": false,
+  "category": "regulatory",
+  "collected_at": "2026-11-24T16:21:59.011273+00:00",
+  "description": "Medical Product Alert N°2/2025: Falsified HEALMOXY (Amoxicillin) Capsules 500mg World Health Organization (WHO)",
+  "id": "b435a0848f1a6c10",
+  "is_published": false,
+  "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxONjJEcFZoM1ZjZWl5bEVIQXFOYUFZSEZmNlVScEVIYmVBdmV5d0REWkhrZ1VPa1VmQUZsSWo5TWJVS3hFbE0wR0s0S0tmZHR3bXZJcm9GaUQxNEZJdk9Fc2F2TXJHaEQxR29XVlNQMTc1aDZSVXViS3RWLVZ1TVZZNU0xRVUtblpsUUpoZUxxLXVROGF0Wl8yUEgwdDZzcVRKTlkyNGs4NWptbHFzQThzU3c2bU9mbFExN2x4bQ?oc=5",
+  "published_at": "2025-04-23T07:00:00+00:00",
+  "relevance": 1,
+  "source": "World Health Organization (WHO)",
+  "source_type": "news_search",
+  "summary": "The World Health Organization issued Medical Product Alert N°2/2025 about falsified HEALMOXY (amoxicillin) 500mg capsules. The text provided gives only the title, with no details on MS, NMOSD, MOGAD or related conditions.",
+  "summary_model": "claude-sonnet-5-5",
+  "title": "Medical Product Alert N°2/2025: Falsified HEALMOXY (Amoxicillin) Capsules 500mg"
+ },
  "b544e867f6a5fb28": {
   "about_ms": true,
   "category": "trial_news",
@@ -4473,6 +5737,22 @@
   "summary": "Tiziana Life Sciences reports positive phase 2a results for intranasal foralumab in multiple sclerosis, according to a financial news outlet. The source text gives no data on participants, outcomes or safety, and the results are company-reported.",
   "summary_model": "claude-sonnet-5-5",
   "title": "Tiziana Life Sciences reports positive phase 2a results for Intranasal Foralumab in MS"
+ },
+ "b572f7154d8be4af": {
+  "about_ms": false,
+  "category": "other",
+  "collected_at": "2026-11-24T16:21:59.011171+00:00",
+  "description": "Is Piperacillin-Tazobactam an Option in Amoxicillin Allergy? Medscape",
+  "id": "b572f7154d8be4af",
+  "is_published": false,
+  "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxORUtHSHdLSTl6bXE3NlpHRk52Vnc1NGREUndoUUx3d1RMSWVpVGVOc0JtNXdPX2w5Qlkxang4cHNVN1plN2d0bHhkNXZvdG96b0t2N3k5dDNFcjlxYy0tVTJLRndzRXpiUFk2QWhseWcybTlDdThKRWQ1Z2RfczFsbmI4YVA2N3l6ZlpCcUpCd1dZbjRkNlNQZm83Y1BHWnF6M1E?oc=5",
+  "published_at": "2026-01-29T08:00:00+00:00",
+  "relevance": 1,
+  "source": "Medscape",
+  "source_type": "news_search",
+  "summary": "A Medscape article asks whether piperacillin-tazobactam is an option for people with amoxicillin allergy. The text provided gives only the title, with no details on findings, and no mention of multiple sclerosis or related demyelinating disease.",
+  "summary_model": "claude-sonnet-5-5",
+  "title": "Is Piperacillin-Tazobactam an Option in Amoxicillin Allergy?"
  },
  "b5f0cd3cbe3b2466": {
   "about_ms": false,
@@ -4586,6 +5866,22 @@
   "summary_model": "claude-sonnet-5-5",
   "title": "Mitotic Respiratory Supercomplex Assembly Safeguards Chromosome Segregation to Fuel Tumor Growth"
  },
+ "be9530e6b2976a47": {
+  "about_ms": true,
+  "category": "research",
+  "collected_at": "2026-11-24T16:21:59.011288+00:00",
+  "description": "Immunic Presents New Clinical, Biomarker, and Preclinical Data for Vidofludimus Calcium in Four Poster Presentations at MSToronto2026 - the 10th Joint ACTRIMS-ECTRIMS Meeting PR Newswire",
+  "id": "be9530e6b2976a47",
+  "is_published": false,
+  "link": "https://news.google.com/rss/articles/CBMiywJBVV95cUxQUmhnQlpQWUZEVVlxM1JOUGgzRWZjVjFSa2E2R2JYZHFhMnJWSFdwZU0yTmxQUzZDcDBaTTVJY0dCRmprOENvU1A5cFhzQ2F6ZU5vaUlIOFplVlR1bzlnUHhORVFoazZmV0pESVBOejdoODlMZ3BaRHc4Nk4zNmJwZXJIZzA3bi1vU3hWZjJQSnh0OFlVdUNENXcyNmpWeHMwOTJKZEVscVB5YzMybjhFS2tXWkUwV3VBbWF2YlUyc1g1MkpzQlJWemtBVzZRbFVLZGpwdENjRVZTN2xaT1JocHJ5X0VwcHNWODE0RmdCanhEdlVPdFhLWEdDU1U5dGJEVGhnbkROaFVxQW5XN0dxcnlkU2h1eER1OVBHZTlUQ1Zpc2FuS3hKSGFFMFp1TEpqeDFLZnUtRFpaQkQ4cDJnaVUtLTlBN2w3VFRZ?oc=5",
+  "published_at": "2026-10-21T07:00:00+00:00",
+  "relevance": 2,
+  "source": "PR Newswire",
+  "source_type": "news_search",
+  "summary": "Immunic announced four poster presentations of clinical, biomarker and preclinical data on vidofludimus calcium at MSToronto2026, the 10th Joint ACTRIMS-ECTRIMS Meeting. The source text gives no results or further details.",
+  "summary_model": "claude-sonnet-5-5",
+  "title": "Immunic Presents New Clinical, Biomarker, and Preclinical Data for Vidofludimus Calcium in Four Poster Presentations at MSToronto2026 - the 10th Joint ACTRIMS-ECTRIMS Meeting"
+ },
  "bed689b71d58f82f": {
   "about_ms": true,
   "category": "research",
@@ -4634,6 +5930,70 @@
   "summary_model": "claude-sonnet-5-5",
   "title": "Kyverna Completes BLA Submission for Autoimmune CAR T, Abandons Another"
  },
+ "bf54cedad255595b": {
+  "about_ms": false,
+  "category": "other",
+  "collected_at": "2026-11-24T16:21:59.011166+00:00",
+  "description": "Rapcabtagene Autoleucel Yields Efficacy, Safety in R/R B-ALL OncLive",
+  "id": "bf54cedad255595b",
+  "is_published": false,
+  "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNR0NhMHZtNG5ERklFWG5NdFlxTlp4eno0NzVTN3M5cmJMVlhYajNNNmRwNXVhYmFsZXJodXdrRFpJNzBLLWpQQjRxQzUwMkd0Y3pIQU9HLVVuaExDTUhYZFh4M1B2U2paT2tqSEUzcDBlbEpYTjZBZVRITE9qTkxpdmRUdmw2a25XZ0dGSzFCbW02dw?oc=5",
+  "published_at": "2026-03-24T07:00:00+00:00",
+  "relevance": 1,
+  "source": "OncLive",
+  "source_type": "news_search",
+  "summary": "OncLive reports that rapcabtagene autoleucel showed efficacy and safety in relapsed/refractory B-cell acute lymphoblastic leukemia (R/R B-ALL). The source text gives no further detail and does not mention multiple sclerosis or related demyelinating diseases.",
+  "summary_model": "claude-sonnet-5-5",
+  "title": "Rapcabtagene Autoleucel Yields Efficacy, Safety in R/R B-ALL"
+ },
+ "bf7ce623ab4c6653": {
+  "about_ms": false,
+  "category": "other",
+  "collected_at": "2026-11-24T16:21:59.011300+00:00",
+  "description": "The use of N-acetylcysteine in the prevention of hangover: a randomized trial | Scientific Reports Nature",
+  "id": "bf7ce623ab4c6653",
+  "is_published": false,
+  "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9yOHR6MEFndS1aU3YxbFh6Y0hzSVVKS3JhanFYYUZpOVZVaGdsYVdSX3JCZDc4V1g3aTY0RmtLMTliME9BZGF2ZFNaUURXUTc0M285czlTbEdxTDZ0TWRN?oc=5",
+  "published_at": "2021-06-28T07:00:00+00:00",
+  "relevance": 1,
+  "source": "Nature",
+  "source_type": "news_search",
+  "summary": "A Scientific Reports article describes a randomized trial of N-acetylcysteine for preventing hangover. The provided text gives no results or details, and it does not mention multiple sclerosis or related demyelinating diseases.",
+  "summary_model": "claude-sonnet-5-5",
+  "title": "The use of N-acetylcysteine in the prevention of hangover: a randomized trial | Scientific Reports"
+ },
+ "c0c4694a72f196f4": {
+  "about_ms": false,
+  "category": "trial_news",
+  "collected_at": "2026-11-24T16:21:59.010783+00:00",
+  "description": "Novartis halts CAR-T trials after patient deaths pharmaphorum",
+  "id": "c0c4694a72f196f4",
+  "is_published": false,
+  "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQSzV3b01OZ1lLdGZEVjB0U3g1aFI5Tlg4THc4aEVidHhDalNRTGJ0bjlfdWpYZU1aYVREMjZ3MTBkWjI0NFhGVUo5emVHRlgyV1EtTC0zdzUzTUtJaUg0ZFhKSmZnOUV2SThRaXM0RVlVbzNSaW1yT25WSkVXMTU3ZFV5eXM?oc=5",
+  "published_at": "2026-09-01T07:00:00+00:00",
+  "relevance": 2,
+  "source": "pharmaphorum",
+  "source_type": "news_search",
+  "summary": "Novartis has halted its CAR-T trials following patient deaths, according to the headline from pharmaphorum. The text provided gives no details on the conditions studied, the number of deaths, or any link to multiple sclerosis.",
+  "summary_model": "claude-sonnet-5-5",
+  "title": "Novartis halts CAR-T trials after patient deaths"
+ },
+ "c14eb6f7fbd3f5cc": {
+  "about_ms": false,
+  "category": "other",
+  "collected_at": "2026-11-24T16:21:59.010773+00:00",
+  "description": "How Prednisone Affects Your Heart Cleveland Clinic Health Essentials",
+  "id": "c14eb6f7fbd3f5cc",
+  "is_published": false,
+  "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9CVjdEMGVHOTVDRjgyVUN0T1o1d1h4QjVieDlrcWJfZVUyU3JCc2ZfSXlJTW9CYnJlR2E1SmpRX2hYb1liYUtZN2tHZ0FYMkFydHVZQ0dSdTA0ZUV1SkdNdFh2X3dPVlNQNGQ1bQ?oc=5",
+  "published_at": "2026-04-28T07:00:00+00:00",
+  "relevance": 2,
+  "source": "Cleveland Clinic Health Essentials",
+  "source_type": "news_search",
+  "summary": "Cleveland Clinic Health Essentials published an article titled \"How Prednisone Affects Your Heart.\" Only the title was provided, so no findings, details, or links to MS or other demyelinating disease can be stated.",
+  "summary_model": "claude-sonnet-5-5",
+  "title": "How Prednisone Affects Your Heart"
+ },
  "c15c9a06ae503c90": {
   "about_ms": false,
   "category": "research",
@@ -4649,6 +6009,22 @@
   "summary": "A Nature paper reports that monocarboxylate transporter 2 regulates how oligodendrocytes maintain myelin and axonal integrity. No abstract or full text was provided, so the study model and any direct link to MS are not stated.",
   "summary_model": "claude-sonnet-5-5",
   "title": "Monocarboxylate transporter 2 regulates maintenance of myelin and axonal integrity by oligodendrocytes"
+ },
+ "c1714de95751389e": {
+  "about_ms": false,
+  "category": "research",
+  "collected_at": "2026-11-24T16:21:59.011151+00:00",
+  "description": "Long-Term Steroid Drug Use Could Contribute to Brain Fog Technology Networks",
+  "id": "c1714de95751389e",
+  "is_published": false,
+  "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOZkREeF9Kc09SMThSUGgydUxjRVpmWlFISHR0R0xMcnlzMDE3azhtQzZFbS14elJ1ZjFjYXQ3dFpGODBmS0NRU0gyVkJ4TlQ4MWNybzBfajRUeV8xRXpFQ0l0UklSeTdHLWU2ck4wZTA5RGFKdmxoNkhRTWkyeVRRRlpNbkhmc0J4M1R3VVNsV3VCZ1VicDBjbGRCSjRNZmRJU3VvX1BOOEQxZmRWd2ZIVE9wMEFWb1k?oc=5",
+  "published_at": "2026-01-14T08:00:00+00:00",
+  "relevance": 2,
+  "source": "Technology Networks",
+  "source_type": "news_search",
+  "summary": "Technology Networks reports a piece titled \"Long-Term Steroid Drug Use Could Contribute to Brain Fog.\" The provided text contains only the headline, so no details on the study, the steroids involved, or any link to MS are available.",
+  "summary_model": "claude-sonnet-5-5",
+  "title": "Long-Term Steroid Drug Use Could Contribute to Brain Fog"
  },
  "c17ad9f1c7282b91": {
   "about_ms": false,
@@ -4794,6 +6170,22 @@
   "summary_model": "claude-sonnet-5-5",
   "title": "Nearly 1 in 5 Kids Get High Eye Pressure After Steroids"
  },
+ "c71645f236764e39": {
+  "about_ms": false,
+  "category": "other",
+  "collected_at": "2026-11-24T16:21:59.010980+00:00",
+  "description": "Synergistic Effects of Black Seed Oil, Fresh Clove Extracts, and Amoxicillin Against Bacterial Skin Pathogens: An In Vitro Experimental Study Cureus",
+  "id": "c71645f236764e39",
+  "is_published": false,
+  "link": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxNbWVVeV9IeDZGX3dWTG9WYmFsRDItYy0zQUFBSWZZZXM1QnpmamdjUldZdlpMMzFzMWNkcjJ3Q3FqWG1FNTUySE5vY0RlNHJUQy1XVVhZeV9BcEF0cnFrcndPbkU4R3ZmX1NldXRJd3pxa2hwdnlwZG83ZjdyWjh4Njl1N2Z2UURPVy12RWFOWGI0S092TG0zVGhKNU15REYzbklkTDM1QmhoR3pwbHNGWmxEX0hSWXlEM2ttNEpkcllVMzJrRjJFUC1VY0tnRG8wbHo2d1luWmhjWFJTdkh0X20yWTRLLVYwZXBMOFFQdUwxU2pFWVBaaXo1aUxYSzNXVEtDQ0lfTDI?oc=5",
+  "published_at": "2026-03-01T08:47:41+00:00",
+  "relevance": 1,
+  "source": "Cureus",
+  "source_type": "news_search",
+  "summary": "A Cureus in vitro study examined black seed oil, fresh clove extracts, and amoxicillin in combination against bacterial skin pathogens. The source text gives no further detail, and it does not mention multiple sclerosis or related demyelinating diseases.",
+  "summary_model": "claude-sonnet-5-5",
+  "title": "Synergistic Effects of Black Seed Oil, Fresh Clove Extracts, and Amoxicillin Against Bacterial Skin Pathogens: An In Vitro Experimental Study"
+ },
  "c730cdba895d6804": {
   "about_ms": true,
   "category": "research",
@@ -4906,6 +6298,22 @@
   "summary_model": "claude-sonnet-5-5",
   "title": "MS therapy preserves cognitive function over 4 years, study shows"
  },
+ "ca02c32d2f3f8391": {
+  "about_ms": false,
+  "category": "other",
+  "collected_at": "2026-11-24T16:21:59.010742+00:00",
+  "description": "Modelling impacts of paediatric amoxicillin shortage management on pneumococcal resistance and invasive disease in Europe Nature",
+  "id": "ca02c32d2f3f8391",
+  "is_published": false,
+  "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1ZdTBnRHk4aGhiRFllU2UzTWd0TXd1WEFUYktQVi0xUkpxNS11VUZSeERDTkNSSlNpUzlmdHBFcVdyQTVHcnN3bEhBSUU2NHluZXlMdWFYOW1qVXdlV1o0?oc=5",
+  "published_at": "2026-05-19T07:00:00+00:00",
+  "relevance": 1,
+  "source": "Nature",
+  "source_type": "news_search",
+  "summary": "A Nature paper models how different ways of managing a paediatric amoxicillin shortage could affect pneumococcal antibiotic resistance and invasive pneumococcal disease in Europe. The source text gives no further detail and does not mention multiple sclerosis.",
+  "summary_model": "claude-sonnet-5-5",
+  "title": "Modelling impacts of paediatric amoxicillin shortage management on pneumococcal resistance and invasive disease in Europe"
+ },
  "ca4b3dbb20bb0c1f": {
   "about_ms": true,
   "category": "research",
@@ -4921,6 +6329,54 @@
   "summary": "A 12-month, prospective, open-label, multicenter study examined the efficacy and safety of ofatumumab in Chinese participants with multiple sclerosis. The source text gives only the title, so no results are stated.",
   "summary_model": "claude-sonnet-5-5",
   "title": "Efficacy and safety of ofatumumab in Chinese participants with multiple sclerosis: results from a 12-month, prospective, open-label, multicenter study"
+ },
+ "caa472029a6bce58": {
+  "about_ms": false,
+  "category": "regulatory",
+  "collected_at": "2026-11-24T16:21:59.010441+00:00",
+  "description": "Roche wins second FDA approval for breast cancer pill, opening up bigger market Endpoints News",
+  "id": "caa472029a6bce58",
+  "is_published": false,
+  "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQWWF0TWRSbERjYW5OVWlFejJsQ3ZsOGxKWWVLT3JTTDk5RDdYdTMwUzdHd3NtUm0zbGFSckJXYUI5cEZ3NjRnRjNUd2pLNEN4dEJFVFlFUURrTU55RVFqVTNKSFN6MDhDVzFkdkpuWExCUHFYaWhNb3BBVmdRT1FhX2FoakZSTHZhY2hPZUk2bkhJNjZOaTlwekp3YXE3QXFwNDh0QQ?oc=5",
+  "published_at": "2026-11-23T17:44:00+00:00",
+  "relevance": 1,
+  "source": "Endpoints News",
+  "source_type": "news_search",
+  "summary": "Roche received a second FDA approval for its breast cancer pill, according to an Endpoints News headline. The headline says this opens a bigger market. No details are given, and the item does not mention MS or related demyelinating diseases.",
+  "summary_model": "claude-sonnet-5-5",
+  "title": "Roche wins second FDA approval for breast cancer pill, opening up bigger market"
+ },
+ "cacf96a19b60dcc3": {
+  "about_ms": false,
+  "category": "other",
+  "collected_at": "2026-11-24T16:21:59.010950+00:00",
+  "description": "Ten-Day Vonoprazan-Amoxicillin Dual Therapy vs... : American Journal of Gastroenterology Ovid",
+  "id": "cacf96a19b60dcc3",
+  "is_published": false,
+  "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxObWVObk9wLWZyMk9zYkdNMVpWWVhjd1pKLUljVGlfRVo1cS1VbzhnLW02Y0c3cEJROGY3UDN5c0lrLWNkekNKLWw3MFg0QWJ5TEgtM0dZaEhIS0tVb1FScm1sbElzM2k0RWlOUTk5dTFXRE1NQmpJdE96S1RXWDhueFFFR0JsWTBMQi1HSUZWR0tsbllCWjVmVnlYX19Nd3BzdC0tVEgzMHBoYmZEZHlBb3VucEd6RXhQWU00ZDYyRzE?oc=5",
+  "published_at": "2026-07-07T16:02:35+00:00",
+  "relevance": 1,
+  "source": "Ovid",
+  "source_type": "news_search",
+  "summary": "The source is an American Journal of Gastroenterology item, listed via Ovid, titled 'Ten-Day Vonoprazan-Amoxicillin Dual Therapy vs...'. The title is cut off and no further text is given. It does not mention MS or related demyelinating disease.",
+  "summary_model": "claude-sonnet-5-5",
+  "title": "Ten-Day Vonoprazan-Amoxicillin Dual Therapy vs... : American Journal of Gastroenterology"
+ },
+ "cadad6a5d44acea8": {
+  "about_ms": false,
+  "category": "research",
+  "collected_at": "2026-11-24T16:21:59.011249+00:00",
+  "description": "Pharmacokinetics of Oral Prednisone at Various Doses in Dogs: Preliminary Findings Using a Naïve Pooled-Data Approach Frontiers",
+  "id": "cadad6a5d44acea8",
+  "is_published": false,
+  "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOSlFOZ0p6ZHpYQnNiY25aVE1DREVpaHFKSkxhajRmWVlkOWtMV3BfYkp6bllpSXRwNmpULTRvYWN2M1lLR05vc1Jienh2TEJwRWhsZ2dLZlFzeURzUGJxdUM2QVRmODA5WVB6YVVGRUQ1djlkeEVzMnBBcENScW95Qlc1MTNtLVdMSV9LTnh4d2N2Nl9YbnBlTXcwdw?oc=5",
+  "published_at": "2020-10-18T07:00:00+00:00",
+  "relevance": 1,
+  "source": "Frontiers",
+  "source_type": "news_search",
+  "summary": "A Frontiers paper reports preliminary findings on how oral prednisone at various doses is absorbed and processed in dogs, using a naïve pooled-data approach. The text provided does not mention multiple sclerosis or other demyelinating disease.",
+  "summary_model": "claude-sonnet-5-5",
+  "title": "Pharmacokinetics of Oral Prednisone at Various Doses in Dogs: Preliminary Findings Using a Naïve Pooled-Data Approach"
  },
  "cb339adabae1f581": {
   "about_ms": true,
@@ -4986,6 +6442,22 @@
   "summary_model": "claude-sonnet-5-5",
   "title": "A Lactate–H4K12la–HDAC1 epigenetic axis governs microglial state transitions during experimental autoimmune encephalomyelitis in female mice"
  },
+ "cfc6991fcdb0ec8f": {
+  "about_ms": false,
+  "category": "other",
+  "collected_at": "2026-11-24T16:21:59.010929+00:00",
+  "description": "Here’s what the drug prednisone does to your body The Washington Post",
+  "id": "cfc6991fcdb0ec8f",
+  "is_published": false,
+  "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQRjc3RHhTZFlSZ3FqZ01KZDF0Skt0alZMSVNWWWJVQVVBeFBqYU5CRGllQnJqWlV2MHZFY3JTTkkyZXhrbUZxVUZUeDNzN3dwRG00Zk1UT2x3Y0RndEFYODhVWk9GYzl0cmlpaF9vWkdiUFZiSVdsUTEzWHFnR1hGSGk3VXhaTDM2Znc?oc=5",
+  "published_at": "2026-09-25T07:00:00+00:00",
+  "relevance": 1,
+  "source": "The Washington Post",
+  "source_type": "news_search",
+  "summary": "The Washington Post published an article titled \"Here's what the drug prednisone does to your body.\" Only the headline was provided, so no details about its content, or any link to multiple sclerosis, can be confirmed.",
+  "summary_model": "claude-sonnet-5-5",
+  "title": "Here’s what the drug prednisone does to your body"
+ },
  "cfe8697590ac99e5": {
   "about_ms": true,
   "category": "research",
@@ -5001,6 +6473,22 @@
   "summary": "Graviton BioScience reported preclinical data on GV300, an oral ROCK2 inhibitor, at Neuroscience 2026. In lab models of multiple sclerosis, it improved clinical scores and reduced demyelination, inflammation and neurodegeneration biomarkers. No human data were reported.",
   "summary_model": "claude-sonnet-5-5",
   "title": "Graviton BioScience Announces New Preclinical Data Highlighting the Potential of Selective ROCK2 Inhibition in Multiple Sclerosis at Neuroscience 2026"
+ },
+ "d03c0e15d89a7bef": {
+  "about_ms": true,
+  "category": "regulatory",
+  "collected_at": "2026-11-24T16:21:59.009946+00:00",
+  "description": "The U.S. Food and Drug Administration (FDA) has granted marketing authorization for a new blood test designed to help doctors assess disease activity in adults with relapsing-remitting multiple sclerosis (RRMS). The test, called the Atellica IM Neurofilament Light Chain (NfL) assay, measures levels of NfL, a protein released into the bloodstream when nerve fibers are […] The post FDA authorizes blood test to help assess multiple sclerosis disease activity appeared first on Multiple Sclerosis News Today .",
+  "id": "d03c0e15d89a7bef",
+  "is_published": true,
+  "link": "https://multiplesclerosisnewstoday.com/news-posts/2026/11/24/fda-authorizes-blood-test-help-assess-multiple-sclerosis-activity/",
+  "published_at": "2026-11-24T13:00:15+00:00",
+  "relevance": 4,
+  "source": "MS News Today",
+  "source_type": "news",
+  "summary": "The U.S. FDA has granted marketing authorization for the Atellica IM Neurofilament Light Chain (NfL) assay, a blood test to help doctors assess disease activity in adults with relapsing-remitting MS. It measures NfL, a protein released into the bloodstream when nerve fibers are damaged.",
+  "summary_model": "claude-sonnet-5-5",
+  "title": "FDA authorizes blood test to help assess multiple sclerosis disease activity"
  },
  "d161d33c6aeb35fe": {
   "about_ms": true,
@@ -5097,6 +6585,22 @@
   "summary": "Biogen reported Phase 2 CELIA trial results for a therapy in early Alzheimer's disease, according to a GuruFocus headline. The text provided gives no further details, and the item does not concern multiple sclerosis or related demyelinating conditions.",
   "summary_model": "claude-sonnet-5-5",
   "title": "Biogen (BIIB) Reports Promising Phase 2 CELIA Trial Results for Early Alzheimer's Therapy"
+ },
+ "d42922175c295736": {
+  "about_ms": false,
+  "category": "other",
+  "collected_at": "2026-11-24T16:21:59.011367+00:00",
+  "description": "N-acetylcysteine for youth cannabis use disorder: randomized controlled trial main findings Nature",
+  "id": "d42922175c295736",
+  "is_published": false,
+  "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5ST19uSG43Tjl0Yy1PVkpObWY3TVRRZG1nNWFrX28xMUNDTmNCOS1SUi1BU0F5Nm5CelZMSWYyRzJTaklyZVRxZzFZOGI1cUd3T1FzOXB1MGo5V0ZENE1F?oc=5",
+  "published_at": "2025-02-05T08:00:00+00:00",
+  "relevance": 1,
+  "source": "Nature",
+  "source_type": "news_search",
+  "summary": "Nature lists a randomized controlled trial of N-acetylcysteine for cannabis use disorder in young people. The supplied text gives only the title, with no results, and does not mention multiple sclerosis or related demyelinating diseases.",
+  "summary_model": "claude-sonnet-5-5",
+  "title": "N-acetylcysteine for youth cannabis use disorder: randomized controlled trial main findings"
  },
  "d4fc3472bc9c0cce": {
   "about_ms": true,
@@ -5210,6 +6714,22 @@
   "summary_model": "claude-sonnet-5-5",
   "title": "Tiziana Life Sciences Ltd (TLSA) stock price, news, quote and history"
  },
+ "db2409fbfd92046d": {
+  "about_ms": false,
+  "category": "other",
+  "collected_at": "2026-11-24T16:21:59.011133+00:00",
+  "description": "How Much Prednisone Is Too Much in Treating Rheum Effects From Cancer Therapies? MedPage Today",
+  "id": "db2409fbfd92046d",
+  "is_published": false,
+  "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE85NTFVOW80UXUwbmhoVmx0OTVHWDVFendld3ZPc0tCOHE5WmRNclE0MjBabjAtY3c1VW1WRGpUNWtwU3dyLXFwX3pQeDFpSUlYQVU4UHRjakpwX1R4bk9uMWtMR1M0d0lj?oc=5",
+  "published_at": "2026-06-05T07:00:00+00:00",
+  "relevance": 1,
+  "source": "MedPage Today",
+  "source_type": "news_search",
+  "summary": "A MedPage Today piece asks how much prednisone is too much when treating rheumatic effects of cancer therapies. Only the title is available, so no findings are stated, and it does not mention multiple sclerosis or related demyelinating diseases.",
+  "summary_model": "claude-sonnet-5-5",
+  "title": "How Much Prednisone Is Too Much in Treating Rheum Effects From Cancer Therapies?"
+ },
  "db74249b9e6e4aa3": {
   "about_ms": false,
   "category": "other",
@@ -5225,6 +6745,38 @@
   "summary": "A case report links multifocal Kimura disease with generalized pruritic rashes occurring at the same time. The source text gives only the title, with no further details, and does not mention multiple sclerosis or related demyelinating diseases.",
   "summary_model": "claude-sonnet-5-5",
   "title": "Case Report Links Multifocal Kimura Disease With Synchronous Generalized Pruritic Rashes"
+ },
+ "dbf6cdf1cd0068f4": {
+  "about_ms": false,
+  "category": "other",
+  "collected_at": "2026-11-24T16:21:59.010912+00:00",
+  "description": "Amoxicillin-Clavulanic Acid Induced Pancreatitis:... : American Journal of Gastroenterology Ovid",
+  "id": "dbf6cdf1cd0068f4",
+  "is_published": false,
+  "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPbGx5SnN4TDVfdVhOR2o5MVZKbGlxZkhGRGREYldiTzV4aHZYbEs2alhaMk9ES3M5U19DRjRRaXdveFY1OTdnNXJXaGt4eTVJMXFNTXhMblRKc0ZvOVY5X3RScWlJdEE2TDZHTFp1ZXJtX1dQdlBuY0NSYkNINlNPQWpESnFINWhObEg3MDJnV2lhZ2ZfWFRXYzJjUlRTRHZxQ2RaTGd5VUIyRVJmQkMyNl9ZWnYzMjlCclE?oc=5",
+  "published_at": "2026-07-12T08:29:55+00:00",
+  "relevance": 1,
+  "source": "Ovid",
+  "source_type": "news_search",
+  "summary": "The source is titled 'Amoxicillin-Clavulanic Acid Induced Pancreatitis' and appears in the American Journal of Gastroenterology via Ovid. No further text is provided, and no connection to MS or related demyelinating disease is stated.",
+  "summary_model": "claude-sonnet-5-5",
+  "title": "Amoxicillin-Clavulanic Acid Induced Pancreatitis:... : American Journal of Gastroenterology"
+ },
+ "dc17b8a2870de97f": {
+  "about_ms": false,
+  "category": "other",
+  "collected_at": "2026-11-24T16:21:59.010797+00:00",
+  "description": "Molecular pharmacodynamics of amoxicillin-clavulanic acid for urinary tract infections caused by Escherichia coli Nature",
+  "id": "dc17b8a2870de97f",
+  "is_published": false,
+  "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBqVUdUQmtvZ0VJLTBuQjR6R3NrU2c1RlF0NjRLS2FqakVwcWZpWEFZWWZNaHhUNjY2T1VJekNqSHUxcjlSbjVPWGhPNVVRU0pkd21ObHFiaW1YTWlOT1NR?oc=5",
+  "published_at": "2026-06-13T07:00:00+00:00",
+  "relevance": 1,
+  "source": "Nature",
+  "source_type": "news_search",
+  "summary": "A Nature paper examines the molecular pharmacodynamics of amoxicillin-clavulanic acid for urinary tract infections caused by Escherichia coli. The provided text gives no further detail and does not mention multiple sclerosis or related demyelinating disease.",
+  "summary_model": "claude-sonnet-5-5",
+  "title": "Molecular pharmacodynamics of amoxicillin-clavulanic acid for urinary tract infections caused by Escherichia coli"
  },
  "ddc27b971d5a0696": {
   "about_ms": true,
@@ -5257,6 +6809,22 @@
   "summary": null,
   "summary_model": "claude-sonnet-5-5",
   "title": "Immunic at guggenheim conference: phase iii readout looms By Investing.com"
+ },
+ "de1f2774193fc1ba": {
+  "about_ms": false,
+  "category": "other",
+  "collected_at": "2026-11-24T16:21:59.010971+00:00",
+  "description": "Effects of topically applied liquid N-acetylcysteine for the management of burning mouth syndrome Nature",
+  "id": "de1f2774193fc1ba",
+  "is_published": false,
+  "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1QcjFhdERjOWZSNGNwYk9ucFBBRDVlTlBUWVFCbDF4MVZacTlqS1hBX0JHbVY2QmdPRGVDOGRIS1luS2wtZ3BTeDdrSDZBUlFUVGJaQURXVG13TmM4b1h3?oc=5",
+  "published_at": "2025-12-29T08:00:00+00:00",
+  "relevance": 1,
+  "source": "Nature",
+  "source_type": "news_search",
+  "summary": "A Nature article examines topically applied liquid N-acetylcysteine for managing burning mouth syndrome. The provided text gives no details on results or study design, and does not mention multiple sclerosis or related demyelinating diseases.",
+  "summary_model": "claude-sonnet-5-5",
+  "title": "Effects of topically applied liquid N-acetylcysteine for the management of burning mouth syndrome"
  },
  "de20240936524f27": {
   "about_ms": true,
@@ -5322,6 +6890,22 @@
   "summary_model": "claude-sonnet-5-5",
   "title": "Immunic to Present Additional Phase 2 CALLIPER Trial Data for Vidofludimus Calcium at the ACTRIMS Forum 2026, Reinforcing Its Potential in Progressive Multiple Sclerosis"
  },
+ "e06e98fb053175d5": {
+  "about_ms": true,
+  "category": "trial_news",
+  "collected_at": "2026-11-24T16:21:59.010292+00:00",
+  "description": "Remibrutinib Beats Teriflunomide in MS Trials Technology Org",
+  "id": "e06e98fb053175d5",
+  "is_published": true,
+  "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPSUdUNmNwMVpBRmNfMmExUWZabmJLMUd5UWpWaHdkMVBLYzlSVGM0ZE93ZU5QY28xQUllc1BWdElsZV9FTno4bm44RUN0d2JwUXJYTGgxVHFtRFBqLV8tVzZHOGc4TTFqVzJRZGxRNmx4UVZIdzhYeXVPVmk4TkNwNXd6eTNGeEZwUzU4MkFPb0dIbWt6bDhieUJBNVdVd29GX2ZyV0NB?oc=5",
+  "published_at": "2026-11-23T13:37:00+00:00",
+  "relevance": 3,
+  "source": "Technology Org",
+  "source_type": "news_search",
+  "summary": "A Technology Org headline reports that remibrutinib performed better than teriflunomide in multiple sclerosis trials. No further details, such as outcomes, trial phase, participant numbers or safety findings, are given in the text provided.",
+  "summary_model": "claude-sonnet-5-5",
+  "title": "Remibrutinib Beats Teriflunomide in MS Trials"
+ },
  "e0743930bdfac204": {
   "about_ms": false,
   "category": "other",
@@ -5369,6 +6953,22 @@
   "summary": "Interim Phase 1 Breakfree-2 results (NCT06220201) show most people with relapsing or progressive MS had stable or improved disability scores, with signs of reduced disease activity, after a single infusion of the experimental CAR T-cell therapy zolacabtagene autoleucel (zola-cel).",
   "summary_model": "claude-sonnet-5-5",
   "title": "Experimental CAR T-cell therapy shows promise in early MS trial"
+ },
+ "e19a7f4548aff10d": {
+  "about_ms": false,
+  "category": "other",
+  "collected_at": "2026-11-24T16:21:59.010389+00:00",
+  "description": "Merck KGaA, BioNxt Solutions and Novartis – A billion-dollar market is being reshaped | 2026-11-20 | Investing News Stockhouse",
+  "id": "e19a7f4548aff10d",
+  "is_published": false,
+  "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPZ0cxZHlqWTlaUlBhYkMwQm9hc01uZGZsMVlVcU1rOWRGMFNzYXZ5eTRGMDVaRzdKZmt0OVBjZEh1eGZGQjZpdmNpS21LSWpKZWhlY21jZjFGa0tHTW9YUWFpWkJ5NjF0a1lHZ01kTndXc2M2R09jZklmVXl6WTUzbEZVV2o2cWgzNlhNbXloVGgxZ01WM3BkRTlRTlMzYmd6NHRUX0hGUlBZZEFoZHNzeC1kSDhDM2FRNHcxaVRQUmpGZFRXRGVXTGh5djVoaEE?oc=5",
+  "published_at": "2026-11-20T05:03:06+00:00",
+  "relevance": 1,
+  "source": "Stockhouse",
+  "source_type": "news_search",
+  "summary": "The item is an investor-news piece titled 'Merck KGaA, BioNxt Solutions and Novartis – A billion-dollar market is being reshaped', dated 2026-11-20. Only the title was provided, so no details on multiple sclerosis, products or findings are available.",
+  "summary_model": "claude-sonnet-5-5",
+  "title": "Merck KGaA, BioNxt Solutions and Novartis – A billion-dollar market is being reshaped | 2026-11-20 | Investing News"
  },
  "e22081ada2dc2377": {
   "about_ms": false,
@@ -5562,6 +7162,22 @@
   "summary_model": "claude-sonnet-5-5",
   "title": "FDA Will Review Arbaclofen ER, Potential Oral Therapy for MS Spasticity"
  },
+ "e6c205ab55d2f855": {
+  "about_ms": false,
+  "category": "other",
+  "collected_at": "2026-11-24T16:21:59.011198+00:00",
+  "description": "Amoxicillin-clavulanic acid-induced type II Kounis syndrome during general anaesthesia complicated with hypoxic-ischaemic encephalopathy www.elsevier.com",
+  "id": "e6c205ab55d2f855",
+  "is_published": false,
+  "link": "https://news.google.com/rss/articles/CBMikgJBVV95cUxQdnhwVVNPVUVFRVRHX29ZM2FXelY4MzJwa0hOcGx6ZUZUY1cxS2xQYU02TzlrREViaWNtYlVqV3diQVd3bFdvWmVHWVhWTHJrS2p6NWZMa2JzdDFRTGUzanUtQW5nbjZHOU1hekdaY2w2ZEtTWHUxWDA1MFNHUkdobjFGZmFtd2M4VWNlV1I4X3VieEt6R21fN3NBNHk1Rm9OV0VTR2pMNlJKbkF0ZFUwM2NkZUhMZnhSbWQ4aUpoS1ZIbzZSOFRCZHRaeV9pVXpMMGdBM3lNTlFUc0pVLXNCdzA0ajlMZUJMeG5hYVdvSU96N3g2NUhBYnBiSW5QRnZnby1TYlktVVU0QVRCWmhsYkhB?oc=5",
+  "published_at": "2026-01-27T21:56:42+00:00",
+  "relevance": 1,
+  "source": "www.elsevier.com",
+  "source_type": "news_search",
+  "summary": "The title describes a case of type II Kounis syndrome (an allergic reaction affecting the heart) triggered by amoxicillin-clavulanic acid during general anaesthesia, complicated by hypoxic-ischaemic encephalopathy. No details are given, and multiple sclerosis or related diseases are not mentioned.",
+  "summary_model": "claude-sonnet-5-5",
+  "title": "Amoxicillin-clavulanic acid-induced type II Kounis syndrome during general anaesthesia complicated with hypoxic-ischaemic encephalopathy"
+ },
  "e6fffb557cfb91b7": {
   "about_ms": true,
   "category": "research",
@@ -5609,6 +7225,54 @@
   "summary": "Fierce Biotech reports that Biogen has exited the race to develop BTK inhibitors, 19 months after placing a $125M bet. The provided text gives no further detail, including which drug or conditions are involved.",
   "summary_model": "claude-sonnet-5-5",
   "title": "Biogen bails on BTK race just 19 months after placing $125M bet"
+ },
+ "eab31b8f4d6aa89c": {
+  "about_ms": false,
+  "category": "other",
+  "collected_at": "2026-11-24T16:21:59.011377+00:00",
+  "description": "Safety and efficacy of N -acetylcysteine (NAC) as an adjunct to standard treatment in patients with acute ischemic stroke: a randomized controlled pilot trial (NACTLYS) Nature",
+  "id": "eab31b8f4d6aa89c",
+  "is_published": false,
+  "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE05dE1TbUtFWEprTy1DdU1HSkJjS1VwZWViRmtNRlRZLVlaam91UWx1V2kya25rZkxWZzAzZk91RXp3OFFTR3ZRQzU1UGlKZGhqM2FjUm40dTZrcDlCZWFR?oc=5",
+  "published_at": "2024-01-11T08:00:00+00:00",
+  "relevance": 1,
+  "source": "Nature",
+  "source_type": "news_search",
+  "summary": "A randomized controlled pilot trial, called NACTLYS, examined the safety and efficacy of N-acetylcysteine (NAC) added to standard treatment in patients with acute ischemic stroke. The text gives no results and does not mention multiple sclerosis.",
+  "summary_model": "claude-sonnet-5-5",
+  "title": "Safety and efficacy of N -acetylcysteine (NAC) as an adjunct to standard treatment in patients with acute ischemic stroke: a randomized controlled pilot trial (NACTLYS)"
+ },
+ "eaef2280653dee44": {
+  "about_ms": false,
+  "category": "regulatory",
+  "collected_at": "2026-11-24T16:21:59.011235+00:00",
+  "description": "FDA Approves Niraparib/Abiraterone Acetate Plus Prednisone for BRCA2+ mCSPC OncLive",
+  "id": "eaef2280653dee44",
+  "is_published": false,
+  "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPS1FON0ZDSVVyOEVhaU1RNnJ2WUVnNTVIYVZyVDVRZG9mMnNfWUUzeXBZMGYwcHJWdWNGNFNZTXFLYjBvR2FPYUxtejU0ZEphMGpIV0Q1YUJBaDVrZ0VNNVJXYzVGZWdqcGYtMHNXdS1jNnNsZTVkNURZbzFRV3ROWnlCVUEwVjdtQ3JDX05BWDZ6dXBWdTBjblRrNWE4elJ3SktuNXpR?oc=5",
+  "published_at": "2025-12-12T08:00:00+00:00",
+  "relevance": 1,
+  "source": "OncLive",
+  "source_type": "news_search",
+  "summary": "The FDA approved niraparib/abiraterone acetate plus prednisone for metastatic castration-sensitive prostate cancer with BRCA2 mutations. The source text gives only the headline and does not mention multiple sclerosis or related demyelinating diseases.",
+  "summary_model": "claude-sonnet-5-5",
+  "title": "FDA Approves Niraparib/Abiraterone Acetate Plus Prednisone for BRCA2+ mCSPC"
+ },
+ "eb48181b31ae1f11": {
+  "about_ms": false,
+  "category": "other",
+  "collected_at": "2026-11-24T16:21:59.011349+00:00",
+  "description": "Effect of high-dose N -acetylcysteine on exacerbations and lung function in patients with mild-to-moderate COPD: a double-blind, parallel group, multicentre randomised clinical trial Nature",
+  "id": "eb48181b31ae1f11",
+  "is_published": false,
+  "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5maHQ0aFFYREpzdE9rRG1qNE5paXduNi1UaFYzZWwyc2tnSE5zZm94dy11eldybTZ5LWJCUXo0c2hzZ0V6MzlnSmNWUnB6TzBkU1dzMl81NWRSTU5DQl9N?oc=5",
+  "published_at": "2024-09-30T07:00:00+00:00",
+  "relevance": 1,
+  "source": "Nature",
+  "source_type": "news_search",
+  "summary": "A Nature-published double-blind, parallel group, multicentre randomised clinical trial examined high-dose N-acetylcysteine for exacerbations and lung function in mild-to-moderate COPD. The text provided gives no results and does not mention multiple sclerosis.",
+  "summary_model": "claude-sonnet-5-5",
+  "title": "Effect of high-dose N -acetylcysteine on exacerbations and lung function in patients with mild-to-moderate COPD: a double-blind, parallel group, multicentre randomised clinical trial"
  },
  "ec61e6fd34acbfe3": {
   "about_ms": true,
@@ -5674,6 +7338,22 @@
   "summary_model": "claude-sonnet-5-5",
   "title": "TG Therapeutics to Host Conference Call on Third Quarter 2026 Financial Results and Business Update"
  },
+ "ee89abdac63f454e": {
+  "about_ms": false,
+  "category": "other",
+  "collected_at": "2026-11-24T16:21:59.010965+00:00",
+  "description": "Magnetic nanoparticles detect amoxicillin allergy with 98% sensitivity in early tests Phys.org",
+  "id": "ee89abdac63f454e",
+  "is_published": false,
+  "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNVGxhQl95enU5NVFlQzFnTzVMY2NiM04wY2swVjN4VDdOMjc3MElPU2YtcHU0a3ZKTUdMLU5pTDFoTjJGdFlENlRaaVI5Rzl4MnlrTk1UYTQwNko4Q3BrREVya3A3SDhxN0xZMkhOVzk2UVM2MGRCUGpEYTllVUN4MGFpUkxtUE8wd2tFaThyeUFxem8?oc=5",
+  "published_at": "2026-09-12T07:00:00+00:00",
+  "relevance": 1,
+  "source": "Phys.org",
+  "source_type": "news_search",
+  "summary": "A Phys.org report says magnetic nanoparticles detected amoxicillin allergy with 98% sensitivity in early tests. The provided text gives no further details, and it does not mention multiple sclerosis or related demyelinating diseases.",
+  "summary_model": "claude-sonnet-5-5",
+  "title": "Magnetic nanoparticles detect amoxicillin allergy with 98% sensitivity in early tests"
+ },
  "ef12c073510a1e0d": {
   "about_ms": false,
   "category": "other",
@@ -5689,6 +7369,22 @@
   "summary": "Israel Defense reports that China has developed a military drone that fires painkiller darts at wounded troops. The source text gives no further details, and the item is not related to multiple sclerosis or demyelinating disease.",
   "summary_model": "claude-sonnet-5-5",
   "title": "China Develops Military Drone That Fires Painkiller Darts at Wounded Troops"
+ },
+ "ef5a8eae33f9b9eb": {
+  "about_ms": true,
+  "category": "research",
+  "collected_at": "2026-11-24T16:21:59.009930+00:00",
+  "description": "Women with multiple sclerosis (MS) may experience temporary reductions in brain volume after childbirth, with most of the lost volume returning toward prepregnancy levels within one to two years, a study has found. Importantly, researchers found no significant increase in the volume of MS-related brain lesions during pregnancy or in the first year after childbirth, […] The post Study finds temporary brain volume loss in MS women after childbirth appeared first on Multiple Sclerosis News Today .",
+  "id": "ef5a8eae33f9b9eb",
+  "is_published": true,
+  "link": "https://multiplesclerosisnewstoday.com/news-posts/2026/11/24/study-finds-temporary-brain-volume-loss-ms-women-childbirth/",
+  "published_at": "2026-11-24T14:45:31+00:00",
+  "relevance": 3,
+  "source": "MS News Today",
+  "source_type": "news",
+  "summary": "A study found women with multiple sclerosis may have temporary reductions in brain volume after childbirth, with most lost volume returning toward prepregnancy levels within one to two years. Researchers found no significant increase in MS-related brain lesion volume during pregnancy or the first year postpartum.",
+  "summary_model": "claude-sonnet-5-5",
+  "title": "Study finds temporary brain volume loss in MS women after childbirth"
  },
  "f00ffc2055f11e42": {
   "about_ms": true,
@@ -5754,6 +7450,22 @@
   "summary_model": "claude-sonnet-5-5",
   "title": "Quantum BioPharma (QNTM) Reports $12.22M in Cash and Digital Assets, Advances Lucid-MS Phase 2 Trial"
  },
+ "f15e521622d8f305": {
+  "about_ms": false,
+  "category": "other",
+  "collected_at": "2026-11-24T16:21:59.010312+00:00",
+  "description": "Axoltis Pharma The Pharma Letter",
+  "id": "f15e521622d8f305",
+  "is_published": false,
+  "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBYajU3QndnTTBxSGRZY2N4WHAydE4yU0dPZW1TY2FXNTVQYkY2UDBCZG9OcDRWbldqZzdFdWVYWW9tdHFRa1JNMTBnUmdPUGRFeUFmSXNPRlFFZ0czaWNpQzFWVFJXc0N2OWJ1Nw?oc=5",
+  "published_at": "2026-11-18T22:20:10+00:00",
+  "relevance": 1,
+  "source": "The Pharma Letter",
+  "source_type": "news_search",
+  "summary": "The source text gives only the company name, Axoltis Pharma, and the publication name, The Pharma Letter. No details about MS, a treatment, a trial or a decision are provided, so no further facts can be stated.",
+  "summary_model": "claude-sonnet-5-5",
+  "title": "Axoltis Pharma"
+ },
  "f19e3cc0941d75a2": {
   "about_ms": false,
   "category": "other",
@@ -5786,6 +7498,22 @@
   "summary_model": "claude-sonnet-5-5",
   "title": "Health Canada approves (Pr)Ocrevus® (ocrelizumab) for treating pediatric relapsing-remitting multiple sclerosis"
  },
+ "f1a26c6e356b6d6c": {
+  "about_ms": false,
+  "category": "other",
+  "collected_at": "2026-11-24T16:21:59.011003+00:00",
+  "description": "Aluminum phosphate-modified red clay as a stable nanocomposite catalyst for the selective conversion of methanol to dimethyl ether Nature",
+  "id": "f1a26c6e356b6d6c",
+  "is_published": false,
+  "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5ySVVNdzBxcURVLUVudjR6ZjFZZ2o5VGlXYzU0YTZOdXRqbDAyS3BfRWoyeXgxbUZuM2RUTFdYVWRjNjBmakprM0FxMDl0TkYtbEI2dTlTdVZCNVV2dnNB?oc=5",
+  "published_at": "2026-08-04T07:00:00+00:00",
+  "relevance": 1,
+  "source": "Nature",
+  "source_type": "news_search",
+  "summary": "This Nature paper describes an aluminum phosphate-modified red clay nanocomposite used as a stable catalyst to convert methanol selectively to dimethyl ether. It is a chemistry study with no stated connection to multiple sclerosis or related diseases.",
+  "summary_model": "claude-sonnet-5-5",
+  "title": "Aluminum phosphate-modified red clay as a stable nanocomposite catalyst for the selective conversion of methanol to dimethyl ether"
+ },
  "f1b32b8e788c3f04": {
   "about_ms": false,
   "category": "research",
@@ -5817,6 +7545,22 @@
   "summary": "Oncodaily published an overview of alemtuzumab, sold as Campath and Lemtrada, covering its mechanism of action, dosing, clinical uses, trials and side effects. Only the title was available, so no specific findings or MS details can be confirmed.",
   "summary_model": "claude-sonnet-5-5",
   "title": "Alemtuzumab (Campath, Lemtrada): Mechanism of Action, Dosing, Clinical Uses, Trials, and Side Effects"
+ },
+ "f1d0022244c190a7": {
+  "about_ms": false,
+  "category": "other",
+  "collected_at": "2026-11-24T16:21:59.011140+00:00",
+  "description": "Gut Trouble: A Rare Case of Amoxicillin-Clavulanate-Induced Ischemic Colitis in a Young Adult Cureus",
+  "id": "f1d0022244c190a7",
+  "is_published": false,
+  "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQWEJpQkdDWHBOUDVfOHdpWVBzeFhHanZLaUVUOW81dGV4LWstWDdwaWtiVjQ0Vk9FT2RJc0lDanBpcHZFOFU3VmlZRVBYSERsSHZqVmIxYTc1SlFOX3A5REdnT0xxaF90cHVJazFld1VQQ3NLTlMtOGR5THcwT1R1YUhkWnlyemtkWHVpbWdzMXRocjRYbjdHMUN2Zk13THN2ak80cjZEZHk4RFZ5UmVlS1RxbEUtS1dhTFZ1UzVUTnJCNExmMDFIRHFPNA?oc=5",
+  "published_at": "2026-08-12T07:00:00+00:00",
+  "relevance": 1,
+  "source": "Cureus",
+  "source_type": "news_search",
+  "summary": "A Cureus case report describes ischemic colitis, a condition with reduced blood flow to the colon, in a young adult attributed to amoxicillin-clavulanate, an antibiotic. The text provided does not mention multiple sclerosis or related demyelinating disease.",
+  "summary_model": "claude-sonnet-5-5",
+  "title": "Gut Trouble: A Rare Case of Amoxicillin-Clavulanate-Induced Ischemic Colitis in a Young Adult"
  },
  "f1f0938852c5a077": {
   "about_ms": true,
@@ -5954,6 +7698,22 @@
   "summary_model": "claude-sonnet-5-5",
   "title": "Pain linked to perceived cognitive difficulties in MS study"
  },
+ "f5b90475e786b406": {
+  "about_ms": false,
+  "category": "other",
+  "collected_at": "2026-11-24T16:21:59.010725+00:00",
+  "description": "How Prednisone Affects Your Body And Why It Leads To Muscle Soreness Review Derby - Diocese",
+  "id": "f5b90475e786b406",
+  "is_published": false,
+  "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNRkVzVFRKM21sc3hzVkFYbVd3MThQVkczdXpJZFdQMEppUnN0dXE5SGtBdERXQWxZUUJad2FZMnVwZmxhelY5Y3p1UGNjWTF1aS1SOUE5OFVtTEVxeFZnTEFIZ2FTb1VjMHFkN21TNWlpYk9zQ2ZwYUFQdlJEYjV4aXVXNks1T2M2MXB6c0ZCNTFMUnpZX3ZSYnltR0gxX2tFODNKVHdR?oc=5",
+  "published_at": "2026-11-23T06:04:43+00:00",
+  "relevance": 1,
+  "source": "Derby - Diocese",
+  "source_type": "news_search",
+  "summary": "The source, listed as Derby - Diocese, carries a title about how prednisone affects the body and causes muscle soreness. No article text, MS content, or evidence is provided, and the entry appears to be promotional or low-quality.",
+  "summary_model": "claude-sonnet-5-5",
+  "title": "How Prednisone Affects Your Body And Why It Leads To Muscle Soreness Review"
+ },
  "f5d0c3cdd5320b01": {
   "about_ms": false,
   "category": "trial_news",
@@ -6001,6 +7761,22 @@
   "summary": "Medscape reports a head-to-head trial in neuromyelitis optica in which a newer medication outperformed an older one. The provided text gives no details on the drugs, outcomes, or size of the difference.",
   "summary_model": "claude-sonnet-5-5",
   "title": "New Med Beats Old in Head-to-Head Neuromyelitis Optica Trial"
+ },
+ "f694aec405cfaf61": {
+  "about_ms": true,
+  "category": "research",
+  "collected_at": "2026-11-24T16:21:59.010557+00:00",
+  "description": "Pediatric Case Series in Palestine Shows Diverse Manifestations of MOGAD Bioengineer.org",
+  "id": "f694aec405cfaf61",
+  "is_published": false,
+  "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQZy1SVHBVdnUtR1lOTEVkNlFfOXVwaVdiWnZJbTRFcUVncTJqLW9CTUltZEVLd0VMaTNBN3YwUVNrdVVZSlhwUGdxUWY3T2JVY3BNYmQ0WVNFOWhoQzlqeFdfckFqbHI4OUVnYW5sNlZMRWNSZ0JNMjF2eEFkXzNmZWktNjhSUXFSVE8xcWVKcnM3ZTVvOWJxMEFZRzlPQQ?oc=5",
+  "published_at": "2026-11-23T15:28:34+00:00",
+  "relevance": 2,
+  "source": "Bioengineer.org",
+  "source_type": "news_search",
+  "summary": "A pediatric case series from Palestine reports diverse clinical manifestations of MOG antibody-associated disease (MOGAD) in children. Only the title was available, so no patient numbers, findings, or outcomes can be reported.",
+  "summary_model": "claude-sonnet-5-5",
+  "title": "Pediatric Case Series in Palestine Shows Diverse Manifestations of MOGAD"
  },
  "f698048b922f480b": {
   "about_ms": false,
@@ -6241,5 +8017,21 @@
   "summary": "This STAT roundup is titled as covering an approval of a novel stroke drug and a warning about GLP-1 drugs. No MS, NMOSD or MOGAD content is stated in the available text, and no further details were provided.",
   "summary_model": "claude-sonnet-5-5",
   "title": "Pharmalittle: We're reading about an approval for novel drug for strokes, a warning for GLP-1 drugs, and more"
+ },
+ "ffb43a210191fd42": {
+  "about_ms": false,
+  "category": "other",
+  "collected_at": "2026-11-24T16:21:59.010894+00:00",
+  "description": "Administration of N -acetylcysteine influence the expression of apoptotic genes in the granulosa cells of infertile women diagnosed with endometriosis Nature",
+  "id": "ffb43a210191fd42",
+  "is_published": false,
+  "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1TWXdURkowdm5Qc3czYklaTFRsdDY0STFiQTFzR2JYUUJ6elFIUXZzNVg5UHBwcEE5bllFU19HM1pJcWJwQ0xLcmN0Nm1vWWRwXzZESU9UYkZSdHZ1NUJF?oc=5",
+  "published_at": "2026-02-09T08:00:00+00:00",
+  "relevance": 1,
+  "source": "Nature",
+  "source_type": "news_search",
+  "summary": "A Nature paper examines how N-acetylcysteine administration influences expression of apoptotic genes in granulosa cells of infertile women with endometriosis. The source text gives no details, and the study does not concern MS or related demyelinating diseases.",
+  "summary_model": "claude-sonnet-5-5",
+  "title": "Administration of N -acetylcysteine influence the expression of apoptotic genes in the granulosa cells of infertile women diagnosed with endometriosis"
  }
 }
