@@ -383,6 +383,70 @@
   "summary_model": "claude-sonnet-5-5",
   "title": "Atlanta Dental Practice of Dr. Wayne Suway Transitions to Pino Dental Studio, Led by LVI-Trained Dentist Dr. Oscar Pino"
  },
+ "0aee5d53c64e8dd6": {
+  "about_ms": true,
+  "category": "research",
+  "collected_at": "2026-11-26T15:45:19.848944+00:00",
+  "description": "Case Report: Ofatumumab treatment for concomitant multiple sclerosis and idiopathic thrombocytopenic purpura Frontiers",
+  "id": "0aee5d53c64e8dd6",
+  "is_published": false,
+  "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQUFRsZ19xNmJadndaZmoxTU9zOUp1TnI3MGdHRHZyT3R1eFJ6NXBEZlIycUVXWV9NbGpxMWZ0bXFEQ3FneVRZbFJYS3A1cjdhTmt2U1JiV3BwemxLbHZPYVNrMi1xUE9VWDhpcXRLWW5MUjdJd0hWUEdyY3FTSjBJX0Ftbjl5azBNb0dPYkFUdmdZQQ?oc=5",
+  "published_at": "2025-03-10T07:00:00+00:00",
+  "relevance": 2,
+  "source": "Frontiers",
+  "source_type": "news_search",
+  "summary": "A case report in Frontiers describes ofatumumab treatment in a patient who has both multiple sclerosis and idiopathic thrombocytopenic purpura. The source text gives only the title, so no outcomes or details are available.",
+  "summary_model": "claude-sonnet-5-5",
+  "title": "Case Report: Ofatumumab treatment for concomitant multiple sclerosis and idiopathic thrombocytopenic purpura"
+ },
+ "0b0a712a11a34d4f": {
+  "about_ms": true,
+  "category": "research",
+  "collected_at": "2026-11-26T15:45:19.848951+00:00",
+  "description": "AGNOS Study Results Demonstrate Ofatumumab’s Impact on Neurofilament Light, GFAP NeurologyLive",
+  "id": "0b0a712a11a34d4f",
+  "is_published": true,
+  "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQSlVUekF2RTlJaDJLbTYyTGpYbGxiM3dndXc4T0REMFQ0aUNzaEg0ZTdvV1VYYlNLWWo4ZU5kWlBjd2UwZnNDREIwcWllV1NkMndPd1ZJU0g1WXZsZE1nM2ZaR2tuNDllMjlBc0t3WW1jMUJ0QVZpemotLXE3eU44anFWUDN6UDBpdUNDdHJmQUFIV3Z3Rl93WHNPMXlpdHI5Q1JrXzZCd0dkMFZqT0E?oc=5",
+  "published_at": "2026-02-09T08:00:00+00:00",
+  "relevance": 3,
+  "source": "NeurologyLive",
+  "source_type": "news_search",
+  "summary": "NeurologyLive reports results from the AGNOS study on ofatumumab's effect on neurofilament light and GFAP, two blood biomarkers linked to nerve damage and glial activity. The available text gives no further details on findings or participants.",
+  "summary_model": "claude-sonnet-5-5",
+  "title": "AGNOS Study Results Demonstrate Ofatumumab’s Impact on Neurofilament Light, GFAP"
+ },
+ "0b23a6a470ffaab2": {
+  "about_ms": true,
+  "category": "treatment",
+  "collected_at": "2026-11-26T15:45:19.849046+00:00",
+  "description": "Betaseron (interferon beta-1b) in MS | Uses, side effects, and more Multiple Sclerosis News Today",
+  "id": "0b23a6a470ffaab2",
+  "is_published": false,
+  "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQNjdHQ0lFRVh1SUZiS0UxSEZQNVp0M0swbmdfU19QQjVvVEhDSEphNUhfb3JaRi1IWUc2YU9HREg2NFNocXlad3VaYm1VbmxTOUo3UjFRaFhFYm93Y1Y2ZUdkbGZRSlBBZFduemFvTUgyZ2h1bHJmbGtjNE5FS1pXNkRONllaaTUtanptMWNmMlhtbTN4anc?oc=5",
+  "published_at": "2025-06-13T07:00:00+00:00",
+  "relevance": 2,
+  "source": "Multiple Sclerosis News Today",
+  "source_type": "news_search",
+  "summary": "Multiple Sclerosis News Today lists a general information page on Betaseron (interferon beta-1b) as a treatment for MS. The title says it covers uses and side effects, but no further details are given in the text provided.",
+  "summary_model": "claude-sonnet-5-5",
+  "title": "Betaseron (interferon beta-1b) in MS | Uses, side effects, and more"
+ },
+ "0b90499f58ee8c96": {
+  "about_ms": true,
+  "category": "research",
+  "collected_at": "2026-11-26T15:45:19.849025+00:00",
+  "description": "Ofatumumab Positively Impacts Neurofilament Light, NEDA Status Regardless of Race or Ethnic Background NeurologyLive",
+  "id": "0b90499f58ee8c96",
+  "is_published": true,
+  "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOUVFJSEpod2JhMzdpSGgwM0xLc1NydENnTndfUTd5UTBnSl9RelFwU251VGtpTnBCcGRWcG5pLVNubVBKc2JYNE1RTGlSdVJ3WVJhR2ctdVZLSndHZzlmbm41NGN6SnlCZlk0T2ItaEhfV0Y0OENpZEhVeVRPbmR1d0wyWE9tV1BCTnlZVmxWbkJGMTNoVS0wZWJ6VTdFTmxGZDBlT0JFNGxmMnhYWWxSLVhpSUpvVldCZmg4SzdyeDJGd0xJQUcydVZn?oc=5",
+  "published_at": "2024-05-29T07:00:00+00:00",
+  "relevance": 3,
+  "source": "NeurologyLive",
+  "source_type": "news_search",
+  "summary": "A NeurologyLive report says ofatumumab had a positive effect on neurofilament light levels and on NEDA (no evidence of disease activity) status, regardless of race or ethnic background. No further details were provided in the text available.",
+  "summary_model": "claude-sonnet-5-5",
+  "title": "Ofatumumab Positively Impacts Neurofilament Light, NEDA Status Regardless of Race or Ethnic Background"
+ },
  "0bafe11ab378b66e": {
   "about_ms": true,
   "category": "research",
@@ -414,6 +478,22 @@
   "summary": "A Bioengineer.org item reports on a German nationwide survey of rare autoimmune conditions that found gaps in diagnosis and treatment. The provided text gives no details on which conditions were covered, so any link to MS, NMOSD or MOGAD is unclear.",
   "summary_model": "claude-sonnet-5-5",
   "title": "German Nationwide Survey Reveals Diagnostic and Treatment Gaps in Rare Autoimmune Conditions"
+ },
+ "0c4eefc0f6837c1b": {
+  "about_ms": true,
+  "category": "treatment",
+  "collected_at": "2026-11-26T15:45:19.849039+00:00",
+  "description": "Kesimpta (ofatumumab) for MS: Uses, side effects, and more |... Multiple Sclerosis News Today",
+  "id": "0c4eefc0f6837c1b",
+  "is_published": false,
+  "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9xbmd0T29UeWRxdGpmM0kteVNFdm9FSFVXMXhfZGFIS3RaMkpWYXY3eEM5Um5vU1BxWTZnRURzTVg3bEY3VGtuSFZsLWhyQ1BCOE9LU3dLOFF6MHJzZnlYRE9fdks2Nk9iUFJLeUpmYnlOOUNwS2o0NTQxb2t2Zw?oc=5",
+  "published_at": "2025-02-28T08:00:00+00:00",
+  "relevance": 2,
+  "source": "Multiple Sclerosis News Today",
+  "source_type": "news_search",
+  "summary": "Multiple Sclerosis News Today has an informational page on Kesimpta (ofatumumab), covering its uses and side effects in MS. The supplied text gives no details, so no new evidence or decision is reported.",
+  "summary_model": "claude-sonnet-5-5",
+  "title": "Kesimpta (ofatumumab) for MS: Uses, side effects, and more |..."
  },
  "0da8343f33c383be": {
   "about_ms": false,
@@ -671,6 +751,22 @@
   "summary_model": "claude-sonnet-5-5",
   "title": "Stephen Krieger, MD, Reviews BTK Inhibitor Trial Outcomes"
  },
+ "164959aea3048938": {
+  "about_ms": false,
+  "category": "other",
+  "collected_at": "2026-11-26T15:45:19.849123+00:00",
+  "description": "Meta-Analysis Finds N-Acetylcysteine Fails to Reduce Mortality in Acute Respiratory Distress Syndrome Bioengineer.org",
+  "id": "164959aea3048938",
+  "is_published": false,
+  "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNX09DTDVxQ2ZXNmNfeWRqdDd2cVlyMUY4cXl0T3IzMmFESFNaekFxYjE0ZDkxOUhXbHdWQkhVbHN1SlR5MlJRNm8wdV8wWWlOSE94TkFjT1pPajdIWDR2Sm9YdWtmZU4zWlRfOTZQazJoZ282SF91dXZza0NtOUlyRzlnSl9mZkVFd1RCTXN6QXdUSFR3ZWtreE92WkRMdzd5czNfUkF5NUltWlFQcThMSllHang0eHJpTHNEWW1uUmZ2RTBr?oc=5",
+  "published_at": "2026-11-25T23:33:16+00:00",
+  "relevance": 1,
+  "source": "Bioengineer.org",
+  "source_type": "news_search",
+  "summary": "A meta-analysis reported that N-acetylcysteine did not reduce mortality in acute respiratory distress syndrome. The source text gives no further detail, and the article does not mention multiple sclerosis or related demyelinating diseases.",
+  "summary_model": "claude-sonnet-5-5",
+  "title": "Meta-Analysis Finds N-Acetylcysteine Fails to Reduce Mortality in Acute Respiratory Distress Syndrome"
+ },
  "16a1b7e14580189b": {
   "about_ms": false,
   "category": "other",
@@ -799,6 +895,22 @@
   "summary_model": "claude-sonnet-5-5",
   "title": "Home MS Treatment Linked to Higher Patient Satisfaction"
  },
+ "1a654d6f9986cc6d": {
+  "about_ms": false,
+  "category": "other",
+  "collected_at": "2026-11-26T15:45:19.848828+00:00",
+  "description": "Anticoagulants Market (2033): FDA Approval of First Factor XIa openPR.com",
+  "id": "1a654d6f9986cc6d",
+  "is_published": false,
+  "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOblRQbG5uYVE0OHBFbmtaSjZJOVhLc2twbExuRDNpRXZwU25Tb2IxTlRPdVlWc2xBYjJjMnFPa1I3SXdJNi12SzBhcEp3a1BmWHlTS0xhT1lzU2Q0cGhxV1VZMUI5UnpDSnJMZkVKeU5VOFJOTm1UTFEwZTJmQ3VpUFFhSktnN3p3ZjBBUTRxa1p3VVdJcE44N2FsOA?oc=5",
+  "published_at": "2026-11-26T10:01:10+00:00",
+  "relevance": 1,
+  "source": "openPR.com",
+  "source_type": "news_search",
+  "summary": "An openPR market-report headline about the anticoagulants market through 2033 mentions an FDA approval of a first Factor XIa product. The text provided has no details and does not mention MS or related demyelinating disease.",
+  "summary_model": "claude-sonnet-5-5",
+  "title": "Anticoagulants Market (2033): FDA Approval of First Factor XIa"
+ },
  "1a9af33cd3e738ab": {
   "about_ms": true,
   "category": "treatment",
@@ -862,6 +974,22 @@
   "summary": "A Nature paper reports cell-specific proteome profiling of peripheral immune cells in early multiple sclerosis, with the title indicating altered communication between these cells. No full text, methods, sample details or results were provided, so findings cannot be described further.",
   "summary_model": "claude-sonnet-5-5",
   "title": "Cell-specific proteome profiling reveals altered peripheral immune cell communication in early multiple sclerosis"
+ },
+ "1bd9061bcfac57aa": {
+  "about_ms": true,
+  "category": "research",
+  "collected_at": "2026-11-26T15:45:19.849043+00:00",
+  "description": "Subcutaneous Ofatumumab Shows Reduced Injection Reactions in Multiple Sclerosis The American Journal of Managed Care",
+  "id": "1bd9061bcfac57aa",
+  "is_published": true,
+  "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOMHdteUFmSGx1MFZGRGpKdWEwVkZZOWVrWmpMeU1NMnl0TnRpUDZyRy03bXhkYnhMZUdIdGVPZ21rMDBHcFpLeVd0bmFPS0lSNXl6ckJyZFVuZkUwbURUTEU3bXhKZjdMNVMzNFl3NUFZaXNOdjN4eUI2M2o0ODV6RWZ5dEhacFpiSURrSEpuT1ZUeHpHT1Frb3BrUlRDNVJSNXZFRDBzUHVyUQ?oc=5",
+  "published_at": "2024-06-28T07:00:00+00:00",
+  "relevance": 3,
+  "source": "The American Journal of Managed Care",
+  "source_type": "news_search",
+  "summary": "An American Journal of Managed Care report, per its headline, says subcutaneous ofatumumab was associated with reduced injection reactions in multiple sclerosis. The provided text gives no details on study design, patient numbers, or how much reactions were reduced.",
+  "summary_model": "claude-sonnet-5-5",
+  "title": "Subcutaneous Ofatumumab Shows Reduced Injection Reactions in Multiple Sclerosis"
  },
  "1cac9dc6c59a66bf": {
   "about_ms": true,
@@ -1134,6 +1262,22 @@
   "summary": "A Nature paper titled as describing a spheroid model derived from human induced pluripotent stem cells to study myelin injury and repair. No abstract or text was provided, so findings and any link to MS are not stated.",
   "summary_model": "claude-sonnet-5-5",
   "title": "A human-induced pluripotent stem cell-derived spheroid model to investigate myelin injury and repair"
+ },
+ "24d9530514945508": {
+  "about_ms": true,
+  "category": "research",
+  "collected_at": "2026-11-26T15:45:19.848906+00:00",
+  "description": "New real-world data show approved MS therapy Kesimpta is safe, effective Multiple Sclerosis News Today",
+  "id": "24d9530514945508",
+  "is_published": true,
+  "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNMGVvR2ZTakJqdkhXelJpX3FqNzJnSGw4SFJEYjh5X2lkUVdsZTNtQWxralJSblRfU3J4a3Jlcm9Zc0tONmJWYU9KeXRMRnVxWnlVOG01RjZRLURneXlhYVRldVBQNGRIOGZRZzItM3lpZXdMX3FrV2hXaWNnV1o5MUtYMGFORDl3VUlLNnhhSEpmWkI2ODRPSmdRVGJaNjNBNDZDbUYwUzdWVnVqdl9ZRkhTWFBHaWl2WGkxNEpJQzhkRkU2ZTVZWEJ3cjhPbnc?oc=5",
+  "published_at": "2026-06-10T07:00:00+00:00",
+  "relevance": 3,
+  "source": "Multiple Sclerosis News Today",
+  "source_type": "news_search",
+  "summary": "Multiple Sclerosis News Today reports new real-world data on Kesimpta, an approved MS therapy, describing it as safe and effective. The provided text gives no figures, study design, or patient numbers.",
+  "summary_model": "claude-sonnet-5-5",
+  "title": "New real-world data show approved MS therapy Kesimpta is safe, effective"
  },
  "25f05a20f048f998": {
   "about_ms": true,
@@ -1503,6 +1647,22 @@
   "summary_model": "claude-sonnet-5-5",
   "title": "CAR T cells show early promise in progressive multiple sclerosis"
  },
+ "302e08526678bfad": {
+  "about_ms": true,
+  "category": "research",
+  "collected_at": "2026-11-26T15:45:19.849001+00:00",
+  "description": "Long-term effect of early treatment with interferon beta-1b after a first clinical event suggestive of multiple sclerosis: 5-year active treatment extension of the phase 3 BENEFIT trial The Lancet",
+  "id": "302e08526678bfad",
+  "is_published": true,
+  "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPR0IwdlhPRHNZdzRVVUtNR1ZKRmpCSWJzM3pTREdVVTdvYmdqNVZ4UTBVRXhqdGR5Q0Vma1ZvRHBZVHJ3dnlzckg1YmJHdXpYM1ZVTS14Z3EyWnZYVWNPakhCbGE3dkpDMV8teUhrMkRycjQ2Y2NVbFB6QTdqZVFOYmFONC1OQQ?oc=5",
+  "published_at": "2020-10-14T21:21:48+00:00",
+  "relevance": 3,
+  "source": "The Lancet",
+  "source_type": "news_search",
+  "summary": "The Lancet published the 5-year active treatment extension of the phase 3 BENEFIT trial, which examined long-term effects of early interferon beta-1b treatment after a first clinical event suggestive of multiple sclerosis. No results are given in the provided text.",
+  "summary_model": "claude-sonnet-5-5",
+  "title": "Long-term effect of early treatment with interferon beta-1b after a first clinical event suggestive of multiple sclerosis: 5-year active treatment extension of the phase 3 BENEFIT trial"
+ },
  "30f615afefbaca0f": {
   "about_ms": true,
   "category": "trial_news",
@@ -1518,6 +1678,22 @@
   "summary": "Zenas has acquired a BTK inhibitor that is in Phase 3 trials for progressive multiple sclerosis, according to Multiple Sclerosis News Today. No further details, such as the drug name, terms of the deal, or trial results, are given in the available text.",
   "summary_model": "claude-sonnet-5-5",
   "title": "Zenas acquires BTK inhibitor in Phase 3 trials for progressive MS"
+ },
+ "310f718dde97a539": {
+  "about_ms": true,
+  "category": "treatment",
+  "collected_at": "2026-11-26T15:45:19.848982+00:00",
+  "description": "Consistent Real-World Efficacy of Ofatumumab Therapy for Multiple Sclerosis: Jason Freeman, MD, MBA NeurologyLive",
+  "id": "310f718dde97a539",
+  "is_published": false,
+  "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOU0NrMjl0NjZqUUVoYzlhajhwQm5RWHZ6RW9SNGs4MG1pRFNXcUNKUmRDZkFuQmhja01jM19zQnB5VkdPaGlvTkZGVWg1b09QM21VeGZlaVZqazdLWFl4UHBHSGZ1TU5DTnFUNzkybmp2ejFKUU5EWWJ4elNOSFJhSU1fR2J4ZUlmZGstc1dBQlVicTQ1QTloOFMyM0xweUhiMjVz?oc=5",
+  "published_at": "2024-03-15T07:00:00+00:00",
+  "relevance": 2,
+  "source": "NeurologyLive",
+  "source_type": "news_search",
+  "summary": "NeurologyLive posted an item featuring Jason Freeman, MD, MBA, on real-world efficacy of ofatumumab therapy for multiple sclerosis. The title describes the efficacy as consistent, but no data, methods or findings are provided in the available text.",
+  "summary_model": "claude-sonnet-5-5",
+  "title": "Consistent Real-World Efficacy of Ofatumumab Therapy for Multiple Sclerosis: Jason Freeman, MD, MBA"
  },
  "31ca8fa0e81bb4da": {
   "about_ms": false,
@@ -1598,6 +1774,22 @@
   "summary": "A real-world, multi-centre, retrospective cohort study from Poland looked at cladribine tablets in highly active relapsing-remitting multiple sclerosis during the COVID-19 pandemic. Only the title is available, so no results or findings are provided.",
   "summary_model": "claude-sonnet-5-5",
   "title": "Cladribine tablets for highly active relapsing-remitting multiple sclerosis in Poland: a real-world, multi-centre, retrospective, cohort study during the COVID-19 pandemic | Stępień | Neurologia i Neurochirurgia Polska"
+ },
+ "341e77c9566947b5": {
+  "about_ms": true,
+  "category": "research",
+  "collected_at": "2026-11-26T15:45:19.848915+00:00",
+  "description": "Rare brainstem tumefactive relapse after two decades of stable multiple sclerosis alleviated by rescue therapies and ofatumumab initiation | Galus | Neurologia i Neurochirurgia Polska Via Medica Journals",
+  "id": "341e77c9566947b5",
+  "is_published": false,
+  "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNZlZsVktwYXBWXzVvR2w0ZW96WHViRzVhckxIazFTb0pVZnlrRVFYcnNobGdGWURjZVZtQ3VKblM0b1dhNm1LY2pRWWpYTDRVb3FQeEJFcXFWTDJxVzROcXVOdkRVYzFyMzZvZlJSWU94NGxoYlZfLVR4VGhXY1BqTVZuYVZpXzgyTmc?oc=5",
+  "published_at": "2026-04-09T07:00:00+00:00",
+  "relevance": 2,
+  "source": "Via Medica Journals",
+  "source_type": "news_search",
+  "summary": "A case report in Neurologia i Neurochirurgia Polska describes a rare tumefactive relapse in the brainstem after two decades of stable multiple sclerosis. According to the title, it was alleviated by rescue therapies and the start of ofatumumab.",
+  "summary_model": "claude-sonnet-5-5",
+  "title": "Rare brainstem tumefactive relapse after two decades of stable multiple sclerosis alleviated by rescue therapies and ofatumumab initiation | Galus | Neurologia i Neurochirurgia Polska"
  },
  "342a362af16b13fd": {
   "about_ms": false,
@@ -1944,6 +2136,22 @@
   "summary_model": "claude-sonnet-5-5",
   "title": "Tiziana's foralumab reduces microglial activation in Phase IIa MS trial at lower dose only"
  },
+ "3b6ac6de9cfeafbd": {
+  "about_ms": true,
+  "category": "living_with_ms",
+  "collected_at": "2026-11-26T15:45:19.848687+00:00",
+  "description": "People with and affected by MS shaping wellbeing and quality of life initiatives MS International Federation .",
+  "id": "3b6ac6de9cfeafbd",
+  "is_published": false,
+  "link": "https://www.msif.org/news/2026/11/26/people-with-and-affected-by-ms-shaping-wellbeing-and-quality-of-life-initiatives/",
+  "published_at": "2026-11-26T14:46:26+00:00",
+  "relevance": 2,
+  "source": "MSIF",
+  "source_type": "patient_org",
+  "summary": "The MS International Federation reports on initiatives on wellbeing and quality of life that are shaped by people with and affected by MS. The source text gives no further detail on the initiatives, methods or outcomes.",
+  "summary_model": "claude-sonnet-5-5",
+  "title": "People with and affected by MS shaping wellbeing and quality of life initiatives"
+ },
  "3bd87a7e44a9fee4": {
   "about_ms": true,
   "category": "research",
@@ -1976,6 +2184,22 @@
   "summary_model": "claude-sonnet-5-5",
   "title": "Ocrelizumab versus Interferon Beta-1a in Relapsing Multiple Sclerosis"
  },
+ "3bffc5df13d1c60e": {
+  "about_ms": false,
+  "category": "other",
+  "collected_at": "2026-11-26T15:45:19.849074+00:00",
+  "description": "BPS Publications British Pharmacological Society | Journals",
+  "id": "3bffc5df13d1c60e",
+  "is_published": false,
+  "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOR2prYzRfY0tjcXA2Z3RlR3Bsb0lNaFpDaGNNZUJzaDhadkw3NFVSWDZBZ3dBSzNoVEluLVFWWVpTRTB1UTZvcDcyLUFzSld2NUJJeXpuOXc1cjN4TG14YktsRU1peFR2b25kUWFBSG5KM3oyRUlfZC1PckdXRFpNc0dR?oc=5",
+  "published_at": "2011-03-30T07:00:00+00:00",
+  "relevance": 1,
+  "source": "British Pharmacological Society | Journals",
+  "source_type": "news_search",
+  "summary": "The source text gives only the publisher name, British Pharmacological Society Journals, and the title \"BPS Publications\". It contains no information about multiple sclerosis, a study, a treatment or any other findings.",
+  "summary_model": "claude-sonnet-5-5",
+  "title": "BPS Publications"
+ },
  "3c0970b29fbcd433": {
   "about_ms": true,
   "category": "research",
@@ -1991,6 +2215,22 @@
   "summary": "NEJM lists a study comparing oral fingolimod with intramuscular interferon in relapsing multiple sclerosis. The text provided gives only the title, with no results, so findings and outcomes are not stated.",
   "summary_model": "claude-sonnet-5-5",
   "title": "Oral Fingolimod or Intramuscular Interferon for Relapsing Multiple Sclerosis"
+ },
+ "3c33d28b123d3498": {
+  "about_ms": false,
+  "category": "other",
+  "collected_at": "2026-11-26T15:45:19.849108+00:00",
+  "description": "Zenas BioPharma and InnoCare Pharma Announce License GlobeNewswire",
+  "id": "3c33d28b123d3498",
+  "is_published": false,
+  "link": "https://news.google.com/rss/articles/CBMi7AJBVV95cUxPZ3hFQzM3RWlsT2lxZU84bjRBSTI5QW11RmRYNUhSS3U3bUdvZnNNY3VweWk0d2M2SkNQS1JtcG5LU2JMSW5FdGlqM3oyZmZVc0lwdHNkMmo4Q1RjWjhaTHJrZ1B4Q3hLNkQzTU80bi1CWWtReDdEYUJ4NUNGMzdvNVRkaG1Rb19UcmQ2VWlWWG5MX0lsNjVMRE1ibUVwajJNaXhaWXNZZUg1OW1Pa2ZSSVZpbHJkYVQycndjMFY2MmpETE5WVHNiT0lBZ3VTNlhhYU4yeEdWSVNudDRBbnZXbkh4enEtTERXbk5NTmdXUUpqRjBnRmQyMUJQdThEZjFmaVoya3VzcFo2cXdVWmZMb3ZuZXdHenRBUk0wWjFna21LaG9kUi1vRndydGNwel9hU18yQ2RpOThaOUl5RG5VcG81MnVnVWR6cFdheEZvMXNZWkpJaWtULXVPV0x1ZGlYaE5TRU5MM0VNRnpH?oc=5",
+  "published_at": "2025-10-08T07:00:00+00:00",
+  "relevance": 1,
+  "source": "GlobeNewswire",
+  "source_type": "news_search",
+  "summary": "Zenas BioPharma and InnoCare Pharma announced a license agreement. The text provided gives no details about the drug, the terms, or any use in multiple sclerosis or related demyelinating diseases.",
+  "summary_model": "claude-sonnet-5-5",
+  "title": "Zenas BioPharma and InnoCare Pharma Announce License"
  },
  "3dd9b59e146b763c": {
   "about_ms": false,
@@ -2050,6 +2290,22 @@
   "summary_model": "claude-sonnet-5-5",
   "title": "Study Uncovers Disproportionate Infection Signals Linked to Specific Multiple Sclerosis Therapies"
  },
+ "3fe8ddc296088a41": {
+  "about_ms": true,
+  "category": "trial_news",
+  "collected_at": "2026-11-26T15:45:19.848977+00:00",
+  "description": "Trial of Metformin, Clemastine for Myelin Repair Enrolls First MS Patient Multiple Sclerosis News Today",
+  "id": "3fe8ddc296088a41",
+  "is_published": false,
+  "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQajl0WEFVN2kxSzRvTnZELUlwekFpUUNTVDQxQ1l3ZWYyOEhsVDR6NS04WTRVbmp2dHFGeUxVMEwwUnI4cFNvNjJvOEV4dXNfMk82MmpiYjNnNzY1Q0t6N3Q5VG1DdThCMG5ZVmZXeUZtVUE1RlNGbUtmMVJ3WlNhdTN6enJiTE40Sl9FcnRUY1RUV3l0VjltRDhZd1VVYlBDQ05oMVlaTjVZT2VVcGdtM3oyeGFtSmt2anJ1eVlBRzNGaGF2XzRZV0lZc2ZFcG1lamdlcEFXNzg?oc=5",
+  "published_at": "2022-04-26T07:00:00+00:00",
+  "relevance": 2,
+  "source": "Multiple Sclerosis News Today",
+  "source_type": "news_search",
+  "summary": "A clinical trial testing metformin and clemastine for myelin repair in multiple sclerosis has enrolled its first patient. The source text provided contains only the headline, so no details on design, size, or results are available.",
+  "summary_model": "claude-sonnet-5-5",
+  "title": "Trial of Metformin, Clemastine for Myelin Repair Enrolls First MS Patient"
+ },
  "401b2a2d604722d2": {
   "about_ms": false,
   "category": "other",
@@ -2097,6 +2353,22 @@
   "summary": "Roche's Gazyva/Gazyvaro (obinutuzumab) has become the first FDA-approved treatment for primary membranous nephropathy, a kidney condition. The source text does not mention multiple sclerosis or related demyelinating diseases.",
   "summary_model": "claude-sonnet-5-5",
   "title": "Roche’s Gazyva/Gazyvaro becomes the first FDA-approved treatment for primary membranous nephropathy"
+ },
+ "4177817b88f0b08e": {
+  "about_ms": true,
+  "category": "regulatory",
+  "collected_at": "2026-11-26T15:45:19.849053+00:00",
+  "description": "Novartis seeks approval for ofatumumab to treat multiple sclerosis Pharmaceutical Technology",
+  "id": "4177817b88f0b08e",
+  "is_published": true,
+  "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNbFdXZTVFcmtRZ2dhNVkxTER3cGI0OGNFcjUxV1pfUHpBWkNQa1ZIaHBOV1p3am82ZWltX1JnQ0o0Q0JmTVFyMWY3U2tCb1VQbVowYTFyalNxU2lDODQyRkxwSnJlNWVBUlQ1OGZkX1AwR2c4Z2N3UlZlY0ZUN2lwcjB4SHB2dWFnejlyV1c0aDQ?oc=5",
+  "published_at": "2020-02-24T08:00:00+00:00",
+  "relevance": 3,
+  "source": "Pharmaceutical Technology",
+  "source_type": "news_search",
+  "summary": "Novartis is seeking approval for ofatumumab as a treatment for multiple sclerosis, according to Pharmaceutical Technology. The provided text gives no details on the regulator, the patient population, or the supporting trial data.",
+  "summary_model": "claude-sonnet-5-5",
+  "title": "Novartis seeks approval for ofatumumab to treat multiple sclerosis"
  },
  "41c1b15ca4df4667": {
   "about_ms": true,
@@ -2674,6 +2946,22 @@
   "summary_model": "claude-sonnet-5-5",
   "title": "BTK Inhibitor Orelabrutinib Shows Promising Efficacy in Phase 2 Study of Relapsing-Remitting Multiple Sclerosis"
  },
+ "4d0358b037e8a9a9": {
+  "about_ms": true,
+  "category": "research",
+  "collected_at": "2026-11-26T15:45:19.849059+00:00",
+  "description": "#VisualAbstract: Ofatumumab vs. teriflunomide for multiple sclerosis 2 Minute Medicine",
+  "id": "4d0358b037e8a9a9",
+  "is_published": false,
+  "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNNFZ6THBLZl84OXNOU3dqYW5oVzJvTXRZZkt5Z1A5dmllbGFGRG12WWE1bUI3VUJLQkEwb21RVjk3elRZMHJ3RXJoaWNwSkdoSS1GTTZHNFBkd3RVaGFNVGVxelkwbHhHSTc4dTRXRklhTEN4RDVCVXBWbW8tR09GUXFhU3dhRTltRGRLVDktUHlpQkx4bTV1WDNSLXRCbGc?oc=5",
+  "published_at": "2020-08-18T07:00:00+00:00",
+  "relevance": 2,
+  "source": "2 Minute Medicine",
+  "source_type": "news_search",
+  "summary": "2 Minute Medicine posted a visual abstract comparing ofatumumab with teriflunomide for multiple sclerosis. The source text gives only the title, with no results, study details or outcomes stated.",
+  "summary_model": "claude-sonnet-5-5",
+  "title": "#VisualAbstract: Ofatumumab vs. teriflunomide for multiple sclerosis"
+ },
  "4d2d253ce07427ee": {
   "about_ms": false,
   "category": "other",
@@ -2890,6 +3178,22 @@
   "summary_model": "claude-sonnet-5-5",
   "title": "Guggenheim highlights top biotechnology stock"
  },
+ "51cddd1e078d03c1": {
+  "about_ms": true,
+  "category": "regulatory",
+  "collected_at": "2026-11-26T15:45:19.848519+00:00",
+  "description": "The U.S. Food and Drug Administration (FDA) has agreed to review an application seeking approval of a simplified dosing schedule for starting treatment with Briumvi (ublituximab-xiiy) in adults with relapsing forms of multiple sclerosis (MS). The supplemental biologics license application (BLA) submitted by the therapy’s developer, TG Therapeutics, proposes combining the two initial infusions currently given […] The post FDA to review simplified infusion schedule for relapsing MS therapy appeared first on Multiple Sclerosis News Today .",
+  "id": "51cddd1e078d03c1",
+  "is_published": true,
+  "link": "https://multiplesclerosisnewstoday.com/news-posts/2026/11/25/fda-review-simplified-infusion-schedule-relapsing-ms-therapy/",
+  "published_at": "2026-11-25T15:30:25+00:00",
+  "relevance": 3,
+  "source": "MS News Today",
+  "source_type": "news",
+  "summary": "The FDA has agreed to review a supplemental application from TG Therapeutics for a simplified starting dose schedule of Briumvi (ublituximab-xiiy) in adults with relapsing MS. The proposal would combine the two initial infusions currently given.",
+  "summary_model": "claude-sonnet-5-5",
+  "title": "FDA to review simplified infusion schedule for relapsing MS therapy"
+ },
  "51ef620308c0115a": {
   "about_ms": true,
   "category": "trial_news",
@@ -3017,6 +3321,38 @@
   "summary": "A Medscape report says a BTK inhibitor reduced relapse rates in multiple sclerosis in two phase 3 trials. The provided text gives no drug name, relapse figures, or safety data.",
   "summary_model": "claude-sonnet-5-5",
   "title": "BTK Inhibitor Reduces MS Relapse Rates in Two Phase 3 Trials"
+ },
+ "561722472a146171": {
+  "about_ms": true,
+  "category": "research",
+  "collected_at": "2026-11-26T15:45:19.849029+00:00",
+  "description": "Pregnancy Outcomes in Ofatumumab-Treated Women Appear Consistent With General Population Rates NeurologyLive",
+  "id": "561722472a146171",
+  "is_published": true,
+  "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQbDlkQUhxd2lVTGZkck9qVkpqOEdtVHhVZDZkbkdSUm9DS0Y1d2tNSS1QN3dRMHBYVVNUUUs4MUxsY2E4Y0RCdVU0M01NQm05Ymd5b2RHdDY4SkR2YVlwWklvTzM0bzhyZTJjNXU1V0U5Q181TG01Z1VTMExLR1NVYk8tLXBSVnJrMnlqaUZPV0t4MGhBeHJUTFRaeFBkMVQ4WGZSN2w5WXhTQWk5MUVldW00R2xBN3ZST1R3eXNB?oc=5",
+  "published_at": "2025-05-30T07:00:00+00:00",
+  "relevance": 3,
+  "source": "NeurologyLive",
+  "source_type": "news_search",
+  "summary": "A NeurologyLive report says pregnancy outcomes in women treated with ofatumumab appear consistent with rates seen in the general population. The source text provided gives no further details on the data or study design.",
+  "summary_model": "claude-sonnet-5-5",
+  "title": "Pregnancy Outcomes in Ofatumumab-Treated Women Appear Consistent With General Population Rates"
+ },
+ "57129617bbabacc0": {
+  "about_ms": true,
+  "category": "research",
+  "collected_at": "2026-11-26T15:45:19.849099+00:00",
+  "description": "Novartis announces NEJM publication of Phase III ASCLEPIOS trials demonstrating superior efficacy of ofatumumab in patients with relapsing multiple sclerosis Novartis",
+  "id": "57129617bbabacc0",
+  "is_published": true,
+  "link": "https://news.google.com/rss/articles/CBMilwJBVV95cUxQa0pSSFd4WW96Wk1mbk10QnhWV055THpnTXNMNVRsRGhyRm15LXJWYS16b2tIOXcyU0JvY0p5SnFVbVN5UUNPMXA2d1l6MFFNTXVjQW9La2o3Z3F3OUZYeXU5bGR6bjdVQnp0T3AwVy1XNnVXaHNpZk5PMmFyLWp5VmFSXzBpVy1HZU9Fakp5dk5pRlhXWmViR0l4eG5rb1BKaVozZ01xdWlwWGxRU0FubkJsVzNGdzNCdjM2T1VrcnhkYmtkUWllbHRJX3l1UWUzMFlFUTBzbi1VeHNXQThTZkZCNlJNWnA4Z09VZjFzVnVRYzc5M0N5d2RfR3J1VUZvVnN4ankyWUJObE1rMXNqZm5qQ2M2NUU?oc=5",
+  "published_at": "2020-08-05T07:00:00+00:00",
+  "relevance": 3,
+  "source": "Novartis",
+  "source_type": "news_search",
+  "summary": "Novartis announced that the New England Journal of Medicine has published results of the Phase III ASCLEPIOS trials of ofatumumab in relapsing multiple sclerosis. The company describes the findings as showing superior efficacy of ofatumumab.",
+  "summary_model": "claude-sonnet-5-5",
+  "title": "Novartis announces NEJM publication of Phase III ASCLEPIOS trials demonstrating superior efficacy of ofatumumab in patients with relapsing multiple sclerosis"
  },
  "577f004b87752131": {
   "about_ms": false,
@@ -3498,6 +3834,22 @@
   "summary_model": "claude-sonnet-5-5",
   "title": "Placebo-Controlled Phase 3 Study of Oral BG-12 or Glatiramer in Multiple Sclerosis"
  },
+ "6428301e895ed66b": {
+  "about_ms": true,
+  "category": "research",
+  "collected_at": "2026-11-26T15:45:19.849032+00:00",
+  "description": "Ofatumumab Superior to Teriflunomide in ARR Reduction for Multiple Sclerosis NeurologyLive",
+  "id": "6428301e895ed66b",
+  "is_published": true,
+  "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPbXF0bnpVZ1U0MHdWUXZqSlg3NjNQSEt0LU0wQnJIbW4yTXlocUhmSk1ySW5TTW95WUQ5cVBrRmRqcHZxSXNBZmIzNkxRQ21yNzFDeDNhZGZLVmVDdXN4SGlVNk9lU0hLMXZob2hNT2pPMkRjS0xBU1FXNmxsc3Y4NktWSnNyVXdsbTFWajdZS1VWTDloQ3RzbURMVUQxdHNodmQwZ290dDZYbmVRZ1cxZw?oc=5",
+  "published_at": "2020-08-10T07:00:00+00:00",
+  "relevance": 3,
+  "source": "NeurologyLive",
+  "source_type": "news_search",
+  "summary": "A NeurologyLive report states that ofatumumab was superior to teriflunomide in reducing annualized relapse rate (ARR) in multiple sclerosis. No further details, such as study design, population, or effect size, are given in the text provided.",
+  "summary_model": "claude-sonnet-5-5",
+  "title": "Ofatumumab Superior to Teriflunomide in ARR Reduction for Multiple Sclerosis"
+ },
  "643c0a702f098a93": {
   "about_ms": false,
   "category": "regulatory",
@@ -3674,6 +4026,22 @@
   "summary_model": "claude-sonnet-5-5",
   "title": "Former DEA Administrator Sounds Alarm on Drug Safety as Federal Marijuana Rescheduling Faces Critical November 5 Deadline"
  },
+ "68b7adb4ba1acd3b": {
+  "about_ms": true,
+  "category": "research",
+  "collected_at": "2026-11-26T15:45:19.848963+00:00",
+  "description": "Real-world pharmacovigilance of ofatumumab in multiple sclerosis: a comprehensive FAERS data analysis Frontiers",
+  "id": "68b7adb4ba1acd3b",
+  "is_published": true,
+  "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOR2FZMTRuUXc5MGFfWUhiZm90UDdQUUNWZE5XS1FkdzdiSmg3c1oycTIwam5SMml6cllHdEhPaEJKNjNzRFIxc2RYYTh0VjlkSUhxbTMzNDlWeDJoX2lYODVWdXlDbXQtYXRDaFdyRVp1cFNwTFNnRU9PMGhOVHNBQ2pzYlZyLWVzZDllV0dHWVFDSkpu?oc=5",
+  "published_at": "2025-01-22T08:00:00+00:00",
+  "relevance": 3,
+  "source": "Frontiers",
+  "source_type": "news_search",
+  "summary": "A Frontiers paper analyzes reports in the FDA Adverse Event Reporting System (FAERS) to assess the real-world safety of ofatumumab in multiple sclerosis. The provided text gives no findings or figures.",
+  "summary_model": "claude-sonnet-5-5",
+  "title": "Real-world pharmacovigilance of ofatumumab in multiple sclerosis: a comprehensive FAERS data analysis"
+ },
  "68c5d9e8a4719912": {
   "about_ms": true,
   "category": "trial_news",
@@ -3817,6 +4185,22 @@
   "summary": "A Frontiers article reports that N-acetylcysteine modulates neutrophil-driven immune and metabolic pathways in steatotic liver ischemia–reperfusion injury. The provided text gives no details on study design or findings, and does not mention multiple sclerosis or related demyelinating disease.",
   "summary_model": "claude-sonnet-5-5",
   "title": "N-acetylcysteine modulates neutrophil-driven immune and metabolic pathways in steatotic liver ischemia–reperfusion injury"
+ },
+ "6b6712820b059165": {
+  "about_ms": true,
+  "category": "research",
+  "collected_at": "2026-11-26T15:45:19.848994+00:00",
+  "description": "ACTRIMS 2024: An antihistamine may speed MS disease progression Multiple Sclerosis News Today",
+  "id": "6b6712820b059165",
+  "is_published": true,
+  "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQb2Vjb1h0SDRyVl9IeGtkY1M3aGFsS3g4X1N2SmQyMERYY3lsMWlCU0RIeHRnaUhmczZoTzVucTAweFVTWWJnVzZIS3d3Rm15V0FKNWpVM1h3eVNmVGtqNVJZZVl2YjhwOWRVdm14cGw0TDRwdXZBdnVSellPRVVHQ0J1aHVVcWVHaUhLSEROczhyMVJUMEctRlhaMmJ2a1Z1MkZpbzIxMTgtYkl5S1ZpZnNobkh0ZE5xdlpMbGtR?oc=5",
+  "published_at": "2024-03-07T08:00:00+00:00",
+  "relevance": 3,
+  "source": "Multiple Sclerosis News Today",
+  "source_type": "news_search",
+  "summary": "A Multiple Sclerosis News Today report from the ACTRIMS 2024 meeting says an antihistamine may speed MS disease progression. The text provided gives no details on which drug, the study type, or how many people were studied.",
+  "summary_model": "claude-sonnet-5-5",
+  "title": "ACTRIMS 2024: An antihistamine may speed MS disease progression"
  },
  "6bbb117cf85b66ae": {
   "about_ms": true,
@@ -4097,6 +4481,22 @@
   "summary": "Multiple Sclerosis News Today published an item titled \"Tolebrutinib for MS.\" The provided text contains no further details about findings, trial results, or regulatory decisions.",
   "summary_model": "claude-sonnet-5-5",
   "title": "Tolebrutinib for MS"
+ },
+ "74cc6108e602353f": {
+  "about_ms": true,
+  "category": "regulatory",
+  "collected_at": "2026-11-26T15:45:19.849036+00:00",
+  "description": "Ofatumumab FDA-Approved for Relapsing Multiple Sclerosis Treatment NeurologyLive",
+  "id": "74cc6108e602353f",
+  "is_published": true,
+  "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPbVVnLV9WSVlwNC1vYUVWUmJFYU1XYW9nUUlPdEJGRzM1UnJjWWtlOFlZOFRKd1Nxc3hSaktLdnN3T2Q5Z0o5NUVaUTgzVjNybllXbUF5aElZakVMdmltZ0tXdWpYcDRMUVNvRUphckw3ZFRJd1BHS1JWY0V5MllpdGpzNzY0ZUpTeW40czFzT29zQy1oejQ3MzZFRDdLbVdsTVFpUnlnOTlEZ00?oc=5",
+  "published_at": "2020-08-20T07:00:00+00:00",
+  "relevance": 4,
+  "source": "NeurologyLive",
+  "source_type": "news_search",
+  "summary": "NeurologyLive reports that the FDA has approved ofatumumab for treating relapsing multiple sclerosis. The source text gives only the headline, so no details on dosing, trial data, or eligibility are available here.",
+  "summary_model": "claude-sonnet-5-5",
+  "title": "Ofatumumab FDA-Approved for Relapsing Multiple Sclerosis Treatment"
  },
  "75443ca558bb0ff7": {
   "about_ms": false,
@@ -4434,6 +4834,22 @@
   "summary_model": "claude-sonnet-5-5",
   "title": "Standard-dose amoxicillin the 'preferred choice' of treatment for uncomplicated acute sinusitis"
  },
+ "7bd5a5724f228f20": {
+  "about_ms": false,
+  "category": "regulatory",
+  "collected_at": "2026-11-26T15:45:19.848792+00:00",
+  "description": "FDA Okays 2 New Drugs for Myasthenia Gravis: Klygefa and Livsayis Everyday Health",
+  "id": "7bd5a5724f228f20",
+  "is_published": false,
+  "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNT2ppWTRYZGx5RkppczlqT1R5SjhOSGtPSTZ0MFlDY3lsekxCY1czTTVQckNiQ0Q2empEMFhHM3V3N0kxd3RPUlRjNFM2dEZXMDVSTEtHLUFieEtCaDhzR0NwNVlKMUJJb2pVSXVDZUs0Qk1uRV9hekRrcmJhdlFMOERJMHNUa3l0ZWNCY1VjNUROMXo0bnFweFZWb0hjbnpxV3MzSzJ6YXFCdW00X1hueQ?oc=5",
+  "published_at": "2026-11-24T23:56:44+00:00",
+  "relevance": 1,
+  "source": "Everyday Health",
+  "source_type": "news_search",
+  "summary": "Everyday Health reports that the FDA approved two new drugs for myasthenia gravis, named Klygefa and Livsayis. The text provided gives no further details, and myasthenia gravis is not a demyelinating disease such as MS, NMOSD or MOGAD.",
+  "summary_model": "claude-sonnet-5-5",
+  "title": "FDA Okays 2 New Drugs for Myasthenia Gravis: Klygefa and Livsayis"
+ },
  "7c16511396ee1d71": {
   "about_ms": false,
   "category": "other",
@@ -4626,6 +5042,22 @@
   "summary_model": "claude-sonnet-5-5",
   "title": "Trial Finds Postoperative Antibiotics Show Early Trend in Reducing Anal Fistula Formation"
  },
+ "7f6d1c19ee6063fb": {
+  "about_ms": true,
+  "category": "regulatory",
+  "collected_at": "2026-11-26T15:45:19.849105+00:00",
+  "description": "Ontario and Quebec become the first provinces to list Kesimpta® (ofatumumab) for the treatment of adults with relapsing remitting multiple sclerosis (RRMS) PR Newswire Canada",
+  "id": "7f6d1c19ee6063fb",
+  "is_published": true,
+  "link": "https://news.google.com/rss/articles/CBMirwJBVV95cUxNMllzZjNiQUtuVmRnWUtzRXVZSFkyT0Fvcy1EZUducC1HaGtlV1FZcEJnd250ZmpGR0dsTDJKSU9hY3lwWlU0akNOZGtvSjRLM0FZdXk5YU9rZE9kemo1eFJ3M2I3d2R1OXFjMEdfdGFTel94VTB0UmFTUkN6bGhvdWZOLWxuclRNMVJyLXZlMzFlSVZpMzJzbTlxREd5Yk5GYXBoYkRnY2w3WGpOSjlvYVJzM0w1c3NiOFFJRXJiZnE2OUFKSTRKQ0FrMXFxYTV0X1FJQUt3U1RiS2lEellQWVhFZmlJWE85blUycWFxRTNnQk1GVGVGZVJSTDNfVmFaaC0wU2ZzMU9NOEN6UnFLa1hYZzA4OUpIV2p2dXdwTWNyQmhfUzE1bzlUUlN1T0E?oc=5",
+  "published_at": "2022-04-25T07:00:00+00:00",
+  "relevance": 3,
+  "source": "PR Newswire Canada",
+  "source_type": "news_search",
+  "summary": "Ontario and Quebec are the first Canadian provinces to list Kesimpta (ofatumumab) for adults with relapsing remitting multiple sclerosis (RRMS), according to a PR Newswire Canada release. No further details were provided in the text.",
+  "summary_model": "claude-sonnet-5-5",
+  "title": "Ontario and Quebec become the first provinces to list Kesimpta® (ofatumumab) for the treatment of adults with relapsing remitting multiple sclerosis (RRMS)"
+ },
  "7fb7679c366bfa06": {
   "about_ms": true,
   "category": "trial_news",
@@ -4689,6 +5121,22 @@
   "summary": "Compass Pathways shares rose after the company made an FDA filing for its depression drug. The source text gives no further details, and it does not mention multiple sclerosis or related demyelinating diseases.",
   "summary_model": "claude-sonnet-5-5",
   "title": "Compass Pathways stock gains on FDA filing for depression drug"
+ },
+ "8181cdd38bf919c2": {
+  "about_ms": false,
+  "category": null,
+  "collected_at": "2026-11-26T15:45:19.849014+00:00",
+  "description": "MRI analysis of MS ReBUILD data shows remyelination with clemastine Multiple Sclerosis News Today",
+  "id": "8181cdd38bf919c2",
+  "is_published": false,
+  "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQR3ZScmdaZm9kSlBtcGtHUExkZFBpY2g5R1VXZ3dla00zNUtpa28yVkxEaE9CamExb3BaX2o2Q3pwY2t6Y3R1Yld1U1pHR0dpUmY5b2Y3NmNfd0tCWjdXeEFBNkt1SThfNjJURGVwRjMzd2dWY1dCWGNDeVhQYlZvME1vamhZTm5GVk5JS3NwVm1MbzN1UHJNUUhtVzdnUzBoVjZILUxLVE9POFZxZ3hfR05abU9TcG9Palk3dUhR?oc=5",
+  "published_at": "2023-06-16T07:00:00+00:00",
+  "relevance": null,
+  "source": "Multiple Sclerosis News Today",
+  "source_type": "news_search",
+  "summary": null,
+  "summary_model": "claude-sonnet-5-5",
+  "title": "MRI analysis of MS ReBUILD data shows remyelination with clemastine"
  },
  "821b5e6ba865bab9": {
   "about_ms": false,
@@ -4914,6 +5362,22 @@
   "summary_model": "claude-sonnet-5-5",
   "title": "Trial of Tocilizumab in Giant-Cell Arteritis"
  },
+ "879436e43d99e712": {
+  "about_ms": true,
+  "category": "other",
+  "collected_at": "2026-11-26T15:45:19.849092+00:00",
+  "description": "Waltham’s Zenas BioPharma strikes $2 billion deal for multiple sclerosis drug Waltham Times",
+  "id": "879436e43d99e712",
+  "is_published": false,
+  "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOUjRfQzlaRjRsbHAyZkJTMzJGM2I2STlKLWxRaUE4QVAxdklTR2Zxc3BjQi1DRDhhYXNxVEdFNGFZUGpLclloemM4M3Z5MUVYeksxdTZaNXFRd3dZY2hFd01QdlNBbGM5M3Awd2dLRWIxN0RoY3lKb3p1MFl0ZEg0YjhidXFmTmx1cWE2cDZwY1U5UmotSjZTYWlrSFN0TDFYaG55WHVic3FRbERkdG4xSDVB?oc=5",
+  "published_at": "2025-10-14T07:00:00+00:00",
+  "relevance": 2,
+  "source": "Waltham Times",
+  "source_type": "news_search",
+  "summary": "Waltham-based Zenas BioPharma has struck a deal worth $2 billion involving a multiple sclerosis drug, according to the Waltham Times. The text provided gives no further details on the drug, partners, or trial results.",
+  "summary_model": "claude-sonnet-5-5",
+  "title": "Waltham’s Zenas BioPharma strikes $2 billion deal for multiple sclerosis drug"
+ },
  "87b430d576fed028": {
   "about_ms": true,
   "category": "research",
@@ -4977,6 +5441,22 @@
   "summary": "A NeurologyLive report says rituximab performed better than azathioprine and mycophenolate mofetil as an initial treatment for neuromyelitis optica spectrum disorder (NMOSD). The provided text gives no further details on the study design, size or outcomes.",
   "summary_model": "claude-sonnet-5-5",
   "title": "Rituximab Displays Superiority to Azathioprine, Mycophenolate Mofetil as Initial NMOSD Treatment"
+ },
+ "889d6a9009242339": {
+  "about_ms": true,
+  "category": "trial_news",
+  "collected_at": "2026-11-26T15:45:19.848970+00:00",
+  "description": "‘Exciting’ clinical results offer hope for new class of MS therapies The Guardian",
+  "id": "889d6a9009242339",
+  "is_published": true,
+  "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOWVU3Wk92TVQtVWQ2SklNQlFiWm9nbzMtcDM0bXJ5STRCbEx4YUdIRlhpMnA5NmoyQWQ0NXhINUxlRDVxcHg2cjR5a1NaTXp1RXFxeGJyUXFUbTlhai1QNFJTd1BEeDNEZS04R3dpNks0eEpJeWJkc3hJTDJxWElMT2ltWDlGU3Q3UmlLd1pHSXVvVzNtQ3g1LTRBYWJlbFJ1dVRSUTNxa2I3R3loUHJEWHA2SXJHU0ZvSW1zakZzV2l2bU05MHRkTTZpN2Nodw?oc=5",
+  "published_at": "2025-09-26T07:00:00+00:00",
+  "relevance": 3,
+  "source": "The Guardian",
+  "source_type": "news_search",
+  "summary": "The Guardian reports clinical results, described as 'exciting', for a new class of MS therapies. The text provided gives no details on the treatment, the trial, or the outcomes.",
+  "summary_model": "claude-sonnet-5-5",
+  "title": "‘Exciting’ clinical results offer hope for new class of MS therapies"
  },
  "8915a09e708fb10a": {
   "about_ms": true,
@@ -5113,6 +5593,22 @@
   "summary": "BigGo Finance reports that TG Therapeutics shares reached a record high as the FDA took up a one-shot starting regimen for Briumvi. The source text gives no further details on the regimen or the regulatory timeline.",
   "summary_model": "claude-sonnet-5-5",
   "title": "TG Therapeutics Hits Record High as FDA Takes Up One-Shot Briumvi Start"
+ },
+ "8be4ee5c3dc47bb5": {
+  "about_ms": false,
+  "category": "other",
+  "collected_at": "2026-11-26T15:45:19.849363+00:00",
+  "description": "Abiraterone plus prednisone added to androgen deprivation therapy and docetaxel in de novo metastatic castration-sensitive prostate cancer (PEACE-1): a multicentre, open-label, randomised, phase 3 study with a 2 × 2 factorial design The Lancet",
+  "id": "8be4ee5c3dc47bb5",
+  "is_published": false,
+  "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNWHdLZTdxbDhrWk1jdUJHd0N2NmN6WV91MW5RYTlPN1Izalg4TG4yQ3JvME51TEJpZ0RXQXY1S2pDTlgySm1HU2tSVUNVSEdiR2t4M2MzR0tNRzIweUxkc2o1Zlc5cDBOMmtCODBWc3VGQWxZZW5qRzl1LXRFbzVDMjVxOU95UXNlbmZF?oc=5",
+  "published_at": "2022-04-08T07:00:00+00:00",
+  "relevance": 1,
+  "source": "The Lancet",
+  "source_type": "news_search",
+  "summary": "The Lancet published PEACE-1, a multicentre, open-label, randomised phase 3 study with a 2 × 2 factorial design. It tested adding abiraterone plus prednisone to androgen deprivation therapy and docetaxel in de novo metastatic castration-sensitive prostate cancer. It is not about MS.",
+  "summary_model": "claude-sonnet-5-5",
+  "title": "Abiraterone plus prednisone added to androgen deprivation therapy and docetaxel in de novo metastatic castration-sensitive prostate cancer (PEACE-1): a multicentre, open-label, randomised, phase 3 study with a 2 × 2 factorial design"
  },
  "8bf8ec5330373fc3": {
   "about_ms": true,
@@ -5257,6 +5753,22 @@
   "summary": "An MS Trust podcast episode from 14 July 2022 features Dr Nikos Evangelou discussing how and why heat affects people with MS. It also shares listeners' experiences and tips on heat sensitivity, with links to MS Trust information on temperature sensitivity and Uhthoff's phenomenon.",
   "summary_model": "claude-sonnet-5-5",
   "title": "Heat sensitivity and MS"
+ },
+ "8fd2a51e9a8e5ac5": {
+  "about_ms": true,
+  "category": "regulatory",
+  "collected_at": "2026-11-26T15:45:19.849077+00:00",
+  "description": "Ofatumumab for the treatment of relapsing remitting multiple sclerosis Folkehelseinstituttet - FHI",
+  "id": "8fd2a51e9a8e5ac5",
+  "is_published": true,
+  "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1FY2F4ZnZtQ2NoOGhnZkpOWGtseHpsNHF5cmlvSjlwNjVYRlJ1YTlZMXBrbjl4cThscVpxYVBQajd6aXViYzVzcFNOOTlkX1poWDFIVVRBVWpZTDJDbjRpaEdpaTA1RnZNSGc?oc=5",
+  "published_at": "2021-05-19T07:00:00+00:00",
+  "relevance": 3,
+  "source": "Folkehelseinstituttet - FHI",
+  "source_type": "news_search",
+  "summary": "The Norwegian Institute of Public Health (FHI) has an entry titled \"Ofatumumab for the treatment of relapsing remitting multiple sclerosis.\" The provided text gives no findings, conclusions or decision details.",
+  "summary_model": "claude-sonnet-5-5",
+  "title": "Ofatumumab for the treatment of relapsing remitting multiple sclerosis"
  },
  "8ffa31f2dcd33c4c": {
   "about_ms": false,
@@ -5529,6 +6041,38 @@
   "summary": "A real-world study of cladribine in older people with multiple sclerosis reports low relapse rates, according to the title. No further details, such as participant numbers, age range, or follow-up length, were provided in the source text.",
   "summary_model": "claude-sonnet-5-5",
   "title": "Real-World Cladribine Study Shows Low Relapse Rates in Older Multiple Sclerosis"
+ },
+ "981c05fcea3fe260": {
+  "about_ms": false,
+  "category": "regulatory",
+  "collected_at": "2026-11-26T15:45:19.848783+00:00",
+  "description": "Neuralink receives FDA approval for ALS study NR Times",
+  "id": "981c05fcea3fe260",
+  "is_published": false,
+  "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQTDNnbFd1bWRYSHpTSEtJeXJWRnJ2WmpHVlEwem1SMWFWXzBRMzhjanBMLWs1bTk3cEdDTTVmZW1QMmRQVXRUYzVDdTl2WlUtS2I1N3d1eElnZEdxTUkyOTh4TnhMZVpyMV8ycWRpN0ktV1pXQ0NNc3JzSFh5NDBTaA?oc=5",
+  "published_at": "2026-11-26T12:09:07+00:00",
+  "relevance": 1,
+  "source": "NR Times",
+  "source_type": "news_search",
+  "summary": "NR Times reports that Neuralink has received FDA approval for a study in ALS. The source text gives no further details, and the item does not mention multiple sclerosis or related demyelinating diseases.",
+  "summary_model": "claude-sonnet-5-5",
+  "title": "Neuralink receives FDA approval for ALS study"
+ },
+ "995e600a3f4e7fa2": {
+  "about_ms": true,
+  "category": "regulatory",
+  "collected_at": "2026-11-26T15:45:19.849072+00:00",
+  "description": "Hope for MS patients as first-of-its-kind drug shown to slow disease approved for use The Herald",
+  "id": "995e600a3f4e7fa2",
+  "is_published": true,
+  "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPa3JBN3BieHdpcFU5LTdQeUUyNUozYzNtWjAzWUllYXNjNm9KX0o2bHN3VVJfT2JTX0NfblRnV0NURDlrR241UEhfOXBYUEVneWNEZGxWZlhnbFA4QWRRN1FDblo4OGp2ZVhsVk1RTUI0bkMtcDN6M2ljUExxUVdESXZNcVFVS2JHaHJ0dlB3QUF6TjBVT0syN2lQQ1MxR0x3UGtCMVhzdG9yaTNPbHhudW94WEdOQkNrdE10aEpR?oc=5",
+  "published_at": "2021-07-12T07:00:00+00:00",
+  "relevance": 3,
+  "source": "The Herald",
+  "source_type": "news_search",
+  "summary": "The Herald reports that a first-of-its-kind drug shown to slow multiple sclerosis has been approved for use. The text provided gives no details on the drug's name, mechanism, approving body, or eligible patients.",
+  "summary_model": "claude-sonnet-5-5",
+  "title": "Hope for MS patients as first-of-its-kind drug shown to slow disease approved for use"
  },
  "99c5225fea4b3c1c": {
   "about_ms": true,
@@ -5882,6 +6426,38 @@
   "summary_model": "claude-sonnet-5-5",
   "title": "RRMS Updates From ACTRIMS-ECTRIMS 2026"
  },
+ "a1e8f4e894bcb7d1": {
+  "about_ms": true,
+  "category": "trial_news",
+  "collected_at": "2026-11-26T15:45:19.849050+00:00",
+  "description": "Clemastine Tied to Worsening Symptoms in Multidrug MS Trial Medscape",
+  "id": "a1e8f4e894bcb7d1",
+  "is_published": true,
+  "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPaXBYWGxBcXdaQ2RUSlp6SHYyb0QxYTBmZzlsR19tVUJZTFY0SFdQYk5lVi16dVZTSWd0REpJczA5N1NkTHJKcWZseThFdl9lV095VGstYno1QlpNWnByZldObkl2WVVLaS03N1JUcTF3YmtQYndKaUJOaGVJNElfT3o4SC1kSTQ1bTdlLU45VlU5VE4yYnp6V0tvUTRIdEVQZUJ5UG5Ncy0?oc=5",
+  "published_at": "2024-03-14T07:00:00+00:00",
+  "relevance": 3,
+  "source": "Medscape",
+  "source_type": "news_search",
+  "summary": "Medscape reports that clemastine was linked to worsening symptoms in a multidrug trial in multiple sclerosis. The provided text gives no further details on the trial design, participants, or other drugs tested.",
+  "summary_model": "claude-sonnet-5-5",
+  "title": "Clemastine Tied to Worsening Symptoms in Multidrug MS Trial"
+ },
+ "a229da1e9d3f39a1": {
+  "about_ms": false,
+  "category": "other",
+  "collected_at": "2026-11-26T15:45:19.849230+00:00",
+  "description": "Metformin versus N-acetylcysteine Combined with... : Indian Journal of Medical Specialities Ovid",
+  "id": "a229da1e9d3f39a1",
+  "is_published": false,
+  "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNXzI0UThrbWo1aUNuOEc1bEtDWkhRSjdZZ2NYXzYwUFlQdGVfNjhVRmVfOXV5NXo5bURQQlE0OTQ1R09oZlZhTHlSUi1sX05ZczV4c0xxcVMtc2laVW9peDFWRndFT1c5S3FwTzVLOGM1bHRzLVdwZ1VWZVJ2bklGcFFqd3FnV3Y4bExud2ZEQ2dBTTk3ZDJja3g3S2FZZjZsZC1id2l1ZGpEeVRwZGNWb0cwVWMyWHZRbnhlU1hyVTBWVUk?oc=5",
+  "published_at": "2026-10-01T19:51:57+00:00",
+  "relevance": 1,
+  "source": "Ovid",
+  "source_type": "news_search",
+  "summary": "The source gives only the title of an Indian Journal of Medical Specialities article comparing metformin with N-acetylcysteine combined with an unnamed treatment. No abstract, population, or results are provided, and nothing indicates a link to MS or related demyelinating disease.",
+  "summary_model": "claude-sonnet-5-5",
+  "title": "Metformin versus N-acetylcysteine Combined with... : Indian Journal of Medical Specialities"
+ },
  "a2524105df812f5c": {
   "about_ms": false,
   "category": "research",
@@ -6025,6 +6601,22 @@
   "summary": "The New England Journal of Medicine published a study titled \"Ofatumumab versus Teriflunomide in Multiple Sclerosis,\" comparing these two MS treatments. The provided text gives no details on design, results, or safety findings.",
   "summary_model": "claude-sonnet-5-5",
   "title": "Ofatumumab versus Teriflunomide in Multiple Sclerosis"
+ },
+ "a804f6783ad3f2e3": {
+  "about_ms": true,
+  "category": "research",
+  "collected_at": "2026-11-26T15:45:19.848986+00:00",
+  "description": "Ofatumumab Outperforms Teriflunomide in Newly Diagnosed, Treatment-Naïve Multiple Sclerosis NeurologyLive",
+  "id": "a804f6783ad3f2e3",
+  "is_published": true,
+  "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOQVFsdGRfSGhwa2NqejdKU3ZQUFlBREx3VWV3emlLTkg2V3dZaWRGOUlEOTBOWnR2bi1JYTA4al92VlpTN3F3dk5kbHNwSTZ2WXZWZF9SVWlwd2RqSThaTjVmaWlpMWhBeWZnbUR2NTZWb1k2NFpHalU1T0U3QWx0cS1DTVN5MEVVVm5Wcm1WdWdTcFFEaFpGSG5wVmtmRThzdXUxWlNXTlB1UQ?oc=5",
+  "published_at": "2022-09-28T07:00:00+00:00",
+  "relevance": 3,
+  "source": "NeurologyLive",
+  "source_type": "news_search",
+  "summary": "NeurologyLive reports that ofatumumab outperformed teriflunomide in people with newly diagnosed, treatment-naïve multiple sclerosis. The provided text gives no details on the outcomes measured, study design, or size of the difference.",
+  "summary_model": "claude-sonnet-5-5",
+  "title": "Ofatumumab Outperforms Teriflunomide in Newly Diagnosed, Treatment-Naïve Multiple Sclerosis"
  },
  "a85f9d9375e7d054": {
   "about_ms": false,
@@ -6249,6 +6841,22 @@
   "summary": "Novartis projects constant-currency sales growth of 5% a year through 2031, with its margin reaching 40%. The text gives no details about multiple sclerosis or any specific product.",
   "summary_model": "claude-sonnet-5-5",
   "title": "Novartis projects 5% cc sales CAGR through 2031, margin to hit 40%"
+ },
+ "acc2214ed09bbc25": {
+  "about_ms": true,
+  "category": "research",
+  "collected_at": "2026-11-26T15:45:19.849018+00:00",
+  "description": "Can this medication reverse multiple sclerosis? Brain biomarker shows it can Medical Xpress",
+  "id": "acc2214ed09bbc25",
+  "is_published": false,
+  "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOak1fTnN2ZkM5MUhRM0NlZzJtaG1vVzdGSUhLa1haeHFaV3hWRjczTkQ3V3JzSEk2d3FBV1piMGxlTDlZWU9CdEdWVmlqTEhNY2hkNzVocE4zS0VTZkJlcWxva0ZGU3VyZmJzYkpQYkN1aEw3VmZKWGFTTVRjUHVoSHNKNHJ2WTFTY2dWbldIaFM?oc=5",
+  "published_at": "2023-06-12T07:00:00+00:00",
+  "relevance": 2,
+  "source": "Medical Xpress",
+  "source_type": "news_search",
+  "summary": "A Medical Xpress headline asks whether a medication can reverse multiple sclerosis and says a brain biomarker shows it can. No details are given about the drug, study design, participants or results, so the claim cannot be assessed.",
+  "summary_model": "claude-sonnet-5-5",
+  "title": "Can this medication reverse multiple sclerosis? Brain biomarker shows it can"
  },
  "acf23ac4737284ee": {
   "about_ms": true,
@@ -6570,6 +7178,22 @@
   "summary_model": "claude-sonnet-5-5",
   "title": "Arrowhead’s Ionis problem, Kyverna’s next-gen end and more biotech earnings"
  },
+ "b65d3dff4dad599b": {
+  "about_ms": true,
+  "category": "research",
+  "collected_at": "2026-11-26T15:45:19.849083+00:00",
+  "description": "Interferon beta-1b for relapsing-remitting multiple sclerosis [Classics Series] 2 Minute Medicine",
+  "id": "b65d3dff4dad599b",
+  "is_published": false,
+  "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNTnQ5VEJDdFVIUUdLTUtHMF9XcnB4dURzSGU1Si14NE1SdzdhOFZiSDVpZmRraGRFdXptVDBkckJBalNMOHFUNFpHN2I4TDhiYWM3aTVFV0IycFNGYno5NjFQQVpaNUl4Z3JrbUtsVXZQV28xWENUb0IySzN2aEdCMEs1aWpTVUpDd0NKRUs2b1BiM0JhcnIwVTM0VS1FaER5NzhtM3dzS1AyUmJ5TEY0?oc=5",
+  "published_at": "2014-11-09T08:00:00+00:00",
+  "relevance": 2,
+  "source": "2 Minute Medicine",
+  "source_type": "news_search",
+  "summary": "2 Minute Medicine lists a Classics Series entry on interferon beta-1b for relapsing-remitting multiple sclerosis. The provided text gives only the title, with no findings, data or trial details, so nothing further can be reported.",
+  "summary_model": "claude-sonnet-5-5",
+  "title": "Interferon beta-1b for relapsing-remitting multiple sclerosis [Classics Series]"
+ },
  "b9361f634ffac734": {
   "about_ms": false,
   "category": "trial_news",
@@ -6601,6 +7225,22 @@
   "summary": "The title says anterior cingulate glutathione levels are linked to oxidative stress in bipolar disorder. No further details were provided, and the item does not mention multiple sclerosis or related demyelinating diseases.",
   "summary_model": "claude-sonnet-5-5",
   "title": "Anterior Cingulate Glutathione Levels Linked to Oxidative Stress in Bipolar Disorder"
+ },
+ "b9fc83f401055567": {
+  "about_ms": true,
+  "category": "research",
+  "collected_at": "2026-11-26T15:45:19.848966+00:00",
+  "description": "ECTRIMS 2025: Drug combo shows promise for myelin repair in trial Multiple Sclerosis News Today",
+  "id": "b9fc83f401055567",
+  "is_published": true,
+  "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOY2JzQXlMTW9vN3U4SzNuRDFyYy12WnRlQThpU2ZGMkRiYldyY184VUEtXzdPRVdIMmlpVklyVGxLazctYl9TMTduak83MS1WMXQ3RW9sMmtwQ3dleEI3b0dMWVdHSGdfdFpSX1JwTFNOejZKcTB6VjNJblpoYnFmUFhxMkNsSDd6Q0t3Zi1FREtTSFR3MjhGWHU0a0VJb0NxRDBYa2t3ZWdKYm9CbWpj?oc=5",
+  "published_at": "2025-09-30T07:00:00+00:00",
+  "relevance": 3,
+  "source": "Multiple Sclerosis News Today",
+  "source_type": "news_search",
+  "summary": "A report from the ECTRIMS 2025 meeting says a drug combination showed promise for myelin repair in a trial. The text provided gives no details on the drugs, trial size, participants or results.",
+  "summary_model": "claude-sonnet-5-5",
+  "title": "ECTRIMS 2025: Drug combo shows promise for myelin repair in trial"
  },
  "ba56bacee3951bcb": {
   "about_ms": false,
@@ -7002,6 +7642,22 @@
   "summary_model": "claude-sonnet-5-5",
   "title": "Finally meeting the intriguing new employee with multiple sclerosis"
  },
+ "c4ee7d23903a50ec": {
+  "about_ms": true,
+  "category": "regulatory",
+  "collected_at": "2026-11-26T15:45:19.848973+00:00",
+  "description": "FDA slaps partial hold on Biogen, InnoCare MS drug pharmaphorum",
+  "id": "c4ee7d23903a50ec",
+  "is_published": true,
+  "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOMjhVUzdVSlc1R1BhMHBTV1djSzFUQ3ZRLTB5cExfTURVb0R2UXJnWGl5Qk1KN1puMDRVdUFEdWN0ODcxSHhvQ3lwY0lDNkM0ckt1c1gyUjRiQWVaSHdtdEl1ZGw2ZU1tamRNa014T0kxSURfWTNqOGY0Q01oTDBBNlhFcGVSVTQ?oc=5",
+  "published_at": "2022-12-28T08:00:00+00:00",
+  "relevance": 3,
+  "source": "pharmaphorum",
+  "source_type": "news_search",
+  "summary": "The FDA has placed a partial clinical hold on an MS drug being developed by Biogen and InnoCare. The source text provided gives only the headline, so details on the reason for the hold and its scope are not stated.",
+  "summary_model": "claude-sonnet-5-5",
+  "title": "FDA slaps partial hold on Biogen, InnoCare MS drug"
+ },
  "c54132c282a2b49a": {
   "about_ms": true,
   "category": "research",
@@ -7049,6 +7705,22 @@
   "summary": "A Medscape headline reports that nearly 1 in 5 children develop high eye pressure after steroid treatment. No further details are provided, and the item does not mention MS, NMOSD, MOGAD or related demyelinating diseases.",
   "summary_model": "claude-sonnet-5-5",
   "title": "Nearly 1 in 5 Kids Get High Eye Pressure After Steroids"
+ },
+ "c6d3dc79af16fdc2": {
+  "about_ms": true,
+  "category": "other",
+  "collected_at": "2026-11-26T15:45:19.848772+00:00",
+  "description": "Multiple Sclerosis Therapeutics Market (2033): FDA Priority openPR.com",
+  "id": "c6d3dc79af16fdc2",
+  "is_published": false,
+  "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPNC1xcy1lc3p6Mmg0U1haUTA3M3p2TnlPQlRfOEctdHQxN1lJbW03eExuZXJial80MjFkY1BQVVMwbExBYTdaMzRqc0RXUUpSZHE4QnRLbUdZV2tWaDBMV2Z0c0NhalY2dDktVEJNQ05vU2JLa1VmcG5odTNvMFMzRXlYSTAtZzZILWJFVDNOV1ppOHNkLV9Z?oc=5",
+  "published_at": "2026-11-26T08:56:45+00:00",
+  "relevance": 1,
+  "source": "openPR.com",
+  "source_type": "news_search",
+  "summary": "An openPR.com press-release-style item titled 'Multiple Sclerosis Therapeutics Market (2033): FDA Priority'. The text provided contains only the title, with no details on data, products, or regulatory decisions.",
+  "summary_model": "claude-sonnet-5-5",
+  "title": "Multiple Sclerosis Therapeutics Market (2033): FDA Priority"
  },
  "c71645f236764e39": {
   "about_ms": false,
@@ -7658,6 +8330,22 @@
   "summary_model": "claude-sonnet-5-5",
   "title": "Tiziana Life Sciences Ltd (TLSA) stock price, news, quote and history"
  },
+ "daf941f90fbe6ecf": {
+  "about_ms": false,
+  "category": "other",
+  "collected_at": "2026-11-26T15:45:19.848762+00:00",
+  "description": "Novartis Faces $16.7 Billion Patent Cliff After 2030 as CEO Challenges Wall Street Expectations Spherical Insights",
+  "id": "daf941f90fbe6ecf",
+  "is_published": false,
+  "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQdGV3TFhMZjh4QW5kVTdvOG44ejd6ZEJYLVZqc0ZQeTN5ZlNqNUhDV2o1Y2JHakVncEhiRl9jSjE4ZTNJSFRzdXBQT1ZxaVQ2QUlvMlVLTkdDZjBNVGgzMTRtU21wYWtvNGVYRzFlN3R3NlUxejV6eTVXS3B6QTJhRjdubUdBdnhDUzRtRTZDei1oTXBMNXF5eXMzSFhsNDh6bFZON01wT2FBNUM4cDE5bWFjcl82R3hlbFhyUmlVT3p6dU02bW9iRVNKQ2U3UQ?oc=5",
+  "published_at": "2026-11-25T13:19:48+00:00",
+  "relevance": 1,
+  "source": "Spherical Insights",
+  "source_type": "news_search",
+  "summary": "Spherical Insights reports that Novartis faces a $16.7 billion patent cliff after 2030, and that its CEO is challenging Wall Street expectations. The provided text contains no details about multiple sclerosis or any specific drug.",
+  "summary_model": "claude-sonnet-5-5",
+  "title": "Novartis Faces $16.7 Billion Patent Cliff After 2030 as CEO Challenges Wall Street Expectations"
+ },
  "db2409fbfd92046d": {
   "about_ms": false,
   "category": "other",
@@ -7737,6 +8425,38 @@
   "summary": "A Nature paper examines the molecular pharmacodynamics of amoxicillin-clavulanic acid for urinary tract infections caused by Escherichia coli. The provided text gives no further detail and does not mention multiple sclerosis or related demyelinating disease.",
   "summary_model": "claude-sonnet-5-5",
   "title": "Molecular pharmacodynamics of amoxicillin-clavulanic acid for urinary tract infections caused by Escherichia coli"
+ },
+ "dc26e9894eb21da5": {
+  "about_ms": true,
+  "category": "research",
+  "collected_at": "2026-11-26T15:45:19.848947+00:00",
+  "description": "Antihistamine clemastine may worsen MS disease progression Multiple Sclerosis News Today",
+  "id": "dc26e9894eb21da5",
+  "is_published": true,
+  "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNY1dJbnZoM1Zkd2Uzd3NINWtlUVNSMjk3Z1ViLVRYMGpsMDNwSTFkRnlYVHMzYWt4RnRRZTFyS2lZbmFnWmZheW1RdzRkSFJGamVyTEYwVFptdWRsVFhTRktiZzJGVjFPSmc2dGR2QlNCbl9mT19VNzVBZG1Ea3hyRlhzQjhCQmkxLS1Oa3lncFN2aHpObkp3Qm9qWFo1aW5NTnBmdXdvTGdEbkZSd0xYWGRMYmZJYjA?oc=5",
+  "published_at": "2025-05-28T07:00:00+00:00",
+  "relevance": 3,
+  "source": "Multiple Sclerosis News Today",
+  "source_type": "news_search",
+  "summary": "A Multiple Sclerosis News Today headline says the antihistamine clemastine may worsen MS disease progression. The text provided gives no details on the study, its design, or who was studied.",
+  "summary_model": "claude-sonnet-5-5",
+  "title": "Antihistamine clemastine may worsen MS disease progression"
+ },
+ "dc8e6792458992a6": {
+  "about_ms": false,
+  "category": "other",
+  "collected_at": "2026-11-26T15:45:19.848742+00:00",
+  "description": "Sanofi snapping up Insmed for $41B BioWorld News",
+  "id": "dc8e6792458992a6",
+  "is_published": false,
+  "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTFAwY24xZlJlZXNkY0txdU5VcTVCQk5RVVVUcHVVR3hzZ0lIejlNSm9zWlNpUFZGRXRUdkRPTDU2T29kT1piN3FicXIzeVRYUHpXVXVRTk11ZDVMcDVuaGVadHpaeEtMbmFSNlY5amxRX3FXbUZPMjVZbFppOG5sR0k?oc=5",
+  "published_at": "2026-11-24T14:00:00+00:00",
+  "relevance": 1,
+  "source": "BioWorld News",
+  "source_type": "news_search",
+  "summary": "BioWorld News reports that Sanofi is acquiring Insmed for $41 billion. The text provided gives no further details, and it does not mention multiple sclerosis or related demyelinating diseases.",
+  "summary_model": "claude-sonnet-5-5",
+  "title": "Sanofi snapping up Insmed for $41B"
  },
  "ddc27b971d5a0696": {
   "about_ms": true,
@@ -7898,6 +8618,22 @@
   "summary_model": "claude-sonnet-5-5",
   "title": "Immunic to Present Additional Phase 2 CALLIPER Trial Data for Vidofludimus Calcium at the ACTRIMS Forum 2026, Reinforcing Its Potential in Progressive Multiple Sclerosis"
  },
+ "e04942124761989f": {
+  "about_ms": true,
+  "category": "treatment",
+  "collected_at": "2026-11-26T15:45:19.849063+00:00",
+  "description": "Kesimpta (ofatumumab) for the Treatment of Relapsing Multiple Sclerosis (RMS) Clinical Trials Arena",
+  "id": "e04942124761989f",
+  "is_published": false,
+  "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNSUlNckpoOENyam81NVlMdnlFdk4tOTFuT0JRbVQ0MkhYdG00Yl9nb21JSFZqX2VpYkl4b3BxWG01bzFZLUJObDFJWVVyd0pYVlA1OGdhVmFFMVQ1YjRTd09sLUEtWENPZ3hOak1uemt4RENOUVptSzZDb0c0eGplb082dkdKamFLbUREajdtTHZnelVaUlRtSXN1anZQZVlBZWh3QWRUYl9GTVViWXlDaWdGTVZLZGIyWWY0?oc=5",
+  "published_at": "2020-09-11T07:00:00+00:00",
+  "relevance": 2,
+  "source": "Clinical Trials Arena",
+  "source_type": "news_search",
+  "summary": "Clinical Trials Arena lists a page about Kesimpta (ofatumumab) for treating relapsing multiple sclerosis. The provided text gives only the title, with no details on trial results, approvals, or new findings.",
+  "summary_model": "claude-sonnet-5-5",
+  "title": "Kesimpta (ofatumumab) for the Treatment of Relapsing Multiple Sclerosis (RMS)"
+ },
  "e06e98fb053175d5": {
   "about_ms": true,
   "category": "trial_news",
@@ -8010,6 +8746,22 @@
   "summary_model": "claude-sonnet-5-5",
   "title": "Intramuscular Interferon Beta-1A Therapy Initiated during a First Demyelinating Event in Multiple Sclerosis"
  },
+ "e1e7af6fcede3cfb": {
+  "about_ms": true,
+  "category": "other",
+  "collected_at": "2026-11-26T15:45:19.849067+00:00",
+  "description": "Zenas makes big bet on MS drug, striking $2B licensing deal with InnoCare Fierce Pharma",
+  "id": "e1e7af6fcede3cfb",
+  "is_published": false,
+  "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOU1VfUnJXTE5fTUNGa1VoMk1oQzlWT28zRzdVUTkzaVJDYS1qbjh6VGlGSDZVRUdBWHRQakRqbUYxNmtCdTZ5N1VJOG5scVhnVWFRUThlS01yV3UxT3hZaHhwLUFIb1RaeTUyX0NuUXJPSURmS09OeGY1ck8tUF84T1JnS2NRMnoyYkFzbVNacGo3QzUtUHUweUEwVDR3Rm04?oc=5",
+  "published_at": "2025-10-08T07:00:00+00:00",
+  "relevance": 2,
+  "source": "Fierce Pharma",
+  "source_type": "news_search",
+  "summary": "Fierce Pharma reports that Zenas has struck a $2 billion licensing deal with InnoCare for an MS drug. The headline calls it a big bet for Zenas. No trial or approval details are given in the text provided.",
+  "summary_model": "claude-sonnet-5-5",
+  "title": "Zenas makes big bet on MS drug, striking $2B licensing deal with InnoCare"
+ },
  "e1fe409afbaf82f2": {
   "about_ms": true,
   "category": "research",
@@ -8025,6 +8777,22 @@
   "summary": "A Nature paper reports that the brain antigen-specific B cell response correlates with how well relapsing-remitting multiple sclerosis patients respond to glatiramer acetate. No further details, such as study size or design, were provided in the available text.",
   "summary_model": "claude-sonnet-5-5",
   "title": "The brain antigen-specific B cell response correlates with glatiramer acetate responsiveness in relapsing-remitting multiple sclerosis patients"
+ },
+ "e201c24daae0e094": {
+  "about_ms": false,
+  "category": "trial_news",
+  "collected_at": "2026-11-26T15:45:19.848754+00:00",
+  "description": "Bristol Myers Squibb says one of two Sotyktu lupus trials met its main goal Mugglehead Investment Magazine",
+  "id": "e201c24daae0e094",
+  "is_published": false,
+  "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1mTDB1a2JIeGkwN0Jhc2JzR0NreGx6MWZXSWl3Z0x5Zm90WFFMbklUVkxsQlZObEhGTmhBMkFTd3BOeHlWRzhWNlhEWmJzcndpaWtqTkhBY25lTXdhZF9KRm1IalFNUVZ2RHVHbGFrU3BWZEZnYTAwWllBLXN3dFk?oc=5",
+  "published_at": "2026-11-25T13:16:40+00:00",
+  "relevance": 1,
+  "source": "Mugglehead Investment Magazine",
+  "source_type": "news_search",
+  "summary": "Bristol Myers Squibb reports that one of two trials of Sotyktu in lupus met its main goal. The source text gives no further details, and the news does not concern multiple sclerosis or related demyelinating disease.",
+  "summary_model": "claude-sonnet-5-5",
+  "title": "Bristol Myers Squibb says one of two Sotyktu lupus trials met its main goal"
  },
  "e22081ada2dc2377": {
   "about_ms": false,
@@ -8250,6 +9018,22 @@
   "summary_model": "claude-sonnet-5-5",
   "title": "Circulating cell-free DNA methylation profiles as candidate noninvasive multiple sclerosis biomarkers"
  },
+ "e7d7711976c264b3": {
+  "about_ms": true,
+  "category": "regulatory",
+  "collected_at": "2026-11-26T15:45:19.848718+00:00",
+  "description": "FDA Accepts TG Therapeutics' sBLA for Single-Infusion BRIUMVI Initiation in Relapsing Multiple Sclerosis BioPharm International",
+  "id": "e7d7711976c264b3",
+  "is_published": true,
+  "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQOXVpX3lOMEM0OGFGS2pFWFBTdWVUTzZ0N3c5QTA1cmFDUmdtc004SnpyVlV2aWc1aGNRQkhsUUJKazNfRU1NeTlDWVY1TmVhcGYyZzRhdjJINkpOc3JSUFNveVA1cGRPeFFnR2VkRTVMbW91Ymk0SGFRb2hmOEFjWjJqU0RCOGpvZTRBdl9WRVp0SU0yeWJZVFI4ekZveWlNYllNZWdtVGtXQVhNMi0wd180NGdPRTduRnplWVdEYlIxRER5QjhndTc0N3NEWERyYjBpUC1IYVVYUEZObHd3?oc=5",
+  "published_at": "2026-11-24T18:14:51+00:00",
+  "relevance": 3,
+  "source": "BioPharm International",
+  "source_type": "news_search",
+  "summary": "The FDA has accepted TG Therapeutics' supplemental Biologics License Application (sBLA) for starting BRIUMVI treatment in relapsing multiple sclerosis with a single infusion. The source text gives no further details, such as dosing or a decision date.",
+  "summary_model": "claude-sonnet-5-5",
+  "title": "FDA Accepts TG Therapeutics' sBLA for Single-Infusion BRIUMVI Initiation in Relapsing Multiple Sclerosis"
+ },
  "e7eae40dde327117": {
   "about_ms": true,
   "category": "research",
@@ -8313,6 +9097,38 @@
   "summary": "NeurologyLive lists an interview with Ehud Marom titled \"Effectiveness and Promise of Glatiramer Acetate Depot in Progressive Multiple Sclerosis.\" The source gives only the title, with no data, trial results, or other details.",
   "summary_model": "claude-sonnet-5-5",
   "title": "Effectiveness and Promise of Glatiramer Acetate Depot in Progressive Multiple Sclerosis: Ehud Marom"
+ },
+ "e93de94270a1f23c": {
+  "about_ms": true,
+  "category": "research",
+  "collected_at": "2026-11-26T15:45:19.848991+00:00",
+  "description": "Cannabidiol Attenuates Experimental Autoimmune Encephalomyelitis Model of Multiple Sclerosis Through Induction of Myeloid-Derived Suppressor Cells Frontiers",
+  "id": "e93de94270a1f23c",
+  "is_published": false,
+  "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOSElYZFA0U0lZRERqbTJjblhwUnNDVDBaSEo1cERISnpMRUM4ZXdxamVkQUxwd2ROZXJkLUdTdmNWYU40dXpEZjJkLUVfNFZZa1VDcGItRjdqLVA0cHh5aHN0bk5JM2VMUmNaVXFGSnRJcGNQc0FTdjItQmtaQnl3MHpCbE5VaDRxVTRmc1ZLbw?oc=5",
+  "published_at": "2024-02-06T22:53:27+00:00",
+  "relevance": 2,
+  "source": "Frontiers",
+  "source_type": "news_search",
+  "summary": "A Frontiers paper reports that cannabidiol attenuated experimental autoimmune encephalomyelitis, a mouse model of multiple sclerosis, through induction of myeloid-derived suppressor cells. This is animal model research; the text gives no human data.",
+  "summary_model": "claude-sonnet-5-5",
+  "title": "Cannabidiol Attenuates Experimental Autoimmune Encephalomyelitis Model of Multiple Sclerosis Through Induction of Myeloid-Derived Suppressor Cells"
+ },
+ "ea4b4f66f7ea8a96": {
+  "about_ms": false,
+  "category": "trial_news",
+  "collected_at": "2026-11-26T15:45:19.848750+00:00",
+  "description": "CARsgen Reports First Clinical Data for In Vivo CD19/CD20 CAR-T CT1182 in Relapsed B-Cell Lymphoma BioPharm International",
+  "id": "ea4b4f66f7ea8a96",
+  "is_published": false,
+  "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNTWF4VW8zSGZNUHU5R01zelFMcmdlOXRzNTdRY1FpaTBrYnBnTHpCeFNaSVRhRUJHc2Roa3Z0RUUxQ2ZRbHZrZjU0MzRWbDZrNlB5eVI4VTJBNHNhUDVHSzhoNjdqY0d5UHpQSUk4eVlaTGVSZGdJdTFlOWxZYzl5OHJFSlFEM0h1YWF6VXVWcGM3emwtc0EzVGpDLXpCZUlsM0NZY1dBelJQWDF6QmJWbi1HYlBoZ1lLUTZVSzVnNEJWQU9jOFVGQXFlZnlIY2k1dDJ4VmtXTW4?oc=5",
+  "published_at": "2026-11-23T17:43:17+00:00",
+  "relevance": 1,
+  "source": "BioPharm International",
+  "source_type": "news_search",
+  "summary": "CARsgen reported first clinical data for CT1182, an in vivo CD19/CD20 CAR-T therapy, in relapsed B-cell lymphoma. The source text gives only the headline, with no details on results, and does not mention multiple sclerosis or related diseases.",
+  "summary_model": "claude-sonnet-5-5",
+  "title": "CARsgen Reports First Clinical Data for In Vivo CD19/CD20 CAR-T CT1182 in Relapsed B-Cell Lymphoma"
  },
  "eab31b8f4d6aa89c": {
   "about_ms": false,
@@ -9026,6 +9842,22 @@
   "summary_model": "claude-sonnet-5-5",
   "title": "Oculis Gains FDA IND Clearance for Privosegtor in Acute MS Relapses"
  },
+ "f72a28fae0123950": {
+  "about_ms": true,
+  "category": "regulatory",
+  "collected_at": "2026-11-26T15:45:19.849021+00:00",
+  "description": "FDA Delays Ofatumumab Decision in Multiple Sclerosis NeurologyLive",
+  "id": "f72a28fae0123950",
+  "is_published": true,
+  "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQVFU4WlVmd0gyNkNCbjBxYXJYalRMSHF1TFBfSkJIQmZCU1ZGQjByMXRVSWZPSFZLRm5JYVNqc1hxY2Y4NjVvdWtWMkZkZXJWeHRKWUk1a1Z2bDdoZXU5WnFsdlRmcVJvVjF3NnFtZlhGNVlPSVZ4VDFzbjJSTDlRTGFFYU93emtBLWZDSG5QT2o?oc=5",
+  "published_at": "2020-06-03T07:00:00+00:00",
+  "relevance": 3,
+  "source": "NeurologyLive",
+  "source_type": "news_search",
+  "summary": "NeurologyLive reports that the FDA has delayed its decision on ofatumumab for multiple sclerosis. The provided text gives no further details, such as the reason for the delay or a new decision date.",
+  "summary_model": "claude-sonnet-5-5",
+  "title": "FDA Delays Ofatumumab Decision in Multiple Sclerosis"
+ },
  "f8a3d18ecc5fae4d": {
   "about_ms": false,
   "category": "other",
@@ -9121,6 +9953,22 @@
   "summary": "A Bioengineer.org article reports that rituximab has limited evidence of benefit for severe nervous system complications in Sjögren's disease. The source text provided contains only the headline, with no details on the data or study design.",
   "summary_model": "claude-sonnet-5-5",
   "title": "Rituximab Shows Limited Evidence for Severe Nervous System Complications in Sjögren’s Disease"
+ },
+ "fc880c621e58c70b": {
+  "about_ms": true,
+  "category": "research",
+  "collected_at": "2026-11-26T15:45:19.849009+00:00",
+  "description": "IV Ofatumumab Reduces Relapses in MS, But Not Better Than Kesimpta Multiple Sclerosis News Today",
+  "id": "fc880c621e58c70b",
+  "is_published": true,
+  "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQRXlYRHhqUEJxYm05WUROQ2JPVktkV0VSNE9PQk5zdTNPVlh4cHZWa3Q1SGhoUGQtTnlObW90TW52RzBncC1CLWwyVWFpT0VjTk94dGJ5SVJRZEtaeTlkbjdJQUdmakdpTFhfS241N2s3SllUWE1wOUh3X21kdmt5eHRPeW9HSjdoWmdFdmdpYU9ma0VOdDBEN1pPLTVNLVBnOWgwMnJJR3Fvb1RlbU40ZV85d0hXc3AwU0dvejd3?oc=5",
+  "published_at": "2022-10-25T07:00:00+00:00",
+  "relevance": 3,
+  "source": "Multiple Sclerosis News Today",
+  "source_type": "news_search",
+  "summary": "According to the headline, intravenous ofatumumab reduced relapses in multiple sclerosis but was not better than Kesimpta, the subcutaneous form of ofatumumab. No further details, such as study design or participant numbers, were provided in the text.",
+  "summary_model": "claude-sonnet-5-5",
+  "title": "IV Ofatumumab Reduces Relapses in MS, But Not Better Than Kesimpta"
  },
  "fca8ccf3733e3fa0": {
   "about_ms": false,
