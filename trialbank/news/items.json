@@ -1247,6 +1247,16 @@
   "summary_model": "claude-sonnet-5-5",
   "title": "Gaining biological insights through supervised data visualization"
  },
+ "2447f4f031f706cc": {
+  "collected_at": "2026-11-27T15:34:32.370163+00:00",
+  "description": "Results of Phase III HERCULES, GEMINI 1 and 2 Trials Lead to FDA Priority Review for Tolebrutinib for Non-Relapsing Secondary Progressive MS Applied Clinical Trials Online",
+  "id": "2447f4f031f706cc",
+  "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPdlhtT0JZbnRKbFBrSm1oT3I2OVJGTzBrZ2xtMWRZUTJoMHF3ZERsWGNUQ3pTNFZKS0FnSE5ueVJLUjJfUHNsY1VacmZZMUtwcUtZc1dWbHVURjlGdnVWczhsemtLM210aTl1Yi1PbWRZWGRjV3l2MVNzWTlwM2Y4VXk4VXNMOF9MRkczbEFjUDNEbDVjVXhjZFFYVUhTM2NTaG52c19OaEdkQzA?oc=5",
+  "published_at": "2025-03-25T07:00:00+00:00",
+  "source": "Applied Clinical Trials Online",
+  "source_type": "news_search",
+  "title": "Results of Phase III HERCULES, GEMINI 1 and 2 Trials Lead to FDA Priority Review for Tolebrutinib for Non-Relapsing Secondary Progressive MS"
+ },
  "247be59f1d8cea7f": {
   "about_ms": false,
   "category": "research",
@@ -1374,6 +1384,16 @@
   "summary": "A Scientific Reports paper examines amoxicillin's toxic effects on plants using cytogenetic, biochemical and molecular docking analyses. The provided text gives no details and does not mention multiple sclerosis or related demyelinating diseases.",
   "summary_model": "claude-sonnet-5-5",
   "title": "Molecular signatures of amoxicillin phytotoxicity revealed by integrated cytogenetic, biochemical, and molecular docking analyses | Scientific Reports"
+ },
+ "2893f857c597661c": {
+  "collected_at": "2026-11-27T15:34:32.370390+00:00",
+  "description": "Montenegro Oral Surgery Study Analyzes Patterns in Outpatient Antibiotic Prescribing Bioengineer.org",
+  "id": "2893f857c597661c",
+  "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPcDlrNVZSVG1oaFFDSm9IMjlKdGhCQ0pIdXVWSGo2ZjR0d0txNXhVZUhQbTZ4LUU0d0hfcUdqTy1sVkczM21KYUZCeVJ3OS16VUVKM1BobW1ZRXBRdDFtbmJDbExsbEN4M2NoTVdOLV9YWlpzTU5ibUZ0VXVvRUNtTDIydGJwdWxNcWEzaERQNTR5V2ZDcmNOaEVKRDBERW9FSTlDeElEdmNLbTZrS1E?oc=5",
+  "published_at": "2026-11-27T02:35:10+00:00",
+  "source": "Bioengineer.org",
+  "source_type": "news_search",
+  "title": "Montenegro Oral Surgery Study Analyzes Patterns in Outpatient Antibiotic Prescribing"
  },
  "289b188b0090e1ba": {
   "about_ms": false,
@@ -1823,6 +1843,16 @@
   "summary_model": "claude-sonnet-5-5",
   "title": "Scientists identify molecule that may boost brain repair in multiple sclerosis"
  },
+ "34e6f1e10a8d81b8": {
+  "collected_at": "2026-11-27T15:34:32.369510+00:00",
+  "description": "Physical activity may be linked to differences in the gut microbiome — the community of bacteria and other microorganisms living in the digestive tract — among children and young adults with pediatric-onset multiple sclerosis (POMS), according to a small Canadian study. While exercise was not associated with overall gut bacterial diversity, more active participants with […] The post Exercise may shape gut bacteria in children with MS, study finds appeared first on Multiple Sclerosis News Today .",
+  "id": "34e6f1e10a8d81b8",
+  "link": "https://multiplesclerosisnewstoday.com/news-posts/2026/11/23/exercise-influence-gut-bacteria-children-ms-study-finds/",
+  "published_at": "2026-11-27T13:00:50+00:00",
+  "source": "MS News Today",
+  "source_type": "news",
+  "title": "Exercise may shape gut bacteria in children with MS, study finds"
+ },
  "351a391a1c5b2802": {
   "about_ms": false,
   "category": "other",
@@ -1998,6 +2028,16 @@
   "summary": "A Medscape report says rituximab use in people with multiple sclerosis is linked to a 10-fold higher risk of inflammatory bowel disease. Only the headline was available, so study design, population and absolute risk are not stated.",
   "summary_model": "claude-sonnet-5-5",
   "title": "Rituximab Linked to 10-fold Higher IBD Risk in MS"
+ },
+ "38c01943a083fc72": {
+  "collected_at": "2026-11-27T15:34:32.369772+00:00",
+  "description": "African MS organisations strengthen skills for future growth MS International Federation .",
+  "id": "38c01943a083fc72",
+  "link": "https://www.msif.org/news/2026/11/27/african-ms-organisations-build-strong-foundations-for-future-growth/",
+  "published_at": "2026-11-27T11:53:13+00:00",
+  "source": "MSIF",
+  "source_type": "patient_org",
+  "title": "African MS organisations strengthen skills for future growth"
  },
  "38d9e053800923fe": {
   "about_ms": true,
@@ -2721,6 +2761,16 @@
   "summary": "EIN News lists a market research report from The Business Research Company on Tysabri (natalizumab), described as highlighting upcoming industry trends. No clinical findings, regulatory decisions or other details are given in the available text.",
   "summary_model": "claude-sonnet-5-5",
   "title": "Recent Market Research on Tysabri (natalizumab) by The Business Research Company Highlights Upcoming Industry Trends"
+ },
+ "47fafff05b38e566": {
+  "collected_at": "2026-11-27T15:34:32.370374+00:00",
+  "description": "Prednisone, Azathioprine, and N -Acetylcysteine for Pulmonary Fibrosis NEJM",
+  "id": "47fafff05b38e566",
+  "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE52cmVId05XRjFqWXdSSkJ4YVhIeUtpVGkwYnNVMERLd1EwU1o0cXRId0VwcFdGa3kwNDJNNUdjakM1cXZOcEJSVnhsNldKSWVtXzBUQUd3TjJTZ3BPcWRubA?oc=5",
+  "published_at": "2012-05-20T07:00:00+00:00",
+  "source": "NEJM",
+  "source_type": "news_search",
+  "title": "Prednisone, Azathioprine, and N -Acetylcysteine for Pulmonary Fibrosis"
  },
  "486722997f5930bb": {
   "about_ms": true,
@@ -3594,6 +3644,16 @@
   "summary_model": "claude-sonnet-5-5",
   "title": "Oculis Announces FDA IND Clearance Enabling Acceleration of Privosegtor Development Program in Acute Multiple Sclerosis Relapses"
  },
+ "5dbddc1f0be5ee0d": {
+  "collected_at": "2026-11-27T15:34:32.369931+00:00",
+  "description": "Tiziana Life Sciences (TLSA) files foralumab safety report Mugglehead Investment Magazine",
+  "id": "5dbddc1f0be5ee0d",
+  "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxObFBlWENEMUNObTB0S3R5QkFpRVhyeEphZlJoelFNOHgyLS1VR2R5TjFXcFozeHdXMGhjVTFxRHhZaU5tY3JseGZNVDNBclctNHRvdFdxcWFpVG9wRExqNEdhRHFtODR3VUJybG9jcDVCMk9TTExrN21HcHQxUW90UDFn?oc=5",
+  "published_at": "2026-11-27T14:52:43+00:00",
+  "source": "Mugglehead Investment Magazine",
+  "source_type": "news_search",
+  "title": "Tiziana Life Sciences (TLSA) files foralumab safety report"
+ },
  "5dd9b32d5ccf04f2": {
   "about_ms": true,
   "category": "living_with_ms",
@@ -3818,6 +3878,16 @@
   "summary_model": "claude-sonnet-5-5",
   "title": "Subcutaneous Ocrelizumab Reduces Hospital Costs in Multiple Sclerosis Budget Model"
  },
+ "63affa4d212f4161": {
+  "collected_at": "2026-11-27T15:34:32.369877+00:00",
+  "description": "FDA authorises MS blood test NR Times",
+  "id": "63affa4d212f4161",
+  "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE16QXMxby1KQzZ5WjFpRGxreHhYY3FHMmdGU3E0dUc1UUppM1NlUVJtR044cjAySTJyYkg3M1lsOGF6Y2gzUURMc1RNSndadjBTcno0NGJMQ2RPbnhWR1p1N3psaEI2UDhhMmJZUzNB?oc=5",
+  "published_at": "2026-11-27T09:19:40+00:00",
+  "source": "NR Times",
+  "source_type": "news_search",
+  "title": "FDA authorises MS blood test"
+ },
  "63e42cb1ee438cc8": {
   "about_ms": true,
   "category": "research",
@@ -3865,6 +3935,16 @@
   "summary": "The title says the DEA now confirms marijuana production quotas are coming. No further details were provided in the text, and it does not mention multiple sclerosis or related demyelinating diseases.",
   "summary_model": "claude-sonnet-5-5",
   "title": "The 800-Pound Gorilla in the Room: DEA Now Confirms Marijuana Production Quotas Are Coming"
+ },
+ "647487f46fddc4f5": {
+  "collected_at": "2026-11-27T15:34:32.370431+00:00",
+  "description": "Intranasal foralumab shows strong safety profile in 48.1 patient-years, boosting Tiziana's CNS disease trials. Pluang",
+  "id": "647487f46fddc4f5",
+  "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxORjFnQ3NXTFZqMzVpNGo2WEp1eVBENTlaSWhucVA3eUsxZjFaT2FsRVR4Mkx6WWlhYmUtX2I0aE9WVlJXZDFVeENTXy1TMml4dEwyaG9nQzdBeXVMSFA0aFJkYTZJMGNOVVZSeDRHMVJtYndrai0tUk1RdWpHNlZfaGR6R0swNHF4amNGZmtPLTA4Zw?oc=5",
+  "published_at": "2026-11-27T14:15:35+00:00",
+  "source": "Pluang",
+  "source_type": "news_search",
+  "title": "Intranasal foralumab shows strong safety profile in 48.1 patient-years, boosting Tiziana's CNS disease trials."
  },
  "647ddfd037f27a6e": {
   "about_ms": false,
@@ -4074,6 +4154,16 @@
   "summary_model": "claude-sonnet-5-5",
   "title": "Tiziana Life Sciences to Present at the Jefferies Global Healthcare Conference 2026 in London"
  },
+ "698b5b066ae35108": {
+  "collected_at": "2026-11-27T15:34:32.369966+00:00",
+  "description": "AQP4-IgG-Positive Neuromyelitis Optica Spectrum Disorder in a Patient With Diffuse Large B-cell Lymphoma in Remission: A Case Report and Literature Review Cureus",
+  "id": "698b5b066ae35108",
+  "link": "https://news.google.com/rss/articles/CBMitgJBVV95cUxQTGdhNHhodW96dmVvZFd6OWhQZExUczhIS2ZOQ0NXZGFaUmhYWE9RaEI3S1N5R0hnMEhCR1lpd2FIUFh3Y1kteFVQNFg1bGxyNFprdmNySHNxajFDZEwza3ZZb2FXWUNzQ0tybFNOVHpZa3FualNmbVFycDhaYTk4OWRmNVl1QXdLNnB3cmQ3SU4tTFlEdXZhMmJMOTJzMm1qNFhlREM0a2RxQ2l3YlpzQmt6T3U1anFrYmlqT2psc25LRWtCSThiU3lranZtM1NEcS0tbnBfSEIwU21MYXdhYzZmczJqbGJCTG5mZy1IUkM2MUF6cEs4eUR6NlBhaGVCSGJmdjVjbW1KUGVaYkFVZ2R2RnVueUpwdDFId2FILXVkbWVYMXdYSk5ibHo4UGpxOHFFZXd3?oc=5",
+  "published_at": "2026-11-27T03:47:32+00:00",
+  "source": "Cureus",
+  "source_type": "news_search",
+  "title": "AQP4-IgG-Positive Neuromyelitis Optica Spectrum Disorder in a Patient With Diffuse Large B-cell Lymphoma in Remission: A Case Report and Literature Review"
+ },
  "69cd21d665f59ee5": {
   "about_ms": false,
   "category": "other",
@@ -4273,6 +4363,16 @@
   "summary": "A meta-analysis of four controlled studies (126 people with MS) found resistance training alone was linked to higher blood levels of BDNF, a neuroplasticity marker (SMD 0.49). The authors say the evidence is limited and low-certainty.",
   "summary_model": "claude-sonnet-5-5",
   "title": "Is resistance training effective to increase BDNF in multiple sclerosis? An updated systematic review and meta-analysis of isolated interventions."
+ },
+ "6cfd7fe674a79b11": {
+  "collected_at": "2026-11-27T15:34:32.370380+00:00",
+  "description": "Large Bronchial Cast Removed from Infant with Parainfluenza Virus Pneumonia Bioengineer.org",
+  "id": "6cfd7fe674a79b11",
+  "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNQmYzejBnVVg2b0R5cS1jNDJyV3N5c3pFWXM5dVJlc1R2YjJzcndDLTZaTzFOQUYyQXI2SDFZU2V1dTRVdWlZZHQ0ZzlfOEdFY1RudFZOcm9QNTkxWVRNX3ZpQjl2dTV1MnFjUXlIWUJpQ2lGWnpDSjZ1dWx2OUxuZFZURjE0dlRyQ2gwNVJaV1NzcDZOa05qWUVrVjNzS29ZRUE?oc=5",
+  "published_at": "2026-11-26T14:05:47+00:00",
+  "source": "Bioengineer.org",
+  "source_type": "news_search",
+  "title": "Large Bronchial Cast Removed from Infant with Parainfluenza Virus Pneumonia"
  },
  "6d3d268046574983": {
   "about_ms": false,
@@ -4754,6 +4854,16 @@
   "summary_model": "claude-sonnet-5-5",
   "title": "Rituximab Associated with Elevated Risk of Inflammatory Bowel Disease in Individuals with Multiple..."
  },
+ "7ab2977723891ad4": {
+  "collected_at": "2026-11-27T15:34:32.370399+00:00",
+  "description": "Antibiotic Regimens Trigger Distinct Gut Alterations And Microbial Shifts In Female Mice Bioengineer.org",
+  "id": "7ab2977723891ad4",
+  "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOY3Fzclg1X291MkVoa3Z3Z3NjM0FzcDJoNVlleXkxYk5OdGwwakFZOXVnY2JQMWR4Yml4d0FsRGRDVklDZHA5TFRNNXpEQlhDMDg2WmRFNnhSNXREelBaUTNVVUIxN2Y5Z3R4bHBqRFZaeHE1ejRjNGJ0LTh0SWZYM3J0Z1ZGdFVQRjdJMlBoX2NQZVBXRlFnblBPLUVqVnlua1RCMjlaN0hLeUlsRVZNT3kxdw?oc=5",
+  "published_at": "2026-11-27T07:31:01+00:00",
+  "source": "Bioengineer.org",
+  "source_type": "news_search",
+  "title": "Antibiotic Regimens Trigger Distinct Gut Alterations And Microbial Shifts In Female Mice"
+ },
  "7ac11f526f7da959": {
   "about_ms": true,
   "category": "trial_news",
@@ -5089,6 +5199,16 @@
   "summary": "A MedPage Today report says a study suggests an antioxidant may influence brain changes in multiple sclerosis. The provided text gives no details on the antioxidant, study design, participants or findings, so the strength of the evidence cannot be judged.",
   "summary_model": "claude-sonnet-5-5",
   "title": "Antioxidant May Influence Brain Changes in Multiple Sclerosis, Study Suggests"
+ },
+ "80003e4a90eba713": {
+  "collected_at": "2026-11-27T15:34:32.370355+00:00",
+  "description": "Dear Doctor: A wasp sting sent me to urgent care twice — should I be worried? SILive.com",
+  "id": "80003e4a90eba713",
+  "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPM1FyNEotcVNsbTN2ZWpjZjN6OGVFQ0hWQUF3Y2Z0eWQxcFExMXVTQmkxeDVrUFltZEZ1SUo0Qlhhajh4andpRS1lb3VMUWx0R0FQejFQZjdGOTF1cjN4M0JWQXVhd0p0OThVNEpOUFRBdmpub19MUGZpUV9yWDFkdW4wWUR4dVA4NVFYb2I4S05RSXl1REZveFJqdTN1RXJSMEEtTmtHZ0dKU3Q1QlU3eVdBQjVpbHM?oc=5",
+  "published_at": "2026-11-27T11:00:00+00:00",
+  "source": "SILive.com",
+  "source_type": "news_search",
+  "title": "Dear Doctor: A wasp sting sent me to urgent care twice — should I be worried?"
  },
  "8040bc7b52d55b83": {
   "about_ms": false,
@@ -7098,6 +7218,16 @@
   "summary_model": "claude-sonnet-5-5",
   "title": "Randomized Trial of Acetylcysteine in Idiopathic Pulmonary Fibrosis"
  },
+ "b3cfd319afcd85f4": {
+  "collected_at": "2026-11-27T15:34:32.369832+00:00",
+  "description": "Multiple sclerosis treatment market to reach $33b by 2034 Healthcare Asia Magazine",
+  "id": "b3cfd319afcd85f4",
+  "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQWlJNM3FGUFJxOElCNUZDeHNRZlpBcjlZVkh0RVdYQ1pQQVU5eFhwc1NQOXpOSXN3TG5GZk5OcTdqNWtjeXNmenl2RUNMMnRNelJIeDdUT093MjhjaFlzZ2hFc2p5Rkx1Zi14U0lIRFhNemdHSXZxdjFxQzRyeTUzbTdQN3MyR19ZcTRnTjZJaWZjUFRIbkt3Q2g5dDI1RG42Mm5Z?oc=5",
+  "published_at": "2026-11-26T07:29:19+00:00",
+  "source": "Healthcare Asia Magazine",
+  "source_type": "news_search",
+  "title": "Multiple sclerosis treatment market to reach $33b by 2034"
+ },
  "b4341446a102c2b0": {
   "about_ms": true,
   "category": "living_with_ms",
@@ -8122,6 +8252,16 @@
   "summary_model": "claude-sonnet-5-5",
   "title": "Diabetes drug and antihistamine could together repair multiple sclerosis damage, trial finds"
  },
+ "d27a7b7b32f7b4cb": {
+  "collected_at": "2026-11-27T15:34:32.370440+00:00",
+  "description": "Case Reports Coexisting AQP4-NMOSD and LHON Mutation With Reversible Occipital Lesion Bioengineer.org",
+  "id": "d27a7b7b32f7b4cb",
+  "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQRVBURjN5RmFvX2xuVk11dzRKbVRQblZHQ2NSNkp6RFhGNW8zcEZleWlBZ1BTTUVLZDJCNHJPSTZnenlZamNJM2RVVE05TXpHc19wakpQalJrUFlOQWxicWs0UlVCMnN3Mk95ZWVWeU5iSUdkRmZ1WmxiYW8xUWhkVThVLXFwcU9nMGVjZTBNbl9rdEVFX2p3WnZVdWdrNFVvUjVUb211dHZ0dkRkYXB3?oc=5",
+  "published_at": "2026-11-26T20:03:16+00:00",
+  "source": "Bioengineer.org",
+  "source_type": "news_search",
+  "title": "Case Reports Coexisting AQP4-NMOSD and LHON Mutation With Reversible Occipital Lesion"
+ },
  "d2cc8facda937b7b": {
   "about_ms": true,
   "category": "research",
@@ -8233,6 +8373,16 @@
   "summary": "A case report describes treatment of a person with neuromyelitis optica spectrum disorder (NMOSD) in Ethiopia, a resource-limited setting. The source text gives only the title, so no details on the treatment used or the outcome are available.",
   "summary_model": "claude-sonnet-5-5",
   "title": "A Case Report of Neuromyelitis Optica Spectrum Disorder (NMOSD) Treatment in Resource-Limited Setup: An Ethiopian Experience"
+ },
+ "d52c63d0fa1161ef": {
+  "collected_at": "2026-11-27T15:34:32.370423+00:00",
+  "description": "Tiziana Life Sciences Reports Favorable Safety and Tolerability of Intranasal Foralumab After 48.1 Patient-Years of Exposure Quiver Quantitative",
+  "id": "d52c63d0fa1161ef",
+  "link": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxNeUZ0Y0ZyZFk2OUpXcFdaamp1V2k2cXZYeDNBZDJHQTNiQTUwbG9nLUM1WGdtemJyUjRRQ2NieGJLNGRhclJYeXJBRGpCOW5YYTh2U0xOMkJTVW82MkhUZjZLSXBXb2E4VV91RTZNMVZ6YXRicXBGX0tVUXR0dElsOVlSTzVHdjJnY1lKNzZBU0tJQVFrTHFNR1RqaGdkbXF0SFd1alZ2TFZtU2pRY3JfaXZVM25YSjBWcExJVVhvaW1EOEE2U2JxOVozUWJ3b0c3QjZDWGVtM2NNTHlUREQ4cnMzd3pIZHhfb1dMam9B?oc=5",
+  "published_at": "2026-11-27T14:11:00+00:00",
+  "source": "Quiver Quantitative",
+  "source_type": "news_search",
+  "title": "Tiziana Life Sciences Reports Favorable Safety and Tolerability of Intranasal Foralumab After 48.1 Patient-Years of Exposure"
  },
  "d5bf39a5324353ec": {
   "about_ms": true,
@@ -9002,6 +9152,16 @@
   "summary_model": "claude-sonnet-5-5",
   "title": "Amoxicillin-clavulanic acid-induced type II Kounis syndrome during general anaesthesia complicated with hypoxic-ischaemic encephalopathy"
  },
+ "e6e221dc81d59c98": {
+  "collected_at": "2026-11-27T15:34:32.370413+00:00",
+  "description": "Tiziana Life Sciences reports clean safety record for nasal foralumab across four CNS indications Proactive financial news",
+  "id": "e6e221dc81d59c98",
+  "link": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxONjRBbGZCaElCU2ppbE5GSVVydmpObmxPN0x4NXRiV28wYUpvcjc0emRURXdYa29GV2ppeTlLT0l3ZXdHMk0wX3hIWUFfTXFvZWN5RnIxSi1Ud1R4dE5ON3hVUHRXZlcwYmNFcXZkeFhvd3Mza2xDUVdKS0ozUTB2STZrYmdLT2x0aFIxWnpkS1lxV2dILXBNWHpIcUp4OUJTRXppTk1zSDktVDlpMHpGdjhKVFR5ZjUxVWY3TDJNd3V3T1M2OUZZYnBpYU1EcUhTMW5fLUJOa3o3ZDcyOEFQOUdGYllhay13NU9Td3dhTE9mSXYzZkY5VTRBRDY?oc=5",
+  "published_at": "2026-11-27T14:10:00+00:00",
+  "source": "Proactive financial news",
+  "source_type": "news_search",
+  "title": "Tiziana Life Sciences reports clean safety record for nasal foralumab across four CNS indications"
+ },
  "e6fffb557cfb91b7": {
   "about_ms": true,
   "category": "research",
@@ -9562,6 +9722,16 @@
   "summary_model": "claude-sonnet-5-5",
   "title": "Predicting follow-up cognition using estimated structural and functional connectivity networks and artificial intelligence in multiple sclerosis"
  },
+ "f46f3fdb80c714b7": {
+  "collected_at": "2026-11-27T15:34:32.370202+00:00",
+  "description": "Tolebrutinib shows promise for treating non-relapsing secondary progressive multiple sclerosis News-Medical",
+  "id": "f46f3fdb80c714b7",
+  "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNZzZES050aUEtdVUyVGVTZmE0eFc5WHFHVThEODdpYm4zMnB1T3ZXc19HZktnVmhtLWQwTGVvUHR5X0l0SWhsM05rNE1DX2R6UEVZdnVRTVJRd01wc2tiX1BJTnJlMmFsS2tkM3hRRXZjNDVfUi1ISTR2OEs3djlNclpwWXB4dHpMaEF2QWhJbEwwOVh3OUdBbXgxT0ZqdkMxWXAtRXA3Ri1CYU9vR0ZnelRsNjhIVFI5aVJtYWJyWU03dF9pc0dIUVUtYjhhQU1uR3lpa0psODd2Zw?oc=5",
+  "published_at": "2025-04-08T07:00:00+00:00",
+  "source": "News-Medical",
+  "source_type": "news_search",
+  "title": "Tolebrutinib shows promise for treating non-relapsing secondary progressive multiple sclerosis"
+ },
  "f4ec8ff41a2cbd69": {
   "about_ms": false,
   "category": "other",
@@ -9577,6 +9747,16 @@
   "summary": null,
   "summary_model": "claude-sonnet-5-5",
   "title": "Thank You for 10k Subscribers"
+ },
+ "f4ee178adf331908": {
+  "collected_at": "2026-11-27T15:34:32.370061+00:00",
+  "description": "Cladribine tablets as therapy for advanced relapsing-remitting multiple sclerosis: a 4-year follow-up real-world, multi-center, retrospective, cohort study Frontiers",
+  "id": "f4ee178adf331908",
+  "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPUmM4M2xqeUd2MVZzSk16cmIycHEwMkdhbnhzRTlsU3ZROVlaUGNEOERPNkFsRnAtbURhd3ZPNVRyN1EwUWFCU0RJUlFwc1FfVWxZMzA5TEFyLVl4Zkw3SDRZSXk4Z29TYVB1eElITTI2ZDhJWUlPMVVjc3RVdU41b2NnUWFHRHZjdXhlb01wWDM?oc=5",
+  "published_at": "2025-07-02T07:00:00+00:00",
+  "source": "Frontiers",
+  "source_type": "news_search",
+  "title": "Cladribine tablets as therapy for advanced relapsing-remitting multiple sclerosis: a 4-year follow-up real-world, multi-center, retrospective, cohort study"
  },
  "f51121f2646ffc48": {
   "about_ms": true,
@@ -9857,6 +10037,16 @@
   "summary": "NeurologyLive reports that the FDA has delayed its decision on ofatumumab for multiple sclerosis. The provided text gives no further details, such as the reason for the delay or a new decision date.",
   "summary_model": "claude-sonnet-5-5",
   "title": "FDA Delays Ofatumumab Decision in Multiple Sclerosis"
+ },
+ "f7350ba61e1d4d12": {
+  "collected_at": "2026-11-27T15:34:32.370384+00:00",
+  "description": "Nick Cannon, Lupus Warrior Lupus Foundation of America",
+  "id": "f7350ba61e1d4d12",
+  "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE1seE9rUkxoYUx3UzVyRVBYeGYwYXlGOW8tN0QtRjlBMlVFd1BvYjVMV21EeDBjblBNTjdMZ3o5MlVockNyV0dmYWlGbkgweDA2TEhJWlVTUmFjd3JaWWx6cXl4VTlVV0tpUnFFZnBsMkRlZw?oc=5",
+  "published_at": "2018-12-27T07:23:44+00:00",
+  "source": "Lupus Foundation of America",
+  "source_type": "news_search",
+  "title": "Nick Cannon, Lupus Warrior"
  },
  "f8a3d18ecc5fae4d": {
   "about_ms": false,
